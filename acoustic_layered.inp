@@ -1,0 +1,182 @@
+*HEADING
+** Acoustic Transmission Loss Simulation - Layered Stratified Medium
+** Units: SI (m-kg-s-Pa)
+** Frequency range: 100-5000 Hz
+** Three-layer stratified water medium
+** =================================================================
+**
+** PART DEFINITION
+** =================================================================
+*NODE
+** Nodes for 2D rectangular domain (10m x 2m)
+** Refined mesh with ~240 elements in x-direction, 48 in y-direction
+** Node numbering: 1 to 11809 (241 x 49 grid)
+    1,  0.000000,  0.000000
+    2,  0.041667,  0.000000
+    3,  0.083333,  0.000000
+    4,  0.125000,  0.000000
+    5,  0.166667,  0.000000
+** ... (abbreviated for brevity - full mesh would have 11809 nodes)
+** Last nodes
+11808,  9.958333,  2.000000
+11809, 10.000000,  2.000000
+**
+*ELEMENT, TYPE=AC2D4
+** 4-node acoustic elements for 2D analysis
+** Total elements: 11520 (240 x 48)
+    1,     1,     2,    51,    50
+    2,     2,     3,    52,    51
+    3,     3,     4,    53,    52
+** ... (abbreviated - full mesh would have 11520 elements)
+11520, 11759, 11760, 11809, 11808
+**
+** ELEMENT SETS FOR LAYERS
+** Layer 1: x = 0 to 3.333m (elements 1-3840)
+*ELSET, ELSET=LAYER1
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+** ... continue to element 3840
+*ELSET, ELSET=LAYER1, GENERATE
+1, 3840, 1
+**
+** Layer 2: x = 3.333 to 6.667m (elements 3841-7680)
+*ELSET, ELSET=LAYER2, GENERATE
+3841, 7680, 1
+**
+** Layer 3: x = 6.667 to 10.0m (elements 7681-11520)
+*ELSET, ELSET=LAYER3, GENERATE
+7681, 11520, 1
+**
+** NODE SETS FOR BOUNDARY CONDITIONS
+** Inlet surface (x=0)
+*NSET, NSET=INLET
+1, 50, 99, 148, 197, 246, 295, 344, 393, 442, 491, 540, 589, 638, 687, 736
+** ... continue for all nodes at x=0
+*NSET, NSET=INLET, GENERATE
+1, 2401, 50
+**
+** Outlet surface (x=10)
+*NSET, NSET=OUTLET, GENERATE
+11809, 9409, -50
+**
+** Top surface (y=2)
+*NSET, NSET=TOP, GENERATE
+2401, 11809, 1
+**
+** Bottom surface (y=0)
+*NSET, NSET=BOTTOM, GENERATE
+1, 241, 1
+**
+** PROBE PLANES FOR TL CALCULATION
+** Probe plane 1 at x=2.0m (node columns 49)
+*NSET, NSET=PROBE_IN
+49, 99, 149, 199, 249, 299, 349, 399, 449, 499, 549, 599, 649, 699, 749, 799
+*NSET, NSET=PROBE_IN, GENERATE
+49, 2449, 50
+**
+** Probe plane 2 at x=8.0m (node columns 193)
+*NSET, NSET=PROBE_OUT, GENERATE
+193, 9793, 50
+**
+** =================================================================
+** MATERIAL DEFINITIONS
+** =================================================================
+**
+** Material 1: Warm water layer (top)
+*MATERIAL, NAME=WATER_WARM
+*DENSITY
+1020.0,
+*ACOUSTIC MEDIUM
+** Bulk modulus K = rho * c^2
+** c = 1490 m/s for warm water
+2.264E+09,
+**
+** Material 2: Transition water layer (middle)
+*MATERIAL, NAME=WATER_TRANSITION
+*DENSITY
+1025.0,
+*ACOUSTIC MEDIUM
+** c = 1500 m/s for standard water
+2.306E+09,
+**
+** Material 3: Cold water layer (bottom)
+*MATERIAL, NAME=WATER_COLD
+*DENSITY
+1030.0,
+*ACOUSTIC MEDIUM
+** c = 1510 m/s for cold water  
+2.348E+09,
+**
+** =================================================================
+** SECTION ASSIGNMENTS
+** =================================================================
+*SOLID SECTION, ELSET=LAYER1, MATERIAL=WATER_WARM
+*SOLID SECTION, ELSET=LAYER2, MATERIAL=WATER_TRANSITION
+*SOLID SECTION, ELSET=LAYER3, MATERIAL=WATER_COLD
+**
+** =================================================================
+** ASSEMBLY
+** =================================================================
+*END PART
+**
+*ASSEMBLY, NAME=ASSEMBLY
+*INSTANCE, NAME=FLUID-1, PART=PART-1
+*END INSTANCE
+*END ASSEMBLY
+**
+** =================================================================
+** STEP: FREQUENCY SWEEP
+** =================================================================
+*STEP, NAME=FrequencySweep, NLGEOM=NO, PERTURBATION
+*STEADY STATE DYNAMICS, DIRECT
+** Start freq, End freq, Number of points, Bias
+100., 5000., 50, 1
+**
+** =================================================================
+** LOADS: INCIDENT PLANE WAVE
+** =================================================================
+** Define incident wave fluid properties
+*INCIDENT WAVE PROPERTY, NAME=PLANEWAVE_PROP, DEFINITION=PLANAR
+1020.0, 1490.0
+** Reference density and sound speed for incident field
+**
+** Apply incident wave interaction at inlet
+*INCIDENT WAVE INTERACTION, PROPERTY=PLANEWAVE_PROP, REFERENCE MAGNITUDE=1.0
+INLET, 1.0, 0.0, 0.0
+** Surface, direction cosines (1,0,0 = +x direction)
+**
+** =================================================================
+** BOUNDARY CONDITIONS: NON-REFLECTING
+** =================================================================
+** Radiating impedance boundary at outlet
+*IMPEDANCE, TYPE=NONREFLECTING
+OUTLET, 1520700.0
+** Z = rho*c for water
+**
+** Rigid wall boundary conditions (optional - comment out for free boundaries)
+** *BOUNDARY
+** TOP, ACPR, 0.0
+** BOTTOM, ACPR, 0.0
+**
+** =================================================================
+** OUTPUT REQUESTS
+** =================================================================
+*OUTPUT, FIELD, FREQUENCY=1
+*NODE OUTPUT
+P, POR
+** P = Complex pressure, POR = Pressure gradient (pore pressure for coupled problems)
+*ELEMENT OUTPUT
+ACPRESSURE, ACOUSTICINTENSITY
+**
+*OUTPUT, HISTORY, FREQUENCY=1
+*NODE OUTPUT, NSET=PROBE_IN
+P
+*NODE OUTPUT, NSET=PROBE_OUT
+P
+**
+** Additional monitoring points
+*NODE OUTPUT, NSET=INLET
+P
+*NODE OUTPUT, NSET=OUTLET
+P
+**
+*END STEP

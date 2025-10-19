@@ -1,0 +1,218 @@
+*HEADING
+** Acoustic Transmission Loss Simulation - Continuously Graded Medium
+** Units: SI (m-kg-s-Pa)
+** Frequency range: 100-5000 Hz
+** Continuous density and sound speed gradients
+** =================================================================
+**
+** PART DEFINITION
+** =================================================================
+*NODE
+** Nodes for 2D rectangular domain (10m x 2m)
+** Refined mesh for gradient resolution
+    1,  0.000000,  0.000000
+    2,  0.041667,  0.000000
+    3,  0.083333,  0.000000
+    4,  0.125000,  0.000000
+    5,  0.166667,  0.000000
+** ... (abbreviated - same mesh as layered case)
+11808,  9.958333,  2.000000
+11809, 10.000000,  2.000000
+**
+*ELEMENT, TYPE=AC2D4
+** 4-node acoustic elements
+    1,     1,     2,    51,    50
+    2,     2,     3,    52,    51
+    3,     3,     4,    53,    52
+** ... (abbreviated)
+11520, 11759, 11760, 11809, 11808
+**
+** ELEMENT SET FOR ENTIRE FLUID DOMAIN
+*ELSET, ELSET=FLUID_DOMAIN, GENERATE
+1, 11520, 1
+**
+** NODE SETS FOR BOUNDARY CONDITIONS
+*NSET, NSET=INLET, GENERATE
+1, 2401, 50
+**
+*NSET, NSET=OUTLET, GENERATE
+11809, 9409, -50
+**
+*NSET, NSET=TOP, GENERATE
+2401, 11809, 1
+**
+*NSET, NSET=BOTTOM, GENERATE
+1, 241, 1
+**
+** PROBE PLANES
+*NSET, NSET=PROBE_IN, GENERATE
+49, 2449, 50
+**
+*NSET, NSET=PROBE_OUT, GENERATE
+193, 9793, 50
+**
+** =================================================================
+** MATERIAL DEFINITION WITH FIELD VARIABLE DEPENDENCY
+** =================================================================
+*MATERIAL, NAME=WATER_GRADED
+** Density varies with field variable FV1
+** FV1 represents normalized x-coordinate (0 to 1)
+** rho(x) = 1020 + 15*(x/L) kg/m³
+*DENSITY, DEPENDENCIES=1
+** rho, FV1
+1020.00, 0.000
+1020.75, 0.050
+1021.50, 0.100
+1022.25, 0.150
+1023.00, 0.200
+1023.75, 0.250
+1024.50, 0.300
+1025.25, 0.350
+1026.00, 0.400
+1026.75, 0.450
+1027.50, 0.500
+1028.25, 0.550
+1029.00, 0.600
+1029.75, 0.650
+1030.50, 0.700
+1031.25, 0.750
+1032.00, 0.800
+1032.75, 0.850
+1033.50, 0.900
+1034.25, 0.950
+1035.00, 1.000
+**
+** Bulk modulus varies with field variable FV1
+** K(x) = rho(x) * c(x)²
+** c(x) = 1485 + 30*(x/L) m/s
+*ACOUSTIC MEDIUM, DEPENDENCIES=1
+** K, FV1
+2.251E+09, 0.000
+2.260E+09, 0.050
+2.269E+09, 0.100
+2.279E+09, 0.150
+2.288E+09, 0.200
+2.298E+09, 0.250
+2.307E+09, 0.300
+2.317E+09, 0.350
+2.327E+09, 0.400
+2.337E+09, 0.450
+2.347E+09, 0.500
+2.357E+09, 0.550
+2.367E+09, 0.600
+2.377E+09, 0.650
+2.388E+09, 0.700
+2.398E+09, 0.750
+2.409E+09, 0.800
+2.419E+09, 0.850
+2.430E+09, 0.900
+2.441E+09, 0.950
+2.452E+09, 1.000
+**
+** =================================================================
+** SECTION ASSIGNMENT
+** =================================================================
+*SOLID SECTION, ELSET=FLUID_DOMAIN, MATERIAL=WATER_GRADED
+**
+** =================================================================
+** FIELD VARIABLE DEFINITION
+** =================================================================
+** Define initial field variable distribution
+** FV1 = X/L where L=10m is domain length
+*INITIAL CONDITIONS, TYPE=FIELD
+** For each node, specify FV1 value based on x-coordinate
+** This creates a linear gradient from 0 to 1
+FLUID_DOMAIN, 1, 0.0, 0.0
+** Note: In practice, this would be defined for each node or using
+** an analytical field in Abaqus/CAE
+**
+** Alternative: Define using FIELD keyword in step
+** =================================================================
+** ASSEMBLY
+** =================================================================
+*END PART
+**
+*ASSEMBLY, NAME=ASSEMBLY
+*INSTANCE, NAME=FLUID-1, PART=PART-1
+*END INSTANCE
+**
+** NODE SETS IN ASSEMBLY
+*NSET, NSET=ALL_NODES, INSTANCE=FLUID-1
+1,
+*END ASSEMBLY
+**
+** =================================================================
+** ANALYTICAL FIELD DEFINITION (Alternative to Initial Conditions)
+** =================================================================
+** Define field that varies linearly with x-coordinate
+*AMPLITUDE, NAME=XFIELD, DEFINITION=EQUALLY SPACED, FIXED INTERVAL=0.041667
+0.000, 0.042, 0.083, 0.125, 0.167, 0.208, 0.250, 0.292
+0.333, 0.375, 0.417, 0.458, 0.500, 0.542, 0.583, 0.625
+0.667, 0.708, 0.750, 0.792, 0.833, 0.875, 0.917, 0.958, 1.000
+**
+** =================================================================
+** STEP: FREQUENCY SWEEP WITH FIELD UPDATE
+** =================================================================
+*STEP, NAME=FrequencySweep, NLGEOM=NO, PERTURBATION
+** Update field variable based on spatial coordinate
+*FIELD, VARIABLE=1
+ALL_NODES, 0.0, 1.0
+** Nodes, min value, max value (interpolated based on position)
+**
+*STEADY STATE DYNAMICS, DIRECT
+** Start freq, End freq, Increment, Scale (1=linear, 2=log)
+100., 5000., 25., 1
+**
+** =================================================================
+** LOADS: INCIDENT PLANE WAVE
+** =================================================================
+*INCIDENT WAVE PROPERTY, NAME=PLANEWAVE_GRADED, DEFINITION=PLANAR
+** Use properties at inlet (x=0) for incident wave
+1020.0, 1485.0
+**
+*INCIDENT WAVE INTERACTION, PROPERTY=PLANEWAVE_GRADED, REFERENCE MAGNITUDE=1.0
+ASSEMBLY.FLUID-1.INLET, 1.0, 0.0, 0.0
+** Surface, direction cosines
+**
+** =================================================================
+** BOUNDARY CONDITIONS
+** =================================================================
+** Non-reflecting boundary at outlet
+** Use average impedance
+*IMPEDANCE, TYPE=NONREFLECTING
+ASSEMBLY.FLUID-1.OUTLET, 1547175.0
+** Z = rho_avg * c_avg
+**
+** Alternative: Tabular impedance varying with frequency
+** *IMPEDANCE, TYPE=TABULAR
+** ASSEMBLY.FLUID-1.OUTLET
+** 1.52E+06, 100.
+** 1.53E+06, 500.
+** 1.54E+06, 1000.
+** 1.55E+06, 5000.
+**
+** =================================================================
+** OUTPUT REQUESTS
+** =================================================================
+*OUTPUT, FIELD, FREQUENCY=1
+*NODE OUTPUT
+P, POR
+*ELEMENT OUTPUT
+ACPRESSURE, ACOUSTICINTENSITY, FV
+** Include field variable in output
+**
+*OUTPUT, HISTORY, FREQUENCY=1
+*NODE OUTPUT, NSET=ASSEMBLY.FLUID-1.PROBE_IN
+P
+*NODE OUTPUT, NSET=ASSEMBLY.FLUID-1.PROBE_OUT
+P
+**
+** Monitor field variable distribution
+*NODE OUTPUT, NSET=ASSEMBLY.FLUID-1.INLET
+P, FV1
+*NODE OUTPUT, NSET=ASSEMBLY.FLUID-1.OUTLET
+P, FV1
+**
+*RESTART, WRITE, FREQUENCY=10
+**
+*END STEP
