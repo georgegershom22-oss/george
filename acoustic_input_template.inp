@@ -1,0 +1,246 @@
+*HEADING
+** ============================================================================
+** Abaqus Input File: Acoustic Transmission Loss in Stratified Medium
+** ============================================================================
+** Description:
+**   2D/3D linear acoustic analysis using Steady-State Dynamics (Direct)
+**   for computing transmission loss in a layered or graded fluid medium.
+**
+** Units: SI (m, kg, s, Pa)
+** Element types: AC2D4 (2D), AC3D8 (3D)
+** Analysis: Harmonic frequency sweep
+** ============================================================================
+*PREPRINT, MODEL=YES, HISTORY=YES, ECHO=YES
+**
+** ============================================================================
+** PART: Acoustic Domain
+** ============================================================================
+**
+** NODES
+*NODE
+1,     0.0,    0.0,   0.0
+2,   100.0,    0.0,   0.0
+3,   100.0,   50.0,   0.0
+4,     0.0,   50.0,   0.0
+** (Complete node definitions from mesh would go here)
+**
+** ELEMENTS
+*ELEMENT, TYPE=AC2D4, ELSET=ALL_ELEMENTS
+1, 1, 2, 3, 4
+** (Complete element definitions from mesh would go here)
+**
+** Element sets for layers (if layered)
+*ELSET, ELSET=LAYER_1
+1
+** (Elements in layer 1)
+*ELSET, ELSET=LAYER_2
+2
+** (Elements in layer 2)
+*ELSET, ELSET=LAYER_3
+3
+** (Elements in layer 3)
+**
+** ============================================================================
+** NODE SETS AND SURFACES
+** ============================================================================
+**
+** Inlet surface (x=0)
+*NSET, NSET=INLET_NODES
+1, 4
+*SURFACE, NAME=SURF_INLET, TYPE=ELEMENT
+** (Element face definitions for inlet)
+**
+** Outlet surface (x=length)
+*NSET, NSET=OUTLET_NODES
+2, 3
+*SURFACE, NAME=SURF_OUTLET, TYPE=ELEMENT
+** (Element face definitions for outlet)
+**
+** Top surface (z=height)
+*NSET, NSET=TOP_NODES
+3, 4
+*SURFACE, NAME=SURF_TOP, TYPE=ELEMENT
+** (Element face definitions for top)
+**
+** Bottom surface (z=0)
+*NSET, NSET=BOTTOM_NODES
+1, 2
+*SURFACE, NAME=SURF_BOTTOM, TYPE=ELEMENT
+** (Element face definitions for bottom)
+**
+** Probe locations (vertical lines at specified x-coordinates)
+*NSET, NSET=PROBE_IN
+** (Nodes at x=20.0)
+*NSET, NSET=PROBE_OUT
+** (Nodes at x=80.0)
+**
+** ============================================================================
+** MATERIALS: LAYERED CONFIGURATION
+** ============================================================================
+**
+** Layer 1: Bottom (denser water)
+*MATERIAL, NAME=WATER_LAYER1
+*DENSITY
+1025.0,
+*ACOUSTIC MEDIUM, BULK MODULUS
+2.306E9,
+**
+** Layer 2: Middle
+*MATERIAL, NAME=WATER_LAYER2
+*DENSITY
+1015.0,
+*ACOUSTIC MEDIUM, BULK MODULUS
+2.280E9,
+**
+** Layer 3: Top (lighter water)
+*MATERIAL, NAME=WATER_LAYER3
+*DENSITY
+1000.0,
+*ACOUSTIC MEDIUM, BULK MODULUS
+2.250E9,
+**
+** ============================================================================
+** MATERIALS: GRADED CONFIGURATION (Field-variable dependent)
+** ============================================================================
+**
+** Uncomment for graded medium with field variable F1
+** *MATERIAL, NAME=WATER_GRADED
+** *DENSITY, DEPENDENCIES=1
+** ** rho(F1) table: (density, field_variable_F1)
+** 1025.0,  0.0
+** 1020.0, 10.0
+** 1015.0, 20.0
+** 1010.0, 30.0
+** 1005.0, 40.0
+** 1000.0, 50.0
+** *ACOUSTIC MEDIUM, BULK MODULUS, DEPENDENCIES=1
+** ** K(F1) table: (bulk_modulus, field_variable_F1)
+** 2.306E9,  0.0
+** 2.290E9, 10.0
+** 2.280E9, 20.0
+** 2.270E9, 30.0
+** 2.260E9, 40.0
+** 2.250E9, 50.0
+**
+** ============================================================================
+** SECTIONS
+** ============================================================================
+**
+** Layered sections
+*SOLID SECTION, ELSET=LAYER_1, MATERIAL=WATER_LAYER1
+*SOLID SECTION, ELSET=LAYER_2, MATERIAL=WATER_LAYER2
+*SOLID SECTION, ELSET=LAYER_3, MATERIAL=WATER_LAYER3
+**
+** For graded medium, use single section:
+** *SOLID SECTION, ELSET=ALL_ELEMENTS, MATERIAL=WATER_GRADED
+**
+** ============================================================================
+** INITIAL CONDITIONS (for graded medium with field variables)
+** ============================================================================
+**
+** Uncomment for graded medium
+** Define field variable F1 = z-coordinate
+** *INITIAL CONDITIONS, TYPE=FIELD, VARIABLE=1
+** ** node_number, field_value (z-coordinate)
+** 1, 0.0
+** 4, 50.0
+** ** (All nodes with their z-coordinates)
+**
+** ============================================================================
+** STEP: Steady-State Dynamics, Direct (Frequency Sweep)
+** ============================================================================
+**
+*STEP, NAME=SSD_SWEEP, NLGEOM=NO, INC=1000
+*STEADY STATE DYNAMICS, DIRECT
+** Frequency range: start, end, number_of_points
+** For 100-5000 Hz with 25 Hz increment: (5000-100)/25 + 1 = 197 points
+100.0, 5000.0, 197
+**
+** ============================================================================
+** INTERACTIONS: Incident Wave (Plane Wave Excitation)
+** ============================================================================
+**
+** Define incident wave fluid property
+*INCIDENT WAVE INTERACTION PROPERTY, NAME=PLANEWAVE_PROP
+*INCIDENT WAVE FLUID PROPERTY
+** acoustic_density, acoustic_speed
+1025.0, 1500.0
+**
+** Apply incident wave to inlet surface
+*INCIDENT WAVE INTERACTION, NAME=INCIDENT_INLET, PROPERTY=PLANEWAVE_PROP
+** surface_name, direction_x, direction_y, direction_z, amplitude, standoff
+SURF_INLET, 1.0, 0.0, 0.0, 1.0, 0.0
+**
+** ============================================================================
+** BOUNDARY CONDITIONS: Non-Reflecting (Impedance) Boundaries
+** ============================================================================
+**
+** Outlet - non-reflecting boundary
+*IMPEDANCE, TYPE=NONREFLECTING
+SURF_OUTLET,
+**
+** Top - non-reflecting boundary
+*IMPEDANCE, TYPE=NONREFLECTING
+SURF_TOP,
+**
+** Bottom - non-reflecting boundary
+*IMPEDANCE, TYPE=NONREFLECTING
+SURF_BOTTOM,
+**
+** ============================================================================
+** OUTPUT REQUESTS
+** ============================================================================
+**
+** Field output: pressure and energy
+*OUTPUT, FIELD, FREQUENCY=1
+*NODE OUTPUT
+POR
+*ELEMENT OUTPUT
+PENER
+**
+** History output: pressure at probe locations
+*OUTPUT, HISTORY, FREQUENCY=1
+*NODE OUTPUT, NSET=PROBE_IN
+POR
+*NODE OUTPUT, NSET=PROBE_OUT
+POR
+**
+** End of step
+*END STEP
+**
+** ============================================================================
+** NOTES:
+** ============================================================================
+**
+** 1. Acoustic Medium Properties:
+**    - Defined by DENSITY (rho) and BULK MODULUS (K)
+**    - Sound speed: c = sqrt(K/rho)
+**    - Both properties can depend on field variables via DEPENDENCIES keyword
+**
+** 2. Incident Wave:
+**    - Preferred method for plane-wave excitation in acoustics
+**    - Automatically enforces proper velocity-pressure relation
+**    - Avoids artificial reflections at inlet
+**
+** 3. Non-Reflecting Boundaries:
+**    - TYPE=NONREFLECTING implements Sommerfeld radiation condition
+**    - Essential for truncating infinite/semi-infinite domains
+**    - Minimizes spurious reflections at artificial boundaries
+**
+** 4. Steady-State Dynamics, Direct:
+**    - Solves complex-valued harmonic problem: (K - omega^2*M)*u = F
+**    - Returns complex pressure amplitude and phase at each frequency
+**    - Linear analysis (no geometric or material nonlinearity)
+**
+** 5. Mesh Requirements:
+**    - Target ~10-12 elements per wavelength at highest frequency
+**    - For f_max=5000 Hz, c_min~1500 m/s: lambda_min~0.3 m
+**    - Element size: ~0.025-0.03 m
+**
+** 6. Post-Processing:
+**    - Extract POR (complex pressure) at PROBE_IN and PROBE_OUT
+**    - Compute spatial average of |POR| over each probe
+**    - TL(f) = 20*log10(|p_in|/|p_out|)  [dB]
+**    - alpha(f) = ln(10)/20 * TL(f) / delta_x  [Np/m]
+**
+** ============================================================================
