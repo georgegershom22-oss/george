@@ -1,0 +1,15 @@
+# Python Requirements for Acoustic TL Analysis Post-Processing
+# Note: Abaqus Python has its own environment - these are for external processing
+
+numpy>=1.18.0
+scipy>=1.4.0
+matplotlib>=3.2.0
+pandas>=1.0.0
+
+# Optional for advanced visualization
+seaborn>=0.10.0
+plotly>=4.5.0
+
+# Optional for animations
+imageio>=2.8.0
+imageio-ffmpeg>=0.4.0
