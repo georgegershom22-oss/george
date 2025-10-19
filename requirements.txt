@@ -1,0 +1,13 @@
+# Python Requirements for Abaqus Acoustic Transmission Loss Visualization
+# Install with: pip install -r requirements.txt
+
+numpy>=1.19.0
+matplotlib>=3.3.0
+scipy>=1.5.0
+
+# Optional: For better data handling
+pandas>=1.1.0
+
+# Note: Abaqus Python (odbAccess) is part of Abaqus installation
+# and uses its own Python interpreter. The above packages are for
+# standalone visualization scripts that run with system Python.
