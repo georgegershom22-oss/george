@@ -1,0 +1,190 @@
+*HEADING
+** Abaqus Acoustic Transmission Loss Simulation - Layered Stratification
+** 2D Waveguide with Multiple Layers
+** Frequency Range: 100-5000 Hz
+** Units: SI (m-kg-s-Pa)
+**
+*PREPRINT, ECHO=NO, MODEL=NO, HISTORY=NO, CONTACT=NO
+**
+** PARTS
+**
+*Part, name=WAVEGUIDE
+*Node
+      1,           0.,           0.
+      2,          10.,           0.
+      3,          10.,          50.
+      4,           0.,          50.
+      5,          10.,         100.
+      6,           0.,         100.
+      7,          10.,         150.
+      8,           0.,         150.
+      9,          10.,         200.
+     10,           0.,         200.
+     11,           5.,           0.
+     12,           5.,          50.
+     13,           5.,         100.
+     14,           5.,         150.
+     15,           5.,         200.
+     16,           2.5,          25.
+     17,           7.5,          25.
+     18,           2.5,          75.
+     19,           7.5,          75.
+     20,           2.5,         125.
+     21,           7.5,         125.
+     22,           2.5,         175.
+     23,           7.5,         175.
+     24,           0.,          25.
+     25,          10.,          25.
+     26,           0.,          75.
+     27,          10.,          75.
+     28,           0.,         125.
+     29,          10.,         125.
+     30,           0.,         175.
+     31,          10.,         175.
+**
+** Generate mesh nodes automatically (simplified for demonstration)
+** In practice, use finer mesh with ~10-12 elements per wavelength
+**
+*Element, type=AC2D4
+    1,     1,    11,    16,    24
+    2,    11,     2,    25,    17
+    3,    24,    16,    12,     4
+    4,    17,    25,     3,    12
+    5,     4,    12,    18,    26
+    6,    12,     3,    27,    19
+    7,    26,    18,    13,     6
+    8,    19,    27,     5,    13
+    9,     6,    13,    20,    28
+   10,    13,     5,    29,    21
+   11,    28,    20,    14,     8
+   12,    21,    29,     7,    14
+   13,     8,    14,    22,    30
+   14,    14,     7,    31,    23
+   15,    30,    22,    15,    10
+   16,    23,    31,     9,    15
+**
+** ELEMENT SETS FOR DIFFERENT LAYERS
+*Elset, elset=LAYER1
+ 1, 2, 3, 4
+*Elset, elset=LAYER2
+ 5, 6, 7, 8
+*Elset, elset=LAYER3
+ 9, 10, 11, 12
+*Elset, elset=LAYER4
+ 13, 14, 15, 16
+**
+** NODE SETS FOR BOUNDARIES AND PROBES
+*Nset, nset=INLET
+ 1, 11, 2
+*Nset, nset=OUTLET
+ 10, 15, 9
+*Nset, nset=LEFT_WALL
+ 1, 24, 4, 26, 6, 28, 8, 30, 10
+*Nset, nset=RIGHT_WALL
+ 2, 25, 3, 27, 5, 29, 7, 31, 9
+*Nset, nset=PROBE_IN
+ 24, 16, 17, 25
+*Nset, nset=PROBE_OUT
+ 30, 22, 23, 31
+**
+** SURFACES FOR BOUNDARY CONDITIONS
+*Surface, type=ELEMENT, name=SURF_INLET
+LAYER1, S3
+*Surface, type=ELEMENT, name=SURF_OUTLET
+LAYER4, S1
+*Surface, type=ELEMENT, name=SURF_LEFT
+LAYER1, S4
+LAYER2, S4
+LAYER3, S4
+LAYER4, S4
+*Surface, type=ELEMENT, name=SURF_RIGHT
+LAYER1, S2
+LAYER2, S2
+LAYER3, S2
+LAYER4, S2
+*End Part
+**
+**
+** ASSEMBLY
+**
+*Assembly, name=Assembly
+**
+*Instance, name=WAVEGUIDE-1, part=WAVEGUIDE
+*End Instance
+**
+*End Assembly
+**
+** MATERIALS
+**
+** Layer 1: Surface water (lower density, higher compressibility)
+*Material, name=WATER_SURFACE
+*Density
+1000.,
+*Bulk Modulus
+2.2e9,
+**
+** Layer 2: Thermocline transition
+*Material, name=WATER_THERMO
+*Density
+1015.,
+*Bulk Modulus
+2.25e9,
+**
+** Layer 3: Deep water (higher density, lower compressibility)
+*Material, name=WATER_DEEP
+*Density
+1025.,
+*Bulk Modulus
+2.3e9,
+**
+** Layer 4: Bottom water (highest density)
+*Material, name=WATER_BOTTOM
+*Density
+1030.,
+*Bulk Modulus
+2.32e9,
+**
+** SECTIONS
+**
+*Solid Section, elset=WAVEGUIDE-1.LAYER1, material=WATER_SURFACE
+*Solid Section, elset=WAVEGUIDE-1.LAYER2, material=WATER_THERMO
+*Solid Section, elset=WAVEGUIDE-1.LAYER3, material=WATER_DEEP
+*Solid Section, elset=WAVEGUIDE-1.LAYER4, material=WATER_BOTTOM
+**
+** STEP: STEADY STATE DYNAMICS
+**
+*Step, name=SSD_SWEEP, nlgeom=NO
+*Steady State Dynamics, Direct
+** Frequency range: 100-5000 Hz, increment 25 Hz
+100., 5000., 25.
+**
+** INCIDENT WAVE LOADING
+**
+*Incident Wave Interaction Property, name=PLANEWAVE_PROP
+*Incident Wave Fluid Property
+** Density and sound speed for incident field (surface water properties)
+1000., 1483.24
+**
+*Incident Wave Interaction, name=INCIDENT_LOADING, property=PLANEWAVE_PROP
+WAVEGUIDE-1.SURF_INLET, 0., 1., 0.
+**
+** NON-REFLECTING BOUNDARIES
+**
+*Impedance, type=NONREFLECTING
+WAVEGUIDE-1.SURF_OUTLET,
+WAVEGUIDE-1.SURF_LEFT,
+WAVEGUIDE-1.SURF_RIGHT,
+**
+** OUTPUT REQUESTS
+**
+*Output, field, frequency=1
+*Node Output
+P,
+**
+*Output, history, frequency=1
+*Node Print, nset=WAVEGUIDE-1.PROBE_IN
+P,
+*Node Print, nset=WAVEGUIDE-1.PROBE_OUT
+P,
+**
+*End Step
