@@ -1,0 +1,251 @@
+*HEADING
+** ============================================================================
+** ABAQUS ACOUSTIC TRANSMISSION LOSS SIMULATION
+** Stratified Ocean Medium - 2D Waveguide with Thermocline Layers
+** ============================================================================
+** Units: SI (m, kg, s, Pa)
+** Frequency range: 100 - 5000 Hz (25 Hz increments)
+** Domain: 100m x 50m (length x depth)
+** Three-layer stratification representing surface/thermocline/deep ocean
+** ============================================================================
+**
+** NODE DEFINITIONS
+** ============================================================================
+*NODE
+** Bottom-left corner (origin)
+1, 0.0, 0.0
+** Generate nodes for structured mesh: 1000 x 500 nodes (10 cm spacing)
+** Layer 1: Surface layer (0-15m depth)
+** Layer 2: Thermocline (15-35m depth)  
+** Layer 3: Deep layer (35-50m depth)
+**
+** Structured mesh generation: 1001 nodes in x (0-100m, 0.1m spacing)
+**                              501 nodes in z (0-50m, 0.1m spacing)
+*NGEN, NSET=BOTTOM_EDGE
+1, 1001, 1
+*NFILL
+BOTTOM_EDGE
+TOP_EDGE
+500, 1001
+**
+** Alternative: Define nodes explicitly for key points
+** For a 100m x 50m domain with 0.1m mesh (λ/15 at 1000 Hz in water)
+**
+** Simplified mesh: 401x201 nodes (0.25m spacing for faster solve)
+** This gives λ/6 at 1000 Hz - acceptable for demonstration
+**
+** ============================================================================
+** SIMPLIFIED NODE GENERATION (401 x 201 nodes, 0.25m spacing)
+** ============================================================================
+*NODE
+1, 0.0, 0.0
+*NGEN, LINE=C, NSET=ROW1
+1, 401, 1, 0.25, 0.0, 0.0
+*NFILL, NSET=ALLNODES
+ROW1
+ROW201
+200, 401, 0.0, 0.25, 0.0
+**
+** ============================================================================
+** ELEMENT DEFINITIONS (2D 4-node acoustic elements)
+** ============================================================================
+*ELEMENT, TYPE=AC2D4, ELSET=ALL_ELEMENTS
+** Generate structured quad elements
+** Element connectivity for structured mesh
+*ELGEN, ELSET=LAYER1_ELEMS
+1, 400, 1, 1, 60, 401, 401
+*ELGEN, ELSET=LAYER2_ELEMS  
+24001, 400, 1, 1, 80, 401, 401
+*ELGEN, ELSET=LAYER3_ELEMS
+56001, 400, 1, 1, 60, 401, 401
+**
+** ============================================================================
+** ELEMENT SETS FOR LAYERS (based on depth)
+** ============================================================================
+** Layer 1: Surface (z = 0-15m, elements 1-24000)
+*ELSET, ELSET=LAYER1, GENERATE
+1, 24000, 1
+** Layer 2: Thermocline (z = 15-35m, elements 24001-56000)  
+*ELSET, ELSET=LAYER2, GENERATE
+24001, 56000, 1
+** Layer 3: Deep (z = 35-50m, elements 56001-80000)
+*ELSET, ELSET=LAYER3, GENERATE
+56001, 80000, 1
+**
+** ============================================================================
+** NODE SETS FOR BOUNDARY CONDITIONS AND PROBES
+** ============================================================================
+** Inlet face (x=0, all z)
+*NSET, NSET=INLET_NODES, GENERATE
+1, 80201, 401
+** Outlet face (x=100m, all z)
+*NSET, NSET=OUTLET_NODES, GENERATE  
+401, 80601, 401
+** Bottom face (z=0, all x)
+*NSET, NSET=BOTTOM_NODES, GENERATE
+1, 401, 1
+** Top face (z=50m, all x)
+*NSET, NSET=TOP_NODES, GENERATE
+80201, 80601, 1
+**
+** Probe locations for transmission loss measurement
+** PROBE_IN: x=20m (after inlet stabilization)
+*NSET, NSET=PROBE_IN, GENERATE
+81, 80281, 401
+** PROBE_OUT: x=80m (before outlet boundary)
+*NSET, NSET=PROBE_OUT, GENERATE  
+321, 80521, 401
+**
+** ============================================================================
+** SURFACE DEFINITIONS FOR INCIDENT WAVE AND IMPEDANCE BC
+** ============================================================================
+*SURFACE, NAME=INLET_SURF, TYPE=ELEMENT
+LAYER1, S4
+LAYER2, S4
+LAYER3, S4
+** Alternative for element-based surface at x=0
+** (Use node set converted to surface in interaction)
+**
+*SURFACE, NAME=OUTLET_SURF, TYPE=ELEMENT
+LAYER1, S2
+LAYER2, S2
+LAYER3, S2
+**
+*SURFACE, NAME=TOP_SURF, TYPE=ELEMENT
+LAYER1, S1
+**
+*SURFACE, NAME=BOTTOM_SURF, TYPE=ELEMENT
+LAYER3, S3
+**
+** ============================================================================
+** MATERIAL DEFINITIONS - THREE-LAYER STRATIFICATION
+** ============================================================================
+**
+** LAYER 1: Surface water (warm, less dense)
+** Temperature: ~20°C, Salinity: 35 ppt
+** Sound speed: c1 = 1520 m/s
+** Density: ρ1 = 1023 kg/m³
+** Bulk modulus: K1 = ρ1 * c1² = 1023 * 1520² = 2.364e9 Pa
+**
+*MATERIAL, NAME=WATER_SURFACE
+*DENSITY
+1023.0,
+*BULK MODULUS
+2.364e9,
+**
+** LAYER 2: Thermocline (strong gradient)
+** Temperature: ~10°C, Salinity: 35 ppt  
+** Sound speed: c2 = 1490 m/s
+** Density: ρ2 = 1026 kg/m³
+** Bulk modulus: K2 = ρ2 * c2² = 1026 * 1490² = 2.278e9 Pa
+**
+*MATERIAL, NAME=WATER_THERMOCLINE
+*DENSITY
+1026.0,
+*BULK MODULUS
+2.278e9,
+**
+** LAYER 3: Deep water (cold, dense)
+** Temperature: ~4°C, Salinity: 35 ppt
+** Sound speed: c3 = 1470 m/s
+** Density: ρ3 = 1028 kg/m³  
+** Bulk modulus: K3 = ρ3 * c3² = 1028 * 1470² = 2.221e9 Pa
+**
+*MATERIAL, NAME=WATER_DEEP
+*DENSITY
+1028.0,
+*BULK MODULUS
+2.221e9,
+**
+** ============================================================================
+** SECTION ASSIGNMENTS
+** ============================================================================
+*SOLID SECTION, ELSET=LAYER1, MATERIAL=WATER_SURFACE
+*SOLID SECTION, ELSET=LAYER2, MATERIAL=WATER_THERMOCLINE
+*SOLID SECTION, ELSET=LAYER3, MATERIAL=WATER_DEEP
+**
+** ============================================================================
+** STEADY-STATE DYNAMICS STEP
+** ============================================================================
+*STEP, NAME=ACOUSTIC_SWEEP, NLGEOM=NO, PERTURBATION
+*STEADY STATE DYNAMICS, DIRECT, INTERVAL=LOGARITHMIC
+** Start frequency, End frequency, Number of points
+100.0, 5000.0, 199
+** This gives 199 frequency points logarithmically spaced
+** For linear spacing use: 100., 5000., 197 (25 Hz increments)
+**
+** Alternative LINEAR frequency sweep (25 Hz increments):
+** *STEADY STATE DYNAMICS, DIRECT
+** 100., 125., 1
+** 125., 5000., 195
+**
+** Better: Explicit frequency list for exact control
+** ============================================================================
+*STEADY STATE DYNAMICS, DIRECT
+** Frequency list: 100 to 5000 Hz in 25 Hz steps (197 points)
+100., 5000., 196
+**
+** ============================================================================
+** INCIDENT WAVE INTERACTION (Plane wave excitation)
+** ============================================================================
+** Define incident wave fluid properties (use surface layer properties)
+*INCIDENT WAVE INTERACTION PROPERTY, NAME=PLANE_WAVE_PROP
+*INCIDENT WAVE FLUID PROPERTY
+** Density, Sound speed
+1023.0, 1520.0
+**
+** Apply incident wave at inlet
+** Direction: propagating in +x direction (cosines: 1, 0, 0 for 2D)
+** Magnitude: 1.0 (unit amplitude)
+*INCIDENT WAVE INTERACTION, NAME=SOURCE, PROPERTY=PLANE_WAVE_PROP
+INLET_SURF, 1.0, 0.0, 0.0
+** Alternative syntax: SURF_NAME, dir_x, dir_y, dir_z, magnitude
+** For 2D: z-direction is out-of-plane, use (1, 0) for x-direction
+**
+** ============================================================================
+** NON-REFLECTING BOUNDARY CONDITIONS (Impedance BC)
+** ============================================================================
+** Outlet: non-reflecting (radiating boundary)
+*IMPEDANCE, TYPE=NONREFLECTING
+OUTLET_SURF,
+**
+** Top and bottom surfaces: non-reflecting (or rigid if desired)
+** For non-reflecting ocean surface and bottom:
+*IMPEDANCE, TYPE=NONREFLECTING  
+TOP_SURF,
+BOTTOM_SURF,
+**
+** Alternative: Rigid bottom (comment out bottom nonreflecting, use:)
+** *BOUNDARY
+** BOTTOM_NODES, 8, 8, 0.0
+** (DOF 8 is acoustic pressure for AC2D4 elements)
+**
+** ============================================================================
+** OUTPUT REQUESTS
+** ============================================================================
+** Field output: Pressure (complex) at all nodes
+*OUTPUT, FIELD, FREQUENCY=1
+*NODE OUTPUT
+P, POR
+** POR = acoustic pressure, P = total pressure
+**
+** Element output
+*ELEMENT OUTPUT
+PENER,
+**
+** History output: Pressure at probe locations
+*OUTPUT, HISTORY, FREQUENCY=1
+** Probe IN (x=20m)
+*NODE OUTPUT, NSET=PROBE_IN
+P,
+** Probe OUT (x=80m)  
+*NODE OUTPUT, NSET=PROBE_OUT
+P,
+**
+** Additional history for monitoring
+*NODE OUTPUT, NSET=INLET_NODES
+P,
+*NODE OUTPUT, NSET=OUTLET_NODES
+P,
+**
+*END STEP

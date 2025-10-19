@@ -1,0 +1,186 @@
+*HEADING
+** ============================================================================
+** ABAQUS ACOUSTIC TRANSMISSION LOSS SIMULATION
+** Stratified Ocean Medium - 2D Waveguide with Thermocline Layers
+** ============================================================================
+** Units: SI (m, kg, s, Pa)
+** Frequency range: 100 - 5000 Hz
+** Domain: 100m x 50m (length x depth)
+** Mesh: 40 x 20 elements (2.5m spacing - coarse for fast demo)
+** Three-layer stratification: surface/thermocline/deep ocean
+** ============================================================================
+**
+** ============================================================================
+** NODE GENERATION (41 x 21 nodes = 861 nodes)
+** ============================================================================
+*NODE
+** Generate first row (z=0, x=0 to 100m in 2.5m steps)
+1, 0.0, 0.0
+*NGEN, NSET=ROW1
+1, 41, 1, 2.5, 0.0, 0.0
+** Generate all rows (z=0 to 50m in 2.5m steps)
+*NFILL, NSET=ALLNODES
+ROW1, ROW1, 20, 41, 0.0, 2.5, 0.0
+**
+** ============================================================================
+** ELEMENT GENERATION (40 x 20 = 800 elements)
+** ============================================================================
+*ELEMENT, TYPE=AC2D4
+** Generate first row of elements
+1, 1, 2, 43, 42
+*ELGEN, ELSET=ALL_ELEMENTS
+1, 40, 1, 1, 20, 41, 41
+**
+** ============================================================================
+** ELEMENT SETS FOR LAYERS
+** ============================================================================
+** Layer 1: Surface (z = 0-15m = rows 1-6, elements 1-240)
+*ELSET, ELSET=LAYER1, GENERATE
+1, 240, 1
+** Layer 2: Thermocline (z = 15-35m = rows 7-14, elements 241-560)  
+*ELSET, ELSET=LAYER2, GENERATE
+241, 560, 1
+** Layer 3: Deep (z = 35-50m = rows 15-20, elements 561-800)
+*ELSET, ELSET=LAYER3, GENERATE
+561, 800, 1
+**
+** ============================================================================
+** NODE SETS FOR BOUNDARIES AND PROBES
+** ============================================================================
+** Inlet face (x=0, all z)
+*NSET, NSET=INLET_NODES, GENERATE
+1, 821, 41
+** Outlet face (x=100m, all z)
+*NSET, NSET=OUTLET_NODES, GENERATE  
+41, 861, 41
+** Bottom face (z=0, all x)
+*NSET, NSET=BOTTOM_NODES, GENERATE
+1, 41, 1
+** Top face (z=50m, all x)
+*NSET, NSET=TOP_NODES, GENERATE
+821, 861, 1
+** Probe IN: x=20m (column 9, i=9: nodes 9, 50, 91, ...)
+*NSET, NSET=PROBE_IN, GENERATE
+9, 829, 41
+** Probe OUT: x=80m (column 33, i=33: nodes 33, 74, 115, ...)
+*NSET, NSET=PROBE_OUT, GENERATE  
+33, 853, 41
+**
+** ============================================================================
+** SURFACES FOR BOUNDARY CONDITIONS
+** ============================================================================
+** Inlet surface (left face, S4)
+*SURFACE, NAME=INLET_SURF, TYPE=ELEMENT
+LAYER1, S4
+LAYER2, S4
+LAYER3, S4
+** Outlet surface (right face, S2)
+*SURFACE, NAME=OUTLET_SURF, TYPE=ELEMENT
+LAYER1, S2
+LAYER2, S2
+LAYER3, S2
+** Top surface (S1)
+*SURFACE, NAME=TOP_SURF, TYPE=ELEMENT
+LAYER1, S1
+** Bottom surface (S3)
+*SURFACE, NAME=BOTTOM_SURF, TYPE=ELEMENT
+LAYER3, S3
+**
+** ============================================================================
+** MATERIAL DEFINITIONS - THREE-LAYER STRATIFICATION
+** ============================================================================
+**
+** LAYER 1: Surface water (warm, less dense)
+** Temperature: ~20°C, Salinity: 35 ppt
+** Sound speed: c1 = 1520 m/s
+** Density: ρ1 = 1023 kg/m³
+** Bulk modulus: K1 = ρ1 * c1² = 1023 * 1520² = 2.364e9 Pa
+**
+*MATERIAL, NAME=WATER_SURFACE
+*DENSITY
+1023.0,
+*BULK MODULUS
+2.364e9,
+**
+** LAYER 2: Thermocline (strong gradient)
+** Temperature: ~10°C, Salinity: 35 ppt  
+** Sound speed: c2 = 1490 m/s
+** Density: ρ2 = 1026 kg/m³
+** Bulk modulus: K2 = ρ2 * c2² = 1026 * 1490² = 2.278e9 Pa
+**
+*MATERIAL, NAME=WATER_THERMOCLINE
+*DENSITY
+1026.0,
+*BULK MODULUS
+2.278e9,
+**
+** LAYER 3: Deep water (cold, dense)
+** Temperature: ~4°C, Salinity: 35 ppt
+** Sound speed: c3 = 1470 m/s
+** Density: ρ3 = 1028 kg/m³  
+** Bulk modulus: K3 = ρ3 * c3² = 1028 * 1470² = 2.221e9 Pa
+**
+*MATERIAL, NAME=WATER_DEEP
+*DENSITY
+1028.0,
+*BULK MODULUS
+2.221e9,
+**
+** ============================================================================
+** SECTION ASSIGNMENTS
+** ============================================================================
+*SOLID SECTION, ELSET=LAYER1, MATERIAL=WATER_SURFACE
+*SOLID SECTION, ELSET=LAYER2, MATERIAL=WATER_THERMOCLINE
+*SOLID SECTION, ELSET=LAYER3, MATERIAL=WATER_DEEP
+**
+** ============================================================================
+** STEADY-STATE DYNAMICS STEP
+** ============================================================================
+*STEP, NAME=ACOUSTIC_SWEEP, NLGEOM=NO, PERTURBATION
+*STEADY STATE DYNAMICS, DIRECT
+** Frequency sweep: 100 to 5000 Hz in 50 Hz steps (99 points for faster demo)
+100., 5000., 98
+**
+** ============================================================================
+** INCIDENT WAVE INTERACTION (Plane wave excitation)
+** ============================================================================
+** Define incident wave fluid properties (use surface layer properties)
+*INCIDENT WAVE INTERACTION PROPERTY, NAME=PLANE_WAVE_PROP
+*INCIDENT WAVE FLUID PROPERTY
+** Density, Sound speed
+1023.0, 1520.0
+**
+** Apply incident wave at inlet (direction: +x = [1, 0])
+*INCIDENT WAVE INTERACTION, NAME=SOURCE, PROPERTY=PLANE_WAVE_PROP
+INLET_SURF, 1.0, 0.0, 0.0
+**
+** ============================================================================
+** NON-REFLECTING BOUNDARY CONDITIONS (Impedance BC)
+** ============================================================================
+** Outlet: non-reflecting (radiating boundary)
+*IMPEDANCE, TYPE=NONREFLECTING
+OUTLET_SURF,
+**
+** Top and bottom surfaces: non-reflecting
+*IMPEDANCE, TYPE=NONREFLECTING  
+TOP_SURF,
+BOTTOM_SURF,
+**
+** ============================================================================
+** OUTPUT REQUESTS
+** ============================================================================
+** Field output: Pressure (complex) at selected frequencies
+*OUTPUT, FIELD, FREQUENCY=10
+*NODE OUTPUT
+POR,
+**
+** History output: Pressure at probe locations (all frequencies)
+*OUTPUT, HISTORY, FREQUENCY=1
+** Probe IN (x=20m)
+*NODE OUTPUT, NSET=PROBE_IN
+POR,
+** Probe OUT (x=80m)  
+*NODE OUTPUT, NSET=PROBE_OUT
+POR,
+**
+*END STEP
