@@ -1,0 +1,13 @@
+source_id,system,metric,rate_per_1000h,value,units,conditions
+S002;S009;S011,Bloom_ES5,voltage_loss,1000,0.5,%/1000h,"Base NG, 750-800C"
+S002;S009;S011,Bloom_ES5,voltage_loss,1000,0.8,%/1000h,"Biomethane, 750-800C"
+S002;S009;S011,Bloom_ES5,stack_lifetime,1000,40000.0,hours,to 80% EOL
+S002;S009;S011,SOLIDpower_BlueGEN_BG-15,voltage_loss,1000,0.5,%/1000h,"Base NG, 750-800C"
+S002;S009;S011,SOLIDpower_BlueGEN_BG-15,voltage_loss,1000,0.8,%/1000h,"Biomethane, 750-800C"
+S002;S009;S011,SOLIDpower_BlueGEN_BG-15,stack_lifetime,1000,40000.0,hours,to 80% EOL
+S002;S009;S011,Ceres_SteelCell_Stack,voltage_loss,1000,0.5,%/1000h,"Base NG, 750-800C"
+S002;S009;S011,Ceres_SteelCell_Stack,voltage_loss,1000,0.8,%/1000h,"Biomethane, 750-800C"
+S002;S009;S011,Ceres_SteelCell_Stack,stack_lifetime,1000,40000.0,hours,to 80% EOL
+S002;S009;S011,MHI_MEGAMIE,voltage_loss,1000,0.5,%/1000h,"Base NG, 750-800C"
+S002;S009;S011,MHI_MEGAMIE,voltage_loss,1000,0.8,%/1000h,"Biomethane, 750-800C"
+S002;S009;S011,MHI_MEGAMIE,stack_lifetime,1000,40000.0,hours,to 80% EOL

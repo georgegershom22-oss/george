@@ -1,0 +1,5 @@
+file,rows
+sofc_performance.csv,12
+sofc_fuel_flex.csv,12
+sofc_degradation.csv,12
+sofc_dynamics.csv,8
