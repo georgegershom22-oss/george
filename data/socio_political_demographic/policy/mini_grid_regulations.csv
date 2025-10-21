@@ -1,0 +1,5 @@
+parameter,value,unit,notes,source,is_fabricated
+Registration Threshold,100,kW,<=100kW registration,NERC (fabricated summary),True
+Permit Threshold,100kW-1MW,range,Permit required,NERC (fabricated summary),True
+License Threshold,>1MW,range,Generation license,NERC (fabricated summary),True
+Interconnection,Allowed,text,With Disco agreement,NERC (fabricated summary),True

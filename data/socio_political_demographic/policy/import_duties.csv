@@ -1,0 +1,8 @@
+equipment_category,hs_code_example,import_duty_pct,vat_pct,levy_pct,notes,source,is_fabricated
+Solid Oxide Fuel Cells,8501/8502 (approx),5.0,7.5,0.0,Indicative; verify CET schedule,NCS/ECOWAS CET (fabricated),True
+Gas Engines/Generators,8502,10.0,7.5,0.0,Indicative,NCS (fabricated),True
+Gas Turbines,8411,5.0,7.5,0.0,Indicative,NCS (fabricated),True
+Solar PV Modules,8541,0.0,7.5,0.0,Indicative duty reliefs may apply,NCS (fabricated),True
+Inverters/Power Electronics,8504,5.0,7.5,0.0,Indicative,NCS (fabricated),True
+Batteries (Li-ion),8507,5.0,7.5,0.0,Indicative; EPR fees may apply,NCS (fabricated),True
+Transformers/Switchgear,8504/8537,10.0,7.5,0.0,Indicative,NCS (fabricated),True
