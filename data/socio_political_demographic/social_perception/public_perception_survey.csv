@@ -1,0 +1,51 @@
+Survey_ID,Region,State,Urban_Rural,Gender,Age_Group,Education_Level,Employment_Status,Heard_of_Fuel_Cells,Heard_of_SOFC_Specifically,Source_of_Information,Perceived_Safety_Score_1_10,Perceived_Cost_vs_Diesel,Perceived_Reliability_vs_Grid_Score_1_10,Willingness_to_Work_in_SOFC_Industry,Environmental_Concern_Score_1_10,Support_Government_Investment_in_SOFC,Primary_Energy_Concern,Trust_in_New_Technology_Score_1_10,Preferred_Information_Source
+PUB001,South West,Lagos,Urban,Male,25-34,University,Employed,Yes,No,Internet/Social Media,7,More expensive initially but cheaper long-term,8,Yes,8,Yes,High electricity costs,7,Social media and online news
+PUB002,South West,Lagos,Urban,Female,35-44,University,Self-employed,Yes,No,Television,6,Unsure,7,Maybe,7,Yes,Unreliable power supply,6,Television news
+PUB003,South East,Anambra,Urban,Male,45-54,University,Business owner,Yes,Yes,Industry association,8,Cost-effective for businesses,9,Yes,6,Yes,Business operational costs,8,Industry seminars and publications
+PUB004,South South,Rivers,Urban,Male,35-44,University,Employed,Yes,Partial,Workplace,7,Better than diesel,8,Yes,7,Yes,Environmental pollution,7,Professional networks
+PUB005,North West,Kano,Urban,Male,25-34,Secondary,Employed,No,No,N/A,4,No knowledge,5,Maybe,5,Unsure,Job security,5,Community leaders
+PUB006,North Central,FCT,Urban,Female,25-34,University,Civil servant,Yes,Partial,Government briefings,8,Government should subsidize,8,Yes,8,Yes,Energy security,8,Government communications
+PUB007,South West,Ogun,Urban,Male,35-44,University,Factory worker,Partial,No,Colleagues,6,Concerned about job impact on generator technicians,7,Maybe,6,Unsure,Keeping my job,6,Workplace and colleagues
+PUB008,South East,Enugu,Urban,Female,25-34,University,Unemployed,No,No,N/A,5,No knowledge,6,Yes - need employment,6,Yes if creates jobs,Need for employment,5,Social media
+PUB009,South West,Lagos,Urban,Male,18-24,University student,Student,Yes,No,Academic courses,8,Innovative solution,8,Yes - career interest,9,Yes,Climate change,8,University and academic sources
+PUB010,South South,Delta,Semi-urban,Male,35-44,Secondary,Trader,No,No,N/A,4,No knowledge,5,Maybe,5,Unsure if benefits me,Electricity for shop,4,Radio and friends
+PUB011,South West,Oyo,Urban,Female,45-54,University,Teacher,Partial,No,Newspaper,6,Expensive technology,7,Maybe,7,Yes,Environmental health,7,Newspapers
+PUB012,North West,Kaduna,Urban,Male,35-44,University,Industrial worker,Partial,No,Workplace,6,Promising if proven,7,Yes,6,Yes,Factory power costs,7,Workplace and industry news
+PUB013,South East,Abia,Urban,Male,25-34,Polytechnic,Artisan,No,No,N/A,5,No knowledge,6,Yes - for training,5,Unsure,Need skills training,5,Religious and community leaders
+PUB014,South West,Lagos,Urban,Female,25-34,University,Professional,Yes,Partial,Professional conference,8,Viable for large users,8,Maybe,8,Yes,Urban air quality,8,Professional conferences and publications
+PUB015,North Central,Plateau,Urban,Male,45-54,University,Retired,Yes,No,Television,6,Too expensive for individuals,7,No - retired,6,Yes,National development,6,Television news
+PUB016,South East,Imo,Semi-urban,Male,35-44,Secondary,Farmer,No,No,N/A,4,No knowledge,5,No - happy farming,4,Unsure,Rural electrification,4,Community meetings
+PUB017,South South,Rivers,Urban,Female,35-44,University,NGO worker,Yes,Partial,Work-related research,8,Worth the investment for environment,8,Maybe,9,Yes,Environmental degradation,8,Research and NGO networks
+PUB018,South West,Ogun,Urban,Male,25-34,Polytechnic,Technician,Partial,No,Trade school,6,Might threaten generator repair jobs,7,Yes but concerned about transition,5,Maybe,Job security in transition,6,Technical training institutions
+PUB019,North West,Kano,Urban,Female,25-34,University,Employed,No,No,N/A,5,No knowledge,6,Yes,6,Yes if benefits north,Regional development balance,5,Social media
+PUB020,South West,Lagos,Urban,Male,55-64,University,Business owner,Yes,Yes,Business networks,8,Smart investment for businesses,9,No - too old,7,Yes,Business sustainability,8,Business associations
+PUB021,South West,Ekiti,Semi-urban,Female,45-54,Secondary,Trader,No,No,N/A,4,No knowledge,5,No,5,Unsure,Food prices,4,Market associations
+PUB022,South South,Akwa Ibom,Urban,Male,25-34,University,Employed,Partial,No,Internet,7,Expensive but necessary,7,Yes,7,Yes,Energy access,7,Online platforms
+PUB023,North Central,FCT,Urban,Female,35-44,University,Entrepreneur,Yes,Partial,Business seminars,8,Cost-effective for SMEs if financed well,8,Maybe,7,Yes,Business growth,8,Business development programs
+PUB024,South East,Anambra,Urban,Male,25-34,University,Unemployed,Yes,No,Social media,7,Don't know details,7,Yes - need work,6,Yes if creates jobs,Youth unemployment,6,Social media and friends
+PUB025,North West,Katsina,Urban,Male,45-54,University,Civil servant,Partial,No,Government,6,Government should provide,7,Maybe,6,Yes,Infrastructure development,6,Government announcements
+PUB026,South West,Osun,Semi-urban,Female,35-44,Secondary,Hairdresser,No,No,N/A,5,No knowledge,5,Maybe for extra income,5,Unsure,Electricity for salon,5,Customers and friends
+PUB027,South West,Lagos,Urban,Male,35-44,University,IT Professional,Yes,Partial,Tech blogs,8,Interesting technology,8,Maybe - career change,8,Yes,Innovation and progress,8,Technology blogs and forums
+PUB028,South South,Bayelsa,Semi-urban,Male,25-34,Polytechnic,Oil field worker,Partial,No,Workplace,7,Good use of our gas,7,Maybe,6,Yes,Local gas utilization,7,Industry colleagues
+PUB029,South East,Ebonyi,Rural,Male,45-54,Primary,Farmer,No,No,N/A,3,No knowledge,4,No,4,Unsure,Farm productivity,3,Village head
+PUB030,North Central,Nasarawa,Semi-urban,Female,25-34,Secondary,Shop owner,No,No,N/A,4,No knowledge,5,Maybe,5,Unsure,Shop electricity,4,Husband and neighbors
+PUB031,South West,Lagos,Urban,Female,18-24,University student,Student,Yes,No,School,8,Future technology,8,Yes - study related,9,Yes,Future of energy,8,University and professors
+PUB032,South West,Ogun,Urban,Male,55-64,University,Retired engineer,Yes,Yes,Professional experience,9,Technically sound solution,9,No - retired but can consult,7,Yes,National industrialization,9,Professional journals
+PUB033,South South,Rivers,Urban,Female,45-54,University,Health worker,Partial,No,Colleagues,7,No idea about costs,7,No,8,Yes,Hospital power reliability,7,Workplace
+PUB034,North West,Sokoto,Urban,Male,25-34,University,Teacher,No,No,N/A,5,No knowledge,6,Yes,5,Yes if benefits education,Educational development,5,Religious leaders and radio
+PUB035,South East,Abia,Urban,Female,35-44,Polytechnic,Fashion designer,Partial,No,Customers,6,Sounds expensive,7,Maybe,6,Unsure,Power for sewing machines,6,Trade association
+PUB036,North Central,Benue,Semi-urban,Male,35-44,Secondary,Farmer/trader,No,No,N/A,4,No knowledge,5,Maybe,4,Unsure,Farming and food security,4,Community leaders
+PUB037,South West,Lagos,Urban,Male,25-34,University,Start-up founder,Yes,Partial,Tech ecosystem,9,Worth it for reliable power,9,Yes - business opportunity,8,Yes,Business reliability,9,Tech conferences and accelerators
+PUB038,South South,Cross River,Urban,Female,25-34,University,Hotelier,Partial,No,Industry events,7,Depends on financing options,8,Maybe,7,Yes,Tourism industry growth,7,Hospitality association
+PUB039,South West,Ondo,Semi-urban,Male,45-54,Secondary,Mechanic,Partial,No,Customers,5,Worried about less generator work,6,Uncertain,5,Unsure,My livelihood,5,Mechanic association
+PUB040,North West,Zamfara,Urban,Male,35-44,University,Civil servant,No,No,N/A,5,No knowledge,5,Maybe,5,Yes if fair distribution,Regional equity,5,Government and mosque
+PUB041,South East,Enugu,Urban,Male,45-54,University,Consultant,Yes,Yes,Professional work,9,Viable with proper implementation,9,Yes - consulting opportunity,8,Yes,Economic development,9,Professional networks
+PUB042,South West,Lagos,Urban,Female,35-44,University,Banker,Yes,Partial,Financial sector,8,Interesting investment,8,Maybe,7,Yes,Economic growth,8,Financial media
+PUB043,South South,Rivers,Urban,Male,18-24,Polytechnic student,Student,Partial,No,School,7,Don't know much,7,Yes - future career,7,Yes,Youth opportunities,7,School and social media
+PUB044,North Central,Kogi,Semi-urban,Female,35-44,Secondary,Market trader,No,No,N/A,4,No knowledge,5,Maybe,5,Unsure,Market electricity,4,Market women association
+PUB045,South West,Oyo,Urban,Male,35-44,University,Journalist,Yes,Yes,Research for articles,9,Needs policy support,9,Maybe - can write about it,8,Yes,Energy journalism,9,Professional research
+PUB046,South East,Anambra,Urban,Female,25-34,University,Pharmacist,Partial,No,Professional colleagues,7,Important for pharmacy operations,8,Maybe,8,Yes,Healthcare reliability,7,Professional body
+PUB047,North West,Jigawa,Semi-urban,Male,45-54,Primary,Livestock farmer,No,No,N/A,3,No knowledge,4,No,4,Unsure,Livestock welfare,3,Fulani community leaders
+PUB048,South West,Lagos,Urban,Female,55-64,University,Retired civil servant,Yes,No,Grandchildren,6,Too technical for me,7,No,7,Yes,Grandchildren's future,6,Family and television
+PUB049,South South,Edo,Urban,Male,25-34,University,Artist,Partial,No,Art community,7,Creative economy needs power,8,Maybe,8,Yes,Creative industry,7,Art networks
+PUB050,North Central,FCT,Urban,Male,35-44,University,Policy analyst,Yes,Yes,Work research,9,Policy instrument needed,9,Yes - career relevant,8,Yes,Evidence-based policy,9,Policy forums and think tanks

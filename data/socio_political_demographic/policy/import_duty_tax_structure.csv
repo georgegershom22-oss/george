@@ -1,0 +1,28 @@
+Equipment_Category,HS_Code,Description,Standard_Import_Duty_Percent,VAT_Percent,Levies_and_Surcharges_Percent,Total_Tax_Burden_Percent,Renewable_Energy_Waiver_Eligible,Waived_Duty_Percent,Net_Tax_Burden_With_Waiver_Percent,Documentation_Required,Clearance_Complexity,Average_Clearance_Time_Days
+Fuel Cell Stacks,8501.61.00,SOFC Stack Units,20,7.5,5.5,33.0,Yes,20,13.0,"Certificate of Origin, Technical Specifications, SONCAP",High,21-35
+Balance of Plant Components,8414.80.00,Gas compressors and blowers,10,7.5,4.0,21.5,Partial,5,16.5,"Bill of Lading, Commercial Invoice, Packing List",Medium,14-21
+Heat Exchangers,8419.50.00,Heat exchangers for fuel cells,10,7.5,4.0,21.5,Partial,5,16.5,"Technical Specifications, Certificate of Conformity",Medium,14-21
+Power Conditioning Units,8504.40.00,Static converters and inverters,10,7.5,4.0,21.5,Yes,10,11.5,"Type Approval, IEC Certification",Medium,14-21
+Control Systems,8537.10.00,Control panels and boards,20,7.5,5.5,33.0,No,0,33.0,"CE Marking, Technical Documentation",High,21-28
+Gas Processing Units,8421.39.00,Gas filtration and purification equipment,10,7.5,4.0,21.5,Partial,5,16.5,"Material Safety Data Sheet, Origin Certificate",Medium,14-21
+Monitoring Equipment,9030.33.00,Instruments for measuring electrical quantities,5,7.5,2.5,15.0,Yes,5,10.0,"Calibration Certificate, IEC Standards",Low,7-14
+Piping and Fittings,7307.99.00,Stainless steel pipe fittings,10,7.5,4.0,21.5,No,0,21.5,"Material Test Certificate, Specifications",Medium,14-21
+Electrical Cables,8544.49.00,Electric conductors for voltages > 80V,20,7.5,5.5,33.0,Partial,10,23.0,"Test Certificate, Standards Compliance",Medium,14-21
+Installation Materials,8415.90.00,Parts for air conditioning apparatus,20,7.5,5.5,33.0,No,0,33.0,"Parts List, Compatibility Certificate",Medium,14-21
+Safety Equipment,9032.89.00,Automatic regulating instruments,10,7.5,4.0,21.5,Partial,5,16.5,"Safety Certificate, CE Marking",Medium,14-21
+Gas Storage Tanks,7309.00.00,Reservoirs and tanks for storage,10,7.5,4.0,21.5,No,0,21.5,"Pressure Test Certificate, Design Specs",High,21-28
+Hydrogen Sensors,9027.10.00,Gas analysis apparatus,5,7.5,2.5,15.0,Yes,5,10.0,"Calibration Certificate, Hazardous Area Cert",Low,7-14
+Thermal Insulation,6806.90.00,Ceramic fiber insulation materials,10,7.5,4.0,21.5,Partial,5,16.5,"Fire Rating Certificate, MSDS",Low,7-14
+Catalysts and Chemicals,3815.90.00,Reaction initiators and catalysts,5,7.5,2.5,15.0,No,0,15.0,"Certificate of Analysis, MSDS, Import Permit",High,21-35
+UPS Systems,8504.40.00,Uninterruptible power supply units,10,7.5,4.0,21.5,Yes,10,11.5,"Type Test Report, Warranty Certificate",Medium,14-21
+Cooling Systems,8418.69.00,Refrigerating equipment for industrial use,20,7.5,5.5,33.0,No,0,33.0,"Energy Efficiency Rating, Technical Specs",Medium,14-21
+Desulfurization Units,8421.39.00,Industrial gas purification equipment,10,7.5,4.0,21.5,Partial,5,16.5,"Process Flow Diagram, Performance Data",High,21-28
+Grid Synchronization Equipment,8536.50.00,Switches for voltage > 60V,20,7.5,5.5,33.0,Partial,10,23.0,"Type Approval, Grid Code Compliance",High,21-28
+Fuel Reformers,8419.89.00,Industrial machinery for heating gases,10,7.5,4.0,21.5,Yes,10,11.5,"Technical Manual, Process Description",High,21-28
+Anode Materials,8105.30.00,Nickel-based anode materials,10,7.5,4.0,21.5,No,0,21.5,"Material Composition Certificate, Purity Test",Medium,14-21
+Cathode Materials,2841.80.00,Ceramic cathode materials,5,7.5,2.5,15.0,No,0,15.0,"Material Certificate, Quality Test Report",Medium,14-21
+Electrolyte Materials,6914.90.00,Ceramic electrolyte components,10,7.5,4.0,21.5,No,0,21.5,"Chemical Analysis, Porosity Test",Medium,14-21
+Interconnect Materials,7326.90.00,Metallic interconnect components,10,7.5,4.0,21.5,No,0,21.5,"Corrosion Resistance Test, Conductivity Test",Medium,14-21
+Construction Materials,7308.90.00,Structural steel for housing units,10,7.5,4.0,21.5,No,0,21.5,"Structural Design, Material Grade Certificate",Low,7-14
+Transportation Services,N/A,Freight and logistics,0,7.5,0,7.5,No,0,7.5,"Waybill, Insurance Certificate",Low,N/A
+Installation Services,N/A,Technical installation services,0,7.5,0,7.5,No,0,7.5,"Service Contract, Work Permit",Low,N/A
