@@ -1,0 +1,32 @@
+
+SOFC ECONOMIC DATA COLLECTION SUMMARY REPORT
+Generated: 2025-10-21 05:04:10
+
+KEY FINANCIAL INDICATORS:
+- USD/NGN Exchange Rate: 1,650
+- Parallel Market Premium: 12.1%
+- Central Bank Rate: 19.5%
+- Prime Lending Rate: 28.5%
+- Inflation Rate: 18.5%
+
+ENERGY SECTOR INDICATORS:
+- Natural Gas Price (Domestic): $2.50/MMBtu
+- Diesel Price: $0.73/liter
+- Grid Availability: 65%
+- System Losses: 18%
+
+INVESTMENT CLIMATE:
+- Country Risk Rating: B-
+- Composite Risk Score: 6.7/10
+- Total Risk Premium: 13%
+
+RECOMMENDATIONS:
+1. Use mixed financing approach (local + foreign) to optimize cost of capital
+2. Hedge currency exposure given high NGN volatility
+3. Consider phased implementation to manage regulatory risks
+4. Focus on industrial/commercial customers with higher tariffs
+5. Leverage domestic gas pricing advantage over imported alternatives
+
+DATA SOURCES: 7 primary sources validated
+NEXT UPDATE: Monthly refresh recommended
+        

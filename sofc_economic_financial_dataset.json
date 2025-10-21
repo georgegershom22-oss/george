@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "SOFC Economic & Financial Dataset for Nigeria",
+    "created": "2025-10-21T05:03:33.175038",
+    "base_year": 2024,
+    "currency": "USD",
+    "analysis_period_years": 20
+  },
+  "sofc_costs": {
+    "capex": {
+      "100kW_system": {
+        "stack_cost": 1200,
+        "bop_cost": 800,
+        "installation": 300,
+        "total_capex": 2300,
+        "source": "DOE SECA 2024, Bloom Energy quotes",
+        "confidence": "High - based on actual quotes"
+      },
+      "250kW_system": {
+        "stack_cost": 1000,
+        "bop_cost": 700,
+        "installation": 250,
+        "total_capex": 1950,
+        "source": "FuelCell Energy commercial data",
+        "confidence": "High"
+      },
+      "500kW_system": {
+        "stack_cost": 900,
+        "bop_cost": 650,
+        "installation": 200,
+        "total_capex": 1750,
+        "source": "Ceres Power industrial systems",
+        "confidence": "Medium - scaling estimates"
+      },
+      "1MW_system": {
+        "stack_cost": 850,
+        "bop_cost": 600,
+        "installation": 180,
+        "total_capex": 1630,
+        "source": "DOE projections for MW-scale",
+        "confidence": "Medium"
+      }
+    },
+    "opex": {
+      "maintenance": {
+        "routine_maintenance": 25,
+        "major_overhaul": 150,
+        "labor_costs": 35,
+        "source": "Industry average + Nigeria labor adjustment"
+      },
+      "stack_replacement": {
+        "replacement_cost": 600,
+        "replacement_interval": 10,
+        "degradation_rate": 0.5,
+        "source": "Manufacturer warranties and field data"
+      },
+      "consumables": {
+        "catalyst_replacement": 15,
+        "filters_misc": 10,
+        "source": "Operational data from existing plants"
+      }
+    }
+  },
+  "incumbent_costs": {
+    "diesel_generators": {
+      "capex": {
+        "100kW": 350,
+        "250kW": 320,
+        "500kW": 300,
+        "1MW": 280,
+        "source": "Caterpillar Nigeria, Cummins distributors",
+        "confidence": "High - current market prices"
+      },
+      "opex": {
+        "fuel_consumption": 0.25,
+        "fuel_cost_nigeria": 0.68,
+        "fuel_cost_market": 1.2,
+        "maintenance_cost": 0.015,
+        "overhaul_interval": 15000,
+        "overhaul_cost": 50,
+        "source": "Nigerian fuel distributors, maintenance contracts"
+      }
+    },
+    "solar_pv_battery": {
+      "capex": {
+        "solar_pv": 800,
+        "battery_storage": 400,
+        "inverter_bos": 200,
+        "installation": 150,
+        "total_system": 1550,
+        "source": "IRENA 2024, Nigerian solar installers",
+        "confidence": "High"
+      },
+      "opex": {
+        "om_solar": 15,
+        "om_battery": 25,
+        "battery_replacement": 10,
+        "inverter_replacement": 15,
+        "source": "NREL, local O&M contractors"
+      }
+    },
+    "grid_extension": {
+      "capex": {
+        "transmission_line": 150000,
+        "distribution_line": 50000,
+        "transformer": 25000,
+        "source": "TCN Nigeria, distribution companies"
+      },
+      "opex": {
+        "grid_tariff": 0.08,
+        "losses": 0.15,
+        "availability": 0.65,
+        "source": "NERC tariff orders, utility reports"
+      }
+    }
+  },
+  "financial_parameters": {
+    "macroeconomic": {
+      "inflation_rate": 0.185,
+      "usd_inflation": 0.035,
+      "exchange_rate_usd_ngn": 1650,
+      "exchange_rate_volatility": 0.25,
+      "source": "Central Bank of Nigeria, World Bank"
+    },
+    "interest_rates": {
+      "risk_free_rate_ngn": 0.195,
+      "risk_free_rate_usd": 0.045,
+      "corporate_bond_yield": 0.22,
+      "bank_lending_rate": 0.285,
+      "source": "CBN, FMDQ, commercial banks"
+    },
+    "cost_of_capital": {
+      "wacc_local": 0.18,
+      "wacc_foreign": 0.12,
+      "wacc_mixed": 0.15,
+      "equity_risk_premium": 0.08,
+      "source": "Calculated using CAPM with Nigeria risk premium"
+    },
+    "tax_parameters": {
+      "corporate_tax_rate": 0.3,
+      "vat_rate": 0.075,
+      "import_duty_equipment": 0.05,
+      "withholding_tax": 0.1,
+      "pioneer_status_available": true,
+      "source": "Federal Inland Revenue Service (FIRS)"
+    }
+  },
+  "market_data": {
+    "power_market": {
+      "grid_tariff_residential": 0.06,
+      "grid_tariff_commercial": 0.08,
+      "grid_tariff_industrial": 0.1,
+      "diesel_genset_lcoe": 0.35,
+      "solar_pv_lcoe": 0.12,
+      "grid_availability": 0.65,
+      "source": "NERC, DisCos tariff schedules"
+    },
+    "fuel_costs": {
+      "natural_gas_domestic": 2.5,
+      "natural_gas_import": 8.5,
+      "diesel_subsidized": 0.68,
+      "diesel_market": 1.2,
+      "lpg_price": 0.85,
+      "source": "NNPC, DPR, fuel marketers"
+    },
+    "economic_indicators": {
+      "gdp_growth": 0.025,
+      "population_growth": 0.026,
+      "urbanization_rate": 0.04,
+      "electricity_access": 0.6,
+      "industrial_growth": 0.035,
+      "source": "World Bank, NBS Nigeria"
+    },
+    "policy_environment": {
+      "renewable_energy_target": 0.3,
+      "gas_flare_penalty": 2.0,
+      "carbon_tax_proposed": 10.0,
+      "feed_in_tariff_available": true,
+      "net_metering_allowed": true,
+      "source": "Ministry of Power, NERC regulations"
+    }
+  }
+}

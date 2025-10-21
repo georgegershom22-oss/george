@@ -1,0 +1,377 @@
+{
+  "exchange_rates": {
+    "official_rate": {
+      "usd_ngn": 1650.0,
+      "source": "Central Bank of Nigeria",
+      "last_updated": "2025-10-21T05:04:10.357546",
+      "volatility_30d": 0.15
+    },
+    "parallel_market": {
+      "usd_ngn": 1850.0,
+      "source": "Parallel market rates",
+      "premium": 0.121,
+      "last_updated": "2025-10-21T05:04:10.357588"
+    },
+    "historical_trend": {
+      "dates": [
+        "2020-01-31",
+        "2020-02-29",
+        "2020-03-31",
+        "2020-04-30",
+        "2020-05-31",
+        "2020-06-30",
+        "2020-07-31",
+        "2020-08-31",
+        "2020-09-30",
+        "2020-10-31",
+        "2020-11-30",
+        "2020-12-31",
+        "2021-01-31",
+        "2021-02-28",
+        "2021-03-31",
+        "2021-04-30",
+        "2021-05-31",
+        "2021-06-30",
+        "2021-07-31",
+        "2021-08-31",
+        "2021-09-30",
+        "2021-10-31",
+        "2021-11-30",
+        "2021-12-31",
+        "2022-01-31",
+        "2022-02-28",
+        "2022-03-31",
+        "2022-04-30",
+        "2022-05-31",
+        "2022-06-30",
+        "2022-07-31",
+        "2022-08-31",
+        "2022-09-30",
+        "2022-10-31",
+        "2022-11-30",
+        "2022-12-31",
+        "2023-01-31",
+        "2023-02-28",
+        "2023-03-31",
+        "2023-04-30",
+        "2023-05-31",
+        "2023-06-30",
+        "2023-07-31",
+        "2023-08-31",
+        "2023-09-30",
+        "2023-10-31",
+        "2023-11-30",
+        "2023-12-31",
+        "2024-01-31",
+        "2024-02-29",
+        "2024-03-31",
+        "2024-04-30",
+        "2024-05-31",
+        "2024-06-30",
+        "2024-07-31",
+        "2024-08-31",
+        "2024-09-30"
+      ],
+      "usd_ngn_rates": [
+        395.38481649475466,
+        380,
+        399.13401137814463,
+        399.4865499368752,
+        394.13349843555085,
+        401.4924158134918,
+        408.6221682830201,
+        428.3708221620233,
+        418.5998266142628,
+        418.9592557038434,
+        438.4743201327005,
+        407.7616395240333,
+        448.7766816041646,
+        461.37999256116984,
+        435.912214789015,
+        439.52862840526814,
+        457.34921096867515,
+        427.08337874206967,
+        462.625012096691,
+        491.7110699431207,
+        475.0514307105834,
+        446.2374894292013,
+        502.78311058749995,
+        461.78607299981115,
+        486.9137899510724,
+        516.6387379288428,
+        516.7146925459831,
+        504.75808882425747,
+        529.6760912433924,
+        539.2875702326367,
+        564.8756656818655,
+        526.0398499562702,
+        512.2490589021613,
+        590.1160885438646,
+        558.5194754902353,
+        569.6485638625262,
+        580.6052248859627,
+        563.9261953130956,
+        572.7645964156942,
+        588.1064657327943,
+        655.2267716375559,
+        571.5331606458183,
+        621.6082442280044,
+        612.3379564897833,
+        620.2587379250515,
+        643.6647437920831,
+        684.515739979399,
+        623.9939793361312,
+        680.2784995730453,
+        669.2097143974124,
+        667.8297290236992,
+        720.2025181074162,
+        715.3681734304654,
+        647.5181311726969,
+        703.2493554388092,
+        656.130366653598,
+        730.8396656437861
+      ],
+      "trend_analysis": {
+        "avg_annual_depreciation": 0.15,
+        "max_monthly_volatility": 0.08,
+        "correlation_with_oil_prices": -0.65
+      }
+    }
+  },
+  "interest_rates": {
+    "central_bank_rates": {
+      "monetary_policy_rate": 0.195,
+      "standing_lending_facility": 0.245,
+      "standing_deposit_facility": 0.145,
+      "cash_reserve_ratio": 0.325,
+      "source": "Central Bank of Nigeria MPC",
+      "last_meeting": "2024-09-24"
+    },
+    "market_rates": {
+      "prime_lending_rate": 0.285,
+      "savings_deposit_rate": 0.045,
+      "treasury_bill_91d": 0.185,
+      "treasury_bill_182d": 0.19,
+      "treasury_bill_364d": 0.195,
+      "government_bond_10y": 0.205,
+      "source": "FMDQ, Nigerian banks"
+    },
+    "corporate_financing": {
+      "corporate_bond_yield_aaa": 0.18,
+      "corporate_bond_yield_bbb": 0.22,
+      "bank_lending_sme": 0.3,
+      "bank_lending_large_corp": 0.25,
+      "source": "Nigerian banks, FMDQ"
+    }
+  },
+  "fuel_prices": {
+    "petroleum_products": {
+      "petrol_pms": {
+        "official_price_ngn": 1100,
+        "official_price_usd": 0.67,
+        "black_market_premium": 0.15,
+        "source": "NNPC, Fuel marketers"
+      },
+      "diesel_ago": {
+        "official_price_ngn": 1200,
+        "official_price_usd": 0.73,
+        "deregulated": true,
+        "source": "Fuel marketers"
+      },
+      "kerosene_dpk": {
+        "official_price_ngn": 950,
+        "official_price_usd": 0.58,
+        "source": "NNPC"
+      }
+    },
+    "natural_gas": {
+      "domestic_price": {
+        "price_usd_mmbtu": 2.5,
+        "price_ngn_scf": 4.125,
+        "industrial_rate": true,
+        "source": "Nigerian Gas Company"
+      },
+      "import_price": {
+        "lng_price_usd_mmbtu": 8.5,
+        "pipeline_gas_usd_mmbtu": 7.2,
+        "source": "International gas markets"
+      },
+      "flare_gas_potential": {
+        "volume_bcf_year": 800,
+        "current_utilization": 0.15,
+        "monetization_potential_usd_billion": 2.4,
+        "source": "DPR, NNPC flare data"
+      }
+    }
+  },
+  "power_sector": {
+    "generation_capacity": {
+      "installed_capacity_mw": 13500,
+      "available_capacity_mw": 8500,
+      "peak_generation_mw": 5500,
+      "capacity_factor": 0.41,
+      "source": "TCN, GenCos"
+    },
+    "tariff_structure": {
+      "residential": {
+        "r1_lifeline_usd_kwh": 0.024,
+        "r2_usd_kwh": 0.048,
+        "r3_usd_kwh": 0.072,
+        "r4_usd_kwh": 0.096
+      },
+      "commercial": {
+        "c1_usd_kwh": 0.084,
+        "c2_usd_kwh": 0.108,
+        "c3_usd_kwh": 0.132
+      },
+      "industrial": {
+        "d1_usd_kwh": 0.108,
+        "d2_usd_kwh": 0.096,
+        "d3_usd_kwh": 0.084
+      },
+      "source": "NERC Multi-Year Tariff Order"
+    },
+    "grid_performance": {
+      "system_losses": 0.18,
+      "technical_losses": 0.08,
+      "commercial_losses": 0.1,
+      "average_availability": 0.65,
+      "rural_electrification": 0.35,
+      "urban_electrification": 0.85,
+      "source": "DisCos, Rural Electrification Agency"
+    },
+    "investment_requirements": {
+      "generation_investment_usd_billion": 15,
+      "transmission_investment_usd_billion": 8,
+      "distribution_investment_usd_billion": 12,
+      "total_sector_gap_usd_billion": 35,
+      "timeframe_years": 10,
+      "source": "Nigerian Electricity Regulatory Commission"
+    }
+  },
+  "economic_indicators": {
+    "gdp_data": {
+      "nominal_gdp_usd_billion": 440,
+      "real_gdp_growth": 0.025,
+      "gdp_per_capita_usd": 2100,
+      "industrial_contribution": 0.22,
+      "services_contribution": 0.54,
+      "agriculture_contribution": 0.24,
+      "source": "National Bureau of Statistics"
+    },
+    "inflation_data": {
+      "headline_inflation": 0.185,
+      "core_inflation": 0.165,
+      "food_inflation": 0.225,
+      "energy_inflation": 0.195,
+      "transport_inflation": 0.175,
+      "source": "National Bureau of Statistics"
+    },
+    "employment_data": {
+      "unemployment_rate": 0.335,
+      "youth_unemployment": 0.425,
+      "labor_force_millions": 85,
+      "industrial_employment_millions": 8.5,
+      "source": "National Bureau of Statistics"
+    },
+    "trade_data": {
+      "oil_exports_usd_billion": 45,
+      "non_oil_exports_usd_billion": 8,
+      "total_imports_usd_billion": 55,
+      "trade_balance_usd_billion": -2,
+      "current_account_deficit_gdp": 0.035,
+      "source": "Central Bank of Nigeria"
+    }
+  },
+  "risk_metrics": {
+    "country_risk": {
+      "sovereign_credit_rating": "B-",
+      "political_risk_score": 6.2,
+      "economic_risk_score": 7.1,
+      "financial_risk_score": 6.8,
+      "composite_risk_score": 6.7,
+      "source": "S&P, Moody's, Political Risk Services"
+    },
+    "investment_climate": {
+      "ease_of_doing_business_rank": 131,
+      "corruption_perception_index": 150,
+      "regulatory_quality_percentile": 25,
+      "rule_of_law_percentile": 20,
+      "source": "World Bank, Transparency International"
+    },
+    "sector_specific_risks": {
+      "power_sector_risk": "High",
+      "currency_risk": "Very High",
+      "regulatory_risk": "Medium-High",
+      "technology_risk": "Medium",
+      "market_risk": "Medium-High",
+      "operational_risk": "High"
+    },
+    "risk_premiums": {
+      "country_risk_premium": 0.08,
+      "sector_risk_premium": 0.03,
+      "technology_risk_premium": 0.02,
+      "total_risk_premium": 0.13,
+      "source": "Calculated based on sovereign spreads"
+    }
+  },
+  "sensitivity_analysis": {
+    "key_variables": {
+      "capex_variation": {
+        "low": -0.2,
+        "base": 0.0,
+        "high": 0.3,
+        "distribution": "triangular"
+      },
+      "fuel_cost_variation": {
+        "low": -0.15,
+        "base": 0.0,
+        "high": 0.5,
+        "distribution": "lognormal"
+      },
+      "exchange_rate_variation": {
+        "low": -0.1,
+        "base": 0.0,
+        "high": 0.25,
+        "distribution": "normal"
+      },
+      "discount_rate_variation": {
+        "low": 0.1,
+        "base": 0.15,
+        "high": 0.22,
+        "distribution": "uniform"
+      }
+    },
+    "correlation_matrix": {
+      "capex_fuel_cost": 0.3,
+      "capex_exchange_rate": 0.6,
+      "fuel_cost_exchange_rate": 0.4,
+      "discount_rate_exchange_rate": 0.2
+    },
+    "monte_carlo_parameters": {
+      "iterations": 10000,
+      "confidence_intervals": [
+        0.05,
+        0.1,
+        0.9,
+        0.95
+      ],
+      "seed": 42
+    }
+  },
+  "metadata": {
+    "collection_timestamp": "2025-10-21T05:04:10.366276",
+    "data_sources": [
+      "CBN, Parallel market data",
+      "CBN, FMDQ, Commercial banks",
+      "NNPC, DPR, Fuel marketers",
+      "NERC, TCN, DisCos, GenCos",
+      "NBS, CBN",
+      "Rating agencies, World Bank, Risk assessment",
+      "Statistical analysis, Expert judgment"
+    ],
+    "collection_method": "Automated with manual validation",
+    "update_frequency": "Monthly",
+    "next_update": "2025-11-20T05:04:10.366286"
+  }
+}
