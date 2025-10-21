@@ -1,0 +1,1501 @@
+respondent_id,role,state,awareness_sofc,acceptance_sofc,perceived_cost_barrier,perceived_reliability_benefit,environmental_concern,policy_support_expectation,willingness_to_pilot,year,source
+R0001,DisCo Official,Bayelsa,2,3,5,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0002,Industrial Manager,Gombe,3,3,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0003,Community Leader,Osun,3,1,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0004,Industrial Manager,Adamawa,1,4,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0005,Academic/Researcher,Gombe,4,4,4,2,5,5,3,2024,Synthetic survey; use for scenario analysis only
+R0006,Policymaker,Kwara,2,4,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0007,DisCo Official,Osun,3,2,3,1,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0008,Policymaker,Jigawa,3,3,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0009,Academic/Researcher,Lagos,2,4,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0010,DisCo Official,Yobe,4,5,4,5,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0011,Investor,Oyo,2,2,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0012,Policymaker,Yobe,4,2,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0013,DisCo Official,FCT,3,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0014,Investor,Sokoto,4,1,2,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0015,Investor,Taraba,3,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0016,Industrial Manager,Zamfara,3,3,5,2,5,3,5,2024,Synthetic survey; use for scenario analysis only
+R0017,Industrial Manager,Bauchi,3,3,3,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0018,Industrial Manager,Yobe,5,3,2,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0019,Policymaker,Kano,5,1,3,5,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0020,Community Leader,Imo,3,3,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0021,Academic/Researcher,Oyo,3,3,3,2,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0022,Investor,Ekiti,2,2,4,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0023,Community Leader,Kano,2,2,4,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0024,Academic/Researcher,Plateau,3,2,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0025,Community Leader,Zamfara,3,3,4,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0026,Policymaker,Jigawa,4,3,5,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0027,DisCo Official,Katsina,2,1,3,5,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0028,Policymaker,Bayelsa,2,2,4,4,3,1,2,2024,Synthetic survey; use for scenario analysis only
+R0029,Investor,Taraba,3,3,2,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0030,Community Leader,Kaduna,3,2,4,5,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0031,Community Leader,Kano,2,2,5,5,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0032,Policymaker,Kaduna,4,2,4,5,1,3,4,2024,Synthetic survey; use for scenario analysis only
+R0033,Policymaker,Ekiti,4,2,5,2,3,5,1,2024,Synthetic survey; use for scenario analysis only
+R0034,Academic/Researcher,Jigawa,4,3,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0035,Community Leader,Ondo,2,3,3,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0036,Academic/Researcher,Lagos,4,3,5,5,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0037,Policymaker,Delta,3,3,2,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0038,Policymaker,Abia,3,3,3,3,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R0039,DisCo Official,Nasarawa,2,1,5,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0040,Academic/Researcher,Akwa Ibom,2,2,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0041,Industrial Manager,Benue,2,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0042,Academic/Researcher,Niger,3,1,3,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0043,Community Leader,Plateau,3,3,3,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0044,Investor,Taraba,1,4,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0045,DisCo Official,Osun,3,2,3,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0046,DisCo Official,Adamawa,2,4,3,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0047,Industrial Manager,Plateau,4,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0048,Investor,Cross River,4,2,2,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0049,Investor,Cross River,4,4,4,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0050,DisCo Official,Ebonyi,3,3,5,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0051,Industrial Manager,Osun,3,3,5,3,3,1,5,2024,Synthetic survey; use for scenario analysis only
+R0052,DisCo Official,Bayelsa,3,3,3,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0053,Academic/Researcher,Lagos,4,1,4,4,5,4,1,2024,Synthetic survey; use for scenario analysis only
+R0054,Community Leader,Bauchi,2,2,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0055,Industrial Manager,Kano,3,3,4,5,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0056,Academic/Researcher,Niger,3,2,3,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0057,DisCo Official,Akwa Ibom,3,2,3,4,1,5,2,2024,Synthetic survey; use for scenario analysis only
+R0058,Investor,Kogi,4,4,4,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0059,Community Leader,Adamawa,4,3,5,3,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0060,Community Leader,Kebbi,3,3,2,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0061,Academic/Researcher,Imo,3,2,4,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0062,DisCo Official,Anambra,3,3,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0063,Academic/Researcher,Benue,2,3,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0064,Industrial Manager,Anambra,4,5,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0065,Industrial Manager,Katsina,3,3,3,5,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0066,Policymaker,Rivers,3,2,3,3,1,2,1,2024,Synthetic survey; use for scenario analysis only
+R0067,Investor,Enugu,1,4,2,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0068,DisCo Official,Kwara,4,4,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0069,Investor,Kwara,3,2,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0070,Policymaker,Anambra,4,4,3,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0071,Community Leader,Benue,2,4,4,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0072,Academic/Researcher,Yobe,2,5,4,4,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0073,DisCo Official,Kebbi,3,3,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0074,Academic/Researcher,Enugu,3,2,4,4,4,2,5,2024,Synthetic survey; use for scenario analysis only
+R0075,Academic/Researcher,Bayelsa,3,2,4,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0076,Policymaker,Jigawa,4,3,5,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0077,Academic/Researcher,Kano,4,3,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0078,DisCo Official,Borno,4,4,4,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0079,Investor,Kogi,5,4,4,3,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R0080,Investor,Niger,2,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0081,Investor,Kwara,4,4,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0082,DisCo Official,Ebonyi,4,4,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0083,Investor,Delta,3,4,4,5,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0084,Policymaker,Osun,4,3,2,1,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0085,Academic/Researcher,Katsina,4,2,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0086,Academic/Researcher,Bauchi,3,2,5,5,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0087,Industrial Manager,Rivers,2,4,5,3,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R0088,Academic/Researcher,Oyo,3,1,4,2,4,5,1,2024,Synthetic survey; use for scenario analysis only
+R0089,Industrial Manager,Rivers,3,3,3,1,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0090,Policymaker,Niger,5,3,2,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0091,Academic/Researcher,Lagos,3,4,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0092,DisCo Official,Kano,3,4,3,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0093,Policymaker,Kebbi,4,2,4,2,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0094,DisCo Official,Adamawa,2,2,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0095,Community Leader,Delta,5,4,5,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0096,Academic/Researcher,Cross River,3,2,3,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0097,Investor,Ondo,4,3,3,1,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0098,Community Leader,Kano,2,4,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0099,Policymaker,Osun,3,1,3,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0100,Industrial Manager,Oyo,2,4,3,5,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0101,Community Leader,Jigawa,2,3,4,3,5,2,5,2024,Synthetic survey; use for scenario analysis only
+R0102,Policymaker,Anambra,2,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0103,Industrial Manager,Kebbi,3,3,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0104,Industrial Manager,Bayelsa,2,4,4,5,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R0105,DisCo Official,Gombe,3,3,2,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0106,Industrial Manager,Rivers,2,2,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0107,Community Leader,Bayelsa,2,3,5,3,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R0108,Industrial Manager,Lagos,3,4,4,5,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0109,Investor,Benue,3,2,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0110,Policymaker,Oyo,4,2,2,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0111,Industrial Manager,Ekiti,4,3,3,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0112,DisCo Official,Kogi,3,3,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0113,Policymaker,Ondo,4,2,5,3,1,3,1,2024,Synthetic survey; use for scenario analysis only
+R0114,Investor,Ogun,3,4,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0115,Investor,Kaduna,3,4,2,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0116,Policymaker,Jigawa,2,2,2,5,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0117,Investor,Ebonyi,3,3,2,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0118,Policymaker,Zamfara,2,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0119,Community Leader,Sokoto,2,3,3,5,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0120,Industrial Manager,Imo,3,3,2,4,4,2,1,2024,Synthetic survey; use for scenario analysis only
+R0121,Community Leader,Borno,3,3,4,5,5,3,5,2024,Synthetic survey; use for scenario analysis only
+R0122,Investor,Kogi,2,3,2,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0123,Investor,Edo,3,2,4,4,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0124,DisCo Official,Osun,3,3,3,3,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R0125,Investor,Oyo,1,3,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0126,DisCo Official,Cross River,3,4,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0127,Industrial Manager,Borno,2,3,5,5,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0128,Industrial Manager,Imo,3,4,5,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0129,Investor,Ebonyi,2,3,4,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0130,Industrial Manager,Bayelsa,3,4,4,2,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0131,Investor,Adamawa,2,3,3,5,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0132,Industrial Manager,Anambra,2,4,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0133,DisCo Official,Kogi,3,3,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0134,Industrial Manager,Anambra,4,3,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0135,DisCo Official,Zamfara,3,2,5,5,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0136,Policymaker,Rivers,3,2,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0137,Investor,Oyo,3,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0138,Industrial Manager,Zamfara,3,2,3,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0139,Academic/Researcher,Borno,3,3,2,5,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0140,Policymaker,Rivers,4,3,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0141,Academic/Researcher,Cross River,2,4,5,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0142,Academic/Researcher,Plateau,4,3,3,4,2,2,1,2024,Synthetic survey; use for scenario analysis only
+R0143,Academic/Researcher,Kano,3,1,4,3,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0144,Academic/Researcher,FCT,1,3,2,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0145,Community Leader,Gombe,5,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0146,Academic/Researcher,Oyo,2,4,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0147,Investor,Oyo,2,3,5,5,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0148,Investor,Imo,2,3,3,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0149,DisCo Official,Kaduna,3,1,3,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0150,Academic/Researcher,Taraba,2,1,5,4,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R0151,DisCo Official,Bayelsa,2,4,4,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0152,Community Leader,Benue,2,2,3,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0153,Industrial Manager,Benue,2,4,5,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0154,Policymaker,Oyo,3,2,2,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0155,Investor,Zamfara,3,5,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0156,Industrial Manager,Nasarawa,1,3,3,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0157,DisCo Official,Zamfara,1,2,3,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0158,Academic/Researcher,Osun,3,3,5,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0159,Industrial Manager,Kebbi,3,2,4,3,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0160,Industrial Manager,Nasarawa,2,3,3,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0161,Community Leader,Ondo,3,1,3,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0162,Industrial Manager,Osun,3,3,4,1,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0163,Industrial Manager,Kaduna,3,4,5,3,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R0164,Policymaker,Taraba,4,3,2,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0165,Academic/Researcher,Ondo,2,3,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0166,Community Leader,Katsina,4,3,3,3,2,1,3,2024,Synthetic survey; use for scenario analysis only
+R0167,Policymaker,Anambra,2,3,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0168,Industrial Manager,Enugu,2,3,3,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0169,Industrial Manager,Oyo,4,3,4,2,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0170,Policymaker,Ondo,4,4,2,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0171,Investor,Kogi,5,5,3,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0172,Policymaker,Taraba,1,2,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0173,Investor,Borno,4,3,2,2,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0174,Policymaker,Anambra,3,3,4,2,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0175,Community Leader,Rivers,4,3,5,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0176,Community Leader,Sokoto,2,3,4,5,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0177,Investor,Ogun,3,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0178,DisCo Official,Lagos,2,3,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0179,Policymaker,Anambra,1,2,3,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0180,DisCo Official,Bayelsa,1,1,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0181,Industrial Manager,Ekiti,3,2,3,3,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0182,Community Leader,Ekiti,5,3,3,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0183,Community Leader,Nasarawa,4,2,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0184,Policymaker,Osun,4,5,5,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0185,Policymaker,Akwa Ibom,2,3,4,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0186,DisCo Official,FCT,3,2,5,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0187,Policymaker,Plateau,2,3,3,4,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R0188,Industrial Manager,Sokoto,1,5,4,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0189,Investor,FCT,3,3,4,4,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0190,Investor,Plateau,2,4,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0191,DisCo Official,Adamawa,2,3,2,4,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0192,Academic/Researcher,Sokoto,3,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0193,Community Leader,FCT,2,4,5,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0194,Policymaker,Anambra,3,2,3,5,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0195,Industrial Manager,Sokoto,4,3,5,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0196,DisCo Official,Taraba,2,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0197,Investor,Nasarawa,4,3,3,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0198,Investor,Cross River,3,4,2,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0199,Community Leader,Bauchi,2,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0200,Policymaker,FCT,5,1,5,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0201,Academic/Researcher,Kaduna,3,1,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0202,Industrial Manager,Bayelsa,2,4,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0203,Policymaker,Yobe,2,2,4,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0204,DisCo Official,Niger,4,3,4,5,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0205,Community Leader,Lagos,3,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0206,DisCo Official,Imo,4,4,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0207,Industrial Manager,Nasarawa,2,4,4,3,2,5,5,2024,Synthetic survey; use for scenario analysis only
+R0208,Community Leader,Kano,1,2,5,4,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0209,DisCo Official,Plateau,5,2,3,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0210,Academic/Researcher,Edo,3,2,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0211,DisCo Official,Bauchi,4,1,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0212,Policymaker,Bauchi,2,2,4,2,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0213,Policymaker,Taraba,5,3,3,2,1,2,3,2024,Synthetic survey; use for scenario analysis only
+R0214,Investor,Kogi,3,4,5,2,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0215,DisCo Official,Ogun,3,3,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0216,Policymaker,Rivers,4,5,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0217,Investor,Delta,3,4,4,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0218,Industrial Manager,Kano,2,5,4,4,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0219,Investor,Gombe,2,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0220,Investor,Ogun,3,2,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0221,Community Leader,Enugu,3,4,4,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0222,Industrial Manager,Imo,3,3,3,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0223,Industrial Manager,Kogi,2,4,4,5,4,1,2,2024,Synthetic survey; use for scenario analysis only
+R0224,DisCo Official,Borno,2,3,4,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0225,Academic/Researcher,Lagos,2,3,2,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0226,Community Leader,Katsina,4,3,3,5,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0227,Policymaker,Yobe,2,3,3,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0228,Community Leader,Kaduna,3,3,4,3,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R0229,Policymaker,Yobe,2,3,3,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0230,Policymaker,Taraba,1,3,5,3,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R0231,Industrial Manager,Ondo,3,5,5,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0232,Investor,Kogi,4,4,3,2,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R0233,Industrial Manager,Zamfara,3,4,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0234,Investor,Benue,5,4,5,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0235,Investor,Cross River,3,5,4,2,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0236,Policymaker,Lagos,3,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0237,DisCo Official,Osun,4,3,5,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0238,DisCo Official,Bauchi,3,3,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0239,DisCo Official,Kebbi,3,3,5,2,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0240,Policymaker,Adamawa,3,4,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0241,Investor,Cross River,4,3,5,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0242,Investor,Ebonyi,4,4,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0243,Industrial Manager,Abia,3,4,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0244,Policymaker,Cross River,3,2,4,5,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0245,DisCo Official,Cross River,2,4,5,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0246,Community Leader,Ondo,3,2,4,3,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R0247,Community Leader,Bayelsa,3,3,5,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0248,Investor,Bayelsa,2,3,5,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0249,Investor,Kano,3,4,4,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0250,Policymaker,Borno,2,3,5,5,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0251,DisCo Official,Cross River,2,4,3,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0252,Academic/Researcher,Bauchi,3,3,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0253,Investor,Rivers,3,2,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0254,Community Leader,Delta,3,2,3,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0255,Investor,Ogun,3,1,4,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0256,Investor,Edo,3,4,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0257,Investor,Imo,3,4,4,3,4,2,5,2024,Synthetic survey; use for scenario analysis only
+R0258,DisCo Official,Sokoto,3,4,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0259,Policymaker,Zamfara,3,3,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0260,Industrial Manager,Gombe,3,4,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0261,Investor,Niger,3,4,4,3,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0262,Industrial Manager,Edo,4,3,5,4,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0263,DisCo Official,Katsina,4,3,3,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0264,Policymaker,Ekiti,4,3,2,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0265,Academic/Researcher,Kogi,2,2,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0266,Community Leader,Sokoto,2,4,4,5,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0267,Industrial Manager,FCT,4,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0268,Policymaker,Bauchi,3,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0269,Policymaker,Katsina,3,3,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0270,Policymaker,Katsina,3,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0271,Industrial Manager,Bayelsa,4,4,4,2,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0272,Community Leader,Kogi,3,3,4,3,5,4,5,2024,Synthetic survey; use for scenario analysis only
+R0273,Policymaker,Yobe,3,2,2,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0274,Community Leader,Ekiti,1,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0275,Industrial Manager,Adamawa,4,3,3,2,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0276,Policymaker,Anambra,3,3,5,4,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0277,Community Leader,Kogi,3,3,3,5,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0278,Policymaker,Yobe,4,2,4,3,4,2,1,2024,Synthetic survey; use for scenario analysis only
+R0279,Community Leader,Taraba,4,1,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0280,Policymaker,Jigawa,2,3,4,4,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R0281,Policymaker,Sokoto,2,4,4,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0282,Investor,Anambra,3,3,1,1,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R0283,Community Leader,Edo,3,4,4,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0284,Community Leader,Zamfara,4,4,3,4,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0285,Industrial Manager,Bayelsa,4,4,5,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0286,Community Leader,Katsina,2,3,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0287,DisCo Official,Bauchi,1,4,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0288,Investor,Plateau,5,3,3,5,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0289,Community Leader,Edo,2,4,3,4,5,3,1,2024,Synthetic survey; use for scenario analysis only
+R0290,Academic/Researcher,Akwa Ibom,2,3,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0291,Policymaker,Delta,3,3,3,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0292,Investor,Kebbi,2,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0293,Industrial Manager,Anambra,2,4,5,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0294,Policymaker,Zamfara,3,2,2,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0295,DisCo Official,Imo,3,3,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0296,Academic/Researcher,Oyo,3,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0297,DisCo Official,Enugu,4,3,2,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0298,Policymaker,Zamfara,3,2,3,3,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0299,Investor,Oyo,3,3,4,4,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0300,Policymaker,Imo,4,4,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0301,DisCo Official,Ondo,2,3,4,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0302,Academic/Researcher,Niger,3,4,3,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0303,Academic/Researcher,Oyo,2,3,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0304,Academic/Researcher,Delta,3,4,5,5,5,5,3,2024,Synthetic survey; use for scenario analysis only
+R0305,Community Leader,Akwa Ibom,1,4,1,5,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0306,Industrial Manager,Bayelsa,5,3,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0307,Investor,Sokoto,3,3,4,4,1,2,3,2024,Synthetic survey; use for scenario analysis only
+R0308,Industrial Manager,Kaduna,3,4,2,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0309,Policymaker,Akwa Ibom,3,4,3,2,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0310,Industrial Manager,Oyo,2,5,3,5,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0311,Policymaker,Benue,4,3,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0312,Industrial Manager,Ekiti,2,1,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0313,Industrial Manager,Rivers,3,3,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0314,Community Leader,Anambra,3,3,5,5,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R0315,Academic/Researcher,Nasarawa,3,2,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0316,DisCo Official,Kogi,2,4,5,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0317,Community Leader,Zamfara,3,2,4,4,3,5,1,2024,Synthetic survey; use for scenario analysis only
+R0318,Investor,Abia,3,3,4,4,5,4,4,2024,Synthetic survey; use for scenario analysis only
+R0319,DisCo Official,Jigawa,2,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0320,Industrial Manager,Abia,2,2,4,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0321,DisCo Official,Benue,2,3,3,4,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0322,Community Leader,Delta,3,2,4,5,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0323,DisCo Official,Cross River,3,2,4,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0324,Academic/Researcher,Ekiti,3,2,5,3,2,1,3,2024,Synthetic survey; use for scenario analysis only
+R0325,DisCo Official,Rivers,3,3,3,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0326,Academic/Researcher,Edo,2,5,3,3,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R0327,Policymaker,Kebbi,2,4,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0328,Policymaker,Ekiti,2,1,4,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0329,Community Leader,Ekiti,2,5,5,2,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0330,DisCo Official,Edo,3,3,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0331,Community Leader,Plateau,3,1,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0332,Academic/Researcher,Ekiti,3,3,1,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0333,Industrial Manager,Gombe,3,5,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0334,DisCo Official,Osun,3,3,2,2,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0335,Policymaker,Kogi,3,2,5,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0336,Industrial Manager,Rivers,3,4,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0337,Academic/Researcher,Anambra,3,3,5,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0338,DisCo Official,Oyo,3,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0339,Academic/Researcher,Jigawa,2,2,2,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0340,Policymaker,Ekiti,5,2,3,5,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0341,Community Leader,Akwa Ibom,1,2,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0342,Academic/Researcher,Plateau,3,3,4,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0343,Community Leader,Osun,4,3,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0344,DisCo Official,Ogun,5,3,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0345,Community Leader,Kebbi,2,4,2,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0346,Policymaker,Jigawa,4,4,2,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0347,Community Leader,Anambra,5,3,5,5,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0348,DisCo Official,Adamawa,3,4,2,3,1,2,3,2024,Synthetic survey; use for scenario analysis only
+R0349,Policymaker,Ondo,4,3,3,5,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0350,Investor,Kebbi,2,2,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0351,Investor,Lagos,4,5,5,3,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R0352,Policymaker,Ebonyi,3,4,4,4,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0353,Investor,Lagos,2,4,2,4,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0354,Policymaker,Adamawa,3,4,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0355,Academic/Researcher,Kano,4,2,3,3,2,5,4,2024,Synthetic survey; use for scenario analysis only
+R0356,DisCo Official,Yobe,1,3,2,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0357,Investor,FCT,4,3,3,2,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R0358,Policymaker,Cross River,4,3,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0359,Policymaker,Enugu,1,3,4,3,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0360,Policymaker,Osun,2,2,2,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0361,Policymaker,Oyo,4,2,5,3,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0362,Academic/Researcher,Katsina,4,2,4,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0363,DisCo Official,Kaduna,3,3,2,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0364,Investor,Yobe,1,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0365,Investor,Edo,2,3,3,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0366,Policymaker,Taraba,2,2,5,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0367,Investor,Anambra,3,5,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0368,Academic/Researcher,Akwa Ibom,2,2,4,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0369,Investor,Yobe,2,4,4,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0370,Investor,Katsina,4,3,4,3,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R0371,Policymaker,FCT,4,2,3,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0372,DisCo Official,Ondo,1,3,5,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0373,Policymaker,Jigawa,3,3,3,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0374,DisCo Official,Anambra,3,3,2,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0375,Industrial Manager,Katsina,1,3,2,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0376,Community Leader,Kebbi,3,2,4,5,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0377,Investor,Abia,4,4,4,5,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R0378,Policymaker,Borno,3,2,4,3,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R0379,Academic/Researcher,Ondo,2,3,3,3,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R0380,Academic/Researcher,Abia,3,2,3,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0381,Community Leader,Taraba,4,1,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0382,Investor,Kebbi,3,4,4,4,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0383,DisCo Official,Niger,2,4,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0384,Investor,Akwa Ibom,2,3,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0385,Industrial Manager,Kaduna,3,2,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0386,Academic/Researcher,Kaduna,4,3,3,3,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R0387,DisCo Official,Abia,2,2,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0388,Investor,Kogi,3,4,5,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0389,DisCo Official,Ekiti,4,4,3,3,3,1,2,2024,Synthetic survey; use for scenario analysis only
+R0390,Industrial Manager,Kaduna,3,3,3,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0391,Investor,Gombe,4,4,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0392,Academic/Researcher,Zamfara,4,2,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0393,Investor,Ogun,3,4,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0394,Industrial Manager,Edo,2,3,3,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0395,Investor,Bauchi,3,1,4,2,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0396,Industrial Manager,Yobe,2,3,5,2,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0397,Academic/Researcher,Kaduna,4,4,4,4,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R0398,Investor,Ebonyi,2,3,3,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0399,Community Leader,Oyo,3,3,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0400,DisCo Official,Lagos,2,2,4,5,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0401,Academic/Researcher,Jigawa,3,2,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0402,Academic/Researcher,Imo,2,1,5,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0403,Policymaker,Abia,3,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0404,Investor,Borno,4,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0405,Academic/Researcher,Ebonyi,2,2,4,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0406,Community Leader,Anambra,3,4,5,2,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0407,Investor,Kaduna,4,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0408,Academic/Researcher,Edo,3,2,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0409,Industrial Manager,FCT,3,4,5,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0410,Community Leader,Oyo,2,4,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0411,Investor,Cross River,4,3,5,3,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0412,Investor,Sokoto,4,1,5,2,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0413,Investor,Zamfara,3,3,3,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0414,Community Leader,Abia,2,2,2,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0415,Investor,Katsina,3,3,3,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0416,Investor,Nasarawa,3,3,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0417,DisCo Official,Kano,2,2,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0418,Community Leader,Benue,5,3,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0419,Community Leader,Lagos,3,3,4,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0420,Industrial Manager,Akwa Ibom,3,3,2,2,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R0421,Industrial Manager,Edo,2,2,4,5,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0422,Academic/Researcher,FCT,3,2,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0423,DisCo Official,Nasarawa,2,4,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0424,Academic/Researcher,Kogi,3,2,5,4,5,2,3,2024,Synthetic survey; use for scenario analysis only
+R0425,Industrial Manager,Imo,3,4,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0426,Academic/Researcher,Zamfara,3,3,5,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0427,Policymaker,Osun,4,2,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0428,DisCo Official,Niger,4,4,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0429,Investor,Kebbi,5,4,3,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0430,Community Leader,Plateau,3,3,3,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0431,Academic/Researcher,Kogi,3,3,5,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0432,Industrial Manager,Oyo,2,3,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0433,Community Leader,Rivers,3,3,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0434,Policymaker,Edo,3,2,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0435,Policymaker,Benue,2,4,4,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0436,Policymaker,Ogun,2,3,5,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0437,Community Leader,Zamfara,2,1,3,2,1,3,4,2024,Synthetic survey; use for scenario analysis only
+R0438,Investor,Delta,5,3,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0439,Academic/Researcher,Katsina,3,2,3,3,2,4,5,2024,Synthetic survey; use for scenario analysis only
+R0440,Policymaker,Benue,4,2,4,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0441,Industrial Manager,Niger,4,4,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0442,DisCo Official,Katsina,4,2,3,3,1,3,4,2024,Synthetic survey; use for scenario analysis only
+R0443,Investor,Delta,4,2,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0444,DisCo Official,FCT,3,2,5,3,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R0445,DisCo Official,Sokoto,4,3,4,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0446,Industrial Manager,Enugu,2,3,4,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0447,Policymaker,Sokoto,3,2,4,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0448,DisCo Official,Ondo,4,2,3,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0449,DisCo Official,Oyo,1,3,5,3,5,5,2,2024,Synthetic survey; use for scenario analysis only
+R0450,Policymaker,Zamfara,3,2,4,1,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0451,Industrial Manager,Ondo,3,4,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0452,Academic/Researcher,Abia,4,2,3,3,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R0453,Academic/Researcher,FCT,3,2,4,5,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0454,Policymaker,FCT,2,3,5,4,5,5,2,2024,Synthetic survey; use for scenario analysis only
+R0455,Investor,Jigawa,3,5,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0456,Academic/Researcher,Ondo,4,3,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0457,Community Leader,Benue,3,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0458,Policymaker,Kwara,4,1,4,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0459,Policymaker,Bauchi,2,3,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0460,Policymaker,Ondo,3,3,5,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0461,Community Leader,Oyo,1,4,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0462,Policymaker,Kano,3,3,5,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0463,DisCo Official,Abia,3,3,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0464,Academic/Researcher,Delta,2,3,4,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0465,Investor,Anambra,4,4,3,2,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0466,DisCo Official,Ondo,3,3,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0467,Investor,Ondo,2,3,2,3,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R0468,Academic/Researcher,Yobe,3,3,5,2,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0469,Investor,Rivers,3,4,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0470,Academic/Researcher,Lagos,2,3,5,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0471,DisCo Official,Borno,4,4,5,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0472,Industrial Manager,Zamfara,3,3,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0473,Community Leader,Bauchi,5,3,2,2,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0474,Investor,Niger,2,4,2,5,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0475,DisCo Official,Bauchi,5,2,5,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0476,Investor,Edo,3,2,3,3,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0477,Investor,Ogun,3,3,4,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0478,DisCo Official,Katsina,3,1,3,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0479,DisCo Official,Gombe,2,3,4,1,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0480,Investor,Akwa Ibom,3,4,3,1,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0481,Community Leader,Enugu,3,3,4,2,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0482,Community Leader,Benue,2,4,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0483,DisCo Official,Bayelsa,2,2,4,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0484,Investor,Zamfara,3,3,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0485,Industrial Manager,Kebbi,2,5,2,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0486,Industrial Manager,Lagos,2,4,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0487,Community Leader,Anambra,2,1,5,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0488,Community Leader,Cross River,4,2,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0489,Policymaker,Cross River,3,2,4,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0490,Community Leader,Bauchi,3,3,5,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0491,DisCo Official,Kogi,3,4,3,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0492,Academic/Researcher,Delta,2,1,4,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0493,Industrial Manager,Borno,3,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0494,DisCo Official,Ondo,4,2,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0495,Academic/Researcher,Oyo,1,1,3,2,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R0496,Industrial Manager,Kaduna,3,4,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0497,Investor,Jigawa,2,2,3,4,3,5,1,2024,Synthetic survey; use for scenario analysis only
+R0498,Academic/Researcher,Benue,5,4,3,3,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R0499,Academic/Researcher,Adamawa,5,3,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0500,DisCo Official,Gombe,2,5,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0501,Industrial Manager,Yobe,4,3,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0502,Investor,FCT,3,2,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0503,Community Leader,Enugu,2,2,3,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0504,Policymaker,Delta,2,2,3,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0505,Community Leader,Katsina,3,2,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0506,Investor,Jigawa,4,4,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0507,Academic/Researcher,Zamfara,2,2,4,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0508,Policymaker,Kwara,4,3,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0509,Industrial Manager,Jigawa,4,3,3,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0510,Academic/Researcher,Plateau,3,2,2,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0511,Policymaker,Katsina,1,4,3,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0512,Policymaker,Akwa Ibom,3,3,3,1,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0513,Investor,Anambra,3,4,5,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0514,Investor,Sokoto,5,4,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0515,Academic/Researcher,Taraba,4,3,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0516,DisCo Official,Katsina,4,2,2,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0517,Policymaker,Kwara,4,4,3,1,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0518,Community Leader,Kebbi,3,2,3,4,5,4,4,2024,Synthetic survey; use for scenario analysis only
+R0519,Policymaker,Kano,2,4,2,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0520,DisCo Official,Abia,4,1,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0521,Academic/Researcher,Oyo,2,3,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0522,Community Leader,Anambra,2,3,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0523,Academic/Researcher,Kano,3,3,5,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0524,Academic/Researcher,Yobe,2,3,4,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0525,DisCo Official,Lagos,4,1,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0526,Policymaker,Sokoto,2,3,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0527,Industrial Manager,Oyo,3,2,4,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0528,Academic/Researcher,Kogi,4,4,3,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0529,Academic/Researcher,FCT,2,1,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0530,Policymaker,Niger,2,4,4,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0531,DisCo Official,Bauchi,3,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0532,Industrial Manager,Edo,2,4,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0533,Community Leader,Oyo,4,4,5,2,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0534,Academic/Researcher,Kano,3,2,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0535,DisCo Official,Bauchi,4,3,5,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0536,Academic/Researcher,Borno,3,4,2,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0537,Policymaker,Gombe,2,4,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0538,Industrial Manager,Ondo,3,2,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0539,Academic/Researcher,Kano,3,2,5,2,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0540,Policymaker,Lagos,4,3,3,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0541,Industrial Manager,Kebbi,3,3,2,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0542,DisCo Official,Ekiti,5,3,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0543,DisCo Official,Borno,4,3,3,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0544,DisCo Official,Zamfara,4,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0545,Policymaker,Anambra,3,3,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0546,Academic/Researcher,Kogi,2,2,5,3,2,1,2,2024,Synthetic survey; use for scenario analysis only
+R0547,Policymaker,Zamfara,4,4,4,3,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0548,Community Leader,FCT,2,4,5,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0549,DisCo Official,Katsina,3,3,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0550,Community Leader,Rivers,2,4,5,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0551,Academic/Researcher,Osun,2,3,3,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0552,Academic/Researcher,Ogun,4,3,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0553,Industrial Manager,Zamfara,3,3,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0554,Academic/Researcher,Benue,4,2,2,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0555,Community Leader,Cross River,4,2,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0556,Academic/Researcher,Ondo,3,3,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0557,Policymaker,Kogi,4,3,3,3,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0558,Industrial Manager,Abia,4,3,2,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0559,Investor,Nasarawa,2,2,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0560,DisCo Official,Niger,4,5,5,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0561,Investor,Plateau,2,1,4,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0562,Policymaker,Edo,2,2,4,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0563,Industrial Manager,Zamfara,2,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0564,Policymaker,Kwara,3,4,4,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0565,DisCo Official,Osun,2,3,3,3,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0566,Academic/Researcher,Kano,2,1,2,3,3,1,4,2024,Synthetic survey; use for scenario analysis only
+R0567,Academic/Researcher,Kebbi,1,4,4,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0568,Academic/Researcher,Imo,2,4,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0569,Academic/Researcher,Adamawa,3,3,2,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0570,Industrial Manager,Borno,5,2,2,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0571,Investor,Gombe,1,3,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0572,Policymaker,Niger,3,3,3,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0573,DisCo Official,Anambra,2,2,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0574,Academic/Researcher,FCT,1,2,5,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0575,Policymaker,Lagos,2,1,3,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0576,Investor,Jigawa,3,3,4,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0577,Investor,Gombe,3,2,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0578,Industrial Manager,Abia,3,2,4,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0579,Industrial Manager,Adamawa,3,3,2,2,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R0580,Industrial Manager,Cross River,5,2,5,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0581,Community Leader,Imo,3,4,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0582,DisCo Official,Imo,2,3,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0583,DisCo Official,Edo,2,3,5,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0584,Community Leader,Benue,4,4,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0585,Policymaker,Adamawa,3,2,2,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0586,Academic/Researcher,Abia,1,1,3,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0587,Industrial Manager,Taraba,3,4,3,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0588,DisCo Official,Nasarawa,3,5,5,3,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0589,Policymaker,Kaduna,3,2,4,4,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0590,DisCo Official,Plateau,2,4,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0591,Academic/Researcher,Gombe,3,3,3,3,1,3,1,2024,Synthetic survey; use for scenario analysis only
+R0592,Industrial Manager,Kebbi,4,5,4,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0593,Policymaker,Taraba,4,4,4,3,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R0594,Industrial Manager,Gombe,3,3,3,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0595,Policymaker,Ebonyi,3,3,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0596,DisCo Official,Nasarawa,3,2,5,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0597,Industrial Manager,Edo,3,4,4,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0598,Industrial Manager,Cross River,4,5,5,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0599,Industrial Manager,Abia,3,4,3,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0600,Community Leader,Delta,2,2,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0601,Community Leader,Plateau,3,3,4,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0602,Industrial Manager,Kwara,5,5,2,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0603,Industrial Manager,Ekiti,3,4,5,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0604,DisCo Official,Kaduna,3,3,4,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0605,Industrial Manager,Taraba,4,5,3,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0606,Community Leader,Katsina,3,3,4,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0607,Community Leader,Bauchi,2,3,4,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0608,Investor,Ekiti,3,2,2,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0609,Community Leader,Borno,4,2,4,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0610,Academic/Researcher,Ebonyi,2,2,3,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0611,Community Leader,Oyo,3,2,3,2,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0612,Academic/Researcher,Delta,2,4,3,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0613,Academic/Researcher,Akwa Ibom,2,3,4,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0614,Investor,Niger,4,4,3,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0615,DisCo Official,Ebonyi,2,1,4,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0616,DisCo Official,Osun,2,3,4,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0617,DisCo Official,Ogun,3,1,3,3,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0618,Industrial Manager,Rivers,2,4,3,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0619,DisCo Official,Kwara,4,4,5,4,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0620,Policymaker,Enugu,3,3,2,3,5,2,3,2024,Synthetic survey; use for scenario analysis only
+R0621,Industrial Manager,Bauchi,2,4,2,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0622,Policymaker,Kwara,1,3,2,4,1,5,3,2024,Synthetic survey; use for scenario analysis only
+R0623,Policymaker,Bayelsa,5,4,3,5,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0624,Community Leader,Sokoto,2,3,4,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0625,Policymaker,Ondo,3,3,4,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0626,Academic/Researcher,Kebbi,3,2,2,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0627,Policymaker,Kano,1,2,3,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0628,Community Leader,Kogi,5,2,5,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0629,Community Leader,Delta,3,3,5,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0630,Investor,Katsina,4,4,4,1,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0631,Industrial Manager,Nasarawa,4,3,5,3,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0632,Investor,Kaduna,3,2,4,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0633,Academic/Researcher,Ondo,3,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0634,Community Leader,Ondo,3,2,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0635,DisCo Official,Ekiti,4,3,2,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0636,Academic/Researcher,Rivers,4,5,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0637,DisCo Official,Abia,3,4,5,3,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R0638,Policymaker,Kaduna,4,4,5,5,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R0639,Academic/Researcher,Bayelsa,3,3,5,3,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R0640,Industrial Manager,Niger,3,3,3,4,4,1,2,2024,Synthetic survey; use for scenario analysis only
+R0641,Community Leader,Edo,3,2,2,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0642,Community Leader,Adamawa,3,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0643,Investor,Kaduna,2,4,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0644,Investor,Kwara,3,2,3,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0645,Industrial Manager,Kwara,2,3,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0646,Community Leader,Anambra,3,3,5,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0647,Industrial Manager,Rivers,3,4,4,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0648,DisCo Official,Jigawa,5,2,2,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0649,Academic/Researcher,Kaduna,2,4,3,5,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0650,Academic/Researcher,Sokoto,4,4,2,3,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R0651,Industrial Manager,Cross River,4,3,3,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0652,DisCo Official,Edo,2,3,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0653,Community Leader,Kano,3,3,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0654,Industrial Manager,Ekiti,2,4,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0655,Industrial Manager,Kano,2,2,4,1,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0656,Industrial Manager,Delta,4,4,2,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0657,Investor,Gombe,3,3,4,2,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0658,Academic/Researcher,Abia,3,3,4,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0659,Academic/Researcher,Edo,1,4,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0660,DisCo Official,Borno,3,2,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0661,Industrial Manager,Katsina,2,3,2,4,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0662,Policymaker,Ekiti,4,4,2,4,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0663,Investor,Plateau,3,2,2,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0664,Investor,Ebonyi,1,5,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0665,Policymaker,Plateau,3,4,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0666,Academic/Researcher,Nasarawa,4,4,4,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0667,Community Leader,Cross River,4,3,4,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0668,DisCo Official,Benue,3,3,2,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0669,Policymaker,Plateau,2,3,4,2,5,3,5,2024,Synthetic survey; use for scenario analysis only
+R0670,Industrial Manager,Lagos,3,2,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0671,DisCo Official,Ebonyi,3,3,3,2,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0672,Academic/Researcher,Oyo,2,1,4,3,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R0673,Academic/Researcher,Kogi,3,2,5,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0674,Investor,Kebbi,2,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0675,Community Leader,Kano,1,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0676,Policymaker,Zamfara,4,2,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0677,Academic/Researcher,Lagos,3,3,2,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0678,Community Leader,Kano,2,2,4,2,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0679,Academic/Researcher,Enugu,3,3,5,3,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0680,Industrial Manager,Kebbi,4,3,5,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0681,DisCo Official,Rivers,3,2,3,3,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0682,Community Leader,Adamawa,3,2,3,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0683,Policymaker,Jigawa,4,2,2,2,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0684,DisCo Official,Osun,2,3,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0685,Industrial Manager,Enugu,3,3,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0686,Industrial Manager,Gombe,4,3,3,1,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0687,Community Leader,Ebonyi,3,3,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0688,Industrial Manager,Anambra,3,3,3,2,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0689,DisCo Official,Bayelsa,2,4,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0690,Academic/Researcher,Sokoto,4,3,5,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0691,Academic/Researcher,Lagos,4,1,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0692,Academic/Researcher,Anambra,4,2,4,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0693,DisCo Official,Delta,2,4,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0694,Industrial Manager,Gombe,2,3,4,3,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0695,Academic/Researcher,Gombe,4,2,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0696,Community Leader,Kano,4,3,5,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0697,Policymaker,Akwa Ibom,3,3,4,2,3,1,2,2024,Synthetic survey; use for scenario analysis only
+R0698,Industrial Manager,Ebonyi,4,3,3,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0699,Policymaker,Adamawa,3,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0700,Academic/Researcher,Bayelsa,4,3,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0701,Academic/Researcher,Niger,3,2,2,4,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0702,Community Leader,Bayelsa,2,2,4,5,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0703,Industrial Manager,Yobe,2,2,5,2,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0704,Policymaker,Imo,4,4,5,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0705,Policymaker,Plateau,4,4,4,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0706,Community Leader,Enugu,3,4,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0707,DisCo Official,Imo,3,4,4,5,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0708,Investor,Nasarawa,3,3,2,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0709,Industrial Manager,Anambra,3,4,5,2,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R0710,Industrial Manager,Abia,2,3,5,3,4,2,5,2024,Synthetic survey; use for scenario analysis only
+R0711,Academic/Researcher,Akwa Ibom,2,2,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0712,Community Leader,Imo,4,3,4,5,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0713,Policymaker,Kaduna,4,2,5,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0714,Policymaker,Delta,4,1,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0715,Community Leader,Akwa Ibom,2,3,3,3,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0716,Academic/Researcher,Plateau,4,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0717,DisCo Official,Edo,4,2,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0718,Academic/Researcher,Edo,3,2,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0719,Investor,Borno,2,4,5,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0720,Policymaker,Jigawa,2,3,4,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0721,Investor,Zamfara,4,5,4,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0722,Industrial Manager,Nasarawa,3,3,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0723,Policymaker,Nasarawa,3,4,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0724,Investor,Cross River,2,3,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0725,DisCo Official,Zamfara,3,3,3,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0726,Policymaker,FCT,4,2,2,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0727,Policymaker,Ogun,4,4,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0728,Academic/Researcher,Anambra,4,1,3,2,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0729,Investor,Zamfara,3,2,2,3,5,3,1,2024,Synthetic survey; use for scenario analysis only
+R0730,Policymaker,Akwa Ibom,3,4,5,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0731,Academic/Researcher,Imo,2,4,4,3,5,5,3,2024,Synthetic survey; use for scenario analysis only
+R0732,Policymaker,Taraba,4,4,4,5,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0733,Investor,Plateau,2,5,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0734,Community Leader,Abia,3,3,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0735,Community Leader,Gombe,2,3,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0736,Community Leader,Delta,3,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0737,DisCo Official,Zamfara,3,2,3,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0738,Academic/Researcher,Yobe,4,3,4,3,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R0739,Policymaker,FCT,3,2,3,4,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R0740,Policymaker,Kogi,4,2,4,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0741,Academic/Researcher,FCT,2,2,5,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0742,Policymaker,Niger,2,3,2,3,2,4,1,2024,Synthetic survey; use for scenario analysis only
+R0743,Academic/Researcher,Enugu,3,4,3,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0744,Policymaker,Kano,4,3,5,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0745,Community Leader,Rivers,3,3,2,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0746,DisCo Official,Akwa Ibom,4,3,2,5,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R0747,Industrial Manager,Anambra,4,3,2,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0748,Industrial Manager,Yobe,2,4,4,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0749,DisCo Official,Ondo,3,2,4,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0750,Policymaker,Abia,3,3,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0751,Policymaker,Kwara,3,2,4,2,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0752,Policymaker,Sokoto,4,3,3,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0753,Industrial Manager,Bayelsa,3,4,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0754,Academic/Researcher,Anambra,3,5,3,4,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R0755,Investor,Yobe,4,2,3,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0756,Policymaker,Ondo,3,2,2,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0757,Investor,Nasarawa,3,1,5,4,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0758,Academic/Researcher,Kaduna,2,3,5,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0759,Academic/Researcher,Imo,3,4,3,1,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0760,DisCo Official,Borno,4,4,4,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0761,Community Leader,Zamfara,3,1,3,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0762,Academic/Researcher,Cross River,2,3,3,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0763,DisCo Official,Osun,4,4,4,3,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R0764,DisCo Official,Sokoto,3,2,4,4,1,2,2,2024,Synthetic survey; use for scenario analysis only
+R0765,Policymaker,Plateau,3,2,4,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0766,Academic/Researcher,Borno,3,2,3,4,3,1,2,2024,Synthetic survey; use for scenario analysis only
+R0767,Industrial Manager,Niger,4,4,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0768,Industrial Manager,Delta,4,4,5,5,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0769,Investor,Plateau,4,3,4,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0770,Policymaker,Oyo,3,4,2,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0771,Investor,Ondo,4,4,5,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R0772,Industrial Manager,Ondo,3,3,2,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0773,Investor,Kano,3,3,3,3,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R0774,Community Leader,Oyo,3,3,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0775,Community Leader,Gombe,4,1,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0776,Industrial Manager,Kebbi,2,2,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0777,Industrial Manager,Taraba,3,4,4,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0778,DisCo Official,Edo,4,3,4,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0779,Policymaker,Borno,4,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0780,DisCo Official,Osun,3,2,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0781,Academic/Researcher,Benue,3,4,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0782,Community Leader,Kwara,3,2,3,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0783,Industrial Manager,Abia,4,1,3,2,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0784,DisCo Official,Lagos,3,5,4,4,5,3,4,2024,Synthetic survey; use for scenario analysis only
+R0785,Academic/Researcher,Zamfara,3,3,3,2,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R0786,Academic/Researcher,Katsina,3,4,2,2,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R0787,Investor,Katsina,2,4,3,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0788,Industrial Manager,Edo,3,2,5,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R0789,Investor,Bauchi,1,3,4,3,5,5,2,2024,Synthetic survey; use for scenario analysis only
+R0790,Policymaker,Edo,4,4,2,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0791,Industrial Manager,FCT,3,2,3,2,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0792,Community Leader,FCT,2,5,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0793,Industrial Manager,Ekiti,4,3,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0794,Investor,Zamfara,4,4,5,3,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0795,Academic/Researcher,Jigawa,3,4,5,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0796,Policymaker,Anambra,3,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0797,Policymaker,Kwara,3,3,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0798,DisCo Official,Bayelsa,4,4,2,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0799,Community Leader,Ekiti,3,3,3,3,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R0800,DisCo Official,Imo,2,3,5,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0801,Community Leader,Bauchi,3,2,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0802,DisCo Official,Bauchi,3,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0803,Industrial Manager,Anambra,2,3,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0804,Industrial Manager,Osun,2,2,5,4,2,2,5,2024,Synthetic survey; use for scenario analysis only
+R0805,Industrial Manager,Osun,2,3,4,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0806,Community Leader,Rivers,1,3,5,3,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R0807,Industrial Manager,Cross River,3,4,5,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0808,DisCo Official,Kebbi,2,2,5,2,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0809,Academic/Researcher,Anambra,2,3,4,5,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0810,Policymaker,Kebbi,2,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0811,Industrial Manager,Plateau,3,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0812,DisCo Official,Lagos,1,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0813,Industrial Manager,Delta,3,4,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0814,DisCo Official,Edo,4,2,5,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0815,Industrial Manager,Cross River,2,4,5,5,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0816,Academic/Researcher,Ogun,2,3,3,5,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R0817,Policymaker,Kwara,3,4,2,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0818,Community Leader,Katsina,2,3,5,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0819,Policymaker,Enugu,3,1,4,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0820,DisCo Official,Plateau,2,2,4,3,2,1,3,2024,Synthetic survey; use for scenario analysis only
+R0821,Policymaker,Jigawa,2,2,4,2,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0822,Community Leader,Kano,3,2,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0823,Industrial Manager,Kaduna,2,3,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0824,Policymaker,Katsina,3,3,4,3,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R0825,DisCo Official,Rivers,2,3,4,1,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0826,Community Leader,Kebbi,3,3,5,4,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R0827,Community Leader,Taraba,3,3,3,5,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0828,Investor,Abia,4,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0829,Investor,Enugu,2,3,4,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0830,Community Leader,Ogun,2,3,2,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0831,Academic/Researcher,Cross River,2,4,2,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0832,Investor,Taraba,4,3,5,3,3,5,5,2024,Synthetic survey; use for scenario analysis only
+R0833,DisCo Official,Zamfara,2,2,2,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0834,Community Leader,Oyo,4,4,4,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0835,Academic/Researcher,Edo,4,3,3,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0836,Investor,Sokoto,4,3,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0837,Community Leader,Borno,4,3,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0838,Investor,Oyo,2,4,5,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0839,Community Leader,Abia,4,3,4,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0840,Policymaker,Zamfara,3,3,4,2,1,2,4,2024,Synthetic survey; use for scenario analysis only
+R0841,DisCo Official,Nasarawa,2,2,4,4,4,2,1,2024,Synthetic survey; use for scenario analysis only
+R0842,Community Leader,Zamfara,4,4,4,5,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R0843,Academic/Researcher,Kaduna,3,3,3,1,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0844,DisCo Official,Bauchi,3,3,3,4,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0845,Industrial Manager,Osun,4,3,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0846,DisCo Official,Borno,3,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0847,Investor,Gombe,3,2,3,4,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0848,Industrial Manager,Taraba,3,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0849,Community Leader,Enugu,3,1,3,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R0850,Investor,Benue,3,3,4,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0851,Community Leader,Kwara,4,2,4,3,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0852,Industrial Manager,Ebonyi,3,3,3,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0853,Academic/Researcher,Enugu,4,2,3,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0854,Industrial Manager,Lagos,3,3,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0855,Community Leader,Niger,3,4,4,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0856,Industrial Manager,Katsina,3,5,3,2,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R0857,Investor,Katsina,4,3,4,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0858,Academic/Researcher,Abia,3,3,5,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0859,Academic/Researcher,Bayelsa,4,3,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0860,Policymaker,Kebbi,2,3,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0861,DisCo Official,Adamawa,3,4,3,4,5,4,5,2024,Synthetic survey; use for scenario analysis only
+R0862,Investor,FCT,3,3,3,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0863,Industrial Manager,Ekiti,5,4,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0864,Academic/Researcher,Bayelsa,2,2,4,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0865,DisCo Official,Kaduna,1,2,4,5,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R0866,Policymaker,Ondo,4,2,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0867,Policymaker,Ogun,4,2,5,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0868,Policymaker,Kaduna,4,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0869,Community Leader,Abia,4,3,3,2,5,2,4,2024,Synthetic survey; use for scenario analysis only
+R0870,Policymaker,Kano,3,2,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0871,Academic/Researcher,Ebonyi,3,4,4,5,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R0872,Investor,Anambra,3,2,2,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0873,Investor,Adamawa,3,2,4,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0874,Community Leader,Abia,2,3,4,3,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R0875,Industrial Manager,Sokoto,5,2,4,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0876,Academic/Researcher,Kano,3,3,2,5,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0877,DisCo Official,Delta,3,3,4,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0878,Investor,Niger,3,2,3,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0879,Community Leader,Plateau,4,5,2,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0880,DisCo Official,Niger,4,1,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0881,Industrial Manager,Jigawa,3,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0882,Investor,Akwa Ibom,5,4,4,5,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0883,Policymaker,Oyo,3,2,3,5,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0884,Policymaker,Lagos,4,1,2,5,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0885,Policymaker,Cross River,3,3,1,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0886,Policymaker,Rivers,3,2,4,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0887,DisCo Official,Akwa Ibom,4,3,3,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0888,Policymaker,Benue,2,3,3,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0889,Investor,Rivers,4,3,5,4,5,3,1,2024,Synthetic survey; use for scenario analysis only
+R0890,Industrial Manager,Oyo,3,3,3,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0891,Policymaker,Adamawa,4,5,5,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R0892,Industrial Manager,Cross River,3,4,3,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0893,Academic/Researcher,Bauchi,2,2,3,2,2,4,1,2024,Synthetic survey; use for scenario analysis only
+R0894,Community Leader,FCT,2,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0895,Industrial Manager,Zamfara,2,5,5,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0896,Policymaker,Katsina,3,3,2,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0897,Industrial Manager,Nasarawa,5,3,3,5,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0898,DisCo Official,Delta,3,3,2,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0899,Investor,Borno,3,5,2,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0900,DisCo Official,Delta,3,3,3,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R0901,Community Leader,Plateau,3,2,4,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0902,Policymaker,Kogi,4,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0903,Academic/Researcher,Nasarawa,4,3,4,2,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R0904,Academic/Researcher,Cross River,4,2,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0905,Investor,Abia,2,5,5,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0906,Community Leader,Anambra,3,5,5,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0907,Academic/Researcher,Ogun,4,3,3,4,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0908,Investor,Lagos,1,4,1,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0909,Policymaker,Jigawa,2,2,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0910,Academic/Researcher,Zamfara,3,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0911,Investor,Ogun,3,4,3,5,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R0912,Policymaker,Yobe,4,3,2,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R0913,Investor,Borno,3,3,3,3,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R0914,DisCo Official,Borno,3,4,4,3,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R0915,Industrial Manager,Borno,2,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0916,Academic/Researcher,Kaduna,5,2,3,2,2,1,3,2024,Synthetic survey; use for scenario analysis only
+R0917,DisCo Official,Taraba,2,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0918,Community Leader,Yobe,3,3,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0919,Policymaker,Ebonyi,3,3,4,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0920,Investor,Ekiti,4,3,2,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0921,DisCo Official,Ogun,1,4,4,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0922,Industrial Manager,Kwara,3,5,3,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0923,Community Leader,Lagos,5,2,4,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0924,DisCo Official,Zamfara,3,4,3,2,2,4,5,2024,Synthetic survey; use for scenario analysis only
+R0925,Policymaker,Edo,2,4,5,3,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R0926,Industrial Manager,Rivers,3,3,2,4,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R0927,Investor,Kwara,3,3,3,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R0928,DisCo Official,Ogun,2,1,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0929,DisCo Official,Niger,3,1,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0930,DisCo Official,Yobe,3,4,3,5,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R0931,Community Leader,Oyo,2,3,3,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0932,Industrial Manager,Ogun,5,3,2,3,5,5,2,2024,Synthetic survey; use for scenario analysis only
+R0933,Academic/Researcher,Akwa Ibom,1,1,3,2,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R0934,Academic/Researcher,Kogi,4,4,3,3,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R0935,Community Leader,Taraba,4,1,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0936,DisCo Official,Rivers,2,3,3,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0937,Academic/Researcher,Osun,3,4,5,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R0938,Industrial Manager,Sokoto,4,3,4,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0939,Community Leader,Oyo,2,3,3,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R0940,Community Leader,Cross River,4,2,4,2,5,3,4,2024,Synthetic survey; use for scenario analysis only
+R0941,Industrial Manager,Cross River,2,4,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0942,Policymaker,Plateau,2,1,3,3,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R0943,Academic/Researcher,Lagos,5,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0944,DisCo Official,Ogun,3,4,3,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0945,Community Leader,Delta,3,2,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0946,Policymaker,Benue,2,2,3,5,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R0947,Community Leader,Borno,3,3,5,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0948,Policymaker,Sokoto,3,2,5,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0949,Investor,Anambra,3,4,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0950,Industrial Manager,Katsina,3,3,5,4,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R0951,DisCo Official,Kebbi,3,3,5,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0952,Academic/Researcher,Sokoto,2,2,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0953,Investor,Borno,5,4,5,2,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R0954,Academic/Researcher,Kebbi,4,2,5,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0955,Policymaker,Yobe,3,1,4,2,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R0956,Industrial Manager,Ogun,4,4,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R0957,Investor,Cross River,2,5,5,4,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R0958,Academic/Researcher,Bauchi,3,4,5,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0959,Community Leader,Abia,3,3,3,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R0960,DisCo Official,FCT,2,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0961,Investor,Delta,4,3,5,5,5,4,4,2024,Synthetic survey; use for scenario analysis only
+R0962,Industrial Manager,Abia,3,2,3,4,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R0963,DisCo Official,Cross River,2,3,3,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0964,Community Leader,Imo,5,4,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0965,Investor,Lagos,4,3,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0966,Investor,Nasarawa,4,4,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0967,Community Leader,Osun,4,4,4,4,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0968,Community Leader,Nasarawa,3,3,3,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R0969,Policymaker,Benue,3,2,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R0970,Investor,Akwa Ibom,3,4,5,3,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R0971,Industrial Manager,Benue,1,3,4,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R0972,DisCo Official,Kebbi,2,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0973,Industrial Manager,Benue,3,3,4,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0974,DisCo Official,Kaduna,4,3,5,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0975,Community Leader,Borno,3,5,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0976,Industrial Manager,Delta,3,4,5,2,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R0977,DisCo Official,Kaduna,3,3,5,3,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R0978,Industrial Manager,Delta,3,3,3,4,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R0979,Industrial Manager,Borno,1,2,4,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R0980,Policymaker,Oyo,4,2,3,4,2,4,1,2024,Synthetic survey; use for scenario analysis only
+R0981,Community Leader,Lagos,2,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0982,Academic/Researcher,FCT,3,3,3,5,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0983,Community Leader,Borno,4,3,5,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R0984,Policymaker,Gombe,4,3,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0985,Investor,Adamawa,3,2,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R0986,Community Leader,Kwara,3,3,4,5,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0987,Policymaker,Cross River,3,1,3,4,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R0988,Community Leader,Anambra,2,3,3,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R0989,Investor,Osun,1,3,5,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R0990,Academic/Researcher,Lagos,5,3,4,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R0991,Investor,Yobe,3,3,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0992,DisCo Official,Ogun,3,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R0993,DisCo Official,Ebonyi,3,3,2,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0994,DisCo Official,Bayelsa,3,4,3,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R0995,DisCo Official,Abia,4,3,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R0996,Investor,Benue,3,2,5,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R0997,Policymaker,Oyo,1,2,3,4,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R0998,Community Leader,Delta,4,3,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R0999,DisCo Official,Ondo,3,2,2,5,1,4,3,2024,Synthetic survey; use for scenario analysis only
+R1000,Community Leader,Bauchi,2,4,3,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1001,DisCo Official,Yobe,4,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1002,Academic/Researcher,Kwara,3,3,4,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R1003,Policymaker,Cross River,5,2,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1004,Policymaker,Kwara,2,2,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1005,Investor,Akwa Ibom,2,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1006,Community Leader,Zamfara,2,3,4,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1007,Investor,Taraba,4,3,5,4,5,2,3,2024,Synthetic survey; use for scenario analysis only
+R1008,DisCo Official,Bauchi,2,2,5,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1009,Industrial Manager,Taraba,4,4,3,3,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R1010,DisCo Official,Ogun,4,3,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1011,DisCo Official,Edo,3,3,3,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1012,DisCo Official,Edo,3,3,3,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1013,DisCo Official,Niger,2,3,4,1,1,4,1,2024,Synthetic survey; use for scenario analysis only
+R1014,Academic/Researcher,Ekiti,2,4,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1015,Investor,Katsina,5,3,5,3,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R1016,Investor,Abia,2,5,3,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1017,Industrial Manager,Enugu,3,3,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1018,Investor,Zamfara,4,4,3,3,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R1019,Industrial Manager,Plateau,2,2,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1020,Community Leader,Osun,3,2,4,2,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1021,Investor,Ogun,2,2,5,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1022,Industrial Manager,Niger,3,4,5,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1023,Industrial Manager,Kaduna,3,3,4,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1024,Policymaker,Niger,3,4,3,4,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R1025,Academic/Researcher,Kaduna,3,4,3,5,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R1026,Industrial Manager,Abia,3,5,4,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1027,Community Leader,Zamfara,4,3,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1028,Community Leader,Lagos,2,3,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1029,Community Leader,Rivers,4,4,2,4,5,2,3,2024,Synthetic survey; use for scenario analysis only
+R1030,Industrial Manager,Bayelsa,4,3,4,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1031,Industrial Manager,Zamfara,2,4,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1032,DisCo Official,Ekiti,5,2,3,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1033,DisCo Official,Bayelsa,4,2,3,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1034,DisCo Official,Imo,3,3,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1035,Policymaker,Adamawa,2,3,3,3,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R1036,Community Leader,Edo,2,2,5,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1037,DisCo Official,Kogi,2,3,3,3,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R1038,Industrial Manager,Sokoto,3,3,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1039,Community Leader,Bayelsa,3,1,3,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1040,Investor,Plateau,3,1,4,4,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R1041,Investor,Jigawa,3,3,4,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1042,Policymaker,Ogun,2,2,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1043,DisCo Official,Kwara,4,2,2,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1044,Investor,Sokoto,4,3,4,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1045,Industrial Manager,Enugu,3,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1046,DisCo Official,FCT,4,2,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1047,Academic/Researcher,Bauchi,2,2,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1048,Industrial Manager,Jigawa,3,3,4,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1049,DisCo Official,Adamawa,2,1,5,3,3,5,1,2024,Synthetic survey; use for scenario analysis only
+R1050,Academic/Researcher,Akwa Ibom,4,3,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1051,DisCo Official,Kogi,2,3,3,5,2,4,1,2024,Synthetic survey; use for scenario analysis only
+R1052,Industrial Manager,Kwara,3,4,3,4,5,5,5,2024,Synthetic survey; use for scenario analysis only
+R1053,Investor,Ogun,3,4,3,2,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1054,Industrial Manager,Imo,3,3,3,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1055,Policymaker,Jigawa,2,1,3,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1056,Policymaker,Ondo,2,2,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1057,Investor,Oyo,3,4,3,4,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R1058,Community Leader,Bauchi,2,4,4,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1059,Policymaker,Benue,2,4,4,2,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R1060,Academic/Researcher,Benue,2,3,3,2,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R1061,Policymaker,Ekiti,4,3,3,1,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1062,Industrial Manager,Gombe,3,4,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1063,Industrial Manager,Yobe,4,4,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1064,Investor,Lagos,3,3,3,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1065,Policymaker,Sokoto,2,3,2,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1066,Industrial Manager,Taraba,3,4,4,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1067,Investor,Jigawa,2,3,4,5,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1068,Investor,Oyo,3,3,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1069,DisCo Official,Osun,3,3,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1070,Industrial Manager,Kogi,4,4,3,3,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R1071,Academic/Researcher,Kaduna,4,2,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1072,Investor,Kogi,2,4,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1073,Investor,Kebbi,4,2,5,2,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1074,Industrial Manager,Delta,2,5,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1075,Investor,Ogun,2,4,4,5,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1076,Policymaker,Sokoto,2,4,5,3,4,1,2,2024,Synthetic survey; use for scenario analysis only
+R1077,DisCo Official,Kano,3,4,3,2,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1078,DisCo Official,Kaduna,2,3,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1079,DisCo Official,Yobe,3,2,3,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1080,Industrial Manager,Plateau,4,3,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1081,DisCo Official,Rivers,2,1,4,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1082,Industrial Manager,Kaduna,4,3,5,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1083,Industrial Manager,Imo,4,3,4,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1084,DisCo Official,Cross River,4,2,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1085,Community Leader,Lagos,3,1,5,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1086,DisCo Official,Ogun,2,1,4,1,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1087,Industrial Manager,Cross River,2,3,4,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1088,Policymaker,Cross River,3,3,4,4,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R1089,Industrial Manager,Jigawa,4,2,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1090,Investor,Rivers,3,3,3,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1091,Community Leader,Delta,3,4,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1092,Academic/Researcher,Borno,3,2,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1093,Industrial Manager,Kano,1,5,4,2,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1094,Academic/Researcher,Borno,1,2,4,4,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R1095,Investor,Taraba,3,4,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1096,Industrial Manager,Osun,4,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1097,DisCo Official,Akwa Ibom,2,1,3,3,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R1098,DisCo Official,Abia,3,4,4,4,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1099,Policymaker,Rivers,4,3,3,5,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R1100,Investor,Kano,2,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1101,Community Leader,Zamfara,3,2,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1102,Policymaker,Bauchi,2,4,4,4,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R1103,Policymaker,Katsina,3,1,4,2,3,5,4,2024,Synthetic survey; use for scenario analysis only
+R1104,Policymaker,Bauchi,5,3,4,5,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1105,Investor,Adamawa,4,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1106,Policymaker,Kaduna,4,3,5,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1107,Industrial Manager,Benue,3,5,4,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1108,Investor,Sokoto,3,1,4,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1109,Academic/Researcher,Cross River,3,2,2,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1110,Policymaker,FCT,3,4,4,5,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1111,Policymaker,Kogi,5,4,4,3,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1112,Policymaker,Anambra,3,1,3,2,2,5,3,2024,Synthetic survey; use for scenario analysis only
+R1113,Industrial Manager,Kebbi,2,3,4,3,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R1114,Industrial Manager,Gombe,4,2,4,2,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1115,DisCo Official,Bauchi,4,2,3,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R1116,Industrial Manager,Plateau,3,2,4,3,3,5,1,2024,Synthetic survey; use for scenario analysis only
+R1117,Industrial Manager,Anambra,5,3,4,5,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1118,Policymaker,Lagos,3,2,3,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1119,DisCo Official,Kogi,3,4,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1120,Academic/Researcher,Zamfara,1,4,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1121,Policymaker,Edo,3,4,2,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1122,Investor,Bauchi,4,5,5,4,4,4,1,2024,Synthetic survey; use for scenario analysis only
+R1123,Community Leader,Ondo,3,1,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1124,Academic/Researcher,Benue,4,5,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1125,Community Leader,Sokoto,3,4,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1126,Investor,Osun,3,3,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1127,Industrial Manager,Anambra,3,4,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1128,Policymaker,Taraba,4,4,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1129,DisCo Official,Imo,3,2,4,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1130,Investor,Anambra,4,4,3,5,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R1131,Academic/Researcher,Osun,2,3,4,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1132,Industrial Manager,Jigawa,3,4,1,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1133,Policymaker,Akwa Ibom,2,2,3,2,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1134,DisCo Official,Imo,4,3,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1135,Investor,Yobe,3,4,4,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1136,DisCo Official,Imo,3,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1137,Industrial Manager,Akwa Ibom,3,4,3,4,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R1138,DisCo Official,Adamawa,2,2,2,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1139,Industrial Manager,Rivers,2,4,4,4,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R1140,DisCo Official,Delta,4,4,4,2,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R1141,DisCo Official,Adamawa,3,3,5,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1142,Investor,Rivers,2,3,2,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1143,Community Leader,Lagos,3,2,5,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1144,Investor,Niger,3,3,3,5,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1145,Academic/Researcher,Ondo,3,3,2,2,2,5,4,2024,Synthetic survey; use for scenario analysis only
+R1146,DisCo Official,Borno,3,2,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1147,Industrial Manager,Kwara,2,2,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1148,Policymaker,Cross River,4,2,3,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1149,Community Leader,Zamfara,1,3,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1150,Investor,Oyo,4,3,3,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R1151,Community Leader,Rivers,4,1,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1152,DisCo Official,Benue,3,3,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1153,Policymaker,Ogun,3,4,4,4,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R1154,Industrial Manager,Kwara,3,3,3,3,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1155,Industrial Manager,FCT,3,4,2,3,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1156,DisCo Official,Edo,3,3,4,5,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1157,DisCo Official,Zamfara,4,2,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1158,DisCo Official,Benue,4,4,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1159,Industrial Manager,Akwa Ibom,4,3,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1160,Academic/Researcher,Ogun,5,3,3,4,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1161,Industrial Manager,Ondo,4,3,4,4,3,5,5,2024,Synthetic survey; use for scenario analysis only
+R1162,Investor,FCT,3,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1163,Industrial Manager,Katsina,3,3,5,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R1164,Investor,Akwa Ibom,2,4,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1165,Community Leader,Imo,2,3,4,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1166,Investor,Enugu,4,4,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1167,DisCo Official,Lagos,3,2,3,4,5,3,4,2024,Synthetic survey; use for scenario analysis only
+R1168,Investor,Plateau,1,2,4,2,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1169,DisCo Official,Niger,4,3,3,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1170,Investor,Cross River,4,3,3,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1171,DisCo Official,Jigawa,1,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1172,Policymaker,Ogun,4,1,5,3,5,2,4,2024,Synthetic survey; use for scenario analysis only
+R1173,DisCo Official,Ondo,2,3,4,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1174,Academic/Researcher,Taraba,2,4,4,4,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R1175,Academic/Researcher,Bauchi,2,2,3,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1176,Community Leader,Kwara,2,2,4,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R1177,Academic/Researcher,Benue,1,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1178,Investor,Borno,3,4,3,2,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R1179,Industrial Manager,Bauchi,2,3,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1180,Academic/Researcher,Nasarawa,3,3,5,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1181,DisCo Official,Osun,3,3,3,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1182,Policymaker,Kaduna,3,4,3,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1183,DisCo Official,Taraba,3,2,3,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1184,DisCo Official,Kebbi,3,4,5,4,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R1185,Academic/Researcher,Gombe,4,3,4,2,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1186,Policymaker,Kano,3,3,2,5,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1187,DisCo Official,Enugu,3,1,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1188,Investor,Bayelsa,2,4,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1189,Industrial Manager,Ebonyi,4,5,5,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1190,Academic/Researcher,Niger,3,2,4,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1191,Academic/Researcher,Katsina,2,2,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1192,Academic/Researcher,Imo,2,2,4,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1193,Community Leader,Sokoto,3,2,3,4,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R1194,Community Leader,Benue,3,2,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1195,Academic/Researcher,FCT,3,3,4,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1196,Policymaker,Imo,2,2,3,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1197,Community Leader,Imo,3,3,2,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1198,Investor,Oyo,2,3,4,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1199,Community Leader,Ebonyi,3,3,5,5,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R1200,DisCo Official,Rivers,3,3,3,2,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1201,Academic/Researcher,Katsina,1,2,5,2,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R1202,Academic/Researcher,Ondo,1,1,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1203,Industrial Manager,Kwara,4,2,3,4,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1204,DisCo Official,Edo,3,5,2,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1205,DisCo Official,Benue,5,2,3,3,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R1206,Investor,Imo,2,3,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1207,Academic/Researcher,Osun,2,3,5,2,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R1208,Community Leader,Edo,3,3,3,2,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1209,Industrial Manager,Katsina,4,4,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1210,DisCo Official,Ebonyi,2,4,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1211,Investor,Anambra,5,4,2,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1212,Academic/Researcher,Niger,4,3,5,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1213,DisCo Official,Osun,2,2,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1214,Academic/Researcher,Adamawa,2,3,2,4,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R1215,Community Leader,Kano,4,2,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1216,Community Leader,Jigawa,3,3,4,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1217,DisCo Official,Imo,3,2,2,3,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R1218,Community Leader,Akwa Ibom,3,4,3,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1219,Investor,Kaduna,3,5,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1220,Policymaker,Imo,2,3,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1221,DisCo Official,Zamfara,2,4,5,4,2,2,4,2024,Synthetic survey; use for scenario analysis only
+R1222,DisCo Official,Kebbi,3,3,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1223,Industrial Manager,Ondo,3,2,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1224,DisCo Official,Oyo,4,2,3,5,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R1225,Academic/Researcher,Benue,2,4,4,3,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R1226,Investor,Sokoto,2,4,5,3,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R1227,Industrial Manager,Kano,3,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1228,DisCo Official,Bayelsa,4,4,5,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1229,DisCo Official,Abia,2,3,2,4,2,1,2,2024,Synthetic survey; use for scenario analysis only
+R1230,Investor,Gombe,2,3,3,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1231,DisCo Official,Ogun,2,2,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1232,Community Leader,Kwara,3,2,4,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1233,Community Leader,Cross River,3,3,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1234,Investor,Oyo,4,5,4,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R1235,Policymaker,Bayelsa,2,4,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1236,Investor,Osun,4,5,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1237,Investor,Borno,2,2,3,4,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1238,Community Leader,Ogun,3,2,3,3,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R1239,Academic/Researcher,Imo,4,4,3,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1240,DisCo Official,Anambra,4,4,3,3,4,3,5,2024,Synthetic survey; use for scenario analysis only
+R1241,Academic/Researcher,Jigawa,3,4,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1242,Investor,Nasarawa,3,3,4,5,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1243,DisCo Official,Kogi,4,3,4,5,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1244,Industrial Manager,Katsina,3,3,4,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1245,Investor,Bayelsa,2,4,3,4,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1246,Industrial Manager,Ogun,2,5,3,1,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1247,Community Leader,Anambra,2,4,4,2,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1248,Academic/Researcher,Nasarawa,4,4,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1249,Community Leader,Jigawa,3,4,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1250,DisCo Official,Osun,3,2,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1251,DisCo Official,Katsina,2,4,2,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1252,Industrial Manager,Zamfara,2,4,3,3,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R1253,DisCo Official,Kano,3,4,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1254,Industrial Manager,Kaduna,4,2,3,4,5,4,4,2024,Synthetic survey; use for scenario analysis only
+R1255,Industrial Manager,Benue,3,4,4,4,4,2,5,2024,Synthetic survey; use for scenario analysis only
+R1256,Academic/Researcher,Niger,3,2,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1257,Investor,Katsina,2,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1258,Community Leader,Nasarawa,3,3,5,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R1259,Policymaker,Niger,4,3,3,2,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1260,Investor,Niger,3,4,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1261,DisCo Official,Adamawa,3,1,3,2,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1262,Community Leader,Edo,4,1,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1263,Academic/Researcher,Osun,2,3,3,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1264,DisCo Official,Ebonyi,2,3,5,5,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1265,Academic/Researcher,Oyo,3,3,3,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1266,Academic/Researcher,Adamawa,2,1,4,5,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1267,Industrial Manager,Kwara,1,4,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1268,Academic/Researcher,Borno,2,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1269,DisCo Official,Benue,2,4,2,4,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1270,DisCo Official,Ondo,4,2,2,2,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1271,Community Leader,Kwara,2,2,3,5,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1272,Community Leader,Cross River,2,3,4,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1273,DisCo Official,Delta,2,2,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1274,DisCo Official,Delta,3,2,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1275,Academic/Researcher,Oyo,4,5,5,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1276,Investor,Borno,4,3,3,1,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R1277,Academic/Researcher,FCT,3,2,5,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1278,Investor,Taraba,5,5,2,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1279,Investor,Edo,3,2,4,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1280,Industrial Manager,Ekiti,2,3,2,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1281,Community Leader,Oyo,2,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1282,Community Leader,Benue,3,2,3,2,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1283,Industrial Manager,Ondo,3,3,4,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1284,Policymaker,Edo,2,2,5,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1285,DisCo Official,Jigawa,3,2,3,3,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R1286,Academic/Researcher,Oyo,3,2,4,3,2,5,4,2024,Synthetic survey; use for scenario analysis only
+R1287,DisCo Official,Taraba,3,2,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1288,Investor,Kano,2,4,3,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1289,Community Leader,Ebonyi,3,2,5,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1290,DisCo Official,Oyo,2,4,3,3,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R1291,DisCo Official,Ondo,3,4,4,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1292,Community Leader,Osun,4,3,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1293,DisCo Official,Adamawa,2,4,3,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1294,Industrial Manager,Bauchi,3,3,4,2,3,1,3,2024,Synthetic survey; use for scenario analysis only
+R1295,Industrial Manager,Lagos,2,1,3,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1296,DisCo Official,Taraba,4,1,5,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1297,Investor,Niger,4,2,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1298,Investor,Imo,4,2,3,3,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1299,Investor,Katsina,4,3,4,2,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1300,Community Leader,Imo,4,3,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1301,Policymaker,Anambra,3,3,4,3,1,2,4,2024,Synthetic survey; use for scenario analysis only
+R1302,DisCo Official,Taraba,3,2,4,2,2,1,2,2024,Synthetic survey; use for scenario analysis only
+R1303,Industrial Manager,Taraba,4,4,4,2,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1304,Investor,Ogun,3,4,3,5,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R1305,Community Leader,Zamfara,2,4,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1306,Policymaker,Adamawa,3,4,4,4,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R1307,Academic/Researcher,Osun,3,2,4,2,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1308,Community Leader,Enugu,3,3,4,1,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1309,DisCo Official,Bauchi,3,3,4,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1310,Community Leader,Kogi,5,5,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1311,Investor,Enugu,2,4,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1312,Academic/Researcher,Sokoto,3,4,5,4,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1313,DisCo Official,Niger,4,5,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1314,Policymaker,Nasarawa,3,3,4,3,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R1315,Investor,Kano,3,5,3,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1316,DisCo Official,Akwa Ibom,3,3,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1317,Industrial Manager,Anambra,2,3,4,3,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1318,Academic/Researcher,Delta,3,3,2,4,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R1319,Policymaker,Enugu,3,4,4,3,2,5,2,2024,Synthetic survey; use for scenario analysis only
+R1320,Industrial Manager,Delta,5,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1321,Industrial Manager,Kogi,3,3,4,3,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R1322,Community Leader,Abia,2,2,5,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1323,Academic/Researcher,Benue,2,3,4,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1324,Industrial Manager,Benue,3,3,3,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1325,DisCo Official,Kebbi,3,2,3,3,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1326,DisCo Official,Delta,3,1,3,5,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1327,Community Leader,Edo,4,3,4,3,3,3,1,2024,Synthetic survey; use for scenario analysis only
+R1328,Community Leader,Zamfara,3,1,5,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R1329,Investor,Rivers,4,3,4,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1330,Investor,Kebbi,3,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1331,Industrial Manager,FCT,5,3,5,4,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1332,Industrial Manager,Rivers,3,4,5,4,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1333,Industrial Manager,Ekiti,3,2,3,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1334,Community Leader,Sokoto,2,3,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1335,Investor,Delta,1,3,3,4,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R1336,Academic/Researcher,Niger,4,4,3,5,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R1337,Academic/Researcher,Kano,3,4,3,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1338,Community Leader,Nasarawa,3,3,2,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1339,DisCo Official,Cross River,3,3,3,1,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1340,Industrial Manager,Borno,2,2,3,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1341,Industrial Manager,Taraba,3,2,5,4,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1342,Policymaker,Imo,5,4,4,2,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R1343,DisCo Official,FCT,3,3,3,1,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1344,Investor,Ogun,2,2,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1345,DisCo Official,Rivers,2,4,4,4,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R1346,Community Leader,Ogun,3,3,3,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1347,Policymaker,Sokoto,4,2,4,4,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1348,Community Leader,Kwara,3,2,3,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1349,Investor,Ondo,4,2,1,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1350,Industrial Manager,Enugu,2,3,4,4,3,5,2,2024,Synthetic survey; use for scenario analysis only
+R1351,Investor,Osun,3,3,4,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1352,Policymaker,Imo,3,3,3,2,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1353,DisCo Official,Edo,4,1,3,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1354,Industrial Manager,Bayelsa,5,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1355,Investor,Plateau,2,5,5,2,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1356,Academic/Researcher,Yobe,4,2,5,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1357,Investor,Nasarawa,3,3,3,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1358,DisCo Official,Zamfara,2,4,3,4,5,3,4,2024,Synthetic survey; use for scenario analysis only
+R1359,DisCo Official,Adamawa,1,3,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1360,Community Leader,Adamawa,3,3,3,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1361,Community Leader,Sokoto,2,2,5,2,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R1362,DisCo Official,Ogun,3,1,5,4,3,2,5,2024,Synthetic survey; use for scenario analysis only
+R1363,Community Leader,Katsina,5,1,4,5,5,5,3,2024,Synthetic survey; use for scenario analysis only
+R1364,Policymaker,Taraba,2,2,5,2,2,3,1,2024,Synthetic survey; use for scenario analysis only
+R1365,Academic/Researcher,FCT,2,3,5,4,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1366,Academic/Researcher,Ondo,3,3,3,2,5,4,4,2024,Synthetic survey; use for scenario analysis only
+R1367,Industrial Manager,Jigawa,1,2,3,2,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R1368,Community Leader,Ondo,2,2,5,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1369,Policymaker,Delta,3,1,2,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1370,Industrial Manager,Bauchi,2,2,3,3,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1371,Community Leader,Edo,5,3,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1372,Policymaker,Lagos,2,3,3,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R1373,DisCo Official,Plateau,4,3,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1374,DisCo Official,Adamawa,3,3,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1375,Academic/Researcher,Abia,4,3,5,4,1,3,4,2024,Synthetic survey; use for scenario analysis only
+R1376,Academic/Researcher,Plateau,3,3,4,2,5,4,2,2024,Synthetic survey; use for scenario analysis only
+R1377,Academic/Researcher,Edo,4,2,4,3,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1378,Academic/Researcher,Borno,3,3,3,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1379,Industrial Manager,Plateau,3,4,3,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1380,Industrial Manager,Yobe,2,4,4,5,5,2,3,2024,Synthetic survey; use for scenario analysis only
+R1381,Industrial Manager,Kogi,5,4,2,4,2,2,2,2024,Synthetic survey; use for scenario analysis only
+R1382,Industrial Manager,Katsina,2,4,3,3,2,3,2,2024,Synthetic survey; use for scenario analysis only
+R1383,DisCo Official,Katsina,4,4,3,5,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R1384,DisCo Official,Yobe,3,2,4,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1385,Industrial Manager,Sokoto,3,3,5,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1386,Industrial Manager,Taraba,4,5,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1387,Investor,Ogun,3,2,4,4,2,1,5,2024,Synthetic survey; use for scenario analysis only
+R1388,Community Leader,Katsina,4,3,4,4,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1389,Community Leader,Borno,3,3,4,5,4,1,5,2024,Synthetic survey; use for scenario analysis only
+R1390,DisCo Official,Nasarawa,3,3,4,3,4,4,2,2024,Synthetic survey; use for scenario analysis only
+R1391,Academic/Researcher,Kano,4,5,4,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1392,Community Leader,Plateau,3,3,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1393,Investor,FCT,3,3,4,5,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1394,Investor,Nasarawa,4,3,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1395,Community Leader,Bayelsa,2,2,5,5,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1396,Community Leader,Bayelsa,5,3,2,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1397,Academic/Researcher,Akwa Ibom,2,2,5,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1398,DisCo Official,Edo,3,2,4,3,2,4,4,2024,Synthetic survey; use for scenario analysis only
+R1399,Industrial Manager,FCT,3,4,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1400,Academic/Researcher,Ebonyi,4,4,5,5,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1401,Academic/Researcher,Ebonyi,3,2,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1402,Policymaker,Zamfara,3,3,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1403,Policymaker,Zamfara,3,2,3,3,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1404,Investor,Osun,2,1,4,2,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1405,Investor,Edo,4,3,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1406,Policymaker,Taraba,3,4,1,4,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1407,Policymaker,Osun,3,2,3,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1408,Community Leader,Ekiti,2,1,3,3,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1409,Policymaker,Kwara,3,2,4,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1410,Academic/Researcher,Niger,2,3,4,3,3,2,4,2024,Synthetic survey; use for scenario analysis only
+R1411,Community Leader,Ondo,4,3,3,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1412,Academic/Researcher,Ekiti,2,3,4,3,5,3,2,2024,Synthetic survey; use for scenario analysis only
+R1413,Academic/Researcher,Sokoto,3,1,3,2,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1414,Industrial Manager,Katsina,3,4,3,3,1,3,3,2024,Synthetic survey; use for scenario analysis only
+R1415,Academic/Researcher,Katsina,2,2,2,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1416,Community Leader,Ebonyi,2,2,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1417,DisCo Official,Gombe,4,3,4,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1418,Community Leader,Adamawa,4,1,2,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1419,Industrial Manager,Plateau,4,3,5,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1420,Policymaker,Delta,4,4,5,4,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1421,Industrial Manager,Kogi,2,2,5,4,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1422,DisCo Official,Sokoto,3,3,3,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1423,DisCo Official,Ondo,4,3,3,5,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1424,Academic/Researcher,Abia,3,3,3,2,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1425,Investor,Jigawa,3,2,4,2,3,2,2,2024,Synthetic survey; use for scenario analysis only
+R1426,Investor,Imo,5,2,3,3,5,4,3,2024,Synthetic survey; use for scenario analysis only
+R1427,Investor,Katsina,4,2,4,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1428,Academic/Researcher,Gombe,3,3,2,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1429,Academic/Researcher,Bauchi,4,4,4,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1430,Investor,Cross River,3,4,5,4,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1431,Investor,FCT,3,5,3,4,4,5,3,2024,Synthetic survey; use for scenario analysis only
+R1432,Investor,Edo,2,2,4,2,2,2,3,2024,Synthetic survey; use for scenario analysis only
+R1433,Industrial Manager,Edo,4,3,4,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1434,DisCo Official,FCT,2,3,5,2,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1435,Policymaker,Imo,4,1,2,3,4,3,3,2024,Synthetic survey; use for scenario analysis only
+R1436,Industrial Manager,Plateau,3,2,5,2,2,5,4,2024,Synthetic survey; use for scenario analysis only
+R1437,Investor,Ondo,4,3,5,4,4,3,2,2024,Synthetic survey; use for scenario analysis only
+R1438,Industrial Manager,Zamfara,2,3,5,2,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1439,Policymaker,Katsina,2,2,4,4,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1440,Policymaker,Osun,2,3,3,4,4,2,4,2024,Synthetic survey; use for scenario analysis only
+R1441,Community Leader,Katsina,2,4,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1442,Community Leader,Enugu,3,4,4,4,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1443,DisCo Official,Yobe,3,3,3,3,1,4,2,2024,Synthetic survey; use for scenario analysis only
+R1444,DisCo Official,Benue,3,4,4,3,3,4,5,2024,Synthetic survey; use for scenario analysis only
+R1445,Community Leader,Niger,1,3,3,3,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1446,Academic/Researcher,Kaduna,2,2,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1447,Industrial Manager,Ondo,3,4,5,3,5,2,2,2024,Synthetic survey; use for scenario analysis only
+R1448,Policymaker,Jigawa,2,2,3,3,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1449,Investor,Zamfara,4,3,3,3,4,2,3,2024,Synthetic survey; use for scenario analysis only
+R1450,Academic/Researcher,Benue,3,2,4,3,4,1,3,2024,Synthetic survey; use for scenario analysis only
+R1451,Investor,Jigawa,4,4,4,5,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1452,Community Leader,Abia,2,2,5,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1453,DisCo Official,Taraba,4,4,4,5,3,3,5,2024,Synthetic survey; use for scenario analysis only
+R1454,Academic/Researcher,Rivers,4,2,5,2,4,4,3,2024,Synthetic survey; use for scenario analysis only
+R1455,Community Leader,Kaduna,4,3,4,3,1,4,4,2024,Synthetic survey; use for scenario analysis only
+R1456,Academic/Researcher,Ebonyi,4,2,3,4,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1457,Policymaker,Kaduna,3,3,4,3,4,2,2,2024,Synthetic survey; use for scenario analysis only
+R1458,Investor,Lagos,4,2,3,3,2,3,5,2024,Synthetic survey; use for scenario analysis only
+R1459,Industrial Manager,Kaduna,2,5,5,4,3,2,1,2024,Synthetic survey; use for scenario analysis only
+R1460,Community Leader,Delta,3,3,4,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1461,Industrial Manager,Niger,3,3,3,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1462,Industrial Manager,Enugu,2,3,4,4,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1463,Academic/Researcher,Adamawa,5,3,4,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1464,Academic/Researcher,Katsina,4,2,5,3,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1465,Investor,Niger,3,3,3,3,3,3,3,2024,Synthetic survey; use for scenario analysis only
+R1466,DisCo Official,Rivers,2,3,3,4,4,5,2,2024,Synthetic survey; use for scenario analysis only
+R1467,DisCo Official,Jigawa,2,2,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1468,Industrial Manager,Kaduna,4,2,4,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1469,Industrial Manager,Akwa Ibom,3,3,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1470,Community Leader,Kano,4,3,4,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1471,Academic/Researcher,Adamawa,3,3,4,4,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1472,Policymaker,Ebonyi,2,4,3,2,2,2,1,2024,Synthetic survey; use for scenario analysis only
+R1473,Industrial Manager,Benue,4,2,2,2,5,3,3,2024,Synthetic survey; use for scenario analysis only
+R1474,Academic/Researcher,Ebonyi,4,4,4,2,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R1475,DisCo Official,Niger,3,2,4,3,4,4,5,2024,Synthetic survey; use for scenario analysis only
+R1476,Community Leader,Borno,2,4,3,3,3,4,3,2024,Synthetic survey; use for scenario analysis only
+R1477,Industrial Manager,Borno,4,4,4,3,2,3,3,2024,Synthetic survey; use for scenario analysis only
+R1478,Investor,Delta,2,3,4,3,3,2,3,2024,Synthetic survey; use for scenario analysis only
+R1479,Community Leader,Abia,3,3,5,4,3,4,1,2024,Synthetic survey; use for scenario analysis only
+R1480,Industrial Manager,Jigawa,3,4,3,3,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1481,Academic/Researcher,Ogun,2,2,4,2,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1482,Policymaker,Taraba,3,3,5,3,4,4,4,2024,Synthetic survey; use for scenario analysis only
+R1483,DisCo Official,Niger,3,4,3,4,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1484,Academic/Researcher,Niger,2,2,4,2,2,3,4,2024,Synthetic survey; use for scenario analysis only
+R1485,Policymaker,Ondo,3,1,4,4,1,3,2,2024,Synthetic survey; use for scenario analysis only
+R1486,Academic/Researcher,Ebonyi,2,3,3,5,3,4,2,2024,Synthetic survey; use for scenario analysis only
+R1487,Policymaker,Borno,4,3,2,3,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1488,Investor,Kebbi,2,2,4,4,2,4,3,2024,Synthetic survey; use for scenario analysis only
+R1489,Policymaker,FCT,2,2,3,1,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1490,Community Leader,Abia,4,5,2,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R1491,DisCo Official,Gombe,3,2,4,5,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1492,Community Leader,Edo,3,3,2,4,4,5,4,2024,Synthetic survey; use for scenario analysis only
+R1493,Investor,Nasarawa,4,3,3,4,3,4,4,2024,Synthetic survey; use for scenario analysis only
+R1494,Academic/Researcher,Akwa Ibom,2,2,1,3,3,3,4,2024,Synthetic survey; use for scenario analysis only
+R1495,Policymaker,Taraba,3,2,2,2,4,3,4,2024,Synthetic survey; use for scenario analysis only
+R1496,Policymaker,Bayelsa,3,2,4,5,4,3,1,2024,Synthetic survey; use for scenario analysis only
+R1497,Policymaker,Lagos,3,2,4,3,3,5,3,2024,Synthetic survey; use for scenario analysis only
+R1498,Policymaker,Benue,3,3,4,4,2,4,2,2024,Synthetic survey; use for scenario analysis only
+R1499,Academic/Researcher,Edo,2,3,2,5,3,3,2,2024,Synthetic survey; use for scenario analysis only
+R1500,Policymaker,Edo,2,3,3,4,4,3,3,2024,Synthetic survey; use for scenario analysis only

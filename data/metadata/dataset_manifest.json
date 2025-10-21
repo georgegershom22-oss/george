@@ -1,0 +1,49 @@
+{
+  "topic": "Harnessing Domestic Gas for Power: SOFCs in Nigeria",
+  "created_at": "2025-10-21T05:45:57.649121Z",
+  "datasets": [
+    {
+      "path": "demographics/state_demographics_2024.csv",
+      "description": "State-level population, density, urban/rural shares, growth, synthetic"
+    },
+    {
+      "path": "demographics/lga_demographics_samples_2024.csv",
+      "description": "Sample LGAs with demographic indicators, synthetic"
+    },
+    {
+      "path": "industrial_commercial/industrial_clusters.csv",
+      "description": "Key industrial clusters with coordinates"
+    },
+    {
+      "path": "industrial_commercial/large_commercial_buildings.csv",
+      "description": "Representative malls, hotels, complexes with coordinates"
+    },
+    {
+      "path": "industrial_commercial/smes_by_sector_state_2024.csv",
+      "description": "SMEs by sector per state, synthetic"
+    },
+    {
+      "path": "policy_regulatory/policies_regulations.csv",
+      "description": "Structured list of policies and regulations with links"
+    },
+    {
+      "path": "social_perception/social_perception_survey_synthetic_2024.csv",
+      "description": "Synthetic survey responses across roles and states"
+    }
+  ],
+  "notes": [
+    "Demographic and SME figures are synthetic approximations. Replace with NBS/CAC when available.",
+    "Policy URLs are placeholders to institutional portals. Insert direct document links when collated.",
+    "Coordinates are approximate for illustration; verify with GIS sources before siting decisions."
+  ],
+  "sources": {
+    "NBS": "https://nigerianstat.gov.ng/",
+    "National Population Commission": "https://nationalpopulation.gov.ng/",
+    "CAC": "https://www.cac.gov.ng/",
+    "NASME": "https://nasme.org/",
+    "NERC": "https://nerc.gov.ng/",
+    "Federal Ministry of Power": "https://www.power.gov.ng/",
+    "Federal Ministry of Petroleum Resources": "https://www.petroleumresources.gov.ng/",
+    "Nigeria Customs": "https://customs.gov.ng/"
+  }
+}
