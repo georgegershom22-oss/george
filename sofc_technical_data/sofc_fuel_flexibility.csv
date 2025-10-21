@@ -1,0 +1,78 @@
+Manufacturer,Fuel_Type,CH4_Content_pct,C2H6_Content_pct,CO2_Content_pct,N2_Content_pct,H2_Content_pct,Sulfur_Content_ppm,Lower_Heating_Value_MJ_per_kg,Reforming_Required,Pre_Treatment_Requirements,Relative_Efficiency_Impact,Fuel_Compatibility_Rating,Degradation_Impact_Multiplier,Minimum_Purity_Requirements,Cost_Premium_Factor
+Bloom Energy,Pipeline Natural Gas,97.07,1.9,1.43,-0.39,0.0,4.89,41.59,Yes - Internal,Desulfurization,1.0,Excellent,1.0,See pre-treatment,1.0
+Bloom Energy,Compressed Natural Gas (CNG),92.97,4.77,1.1,1.16,0.0,2.09,37.96,Yes - Internal,Desulfurization,1.0,Excellent,1.0,See pre-treatment,1.0
+Bloom Energy,Liquefied Natural Gas (LNG),96.53,3.58,1.21,-1.33,0.0,8.34,47.92,Yes - Internal,Desulfurization,1.0,Excellent,1.0,See pre-treatment,1.0
+Bloom Energy,Bio-methane (Landfill Gas),71.93,1.63,38.38,3.51,0.92,85.78,46.65,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9637,Good,1.073,See pre-treatment,1.018
+Bloom Energy,Bio-methane (Anaerobic Digestion),73.12,1.98,18.55,5.27,1.87,13.89,36.98,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9299,Good,1.14,See pre-treatment,1.035
+Bloom Energy,LPG (Propane),3.9,13.18,0.29,1.26,0.0,26.02,50.42,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9766,Good,1.047,See pre-treatment,1.012
+Bloom Energy,LPG (Butane),3.36,10.08,0.37,1.35,0.0,22.22,51.36,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9837,Good,1.033,See pre-treatment,1.008
+Bloom Energy,Associated Petroleum Gas (APG),81.42,6.12,5.31,7.15,0.01,64.4,49.88,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.9436,Good,1.113,See pre-treatment,1.028
+Bloom Energy,Syngas (Coal-derived),9.01,0.0,18.0,46.99,25.99,141.82,43.33,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",1.0,Good,1.0,See pre-treatment,1.0
+Bloom Energy,Hydrogen-enriched Natural Gas (H2NG-10%),94.53,3.46,0.97,1.04,0.0,4.2,43.31,Yes - Internal,Desulfurization,1.0392,Excellent,0.922,See pre-treatment,0.98
+Bloom Energy,Hydrogen-enriched Natural Gas (H2NG-20%),85.07,4.04,0.59,10.3,0.0,7.71,49.37,Yes - Internal,Desulfurization,1.0101,Excellent,0.98,See pre-treatment,0.995
+Siemens Energy,Pipeline Natural Gas,89.78,2.31,0.87,7.04,0.0,3.75,48.15,Yes - Internal,Desulfurization,0.98,Excellent,1.04,See pre-treatment,1.01
+Siemens Energy,Compressed Natural Gas (CNG),97.95,2.47,1.62,-2.05,0.0,7.5,48.29,Yes - Internal,Desulfurization,0.98,Excellent,1.04,See pre-treatment,1.01
+Siemens Energy,Liquefied Natural Gas (LNG),92.71,2.57,1.53,3.19,0.0,7.26,35.05,Yes - Internal,Desulfurization,0.98,Excellent,1.04,See pre-treatment,1.01
+Siemens Energy,Bio-methane (Landfill Gas),67.39,0.64,27.11,6.77,1.18,53.29,35.97,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9394,Good,1.121,See pre-treatment,1.03
+Siemens Energy,Bio-methane (Anaerobic Digestion),71.6,1.41,26.23,5.36,1.35,82.45,47.38,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9175,Good,1.165,See pre-treatment,1.041
+Siemens Energy,LPG (Propane),2.99,5.77,0.15,1.0,0.0,24.62,52.89,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9559,Good,1.088,See pre-treatment,1.022
+Siemens Energy,LPG (Butane),3.07,9.4,0.23,0.99,0.0,15.85,47.21,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9255,Good,1.149,See pre-treatment,1.037
+Siemens Energy,Associated Petroleum Gas (APG),78.97,10.15,7.99,2.89,0.93,135.66,44.54,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.9068,Good,1.186,See pre-treatment,1.047
+Siemens Energy,Syngas (Coal-derived),6.18,0.0,14.1,46.86,32.86,427.91,40.76,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.98,Good,1.04,See pre-treatment,1.01
+Siemens Energy,Hydrogen-enriched Natural Gas (H2NG-10%),92.43,3.35,0.96,3.25,0.0,4.26,35.39,Yes - Internal,Desulfurization,0.9964,Excellent,1.007,See pre-treatment,1.002
+Siemens Energy,Hydrogen-enriched Natural Gas (H2NG-20%),85.31,4.33,1.18,9.18,0.0,5.66,49.11,Yes - Internal,Desulfurization,0.9946,Excellent,1.011,See pre-treatment,1.003
+FuelCell Energy,Pipeline Natural Gas,88.37,2.72,2.68,6.23,0.0,8.58,37.79,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+FuelCell Energy,Compressed Natural Gas (CNG),95.43,2.83,1.71,0.03,0.0,2.2,36.21,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+FuelCell Energy,Liquefied Natural Gas (LNG),94.46,2.99,1.59,0.96,0.0,7.57,46.48,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+FuelCell Energy,Bio-methane (Landfill Gas),58.18,1.63,32.2,2.81,1.31,96.1,35.86,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.8872,Good,1.226,See pre-treatment,1.056
+FuelCell Energy,Bio-methane (Anaerobic Digestion),65.64,1.86,20.23,3.48,0.5,34.48,41.75,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9269,Good,1.146,See pre-treatment,1.037
+FuelCell Energy,LPG (Propane),4.11,5.65,0.54,0.55,0.0,6.57,46.39,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9459,Moderate,1.108,See pre-treatment,1.027
+FuelCell Energy,LPG (Butane),3.13,9.11,0.41,1.85,0.0,5.55,54.63,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9343,Moderate,1.131,See pre-treatment,1.033
+FuelCell Energy,Associated Petroleum Gas (APG),78.4,11.56,3.26,6.78,0.42,66.83,49.72,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.9061,Moderate,1.188,See pre-treatment,1.047
+FuelCell Energy,Syngas (Coal-derived),11.54,0.0,11.98,48.91,27.57,304.4,41.96,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.96,Moderate,1.08,See pre-treatment,1.02
+FuelCell Energy,Hydrogen-enriched Natural Gas (H2NG-10%),97.64,3.43,1.37,-2.44,0.0,2.03,38.38,Yes - Internal,Desulfurization,0.9673,Good,1.065,See pre-treatment,1.016
+FuelCell Energy,Hydrogen-enriched Natural Gas (H2NG-20%),88.26,4.4,1.9,5.43,0.0,5.71,47.9,Yes - Internal,Desulfurization,0.9655,Good,1.069,See pre-treatment,1.017
+Ceres Power,Pipeline Natural Gas,94.4,1.27,2.27,2.06,0.0,5.89,36.23,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Ceres Power,Compressed Natural Gas (CNG),90.96,2.94,0.91,5.19,0.0,9.51,47.75,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Ceres Power,Liquefied Natural Gas (LNG),93.7,2.85,1.53,1.92,0.0,6.86,43.18,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Ceres Power,Bio-methane (Landfill Gas),56.25,1.19,30.25,6.84,0.1,80.77,38.88,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.8948,Good,1.21,See pre-treatment,1.053
+Ceres Power,Bio-methane (Anaerobic Digestion),63.29,1.28,21.6,6.54,0.41,89.0,48.06,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9339,Good,1.132,See pre-treatment,1.033
+Ceres Power,LPG (Propane),1.96,9.51,0.99,1.66,0.0,5.68,49.64,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9055,Moderate,1.189,See pre-treatment,1.047
+Ceres Power,LPG (Butane),4.64,10.39,0.55,0.66,0.0,21.42,48.8,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9419,Moderate,1.116,See pre-treatment,1.029
+Ceres Power,Associated Petroleum Gas (APG),81.63,11.75,4.02,2.6,0.52,71.68,43.66,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.9097,Moderate,1.181,See pre-treatment,1.045
+Ceres Power,Syngas (Coal-derived),12.98,0.0,13.96,41.72,31.35,461.79,43.0,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.96,Moderate,1.08,See pre-treatment,1.02
+Ceres Power,Hydrogen-enriched Natural Gas (H2NG-10%),87.05,3.78,2.48,6.68,0.0,3.85,48.59,Yes - Internal,Desulfurization,1.0011,Good,0.998,See pre-treatment,0.999
+Ceres Power,Hydrogen-enriched Natural Gas (H2NG-20%),88.6,4.93,0.85,5.61,0.0,2.82,48.41,Yes - Internal,Desulfurization,0.9688,Good,1.062,See pre-treatment,1.016
+Mitsubishi Power,Pipeline Natural Gas,93.51,1.61,1.6,3.28,0.0,6.54,36.25,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Mitsubishi Power,Compressed Natural Gas (CNG),96.47,4.21,1.76,-2.45,0.0,9.7,41.27,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Mitsubishi Power,Liquefied Natural Gas (LNG),97.79,3.67,2.09,-3.55,0.0,2.49,48.23,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Mitsubishi Power,Bio-methane (Landfill Gas),63.55,1.34,23.24,2.08,1.05,74.74,36.19,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9345,Good,1.131,See pre-treatment,1.033
+Mitsubishi Power,Bio-methane (Anaerobic Digestion),74.63,1.73,18.75,7.15,1.08,73.92,42.07,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9013,Good,1.197,See pre-treatment,1.049
+Mitsubishi Power,LPG (Propane),4.29,9.59,0.42,1.24,0.0,25.71,46.74,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9185,Moderate,1.163,See pre-treatment,1.041
+Mitsubishi Power,LPG (Butane),3.85,13.26,0.19,0.86,0.0,8.55,49.5,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9191,Moderate,1.162,See pre-treatment,1.04
+Mitsubishi Power,Associated Petroleum Gas (APG),81.23,9.56,6.1,3.1,0.35,171.46,49.69,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.8911,Moderate,1.218,See pre-treatment,1.054
+Mitsubishi Power,Syngas (Coal-derived),6.26,0.0,16.76,45.63,31.34,196.3,45.29,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.96,Moderate,1.08,See pre-treatment,1.02
+Mitsubishi Power,Hydrogen-enriched Natural Gas (H2NG-10%),85.91,1.7,2.64,9.76,0.0,3.04,39.19,Yes - Internal,Desulfurization,1.0002,Good,1.0,See pre-treatment,1.0
+Mitsubishi Power,Hydrogen-enriched Natural Gas (H2NG-20%),93.36,3.78,1.78,1.08,0.0,3.75,35.5,Yes - Internal,Desulfurization,0.9702,Good,1.06,See pre-treatment,1.015
+Convion,Pipeline Natural Gas,88.95,3.61,2.85,4.59,0.0,8.84,46.49,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Convion,Compressed Natural Gas (CNG),95.25,3.66,1.15,-0.06,0.0,9.16,45.06,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Convion,Liquefied Natural Gas (LNG),92.29,1.44,1.62,4.65,0.0,5.14,47.97,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+Convion,Bio-methane (Landfill Gas),65.93,0.67,27.61,7.86,0.85,13.78,48.77,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9258,Good,1.148,See pre-treatment,1.037
+Convion,Bio-methane (Anaerobic Digestion),65.6,1.87,32.17,3.75,1.51,82.44,49.44,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.8842,Good,1.232,See pre-treatment,1.058
+Convion,LPG (Propane),3.91,8.05,0.85,0.92,0.0,26.82,52.04,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9078,Moderate,1.184,See pre-treatment,1.046
+Convion,LPG (Butane),3.16,5.97,0.32,0.52,0.0,16.72,50.98,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9169,Moderate,1.166,See pre-treatment,1.042
+Convion,Associated Petroleum Gas (APG),74.46,7.1,6.72,11.73,0.05,182.52,45.02,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.9131,Moderate,1.174,See pre-treatment,1.043
+Convion,Syngas (Coal-derived),13.92,0.0,11.85,43.29,30.93,85.54,38.59,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.96,Moderate,1.08,See pre-treatment,1.02
+Convion,Hydrogen-enriched Natural Gas (H2NG-10%),95.33,1.14,1.96,1.57,0.0,9.96,42.82,Yes - Internal,Desulfurization,1.0011,Good,0.998,See pre-treatment,0.999
+Convion,Hydrogen-enriched Natural Gas (H2NG-20%),85.83,4.33,2.0,7.85,0.0,2.03,48.64,Yes - Internal,Desulfurization,0.9645,Good,1.071,See pre-treatment,1.018
+SOLIDpower,Pipeline Natural Gas,93.7,4.32,2.7,-0.71,0.0,6.15,42.76,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+SOLIDpower,Compressed Natural Gas (CNG),90.6,2.27,1.59,5.55,0.0,7.96,44.03,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+SOLIDpower,Liquefied Natural Gas (LNG),96.6,2.77,2.02,-1.39,0.0,6.68,43.88,Yes - Internal,Desulfurization,0.96,Good,1.08,See pre-treatment,1.02
+SOLIDpower,Bio-methane (Landfill Gas),69.05,0.66,24.75,5.07,0.77,53.89,49.26,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.9208,Good,1.158,See pre-treatment,1.04
+SOLIDpower,Bio-methane (Anaerobic Digestion),72.01,1.45,29.87,5.04,0.14,32.9,42.09,Yes - Internal/External,"Desulfurization, CO2 removal, Moisture removal",0.904,Good,1.192,See pre-treatment,1.048
+SOLIDpower,LPG (Propane),1.18,6.4,0.35,1.96,0.0,13.28,46.96,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9255,Moderate,1.149,See pre-treatment,1.037
+SOLIDpower,LPG (Butane),3.44,7.81,0.29,1.27,0.0,5.14,47.19,Yes - External,"Vaporization, Desulfurization, Steam reforming",0.9028,Moderate,1.194,See pre-treatment,1.049
+SOLIDpower,Associated Petroleum Gas (APG),70.55,5.76,4.69,19.0,0.8,122.97,39.4,Yes - Internal,"Intensive Desulfurization, Moisture removal",0.8935,Moderate,1.213,See pre-treatment,1.053
+SOLIDpower,Syngas (Coal-derived),8.97,0.0,10.87,45.84,34.32,327.68,36.71,Partial - depends on H2 content,"Extensive cleanup, Desulfurization, Tar removal",0.96,Moderate,1.08,See pre-treatment,1.02
+SOLIDpower,Hydrogen-enriched Natural Gas (H2NG-10%),89.49,3.03,2.69,4.8,0.0,5.44,49.89,Yes - Internal,Desulfurization,0.9937,Good,1.013,See pre-treatment,1.003
+SOLIDpower,Hydrogen-enriched Natural Gas (H2NG-20%),86.71,2.1,1.49,9.71,0.0,4.8,48.61,Yes - Internal,Desulfurization,0.9797,Good,1.041,See pre-treatment,1.01

@@ -1,0 +1,11 @@
+Application_Type,Peak_Load_kW,Average_Load_kW,Load_Factor,Daily_Load_Variation,Heat_Demand_Level,Recommended_SOFC_Size_BaseLoad_kW,Recommended_SOFC_Size_PeakShave_kW,Recommended_SOFC_Size_Backup_kW,Number_of_Units_100kW,Number_of_Units_250kW,Number_of_Units_500kW,Estimated_Footprint_m2,Estimated_Volume_m3,CHP_Suitability,Annual_Operating_Hours,Annual_Energy_Demand_MWh,Critical_Load_Percentage
+Residential Complex (500 homes),867.9,347.2,0.4,High,Medium,381.9,607.5,520.7,4,2,1,2.4,1.0,Good,3504,3041.1,30.6
+"Commercial Building (50,000 m²)",2279.1,1139.6,0.5,Medium,Low-Medium,1253.5,1595.4,1367.5,13,6,3,7.8,3.1,Limited,4380,9982.5,48.3
+Industrial Facility (Light),3049.5,2134.6,0.7,Low,High,2348.1,2134.6,1829.7,24,10,5,14.7,5.9,Excellent,6132,18699.3,55.1
+Industrial Facility (Heavy),9014.1,7211.2,0.8,Very Low,Very High,7932.4,6309.8,5408.4,80,32,16,49.6,19.8,Excellent,7008,63170.5,58.8
+Hospital/Healthcare,1535.9,1075.2,0.7,Low,High,1182.7,1075.2,921.6,12,5,3,7.4,3.0,Excellent,6132,9418.4,64.7
+Data Center,4205.7,3785.1,0.9,Very Low,Low,4163.6,2944.0,2523.4,42,17,9,26.0,10.4,Limited,7884,33157.4,54.6
+University Campus,3145.2,1572.6,0.5,High,Medium-High,1729.9,2201.7,1887.1,18,7,4,10.8,4.3,Limited,4380,13776.0,38.3
+Telecom Base Station,142.1,113.7,0.8,Very Low,None,125.1,99.5,85.3,2,1,1,0.8,0.3,Limited,7008,996.1,47.5
+Water Treatment Plant,1092.8,819.6,0.75,Low,Low,901.6,765.0,655.7,10,4,2,5.6,2.3,Limited,6570,7180.0,40.6
+Shopping Mall,1578.0,867.9,0.55,Medium-High,Low,954.7,1104.6,946.8,10,4,2,6.0,2.4,Limited,4818,7602.7,31.0
