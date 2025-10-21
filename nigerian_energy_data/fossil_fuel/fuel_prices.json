@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "description": "Nigerian Fuel Prices - Diesel, Petrol, Natural Gas, LPG",
+    "last_updated": "2025-01-21",
+    "currency": "NGN",
+    "sources": ["NNPC", "NBS", "Major Oil Markets", "PPPRA"]
+  },
+  "diesel_agb": {
+    "current_prices": {
+      "national_average": 1150,
+      "unit": "NGN/liter",
+      "last_updated": "2025-01-21"
+    },
+    "regional_prices": {
+      "lagos": {"price": 1050, "availability": "High"},
+      "abuja": {"price": 1100, "availability": "High"},
+      "port_harcourt": {"price": 1080, "availability": "High"},
+      "kano": {"price": 1200, "availability": "Medium"},
+      "kaduna": {"price": 1180, "availability": "Medium"},
+      "ibadan": {"price": 1120, "availability": "High"},
+      "enugu": {"price": 1150, "availability": "Medium"},
+      "benin": {"price": 1130, "availability": "Medium"},
+      "warri": {"price": 1100, "availability": "High"},
+      "calabar": {"price": 1170, "availability": "Medium"},
+      "jos": {"price": 1220, "availability": "Low"},
+      "maiduguri": {"price": 1350, "availability": "Low"},
+      "sokoto": {"price": 1280, "availability": "Low"},
+      "yola": {"price": 1320, "availability": "Low"}
+    },
+    "historical_prices": {
+      "2020": {"Q1": 230, "Q2": 225, "Q3": 240, "Q4": 250},
+      "2021": {"Q1": 255, "Q2": 265, "Q3": 280, "Q4": 290},
+      "2022": {"Q1": 350, "Q2": 450, "Q3": 750, "Q4": 800},
+      "2023": {"Q1": 850, "Q2": 900, "Q3": 950, "Q4": 1000},
+      "2024": {"Q1": 1050, "Q2": 1080, "Q3": 1120, "Q4": 1150}
+    },
+    "bulk_pricing": {
+      "10000_liters": 1050,
+      "33000_liters_truck": 1030,
+      "100000_liters_plus": 1010
+    },
+    "consumption_data": {
+      "daily_national_consumption_million_liters": 14.5,
+      "generator_use_percentage": 75,
+      "transportation_percentage": 20,
+      "industrial_percentage": 5
+    }
+  },
+  "petrol_pms": {
+    "current_prices": {
+      "official_pump_price": 617,
+      "unit": "NGN/liter",
+      "subsidy_removed": true,
+      "last_adjustment": "2023-05-29"
+    },
+    "regional_prices": {
+      "lagos": {"price": 580, "queues": "Occasional"},
+      "abuja": {"price": 600, "queues": "Rare"},
+      "port_harcourt": {"price": 590, "queues": "Occasional"},
+      "kano": {"price": 640, "queues": "Frequent"},
+      "kaduna": {"price": 630, "queues": "Occasional"},
+      "ibadan": {"price": 595, "queues": "Occasional"},
+      "enugu": {"price": 610, "queues": "Frequent"},
+      "benin": {"price": 605, "queues": "Occasional"},
+      "warri": {"price": 585, "queues": "Rare"},
+      "calabar": {"price": 615, "queues": "Frequent"},
+      "jos": {"price": 650, "queues": "Frequent"},
+      "maiduguri": {"price": 680, "queues": "Very Frequent"},
+      "sokoto": {"price": 670, "queues": "Frequent"},
+      "yola": {"price": 675, "queues": "Very Frequent"}
+    },
+    "historical_prices": {
+      "2020": {"average": 145, "subsidy": true},
+      "2021": {"average": 165, "subsidy": true},
+      "2022": {"average": 185, "subsidy": true},
+      "2023_pre_subsidy_removal": {"average": 195, "subsidy": true},
+      "2023_post_subsidy_removal": {"average": 537, "subsidy": false},
+      "2024": {"average": 617, "subsidy": false}
+    },
+    "black_market_premium": {
+      "scarcity_periods": "20-50% above pump price",
+      "remote_areas": "15-30% above pump price"
+    },
+    "consumption_data": {
+      "daily_national_consumption_million_liters": 65,
+      "smuggling_to_neighbors_percentage": 15,
+      "generator_use_percentage": 25
+    }
+  },
+  "natural_gas": {
+    "domestic_pricing": {
+      "power_generation": {
+        "price_usd_per_mmbtu": 2.50,
+        "price_ngn_per_scm": 150,
+        "pricing_framework": "Regulated - NERC approved"
+      },
+      "industrial": {
+        "large_consumers_above_10mmscfd": {
+          "price_usd_per_mmbtu": 4.50,
+          "price_ngn_per_scm": 270
+        },
+        "medium_consumers_1_10mmscfd": {
+          "price_usd_per_mmbtu": 5.50,
+          "price_ngn_per_scm": 330
+        },
+        "small_consumers_below_1mmscfd": {
+          "price_usd_per_mmbtu": 7.00,
+          "price_ngn_per_scm": 420
+        }
+      },
+      "commercial": {
+        "price_usd_per_mmbtu": 8.50,
+        "price_ngn_per_scm": 510
+      },
+      "residential_cng": {
+        "price_ngn_per_scm": 250,
+        "equivalent_petrol_price_ngn_per_liter": 230
+      }
+    },
+    "export_pricing": {
+      "lng_fob_bonny": {
+        "price_usd_per_mmbtu": 12.50,
+        "destination": "Europe/Asia",
+        "contract_type": "Long-term and Spot"
+      },
+      "pipeline_export_wagp": {
+        "price_usd_per_mmbtu": 8.00,
+        "destination": "Ghana, Togo, Benin"
+      }
+    },
+    "transportation_costs": {
+      "pipeline_tariff_ngn_per_mmbtu_per_100km": 45,
+      "virtual_pipeline_cng_ngn_per_scm": 35,
+      "virtual_pipeline_lng_ngn_per_scm": 55
+    }
+  },
+  "lpg": {
+    "current_prices": {
+      "retail_12_5kg_cylinder": 12500,
+      "retail_per_kg": 1000,
+      "bulk_per_metric_ton": 950000
+    },
+    "regional_variation": {
+      "southern_nigeria_per_kg": 950,
+      "northern_nigeria_per_kg": 1150,
+      "rural_areas_premium_percent": 20
+    },
+    "historical_prices_per_kg": {
+      "2020": 350,
+      "2021": 450,
+      "2022": 700,
+      "2023": 850,
+      "2024": 1000
+    },
+    "supply_sources": {
+      "domestic_production_percent": 40,
+      "imports_percent": 60
+    },
+    "consumption": {
+      "annual_consumption_metric_tons": 1200000,
+      "household_penetration_percent": 5,
+      "commercial_use_percent": 15,
+      "autogas_percent": 2
+    }
+  },
+  "comparative_analysis": {
+    "electricity_generation_costs": {
+      "diesel_generator": {
+        "fuel_cost_ngn_per_kwh": 180,
+        "total_cost_including_maintenance_ngn_per_kwh": 250
+      },
+      "gas_generator": {
+        "fuel_cost_ngn_per_kwh": 45,
+        "total_cost_including_maintenance_ngn_per_kwh": 85
+      },
+      "grid_electricity": {
+        "band_a_tariff_ngn_per_kwh": 68,
+        "effective_cost_with_backup_ngn_per_kwh": 150
+      },
+      "sofc_with_natural_gas": {
+        "fuel_cost_ngn_per_kwh": 28,
+        "total_levelized_cost_ngn_per_kwh": 65
+      },
+      "sofc_with_flared_gas": {
+        "fuel_cost_ngn_per_kwh": 5,
+        "total_levelized_cost_ngn_per_kwh": 42
+      }
+    },
+    "monthly_costs_for_5kw_continuous": {
+      "diesel_generator": 900000,
+      "gas_generator": 306000,
+      "grid_plus_backup": 540000,
+      "sofc_natural_gas": 234000,
+      "sofc_flared_gas": 151200
+    }
+  },
+  "price_drivers": {
+    "diesel": [
+      "International crude oil prices",
+      "Exchange rate (NGN/USD)",
+      "Refinery capacity utilization",
+      "Import duties and levies",
+      "Distribution costs",
+      "Seasonal demand variations"
+    ],
+    "petrol": [
+      "Subsidy removal impact",
+      "Dangote refinery production",
+      "NNPC pricing decisions",
+      "Global oil market dynamics",
+      "Exchange rate fluctuations"
+    ],
+    "natural_gas": [
+      "Domestic gas obligation policy",
+      "Pipeline infrastructure availability",
+      "Gas flare penalties",
+      "LNG export prices",
+      "Power sector demand"
+    ]
+  },
+  "future_outlook": {
+    "diesel_forecast_2026": {
+      "optimistic": 950,
+      "base_case": 1250,
+      "pessimistic": 1500
+    },
+    "petrol_forecast_2026": {
+      "optimistic": 550,
+      "base_case": 700,
+      "pessimistic": 850
+    },
+    "natural_gas_domestic_2026": {
+      "power_generation_usd_per_mmbtu": 3.00,
+      "industrial_usd_per_mmbtu": 5.00
+    }
+  }
+}

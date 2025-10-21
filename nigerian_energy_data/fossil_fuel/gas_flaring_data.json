@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "description": "Nigerian Gas Flaring Data - Critical for SOFC Thesis",
+    "last_updated": "2025-01-21",
+    "sources": ["NNPC", "World Bank GGFR", "NOSDRA", "Satellite Data", "DPR"]
+  },
+  "national_flaring_statistics": {
+    "current_flaring": {
+      "total_volume_mmscfd": 1300,
+      "total_volume_bcf_per_year": 474.5,
+      "percentage_of_production": 16.25,
+      "co2_emissions_million_tons_per_year": 28.5,
+      "economic_value_lost_usd_billion_per_year": 2.3,
+      "power_generation_potential_MW": 3900,
+      "households_that_could_be_powered_millions": 15
+    },
+    "historical_trends": {
+      "1970": {"flared_bcf": 850, "percentage": 97},
+      "1980": {"flared_bcf": 750, "percentage": 88},
+      "1990": {"flared_bcf": 650, "percentage": 76},
+      "2000": {"flared_bcf": 600, "percentage": 55},
+      "2010": {"flared_bcf": 540, "percentage": 30},
+      "2015": {"flared_bcf": 510, "percentage": 25},
+      "2020": {"flared_bcf": 490, "percentage": 20},
+      "2021": {"flared_bcf": 485, "percentage": 19},
+      "2022": {"flared_bcf": 480, "percentage": 18},
+      "2023": {"flared_bcf": 475, "percentage": 17},
+      "2024": {"flared_bcf": 474, "percentage": 16.25}
+    }
+  },
+  "major_flare_sites": [
+    {
+      "location": "Bonny Terminal",
+      "state": "Rivers",
+      "operator": "Shell",
+      "coordinates": {"lat": 4.4333, "lon": 7.1667},
+      "flare_volume_mmscfd": 85,
+      "number_of_flare_points": 12,
+      "nearby_communities": ["Bonny Town", "Finima"],
+      "population_affected": 250000,
+      "sofc_potential_MW": 255
+    },
+    {
+      "location": "Forcados Terminal",
+      "state": "Delta",
+      "operator": "Shell",
+      "coordinates": {"lat": 5.3500, "lon": 5.3500},
+      "flare_volume_mmscfd": 75,
+      "number_of_flare_points": 8,
+      "nearby_communities": ["Ogulagha", "Forcados"],
+      "population_affected": 180000,
+      "sofc_potential_MW": 225
+    },
+    {
+      "location": "Escravos Terminal",
+      "state": "Delta",
+      "operator": "Chevron",
+      "coordinates": {"lat": 5.5833, "lon": 5.1167},
+      "flare_volume_mmscfd": 70,
+      "number_of_flare_points": 10,
+      "nearby_communities": ["Ugborodo", "Escravos"],
+      "population_affected": 150000,
+      "sofc_potential_MW": 210
+    },
+    {
+      "location": "Brass Terminal",
+      "state": "Bayelsa",
+      "operator": "Agip",
+      "coordinates": {"lat": 4.3167, "lon": 6.2500},
+      "flare_volume_mmscfd": 65,
+      "number_of_flare_points": 7,
+      "nearby_communities": ["Brass", "Twon-Brass"],
+      "population_affected": 120000,
+      "sofc_potential_MW": 195
+    },
+    {
+      "location": "Qua Iboe Terminal",
+      "state": "Akwa Ibom",
+      "operator": "ExxonMobil",
+      "coordinates": {"lat": 4.5833, "lon": 7.9833},
+      "flare_volume_mmscfd": 60,
+      "number_of_flare_points": 6,
+      "nearby_communities": ["Eket", "Ibeno"],
+      "population_affected": 200000,
+      "sofc_potential_MW": 180
+    },
+    {
+      "location": "Oso Platform",
+      "state": "Offshore",
+      "operator": "ExxonMobil",
+      "coordinates": {"lat": 4.2500, "lon": 7.7500},
+      "flare_volume_mmscfd": 55,
+      "number_of_flare_points": 4,
+      "nearby_communities": ["Coastal communities"],
+      "population_affected": 100000,
+      "sofc_potential_MW": 165
+    },
+    {
+      "location": "Gbaran-Ubie",
+      "state": "Bayelsa",
+      "operator": "Shell",
+      "coordinates": {"lat": 4.8833, "lon": 6.2667},
+      "flare_volume_mmscfd": 50,
+      "number_of_flare_points": 5,
+      "nearby_communities": ["Gbaran", "Ubie"],
+      "population_affected": 80000,
+      "sofc_potential_MW": 150
+    },
+    {
+      "location": "Obiafu-Obrikom",
+      "state": "Rivers",
+      "operator": "Agip",
+      "coordinates": {"lat": 5.2500, "lon": 6.8333},
+      "flare_volume_mmscfd": 48,
+      "number_of_flare_points": 6,
+      "nearby_communities": ["Obiafu", "Obrikom"],
+      "population_affected": 95000,
+      "sofc_potential_MW": 144
+    },
+    {
+      "location": "Soku",
+      "state": "Rivers",
+      "operator": "Shell",
+      "coordinates": {"lat": 4.6500, "lon": 6.8000},
+      "flare_volume_mmscfd": 45,
+      "number_of_flare_points": 5,
+      "nearby_communities": ["Soku", "Elem Sangama"],
+      "population_affected": 70000,
+      "sofc_potential_MW": 135
+    },
+    {
+      "location": "Utorogu",
+      "state": "Delta",
+      "operator": "Shell",
+      "coordinates": {"lat": 5.4667, "lon": 5.8833},
+      "flare_volume_mmscfd": 42,
+      "number_of_flare_points": 4,
+      "nearby_communities": ["Utorogu", "Ughelli"],
+      "population_affected": 150000,
+      "sofc_potential_MW": 126
+    },
+    {
+      "location": "Jones Creek",
+      "state": "Delta",
+      "operator": "Chevron",
+      "coordinates": {"lat": 5.1833, "lon": 5.8000},
+      "flare_volume_mmscfd": 40,
+      "number_of_flare_points": 5,
+      "nearby_communities": ["Koko", "Jesse"],
+      "population_affected": 60000,
+      "sofc_potential_MW": 120
+    },
+    {
+      "location": "Cawthorne Channel",
+      "state": "Rivers",
+      "operator": "Shell",
+      "coordinates": {"lat": 4.7667, "lon": 6.4333},
+      "flare_volume_mmscfd": 38,
+      "number_of_flare_points": 4,
+      "nearby_communities": ["Buguma", "Bakana"],
+      "population_affected": 85000,
+      "sofc_potential_MW": 114
+    }
+  ],
+  "flare_gas_composition": {
+    "typical_composition": {
+      "methane_CH4": 0.85,
+      "ethane_C2H6": 0.08,
+      "propane_C3H8": 0.04,
+      "butane_C4H10": 0.02,
+      "nitrogen_N2": 0.005,
+      "co2": 0.005,
+      "h2s_ppm": 20,
+      "water_vapor": "saturated"
+    },
+    "heating_value": {
+      "lower_heating_value_MJ_per_m3": 36.5,
+      "higher_heating_value_MJ_per_m3": 40.2
+    },
+    "quality_for_sofc": {
+      "suitability": "Excellent after minimal processing",
+      "required_treatment": [
+        "H2S removal to <1ppm",
+        "Dehydration",
+        "Particulate filtration"
+      ],
+      "advantages_for_sofc": [
+        "High methane content ideal for internal reforming",
+        "Low sulfur content compared to other regions",
+        "Consistent composition",
+        "High pressure availability at wellhead"
+      ]
+    }
+  },
+  "environmental_impact": {
+    "air_quality": {
+      "so2_emissions_tons_per_year": 45000,
+      "nox_emissions_tons_per_year": 125000,
+      "pm2_5_emissions_tons_per_year": 8500,
+      "voc_emissions_tons_per_year": 65000,
+      "black_carbon_tons_per_year": 2800
+    },
+    "health_impact": {
+      "population_within_50km_of_flares_millions": 8.5,
+      "estimated_premature_deaths_per_year": 3500,
+      "respiratory_disease_cases_per_year": 125000,
+      "childhood_asthma_prevalence_near_flares_percent": 18.5
+    },
+    "agricultural_impact": {
+      "crop_yield_reduction_percent": 20,
+      "acid_rain_frequency": "High",
+      "soil_contamination_area_km2": 15000
+    }
+  },
+  "regulatory_framework": {
+    "current_penalties": {
+      "charge_per_1000scf_flared_usd": 2.0,
+      "total_penalties_collected_2024_million_usd": 350,
+      "compliance_rate_percent": 45
+    },
+    "flare_out_targets": {
+      "2020_target": "Zero routine flaring",
+      "2020_achievement": "Missed - 16.25% still flared",
+      "2030_target": "Zero routine flaring",
+      "current_trajectory": "Unlikely to meet without intervention"
+    },
+    "incentives_for_gas_utilization": [
+      "Tax holidays for gas utilization projects",
+      "Accelerated depreciation for gas infrastructure",
+      "Pioneer status for gas-to-power projects",
+      "Reduced royalties on associated gas"
+    ]
+  },
+  "sofc_deployment_potential": {
+    "total_deployable_capacity_MW": 3900,
+    "prioritized_sites_for_sofc": [
+      {
+        "site": "Bonny Terminal",
+        "sofc_capacity_MW": 255,
+        "estimated_capex_million_usd": 510,
+        "payback_period_years": 4.5,
+        "communities_to_serve": 50
+      },
+      {
+        "site": "Forcados Terminal",
+        "sofc_capacity_MW": 225,
+        "estimated_capex_million_usd": 450,
+        "payback_period_years": 4.8,
+        "communities_to_serve": 40
+      },
+      {
+        "site": "Escravos Terminal",
+        "sofc_capacity_MW": 210,
+        "estimated_capex_million_usd": 420,
+        "payback_period_years": 4.6,
+        "communities_to_serve": 35
+      },
+      {
+        "site": "Brass Terminal",
+        "sofc_capacity_MW": 195,
+        "estimated_capex_million_usd": 390,
+        "payback_period_years": 4.7,
+        "communities_to_serve": 30
+      },
+      {
+        "site": "Qua Iboe Terminal",
+        "sofc_capacity_MW": 180,
+        "estimated_capex_million_usd": 360,
+        "payback_period_years": 4.5,
+        "communities_to_serve": 45
+      }
+    ],
+    "technical_advantages": {
+      "efficiency_vs_gas_turbine_percent": 60,
+      "emissions_reduction_percent": 85,
+      "noise_reduction_db": 40,
+      "footprint_reduction_percent": 70
+    }
+  }
+}

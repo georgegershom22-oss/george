@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "description": "Nigerian National Electricity Generation Capacity Data",
+    "last_updated": "2025-01-21",
+    "units": "MW",
+    "sources": ["NERC", "TCN", "World Bank", "Nigeria Electricity Hub"]
+  },
+  "national_capacity": {
+    "installed_capacity": {
+      "total": 13014,
+      "by_source": {
+        "gas_thermal": {
+          "capacity": 10142,
+          "percentage": 77.9,
+          "plants": [
+            {"name": "Egbin", "capacity": 1320, "location": "Lagos", "status": "operational"},
+            {"name": "Olorunsogo I", "capacity": 336, "location": "Ogun", "status": "operational"},
+            {"name": "Olorunsogo II", "capacity": 675, "location": "Ogun", "status": "operational"},
+            {"name": "Omotosho I", "capacity": 336, "location": "Ondo", "status": "operational"},
+            {"name": "Omotosho II", "capacity": 450, "location": "Ondo", "status": "operational"},
+            {"name": "Sapele", "capacity": 1020, "location": "Delta", "status": "operational"},
+            {"name": "Delta", "capacity": 900, "location": "Delta", "status": "operational"},
+            {"name": "Afam IV-V", "capacity": 724, "location": "Rivers", "status": "operational"},
+            {"name": "Afam VI", "capacity": 624, "location": "Rivers", "status": "operational"},
+            {"name": "Calabar", "capacity": 561, "location": "Cross River", "status": "operational"},
+            {"name": "Ibom", "capacity": 190, "location": "Akwa Ibom", "status": "operational"},
+            {"name": "Trans-Amadi", "capacity": 136, "location": "Rivers", "status": "operational"},
+            {"name": "Okpai", "capacity": 480, "location": "Delta", "status": "operational"},
+            {"name": "Ihovbor", "capacity": 450, "location": "Edo", "status": "operational"},
+            {"name": "Azura", "capacity": 461, "location": "Edo", "status": "operational"},
+            {"name": "Odukpani", "capacity": 561, "location": "Cross River", "status": "operational"},
+            {"name": "Gbarain", "capacity": 225, "location": "Bayelsa", "status": "operational"},
+            {"name": "Omoku", "capacity": 150, "location": "Rivers", "status": "operational"},
+            {"name": "Alaoji", "capacity": 1074, "location": "Abia", "status": "partially operational"},
+            {"name": "Geregu I", "capacity": 414, "location": "Kogi", "status": "operational"},
+            {"name": "Geregu II", "capacity": 434, "location": "Kogi", "status": "operational"},
+            {"name": "Paras", "capacity": 60, "location": "Ogun", "status": "operational"},
+            {"name": "Asco", "capacity": 270, "location": "Rivers", "status": "operational"}
+          ]
+        },
+        "hydro": {
+          "capacity": 2062,
+          "percentage": 15.9,
+          "plants": [
+            {"name": "Kainji", "capacity": 760, "location": "Niger", "status": "operational", "commissioned": 1968},
+            {"name": "Jebba", "capacity": 570, "location": "Niger", "status": "operational", "commissioned": 1985},
+            {"name": "Shiroro", "capacity": 600, "location": "Niger", "status": "operational", "commissioned": 1990},
+            {"name": "Zungeru", "capacity": 700, "location": "Niger", "status": "under construction", "expected": 2025},
+            {"name": "Kashimbila", "capacity": 40, "location": "Taraba", "status": "operational", "commissioned": 2021},
+            {"name": "Dadin Kowa", "capacity": 40, "location": "Gombe", "status": "operational", "commissioned": 2020}
+          ]
+        },
+        "coal": {
+          "capacity": 0,
+          "percentage": 0,
+          "plants": [],
+          "planned": [
+            {"name": "Zuma 1", "capacity": 1200, "location": "Kogi", "status": "planned"},
+            {"name": "Zuma 2", "capacity": 1200, "location": "Kogi", "status": "planned"}
+          ]
+        },
+        "solar": {
+          "capacity": 28,
+          "percentage": 0.2,
+          "projects": [
+            {"name": "Katamkpe Solar", "capacity": 10, "location": "Abuja", "status": "operational"},
+            {"name": "Gurara Solar", "capacity": 5, "location": "Niger", "status": "operational"},
+            {"name": "Sabon Gida Solar", "capacity": 10, "location": "Kano", "status": "operational"},
+            {"name": "Jigawa Solar", "capacity": 3, "location": "Jigawa", "status": "operational"}
+          ]
+        },
+        "wind": {
+          "capacity": 10,
+          "percentage": 0.08,
+          "projects": [
+            {"name": "Katsina Wind Farm", "capacity": 10, "location": "Katsina", "status": "operational"}
+          ]
+        }
+      }
+    },
+    "available_capacity": {
+      "average_daily": 4500,
+      "peak_available": 5500,
+      "minimum_available": 3000,
+      "capacity_factor": 0.346,
+      "constraints": [
+        "Gas supply shortages",
+        "Poor maintenance",
+        "Aging infrastructure",
+        "Water levels for hydro",
+        "Transmission bottlenecks"
+      ]
+    },
+    "historical_generation": {
+      "2020": {"average": 3800, "peak": 5375},
+      "2021": {"average": 3900, "peak": 5420},
+      "2022": {"average": 4100, "peak": 5500},
+      "2023": {"average": 4300, "peak": 5520},
+      "2024": {"average": 4500, "peak": 5801}
+    }
+  }
+}

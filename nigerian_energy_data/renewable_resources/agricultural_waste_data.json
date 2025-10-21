@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "description": "Nigerian Agricultural Waste Data for Biofuel Potential",
+    "last_updated": "2025-01-21",
+    "sources": ["FAO", "National Bureau of Statistics", "Federal Ministry of Agriculture"]
+  },
+  "national_crop_production_and_residues": {
+    "total_annual_residue_production_million_tons": 125.5,
+    "energy_potential_TWh_per_year": 68.3,
+    "biogas_potential_billion_m3_per_year": 15.2,
+    "power_generation_potential_MW": 8500
+  },
+  "major_crops_and_residues": {
+    "rice": {
+      "annual_production_million_tons": 8.4,
+      "major_producing_states": ["Kebbi", "Niger", "Ebonyi", "Kano", "Taraba"],
+      "residues": {
+        "rice_husk": {
+          "generation_million_tons_per_year": 1.68,
+          "residue_to_crop_ratio": 0.20,
+          "energy_content_MJ_per_kg": 15.2,
+          "biogas_yield_m3_per_ton": 450,
+          "current_utilization_percent": 15,
+          "available_for_energy_million_tons": 1.43
+        },
+        "rice_straw": {
+          "generation_million_tons_per_year": 10.08,
+          "residue_to_crop_ratio": 1.20,
+          "energy_content_MJ_per_kg": 14.5,
+          "biogas_yield_m3_per_ton": 380,
+          "current_utilization_percent": 30,
+          "available_for_energy_million_tons": 7.06
+        }
+      }
+    },
+    "cassava": {
+      "annual_production_million_tons": 63,
+      "major_producing_states": ["Nigeria", "Benue", "Taraba", "Cross River", "Ogun"],
+      "residues": {
+        "cassava_peels": {
+          "generation_million_tons_per_year": 15.75,
+          "residue_to_crop_ratio": 0.25,
+          "energy_content_MJ_per_kg": 12.8,
+          "biogas_yield_m3_per_ton": 520,
+          "current_utilization_percent": 40,
+          "available_for_energy_million_tons": 9.45
+        },
+        "cassava_stems": {
+          "generation_million_tons_per_year": 6.30,
+          "residue_to_crop_ratio": 0.10,
+          "energy_content_MJ_per_kg": 16.5,
+          "biogas_yield_m3_per_ton": 320,
+          "current_utilization_percent": 60,
+          "available_for_energy_million_tons": 2.52
+        }
+      }
+    },
+    "maize": {
+      "annual_production_million_tons": 12.8,
+      "major_producing_states": ["Kaduna", "Niger", "Taraba", "Adamawa", "Plateau"],
+      "residues": {
+        "maize_cobs": {
+          "generation_million_tons_per_year": 2.30,
+          "residue_to_crop_ratio": 0.18,
+          "energy_content_MJ_per_kg": 16.8,
+          "biogas_yield_m3_per_ton": 410,
+          "current_utilization_percent": 25,
+          "available_for_energy_million_tons": 1.73
+        },
+        "maize_stalks": {
+          "generation_million_tons_per_year": 19.20,
+          "residue_to_crop_ratio": 1.50,
+          "energy_content_MJ_per_kg": 15.6,
+          "biogas_yield_m3_per_ton": 350,
+          "current_utilization_percent": 35,
+          "available_for_energy_million_tons": 12.48
+        }
+      }
+    },
+    "sorghum": {
+      "annual_production_million_tons": 6.9,
+      "major_producing_states": ["Borno", "Yobe", "Jigawa", "Kano", "Bauchi"],
+      "residues": {
+        "sorghum_straw": {
+          "generation_million_tons_per_year": 9.66,
+          "residue_to_crop_ratio": 1.40,
+          "energy_content_MJ_per_kg": 15.4,
+          "biogas_yield_m3_per_ton": 360,
+          "current_utilization_percent": 45,
+          "available_for_energy_million_tons": 5.31
+        }
+      }
+    },
+    "millet": {
+      "annual_production_million_tons": 2.1,
+      "major_producing_states": ["Sokoto", "Kebbi", "Zamfara", "Katsina", "Jigawa"],
+      "residues": {
+        "millet_straw": {
+          "generation_million_tons_per_year": 3.15,
+          "residue_to_crop_ratio": 1.50,
+          "energy_content_MJ_per_kg": 15.2,
+          "biogas_yield_m3_per_ton": 340,
+          "current_utilization_percent": 50,
+          "available_for_energy_million_tons": 1.58
+        }
+      }
+    },
+    "groundnut": {
+      "annual_production_million_tons": 3.4,
+      "major_producing_states": ["Kano", "Kaduna", "Sokoto", "Katsina", "Jigawa"],
+      "residues": {
+        "groundnut_shells": {
+          "generation_million_tons_per_year": 0.85,
+          "residue_to_crop_ratio": 0.25,
+          "energy_content_MJ_per_kg": 17.2,
+          "biogas_yield_m3_per_ton": 365,
+          "current_utilization_percent": 20,
+          "available_for_energy_million_tons": 0.68
+        },
+        "groundnut_straw": {
+          "generation_million_tons_per_year": 3.40,
+          "residue_to_crop_ratio": 1.00,
+          "energy_content_MJ_per_kg": 14.8,
+          "biogas_yield_m3_per_ton": 320,
+          "current_utilization_percent": 60,
+          "available_for_energy_million_tons": 1.36
+        }
+      }
+    },
+    "oil_palm": {
+      "annual_production_million_tons": 1.4,
+      "major_producing_states": ["Edo", "Delta", "Cross River", "Akwa Ibom", "Rivers"],
+      "residues": {
+        "palm_kernel_shells": {
+          "generation_million_tons_per_year": 0.28,
+          "residue_to_crop_ratio": 0.20,
+          "energy_content_MJ_per_kg": 18.5,
+          "biogas_yield_m3_per_ton": 280,
+          "current_utilization_percent": 30,
+          "available_for_energy_million_tons": 0.20
+        },
+        "empty_fruit_bunches": {
+          "generation_million_tons_per_year": 0.42,
+          "residue_to_crop_ratio": 0.30,
+          "energy_content_MJ_per_kg": 16.0,
+          "biogas_yield_m3_per_ton": 480,
+          "current_utilization_percent": 10,
+          "available_for_energy_million_tons": 0.38
+        },
+        "palm_fronds": {
+          "generation_million_tons_per_year": 2.80,
+          "residue_to_crop_ratio": 2.00,
+          "energy_content_MJ_per_kg": 14.2,
+          "biogas_yield_m3_per_ton": 350,
+          "current_utilization_percent": 5,
+          "available_for_energy_million_tons": 2.66
+        }
+      }
+    },
+    "sugarcane": {
+      "annual_production_million_tons": 1.5,
+      "major_producing_states": ["Niger", "Jigawa", "Sokoto", "Kebbi", "Taraba"],
+      "residues": {
+        "bagasse": {
+          "generation_million_tons_per_year": 0.45,
+          "residue_to_crop_ratio": 0.30,
+          "energy_content_MJ_per_kg": 17.0,
+          "biogas_yield_m3_per_ton": 420,
+          "current_utilization_percent": 70,
+          "available_for_energy_million_tons": 0.14
+        },
+        "sugarcane_tops": {
+          "generation_million_tons_per_year": 0.30,
+          "residue_to_crop_ratio": 0.20,
+          "energy_content_MJ_per_kg": 15.8,
+          "biogas_yield_m3_per_ton": 380,
+          "current_utilization_percent": 80,
+          "available_for_energy_million_tons": 0.06
+        }
+      }
+    },
+    "cotton": {
+      "annual_production_million_tons": 0.3,
+      "major_producing_states": ["Kano", "Katsina", "Zamfara", "Sokoto", "Gombe"],
+      "residues": {
+        "cotton_stalks": {
+          "generation_million_tons_per_year": 0.90,
+          "residue_to_crop_ratio": 3.00,
+          "energy_content_MJ_per_kg": 15.9,
+          "biogas_yield_m3_per_ton": 330,
+          "current_utilization_percent": 15,
+          "available_for_energy_million_tons": 0.77
+        }
+      }
+    },
+    "cowpea": {
+      "annual_production_million_tons": 3.6,
+      "major_producing_states": ["Niger", "Kano", "Katsina", "Kaduna", "Bauchi"],
+      "residues": {
+        "cowpea_husks": {
+          "generation_million_tons_per_year": 0.72,
+          "residue_to_crop_ratio": 0.20,
+          "energy_content_MJ_per_kg": 14.5,
+          "biogas_yield_m3_per_ton": 340,
+          "current_utilization_percent": 40,
+          "available_for_energy_million_tons": 0.43
+        }
+      }
+    },
+    "yam": {
+      "annual_production_million_tons": 50.0,
+      "major_producing_states": ["Benue", "Niger", "Taraba", "Kwara", "Edo"],
+      "residues": {
+        "yam_peels": {
+          "generation_million_tons_per_year": 5.00,
+          "residue_to_crop_ratio": 0.10,
+          "energy_content_MJ_per_kg": 12.5,
+          "biogas_yield_m3_per_ton": 450,
+          "current_utilization_percent": 60,
+          "available_for_energy_million_tons": 2.00
+        }
+      }
+    },
+    "plantain_banana": {
+      "annual_production_million_tons": 3.2,
+      "major_producing_states": ["Ondo", "Cross River", "Akwa Ibom", "Rivers", "Ogun"],
+      "residues": {
+        "plantain_stems": {
+          "generation_million_tons_per_year": 6.40,
+          "residue_to_crop_ratio": 2.00,
+          "energy_content_MJ_per_kg": 11.8,
+          "biogas_yield_m3_per_ton": 480,
+          "current_utilization_percent": 10,
+          "available_for_energy_million_tons": 5.76
+        },
+        "plantain_peels": {
+          "generation_million_tons_per_year": 0.96,
+          "residue_to_crop_ratio": 0.30,
+          "energy_content_MJ_per_kg": 13.2,
+          "biogas_yield_m3_per_ton": 520,
+          "current_utilization_percent": 30,
+          "available_for_energy_million_tons": 0.67
+        }
+      }
+    }
+  },
+  "regional_distribution": {
+    "north_west": {
+      "states": ["Sokoto", "Kebbi", "Zamfara", "Katsina", "Jigawa", "Kano", "Kaduna"],
+      "total_residue_million_tons_per_year": 28.5,
+      "main_residues": ["Sorghum straw", "Millet straw", "Groundnut shells", "Maize stalks"],
+      "biogas_potential_MW": 1850
+    },
+    "north_east": {
+      "states": ["Borno", "Yobe", "Bauchi", "Gombe", "Adamawa", "Taraba"],
+      "total_residue_million_tons_per_year": 22.3,
+      "main_residues": ["Sorghum straw", "Rice husk", "Cotton stalks", "Maize stalks"],
+      "biogas_potential_MW": 1450
+    },
+    "north_central": {
+      "states": ["Niger", "Kwara", "Kogi", "Benue", "Plateau", "Nasarawa", "FCT"],
+      "total_residue_million_tons_per_year": 31.2,
+      "main_residues": ["Rice straw", "Maize cobs", "Yam peels", "Cassava peels"],
+      "biogas_potential_MW": 2030
+    },
+    "south_west": {
+      "states": ["Lagos", "Ogun", "Oyo", "Osun", "Ondo", "Ekiti"],
+      "total_residue_million_tons_per_year": 18.7,
+      "main_residues": ["Cassava peels", "Plantain stems", "Palm fronds", "Maize stalks"],
+      "biogas_potential_MW": 1215
+    },
+    "south_south": {
+      "states": ["Edo", "Delta", "Rivers", "Bayelsa", "Cross River", "Akwa Ibom"],
+      "total_residue_million_tons_per_year": 15.8,
+      "main_residues": ["Palm kernel shells", "Cassava peels", "Plantain stems", "Rice husk"],
+      "biogas_potential_MW": 1027
+    },
+    "south_east": {
+      "states": ["Anambra", "Imo", "Enugu", "Abia", "Ebonyi"],
+      "total_residue_million_tons_per_year": 9.0,
+      "main_residues": ["Cassava peels", "Rice husk", "Palm fronds", "Yam peels"],
+      "biogas_potential_MW": 585
+    }
+  },
+  "seasonal_availability": {
+    "dry_season_nov_apr": {
+      "available_residues_percent": 65,
+      "main_crops": ["Rice", "Maize", "Sorghum", "Millet", "Groundnut"],
+      "storage_requirement": "High"
+    },
+    "wet_season_may_oct": {
+      "available_residues_percent": 35,
+      "main_crops": ["Cassava", "Yam", "Plantain", "Oil palm"],
+      "storage_requirement": "Critical due to moisture"
+    }
+  },
+  "conversion_technologies": {
+    "anaerobic_digestion": {
+      "suitable_feedstocks": ["Cassava peels", "Plantain peels", "Rice husk", "Palm oil mill effluent"],
+      "biogas_yield_m3_per_ton": 350,
+      "methane_content_percent": 60,
+      "digestate_fertilizer_value_ngn_per_ton": 15000,
+      "capex_usd_per_kw": 2500
+    },
+    "gasification": {
+      "suitable_feedstocks": ["Rice husk", "Palm kernel shells", "Maize cobs", "Cotton stalks"],
+      "syngas_yield_m3_per_ton": 1200,
+      "efficiency_percent": 75,
+      "capex_usd_per_kw": 1800
+    },
+    "combustion": {
+      "suitable_feedstocks": ["Bagasse", "Rice husk", "Palm kernel shells", "Groundnut shells"],
+      "efficiency_percent": 25,
+      "capex_usd_per_kw": 1200
+    },
+    "pyrolysis": {
+      "suitable_feedstocks": ["Palm kernel shells", "Rice husk", "Coconut shells"],
+      "bio_oil_yield_percent": 60,
+      "biochar_yield_percent": 25,
+      "capex_usd_per_ton_per_day": 500000
+    }
+  },
+  "logistics_and_collection": {
+    "collection_radius_km": 50,
+    "transportation_cost_ngn_per_ton_per_km": 25,
+    "storage_cost_ngn_per_ton_per_month": 500,
+    "processing_cost_ngn_per_ton": 2000,
+    "current_collection_efficiency_percent": 20,
+    "potential_collection_efficiency_percent": 65
+  },
+  "economic_potential": {
+    "total_value_billion_ngn_per_year": 450,
+    "job_creation_potential": 250000,
+    "ghg_reduction_million_tons_co2e_per_year": 35,
+    "foreign_exchange_savings_million_usd_per_year": 850
+  },
+  "challenges": {
+    "technical": [
+      "Seasonal availability of residues",
+      "High moisture content during harvest",
+      "Dispersed nature of agricultural residues",
+      "Lack of storage infrastructure",
+      "Competition with traditional uses"
+    ],
+    "economic": [
+      "High collection and transportation costs",
+      "Lack of organized supply chain",
+      "Limited access to financing",
+      "Uncertain market for end products"
+    ],
+    "institutional": [
+      "Lack of clear policy framework",
+      "Limited awareness among farmers",
+      "Weak extension services",
+      "Inadequate research and development"
+    ]
+  },
+  "sofc_integration_opportunities": {
+    "biogas_to_sofc": {
+      "potential_capacity_MW": 2500,
+      "suitable_locations": ["Agricultural processing centers", "Rural communities", "Farm clusters"],
+      "efficiency_advantage_over_engines_percent": 30,
+      "emissions_reduction_percent": 90
+    },
+    "syngas_to_sofc": {
+      "potential_capacity_MW": 1800,
+      "feedstock_flexibility": "High",
+      "tar_tolerance": "Requires cleanup",
+      "efficiency_percent": 55
+    }
+  }
+}

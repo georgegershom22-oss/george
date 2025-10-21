@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "description": "Nigerian Electricity System Operator (NESO) Daily Load Allocation Data",
+    "last_updated": "2025-01-21",
+    "units": "MW",
+    "source": "Nigerian Electricity System Operator"
+  },
+  "distribution_companies": [
+    {
+      "disco": "Ikeja Electric",
+      "region": "Lagos Central",
+      "allocated_load": 800,
+      "peak_demand": 1300,
+      "supply_gap": 500,
+      "customers": 1200000,
+      "collection_efficiency": 0.85
+    },
+    {
+      "disco": "Eko Electricity",
+      "region": "Lagos Island/Victoria Island",
+      "allocated_load": 650,
+      "peak_demand": 1100,
+      "supply_gap": 450,
+      "customers": 650000,
+      "collection_efficiency": 0.88
+    },
+    {
+      "disco": "Abuja Electricity",
+      "region": "FCT",
+      "allocated_load": 450,
+      "peak_demand": 800,
+      "supply_gap": 350,
+      "customers": 1500000,
+      "collection_efficiency": 0.75
+    },
+    {
+      "disco": "Ibadan Electricity",
+      "region": "Oyo/Ogun/Osun/Kwara",
+      "allocated_load": 580,
+      "peak_demand": 1200,
+      "supply_gap": 620,
+      "customers": 1800000,
+      "collection_efficiency": 0.65
+    },
+    {
+      "disco": "Benin Electricity",
+      "region": "Edo/Delta/Ondo/Ekiti",
+      "allocated_load": 420,
+      "peak_demand": 850,
+      "supply_gap": 430,
+      "customers": 1400000,
+      "collection_efficiency": 0.68
+    },
+    {
+      "disco": "Enugu Electricity",
+      "region": "Enugu/Abia/Imo/Anambra/Ebonyi",
+      "allocated_load": 380,
+      "peak_demand": 900,
+      "supply_gap": 520,
+      "customers": 1900000,
+      "collection_efficiency": 0.62
+    },
+    {
+      "disco": "Port Harcourt Electricity",
+      "region": "Rivers/Bayelsa/Cross River/Akwa Ibom",
+      "allocated_load": 350,
+      "peak_demand": 750,
+      "supply_gap": 400,
+      "customers": 900000,
+      "collection_efficiency": 0.70
+    },
+    {
+      "disco": "Jos Electricity",
+      "region": "Plateau/Bauchi/Gombe/Benue",
+      "allocated_load": 180,
+      "peak_demand": 450,
+      "supply_gap": 270,
+      "customers": 750000,
+      "collection_efficiency": 0.58
+    },
+    {
+      "disco": "Kaduna Electricity",
+      "region": "Kaduna/Kebbi/Sokoto/Zamfara",
+      "allocated_load": 280,
+      "peak_demand": 650,
+      "supply_gap": 370,
+      "customers": 1100000,
+      "collection_efficiency": 0.55
+    },
+    {
+      "disco": "Kano Electricity",
+      "region": "Kano/Katsina/Jigawa",
+      "allocated_load": 290,
+      "peak_demand": 700,
+      "supply_gap": 410,
+      "customers": 1300000,
+      "collection_efficiency": 0.52
+    },
+    {
+      "disco": "Yola Electricity",
+      "region": "Adamawa/Borno/Taraba/Yobe",
+      "allocated_load": 120,
+      "peak_demand": 350,
+      "supply_gap": 230,
+      "customers": 550000,
+      "collection_efficiency": 0.48
+    }
+  ],
+  "daily_generation_pattern": {
+    "00:00": 3800,
+    "01:00": 3600,
+    "02:00": 3400,
+    "03:00": 3300,
+    "04:00": 3300,
+    "05:00": 3500,
+    "06:00": 3800,
+    "07:00": 4100,
+    "08:00": 4300,
+    "09:00": 4400,
+    "10:00": 4500,
+    "11:00": 4500,
+    "12:00": 4400,
+    "13:00": 4300,
+    "14:00": 4400,
+    "15:00": 4500,
+    "16:00": 4600,
+    "17:00": 4700,
+    "18:00": 4800,
+    "19:00": 4900,
+    "20:00": 4800,
+    "21:00": 4600,
+    "22:00": 4300,
+    "23:00": 4000
+  },
+  "system_constraints": {
+    "transmission_capacity": 7000,
+    "actual_wheeling_capacity": 5500,
+    "transmission_losses": 0.078,
+    "distribution_losses": 0.125,
+    "total_technical_losses": 0.203,
+    "commercial_losses": 0.15
+  }
+}

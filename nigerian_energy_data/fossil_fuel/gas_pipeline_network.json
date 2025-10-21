@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "description": "Nigerian Natural Gas Pipeline Infrastructure Network",
+    "last_updated": "2025-01-21",
+    "sources": ["Nigerian Gas Company", "NNPC", "DPR", "World Bank"]
+  },
+  "existing_pipelines": {
+    "transmission_pipelines": [
+      {
+        "name": "Escravos-Lagos Pipeline System (ELPS)",
+        "operator": "Nigerian Gas Company",
+        "length_km": 340,
+        "diameter_inches": 36,
+        "capacity_mmscfd": 2000,
+        "current_throughput_mmscfd": 1100,
+        "origin": "Escravos, Delta State",
+        "destination": "Lagos",
+        "commissioned": 1989,
+        "major_offtakes": [
+          {"location": "Warri", "industrial_users": 15, "power_plants": 2},
+          {"location": "Sapele", "industrial_users": 8, "power_plants": 1},
+          {"location": "Benin", "industrial_users": 12, "power_plants": 1},
+          {"location": "Ore", "industrial_users": 5, "power_plants": 0},
+          {"location": "Shagamu", "industrial_users": 20, "power_plants": 1},
+          {"location": "Lagos", "industrial_users": 45, "power_plants": 3}
+        ]
+      },
+      {
+        "name": "Obiafu-Obrikom-Oben (OB3)",
+        "operator": "Nigerian Gas Company",
+        "length_km": 127,
+        "diameter_inches": 48,
+        "capacity_mmscfd": 2500,
+        "current_throughput_mmscfd": 1800,
+        "origin": "Obiafu-Obrikom, Rivers State",
+        "destination": "Oben, Edo State",
+        "commissioned": 2013,
+        "major_offtakes": [
+          {"location": "Obrikom", "power_plants": 2},
+          {"location": "Owerri", "industrial_users": 10},
+          {"location": "Onitsha", "industrial_users": 15},
+          {"location": "Oben", "power_plants": 2}
+        ]
+      },
+      {
+        "name": "Aba-Enugu-Ajaokuta Pipeline",
+        "operator": "Nigerian Gas Company",
+        "length_km": 445,
+        "diameter_inches": 24,
+        "capacity_mmscfd": 800,
+        "current_throughput_mmscfd": 350,
+        "origin": "Aba, Abia State",
+        "destination": "Ajaokuta, Kogi State",
+        "commissioned": 2018,
+        "status": "Partially operational",
+        "major_offtakes": [
+          {"location": "Aba", "industrial_users": 8},
+          {"location": "Enugu", "industrial_users": 12, "power_plants": 1},
+          {"location": "Lokoja", "industrial_users": 5},
+          {"location": "Ajaokuta", "steel_plant": 1}
+        ]
+      },
+      {
+        "name": "Trans-Forcados Pipeline",
+        "operator": "Shell",
+        "length_km": 96,
+        "diameter_inches": 20,
+        "capacity_mmscfd": 400,
+        "current_throughput_mmscfd": 280,
+        "origin": "Forcados Terminal",
+        "destination": "Warri Refinery",
+        "commissioned": 1978
+      },
+      {
+        "name": "Alakiri-Obigbo-Ikot Abasi Pipeline",
+        "operator": "NGC/Shell JV",
+        "length_km": 83,
+        "diameter_inches": 24,
+        "capacity_mmscfd": 500,
+        "current_throughput_mmscfd": 320,
+        "origin": "Alakiri, Rivers State",
+        "destination": "Ikot Abasi, Akwa Ibom",
+        "commissioned": 2008
+      },
+      {
+        "name": "Greater Ughelli-Warri-Escravos Pipeline",
+        "operator": "Chevron",
+        "length_km": 67,
+        "diameter_inches": 30,
+        "capacity_mmscfd": 900,
+        "current_throughput_mmscfd": 650,
+        "origin": "Ughelli",
+        "destination": "Escravos",
+        "commissioned": 1991
+      },
+      {
+        "name": "Bonny-Okoloma Pipeline",
+        "operator": "Shell",
+        "length_km": 54,
+        "diameter_inches": 28,
+        "capacity_mmscfd": 750,
+        "current_throughput_mmscfd": 500,
+        "origin": "Bonny Terminal",
+        "destination": "Okoloma",
+        "commissioned": 1985
+      }
+    ],
+    "distribution_networks": [
+      {
+        "location": "Lagos",
+        "operator": "Gaslink Nigeria",
+        "pipeline_length_km": 180,
+        "customers_connected": 250,
+        "daily_throughput_mmscfd": 85
+      },
+      {
+        "location": "Port Harcourt",
+        "operator": "Shell Nigeria Gas",
+        "pipeline_length_km": 120,
+        "customers_connected": 150,
+        "daily_throughput_mmscfd": 45
+      },
+      {
+        "location": "Warri/Delta",
+        "operator": "NGC",
+        "pipeline_length_km": 95,
+        "customers_connected": 85,
+        "daily_throughput_mmscfd": 35
+      },
+      {
+        "location": "Abia/Imo",
+        "operator": "Green Gas",
+        "pipeline_length_km": 60,
+        "customers_connected": 45,
+        "daily_throughput_mmscfd": 20
+      }
+    ]
+  },
+  "planned_pipelines": [
+    {
+      "name": "Ajaokuta-Kaduna-Kano (AKK)",
+      "operator": "NNPC",
+      "length_km": 614,
+      "diameter_inches": 40,
+      "capacity_mmscfd": 3500,
+      "investment_billion_usd": 2.8,
+      "status": "Under construction",
+      "completion_expected": 2026,
+      "route": [
+        {"from": "Ajaokuta", "to": "Abuja", "length_km": 200},
+        {"from": "Abuja", "to": "Kaduna", "length_km": 193},
+        {"from": "Kaduna", "to": "Kano", "length_km": 221}
+      ],
+      "expected_benefits": {
+        "power_generation_capacity_MW": 3600,
+        "industrial_development_zones": 8,
+        "job_creation": 500000
+      }
+    },
+    {
+      "name": "Trans-Nigeria Gas Pipeline",
+      "operator": "West African Gas Pipeline Company",
+      "length_km": 1037,
+      "diameter_inches": 36,
+      "capacity_mmscfd": 2000,
+      "investment_billion_usd": 1.5,
+      "status": "Feasibility stage",
+      "completion_expected": 2028
+    },
+    {
+      "name": "Nigeria-Morocco Gas Pipeline",
+      "operator": "NNPC/ONHYM JV",
+      "length_km": 5600,
+      "diameter_inches": 48,
+      "capacity_bcm_per_year": 30,
+      "investment_billion_usd": 25,
+      "status": "Front-end engineering",
+      "completion_expected": 2030,
+      "countries_transited": [
+        "Nigeria", "Benin", "Togo", "Ghana", "Ivory Coast",
+        "Liberia", "Sierra Leone", "Guinea", "Guinea-Bissau",
+        "Senegal", "Mauritania", "Morocco"
+      ]
+    },
+    {
+      "name": "ELPS Phase II Expansion",
+      "operator": "NGC",
+      "additional_capacity_mmscfd": 1200,
+      "investment_million_usd": 850,
+      "status": "Engineering phase",
+      "completion_expected": 2027
+    },
+    {
+      "name": "Calabar-Uyo-Ikot Ekpene Pipeline",
+      "operator": "Seven Energy",
+      "length_km": 128,
+      "diameter_inches": 20,
+      "capacity_mmscfd": 350,
+      "investment_million_usd": 320,
+      "status": "Planned",
+      "completion_expected": 2027
+    }
+  ],
+  "pipeline_specifications": {
+    "design_standards": "ASME B31.8",
+    "operating_pressure_range_bar": "20-100",
+    "material": "API 5L X65/X70 Steel",
+    "coating": "3-Layer Polyethylene",
+    "cathodic_protection": "Impressed current",
+    "design_life_years": 50,
+    "inspection_frequency": "Annual",
+    "pigging_capability": "Smart pig compatible"
+  },
+  "challenges": {
+    "vandalism_incidents_per_year": 850,
+    "right_of_way_encroachment_cases": 2300,
+    "maintenance_backlog_million_usd": 450,
+    "capacity_constraints_locations": [
+      "Lagos axis - 40% oversubscribed",
+      "Eastern network - 35% underutilized",
+      "Northern region - 95% unserved"
+    ],
+    "investment_gap_billion_usd": 15
+  },
+  "virtual_pipeline_system": {
+    "cng_distribution": {
+      "operators": ["CNG Nigeria", "Gaslink", "NIPCO"],
+      "daily_volume_mmscf": 12,
+      "number_of_trucks": 85,
+      "mother_stations": 8,
+      "daughter_stations": 45,
+      "customers_served": 250
+    },
+    "lng_trucking": {
+      "operators": ["Greenville LNG", "Rubygas"],
+      "daily_volume_tons": 450,
+      "number_of_trucks": 35,
+      "loading_terminals": 4,
+      "receiving_stations": 28
+    }
+  },
+  "sofc_integration_opportunities": {
+    "pipeline_pressure_reduction_stations": {
+      "number_of_stations": 145,
+      "potential_power_generation_MW": 290,
+      "waste_heat_recovery_potential": "High"
+    },
+    "compressor_stations": {
+      "existing_stations": 28,
+      "fuel_gas_consumption_mmscfd": 45,
+      "sofc_replacement_efficiency_gain_percent": 35
+    },
+    "off_grid_industrial_clusters": {
+      "number_of_clusters": 85,
+      "total_gas_demand_mmscfd": 180,
+      "sofc_deployment_potential_MW": 540
+    }
+  }
+}

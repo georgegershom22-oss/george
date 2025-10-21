@@ -1,0 +1,148 @@
+{
+  "metadata": {
+    "description": "Nigerian Grid Reliability Metrics by Region",
+    "last_updated": "2025-01-21",
+    "sources": ["NERC", "World Bank", "Survey Data", "DisCo Reports"]
+  },
+  "national_metrics": {
+    "SAIDI": {
+      "value": 4380,
+      "unit": "minutes/year",
+      "description": "System Average Interruption Duration Index"
+    },
+    "SAIFI": {
+      "value": 150,
+      "unit": "interruptions/year",
+      "description": "System Average Interruption Frequency Index"
+    },
+    "CAIDI": {
+      "value": 29.2,
+      "unit": "minutes/interruption",
+      "description": "Customer Average Interruption Duration Index"
+    },
+    "grid_availability": {
+      "urban_average": 0.68,
+      "rural_average": 0.32,
+      "industrial_zones": 0.75,
+      "national_average": 0.50
+    }
+  },
+  "regional_metrics": [
+    {
+      "region": "Lagos",
+      "state": "Lagos",
+      "SAIDI": 2920,
+      "SAIFI": 120,
+      "average_daily_supply_hours": 16,
+      "outage_frequency_per_week": 8,
+      "longest_outage_duration_hours": 12,
+      "grid_availability": 0.67
+    },
+    {
+      "region": "Abuja FCT",
+      "state": "FCT",
+      "SAIDI": 2190,
+      "SAIFI": 95,
+      "average_daily_supply_hours": 18,
+      "outage_frequency_per_week": 6,
+      "longest_outage_duration_hours": 8,
+      "grid_availability": 0.75
+    },
+    {
+      "region": "Port Harcourt",
+      "state": "Rivers",
+      "SAIDI": 3650,
+      "SAIFI": 140,
+      "average_daily_supply_hours": 14,
+      "outage_frequency_per_week": 10,
+      "longest_outage_duration_hours": 16,
+      "grid_availability": 0.58
+    },
+    {
+      "region": "Kano",
+      "state": "Kano",
+      "SAIDI": 4380,
+      "SAIFI": 160,
+      "average_daily_supply_hours": 12,
+      "outage_frequency_per_week": 12,
+      "longest_outage_duration_hours": 24,
+      "grid_availability": 0.50
+    },
+    {
+      "region": "Ibadan",
+      "state": "Oyo",
+      "SAIDI": 3285,
+      "SAIFI": 130,
+      "average_daily_supply_hours": 15,
+      "outage_frequency_per_week": 9,
+      "longest_outage_duration_hours": 14,
+      "grid_availability": 0.625
+    },
+    {
+      "region": "Enugu",
+      "state": "Enugu",
+      "SAIDI": 4015,
+      "SAIFI": 145,
+      "average_daily_supply_hours": 13,
+      "outage_frequency_per_week": 11,
+      "longest_outage_duration_hours": 18,
+      "grid_availability": 0.54
+    },
+    {
+      "region": "Kaduna",
+      "state": "Kaduna",
+      "SAIDI": 5110,
+      "SAIFI": 170,
+      "average_daily_supply_hours": 10,
+      "outage_frequency_per_week": 14,
+      "longest_outage_duration_hours": 36,
+      "grid_availability": 0.42
+    },
+    {
+      "region": "Benin",
+      "state": "Edo",
+      "SAIDI": 3650,
+      "SAIFI": 135,
+      "average_daily_supply_hours": 14,
+      "outage_frequency_per_week": 10,
+      "longest_outage_duration_hours": 15,
+      "grid_availability": 0.58
+    },
+    {
+      "region": "Jos",
+      "state": "Plateau",
+      "SAIDI": 5840,
+      "SAIFI": 180,
+      "average_daily_supply_hours": 8,
+      "outage_frequency_per_week": 16,
+      "longest_outage_duration_hours": 48,
+      "grid_availability": 0.33
+    },
+    {
+      "region": "Maiduguri",
+      "state": "Borno",
+      "SAIDI": 7300,
+      "SAIFI": 200,
+      "average_daily_supply_hours": 6,
+      "outage_frequency_per_week": 18,
+      "longest_outage_duration_hours": 72,
+      "grid_availability": 0.25
+    }
+  ],
+  "outage_causes": {
+    "gas_shortage": 0.35,
+    "system_collapse": 0.15,
+    "line_faults": 0.20,
+    "equipment_failure": 0.15,
+    "load_rejection": 0.10,
+    "vandalism": 0.05
+  },
+  "customer_impact": {
+    "residential_backup_generator_ownership": 0.75,
+    "commercial_backup_generator_ownership": 0.95,
+    "industrial_backup_generator_ownership": 0.98,
+    "average_monthly_diesel_cost_residential_NGN": 35000,
+    "average_monthly_diesel_cost_commercial_NGN": 250000,
+    "average_monthly_diesel_cost_industrial_NGN": 2500000
+  }
+}
