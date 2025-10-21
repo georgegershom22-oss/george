@@ -1,0 +1,4 @@
+fuel,h2_vol_pct,ch4_vol_pct,co2_vol_pct,n2_vol_pct,h2s_ppm,preprocessing,reforming,compatible,elec_efficiency_lhv_pct_nominal,derate_pct_vs_natgas,notes
+Pipeline NG,0.0,90.0,6.0,4.0,1.0,"Desulfurization (<1 ppm H2S), particulate filtration",Internal steam reforming with S/C 2.5-3.0,True,58.0,0.0,"Typical Nigeria NG varies in NGLs; after desulfurization, SOFC compatible."
+Bio-methane,0.0,55.0,40.0,5.0,0.5,"CO2 removal (to 2-5%), moisture control, H2S polishing","Internal reforming; higher CO2 dilutes fuel, modest derate",True,56.0,3.0,Landfill/AD gas after upgrading yields modest efficiency penalty.
+LPG,0.0,0.0,0.0,0.0,0.2,"Vaporization, desulfurization; external prereforming to CH4/CO/H2",External prereformer recommended; avoid carbon deposition,True,55.0,5.0,Propane/butane require prereforming and sulfur polishing; slight efficiency loss.

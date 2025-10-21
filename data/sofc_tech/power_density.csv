@@ -1,0 +1,4 @@
+model,cell_area_cm2,stack_power_kw,module_power_kw,areal_power_density_w_per_cm2,volumetric_power_density_kw_per_m3,notes
+Bloom-ES5x,100,0.15,100.0,0.6,400.0,Representative module density; packaged system higher volume.
+Research-SOFC-100kW,125,0.2,100.0,0.7,350.0,Lab-scale stack figures; conservative volumetric density.
+Siemens-SOE-LabRef,120,0.18,200.0,0.65,500.0,Scaled module with improved packing and manifolding.

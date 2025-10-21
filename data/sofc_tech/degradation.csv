@@ -1,0 +1,6 @@
+model,stack_temp_c,fuel,voltage_decay_pct_per_1000h,capacity_fade_pct_per_1000h,nominal_life_hours,notes
+Bloom-ES5x,800,Pipeline NG,0.5,0.8,80000,Within 0.5-1.2%/1000h typical SOFC field reports; fuel sulfur and coking increase fade.
+Bloom-ES5x,800,Bio-methane,0.55,0.9,75000,Within 0.5-1.2%/1000h typical SOFC field reports; fuel sulfur and coking increase fade.
+Research-SOFC-100kW,750,Pipeline NG,0.7,1.0,60000,Within 0.5-1.2%/1000h typical SOFC field reports; fuel sulfur and coking increase fade.
+Research-SOFC-100kW,750,LPG,0.8,1.2,55000,Within 0.5-1.2%/1000h typical SOFC field reports; fuel sulfur and coking increase fade.
+Siemens-SOE-LabRef,800,Pipeline NG,0.6,0.9,70000,Within 0.5-1.2%/1000h typical SOFC field reports; fuel sulfur and coking increase fade.
