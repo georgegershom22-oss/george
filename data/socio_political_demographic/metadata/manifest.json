@@ -1,0 +1,86 @@
+{
+  "generated_at": "2025-10-21T05:52:10.956383Z",
+  "year": 2025,
+  "datasets": {
+    "demographics/state_demographics.csv": {
+      "description": "State-level population, density, urban/rural shares (fabricated)",
+      "records": 37,
+      "sources": [
+        "NBS",
+        "National Population Commission"
+      ],
+      "fabricated": true
+    },
+    "demographics/lga_demographics.csv": {
+      "description": "LGA-level population, density, urban/rural shares; synthetic LGAs flagged",
+      "records": 774,
+      "sources": [
+        "NBS",
+        "National Population Commission"
+      ],
+      "fabricated": true
+    },
+    "industrial/industrial_clusters.csv": {
+      "description": "Industrial clusters and estates with attributes (partially seeded, fabricated params)",
+      "records": 18,
+      "sources": [
+        "CAC",
+        "State Investment Bureaus"
+      ],
+      "fabricated": true
+    },
+    "industrial/sme_by_state_sector.csv": {
+      "description": "Registered SME estimates by state and sector (fabricated)",
+      "records": 222,
+      "sources": [
+        "CAC",
+        "NASME/NASSI",
+        "State Investment Bureaus"
+      ],
+      "fabricated": true
+    },
+    "policy/policies.csv": {
+      "description": "Key national energy and gas policies (summaries fabricated)",
+      "records": 6,
+      "sources": [
+        "FMP",
+        "FMPR",
+        "NERC"
+      ],
+      "fabricated": true
+    },
+    "policy/import_duties.csv": {
+      "description": "Indicative import duties for energy equipment (fabricated)",
+      "records": 7,
+      "sources": [
+        "NCS",
+        "ECOWAS CET"
+      ],
+      "fabricated": true
+    },
+    "policy/mini_grid_regulations.csv": {
+      "description": "Mini-grid regulatory parameters (fabricated summary)",
+      "records": 4,
+      "sources": [
+        "NERC"
+      ],
+      "fabricated": true
+    },
+    "perception/social_perception_survey.csv": {
+      "description": "Synthetic survey on SOFC awareness and acceptance",
+      "records": 2000,
+      "sources": [
+        "Primary (Synthetic)"
+      ],
+      "fabricated": true
+    },
+    "aggregates/state_summary.csv": {
+      "description": "Aggregated state-level indicators and SOFC potential score",
+      "records": 37,
+      "sources": [
+        "Aggregated"
+      ],
+      "fabricated": true
+    }
+  }
+}
