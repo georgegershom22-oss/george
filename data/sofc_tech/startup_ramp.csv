@@ -1,0 +1,4 @@
+model,hot_start_min,warm_start_min,cold_start_hr,ramp_rate_pct_capacity_per_min,min_turn_down_pct,notes
+Bloom-ES5x,10.0,30.0,6.0,2.0,50.0,Hot start minutes; cold start hours typical due to thermal mass.
+Research-SOFC-100kW,15.0,40.0,8.0,1.5,40.0,Demo unit slower ramp; moderate turndown.
+Siemens-SOE-LabRef,8.0,25.0,5.0,3.0,60.0,Improved controls enable faster ramp and deeper turndown.

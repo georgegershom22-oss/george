@@ -1,0 +1,6 @@
+ref_id,title,org,year,url,notes
+BLOOM_DS_2024,Bloom Energy Server Technical Overview,Bloom Energy,2024,https://www.bloomenergy.com,Efficiency and CHP capabilities; vendor datasheets and whitepapers.
+IEA_SOFC_2020,The Future of Fuel Cells: SOFC performance and costs,International Energy Agency (IEA),2020,https://www.iea.org,Global review; typical ranges for efficiency and degradation.
+DOE_SECA_2016,SECA Program: Solid Oxide Fuel Cells R&D Portfolio,US DOE/NETL,2016,https://netl.doe.gov,"Stack performance, power density, degradation in lab and field."
+SIEMENS_SOFC_2019,Siemens Energy SOFC/SOE Lab Demonstrations,Siemens Energy,2019,https://www.siemens-energy.com,Ramp rates and startup characteristics in pilot deployments.
+NIGERIA_GAS_QUALITY_2022,Nigeria Domestic Gas Composition and Variability,Nigerian Midstream and Downstream Petroleum Regulatory Authority,2022,https://www.nmdpra.gov.ng,Typical pipeline gas composition and sulfur levels; preprocessing needs.
