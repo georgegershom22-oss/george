@@ -1,0 +1,21 @@
+{
+  "generation_date": "2025-10-21T04:59:56.887019",
+  "base_year": 2024,
+  "currency": "USD",
+  "local_currency": "NGN",
+  "description": "Economic & Financial Data for SOFC Techno-Economic Analysis in Nigeria",
+  "data_sources": [
+    "U.S. Department of Energy Fuel Cell Reports",
+    "International Energy Agency (IEA)",
+    "Central Bank of Nigeria (CBN)",
+    "Nigerian Electricity Regulatory Commission (NERC)",
+    "World Bank Nigeria Economic Reports",
+    "Industry Literature and Manufacturer Quotes"
+  ],
+  "uncertainty_notes": [
+    "All cost data includes uncertainty ranges for sensitivity analysis",
+    "Exchange rate volatility reflects historical NGN/USD fluctuations",
+    "Technology costs based on learning curve projections",
+    "Fuel prices include seasonal and geopolitical risk factors"
+  ]
+}
