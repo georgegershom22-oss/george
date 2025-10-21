@@ -1,0 +1,17 @@
+{
+  "notes": "All values are synthetic for scenario analysis; not official statistics.",
+  "sources": [
+    "DOE/NETL SOFC briefs",
+    "Bloom Energy datasheets (context)",
+    "NERC tariffs context",
+    "IEA natural gas pricing context"
+  ],
+  "method": "Simple LCOE model with deterministic RNG to vary inputs.",
+  "fx_assumption_ngn_per_usd": 1300.0,
+  "efficiency_range": [
+    0.55,
+    0.6
+  ],
+  "lifetime_years": 20,
+  "wacc": 0.12
+}

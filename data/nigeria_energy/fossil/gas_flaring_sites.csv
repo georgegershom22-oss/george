@@ -1,0 +1,8 @@
+site_id,operator,state,lat,lon,avg_flare_mscf_per_day,provenance,sources
+ESCRAVOS,Chevron,Delta,5.604,5.198,32204.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+FORCADOS,SPDC,Delta,5.268,5.486,35976.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+BONNY,NLNG,Rivers,4.453,7.17,38497.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+UGHELLI,NPDC,Delta,5.5,6.0,37417.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+QIT,Mobil,Akwa Ibom,4.335,7.974,29386.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+BONGA,SNEPCo,Offshore,4.575,6.5,47380.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
+AGBAMI,Chevron,Offshore,4.0,5.0,29467.0,synthetic_fabricated,GGFR; NNPC; remote sensing studies
