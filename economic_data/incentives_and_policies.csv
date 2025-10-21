@@ -1,0 +1,22 @@
+Policy_Instrument,Current_Status,Effective_Date,Expiry_Date,Benefit_Type,Benefit_Value,Unit,Eligible_Technology,Authority,Legal_Framework,Source,Notes
+Import_Duty_Exemption,Active,2020-01-01,2025-12-31,Tax_Exemption,0.0,Percent,Solar_PV,Nigeria_Customs,Pioneer_Status_Incentive,NIPC_2024,Renewable energy equipment
+VAT_Exemption_Renewable,Active,2020-01-01,2025-12-31,Tax_Exemption,0.0,Percent,Solar_PV,FIRS,Finance_Act_2020,FIRS_2024,VAT waiver on renewable
+Pioneer_Status,Active,Varies,Varies,Tax_Holiday,0.0,Percent_Corporate_Tax,All_Power_Gen,NIPC,Industrial_Development_Act,NIPC_2024,3-5 year tax holiday
+Capital_Allowance_Accelerated,Active,2019-01-01,Ongoing,Tax_Deduction,95.0,Percent_in_Year_1,All_Power_Gen,FIRS,Companies_Income_Tax_Act,FIRS_2024,Accelerated depreciation
+Investment_Tax_Credit,Proposed,2025-01-01,2030-12-31,Tax_Credit,30.0,Percent_of_Investment,Clean_Energy,Federal_Govt,Energy_Transition_Plan,FGN_2023,Proposed clean energy incentive
+Feed_in_Tariff,Inactive,2015-01-01,2020-12-31,Price_Guarantee,0.14,USD_per_kWh,Solar_PV,NERC,Renewable_Energy_Policy,NERC_Archive,Discontinued program
+Power_Purchase_Agreement,Active,Ongoing,Varies,Offtake_Agreement,0.08,USD_per_kWh,All_Power_Gen,NBET,Electric_Power_Sector_Reform_Act,NBET_2024,Government PPA guarantee
+Gas_Supply_Obligation,Active,2008-01-01,Ongoing,Supply_Guarantee,2.50,USD_per_MSCF,Gas_Power,DPR,Gas_Supply_Obligation,DPR_2024,Domestic gas obligation
+CBN_Green_Bond,Active,2017-01-01,Ongoing,Financing,12.0,Percent_Interest,Clean_Energy,CBN,Green_Bond_Programme,CBN_2024,Low interest green financing
+NESP_Support,Active,2021-01-01,2025-12-31,Grant,50.0,Percent_of_Cost,Mini_Grids,REA,Nigeria_Electrification_Project,REA_World_Bank_2024,Mini-grid subsidy
+AfDB_Financing,Active,Ongoing,Ongoing,Concessional_Loan,8.0,Percent_Interest,Clean_Energy,AfDB,African_Development_Bank,AfDB_2024,Development financing
+World_Bank_Guarantee,Active,Ongoing,Ongoing,Risk_Guarantee,Partial,Guarantee,All_Power_Gen,World_Bank,MIGA,World_Bank_2024,Political risk coverage
+Carbon_Credit_Potential,Inactive,Future,Future,Carbon_Revenue,15.0,USD_per_tCO2e,Clean_Energy,Voluntary_Market,Paris_Agreement,Projection,Potential voluntary market
+Renewable_Energy_Target,Active,2015-01-01,2030-12-31,Target,30.0,Percent_of_Mix,Renewable,FGN,National_Renewable_Energy_Policy,ECN_2024,30% RE by 2030 target
+Gas_Flare_Penalty,Active,2018-01-01,Ongoing,Penalty,2.00,USD_per_MSCF,Gas_Capture,DPR,Flare_Gas_Regulations,DPR_2024,Penalty for gas flaring
+Local_Content_Requirement,Active,2010-01-01,Ongoing,Requirement,30.0,Percent_Local,All_Power_Gen,NCDMB,Nigerian_Oil_Gas_Content_Act,NCDMB_2024,30% local content minimum
+Grid_Connection_Priority,Active,2020-01-01,Ongoing,Priority_Access,Priority,Categorical,Renewable,TCN,Grid_Code,TCN_2024,Priority dispatch for renewables
+Electricity_Tariff_Protection,Active,Ongoing,Ongoing,Price_Protection,Cost_Reflective,Tariff,All_GenCos,NERC,MYTO,NERC_2024,Cost reflective tariff
+Forex_Window_Special,Inactive,2017-01-01,2023-06-30,Forex_Access,Preferential,Rate,Critical_Sectors,CBN,Forex_Policy,CBN_Archive,Discontinued special window
+Technology_Innovation_Fund,Proposed,2025-01-01,2030-12-31,Grant,10000000,USD,Emerging_Tech,TETFUND,Innovation_Policy,Proposal_2024,Proposed tech fund
+Export_Credit_Guarantee,Active,Ongoing,Ongoing,Export_Finance,OECD_Rates,Interest,Imported_Equipment,NEXIM,Export_Credit_Agency,NEXIM_2024,ECA financing support

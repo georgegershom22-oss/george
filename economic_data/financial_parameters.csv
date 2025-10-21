@@ -1,0 +1,35 @@
+Parameter,Value,Unit,Year,Source,Notes,Alternative_Scenario_Low,Alternative_Scenario_High
+Nigeria_Inflation_Rate,24.5,Percent,2024,CBN_2024,Annual inflation rate as of Q3 2024,18.0,32.0
+Nigeria_Interest_Rate,26.75,Percent,2024,CBN_2024,Monetary Policy Rate as of Oct 2024,22.5,30.0
+USD_NGN_Exchange_Rate,1625,NGN_per_USD,2024,CBN_Official_2024,Official exchange rate Oct 2024,1550,1750
+USD_NGN_Black_Market_Rate,1685,NGN_per_USD,2024,AbokiFX_2024,Parallel market rate,1600,1850
+US_Inflation_Rate,3.2,Percent,2024,Federal_Reserve_2024,US inflation for imported equipment,2.5,4.5
+Risk_Free_Rate_Nigeria,18.5,Percent,2024,Nigeria_Treasury_2024,10-year government bond yield,15.0,22.0
+Risk_Free_Rate_US,4.5,Percent,2024,US_Treasury_2024,10-year treasury yield,3.8,5.2
+Equity_Risk_Premium_Nigeria,12.0,Percent,2024,World_Bank_2024,Country risk premium,8.0,15.0
+Corporate_Tax_Rate_Nigeria,30.0,Percent,2024,FIRS_2024,Federal Inland Revenue Service,30.0,30.0
+VAT_Rate_Nigeria,7.5,Percent,2024,FIRS_2024,Value Added Tax,7.5,7.5
+Import_Duty_Power_Equipment,5.0,Percent,2024,Nigeria_Customs_2024,Duty on power generation equipment,5.0,10.0
+Project_Lifetime_SOFC,20,Years,2024,Industry_Standard,Typical SOFC project lifetime,15,25
+Project_Lifetime_Diesel,15,Years,2024,Industry_Standard,Typical diesel genset lifetime,12,18
+Project_Lifetime_Solar,25,Years,2024,Industry_Standard,Typical solar PV lifetime,20,30
+Discount_Rate_Real,10.0,Percent,2024,Analysis_Assumption,Real discount rate for NPV,7.0,15.0
+Discount_Rate_Nominal,15.0,Percent,2024,Analysis_Assumption,Nominal discount rate,12.0,20.0
+WACC_Low_Risk,12.5,Percent,2024,Financial_Model,For established technology,10.0,15.0
+WACC_Medium_Risk,16.0,Percent,2024,Financial_Model,For emerging technology like SOFC,13.0,20.0
+WACC_High_Risk,20.0,Percent,2024,Financial_Model,For high-risk projects,17.0,25.0
+Debt_Equity_Ratio,60_40,Percent,2024,Industry_Standard,60% debt 40% equity typical,50_50,70_30
+Cost_of_Debt,18.0,Percent,2024,Commercial_Banks_Nigeria,Average lending rate for projects,15.0,22.0
+Cost_of_Equity,25.0,Percent,2024,Financial_Model,Expected return on equity,20.0,30.0
+Natural_Gas_Price_Domestic,2.50,USD_per_MSCF,2024,NNPC_2024,Domestic gas price Nigeria,2.00,3.50
+Natural_Gas_Price_Industrial,3.20,USD_per_MSCF,2024,NNPC_2024,Industrial gas price,2.80,4.00
+LNG_Price_International,12.50,USD_per_MMBTU,2024,World_Bank_2024,International LNG price,10.00,16.00
+Electricity_Tariff_Commercial,0.12,USD_per_kWh,2024,NERC_2024,Band A commercial tariff,0.10,0.15
+Electricity_Tariff_Industrial,0.10,USD_per_kWh,2024,NERC_2024,Band A industrial tariff,0.08,0.13
+Electricity_Tariff_Residential,0.08,USD_per_kWh,2024,NERC_2024,Band A residential tariff,0.06,0.10
+Diesel_Generator_Running_Cost,0.45,USD_per_kWh,2024,Market_Survey_2024,Total cost of diesel generation,0.38,0.55
+Grid_Reliability_Factor,0.35,Decimal,2024,World_Bank_RISE_2024,Percentage of time grid is available,0.20,0.50
+Annual_Electricity_Demand_Growth,5.5,Percent,2024,IEA_Nigeria_2024,Projected demand growth,4.0,7.0
+Carbon_Price_Nigeria,0.00,USD_per_tCO2,2024,Current_Policy,No carbon pricing currently,0.00,15.00
+Carbon_Price_Projection_2030,10.00,USD_per_tCO2,2030,Policy_Projection,Potential future carbon price,5.00,25.00
+Subsidy_Renewable_Energy,0.00,Percent_of_CAPEX,2024,Current_Policy,No direct subsidy currently,0.00,30.00

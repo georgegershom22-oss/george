@@ -1,0 +1,16 @@
+System_Size_kW,Solar_PV_CAPEX_USD_per_kW,Battery_Storage_kWh,Battery_CAPEX_USD_per_kWh,Inverter_CAPEX_USD_per_kW,Installation_USD_per_kW,Total_CAPEX_USD_per_kW,Total_CAPEX_USD,Annual_OPEX_USD_per_kW,Annual_OPEX_Percent,Battery_Replacement_Years,Battery_Replacement_Cost_USD_per_kWh,System_Lifetime_Years,Capacity_Factor,Source,Notes
+100,1200,400,350,200,180,2470,247000,35,1.4,10,300,25,0.18,SunPower_Nigeria_2024,4-hour storage for backup
+250,1050,1000,320,180,150,2150,537500,30,1.4,10,280,25,0.18,Canadian_Solar_2024,4-hour storage
+500,950,2000,300,160,130,1940,970000,28,1.4,10,260,25,0.18,Jinko_Solar_2024,4-hour storage
+750,900,3000,290,150,120,1860,1395000,26,1.4,10,250,25,0.18,Trina_Solar_2024,4-hour storage
+1000,850,4000,280,140,110,1790,1790000,25,1.4,10,240,25,0.18,LONGi_Solar_2024,4-hour storage
+100,1350,400,380,220,200,2710,271000,40,1.5,10,330,25,0.18,Market_Average_2024,Including import duties
+250,1180,1000,350,200,170,2370,592500,35,1.5,10,310,25,0.18,Market_Average_2024,Including import duties
+500,1080,2000,330,180,150,2190,1095000,32,1.5,10,290,25,0.18,Market_Average_2024,Including import duties
+750,1020,3000,320,170,140,2090,1567500,30,1.4,10,280,25,0.18,Market_Average_2024,Including import duties
+1000,970,4000,310,160,130,1990,1990000,28,1.4,10,270,25,0.18,Market_Average_2024,Including import duties
+100,1100,600,340,190,170,2440,244000,32,1.3,10,290,25,0.18,Extended_Storage_2024,6-hour storage option
+250,980,1500,310,170,145,2165,541250,29,1.3,10,270,25,0.18,Extended_Storage_2024,6-hour storage option
+500,880,3000,290,150,125,2025,1012500,27,1.3,10,250,25,0.18,Extended_Storage_2024,6-hour storage option
+750,830,4500,280,140,115,1935,1451250,25,1.3,10,240,25,0.18,Extended_Storage_2024,6-hour storage option
+1000,780,6000,270,130,105,1845,1845000,24,1.3,10,230,25,0.18,Extended_Storage_2024,6-hour storage option

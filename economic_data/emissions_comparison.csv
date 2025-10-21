@@ -1,0 +1,20 @@
+Technology,System_Size_kW,Fuel_Type,CO2_Emissions_kg_per_kWh,CH4_Emissions_g_per_kWh,NOx_Emissions_g_per_kWh,SOx_Emissions_g_per_kWh,PM25_Emissions_g_per_kWh,Total_GHG_kgCO2e_per_kWh,Source,Notes
+SOFC,500,Natural_Gas,0.420,0.05,0.02,0.001,0.005,0.425,IPCC_2024,55% electrical efficiency
+SOFC,500,Natural_Gas,0.350,0.04,0.015,0.001,0.004,0.354,Optimistic_CHP,65% total efficiency with heat recovery
+SOFC,1000,Natural_Gas,0.410,0.048,0.018,0.001,0.004,0.414,IPCC_2024,Larger system slightly better efficiency
+Diesel_Generator,500,Diesel,0.850,0.15,2.50,0.80,0.120,0.869,IPCC_2024,35% electrical efficiency
+Diesel_Generator,500,Diesel,0.920,0.18,2.80,0.95,0.150,0.941,Nigeria_Average,Account for fuel quality issues
+Diesel_Generator,1000,Diesel,0.830,0.14,2.40,0.75,0.110,0.848,IPCC_2024,Slightly better efficiency at scale
+Heavy_Fuel_Oil,500,HFO,0.780,0.12,3.20,2.50,0.180,0.801,IPCC_2024,Industrial generators
+Natural_Gas_Turbine,500,Natural_Gas,0.550,0.08,0.80,0.002,0.015,0.558,IPCC_2024,Gas turbine 45% efficiency
+Combined_Cycle,1000,Natural_Gas,0.380,0.06,0.45,0.002,0.010,0.386,IPCC_2024,CCGT 60% efficiency
+Solar_PV,500,Solar,0.045,0.00,0.00,0.00,0.00,0.045,IPCC_2024,Manufacturing & maintenance lifecycle
+Solar_PV_Nigeria,500,Solar,0.052,0.00,0.00,0.00,0.00,0.052,Local_Conditions,Account for transport & local factors
+Wind_Turbine,500,Wind,0.012,0.00,0.00,0.00,0.00,0.012,IPCC_2024,Lifecycle emissions
+Grid_Nigeria,Average,Mixed,0.680,0.10,1.80,1.20,0.095,0.693,IEA_Nigeria_2024,Current grid mix (gas+hydro+diesel)
+Grid_Nigeria_Peak,Average,Mixed,0.950,0.18,2.60,1.80,0.135,0.972,IEA_Nigeria_2024,Peak hours mostly diesel
+Coal_Power,500,Coal,0.950,0.05,1.50,4.50,0.250,0.956,IPCC_2024,Subcritical coal plant
+Biogas_Engine,500,Biogas,0.550,0.50,1.20,0.01,0.040,0.563,IPCC_2024,Biogas from waste
+Gasoline_Generator,100,Gasoline,0.920,0.20,2.20,0.10,0.110,0.941,IPCC_2024,Small generators
+Hydrogen_Fuel_Cell,500,Green_H2,0.020,0.00,0.00,0.00,0.001,0.020,IPCC_2024,Green hydrogen fuel cell
+Hydrogen_Fuel_Cell,500,Grey_H2,0.450,0.08,0.03,0.002,0.005,0.458,IPCC_2024,Grey hydrogen from SMR
