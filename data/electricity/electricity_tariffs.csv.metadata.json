@@ -1,0 +1,51 @@
+{
+  "title": "Electricity Tariffs by DISCO and Customer Category (Synthetic)",
+  "description": "Fabricated current tariffs in NGN/kWh for Residential, Commercial, Industrial, Premium customer classes.",
+  "data_file": "data/electricity/electricity_tariffs.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "effective_date",
+      "description": "Tariff effective date (first of month)",
+      "unit": null,
+      "dtype": "date"
+    },
+    {
+      "name": "disco",
+      "description": "Distribution company",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "customer_category",
+      "description": "Customer category",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "tariff_ngn_per_kwh",
+      "description": "Tariff rate",
+      "unit": "NGN/kWh",
+      "dtype": "float"
+    },
+    {
+      "name": "currency",
+      "description": "Currency",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "tariff_type",
+      "description": "Grid or special/premium",
+      "unit": null,
+      "dtype": "str"
+    }
+  ],
+  "sources": [
+    "NERC tariff orders (https://nerc.gov.ng)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

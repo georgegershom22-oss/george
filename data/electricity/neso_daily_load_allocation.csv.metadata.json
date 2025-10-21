@@ -1,0 +1,45 @@
+{
+  "title": "NESO Daily Load Allocation (Fabricated)",
+  "description": "Synthetic daily load allocation and transmitted supply by DISCO, last 365 days.",
+  "data_file": "data/electricity/neso_daily_load_allocation.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "date",
+      "description": "ISO date",
+      "unit": null,
+      "dtype": "date"
+    },
+    {
+      "name": "disco",
+      "description": "Distribution company",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "allocated_mw",
+      "description": "NESO allocated MW to DISCO",
+      "unit": "MW",
+      "dtype": "float"
+    },
+    {
+      "name": "transmitted_mw",
+      "description": "Estimated MW delivered to DISCO",
+      "unit": "MW",
+      "dtype": "float"
+    },
+    {
+      "name": "load_shedding_mw",
+      "description": "Allocated minus transmitted",
+      "unit": "MW",
+      "dtype": "float"
+    }
+  ],
+  "sources": [
+    "TCN/NESO operational reports (https://tcn.org.ng)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

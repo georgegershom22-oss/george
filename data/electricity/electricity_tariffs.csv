@@ -1,0 +1,45 @@
+effective_date,disco,customer_category,tariff_ngn_per_kwh,currency,tariff_type
+2025-10-01,Abuja DISCO,Residential,125.73,NGN,grid
+2025-10-01,Abuja DISCO,Commercial,157.31,NGN,grid
+2025-10-01,Abuja DISCO,Industrial,179.99,NGN,grid
+2025-10-01,Abuja DISCO,Premium,275.81,NGN,grid
+2025-10-01,Benin DISCO,Residential,97.17,NGN,grid
+2025-10-01,Benin DISCO,Commercial,120.87,NGN,grid
+2025-10-01,Benin DISCO,Industrial,124.07,NGN,grid
+2025-10-01,Benin DISCO,Premium,178.74,NGN,grid
+2025-10-01,Eko DISCO,Residential,139.17,NGN,grid
+2025-10-01,Eko DISCO,Commercial,183.95,NGN,grid
+2025-10-01,Eko DISCO,Industrial,249.13,NGN,grid
+2025-10-01,Eko DISCO,Premium,300.96,NGN,grid
+2025-10-01,Enugu DISCO,Residential,114.68,NGN,grid
+2025-10-01,Enugu DISCO,Commercial,119.98,NGN,grid
+2025-10-01,Enugu DISCO,Industrial,155.71,NGN,grid
+2025-10-01,Enugu DISCO,Premium,218.23,NGN,grid
+2025-10-01,Ibadan DISCO,Residential,104.42,NGN,grid
+2025-10-01,Ibadan DISCO,Commercial,162.93,NGN,grid
+2025-10-01,Ibadan DISCO,Industrial,173.73,NGN,grid
+2025-10-01,Ibadan DISCO,Premium,262.52,NGN,grid
+2025-10-01,Ikeja DISCO,Residential,98.58,NGN,grid
+2025-10-01,Ikeja DISCO,Commercial,111.79,NGN,grid
+2025-10-01,Ikeja DISCO,Industrial,120.9,NGN,grid
+2025-10-01,Ikeja DISCO,Premium,199.45,NGN,grid
+2025-10-01,Jos DISCO,Residential,147.41,NGN,grid
+2025-10-01,Jos DISCO,Commercial,211.83,NGN,grid
+2025-10-01,Jos DISCO,Industrial,200.07,NGN,grid
+2025-10-01,Jos DISCO,Premium,254.27,NGN,grid
+2025-10-01,Kaduna DISCO,Residential,133.64,NGN,grid
+2025-10-01,Kaduna DISCO,Commercial,163.46,NGN,grid
+2025-10-01,Kaduna DISCO,Industrial,240.96,NGN,grid
+2025-10-01,Kaduna DISCO,Premium,292.95,NGN,grid
+2025-10-01,Kano DISCO,Residential,131.7,NGN,grid
+2025-10-01,Kano DISCO,Commercial,151.09,NGN,grid
+2025-10-01,Kano DISCO,Industrial,244.34,NGN,grid
+2025-10-01,Kano DISCO,Premium,329.16,NGN,grid
+2025-10-01,Port Harcourt DISCO,Residential,128.53,NGN,grid
+2025-10-01,Port Harcourt DISCO,Commercial,153.02,NGN,grid
+2025-10-01,Port Harcourt DISCO,Industrial,165.41,NGN,grid
+2025-10-01,Port Harcourt DISCO,Premium,314.76,NGN,grid
+2025-10-01,Yola DISCO,Residential,130.41,NGN,grid
+2025-10-01,Yola DISCO,Commercial,203.89,NGN,grid
+2025-10-01,Yola DISCO,Industrial,206.22,NGN,grid
+2025-10-01,Yola DISCO,Premium,288.7,NGN,grid

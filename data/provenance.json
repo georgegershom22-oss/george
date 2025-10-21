@@ -1,0 +1,21 @@
+{
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "generator": "generate_nigeria_energy_data.py",
+  "datasets": [
+    "electricity/generation_capacity.csv",
+    "electricity/neso_daily_load_allocation.csv",
+    "electricity/grid_reliability_saidi_saifi.csv",
+    "electricity/electricity_tariffs.csv",
+    "fossil_fuels/gas_reserves_production.csv",
+    "fossil_fuels/gas_flare_sites.csv",
+    "fossil_fuels/gas_flare_sites.geojson",
+    "fossil_fuels/gas_flare_daily.csv",
+    "fossil_fuels/gas_pipeline_network.geojson",
+    "fossil_fuels/fuel_prices_monthly.csv",
+    "fossil_fuels/gas_pipeline_quality_composition.csv",
+    "renewables/agricultural_waste_by_state.csv",
+    "renewables/livestock_population_by_state.csv"
+  ],
+  "disclaimer": "All values are synthetic, intended for research/testing on SOFC and energy context."
+}

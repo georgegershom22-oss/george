@@ -1,0 +1,40 @@
+{
+  "title": "Agricultural Residues by State (Synthetic)",
+  "description": "Fabricated annual quantities of key agricultural residues by state for bioenergy potential.",
+  "data_file": "data/renewables/agricultural_waste_by_state.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "year",
+      "description": "Calendar year",
+      "unit": null,
+      "dtype": "int"
+    },
+    {
+      "name": "state",
+      "description": "Nigerian state",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "residue_type",
+      "description": "Residue category",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "residue_quantity_tons",
+      "description": "Residue quantity",
+      "unit": "metric tons",
+      "dtype": "int"
+    }
+  ],
+  "sources": [
+    "FAO crop statistics (https://www.fao.org)",
+    "NBS agricultural output (https://nigerianstat.gov.ng)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Retail Fuel Prices by State (Monthly, Synthetic)",
+  "description": "Fabricated monthly petrol and diesel retail prices by state from 2023-01.",
+  "data_file": "data/fossil_fuels/fuel_prices_monthly.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "month",
+      "description": "Month (first day)",
+      "unit": null,
+      "dtype": "date"
+    },
+    {
+      "name": "state",
+      "description": "Nigerian state",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "petrol_retail_price_ngn_per_l",
+      "description": "Petrol (PMS) retail price",
+      "unit": "NGN/litre",
+      "dtype": "float"
+    },
+    {
+      "name": "diesel_retail_price_ngn_per_l",
+      "description": "Diesel (AGO) retail price",
+      "unit": "NGN/litre",
+      "dtype": "float"
+    },
+    {
+      "name": "currency",
+      "description": "Currency",
+      "unit": null,
+      "dtype": "str"
+    }
+  ],
+  "sources": [
+    "NBS PMS/AGO price watch (https://nigerianstat.gov.ng)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}
