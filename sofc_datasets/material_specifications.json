@@ -1,0 +1,72 @@
+[
+  {
+    "component":"Anode",
+    "material_type":"Ni-YSZ (Nickel-Yttria Stabilized Zirconia)",
+    "thickness_mm":0.5,
+    "porosity_percent":35,
+    "electrical_conductivity_s_cm":1000.0,
+    "thermal_conductivity_w_mk":10.0,
+    "coefficient_thermal_expansion_1_k":0.0000125,
+    "mechanical_strength_mpa":200,
+    "operating_temperature_range_c":"600-1000",
+    "cost_usd_per_kg":150,
+    "supplier_availability":"Multiple",
+    "local_manufacturing_potential":"Medium"
+  },
+  {
+    "component":"Cathode",
+    "material_type":"LSM-YSZ (Lanthanum Strontium Manganite)",
+    "thickness_mm":0.05,
+    "porosity_percent":30,
+    "electrical_conductivity_s_cm":100.0,
+    "thermal_conductivity_w_mk":2.0,
+    "coefficient_thermal_expansion_1_k":0.000011,
+    "mechanical_strength_mpa":150,
+    "operating_temperature_range_c":"600-1000",
+    "cost_usd_per_kg":800,
+    "supplier_availability":"Limited",
+    "local_manufacturing_potential":"Low"
+  },
+  {
+    "component":"Electrolyte",
+    "material_type":"YSZ (Yttria Stabilized Zirconia)",
+    "thickness_mm":0.01,
+    "porosity_percent":0,
+    "electrical_conductivity_s_cm":0.01,
+    "thermal_conductivity_w_mk":2.5,
+    "coefficient_thermal_expansion_1_k":0.0000105,
+    "mechanical_strength_mpa":300,
+    "operating_temperature_range_c":"600-1000",
+    "cost_usd_per_kg":200,
+    "supplier_availability":"Good",
+    "local_manufacturing_potential":"High"
+  },
+  {
+    "component":"Interconnect",
+    "material_type":"Crofer 22 APU (Ferritic Steel)",
+    "thickness_mm":2.0,
+    "porosity_percent":0,
+    "electrical_conductivity_s_cm":10000.0,
+    "thermal_conductivity_w_mk":25.0,
+    "coefficient_thermal_expansion_1_k":0.000012,
+    "mechanical_strength_mpa":400,
+    "operating_temperature_range_c":"600-800",
+    "cost_usd_per_kg":50,
+    "supplier_availability":"Good",
+    "local_manufacturing_potential":"High"
+  },
+  {
+    "component":"Seal",
+    "material_type":"Glass-Ceramic Seal",
+    "thickness_mm":0.1,
+    "porosity_percent":0,
+    "electrical_conductivity_s_cm":0.0,
+    "thermal_conductivity_w_mk":1.5,
+    "coefficient_thermal_expansion_1_k":0.000009,
+    "mechanical_strength_mpa":100,
+    "operating_temperature_range_c":"600-800",
+    "cost_usd_per_kg":300,
+    "supplier_availability":"Limited",
+    "local_manufacturing_potential":"Medium"
+  }
+]

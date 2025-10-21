@@ -1,0 +1,7 @@
+region,political_stability_index,regulatory_environment_score,gdp_per_capita_usd,unemployment_rate_percent,inflation_rate_percent,energy_access_rate_percent,rural_electrification_percent,industrial_energy_demand_percent,renewable_energy_policy_score,foreign_investment_climate,local_content_requirements_percent,technical_skills_availability,maintenance_capability,public_acceptance,road_network_quality,port_accessibility,financial_sector_development,capital_availability,technical_expertise,fuel_availability,maintenance_support,political_risk,economic_risk,technical_risk,regulatory_risk,overall_sofc_readiness
+North West,4.8,8.5,4611.0,21.5,23.1,63.3,39.6,30.5,4.9,4.0,56.0,6.8,5.1,6.7,7.9,7.2,5.2,4.0,2.0,7.5,2.6,3.0,4.4,5.7,4.4,6.2
+North East,6.9,5.2,7595.0,20.4,16.6,52.4,42.4,28.5,4.6,4.4,42.1,6.3,5.8,7.2,4.6,4.8,3.8,6.2,5.1,6.0,5.5,2.6,6.6,7.6,3.5,6.1
+North Central,5.7,7.8,3958.0,21.5,10.7,71.4,57.7,28.7,3.1,5.5,21.2,6.6,5.3,7.6,4.9,4.0,3.6,4.0,4.4,5.1,3.8,6.6,4.5,5.2,3.8,5.7
+South West,7.7,8.4,5087.0,19.0,23.3,76.5,50.8,38.9,4.1,4.5,48.4,3.3,4.6,8.7,6.7,5.4,3.5,4.7,3.4,5.6,2.5,2.4,5.6,6.6,4.6,6.6
+South East,6.1,5.2,3492.0,14.6,20.6,45.3,43.7,30.7,4.1,4.4,36.4,6.1,5.0,6.0,4.1,3.0,4.0,4.5,3.1,8.3,6.0,4.9,8.0,4.4,4.4,6.0
+South South,6.5,9.0,4010.0,20.3,20.7,51.8,63.0,23.7,4.4,4.8,45.0,5.5,5.5,8.6,7.5,5.7,3.2,3.6,5.3,8.8,5.6,4.3,4.5,7.6,4.4,7.0

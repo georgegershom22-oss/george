@@ -1,0 +1,72 @@
+[
+  {
+    "scenario_name":"Lagos Industrial Zone",
+    "location":"Lagos State",
+    "power_requirement_mw":50,
+    "fuel_source":"Pipeline Natural Gas",
+    "application":"Industrial Process Heat + Power",
+    "estimated_efficiency_percent":85,
+    "annual_operation_hours":8000,
+    "co2_reduction_tons_year":25000,
+    "economic_viability":"High",
+    "implementation_timeline_months":24,
+    "key_challenges":"Grid stability, Fuel supply reliability",
+    "estimated_cost_usd_million":45
+  },
+  {
+    "scenario_name":"Abuja Government Complex",
+    "location":"FCT Abuja",
+    "power_requirement_mw":10,
+    "fuel_source":"LPG + Natural Gas Backup",
+    "application":"Critical Infrastructure Backup",
+    "estimated_efficiency_percent":82,
+    "annual_operation_hours":8760,
+    "co2_reduction_tons_year":5000,
+    "economic_viability":"Medium",
+    "implementation_timeline_months":18,
+    "key_challenges":"Initial capital cost, Maintenance expertise",
+    "estimated_cost_usd_million":12
+  },
+  {
+    "scenario_name":"Kano Agricultural Processing",
+    "location":"Kano State",
+    "power_requirement_mw":25,
+    "fuel_source":"Bio-methane from Agricultural Waste",
+    "application":"Agricultural Processing + District Heating",
+    "estimated_efficiency_percent":78,
+    "annual_operation_hours":6000,
+    "co2_reduction_tons_year":15000,
+    "economic_viability":"Medium-High",
+    "implementation_timeline_months":30,
+    "key_challenges":"Biogas infrastructure, Feedstock supply",
+    "estimated_cost_usd_million":28
+  },
+  {
+    "scenario_name":"Port Harcourt Oil & Gas",
+    "location":"Rivers State",
+    "power_requirement_mw":100,
+    "fuel_source":"Associated Gas + Pipeline Natural Gas",
+    "application":"Oil & Gas Facility Power",
+    "estimated_efficiency_percent":88,
+    "annual_operation_hours":8500,
+    "co2_reduction_tons_year":45000,
+    "economic_viability":"Very High",
+    "implementation_timeline_months":36,
+    "key_challenges":"Gas quality variations, Corrosive environment",
+    "estimated_cost_usd_million":85
+  },
+  {
+    "scenario_name":"Kaduna Textile Industry",
+    "location":"Kaduna State",
+    "power_requirement_mw":15,
+    "fuel_source":"Natural Gas + LPG Backup",
+    "application":"Textile Manufacturing Process",
+    "estimated_efficiency_percent":84,
+    "annual_operation_hours":7500,
+    "co2_reduction_tons_year":8000,
+    "economic_viability":"High",
+    "implementation_timeline_months":20,
+    "key_challenges":"Steam quality requirements, Process integration",
+    "estimated_cost_usd_million":18
+  }
+]

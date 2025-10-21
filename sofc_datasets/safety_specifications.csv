@@ -1,0 +1,9 @@
+hazard_type,probability,severity,risk_level,safety_level,safety_measures,safety_equipment,mitigation_effectiveness,monitoring_required,training_required,regulatory_compliance
+High Temperature,0.265,0.874,0.232,Medium,"Standard safety systems, Regular inspections, Training required","Thermal insulation, Temperature sensors, Cooling systems",0.84,Periodic,Basic,NFPA
+High Pressure,0.131,0.83,0.109,Low,"Basic safety measures, Standard procedures","Pressure relief valves, Pressure sensors, Pressure vessels",0.84,On-demand,Basic,NFPA
+Flammable Gas,0.158,0.965,0.153,Low,"Basic safety measures, Standard procedures","Gas detectors, Fire suppression systems, Explosion-proof equipment",0.87,Continuous,Specialized,IEC
+Electrical Shock,0.374,0.736,0.275,Medium,"Standard safety systems, Regular inspections, Training required","Ground fault protection, Insulation, Electrical safety equipment",0.81,On-demand,Advanced,OSHA
+Toxic Gas Release,0.048,0.972,0.047,Low,"Basic safety measures, Standard procedures","Gas detection systems, Ventilation, Personal protective equipment",0.76,On-demand,Basic,IEC
+Fire/Explosion,0.086,0.968,0.083,Low,"Basic safety measures, Standard procedures","Gas detectors, Fire suppression systems, Explosion-proof equipment",0.78,Continuous,Specialized,NFPA
+Mechanical Injury,0.478,0.479,0.229,Medium,"Standard safety systems, Regular inspections, Training required","Standard safety equipment, Personal protective equipment",0.88,Periodic,Advanced,Local
+Noise Exposure,0.271,0.534,0.145,Low,"Basic safety measures, Standard procedures","Standard safety equipment, Personal protective equipment",0.72,Periodic,Advanced,OSHA

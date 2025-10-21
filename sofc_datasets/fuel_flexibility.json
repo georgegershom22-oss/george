@@ -1,0 +1,50 @@
+[
+  {
+    "fuel_type":"Pipeline Natural Gas",
+    "composition":"CH4: 85-95%, C2H6: 3-8%, N2: 1-5%, CO2: 1-3%",
+    "lhv_mj_kg":45.5,
+    "efficiency_impact_percent":0,
+    "preprocessing_required":"Desulfurization, Pressure regulation",
+    "reforming_temperature_c":800,
+    "steam_carbon_ratio":2.5,
+    "availability_nigeria":"High - Existing pipeline infrastructure",
+    "cost_naira_per_m3":221.5011856624,
+    "cost_naira_per_kg":null
+  },
+  {
+    "fuel_type":"Bio-methane from Waste",
+    "composition":"CH4: 60-80%, CO2: 20-40%, H2S: <100 ppm",
+    "lhv_mj_kg":35.8,
+    "efficiency_impact_percent":-5,
+    "preprocessing_required":"Biogas upgrading, H2S removal, CO2 scrubbing",
+    "reforming_temperature_c":750,
+    "steam_carbon_ratio":2.0,
+    "availability_nigeria":"Medium - Limited biogas facilities",
+    "cost_naira_per_m3":296.6865850926,
+    "cost_naira_per_kg":null
+  },
+  {
+    "fuel_type":"LPG (Propane\/Butane)",
+    "composition":"C3H8: 60-80%, C4H10: 20-40%",
+    "lhv_mj_kg":46.4,
+    "efficiency_impact_percent":-2,
+    "preprocessing_required":"Vaporization, Pressure regulation",
+    "reforming_temperature_c":850,
+    "steam_carbon_ratio":3.0,
+    "availability_nigeria":"High - Widespread LPG distribution",
+    "cost_naira_per_m3":null,
+    "cost_naira_per_kg":452.489824341
+  },
+  {
+    "fuel_type":"Syngas from Biomass",
+    "composition":"H2: 30-50%, CO: 20-40%, CO2: 10-30%, CH4: 5-15%",
+    "lhv_mj_kg":12.5,
+    "efficiency_impact_percent":-8,
+    "preprocessing_required":"Gasification, Tar removal, H2S removal",
+    "reforming_temperature_c":700,
+    "steam_carbon_ratio":1.5,
+    "availability_nigeria":"Low - Limited biomass gasification",
+    "cost_naira_per_m3":157.4644485544,
+    "cost_naira_per_kg":null
+  }
+]

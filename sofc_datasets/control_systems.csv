@@ -1,0 +1,5 @@
+system_type,control_points,automation_level_percent,remote_monitoring,plc_units,hmi_stations,scada_systems,communication_protocols,safety_integrity_level,emergency_shutdown_systems,fire_detection_systems,data_logging_frequency,historical_data_retention_days,predictive_maintenance,cybersecurity_level,redundancy_level,control_system_cost_usd
+Micro-CHP,90,78.5,False,1,1,0,"Modbus TCP/IP, OPC UA, Ethernet/IP",SIL 2,3,2,10 seconds,975,False,Advanced,None,8652.0
+Small Commercial,188,73.6,True,1,1,1,"Modbus TCP/IP, OPC UA, Ethernet/IP",SIL 2,3,2,1 second,682,True,Enhanced,Full,10140.0
+Industrial,207,92.7,True,2,1,1,"Modbus TCP/IP, OPC UA, Ethernet/IP, Profibus, Foundation Fieldbus",SIL 3,2,2,10 seconds,750,True,Enhanced,None,26327.0
+Utility Scale,663,94.5,True,6,3,1,"Modbus TCP/IP, OPC UA, Ethernet/IP, Profibus, Foundation Fieldbus",SIL 2,1,2,5 seconds,949,True,Advanced,Full,75911.0

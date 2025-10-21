@@ -1,0 +1,9 @@
+maintenance_task,frequency_hours,duration_hours,skill_level_required,required_tools,required_personnel,estimated_cost_usd,estimated_cost_naira,criticality_level,can_be_delayed,requires_shutdown,spare_parts_required
+Daily Visual Inspection,24,1.7,Basic,"Multimeter, Thermometer, Pressure Gauge, Visual Inspection Kit",1 Technician,107.0,160069.0,Low,Yes,No,No
+Weekly Performance Check,168,2.8,Intermediate,"Emergency Repair Kit, Basic Tools, Replacement Parts",1-2 Technicians,207.0,309794.0,Medium,Yes,Yes,Yes
+Monthly System Calibration,720,7.6,Advanced,"Calibration Equipment, Multimeter, Oscilloscope",2-3 Technicians + 1 Engineer,872.0,1308440.0,Medium,Yes,Yes,Yes
+Quarterly Filter Replacement,2160,14.1,Advanced,"Filter Replacement Kit, Basic Hand Tools",2-3 Technicians + 1 Engineer,2051.0,3076816.0,Medium,Yes,Yes,Yes
+Semi-Annual Stack Inspection,4320,21.4,Expert,"Multimeter, Thermometer, Pressure Gauge, Visual Inspection Kit",3-5 Technicians + 2 Engineers + Specialist,14285.0,21428120.0,Critical,Yes,Yes,No
+Annual Major Overhaul,8760,50.6,Expert,"Complete Tool Set, Lifting Equipment, Testing Equipment, Replacement Parts",3-5 Technicians + 2 Engineers + Specialist,30195.0,45292124.0,Critical,No,Yes,Yes
+Biennial Stack Replacement,17520,148.1,Expert,"Specialized Stack Tools, Lifting Equipment, Testing Equipment",3-5 Technicians + 2 Engineers + Specialist,164843.0,247265113.0,High,Yes,Yes,Yes
+Emergency Repairs,0,11.5,Expert,"Emergency Repair Kit, Basic Tools, Replacement Parts",3-5 Technicians + 2 Engineers + Specialist,4946.0,7419380.0,High,No,Yes,Yes

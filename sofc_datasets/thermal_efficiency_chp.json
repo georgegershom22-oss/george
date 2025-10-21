@@ -1,0 +1,92 @@
+[
+  {
+    "power_rating_kw":1,
+    "electrical_efficiency_percent":55.93,
+    "thermal_efficiency_percent":33.9,
+    "total_chp_efficiency_percent":89.83,
+    "heat_recovery_temperature_c":66.8,
+    "hot_water_capacity_kw":1.0,
+    "steam_generation_kg_h":16.4,
+    "applications":"Residential, Small Commercial"
+  },
+  {
+    "power_rating_kw":5,
+    "electrical_efficiency_percent":53.65,
+    "thermal_efficiency_percent":28.24,
+    "total_chp_efficiency_percent":81.89,
+    "heat_recovery_temperature_c":84.3,
+    "hot_water_capacity_kw":6.0,
+    "steam_generation_kg_h":93.0,
+    "applications":"Residential, Small Commercial"
+  },
+  {
+    "power_rating_kw":10,
+    "electrical_efficiency_percent":57.47,
+    "thermal_efficiency_percent":31.27,
+    "total_chp_efficiency_percent":88.74,
+    "heat_recovery_temperature_c":74.9,
+    "hot_water_capacity_kw":9.5,
+    "steam_generation_kg_h":169.8,
+    "applications":"Residential, Small Commercial"
+  },
+  {
+    "power_rating_kw":25,
+    "electrical_efficiency_percent":52.59,
+    "thermal_efficiency_percent":30.43,
+    "total_chp_efficiency_percent":83.02,
+    "heat_recovery_temperature_c":82.1,
+    "hot_water_capacity_kw":28.5,
+    "steam_generation_kg_h":456.2,
+    "applications":"Commercial, Small Industrial"
+  },
+  {
+    "power_rating_kw":50,
+    "electrical_efficiency_percent":54.05,
+    "thermal_efficiency_percent":32.96,
+    "total_chp_efficiency_percent":87.0,
+    "heat_recovery_temperature_c":77.3,
+    "hot_water_capacity_kw":55.9,
+    "steam_generation_kg_h":1247.7,
+    "applications":"Commercial, Small Industrial"
+  },
+  {
+    "power_rating_kw":100,
+    "electrical_efficiency_percent":50.85,
+    "thermal_efficiency_percent":32.0,
+    "total_chp_efficiency_percent":82.84,
+    "heat_recovery_temperature_c":81.0,
+    "hot_water_capacity_kw":97.1,
+    "steam_generation_kg_h":2364.0,
+    "applications":"Industrial, District Heating"
+  },
+  {
+    "power_rating_kw":250,
+    "electrical_efficiency_percent":59.3,
+    "thermal_efficiency_percent":26.5,
+    "total_chp_efficiency_percent":85.8,
+    "heat_recovery_temperature_c":68.9,
+    "hot_water_capacity_kw":274.0,
+    "steam_generation_kg_h":4768.3,
+    "applications":"Industrial, District Heating"
+  },
+  {
+    "power_rating_kw":500,
+    "electrical_efficiency_percent":55.9,
+    "thermal_efficiency_percent":30.29,
+    "total_chp_efficiency_percent":86.18,
+    "heat_recovery_temperature_c":61.1,
+    "hot_water_capacity_kw":410.8,
+    "steam_generation_kg_h":9158.8,
+    "applications":"Large Industrial, Utility Scale"
+  },
+  {
+    "power_rating_kw":1000,
+    "electrical_efficiency_percent":58.19,
+    "thermal_efficiency_percent":26.11,
+    "total_chp_efficiency_percent":84.3,
+    "heat_recovery_temperature_c":83.8,
+    "hot_water_capacity_kw":1101.9,
+    "steam_generation_kg_h":21309.1,
+    "applications":"Large Industrial, Utility Scale"
+  }
+]
