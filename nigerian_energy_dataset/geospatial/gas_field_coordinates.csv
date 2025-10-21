@@ -1,0 +1,38 @@
+Field_Name,Operator,State,Region,Latitude,Longitude,Field_Type,Discovery_Year,Production_Start,Daily_Production_bbl,Gas_Reserves_Bcf,Oil_Reserves_MMbbl,Water_Depth_m,Development_Status,Associated_Processing_Facility,Distance_to_Grid_km,Distance_to_Major_City_km,Environmental_Sensitivity_Score
+Forcados,Shell/SPDC,Delta,South South,5.3458,5.3856,Onshore,1956,1960,180000,2450,890,0,Producing,Forcados Terminal,12,45,7.8
+Escravos,Chevron,Delta,South South,5.5892,5.0823,Onshore,1961,1964,220000,3120,1240,0,Producing,Escravos Terminal,18,38,8.2
+Bonny,Shell/SPDC,Rivers,South South,4.4456,7.1618,Onshore,1958,1961,145000,2890,780,0,Producing,Bonny Terminal,8,15,8.5
+Brass,Agip,Bayelsa,South South,4.3078,6.2456,Onshore,1965,1968,98000,1680,520,0,Producing,Brass Terminal,25,42,7.5
+Pennington,Shell/SPDC,Bayelsa,South South,4.7823,6.0945,Onshore,1967,1970,112000,1920,590,0,Producing,Forcados Terminal,15,38,7.7
+Amenam,Mobil,Akwa Ibom,South South,4.5612,8.1234,Offshore,1970,1973,88000,1450,460,45,Producing,Qua Iboe Terminal,8,28,6.8
+Qua Iboe,Mobil,Akwa Ibom,South South,4.5289,7.9867,Offshore,1953,1956,135000,2340,720,38,Producing,Qua Iboe Terminal,5,22,7.2
+Oso,Chevron,Rivers,South South,4.6745,6.8923,Swamp,1968,1972,76000,1280,410,0,Producing,Escravos Terminal,22,32,8.1
+Obagi,SPDC,Rivers,South South,4.8234,6.7156,Swamp,1969,1973,68000,1150,380,0,Producing,Bonny Terminal,18,28,7.9
+Akri,Agip,Bayelsa,South South,5.0123,5.9234,Swamp,1971,1975,92000,1580,490,0,Producing,Brass Terminal,20,35,8.0
+Jones Creek,Shell/SPDC,Bayelsa,South South,4.9456,5.7845,Swamp,1966,1970,72000,1220,420,0,Producing,Forcados Terminal,16,40,7.8
+Cawthorne Channel,Shell/SPDC,Rivers,South South,4.7123,6.5678,Swamp,1968,1972,105000,1780,560,0,Producing,Bonny Terminal,14,25,8.2
+Buguma,Agip,Rivers,South South,4.7389,6.8512,Swamp,1972,1976,62000,1050,360,0,Producing,Brass Terminal,24,30,7.6
+Kokori,Chevron,Delta,South South,5.6234,5.8967,Onshore,1963,1967,85000,1440,470,0,Producing,Escravos Terminal,10,42,7.4
+Ughelli,SPDC,Delta,South South,5.4912,6.0134,Onshore,1957,1961,128000,2180,680,0,Producing,Ughelli Terminal,6,8,7.9
+Sapele,Shell/SPDC,Delta,South South,5.8945,5.6789,Onshore,1964,1968,98000,1670,540,0,Producing,Sapele Terminal,3,5,7.5
+Warri,Chevron,Delta,South South,5.5167,5.7501,Onshore,1959,1963,142000,2420,760,0,Producing,Warri Terminal,4,3,8.1
+Oben,Seplat,Edo,South South,6.2345,5.9123,Onshore,1972,1985,54000,920,310,0,Producing,Oben Gas Plant,35,65,6.5
+Ewan,Seplat,Edo,South South,6.1789,6.0456,Onshore,1974,1988,48000,820,280,0,Producing,Oben Gas Plant,38,68,6.3
+Kwale,SPDC,Delta,South South,5.7123,6.4289,Onshore,1965,1969,70000,1190,390,0,Producing,Kwale Terminal,12,28,7.6
+Olomoro,Heritage Oil,Delta,South South,5.6834,6.1567,Onshore,1970,1982,52000,890,300,0,Producing,Olomoro Facility,22,35,6.8
+Uzere,NPDC,Delta,South South,5.4567,6.2891,Onshore,1973,1990,44000,750,260,0,Producing,Uzere Facility,28,42,6.6
+Opuama,Chevron,Bayelsa,South South,4.4789,5.9234,Swamp,1969,1973,60000,1020,350,0,Producing,Escravos Terminal,26,48,7.7
+Gbaran,Shell/SPDC,Bayelsa,South South,4.6234,6.1567,Swamp,1982,1998,82000,1390,450,0,Producing,Gbaran-Ubie Plant,18,32,7.8
+Utonana,Agip,Bayelsa,South South,4.8456,6.0123,Swamp,1975,1980,66000,1120,380,0,Producing,Brass Terminal,22,38,7.5
+Okpoho,SPDC,Rivers,South South,4.9123,6.7891,Swamp,1971,1975,74000,1260,410,0,Producing,Bonny Terminal,16,26,7.9
+Belema,Belema Oil,Rivers,South South,4.5678,7.0234,Offshore,1985,2005,42000,710,240,28,Producing,Belema Platform,12,35,6.9
+Ekulama,NPDC,Rivers,South South,4.7891,6.9567,Swamp,1976,1992,50000,850,290,0,Producing,Ekulama Facility,20,28,7.2
+Nembe Creek,Aiteo,Bayelsa,South South,4.5234,6.3456,Swamp,1973,1978,95000,1620,520,0,Producing,Nembe Creek Terminal,14,30,8.0
+Clough Creek,First E&P,Bayelsa,South South,4.6789,6.2134,Swamp,1974,1996,64000,1090,370,0,Producing,Clough Creek Facility,19,36,7.4
+Bonga,Shell,Offshore,South South,3.3821,4.2654,Deepwater,1996,2005,225000,3840,1520,1000,Producing,Bonga FPSO,85,120,5.8
+Agbami,Chevron,Offshore,South South,3.8934,4.5123,Deepwater,1998,2008,250000,4280,1680,1500,Producing,Agbami FPSO,92,135,5.6
+Akpo,Total,Offshore,South South,3.7456,4.8967,Deepwater,2000,2009,175000,2980,1180,1300,Producing,Akpo FPSO,78,115,5.9
+Erha,ExxonMobil,Offshore,South South,3.6234,4.3456,Deepwater,2001,2006,150000,2560,1020,1100,Producing,Erha FPSO,72,108,6.1
+Usan,ExxonMobil,Offshore,South South,3.9123,4.7234,Deepwater,2002,2012,180000,3080,1240,750,Producing,Usan FPSO,68,102,6.0
+Egina,Total,Offshore,South South,3.5789,4.1890,Deepwater,2003,2018,200000,3420,1380,1600,Producing,Egina FPSO,95,142,5.7
+Zabazaba,Eni,Offshore,South South,3.4567,4.4567,Deepwater,2008,2024,120000,2050,820,900,Producing,Zabazaba FPSO,82,125,6.2

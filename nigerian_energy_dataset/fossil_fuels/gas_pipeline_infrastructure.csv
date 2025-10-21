@@ -1,0 +1,27 @@
+Pipeline_Name,Pipeline_ID,Start_Location,End_Location,Length_km,Diameter_inches,Capacity_mscf_per_day,Current_Throughput_mscf_per_day,Utilization_Percent,Operator,Construction_Year,Last_Maintenance_Year,Condition_Status,Pressure_PSI,Number_of_Compressor_Stations,Gas_Quality_HHV_BTU_per_scf,Leakage_Rate_Percent
+Escravos-Lagos Pipeline System,ELPS,Escravos,Lagos,213,48,2000,1620,81.0,NGC,1989,2022,Good,1200,8,1050,0.8
+Obiafu-Obrikom-Oben Pipeline,OB3,Obiafu,Oben,317,36,1200,870,72.5,NGC,2010,2023,Excellent,1100,6,1045,0.4
+Trans Niger Pipeline,TNP,Obigbo,Ikot Abasi,260,28,600,425,70.8,NGC,2001,2021,Fair,950,5,1038,1.2
+Alakiri-Eleme Pipeline,AEP,Alakiri,Eleme,42,24,450,340,75.6,NGC,2015,2024,Excellent,1050,2,1055,0.3
+Imo River Gas Pipeline,IRGP,Imo River,Owerri,85,20,300,215,71.7,NGC,2012,2023,Good,900,2,1042,0.6
+Obite-Rumuji Pipeline,ORP,Obite,Rumuji,68,24,400,310,77.5,NGC,2013,2024,Excellent,1000,2,1048,0.4
+Gbaran-Ubie Pipeline,GUP,Gbaran,Ubie,35,28,550,445,80.9,Shell/SPDC,2008,2023,Good,1080,2,1052,0.5
+Oso Condensate Pipeline,OCP,Oso,Bonny,92,20,320,245,76.6,Chevron,2006,2022,Good,920,2,1040,0.7
+West African Gas Pipeline,WAGP,Lagos,Ghana Border,678,20,170,125,73.5,WAGPCO,2007,2021,Fair,850,12,1035,1.5
+Ajaokuta-Kaduna-Kano Pipeline,AKK,Ajaokuta,Kano,614,40,2200,0,0.0,NGC,2023,2024,Excellent,1250,14,1058,0.0
+Obiafu-Oben-Geregu Pipeline,OOG,Obiafu,Geregu,122,32,800,620,77.5,NGC,2009,2023,Good,1120,3,1047,0.6
+Trans Sahara Gas Pipeline,TSGP,Ajaokuta,Algeria,4400,56,1100,0,0.0,NNPC,2025,N/A,Under Construction,1400,45,1060,0.0
+Olorunsogo Gas Pipeline,OGP,Ughelli,Olorunsogo,178,24,450,385,85.6,NGC,2006,2022,Good,980,3,1043,0.8
+Omotosho Gas Pipeline,OMGP,Sapele,Omotosho,156,24,420,325,77.4,NGC,2006,2022,Fair,970,3,1041,1.0
+Geregu Gas Pipeline,GGP,Obiafu,Geregu,187,28,650,520,80.0,NGC,2007,2023,Good,1050,4,1046,0.7
+Okpai Gas Pipeline,OKGP,Kwale,Okpai,48,20,380,350,92.1,Agip,2004,2023,Excellent,950,1,1049,0.3
+Sapele Gas Pipeline,SGP,Forcados,Sapele,124,32,750,580,77.3,NGC,1986,2021,Fair,1040,3,1038,1.3
+Delta Gas Pipeline Network,DGPN,Multiple,Delta Region,450,Various,1800,1320,73.3,NGC,Various,2022,Good,Varies,15,1044,0.9
+Rivers Gas Distribution,RGD,Multiple,Rivers Region,380,Various,1500,1180,78.7,NGC,Various,2023,Good,Varies,12,1046,0.7
+Lagos Gas Network,LGN,Multiple,Lagos Region,285,Various,1200,1050,87.5,Gaslink,Various,2023,Excellent,Varies,8,1051,0.5
+Abuja Gas Network,AGN,Geregu,Abuja,67,24,400,360,90.0,NGC,2010,2024,Excellent,1000,2,1048,0.4
+Kano Gas Distribution,KGD,Kano,Industrial Area,42,16,180,95,52.8,NGC,2020,2023,Good,800,1,1043,0.6
+Ibadan Gas Network,IGN,Olorunsogo,Ibadan,38,18,220,175,79.5,Gaslink,2014,2023,Good,850,1,1045,0.7
+Port Harcourt City Gas,PHCG,Multiple,Port Harcourt,156,Various,600,520,86.7,NGC,Various,2024,Excellent,Varies,5,1048,0.4
+Bonny LNG Feed Pipeline,BLNG,Bonny,LNG Plant,28,42,1100,980,89.1,NLNG,1999,2023,Excellent,1150,1,1055,0.3
+Brass LNG Feed Pipeline,BRLNG,Brass,Planned LNG,45,36,800,0,0.0,NNPC,2024,N/A,Under Construction,1100,2,1052,0.0

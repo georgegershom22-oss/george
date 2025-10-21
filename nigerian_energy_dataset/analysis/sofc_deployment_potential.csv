@@ -1,0 +1,38 @@
+State,Region,Gas_Proximity_Score,Grid_Reliability_Score,Industrial_Demand_MW,Commercial_Demand_MW,Peak_Demand_Deficit_MW,Gas_Pipeline_Access,Distance_to_Gas_Source_km,Estimated_SOFC_Capacity_Potential_MW,SOFC_Priority_Tier,Population_Density_per_km2,GDP_Contribution_Percent,Industrial_Zones,Manufacturing_Facilities,Data_Centers,Hospitals,Universities,SOFC_Implementation_Complexity,Estimated_Investment_Million_USD,Payback_Period_Years
+Lagos,South West,9.5,6.8,2850,1940,3325,Yes,15,1200,Tier_1_Critical,3200,28.5,12,456,8,89,12,Medium,1680,4.2
+Rivers,South South,9.8,7.2,1450,890,1230,Yes,8,650,Tier_1_Critical,380,9.8,8,234,3,45,6,Low,910,3.8
+Abuja FCT,North Central,8.9,7.6,980,1240,1515,Yes,25,520,Tier_1_Critical,1890,5.6,7,178,12,34,8,Medium,728,4.5
+Kano,North West,6.5,4.8,1120,670,3178,Partial,340,480,Tier_2_High,850,4.2,6,198,2,28,5,High,672,6.8
+Delta,South South,9.2,6.6,890,560,1089,Yes,12,420,Tier_1_Critical,320,6.7,6,167,2,38,4,Low,588,3.9
+Oyo,South West,7.8,6.4,780,490,1501,Partial,85,380,Tier_2_High,420,3.8,5,145,3,32,7,Medium,532,5.2
+Kaduna,North West,7.2,5.6,890,420,1545,Partial,180,360,Tier_2_High,280,3.4,5,134,2,24,6,High,504,6.4
+Anambra,South East,6.8,6.0,680,520,1122,Partial,245,340,Tier_2_High,680,4.1,4,123,2,29,4,Medium,476,5.8
+Edo,South South,8.5,6.6,620,390,1066,Yes,45,320,Tier_2_High,240,2.9,4,112,2,26,3,Low,448,4.6
+Ogun,South West,8.2,6.9,720,380,1014,Yes,35,310,Tier_2_High,450,3.2,5,134,4,23,5,Medium,434,4.8
+Enugu,South East,6.5,6.1,560,340,1257,Partial,210,280,Tier_2_High,320,2.7,4,98,2,22,5,Medium,392,6.1
+Akwa Ibom,South South,9.0,7.3,480,290,845,Yes,52,260,Tier_2_High,280,3.8,3,87,1,18,3,Low,364,4.3
+Imo,South East,6.2,6.2,420,310,1223,Partial,268,240,Tier_3_Medium,580,2.1,3,76,1,19,4,Medium,336,6.5
+Kogi,North Central,7.5,6.2,380,250,1427,Partial,68,220,Tier_3_Medium,180,1.8,3,67,1,15,3,Medium,308,5.9
+Kwara,North Central,7.1,6.0,350,280,1322,Partial,125,210,Tier_3_Medium,190,1.6,3,62,1,17,4,Medium,294,6.2
+Abia,South East,6.7,6.0,390,270,1145,Partial,285,200,Tier_3_Medium,490,1.9,3,71,1,16,3,High,280,6.8
+Ondo,South West,7.9,6.2,340,230,1544,Partial,95,190,Tier_3_Medium,210,1.7,2,58,1,14,3,Medium,266,5.7
+Cross River,South South,7.8,6.4,290,210,1001,Partial,178,180,Tier_3_Medium,170,1.5,2,52,1,13,2,Medium,252,6.0
+Osun,South West,7.2,6.1,310,190,1211,Partial,118,170,Tier_3_Medium,280,1.4,2,49,1,12,3,Medium,238,6.3
+Bayelsa,South South,9.1,6.7,220,160,818,Yes,28,160,Tier_3_Medium,120,2.9,2,34,0,9,2,Low,224,4.8
+Niger,North Central,7.4,6.3,280,170,1540,Partial,42,150,Tier_3_Medium,85,1.3,2,45,0,11,2,Medium,210,6.1
+Plateau,North Central,6.8,6.2,260,190,1522,Partial,285,145,Tier_3_Medium,210,1.2,2,41,1,13,3,High,203,7.2
+Ekiti,South West,6.9,6.1,230,150,1334,Partial,165,135,Tier_4_Low,310,0.9,2,38,0,10,2,Medium,189,6.8
+Benue,North Central,6.2,5.5,250,140,1835,Partial,245,130,Tier_4_Low,140,1.1,2,36,0,12,3,High,182,7.6
+Katsina,North West,5.8,4.9,290,120,2023,No,650,120,Tier_4_Low,280,1.0,2,42,0,9,2,Very High,168,9.2
+Bauchi,North East,5.5,4.8,240,110,2234,No,580,110,Tier_4_Low,180,0.9,2,34,0,8,2,Very High,154,9.8
+Nasarawa,North Central,7.0,6.2,210,130,1545,Partial,95,105,Tier_4_Low,160,0.8,2,31,0,9,2,Medium,147,6.9
+Gombe,North East,5.2,5.0,190,95,2278,No,645,95,Tier_4_Low,150,0.7,1,28,0,7,1,Very High,133,10.4
+Sokoto,North West,5.4,5.0,220,85,2211,No,780,90,Tier_4_Low,140,0.8,2,29,0,6,2,Very High,126,10.1
+Ebonyi,South East,6.1,6.2,180,110,1556,Partial,325,85,Tier_4_Low,290,0.6,1,26,0,8,2,High,119,7.8
+Adamawa,North East,5.3,5.1,170,90,2178,No,712,80,Tier_4_Low,130,0.7,1,24,0,7,1,Very High,112,10.6
+Taraba,North East,5.1,4.9,150,80,2389,No,756,75,Tier_5_Defer,95,0.6,1,21,0,6,1,Very High,105,11.2
+Jigawa,North West,5.6,4.9,190,75,2278,No,698,70,Tier_5_Defer,210,0.7,1,23,0,5,1,Very High,98,10.8
+Kebbi,North West,5.5,5.0,170,70,2201,No,825,65,Tier_5_Defer,130,0.6,1,20,0,5,1,Very High,91,11.0
+Zamfara,North West,5.3,4.7,160,65,2434,No,745,60,Tier_5_Defer,140,0.5,1,19,0,4,1,Very High,84,11.5
+Borno,North East,4.8,4.4,180,70,2856,No,1124,55,Tier_5_Defer,120,0.6,1,22,0,6,1,Very High,77,12.3
+Yobe,North East,4.9,4.5,150,60,2534,No,1045,50,Tier_5_Defer,110,0.4,1,18,0,4,1,Very High,70,12.0
