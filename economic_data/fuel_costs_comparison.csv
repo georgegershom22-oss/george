@@ -1,0 +1,14 @@
+Fuel_Type,Price_USD,Unit,Price_USD_per_kWh_Thermal,Energy_Content_Lower,Energy_Content_Unit,Efficiency_to_Electricity,Electricity_Cost_USD_per_kWh,Year,Source,Notes,Transport_Cost_USD,Storage_Cost_USD_per_Unit
+Natural_Gas_Domestic,2.50,USD_per_MSCF,0.0024,1000,SCF_per_MSCF,0.60,0.0040,2024,NNPC_2024,1 MSCF = 1.026 MMBtu,0.30,0.15
+Natural_Gas_Industrial,3.20,USD_per_MSCF,0.0031,1000,SCF_per_MSCF,0.60,0.0052,2024,NNPC_2024,Industrial pricing,0.30,0.15
+Natural_Gas_Compressed_CNG,4.50,USD_per_GGE,0.0048,5.66,kWh_per_SCF,0.60,0.0080,2024,Market_Survey,Gasoline gallon equivalent,0.80,2.50
+Liquefied_Natural_Gas,12.50,USD_per_MMBTU,0.0122,293.1,kWh_per_MMBTU,0.60,0.0203,2024,World_Bank,International price,3.50,5.00
+Diesel_Fuel,1.45,USD_per_Liter,0.0395,10.7,kWh_per_Liter,0.35,0.1129,2024,PPPRA_Nigeria,Pump price includes taxes,0.05,0.02
+Diesel_Fuel_Black_Market,1.85,USD_per_Liter,0.0504,10.7,kWh_per_Liter,0.35,0.1440,2024,Market_Survey,Unofficial market price,0.08,0.02
+Heavy_Fuel_Oil,0.95,USD_per_Liter,0.0238,11.2,kWh_per_Liter,0.38,0.0626,2024,Industrial_Supplier,Industrial fuel,0.12,0.05
+Biogas_Waste,0.80,USD_per_MSCF,0.0008,1000,SCF_per_MSCF,0.55,0.0015,2024,Projection,From waste treatment,0.20,0.30
+Hydrogen_Grey,4.50,USD_per_kg,0.0135,33.3,kWh_per_kg,0.55,0.0245,2024,Industry_Estimate,From natural gas reforming,1.50,8.00
+Hydrogen_Green,8.50,USD_per_kg,0.0255,33.3,kWh_per_kg,0.55,0.0464,2024,IEA_Projection,From electrolysis,1.50,8.00
+Propane_LPG,0.75,USD_per_kg,0.0060,12.8,kWh_per_kg,0.40,0.0150,2024,Market_Survey,Liquefied petroleum gas,0.40,1.20
+Coal,120.00,USD_per_Tonne,0.0040,8.14,kWh_per_kg,0.35,0.0114,2024,World_Bank,Thermal coal,25.00,5.00
+Gasoline,1.65,USD_per_Liter,0.0186,8.9,kWh_per_Liter,0.30,0.0620,2024,PPPRA_Nigeria,Rarely used for power,0.05,0.02

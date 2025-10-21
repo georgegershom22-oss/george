@@ -1,0 +1,23 @@
+Scenario,Technology,Capacity_Factor,Annual_Operating_Hours,Load_Profile,Grid_Availability,Fuel_Price_Escalation_Annual,Electricity_Price_Escalation,OPEX_Escalation,Description,Use_Case
+Base_Case_SOFC,SOFC,0.85,7446,Baseload,0.35,3.5,5.0,3.0,Standard operation with high capacity factor,Industrial continuous process
+Base_Case_Diesel,Diesel,0.70,6132,Peak_and_Backup,0.35,5.0,5.0,3.5,Standard diesel operation,Backup and peak load
+Base_Case_Solar,Solar_Battery,0.22,1927,Solar_with_Storage,0.35,0.0,5.0,2.0,Solar with 4-hour battery,Daytime load with storage
+Optimistic_SOFC,SOFC,0.90,7884,Baseload,0.45,2.5,4.5,2.5,High reliability with better grid,Industrial with grid support
+Optimistic_Diesel,Diesel,0.60,5256,Backup_Only,0.50,4.0,4.5,3.0,Reduced diesel use with better grid,Emergency backup
+Optimistic_Solar,Solar_Battery,0.25,2190,Solar_Extended_Storage,0.45,0.0,4.5,1.8,Solar with 6-hour battery,Extended daytime load
+Pessimistic_SOFC,SOFC,0.75,6570,Baseload,0.25,5.0,6.0,4.0,Lower reliability poor grid,Challenged grid area
+Pessimistic_Diesel,Diesel,0.80,7008,Primary_Power,0.20,7.0,6.0,4.5,Heavy diesel reliance,Poor grid primary diesel
+Pessimistic_Solar,Solar_Battery,0.18,1577,Solar_Limited_Storage,0.25,0.0,6.0,2.5,Solar with weather challenges,Limited sun hours
+High_Utilization_SOFC,SOFC,0.95,8322,Continuous_Baseload,0.30,3.5,5.0,3.0,Maximum utilization,24/7 critical operations
+Island_Mode_SOFC,SOFC,0.90,7884,Standalone,0.00,4.0,0.0,3.2,Off-grid operation,Remote location no grid
+Island_Mode_Diesel,Diesel,0.85,7446,Standalone,0.00,6.0,0.0,4.0,Off-grid diesel primary,Remote location diesel
+Hybrid_SOFC_Grid,SOFC,0.80,7008,Load_Following,0.50,3.5,5.0,3.0,Hybrid with grid support,Grid supplementation
+Hybrid_Diesel_Solar,Diesel,0.40,3504,Peak_Shaving,0.40,5.0,5.0,3.5,Diesel peaks solar base,Combined renewable
+Industrial_24_7,SOFC,0.92,8059,Industrial_Baseload,0.30,3.5,5.5,3.2,Manufacturing continuous,Aluminum smelter textile
+Commercial_Office,SOFC,0.45,3942,Business_Hours,0.40,3.5,5.0,3.0,9AM-9PM operation,Office building mall
+Telecom_Tower,SOFC,0.88,7709,Telecom_Load,0.25,3.5,0.0,3.0,High reliability telecom,Cell tower backup
+Data_Center,SOFC,0.98,8585,Critical_Load,0.40,3.5,0.0,3.0,Maximum uptime required,Data center UPS
+Healthcare_Facility,SOFC,0.80,7008,Critical_Healthcare,0.30,3.5,5.0,3.0,Hospital clinic operation,Healthcare facility
+Agriculture_Processing,SOFC,0.65,5694,Seasonal_Variable,0.35,3.5,5.0,3.0,Seasonal processing load,Food processing
+Mining_Operation,SOFC,0.90,7884,Mining_Continuous,0.20,3.5,6.0,3.5,Remote mining operation,Mineral extraction
+University_Campus,SOFC,0.55,4818,Academic_Calendar,0.40,3.5,5.0,3.0,Education facility,University campus

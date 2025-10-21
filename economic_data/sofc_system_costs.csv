@@ -1,0 +1,16 @@
+System_Size_kW,CAPEX_USD_per_kW,CAPEX_Total_USD,Stack_Cost_USD_per_kW,BoP_Cost_USD_per_kW,Installation_Cost_USD_per_kW,Annual_OPEX_USD_per_kW,Annual_OPEX_Percent_CAPEX,Stack_Replacement_Cost_USD_per_kW,Stack_Lifetime_Years,Maintenance_Cost_USD_per_kW_yr,Labor_Cost_USD_per_yr,Source,Notes
+100,4500,450000,2250,1800,450,225,5.0,2000,7,150,15000,DOE_2023,Small commercial system
+250,3800,950000,1900,1520,380,190,5.0,1700,7,130,20000,Bloom_Energy_2023,Medium commercial system
+500,3200,1600000,1600,1280,320,160,5.0,1450,7,110,25000,FuelCell_Energy_2023,Large commercial system
+750,2900,2175000,1450,1160,290,145,5.0,1300,7,100,30000,SolidPower_2023,Industrial system
+1000,2600,2600000,1300,1040,260,130,5.0,1200,7,90,35000,Ceres_Power_2023,Large industrial system
+100,5200,520000,2600,2080,520,260,5.0,2300,7,175,18000,Literature_Review_2024,Conservative estimate - high end
+250,4400,1100000,2200,1760,440,220,5.0,2000,7,150,24000,Literature_Review_2024,Conservative estimate - high end
+500,3800,1900000,1900,1520,380,190,5.0,1700,7,130,30000,Literature_Review_2024,Conservative estimate - high end
+750,3400,2550000,1700,1360,340,170,5.0,1550,7,115,36000,Literature_Review_2024,Conservative estimate - high end
+1000,3100,3100000,1550,1240,310,155,5.0,1400,7,105,42000,Literature_Review_2024,Conservative estimate - high end
+100,3800,380000,1900,1520,380,190,5.0,1700,7,125,12000,IEA_Projection_2025,Optimistic projection
+250,3200,800000,1600,1280,320,160,5.0,1450,7,110,16000,IEA_Projection_2025,Optimistic projection
+500,2700,1350000,1350,1080,270,135,5.0,1200,7,95,20000,IEA_Projection_2025,Optimistic projection
+750,2400,1800000,1200,960,240,120,5.0,1100,7,85,24000,IEA_Projection_2025,Optimistic projection
+1000,2200,2200000,1100,880,220,110,5.0,1000,7,75,28000,IEA_Projection_2025,Optimistic projection

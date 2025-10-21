@@ -1,0 +1,16 @@
+System_Size_kW,CAPEX_USD_per_kW,CAPEX_Total_USD,Installation_USD_per_kW,Fuel_Consumption_L_per_kWh,Diesel_Price_USD_per_L,Fuel_Cost_USD_per_kWh,Annual_Maintenance_USD_per_kW,Maintenance_Interval_Hours,Major_Overhaul_Cost_USD,Overhaul_Interval_Years,Lifetime_Years,Capacity_Factor,Source,Notes
+100,800,80000,120,0.28,1.45,0.406,80,500,15000,5,15,0.7,Caterpillar_Nigeria_2024,Industrial diesel genset
+250,650,162500,95,0.26,1.45,0.377,70,500,30000,5,15,0.7,Cummins_Nigeria_2024,Medium industrial genset
+500,550,275000,80,0.25,1.45,0.3625,60,500,55000,5,15,0.7,Perkins_Nigeria_2024,Large industrial genset
+750,500,375000,70,0.24,1.45,0.348,55,500,75000,5,15,0.7,MTU_Nigeria_2024,Heavy industrial genset
+1000,450,450000,65,0.23,1.45,0.3335,50,500,95000,5,15,0.7,Wartsila_Nigeria_2024,Large scale genset
+100,850,85000,130,0.29,1.55,0.4495,85,500,16000,5,15,0.7,Market_Average_2024,Average with import duties
+250,700,175000,105,0.27,1.55,0.4185,75,500,32000,5,15,0.7,Market_Average_2024,Average with import duties
+500,600,300000,90,0.26,1.55,0.403,65,500,58000,5,15,0.7,Market_Average_2024,Average with import duties
+750,550,412500,80,0.25,1.55,0.3875,60,500,78000,5,15,0.7,Market_Average_2024,Average with import duties
+1000,500,500000,75,0.24,1.55,0.372,55,500,100000,5,15,0.7,Market_Average_2024,Average with import duties
+100,750,75000,110,0.27,1.35,0.3645,75,500,14000,5,15,0.7,Optimistic_2024,Best case scenario
+250,600,150000,85,0.25,1.35,0.3375,65,500,28000,5,15,0.7,Optimistic_2024,Best case scenario
+500,500,250000,70,0.24,1.35,0.324,55,500,52000,5,15,0.7,Optimistic_2024,Best case scenario
+750,450,337500,60,0.23,1.35,0.3105,50,500,72000,5,15,0.7,Optimistic_2024,Best case scenario
+1000,400,400000,55,0.22,1.35,0.297,45,500,90000,5,15,0.7,Optimistic_2024,Best case scenario
