@@ -1,0 +1,281 @@
+Manufacturer,System_Size_kW,Operational_Mode,Cold_Start_Time_hours,Warm_Start_Time_hours,Hot_Start_Time_minutes,Ramp_Up_Rate_pct_per_min,Ramp_Down_Rate_pct_per_min,Minimum_Load_pct,Optimal_Load_pct,Load_Change_Response_Time_sec,Cycling_Capability,Starts_Per_Year_Recommended,Mode_Suitability_Rating,Mode_Efficiency_Factor,Continuous_Operation_Capability,Black_Start_Capable,Grid_Forming_Capable,Island_Mode_Operation
+Bloom Energy,100,Base Load,41.14,4.43,24.3,5.47,7.82,20,100,103.9,Limited,10,Excellent,1.0,Yes,No,Limited,Limited
+Bloom Energy,100,Load Following,41.14,4.43,24.3,5.47,7.82,20,75,103.9,Limited,35,Moderate,0.96,Yes,No,Limited,Limited
+Bloom Energy,100,Peak Shaving,41.14,4.43,24.3,5.47,7.82,20,90,103.9,Limited,12,Good,0.98,Yes,No,Limited,Limited
+Bloom Energy,100,Backup Power,41.14,4.43,24.3,5.47,7.82,20,80,103.9,Limited,20,Moderate,0.95,Yes,No,Limited,Limited
+Bloom Energy,100,CHP Mode,41.14,4.43,24.3,5.47,7.82,20,85,103.9,Limited,12,Excellent,1.02,Yes,No,Limited,Limited
+Bloom Energy,200,Base Load,38.49,4.75,18.4,4.15,5.82,20,100,63.2,Limited,14,Excellent,1.0,Yes,No,Limited,Limited
+Bloom Energy,200,Load Following,38.49,4.75,18.4,4.15,5.82,20,75,63.2,Limited,26,Moderate,0.96,Yes,No,Limited,Limited
+Bloom Energy,200,Peak Shaving,38.49,4.75,18.4,4.15,5.82,20,90,63.2,Limited,40,Good,0.98,Yes,No,Limited,Limited
+Bloom Energy,200,Backup Power,38.49,4.75,18.4,4.15,5.82,20,80,63.2,Limited,12,Moderate,0.95,Yes,No,Limited,Limited
+Bloom Energy,200,CHP Mode,38.49,4.75,18.4,4.15,5.82,20,85,63.2,Limited,13,Excellent,1.02,Yes,No,Limited,Limited
+Bloom Energy,250,Base Load,32.51,5.77,35.1,5.04,5.45,20,100,83.4,Limited,10,Excellent,1.0,Yes,No,Limited,Limited
+Bloom Energy,250,Load Following,32.51,5.77,35.1,5.04,5.45,20,75,83.4,Limited,35,Moderate,0.96,Yes,No,Limited,Limited
+Bloom Energy,250,Peak Shaving,32.51,5.77,35.1,5.04,5.45,20,90,83.4,Limited,46,Good,0.98,Yes,No,Limited,Limited
+Bloom Energy,250,Backup Power,32.51,5.77,35.1,5.04,5.45,20,80,83.4,Limited,34,Limited,0.95,Yes,No,Limited,Limited
+Bloom Energy,250,CHP Mode,32.51,5.77,35.1,5.04,5.45,20,85,83.4,Limited,44,Excellent,1.02,Yes,No,Limited,Limited
+Bloom Energy,300,Base Load,41.38,2.48,42.1,3.2,6.14,20,100,42.8,Limited,10,Excellent,1.0,Yes,No,Limited,Yes
+Bloom Energy,300,Load Following,41.38,2.48,42.1,3.2,6.14,20,75,42.8,Limited,26,Moderate,0.96,Yes,No,Limited,Yes
+Bloom Energy,300,Peak Shaving,41.38,2.48,42.1,3.2,6.14,20,90,42.8,Limited,21,Good,0.98,Yes,No,Limited,Yes
+Bloom Energy,300,Backup Power,41.38,2.48,42.1,3.2,6.14,20,80,42.8,Limited,29,Moderate,0.95,Yes,No,Limited,Yes
+Bloom Energy,300,CHP Mode,41.38,2.48,42.1,3.2,6.14,20,85,42.8,Limited,33,Excellent,1.02,Yes,No,Limited,Yes
+Bloom Energy,500,Base Load,25.05,2.49,31.8,4.03,6.92,20,100,88.7,Limited,43,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,500,Load Following,25.05,2.49,31.8,4.03,6.92,20,75,88.7,Limited,37,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,500,Peak Shaving,25.05,2.49,31.8,4.03,6.92,20,90,88.7,Limited,27,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,500,Backup Power,25.05,2.49,31.8,4.03,6.92,20,80,88.7,Limited,36,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,500,CHP Mode,25.05,2.49,31.8,4.03,6.92,20,85,88.7,Limited,21,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1000,Base Load,31.35,5.16,28.4,5.4,7.29,20,100,107.2,Limited,46,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1000,Load Following,31.35,5.16,28.4,5.4,7.29,20,75,107.2,Limited,27,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1000,Peak Shaving,31.35,5.16,28.4,5.4,7.29,20,90,107.2,Limited,22,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1000,Backup Power,31.35,5.16,28.4,5.4,7.29,20,80,107.2,Limited,33,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1000,CHP Mode,31.35,5.16,28.4,5.4,7.29,20,85,107.2,Limited,24,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1500,Base Load,38.43,4.82,35.7,4.12,4.67,20,100,68.7,Limited,15,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1500,Load Following,38.43,4.82,35.7,4.12,4.67,20,75,68.7,Limited,45,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1500,Peak Shaving,38.43,4.82,35.7,4.12,4.67,20,90,68.7,Limited,23,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1500,Backup Power,38.43,4.82,35.7,4.12,4.67,20,80,68.7,Limited,16,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,1500,CHP Mode,38.43,4.82,35.7,4.12,4.67,20,85,68.7,Limited,11,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,2000,Base Load,39.5,4.55,25.2,3.22,5.64,20,100,58.0,Limited,37,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,2000,Load Following,39.5,4.55,25.2,3.22,5.64,20,75,58.0,Limited,34,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,2000,Peak Shaving,39.5,4.55,25.2,3.22,5.64,20,90,58.0,Limited,24,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,2000,Backup Power,39.5,4.55,25.2,3.22,5.64,20,80,58.0,Limited,18,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Bloom Energy,2000,CHP Mode,39.5,4.55,25.2,3.22,5.64,20,85,58.0,Limited,49,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,100,Base Load,46.9,6.75,25.6,2.97,3.08,25,100,75.5,Limited,48,Excellent,1.0,Yes,No,Limited,Limited
+Siemens Energy,100,Load Following,46.9,6.75,25.6,2.97,3.08,25,75,75.5,Limited,25,Moderate,0.96,Yes,No,Limited,Limited
+Siemens Energy,100,Peak Shaving,46.9,6.75,25.6,2.97,3.08,25,90,75.5,Limited,11,Good,0.98,Yes,No,Limited,Limited
+Siemens Energy,100,Backup Power,46.9,6.75,25.6,2.97,3.08,25,80,75.5,Limited,11,Limited,0.95,Yes,No,Limited,Limited
+Siemens Energy,100,CHP Mode,46.9,6.75,25.6,2.97,3.08,25,85,75.5,Limited,25,Excellent,1.02,Yes,No,Limited,Limited
+Siemens Energy,200,Base Load,39.84,4.09,50.2,2.92,3.87,25,100,111.0,Limited,14,Excellent,1.0,Yes,No,Limited,Limited
+Siemens Energy,200,Load Following,39.84,4.09,50.2,2.92,3.87,25,75,111.0,Limited,48,Moderate,0.96,Yes,No,Limited,Limited
+Siemens Energy,200,Peak Shaving,39.84,4.09,50.2,2.92,3.87,25,90,111.0,Limited,22,Good,0.98,Yes,No,Limited,Limited
+Siemens Energy,200,Backup Power,39.84,4.09,50.2,2.92,3.87,25,80,111.0,Limited,45,Moderate,0.95,Yes,No,Limited,Limited
+Siemens Energy,200,CHP Mode,39.84,4.09,50.2,2.92,3.87,25,85,111.0,Limited,34,Excellent,1.02,Yes,No,Limited,Limited
+Siemens Energy,250,Base Load,55.84,7.94,31.5,3.92,4.17,25,100,64.7,Limited,23,Excellent,1.0,Yes,No,Limited,Limited
+Siemens Energy,250,Load Following,55.84,7.94,31.5,3.92,4.17,25,75,64.7,Limited,31,Moderate,0.96,Yes,No,Limited,Limited
+Siemens Energy,250,Peak Shaving,55.84,7.94,31.5,3.92,4.17,25,90,64.7,Limited,16,Good,0.98,Yes,No,Limited,Limited
+Siemens Energy,250,Backup Power,55.84,7.94,31.5,3.92,4.17,25,80,64.7,Limited,32,Limited,0.95,Yes,No,Limited,Limited
+Siemens Energy,250,CHP Mode,55.84,7.94,31.5,3.92,4.17,25,85,64.7,Limited,31,Excellent,1.02,Yes,No,Limited,Limited
+Siemens Energy,300,Base Load,54.29,7.33,37.6,2.6,3.78,25,100,47.5,Limited,12,Excellent,1.0,Yes,No,Limited,Yes
+Siemens Energy,300,Load Following,54.29,7.33,37.6,2.6,3.78,25,75,47.5,Limited,23,Moderate,0.96,Yes,No,Limited,Yes
+Siemens Energy,300,Peak Shaving,54.29,7.33,37.6,2.6,3.78,25,90,47.5,Limited,20,Good,0.98,Yes,No,Limited,Yes
+Siemens Energy,300,Backup Power,54.29,7.33,37.6,2.6,3.78,25,80,47.5,Limited,48,Limited,0.95,Yes,No,Limited,Yes
+Siemens Energy,300,CHP Mode,54.29,7.33,37.6,2.6,3.78,25,85,47.5,Limited,32,Excellent,1.02,Yes,No,Limited,Yes
+Siemens Energy,500,Base Load,44.33,6.32,25.6,2.89,4.88,25,100,74.0,Limited,26,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,500,Load Following,44.33,6.32,25.6,2.89,4.88,25,75,74.0,Limited,49,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,500,Peak Shaving,44.33,6.32,25.6,2.89,4.88,25,90,74.0,Limited,45,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,500,Backup Power,44.33,6.32,25.6,2.89,4.88,25,80,74.0,Limited,34,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,500,CHP Mode,44.33,6.32,25.6,2.89,4.88,25,85,74.0,Limited,32,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1000,Base Load,50.9,4.81,35.8,2.08,4.43,25,100,78.9,Limited,19,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1000,Load Following,50.9,4.81,35.8,2.08,4.43,25,75,78.9,Limited,48,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1000,Peak Shaving,50.9,4.81,35.8,2.08,4.43,25,90,78.9,Limited,46,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1000,Backup Power,50.9,4.81,35.8,2.08,4.43,25,80,78.9,Limited,38,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1000,CHP Mode,50.9,4.81,35.8,2.08,4.43,25,85,78.9,Limited,31,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1500,Base Load,56.88,4.52,51.6,2.25,5.38,25,100,54.8,Limited,45,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1500,Load Following,56.88,4.52,51.6,2.25,5.38,25,75,54.8,Limited,47,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1500,Peak Shaving,56.88,4.52,51.6,2.25,5.38,25,90,54.8,Limited,15,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1500,Backup Power,56.88,4.52,51.6,2.25,5.38,25,80,54.8,Limited,28,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,1500,CHP Mode,56.88,4.52,51.6,2.25,5.38,25,85,54.8,Limited,49,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,2000,Base Load,47.6,7.45,43.5,2.75,3.86,25,100,48.3,Limited,40,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,2000,Load Following,47.6,7.45,43.5,2.75,3.86,25,75,48.3,Limited,25,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,2000,Peak Shaving,47.6,7.45,43.5,2.75,3.86,25,90,48.3,Limited,30,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,2000,Backup Power,47.6,7.45,43.5,2.75,3.86,25,80,48.3,Limited,29,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Siemens Energy,2000,CHP Mode,47.6,7.45,43.5,2.75,3.86,25,85,48.3,Limited,33,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,100,Base Load,47.31,6.92,29.3,4.57,6.18,20,100,81.6,Limited,48,Excellent,1.0,Yes,No,Limited,Limited
+FuelCell Energy,100,Load Following,47.31,6.92,29.3,4.57,6.18,20,75,81.6,Limited,18,Moderate,0.96,Yes,No,Limited,Limited
+FuelCell Energy,100,Peak Shaving,47.31,6.92,29.3,4.57,6.18,20,90,81.6,Limited,14,Good,0.98,Yes,No,Limited,Limited
+FuelCell Energy,100,Backup Power,47.31,6.92,29.3,4.57,6.18,20,80,81.6,Limited,44,Limited,0.95,Yes,No,Limited,Limited
+FuelCell Energy,100,CHP Mode,47.31,6.92,29.3,4.57,6.18,20,85,81.6,Limited,27,Excellent,1.02,Yes,No,Limited,Limited
+FuelCell Energy,200,Base Load,46.94,6.57,17.2,4.71,5.07,20,100,75.9,Limited,35,Excellent,1.0,Yes,No,Limited,Limited
+FuelCell Energy,200,Load Following,46.94,6.57,17.2,4.71,5.07,20,75,75.9,Limited,47,Moderate,0.96,Yes,No,Limited,Limited
+FuelCell Energy,200,Peak Shaving,46.94,6.57,17.2,4.71,5.07,20,90,75.9,Limited,10,Good,0.98,Yes,No,Limited,Limited
+FuelCell Energy,200,Backup Power,46.94,6.57,17.2,4.71,5.07,20,80,75.9,Limited,29,Limited,0.95,Yes,No,Limited,Limited
+FuelCell Energy,200,CHP Mode,46.94,6.57,17.2,4.71,5.07,20,85,75.9,Limited,37,Excellent,1.02,Yes,No,Limited,Limited
+FuelCell Energy,250,Base Load,44.45,5.77,19.7,3.25,4.76,20,100,102.4,Limited,21,Excellent,1.0,Yes,No,Limited,Limited
+FuelCell Energy,250,Load Following,44.45,5.77,19.7,3.25,4.76,20,75,102.4,Limited,18,Moderate,0.96,Yes,No,Limited,Limited
+FuelCell Energy,250,Peak Shaving,44.45,5.77,19.7,3.25,4.76,20,90,102.4,Limited,48,Good,0.98,Yes,No,Limited,Limited
+FuelCell Energy,250,Backup Power,44.45,5.77,19.7,3.25,4.76,20,80,102.4,Limited,10,Limited,0.95,Yes,No,Limited,Limited
+FuelCell Energy,250,CHP Mode,44.45,5.77,19.7,3.25,4.76,20,85,102.4,Limited,49,Excellent,1.02,Yes,No,Limited,Limited
+FuelCell Energy,300,Base Load,43.54,6.31,25.3,2.54,6.08,20,100,105.1,Limited,39,Excellent,1.0,Yes,No,Limited,Yes
+FuelCell Energy,300,Load Following,43.54,6.31,25.3,2.54,6.08,20,75,105.1,Limited,15,Moderate,0.96,Yes,No,Limited,Yes
+FuelCell Energy,300,Peak Shaving,43.54,6.31,25.3,2.54,6.08,20,90,105.1,Limited,40,Good,0.98,Yes,No,Limited,Yes
+FuelCell Energy,300,Backup Power,43.54,6.31,25.3,2.54,6.08,20,80,105.1,Limited,40,Limited,0.95,Yes,No,Limited,Yes
+FuelCell Energy,300,CHP Mode,43.54,6.31,25.3,2.54,6.08,20,85,105.1,Limited,36,Excellent,1.02,Yes,No,Limited,Yes
+FuelCell Energy,500,Base Load,45.32,6.38,36.5,2.72,5.21,20,100,37.0,Limited,26,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,500,Load Following,45.32,6.38,36.5,2.72,5.21,20,75,37.0,Limited,26,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,500,Peak Shaving,45.32,6.38,36.5,2.72,5.21,20,90,37.0,Limited,12,Good,0.98,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,500,Backup Power,45.32,6.38,36.5,2.72,5.21,20,80,37.0,Limited,23,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,500,CHP Mode,45.32,6.38,36.5,2.72,5.21,20,85,37.0,Limited,14,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1000,Base Load,46.16,6.79,17.5,4.89,5.33,20,100,57.0,Limited,13,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1000,Load Following,46.16,6.79,17.5,4.89,5.33,20,75,57.0,Limited,30,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1000,Peak Shaving,46.16,6.79,17.5,4.89,5.33,20,90,57.0,Limited,41,Good,0.98,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1000,Backup Power,46.16,6.79,17.5,4.89,5.33,20,80,57.0,Limited,38,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1000,CHP Mode,46.16,6.79,17.5,4.89,5.33,20,85,57.0,Limited,12,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1500,Base Load,31.46,4.61,25.3,3.08,4.48,20,100,102.3,Limited,47,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1500,Load Following,31.46,4.61,25.3,3.08,4.48,20,75,102.3,Limited,26,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1500,Peak Shaving,31.46,4.61,25.3,3.08,4.48,20,90,102.3,Limited,46,Good,0.98,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1500,Backup Power,31.46,4.61,25.3,3.08,4.48,20,80,102.3,Limited,22,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,1500,CHP Mode,31.46,4.61,25.3,3.08,4.48,20,85,102.3,Limited,29,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,2000,Base Load,34.52,5.56,49.3,4.01,4.75,20,100,88.3,Limited,14,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,2000,Load Following,34.52,5.56,49.3,4.01,4.75,20,75,88.3,Limited,45,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,2000,Peak Shaving,34.52,5.56,49.3,4.01,4.75,20,90,88.3,Limited,30,Good,0.98,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,2000,Backup Power,34.52,5.56,49.3,4.01,4.75,20,80,88.3,Limited,27,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+FuelCell Energy,2000,CHP Mode,34.52,5.56,49.3,4.01,4.75,20,85,88.3,Limited,33,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Ceres Power,100,Base Load,19.5,1.14,23.7,6.21,10.28,15,100,104.0,Moderate,170,Excellent,1.0,Yes,No,Limited,Limited
+Ceres Power,100,Load Following,19.5,1.14,23.7,6.21,10.28,15,75,104.0,Moderate,132,Good,0.96,Yes,No,Limited,Limited
+Ceres Power,100,Peak Shaving,19.5,1.14,23.7,6.21,10.28,15,90,104.0,Moderate,128,Good,0.98,Yes,No,Limited,Limited
+Ceres Power,100,Backup Power,19.5,1.14,23.7,6.21,10.28,15,80,104.0,Moderate,71,Moderate,0.95,Yes,No,Limited,Limited
+Ceres Power,100,CHP Mode,19.5,1.14,23.7,6.21,10.28,15,85,104.0,Moderate,166,Excellent,1.02,Yes,No,Limited,Limited
+Ceres Power,200,Base Load,15.26,1.99,15.7,5.67,9.78,15,100,34.9,Moderate,162,Excellent,1.0,Yes,No,Limited,Limited
+Ceres Power,200,Load Following,15.26,1.99,15.7,5.67,9.78,15,75,34.9,Moderate,97,Good,0.96,Yes,No,Limited,Limited
+Ceres Power,200,Peak Shaving,15.26,1.99,15.7,5.67,9.78,15,90,34.9,Moderate,50,Good,0.98,Yes,No,Limited,Limited
+Ceres Power,200,Backup Power,15.26,1.99,15.7,5.67,9.78,15,80,34.9,Moderate,126,Moderate,0.95,Yes,No,Limited,Limited
+Ceres Power,200,CHP Mode,15.26,1.99,15.7,5.67,9.78,15,85,34.9,Moderate,57,Excellent,1.02,Yes,No,Limited,Limited
+Ceres Power,250,Base Load,15.31,2.41,11.3,9.2,6.02,15,100,52.2,Moderate,161,Excellent,1.0,Yes,No,Limited,Limited
+Ceres Power,250,Load Following,15.31,2.41,11.3,9.2,6.02,15,75,52.2,Moderate,97,Good,0.96,Yes,No,Limited,Limited
+Ceres Power,250,Peak Shaving,15.31,2.41,11.3,9.2,6.02,15,90,52.2,Moderate,65,Good,0.98,Yes,No,Limited,Limited
+Ceres Power,250,Backup Power,15.31,2.41,11.3,9.2,6.02,15,80,52.2,Moderate,104,Moderate,0.95,Yes,No,Limited,Limited
+Ceres Power,250,CHP Mode,15.31,2.41,11.3,9.2,6.02,15,85,52.2,Moderate,90,Excellent,1.02,Yes,No,Limited,Limited
+Ceres Power,300,Base Load,22.11,1.63,25.8,9.46,8.6,15,100,111.9,Moderate,106,Excellent,1.0,Yes,No,Limited,Yes
+Ceres Power,300,Load Following,22.11,1.63,25.8,9.46,8.6,15,75,111.9,Moderate,194,Good,0.96,Yes,No,Limited,Yes
+Ceres Power,300,Peak Shaving,22.11,1.63,25.8,9.46,8.6,15,90,111.9,Moderate,63,Good,0.98,Yes,No,Limited,Yes
+Ceres Power,300,Backup Power,22.11,1.63,25.8,9.46,8.6,15,80,111.9,Moderate,153,Moderate,0.95,Yes,No,Limited,Yes
+Ceres Power,300,CHP Mode,22.11,1.63,25.8,9.46,8.6,15,85,111.9,Moderate,124,Excellent,1.02,Yes,No,Limited,Yes
+Ceres Power,500,Base Load,16.65,2.27,24.1,5.02,7.0,15,100,94.2,Moderate,149,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Ceres Power,500,Load Following,16.65,2.27,24.1,5.02,7.0,15,75,94.2,Moderate,194,Good,0.96,Yes,Yes (with battery),Yes,Yes
+Ceres Power,500,Peak Shaving,16.65,2.27,24.1,5.02,7.0,15,90,94.2,Moderate,164,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Ceres Power,500,Backup Power,16.65,2.27,24.1,5.02,7.0,15,80,94.2,Moderate,192,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Ceres Power,500,CHP Mode,16.65,2.27,24.1,5.02,7.0,15,85,94.2,Moderate,155,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1000,Base Load,15.58,1.21,25.6,8.22,6.29,15,100,62.4,Moderate,193,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1000,Load Following,15.58,1.21,25.6,8.22,6.29,15,75,62.4,Moderate,125,Good,0.96,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1000,Peak Shaving,15.58,1.21,25.6,8.22,6.29,15,90,62.4,Moderate,114,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1000,Backup Power,15.58,1.21,25.6,8.22,6.29,15,80,62.4,Moderate,118,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1000,CHP Mode,15.58,1.21,25.6,8.22,6.29,15,85,62.4,Moderate,81,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1500,Base Load,16.42,1.74,11.0,8.84,8.5,15,100,104.0,Moderate,177,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1500,Load Following,16.42,1.74,11.0,8.84,8.5,15,75,104.0,Moderate,81,Good,0.96,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1500,Peak Shaving,16.42,1.74,11.0,8.84,8.5,15,90,104.0,Moderate,148,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1500,Backup Power,16.42,1.74,11.0,8.84,8.5,15,80,104.0,Moderate,120,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Ceres Power,1500,CHP Mode,16.42,1.74,11.0,8.84,8.5,15,85,104.0,Moderate,182,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Ceres Power,2000,Base Load,14.59,2.36,22.2,6.48,6.82,15,100,88.6,Moderate,160,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Ceres Power,2000,Load Following,14.59,2.36,22.2,6.48,6.82,15,75,88.6,Moderate,97,Good,0.96,Yes,Yes (with battery),Yes,Yes
+Ceres Power,2000,Peak Shaving,14.59,2.36,22.2,6.48,6.82,15,90,88.6,Moderate,146,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Ceres Power,2000,Backup Power,14.59,2.36,22.2,6.48,6.82,15,80,88.6,Moderate,109,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Ceres Power,2000,CHP Mode,14.59,2.36,22.2,6.48,6.82,15,85,88.6,Moderate,156,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,100,Base Load,33.98,6.56,25.1,3.42,3.7,20,100,40.0,Limited,30,Excellent,1.0,Yes,No,Limited,Limited
+Mitsubishi Power,100,Load Following,33.98,6.56,25.1,3.42,3.7,20,75,40.0,Limited,20,Moderate,0.96,Yes,No,Limited,Limited
+Mitsubishi Power,100,Peak Shaving,33.98,6.56,25.1,3.42,3.7,20,90,40.0,Limited,43,Good,0.98,Yes,No,Limited,Limited
+Mitsubishi Power,100,Backup Power,33.98,6.56,25.1,3.42,3.7,20,80,40.0,Limited,10,Limited,0.95,Yes,No,Limited,Limited
+Mitsubishi Power,100,CHP Mode,33.98,6.56,25.1,3.42,3.7,20,85,40.0,Limited,25,Excellent,1.02,Yes,No,Limited,Limited
+Mitsubishi Power,200,Base Load,36.75,3.08,19.4,3.53,5.23,20,100,66.4,Limited,31,Excellent,1.0,Yes,No,Limited,Limited
+Mitsubishi Power,200,Load Following,36.75,3.08,19.4,3.53,5.23,20,75,66.4,Limited,33,Moderate,0.96,Yes,No,Limited,Limited
+Mitsubishi Power,200,Peak Shaving,36.75,3.08,19.4,3.53,5.23,20,90,66.4,Limited,10,Good,0.98,Yes,No,Limited,Limited
+Mitsubishi Power,200,Backup Power,36.75,3.08,19.4,3.53,5.23,20,80,66.4,Limited,28,Moderate,0.95,Yes,No,Limited,Limited
+Mitsubishi Power,200,CHP Mode,36.75,3.08,19.4,3.53,5.23,20,85,66.4,Limited,48,Excellent,1.02,Yes,No,Limited,Limited
+Mitsubishi Power,250,Base Load,40.38,5.71,25.9,4.43,6.21,20,100,76.9,Limited,49,Excellent,1.0,Yes,No,Limited,Limited
+Mitsubishi Power,250,Load Following,40.38,5.71,25.9,4.43,6.21,20,75,76.9,Limited,15,Moderate,0.96,Yes,No,Limited,Limited
+Mitsubishi Power,250,Peak Shaving,40.38,5.71,25.9,4.43,6.21,20,90,76.9,Limited,10,Good,0.98,Yes,No,Limited,Limited
+Mitsubishi Power,250,Backup Power,40.38,5.71,25.9,4.43,6.21,20,80,76.9,Limited,40,Limited,0.95,Yes,No,Limited,Limited
+Mitsubishi Power,250,CHP Mode,40.38,5.71,25.9,4.43,6.21,20,85,76.9,Limited,42,Excellent,1.02,Yes,No,Limited,Limited
+Mitsubishi Power,300,Base Load,32.4,4.06,15.6,3.23,6.21,20,100,76.6,Limited,23,Excellent,1.0,Yes,No,Limited,Yes
+Mitsubishi Power,300,Load Following,32.4,4.06,15.6,3.23,6.21,20,75,76.6,Limited,24,Moderate,0.96,Yes,No,Limited,Yes
+Mitsubishi Power,300,Peak Shaving,32.4,4.06,15.6,3.23,6.21,20,90,76.6,Limited,10,Good,0.98,Yes,No,Limited,Yes
+Mitsubishi Power,300,Backup Power,32.4,4.06,15.6,3.23,6.21,20,80,76.6,Limited,21,Moderate,0.95,Yes,No,Limited,Yes
+Mitsubishi Power,300,CHP Mode,32.4,4.06,15.6,3.23,6.21,20,85,76.6,Limited,35,Excellent,1.02,Yes,No,Limited,Yes
+Mitsubishi Power,500,Base Load,49.48,6.39,15.8,4.75,6.24,20,100,100.2,Limited,28,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,500,Load Following,49.48,6.39,15.8,4.75,6.24,20,75,100.2,Limited,25,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,500,Peak Shaving,49.48,6.39,15.8,4.75,6.24,20,90,100.2,Limited,22,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,500,Backup Power,49.48,6.39,15.8,4.75,6.24,20,80,100.2,Limited,12,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,500,CHP Mode,49.48,6.39,15.8,4.75,6.24,20,85,100.2,Limited,19,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1000,Base Load,34.93,4.94,41.2,3.68,3.7,20,100,116.2,Limited,47,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1000,Load Following,34.93,4.94,41.2,3.68,3.7,20,75,116.2,Limited,41,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1000,Peak Shaving,34.93,4.94,41.2,3.68,3.7,20,90,116.2,Limited,49,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1000,Backup Power,34.93,4.94,41.2,3.68,3.7,20,80,116.2,Limited,31,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1000,CHP Mode,34.93,4.94,41.2,3.68,3.7,20,85,116.2,Limited,48,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1500,Base Load,31.51,4.46,22.9,2.99,3.99,20,100,86.0,Limited,41,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1500,Load Following,31.51,4.46,22.9,2.99,3.99,20,75,86.0,Limited,33,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1500,Peak Shaving,31.51,4.46,22.9,2.99,3.99,20,90,86.0,Limited,15,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1500,Backup Power,31.51,4.46,22.9,2.99,3.99,20,80,86.0,Limited,42,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,1500,CHP Mode,31.51,4.46,22.9,2.99,3.99,20,85,86.0,Limited,35,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,2000,Base Load,37.76,5.7,24.1,3.36,6.71,20,100,56.1,Limited,28,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,2000,Load Following,37.76,5.7,24.1,3.36,6.71,20,75,56.1,Limited,45,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,2000,Peak Shaving,37.76,5.7,24.1,3.36,6.71,20,90,56.1,Limited,38,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,2000,Backup Power,37.76,5.7,24.1,3.36,6.71,20,80,56.1,Limited,12,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Mitsubishi Power,2000,CHP Mode,37.76,5.7,24.1,3.36,6.71,20,85,56.1,Limited,15,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Convion,100,Base Load,30.16,5.52,30.7,2.84,6.85,20,100,77.7,Limited,19,Excellent,1.0,Yes,No,Limited,Limited
+Convion,100,Load Following,30.16,5.52,30.7,2.84,6.85,20,75,77.7,Limited,30,Moderate,0.96,Yes,No,Limited,Limited
+Convion,100,Peak Shaving,30.16,5.52,30.7,2.84,6.85,20,90,77.7,Limited,37,Good,0.98,Yes,No,Limited,Limited
+Convion,100,Backup Power,30.16,5.52,30.7,2.84,6.85,20,80,77.7,Limited,13,Limited,0.95,Yes,No,Limited,Limited
+Convion,100,CHP Mode,30.16,5.52,30.7,2.84,6.85,20,85,77.7,Limited,20,Excellent,1.02,Yes,No,Limited,Limited
+Convion,200,Base Load,46.14,4.84,34.1,3.58,3.65,20,100,44.9,Limited,27,Excellent,1.0,Yes,No,Limited,Limited
+Convion,200,Load Following,46.14,4.84,34.1,3.58,3.65,20,75,44.9,Limited,18,Moderate,0.96,Yes,No,Limited,Limited
+Convion,200,Peak Shaving,46.14,4.84,34.1,3.58,3.65,20,90,44.9,Limited,11,Good,0.98,Yes,No,Limited,Limited
+Convion,200,Backup Power,46.14,4.84,34.1,3.58,3.65,20,80,44.9,Limited,43,Moderate,0.95,Yes,No,Limited,Limited
+Convion,200,CHP Mode,46.14,4.84,34.1,3.58,3.65,20,85,44.9,Limited,49,Excellent,1.02,Yes,No,Limited,Limited
+Convion,250,Base Load,45.86,6.42,23.5,4.9,4.19,20,100,115.6,Limited,49,Excellent,1.0,Yes,No,Limited,Limited
+Convion,250,Load Following,45.86,6.42,23.5,4.9,4.19,20,75,115.6,Limited,38,Moderate,0.96,Yes,No,Limited,Limited
+Convion,250,Peak Shaving,45.86,6.42,23.5,4.9,4.19,20,90,115.6,Limited,49,Good,0.98,Yes,No,Limited,Limited
+Convion,250,Backup Power,45.86,6.42,23.5,4.9,4.19,20,80,115.6,Limited,32,Limited,0.95,Yes,No,Limited,Limited
+Convion,250,CHP Mode,45.86,6.42,23.5,4.9,4.19,20,85,115.6,Limited,20,Excellent,1.02,Yes,No,Limited,Limited
+Convion,300,Base Load,38.74,5.37,17.6,4.06,6.93,20,100,47.1,Limited,41,Excellent,1.0,Yes,No,Limited,Yes
+Convion,300,Load Following,38.74,5.37,17.6,4.06,6.93,20,75,47.1,Limited,46,Moderate,0.96,Yes,No,Limited,Yes
+Convion,300,Peak Shaving,38.74,5.37,17.6,4.06,6.93,20,90,47.1,Limited,47,Good,0.98,Yes,No,Limited,Yes
+Convion,300,Backup Power,38.74,5.37,17.6,4.06,6.93,20,80,47.1,Limited,48,Limited,0.95,Yes,No,Limited,Yes
+Convion,300,CHP Mode,38.74,5.37,17.6,4.06,6.93,20,85,47.1,Limited,30,Excellent,1.02,Yes,No,Limited,Yes
+Convion,500,Base Load,49.55,6.03,20.7,3.69,6.01,20,100,52.3,Limited,35,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Convion,500,Load Following,49.55,6.03,20.7,3.69,6.01,20,75,52.3,Limited,36,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Convion,500,Peak Shaving,49.55,6.03,20.7,3.69,6.01,20,90,52.3,Limited,16,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Convion,500,Backup Power,49.55,6.03,20.7,3.69,6.01,20,80,52.3,Limited,32,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+Convion,500,CHP Mode,49.55,6.03,20.7,3.69,6.01,20,85,52.3,Limited,40,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Convion,1000,Base Load,39.98,3.05,15.3,3.39,6.74,20,100,50.6,Limited,35,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Convion,1000,Load Following,39.98,3.05,15.3,3.39,6.74,20,75,50.6,Limited,18,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Convion,1000,Peak Shaving,39.98,3.05,15.3,3.39,6.74,20,90,50.6,Limited,22,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Convion,1000,Backup Power,39.98,3.05,15.3,3.39,6.74,20,80,50.6,Limited,43,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Convion,1000,CHP Mode,39.98,3.05,15.3,3.39,6.74,20,85,50.6,Limited,39,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Convion,1500,Base Load,31.91,4.71,16.0,3.7,5.82,20,100,40.7,Limited,21,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Convion,1500,Load Following,31.91,4.71,16.0,3.7,5.82,20,75,40.7,Limited,25,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Convion,1500,Peak Shaving,31.91,4.71,16.0,3.7,5.82,20,90,40.7,Limited,46,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Convion,1500,Backup Power,31.91,4.71,16.0,3.7,5.82,20,80,40.7,Limited,49,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Convion,1500,CHP Mode,31.91,4.71,16.0,3.7,5.82,20,85,40.7,Limited,11,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+Convion,2000,Base Load,45.22,4.49,28.7,4.39,6.71,20,100,115.6,Limited,33,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+Convion,2000,Load Following,45.22,4.49,28.7,4.39,6.71,20,75,115.6,Limited,24,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+Convion,2000,Peak Shaving,45.22,4.49,28.7,4.39,6.71,20,90,115.6,Limited,41,Good,0.98,Yes,Yes (with battery),Yes,Yes
+Convion,2000,Backup Power,45.22,4.49,28.7,4.39,6.71,20,80,115.6,Limited,20,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+Convion,2000,CHP Mode,45.22,4.49,28.7,4.39,6.71,20,85,115.6,Limited,32,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,100,Base Load,37.17,5.63,23.4,2.98,6.71,20,100,39.2,Limited,30,Excellent,1.0,Yes,No,Limited,Limited
+SOLIDpower,100,Load Following,37.17,5.63,23.4,2.98,6.71,20,75,39.2,Limited,18,Moderate,0.96,Yes,No,Limited,Limited
+SOLIDpower,100,Peak Shaving,37.17,5.63,23.4,2.98,6.71,20,90,39.2,Limited,11,Good,0.98,Yes,No,Limited,Limited
+SOLIDpower,100,Backup Power,37.17,5.63,23.4,2.98,6.71,20,80,39.2,Limited,11,Limited,0.95,Yes,No,Limited,Limited
+SOLIDpower,100,CHP Mode,37.17,5.63,23.4,2.98,6.71,20,85,39.2,Limited,17,Excellent,1.02,Yes,No,Limited,Limited
+SOLIDpower,200,Base Load,47.34,4.13,48.3,3.95,5.03,20,100,82.2,Limited,30,Excellent,1.0,Yes,No,Limited,Limited
+SOLIDpower,200,Load Following,47.34,4.13,48.3,3.95,5.03,20,75,82.2,Limited,40,Moderate,0.96,Yes,No,Limited,Limited
+SOLIDpower,200,Peak Shaving,47.34,4.13,48.3,3.95,5.03,20,90,82.2,Limited,21,Good,0.98,Yes,No,Limited,Limited
+SOLIDpower,200,Backup Power,47.34,4.13,48.3,3.95,5.03,20,80,82.2,Limited,24,Moderate,0.95,Yes,No,Limited,Limited
+SOLIDpower,200,CHP Mode,47.34,4.13,48.3,3.95,5.03,20,85,82.2,Limited,45,Excellent,1.02,Yes,No,Limited,Limited
+SOLIDpower,250,Base Load,48.93,6.57,29.7,4.45,5.17,20,100,74.8,Limited,18,Excellent,1.0,Yes,No,Limited,Limited
+SOLIDpower,250,Load Following,48.93,6.57,29.7,4.45,5.17,20,75,74.8,Limited,33,Moderate,0.96,Yes,No,Limited,Limited
+SOLIDpower,250,Peak Shaving,48.93,6.57,29.7,4.45,5.17,20,90,74.8,Limited,17,Good,0.98,Yes,No,Limited,Limited
+SOLIDpower,250,Backup Power,48.93,6.57,29.7,4.45,5.17,20,80,74.8,Limited,23,Limited,0.95,Yes,No,Limited,Limited
+SOLIDpower,250,CHP Mode,48.93,6.57,29.7,4.45,5.17,20,85,74.8,Limited,44,Excellent,1.02,Yes,No,Limited,Limited
+SOLIDpower,300,Base Load,34.14,3.28,17.4,4.85,5.27,20,100,66.8,Limited,42,Excellent,1.0,Yes,No,Limited,Yes
+SOLIDpower,300,Load Following,34.14,3.28,17.4,4.85,5.27,20,75,66.8,Limited,43,Moderate,0.96,Yes,No,Limited,Yes
+SOLIDpower,300,Peak Shaving,34.14,3.28,17.4,4.85,5.27,20,90,66.8,Limited,23,Good,0.98,Yes,No,Limited,Yes
+SOLIDpower,300,Backup Power,34.14,3.28,17.4,4.85,5.27,20,80,66.8,Limited,37,Moderate,0.95,Yes,No,Limited,Yes
+SOLIDpower,300,CHP Mode,34.14,3.28,17.4,4.85,5.27,20,85,66.8,Limited,40,Excellent,1.02,Yes,No,Limited,Yes
+SOLIDpower,500,Base Load,43.09,3.61,45.7,3.85,4.49,20,100,68.3,Limited,11,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,500,Load Following,43.09,3.61,45.7,3.85,4.49,20,75,68.3,Limited,15,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,500,Peak Shaving,43.09,3.61,45.7,3.85,4.49,20,90,68.3,Limited,40,Good,0.98,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,500,Backup Power,43.09,3.61,45.7,3.85,4.49,20,80,68.3,Limited,10,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,500,CHP Mode,43.09,3.61,45.7,3.85,4.49,20,85,68.3,Limited,26,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1000,Base Load,40.45,3.22,49.1,3.07,4.56,20,100,57.4,Limited,19,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1000,Load Following,40.45,3.22,49.1,3.07,4.56,20,75,57.4,Limited,10,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1000,Peak Shaving,40.45,3.22,49.1,3.07,4.56,20,90,57.4,Limited,39,Good,0.98,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1000,Backup Power,40.45,3.22,49.1,3.07,4.56,20,80,57.4,Limited,48,Moderate,0.95,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1000,CHP Mode,40.45,3.22,49.1,3.07,4.56,20,85,57.4,Limited,18,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1500,Base Load,43.26,5.97,44.7,3.56,4.56,20,100,59.3,Limited,38,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1500,Load Following,43.26,5.97,44.7,3.56,4.56,20,75,59.3,Limited,42,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1500,Peak Shaving,43.26,5.97,44.7,3.56,4.56,20,90,59.3,Limited,17,Good,0.98,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1500,Backup Power,43.26,5.97,44.7,3.56,4.56,20,80,59.3,Limited,24,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,1500,CHP Mode,43.26,5.97,44.7,3.56,4.56,20,85,59.3,Limited,46,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,2000,Base Load,46.13,6.94,41.4,3.48,5.57,20,100,89.5,Limited,13,Excellent,1.0,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,2000,Load Following,46.13,6.94,41.4,3.48,5.57,20,75,89.5,Limited,31,Moderate,0.96,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,2000,Peak Shaving,46.13,6.94,41.4,3.48,5.57,20,90,89.5,Limited,38,Good,0.98,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,2000,Backup Power,46.13,6.94,41.4,3.48,5.57,20,80,89.5,Limited,16,Limited,0.95,Yes,Yes (with battery),Yes,Yes
+SOLIDpower,2000,CHP Mode,46.13,6.94,41.4,3.48,5.57,20,85,89.5,Limited,41,Excellent,1.02,Yes,Yes (with battery),Yes,Yes
