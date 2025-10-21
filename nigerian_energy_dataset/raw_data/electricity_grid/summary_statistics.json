@@ -1,0 +1,25 @@
+{
+  "generation_capacity": {
+    "total_installed_mw": 12605.0,
+    "total_available_mw": 7683.223166666667,
+    "average_availability_factor": 0.5334633333333334,
+    "dominant_source": "Natural Gas"
+  },
+  "grid_supply": {
+    "average_daily_generation_mw": 4407.967099863201,
+    "total_annual_energy_gwh": 63822.316909999994,
+    "average_technical_losses_percent": 16.48024250715085,
+    "average_commercial_losses_percent": 27.44635617460515
+  },
+  "reliability": {
+    "national_average_saidi_hours": 243.7088693693694,
+    "national_average_saifi": 30.088941441441442,
+    "best_performing_region": "South West",
+    "worst_performing_region": "North East"
+  },
+  "tariffs": {
+    "average_residential_tariff_naira_per_kwh": 31.15127272727273,
+    "average_industrial_tariff_naira_per_kwh": 38.68795454545454,
+    "tariff_growth_rate_percent": 12.0
+  }
+}

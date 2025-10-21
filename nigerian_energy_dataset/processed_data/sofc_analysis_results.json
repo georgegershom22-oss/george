@@ -1,0 +1,706 @@
+{
+  "gas_flaring_opportunities": {
+    "total_flaring_mmscf_per_day": 477.5761959496443,
+    "total_sofc_potential_mw": 3.097887246852764,
+    "annual_co2_reduction_tonnes": 9604.85213464696,
+    "high_priority_sites": [],
+    "top_10_sites": [
+      {
+        "site_name": "Escravos",
+        "operator": "Chevron",
+        "daily_flaring_mmscf": 93.63856048166393,
+        "sofc_potential_mw": 0.6072687465790915,
+        "co2_emissions_tonnes_per_day": 5.159485495347564,
+        "distance_to_grid_km": 27.532756116017353,
+        "local_power_demand_mw": 54.268559569331174
+      },
+      {
+        "site_name": "Bonny",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 78.38425834701697,
+        "sofc_potential_mw": 0.508511220580186,
+        "co2_emissions_tonnes_per_day": 4.319102353585112,
+        "distance_to_grid_km": 27.356793098155624,
+        "local_power_demand_mw": 54.534046899533834
+      },
+      {
+        "site_name": "Forcados",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 65.87270388615215,
+        "sofc_potential_mw": 0.4273234811165846,
+        "co2_emissions_tonnes_per_day": 3.6295019157088126,
+        "distance_to_grid_km": 27.98701428365322,
+        "local_power_demand_mw": 55.43037839706864
+      },
+      {
+        "site_name": "Qua Iboe",
+        "operator": "ExxonMobil",
+        "daily_flaring_mmscf": 51.60823754789272,
+        "sofc_potential_mw": 0.3348823207443897,
+        "co2_emissions_tonnes_per_day": 2.843590585659551,
+        "distance_to_grid_km": 27.59302514398241,
+        "local_power_demand_mw": 54.77698766102929
+      },
+      {
+        "site_name": "Brass",
+        "operator": "Agip",
+        "daily_flaring_mmscf": 48.02418719211823,
+        "sofc_potential_mw": 0.3115435139573071,
+        "co2_emissions_tonnes_per_day": 2.6460645867542416,
+        "distance_to_grid_km": 27.255526228920303,
+        "local_power_demand_mw": 54.65322117220278
+      },
+      {
+        "site_name": "Okwori",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 32.842025177887244,
+        "sofc_potential_mw": 0.21301587301587302,
+        "co2_emissions_tonnes_per_day": 1.8097372742200328,
+        "distance_to_grid_km": 27.45513967549364,
+        "local_power_demand_mw": 55.47402408746752
+      },
+      {
+        "site_name": "Amenam",
+        "operator": "Total",
+        "daily_flaring_mmscf": 32.76981390257252,
+        "sofc_potential_mw": 0.21255062944718117,
+        "co2_emissions_tonnes_per_day": 1.8056814449917897,
+        "distance_to_grid_km": 27.344721271877724,
+        "local_power_demand_mw": 56.02465924582388
+      },
+      {
+        "site_name": "Utorogu",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 28.991264367816093,
+        "sofc_potential_mw": 0.18806239737274222,
+        "co2_emissions_tonnes_per_day": 1.597422003284072,
+        "distance_to_grid_km": 27.240948700036785,
+        "local_power_demand_mw": 54.47492868016953
+      },
+      {
+        "site_name": "Obite",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 24.836513409961686,
+        "sofc_potential_mw": 0.16102900930487138,
+        "co2_emissions_tonnes_per_day": 1.3685276409414342,
+        "distance_to_grid_km": 27.676428894913446,
+        "local_power_demand_mw": 54.88884568424122
+      },
+      {
+        "site_name": "Alakiri",
+        "operator": "Shell",
+        "daily_flaring_mmscf": 20.60863163656267,
+        "sofc_potential_mw": 0.1337000547345375,
+        "co2_emissions_tonnes_per_day": 1.1355500821018063,
+        "distance_to_grid_km": 27.431086892705014,
+        "local_power_demand_mw": 54.459266676359135
+      }
+    ]
+  },
+  "grid_reliability_gaps": {
+    "poor_reliability_states": [
+      {
+        "state": "Borno",
+        "region": "North East",
+        "saidi_hours": 502.308,
+        "saifi_interruptions": 62.789,
+        "grid_availability_percent": 30.234333333333332,
+        "customers_affected": 252600.3,
+        "backup_power_need_mw": 505.2006,
+        "market_size_million_naira": 1263.0015
+      },
+      {
+        "state": "Yobe",
+        "region": "North East",
+        "saidi_hours": 458.83716666666663,
+        "saifi_interruptions": 57.354166666666664,
+        "grid_availability_percent": 36.272333333333336,
+        "customers_affected": 230297.55,
+        "backup_power_need_mw": 460.5951,
+        "market_size_million_naira": 1151.48775
+      },
+      {
+        "state": "Adamawa",
+        "region": "North East",
+        "saidi_hours": 349.9916666666667,
+        "saifi_interruptions": 43.74933333333333,
+        "grid_availability_percent": 51.390166666666666,
+        "customers_affected": 256993.26666666666,
+        "backup_power_need_mw": 513.9865333333333,
+        "market_size_million_naira": 1284.9663333333333
+      },
+      {
+        "state": "Gombe",
+        "region": "North East",
+        "saidi_hours": 340.50100000000003,
+        "saifi_interruptions": 42.563,
+        "grid_availability_percent": 52.708333333333336,
+        "customers_affected": 261995.08333333334,
+        "backup_power_need_mw": 523.9901666666667,
+        "market_size_million_naira": 1309.9754166666667
+      },
+      {
+        "state": "Taraba",
+        "region": "North East",
+        "saidi_hours": 335.9331666666667,
+        "saifi_interruptions": 41.99133333333334,
+        "grid_availability_percent": 53.34316666666667,
+        "customers_affected": 238813.01666666666,
+        "backup_power_need_mw": 477.62603333333334,
+        "market_size_million_naira": 1194.0650833333332
+      },
+      {
+        "state": "Bauchi",
+        "region": "North East",
+        "saidi_hours": 332.23716666666667,
+        "saifi_interruptions": 41.5295,
+        "grid_availability_percent": 53.85616666666667,
+        "customers_affected": 283401.95,
+        "backup_power_need_mw": 566.8039,
+        "market_size_million_naira": 1417.00975
+      },
+      {
+        "state": "Sokoto",
+        "region": "North West",
+        "saidi_hours": 300.2696666666667,
+        "saifi_interruptions": 37.534,
+        "grid_availability_percent": 58.29566666666667,
+        "customers_affected": 292279.05,
+        "backup_power_need_mw": 584.5581,
+        "market_size_million_naira": 1461.39525
+      },
+      {
+        "state": "Zamfara",
+        "region": "North West",
+        "saidi_hours": 296.3521666666667,
+        "saifi_interruptions": 37.044333333333334,
+        "grid_availability_percent": 58.84,
+        "customers_affected": 238432.85,
+        "backup_power_need_mw": 476.8657,
+        "market_size_million_naira": 1192.16425
+      },
+      {
+        "state": "Jigawa",
+        "region": "North West",
+        "saidi_hours": 295.8315,
+        "saifi_interruptions": 36.97933333333334,
+        "grid_availability_percent": 58.912,
+        "customers_affected": 293487.98333333334,
+        "backup_power_need_mw": 586.9759666666666,
+        "market_size_million_naira": 1467.4399166666665
+      },
+      {
+        "state": "Katsina",
+        "region": "North West",
+        "saidi_hours": 294.836,
+        "saifi_interruptions": 36.85433333333334,
+        "grid_availability_percent": 59.05016666666667,
+        "customers_affected": 253991.85,
+        "backup_power_need_mw": 507.9837,
+        "market_size_million_naira": 1269.95925
+      },
+      {
+        "state": "Kaduna",
+        "region": "North West",
+        "saidi_hours": 293.4588333333333,
+        "saifi_interruptions": 36.68233333333333,
+        "grid_availability_percent": 59.24133333333334,
+        "customers_affected": 251974.25,
+        "backup_power_need_mw": 503.9485,
+        "market_size_million_naira": 1259.87125
+      },
+      {
+        "state": "Kebbi",
+        "region": "North West",
+        "saidi_hours": 285.9526666666667,
+        "saifi_interruptions": 35.744,
+        "grid_availability_percent": 60.28383333333333,
+        "customers_affected": 237380.18333333332,
+        "backup_power_need_mw": 474.76036666666664,
+        "market_size_million_naira": 1186.9009166666665
+      },
+      {
+        "state": "Kano",
+        "region": "North West",
+        "saidi_hours": 268.93083333333334,
+        "saifi_interruptions": 33.61533333333333,
+        "grid_availability_percent": 62.6485,
+        "customers_affected": 247493.75,
+        "backup_power_need_mw": 494.9875,
+        "market_size_million_naira": 1237.46875
+      },
+      {
+        "state": "Enugu",
+        "region": "South East",
+        "saidi_hours": 255.26600000000002,
+        "saifi_interruptions": 32.48866666666667,
+        "grid_availability_percent": 64.54583333333333,
+        "customers_affected": 261119.93333333332,
+        "backup_power_need_mw": 522.2398666666667,
+        "market_size_million_naira": 1305.5996666666667
+      },
+      {
+        "state": "Ebonyi",
+        "region": "South East",
+        "saidi_hours": 255.2228333333333,
+        "saifi_interruptions": 32.483,
+        "grid_availability_percent": 64.55233333333334,
+        "customers_affected": 284261.7166666667,
+        "backup_power_need_mw": 568.5234333333334,
+        "market_size_million_naira": 1421.3085833333334
+      },
+      {
+        "state": "Abia",
+        "region": "South East",
+        "saidi_hours": 254.73433333333332,
+        "saifi_interruptions": 32.42066666666667,
+        "grid_availability_percent": 64.62066666666666,
+        "customers_affected": 231665.6,
+        "backup_power_need_mw": 463.3312,
+        "market_size_million_naira": 1158.328
+      },
+      {
+        "state": "Imo",
+        "region": "South East",
+        "saidi_hours": 253.75933333333333,
+        "saifi_interruptions": 32.29633333333333,
+        "grid_availability_percent": 64.75533333333334,
+        "customers_affected": 268140.0333333333,
+        "backup_power_need_mw": 536.2800666666667,
+        "market_size_million_naira": 1340.7001666666667
+      },
+      {
+        "state": "Anambra",
+        "region": "South East",
+        "saidi_hours": 245.27416666666667,
+        "saifi_interruptions": 31.217,
+        "grid_availability_percent": 65.934,
+        "customers_affected": 282183.95,
+        "backup_power_need_mw": 564.3679000000001,
+        "market_size_million_naira": 1410.9197500000002
+      },
+      {
+        "state": "Benue",
+        "region": "North Central",
+        "saidi_hours": 219.45433333333332,
+        "saifi_interruptions": 27.432000000000002,
+        "grid_availability_percent": 69.52083333333333,
+        "customers_affected": 260739.86666666667,
+        "backup_power_need_mw": 521.4797333333333,
+        "market_size_million_naira": 1303.6993333333332
+      },
+      {
+        "state": "Niger",
+        "region": "North Central",
+        "saidi_hours": 217.24366666666668,
+        "saifi_interruptions": 27.155666666666665,
+        "grid_availability_percent": 69.82666666666667,
+        "customers_affected": 246660.76666666666,
+        "backup_power_need_mw": 493.3215333333333,
+        "market_size_million_naira": 1233.3038333333332
+      },
+      {
+        "state": "Delta",
+        "region": "South South",
+        "saidi_hours": 215.80983333333333,
+        "saifi_interruptions": 23.979333333333333,
+        "grid_availability_percent": 70.02633333333333,
+        "customers_affected": 256387.06666666668,
+        "backup_power_need_mw": 512.7741333333333,
+        "market_size_million_naira": 1281.9353333333333
+      },
+      {
+        "state": "Plateau",
+        "region": "North Central",
+        "saidi_hours": 212.363,
+        "saifi_interruptions": 26.545,
+        "grid_availability_percent": 70.50483333333334,
+        "customers_affected": 242021.81666666668,
+        "backup_power_need_mw": 484.0436333333334,
+        "market_size_million_naira": 1210.1090833333335
+      },
+      {
+        "state": "Bayelsa",
+        "region": "South South",
+        "saidi_hours": 210.54016666666666,
+        "saifi_interruptions": 23.393166666666666,
+        "grid_availability_percent": 70.7575,
+        "customers_affected": 283950.2166666667,
+        "backup_power_need_mw": 567.9004333333334,
+        "market_size_million_naira": 1419.7510833333336
+      },
+      {
+        "state": "Kogi",
+        "region": "North Central",
+        "saidi_hours": 209.907,
+        "saifi_interruptions": 26.238,
+        "grid_availability_percent": 70.84683333333334,
+        "customers_affected": 255683.88333333333,
+        "backup_power_need_mw": 511.3677666666667,
+        "market_size_million_naira": 1278.4194166666668
+      },
+      {
+        "state": "Kwara",
+        "region": "North Central",
+        "saidi_hours": 208.33599999999998,
+        "saifi_interruptions": 26.042166666666667,
+        "grid_availability_percent": 71.06416666666668,
+        "customers_affected": 280237.61666666664,
+        "backup_power_need_mw": 560.4752333333333,
+        "market_size_million_naira": 1401.1880833333332
+      },
+      {
+        "state": "Nasarawa",
+        "region": "North Central",
+        "saidi_hours": 206.781,
+        "saifi_interruptions": 25.84733333333333,
+        "grid_availability_percent": 71.27983333333333,
+        "customers_affected": 216911.08333333334,
+        "backup_power_need_mw": 433.8221666666667,
+        "market_size_million_naira": 1084.5554166666668
+      },
+      {
+        "state": "Edo",
+        "region": "South South",
+        "saidi_hours": 206.05916666666664,
+        "saifi_interruptions": 22.895333333333333,
+        "grid_availability_percent": 71.381,
+        "customers_affected": 226746.78333333333,
+        "backup_power_need_mw": 453.49356666666665,
+        "market_size_million_naira": 1133.7339166666668
+      },
+      {
+        "state": "Cross River",
+        "region": "South South",
+        "saidi_hours": 204.72400000000002,
+        "saifi_interruptions": 22.746666666666666,
+        "grid_availability_percent": 71.566,
+        "customers_affected": 242664.46666666667,
+        "backup_power_need_mw": 485.32893333333334,
+        "market_size_million_naira": 1213.3223333333333
+      },
+      {
+        "state": "Akwa Ibom",
+        "region": "South South",
+        "saidi_hours": 203.98216666666667,
+        "saifi_interruptions": 22.665000000000003,
+        "grid_availability_percent": 71.66900000000001,
+        "customers_affected": 266741.1666666667,
+        "backup_power_need_mw": 533.4823333333334,
+        "market_size_million_naira": 1333.7058333333334
+      }
+    ],
+    "total_backup_market_mw": 14890.514099999999,
+    "total_market_size_billion_naira": 37.22628525
+  },
+  "feedstock_availability": {
+    "top_feedstock_states": [
+      {
+        "state": "Kaduna",
+        "available_for_energy_tonnes": 2485198.64,
+        "sofc_feedstock_potential_tonnes": 1589911.29,
+        "available_energy_potential_gj": 39516025.78,
+        "annual_biogas_potential_m3": 250403028.2,
+        "sofc_potential_mwh_per_year": 907341.5499999999,
+        "collectible_manure_tonnes": 5793841.449999999,
+        "total_alternative_sofc_mwh": 4882119.775,
+        "equivalent_capacity_mw": 696.6495112728311
+      },
+      {
+        "state": "Katsina",
+        "available_for_energy_tonnes": 1905593.2,
+        "sofc_feedstock_potential_tonnes": 1217917.34,
+        "available_energy_potential_gj": 30526864.8,
+        "annual_biogas_potential_m3": 213488200.25,
+        "sofc_potential_mwh_per_year": 763090.6599999999,
+        "collectible_manure_tonnes": 5372974.67,
+        "total_alternative_sofc_mwh": 3807884.01,
+        "equivalent_capacity_mw": 543.3624443493151
+      },
+      {
+        "state": "Kano",
+        "available_for_energy_tonnes": 1751666.5899999999,
+        "sofc_feedstock_potential_tonnes": 1122249.6099999999,
+        "available_energy_potential_gj": 28147242.14,
+        "annual_biogas_potential_m3": 175478647.27,
+        "sofc_potential_mwh_per_year": 627228.69,
+        "collectible_manure_tonnes": 4405925.859999999,
+        "total_alternative_sofc_mwh": 3432852.7149999994,
+        "equivalent_capacity_mw": 489.84770476598163
+      },
+      {
+        "state": "Cross River",
+        "available_for_energy_tonnes": 2085351.3800000001,
+        "sofc_feedstock_potential_tonnes": 1226716.84,
+        "available_energy_potential_gj": 32630864.02,
+        "annual_biogas_potential_m3": 62580359.36,
+        "sofc_potential_mwh_per_year": 232761.16999999998,
+        "collectible_manure_tonnes": 1100842.47,
+        "total_alternative_sofc_mwh": 3299553.27,
+        "equivalent_capacity_mw": 470.826665239726
+      },
+      {
+        "state": "Benue",
+        "available_for_energy_tonnes": 1812630.82,
+        "sofc_feedstock_potential_tonnes": 1073127.9000000001,
+        "available_energy_potential_gj": 26518789.88,
+        "annual_biogas_potential_m3": 114062121.81,
+        "sofc_potential_mwh_per_year": 416791.9,
+        "collectible_manure_tonnes": 2328629.7,
+        "total_alternative_sofc_mwh": 3099611.6500000004,
+        "equivalent_capacity_mw": 442.29618293379
+      },
+      {
+        "state": "Taraba",
+        "available_for_energy_tonnes": 1733587.26,
+        "sofc_feedstock_potential_tonnes": 1055841.13,
+        "available_energy_potential_gj": 26046567.27,
+        "annual_biogas_potential_m3": 102957452.94999999,
+        "sofc_potential_mwh_per_year": 369731.43999999994,
+        "collectible_manure_tonnes": 2497321.0,
+        "total_alternative_sofc_mwh": 3009334.2649999997,
+        "equivalent_capacity_mw": 429.4141359874429
+      },
+      {
+        "state": "Ogun",
+        "available_for_energy_tonnes": 1580839.37,
+        "sofc_feedstock_potential_tonnes": 918054.03,
+        "available_energy_potential_gj": 24265499.060000002,
+        "annual_biogas_potential_m3": 136028068.64000002,
+        "sofc_potential_mwh_per_year": 515441.23,
+        "collectible_manure_tonnes": 2164560.54,
+        "total_alternative_sofc_mwh": 2810576.305,
+        "equivalent_capacity_mw": 401.0525549372146
+      },
+      {
+        "state": "Ondo",
+        "available_for_energy_tonnes": 1794033.68,
+        "sofc_feedstock_potential_tonnes": 1043626.1399999999,
+        "available_energy_potential_gj": 27851493.78,
+        "annual_biogas_potential_m3": 51406119.09,
+        "sofc_potential_mwh_per_year": 190176.44,
+        "collectible_manure_tonnes": 970205.55,
+        "total_alternative_sofc_mwh": 2799241.7899999996,
+        "equivalent_capacity_mw": 399.4351869292237
+      },
+      {
+        "state": "Kebbi",
+        "available_for_energy_tonnes": 1131046.78,
+        "sofc_feedstock_potential_tonnes": 704515.94,
+        "available_energy_potential_gj": 17230241.39,
+        "annual_biogas_potential_m3": 229873481.25,
+        "sofc_potential_mwh_per_year": 822093.3200000001,
+        "collectible_manure_tonnes": 5775411.72,
+        "total_alternative_sofc_mwh": 2583383.17,
+        "equivalent_capacity_mw": 368.6334432077625
+      },
+      {
+        "state": "Akwa Ibom",
+        "available_for_energy_tonnes": 1354679.27,
+        "sofc_feedstock_potential_tonnes": 800197.38,
+        "available_energy_potential_gj": 21808022.05,
+        "annual_biogas_potential_m3": 56554928.870000005,
+        "sofc_potential_mwh_per_year": 210226.91,
+        "collectible_manure_tonnes": 996560.01,
+        "total_alternative_sofc_mwh": 2210720.36,
+        "equivalent_capacity_mw": 315.4566723744292
+      },
+      {
+        "state": "Jigawa",
+        "available_for_energy_tonnes": 997571.8200000001,
+        "sofc_feedstock_potential_tonnes": 639196.99,
+        "available_energy_potential_gj": 16280596.379999999,
+        "annual_biogas_potential_m3": 131903131.97000001,
+        "sofc_potential_mwh_per_year": 471142.64,
+        "collectible_manure_tonnes": 3324239.54,
+        "total_alternative_sofc_mwh": 2069135.1150000002,
+        "equivalent_capacity_mw": 295.2532983732877
+      },
+      {
+        "state": "Niger",
+        "available_for_energy_tonnes": 981124.4500000001,
+        "sofc_feedstock_potential_tonnes": 591027.2,
+        "available_energy_potential_gj": 14419135.91,
+        "annual_biogas_potential_m3": 117703358.08000001,
+        "sofc_potential_mwh_per_year": 422545.19,
+        "collectible_manure_tonnes": 2866102.84,
+        "total_alternative_sofc_mwh": 1900113.19,
+        "equivalent_capacity_mw": 271.1348730022831
+      },
+      {
+        "state": "Sokoto",
+        "available_for_energy_tonnes": 516737.54,
+        "sofc_feedstock_potential_tonnes": 334739.6,
+        "available_energy_potential_gj": 8391781.83,
+        "annual_biogas_potential_m3": 292154504.38,
+        "sofc_potential_mwh_per_year": 1044692.38,
+        "collectible_manure_tonnes": 7344995.7299999995,
+        "total_alternative_sofc_mwh": 1881541.38,
+        "equivalent_capacity_mw": 268.48478595890407
+      },
+      {
+        "state": "Bauchi",
+        "available_for_energy_tonnes": 606705.16,
+        "sofc_feedstock_potential_tonnes": 387917.82,
+        "available_energy_potential_gj": 9880238.22,
+        "annual_biogas_potential_m3": 161403076.10000002,
+        "sofc_potential_mwh_per_year": 577944.98,
+        "collectible_manure_tonnes": 4019009.75,
+        "total_alternative_sofc_mwh": 1547739.53,
+        "equivalent_capacity_mw": 220.85324343607306
+      },
+      {
+        "state": "Anambra",
+        "available_for_energy_tonnes": 839887.6599999999,
+        "sofc_feedstock_potential_tonnes": 487609.07999999996,
+        "available_energy_potential_gj": 12901067.280000001,
+        "annual_biogas_potential_m3": 36010496.18,
+        "sofc_potential_mwh_per_year": 135821.74000000002,
+        "collectible_manure_tonnes": 591442.4,
+        "total_alternative_sofc_mwh": 1354844.44,
+        "equivalent_capacity_mw": 193.32825913242007
+      }
+    ],
+    "total_biomass_potential_mw": 7937.256202910957,
+    "agricultural_waste_contribution_percent": 75.35406482005479,
+    "livestock_contribution_percent": 24.645935179945226
+  },
+  "economic_feasibility": {
+    "lcoe_by_customer_class": {
+      "Commercial": {
+        "average_tariff_naira_per_kwh": 61.50454545454545,
+        "sofc_lcoe_naira_per_kwh": 20.0870265914585,
+        "economic_viability": "Viable",
+        "tariff_premium_percent": 206.19039196522348,
+        "payback_period_years": 4.518130745256768
+      },
+      "Industrial": {
+        "average_tariff_naira_per_kwh": 52.23727272727273,
+        "sofc_lcoe_naira_per_kwh": 20.0870265914585,
+        "economic_viability": "Viable",
+        "tariff_premium_percent": 160.054779583382,
+        "payback_period_years": 5.4646346152378085
+      },
+      "Residential": {
+        "average_tariff_naira_per_kwh": 42.03363636363636,
+        "sofc_lcoe_naira_per_kwh": 20.0870265914585,
+        "economic_viability": "Viable",
+        "tariff_premium_percent": 109.25763289181936,
+        "payback_period_years": 7.102988621205947
+      },
+      "Special": {
+        "average_tariff_naira_per_kwh": 78.22068181818182,
+        "sofc_lcoe_naira_per_kwh": 20.0870265914585,
+        "economic_viability": "Viable",
+        "tariff_premium_percent": 289.40896235704287,
+        "payback_period_years": 3.442583090478874
+      }
+    },
+    "gas_flaring_economics": {
+      "fuel_cost_naira_per_mwh": 15922.666666666666,
+      "total_cost_naira_per_mwh": 23922.666666666664,
+      "revenue_naira_per_mwh": 52237.272727272735,
+      "gross_margin_naira_per_mwh": 28314.60606060607,
+      "roi_percent": 1.5730336700336707
+    },
+    "sofc_cost_assumptions": {
+      "capex_naira_per_kw": 1800000,
+      "opex_naira_per_kwh": 8,
+      "lifetime_years": 20,
+      "capacity_factor": 0.85
+    }
+  },
+  "regional_priorities": {
+    "North Central": {
+      "reliability_score": 2.0107940476190476,
+      "flaring_score": 1,
+      "economic_score": 7,
+      "infrastructure_score": 7,
+      "composite_score": 3.7032382142857143,
+      "priority_ranking": 3
+    },
+    "North East": {
+      "reliability_score": 3.8846249999999998,
+      "flaring_score": 1,
+      "economic_score": 4,
+      "infrastructure_score": 4,
+      "composite_score": 3.0653875,
+      "priority_ranking": 5
+    },
+    "North West": {
+      "reliability_score": 2.890292857142857,
+      "flaring_score": 1,
+      "economic_score": 4,
+      "infrastructure_score": 4,
+      "composite_score": 2.767087857142857,
+      "priority_ranking": 6
+    },
+    "South East": {
+      "reliability_score": 2.560863333333333,
+      "flaring_score": 1,
+      "economic_score": 6,
+      "infrastructure_score": 6,
+      "composite_score": 3.4682589999999998,
+      "priority_ranking": 4
+    },
+    "South South": {
+      "reliability_score": 2.056655555555556,
+      "flaring_score": 10,
+      "economic_score": 9,
+      "infrastructure_score": 7,
+      "composite_score": 6.916996666666667,
+      "priority_ranking": 1
+    },
+    "South West": {
+      "reliability_score": 1.275263888888889,
+      "flaring_score": 3,
+      "economic_score": 9,
+      "infrastructure_score": 9,
+      "composite_score": 4.882579166666666,
+      "priority_ranking": 2
+    }
+  },
+  "sofc_deployment_scenarios": {
+    "conservative": {
+      "description": "Focus on high-certainty opportunities with proven economics",
+      "target_capacity_mw": 500,
+      "timeline_years": 10,
+      "applications": [
+        "Gas flaring sites >20 MW",
+        "Industrial backup power",
+        "Critical facilities"
+      ],
+      "investment_billion_naira": 900.0,
+      "job_creation": 2500,
+      "co2_reduction_tonnes_per_year": 1861500.0
+    },
+    "moderate": {
+      "description": "Balanced approach including grid support and distributed generation",
+      "target_capacity_mw": 1500,
+      "timeline_years": 15,
+      "applications": [
+        "All gas flaring sites >5 MW",
+        "Grid support in unreliable areas",
+        "Commercial backup",
+        "Biomass SOFC pilots"
+      ],
+      "investment_billion_naira": 2700.0,
+      "job_creation": 7500,
+      "co2_reduction_tonnes_per_year": 5584500.0
+    },
+    "aggressive": {
+      "description": "Comprehensive SOFC deployment across all viable applications",
+      "target_capacity_mw": 3000,
+      "timeline_years": 20,
+      "applications": [
+        "All gas flaring sites",
+        "Widespread grid support",
+        "Biomass SOFC systems",
+        "Residential backup systems"
+      ],
+      "investment_billion_naira": 5400.0,
+      "job_creation": 15000,
+      "co2_reduction_tonnes_per_year": 11169000.0
+    }
+  }
+}
