@@ -1,0 +1,8 @@
+{
+  "checks_passed": 4,
+  "checks_failed": 1,
+  "warnings": 0,
+  "issues": [
+    "SOFC CAPEX mismatch: Components sum to 7900, average CAPEX is 6840"
+  ]
+}
