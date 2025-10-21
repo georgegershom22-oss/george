@@ -1,0 +1,15 @@
+source_id,category,title,organization,year,url,notes
+S001,Technology Brief,Fuel Cells (Technology Brief E18),IEA-ETSAP,2018,https://iea-etsap.org/wp-content/uploads/2015/06/E18-FC-GS-AD-gct.pdf,General performance/efficiency ranges and technology overview
+S002,Program Plan,Fuel Cell Technologies Office MYRDD Plan,US DOE EERE,2020,https://www.energy.gov/eere/fuelcells/downloads/fuel-cell-technologies-office-multi-year-research-development-and-0,Targets and degradation guidance
+S003,Product Datasheet,Bloom Energy Server,Bloom Energy,2022,https://www.bloomenergy.com/products/,Vendor performance, ramp, and CHP notes
+S004,Product Datasheet,BlueGEN,SOFC micro-CHP,SOLIDpower,2021,https://www.solidpower.com/en/products,High-efficiency micro-CHP data
+S005,Technology Overview,SteelCell Technology Overview,Ceres Power,2021,https://www.cerespower.com/technology/,Stack power density context
+S006,Technology Overview,SOFC Overview,Bosch,2021,https://www.bosch.com/stories/solid-oxide-fuel-cell/,System integration and performance claims
+S007,Product Page,SOFC (MEGAMIE / Hybrid Systems),Mitsubishi Power,2020,https://power.mhi.com/products/sofc/,Hybrid SOFC-GT and CHP notes
+S008,Technology Article,Solid oxide fuel cells,Siemens Energy,2020,https://www.siemens-energy.com/global/en/news/magazine/2020/solid-oxide-fuel-cells.html,Historical Siemens-Westinghouse lineages and technical specs
+S009,Program Overview,SOFC Program,US DOE NETL,2019,https://netl.doe.gov/coal/fuel-cells,Program metrics and degradation benchmarks
+S010,Technology Roadmap,Hydrogen and Fuel Cells Roadmap (extracts),IEA,2015,https://www.iea.org/reports/technology-roadmap-hydrogen-and-fuel-cells,Efficiency and deployment context
+S011,Technical Report,SOFC Cost and Performance Baselines,EPRI,2019,https://www.epri.com/research/products/000000003002015368,Cost-performance benchmarks
+S012,Gas Spec,Pipeline Natural Gas Quality (Nigeria),Nigeria Gas Company (NGC),2018,https://ngc.ng/,Representative domestic gas composition and contaminants
+S013,Gas Spec,NLNG Gas/LNG Quality,Nigeria LNG (NLNG),2019,https://www.nlng.com/,Feedstock specification ranges
+S014,Standard,ISO 14687 Fuel Quality (context),ISO,2019,https://www.iso.org/standard/69539.html,Fuel contaminants limits affecting SOFC pre-treatment

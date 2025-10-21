@@ -1,0 +1,13 @@
+source_id,system,fuel,preprocess,notes,power_density_kW_per_m2,power_density_kW_per_m3
+S001;S005;S006;S007;S009,Bloom_ES5,Pipeline_NG,Desulfurization + internal reforming,Default in Nigeria,0.8,1.6
+S001;S005;S006;S007;S009,Bloom_ES5,BioMethane,Deep desulfurization + reforming,From waste/AD,0.75,1.5
+S001;S005;S006;S007;S009,Bloom_ES5,LPG,External reforming + desulfurization,Propane-butane mix,0.7,1.4
+S001;S005;S006;S007;S009,SOLIDpower_BlueGEN_BG-15,Pipeline_NG,Desulfurization + internal reforming,Default in Nigeria,0.8,1.6
+S001;S005;S006;S007;S009,SOLIDpower_BlueGEN_BG-15,BioMethane,Deep desulfurization + reforming,From waste/AD,0.75,1.5
+S001;S005;S006;S007;S009,SOLIDpower_BlueGEN_BG-15,LPG,External reforming + desulfurization,Propane-butane mix,0.7,1.4
+S001;S005;S006;S007;S009,Ceres_SteelCell_Stack,Pipeline_NG,Desulfurization + internal reforming,Default in Nigeria,0.8,1.6
+S001;S005;S006;S007;S009,Ceres_SteelCell_Stack,BioMethane,Deep desulfurization + reforming,From waste/AD,0.75,1.5
+S001;S005;S006;S007;S009,Ceres_SteelCell_Stack,LPG,External reforming + desulfurization,Propane-butane mix,0.7,1.4
+S001;S005;S006;S007;S009,MHI_MEGAMIE,Pipeline_NG,Desulfurization + internal reforming,Default in Nigeria,0.8,1.6
+S001;S005;S006;S007;S009,MHI_MEGAMIE,BioMethane,Deep desulfurization + reforming,From waste/AD,0.75,1.5
+S001;S005;S006;S007;S009,MHI_MEGAMIE,LPG,External reforming + desulfurization,Propane-butane mix,0.7,1.4

@@ -1,0 +1,9 @@
+source_id,system,startup_time_min,ramp_rate_percent_per_min,notes
+S003;S004;S007,Bloom_ES5,60,2.0,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,Bloom_ES5,90,1.5,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,SOLIDpower_BlueGEN_BG-15,60,2.0,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,SOLIDpower_BlueGEN_BG-15,90,1.5,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,Ceres_SteelCell_Stack,60,2.0,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,Ceres_SteelCell_Stack,90,1.5,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,MHI_MEGAMIE,60,2.0,SOFCs slow start; moderate ramp; designed for steady baseload
+S003;S004;S007,MHI_MEGAMIE,90,1.5,SOFCs slow start; moderate ramp; designed for steady baseload
