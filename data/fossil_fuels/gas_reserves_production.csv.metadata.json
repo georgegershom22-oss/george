@@ -1,0 +1,35 @@
+{
+  "title": "Natural Gas Reserves and Production (Synthetic)",
+  "description": "Fabricated annual proven gas reserves (Tcf) and daily production (mmscf/d) for Nigeria.",
+  "data_file": "data/fossil_fuels/gas_reserves_production.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "year",
+      "description": "Calendar year",
+      "unit": null,
+      "dtype": "int"
+    },
+    {
+      "name": "proven_reserves_tcf",
+      "description": "Proven gas reserves",
+      "unit": "Tcf",
+      "dtype": "float"
+    },
+    {
+      "name": "production_mmscf_per_day",
+      "description": "Average daily production",
+      "unit": "mmscf/d",
+      "dtype": "int"
+    }
+  ],
+  "sources": [
+    "NNPC/NEITI reports (https://nnpcgroup.com)",
+    "DPR/NUPRC statistics (https://nuprc.gov.ng)",
+    "BP/WB energy outlooks"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

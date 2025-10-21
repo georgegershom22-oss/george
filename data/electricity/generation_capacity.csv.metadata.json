@@ -1,0 +1,48 @@
+{
+  "title": "National Generation Capacity by Source (Installed vs Available)",
+  "description": "Fabricated installed and available generation capacity (MW) for Nigeria by source, 2015-2025.",
+  "data_file": "data/electricity/generation_capacity.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "year",
+      "description": "Calendar year",
+      "unit": null,
+      "dtype": "int"
+    },
+    {
+      "name": "source",
+      "description": "Generation source category",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "installed_capacity_mw",
+      "description": "Installed/Nameplate capacity",
+      "unit": "MW",
+      "dtype": "float"
+    },
+    {
+      "name": "available_capacity_mw",
+      "description": "Available capacity reflective of constraints",
+      "unit": "MW",
+      "dtype": "float"
+    },
+    {
+      "name": "available_fraction",
+      "description": "Available/Installed ratio",
+      "unit": null,
+      "dtype": "float"
+    }
+  ],
+  "sources": [
+    "NERC (https://nerc.gov.ng)",
+    "TCN/NESO (https://tcn.org.ng)",
+    "World Bank reports (https://worldbank.org)",
+    "Nigeria Electricity Hub (https://www.nigeriaelectricityhub.com)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

@@ -1,0 +1,56 @@
+year,disco,region,saidi_minutes_per_cust,saifi_interruptions_per_cust,estimation_method
+2020,Abuja DISCO,North Central,108452,391.4,survey-based synthetic
+2021,Abuja DISCO,North Central,97366,458.2,survey-based synthetic
+2022,Abuja DISCO,North Central,105080,332.8,survey-based synthetic
+2023,Abuja DISCO,North Central,100483,438.5,survey-based synthetic
+2024,Abuja DISCO,North Central,94411,420.7,survey-based synthetic
+2020,Benin DISCO,South South,29294,299.3,survey-based synthetic
+2021,Benin DISCO,South South,34893,245.3,survey-based synthetic
+2022,Benin DISCO,South South,30983,244.7,survey-based synthetic
+2023,Benin DISCO,South South,27390,246.9,survey-based synthetic
+2024,Benin DISCO,South South,38277,357.1,survey-based synthetic
+2020,Eko DISCO,South West,37561,187.2,survey-based synthetic
+2021,Eko DISCO,South West,36692,141.6,survey-based synthetic
+2022,Eko DISCO,South West,44733,225.4,survey-based synthetic
+2023,Eko DISCO,South West,30147,167.7,survey-based synthetic
+2024,Eko DISCO,South West,34269,173.3,survey-based synthetic
+2020,Enugu DISCO,South East,55148,180.1,survey-based synthetic
+2021,Enugu DISCO,South East,46526,221.8,survey-based synthetic
+2022,Enugu DISCO,South East,44741,219.3,survey-based synthetic
+2023,Enugu DISCO,South East,43434,242.6,survey-based synthetic
+2024,Enugu DISCO,South East,43623,223.9,survey-based synthetic
+2020,Ibadan DISCO,South West,70233,230.2,survey-based synthetic
+2021,Ibadan DISCO,South West,58102,204.3,survey-based synthetic
+2022,Ibadan DISCO,South West,54034,204.0,survey-based synthetic
+2023,Ibadan DISCO,South West,76327,314.6,survey-based synthetic
+2024,Ibadan DISCO,South West,74305,278.6,survey-based synthetic
+2020,Ikeja DISCO,South West,40688,411.5,survey-based synthetic
+2021,Ikeja DISCO,South West,37276,461.4,survey-based synthetic
+2022,Ikeja DISCO,South West,42529,544.2,survey-based synthetic
+2023,Ikeja DISCO,South West,33871,452.0,survey-based synthetic
+2024,Ikeja DISCO,South West,32244,419.5,survey-based synthetic
+2020,Jos DISCO,North Central,75998,538.3,survey-based synthetic
+2021,Jos DISCO,North Central,70818,438.8,survey-based synthetic
+2022,Jos DISCO,North Central,71798,471.3,survey-based synthetic
+2023,Jos DISCO,North Central,59144,397.6,survey-based synthetic
+2024,Jos DISCO,North Central,67975,368.3,survey-based synthetic
+2020,Kaduna DISCO,North West,32881,675.4,survey-based synthetic
+2021,Kaduna DISCO,North West,34484,458.3,survey-based synthetic
+2022,Kaduna DISCO,North West,31476,518.2,survey-based synthetic
+2023,Kaduna DISCO,North West,29730,568.4,survey-based synthetic
+2024,Kaduna DISCO,North West,29941,711.3,survey-based synthetic
+2020,Kano DISCO,North West,50545,745.8,survey-based synthetic
+2021,Kano DISCO,North West,56447,613.9,survey-based synthetic
+2022,Kano DISCO,North West,58508,645.6,survey-based synthetic
+2023,Kano DISCO,North West,57556,681.5,survey-based synthetic
+2024,Kano DISCO,North West,53664,717.5,survey-based synthetic
+2020,Port Harcourt DISCO,South South,87374,509.8,survey-based synthetic
+2021,Port Harcourt DISCO,South South,85165,441.8,survey-based synthetic
+2022,Port Harcourt DISCO,South South,82373,396.2,survey-based synthetic
+2023,Port Harcourt DISCO,South South,87939,445.4,survey-based synthetic
+2024,Port Harcourt DISCO,South South,77584,370.9,survey-based synthetic
+2020,Yola DISCO,North East,58219,483.2,survey-based synthetic
+2021,Yola DISCO,North East,56208,462.2,survey-based synthetic
+2022,Yola DISCO,North East,50577,377.2,survey-based synthetic
+2023,Yola DISCO,North East,50474,331.8,survey-based synthetic
+2024,Yola DISCO,North East,61158,500.7,survey-based synthetic

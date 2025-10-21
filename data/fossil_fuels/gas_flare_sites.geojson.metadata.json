@@ -1,0 +1,39 @@
+{
+  "title": "Gas Flare Sites (GeoJSON, Synthetic)",
+  "description": "GeoJSON points for fabricated flare sites.",
+  "data_file": "data/fossil_fuels/gas_flare_sites.geojson",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "geometry",
+      "description": "Point coordinates [lon, lat]",
+      "unit": null,
+      "dtype": "geojson"
+    },
+    {
+      "name": "properties.site_name",
+      "description": "Flare site name",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "properties.avg_flared_mscf_per_day",
+      "description": "Average flared gas",
+      "unit": "mscf/d",
+      "dtype": "int"
+    },
+    {
+      "name": "properties.state_guess",
+      "description": "Approximate state",
+      "unit": null,
+      "dtype": "str"
+    }
+  ],
+  "sources": [
+    "GGFR/World Bank"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

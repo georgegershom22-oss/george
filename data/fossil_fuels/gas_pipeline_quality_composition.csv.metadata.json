@@ -1,0 +1,51 @@
+{
+  "title": "Pipeline Gas Quality and Composition (Synthetic)",
+  "description": "Fabricated regional natural gas composition fractions and estimated lower heating value (LHV).",
+  "data_file": "data/fossil_fuels/gas_pipeline_quality_composition.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "region",
+      "description": "Pipeline corridor region",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "methane_ch4_frac",
+      "description": "Methane mol fraction",
+      "unit": null,
+      "dtype": "float"
+    },
+    {
+      "name": "c2_plus_frac",
+      "description": "Ethane and heavier mol fraction",
+      "unit": null,
+      "dtype": "float"
+    },
+    {
+      "name": "co2_frac",
+      "description": "CO2 mol fraction",
+      "unit": null,
+      "dtype": "float"
+    },
+    {
+      "name": "n2_frac",
+      "description": "Nitrogen mol fraction",
+      "unit": null,
+      "dtype": "float"
+    },
+    {
+      "name": "lhv_mj_per_scm",
+      "description": "Lower heating value",
+      "unit": "MJ/Sm^3",
+      "dtype": "float"
+    }
+  ],
+  "sources": [
+    "NGC gas specs (indicative)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

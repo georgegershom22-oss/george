@@ -1,0 +1,39 @@
+{
+  "title": "Livestock Population by State (Synthetic)",
+  "description": "Fabricated livestock counts by state and species (2020 to last full year).",
+  "data_file": "data/renewables/livestock_population_by_state.csv",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "year",
+      "description": "Calendar year",
+      "unit": null,
+      "dtype": "int"
+    },
+    {
+      "name": "state",
+      "description": "Nigerian state",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "species",
+      "description": "Livestock species",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "population_headcount",
+      "description": "Animal count",
+      "unit": "head",
+      "dtype": "int"
+    }
+  ],
+  "sources": [
+    "FMARD/NBS agriculture surveys"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Natural Gas Pipeline Network (Synthetic GeoJSON)",
+  "description": "Fabricated Nigerian gas pipeline segments connecting major nodes.",
+  "data_file": "data/fossil_fuels/gas_pipeline_network.geojson",
+  "generated_at_utc": "2025-10-21T04:22:34.626855",
+  "seed": 20251021,
+  "schema": [
+    {
+      "name": "geometry",
+      "description": "LineString coordinates [lon, lat]",
+      "unit": null,
+      "dtype": "geojson"
+    },
+    {
+      "name": "properties.from",
+      "description": "Start node",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "properties.to",
+      "description": "End node",
+      "unit": null,
+      "dtype": "str"
+    },
+    {
+      "name": "properties.diameter_in",
+      "description": "Nominal diameter",
+      "unit": "inches",
+      "dtype": "int"
+    }
+  ],
+  "sources": [
+    "NNPC/NGC maps (https://nnpcgroup.com)"
+  ],
+  "notes": null,
+  "license": "CC-BY-4.0 (fabricated synthetic dataset)",
+  "disclaimer": "This dataset is fabricated for research and testing. Values are synthetic and calibrated to be plausible for Nigeria; verify against authoritative sources before use."
+}
