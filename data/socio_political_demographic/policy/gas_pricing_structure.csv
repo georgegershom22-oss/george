@@ -1,0 +1,24 @@
+Consumer_Category,Supply_Contract_Type,Gas_Price_USD_per_MMBTU,Gas_Price_Naira_per_SCF,Transportation_Cost_USD_per_MMBTU,Total_Delivered_Cost_USD_per_MMBTU,Contract_Duration_Years,Volume_Commitment_MMSCFD,Supply_Reliability_Percent,Price_Review_Period_Months,Price_Indexation,Alternative_Fuel_Cost_Diesel_USD_per_MMBTU,Cost_Advantage_Percent,Regulatory_Framework,Key_Challenges
+Power Generation (Large),Gas Supply Agreement,2.50,0.0025,0.80,3.30,10-20,50-500,78,12,Crude oil prices,28.50,88.4,Domestic Gas Supply Obligation,Supply interruptions
+Industrial (Large),Direct Purchase Agreement,3.20,0.0032,0.60,3.80,5-15,10-100,82,12,Brent crude,28.50,86.7,Gas Aggregation Framework,Pipeline constraints
+Industrial (Medium),Aggregator Contract,3.80,0.0038,0.90,4.70,3-10,5-20,75,6,Market pricing,28.50,83.5,Gas to Power Initiative,Pricing transparency
+Industrial (Small),Retail Gas Contract,4.50,0.0045,1.20,5.70,1-5,1-10,70,6,Market pricing,28.50,80.0,Mini-grid Regulations,Access to infrastructure
+Commercial,Retail Supply,5.20,0.0052,1.50,6.70,1-3,0.5-5,68,3,Market pricing,28.50,76.5,State regulations,Distribution network gaps
+CNG Stations,Wholesale Contract,4.80,0.0048,1.00,5.80,3-7,2-15,72,6,Market pricing,35.00,83.4,DPR regulations,Compression costs
+LNG/CNG for Transport,Processing Agreement,5.50,0.0055,2.00,7.50,5-10,5-30,80,12,International LNG prices,35.00,78.6,NCDMB local content,Capital intensive
+Residential (Piped),Retail Tariff,6.00,0.0060,1.80,7.80,Annual,0.1-1,65,12,Inflation indexation,45.00,82.7,NERC tariff orders,Last-mile distribution
+Fertilizer Plants,Long-term GSA,2.20,0.0022,0.50,2.70,15-25,30-200,85,24,Production cost indexation,28.50,90.5,Presidential directives,Forex for payments
+Petrochemical Plants,Strategic Supply,2.80,0.0028,0.70,3.50,10-20,20-150,82,18,Crude oil and inflation,28.50,87.7,NOGIC Act,Domestic obligation enforcement
+Gas-fired Industries,Industrial Tariff,3.50,0.0035,0.80,4.30,5-10,3-30,78,12,Market pricing,28.50,84.9,Gas Master Plan,Infrastructure gaps
+Export (LNG),LNG Contract,6.00,0.0060,1.50,7.50,20-25,500-2000,90,12,International gas prices,N/A,N/A,NLNG Act,Balancing domestic and export
+Flare Gas Capture,Take-or-pay Agreement,1.50,0.0015,1.00,2.50,10-15,5-50,65,12,Fixed with escalation,28.50,91.2,Flare Gas Regulations,Technical challenges in capture
+Gas Processing Plants,Processing Fee,2.00,0.0020,0.40,2.40,15-20,50-300,88,24,Processing margin,N/A,N/A,DPR regulations,NGL pricing
+Mini-grid (Gas-powered),Distributed Supply,4.20,0.0042,1.50,5.70,3-7,0.5-5,68,6,Diesel parity pricing,28.50,80.0,NERC Mini-grid Regs,Gas distribution to remote areas
+Embedded Generation (SOFC),On-site Supply,4.00,0.0040,1.20,5.20,5-10,1-20,75,12,Market pricing with floor,28.50,81.8,Embedded Gen Regulations,Connection to pipeline network
+Captive Power Plants,Direct Connection,3.60,0.0036,0.90,4.50,5-15,5-50,80,12,Hybrid indexation,28.50,84.2,NERC Regulations,Supply security
+Virtual Pipeline (CNG Trucks),Truck Delivery,6.50,0.0065,3.00,9.50,1-3,1-10,60,3,Market pricing,28.50,66.7,Road transport regulations,Logistics and safety
+Modular Power Plants,Short-term Contract,4.80,0.0048,1.00,5.80,2-5,3-25,72,6,Market pricing,28.50,79.6,Emergency power regulations,Contract flexibility
+Associated Gas (Stranded),Opportunity Gas,1.00,0.0010,1.50,2.50,5-10,2-20,60,12,Cost recovery,28.50,91.2,Gas flaring penalties,Infrastructure to monetize
+Non-associated Gas,Firm Supply,2.80,0.0028,0.60,3.40,10-20,20-200,85,12,Market and crude indexation,28.50,88.1,Upstream gas contracts,Reserve development
+Interruptible Supply,As-available Contract,2.00,0.0020,0.70,2.70,1-3,1-50,50,6,Spot pricing,28.50,90.5,Supply balancing rules,Unreliable for baseload
+Spot Market,Day-ahead/Same-day,5.00,0.0050,1.50,6.50,N/A,Variable,55,N/A,Daily market clearing,28.50,77.2,Gas market rules (developing),Market liquidity

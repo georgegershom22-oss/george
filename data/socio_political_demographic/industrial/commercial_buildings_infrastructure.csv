@@ -1,0 +1,63 @@
+Building_Name,Type,State,LGA,City,Floor_Area_sqm,Estimated_Peak_Power_Demand_kW,Current_Power_Source,Backup_Generator_Capacity_kW,Monthly_Diesel_Consumption_Liters,Grid_Connection,Average_Outage_Hours_Per_Day,Annual_Energy_Cost_Naira_Millions,Gas_Pipeline_Distance_km,SOFC_Potential_Rating
+Ikeja City Mall,Shopping Mall,Lagos,Ikeja,Ikeja,45000,2800,Grid + Generators,3500,185000,Yes,8,425,8.5,High
+The Palms Shopping Mall,Shopping Mall,Lagos,Lekki,Lekki,38000,2400,Grid + Generators,3000,165000,Yes,7,380,15.2,Medium
+Jabi Lake Mall,Shopping Mall,FCT,Abuja Municipal,Abuja,42000,2600,Grid + Generators,3200,172000,Yes,6,395,12.8,High
+Shoprite Surulere,Shopping Mall,Lagos,Surulere,Surulere,22000,1400,Grid + Generators,1800,95000,Yes,8,245,10.2,High
+Spar Enugu,Shopping Mall,Enugu,Enugu South,Enugu,18000,1100,Grid + Generators,1400,75000,Yes,9,198,11.8,Medium
+Genesis Deluxe Cinemas,Entertainment,Lagos,Lekki,Lekki,12000,850,Grid + Generators,1100,58000,Yes,7,152,15.2,Medium
+Silverbird Galleria,Shopping Mall,Lagos,Victoria Island,Victoria Island,32000,2000,Grid + Generators,2500,138000,Yes,7,335,12.5,High
+Ceddi Plaza,Shopping Mall,FCT,Abuja Municipal,Abuja,28000,1750,Grid + Generators,2200,122000,Yes,6,285,12.8,High
+Novare Mall Sangotedo,Shopping Mall,Lagos,Eti-Osa,Lekki,35000,2200,Grid + Generators,2800,152000,Yes,8,368,18.5,Medium
+Leisure Mall Surulere,Shopping Mall,Lagos,Surulere,Surulere,25000,1550,Grid + Generators,1950,108000,Yes,8,265,10.2,High
+Ventura Mall Enugu,Shopping Mall,Enugu,Enugu East,Enugu,20000,1250,Grid + Generators,1600,85000,Yes,9,215,13.5,Medium
+Gateway Mall Sango Ota,Shopping Mall,Ogun,Ado-Odo-Ota,Ota,16000,1000,Grid + Generators,1300,68000,Yes,10,188,6.8,High
+Ikeja City Hotel,Hotel,Lagos,Ikeja,Ikeja,18000,1600,Grid + Generators,2000,118000,Yes,8,295,8.5,High
+Transcorp Hilton Abuja,Hotel,FCT,Abuja Municipal,Abuja,32000,3200,Grid + Generators,4000,248000,Yes,5,615,12.8,High
+Eko Hotel and Suites,Hotel,Lagos,Eti-Osa,Victoria Island,48000,4800,Grid + Generators,6000,385000,Yes,6,952,14.8,High
+Sheraton Lagos Hotel,Hotel,Lagos,Ikeja,Ikeja,28000,2800,Grid + Generators,3500,220000,Yes,7,548,8.5,High
+Le Meridien Ibom Hotel,Hotel,Akwa Ibom,Uyo,Uyo,22000,2200,Grid + Generators,2800,175000,Yes,10,438,45.0,Low
+Golden Tulip Port Harcourt,Hotel,Rivers,Port Harcourt,Port Harcourt,20000,2000,Grid + Generators,2500,158000,Yes,8,395,3.8,Very High
+Protea Hotel GRA Enugu,Hotel,Enugu,Enugu South,Enugu,14000,1400,Grid + Generators,1750,110000,Yes,9,275,11.8,Medium
+Nike Lake Resort,Hotel,Enugu,Enugu East,Enugu,16000,1500,Grid + Generators,1900,118000,Yes,9,295,13.5,Medium
+Hotel Presidential Port Harcourt,Hotel,Rivers,Port Harcourt,Port Harcourt,18000,1800,Grid + Generators,2250,142000,Yes,8,352,3.8,Very High
+Transcorp Metro Park,Office Complex,FCT,Abuja Municipal,Abuja,28000,1800,Grid + Generators,2250,125000,Yes,6,312,12.8,High
+Churchgate Towers,Office Complex,Lagos,Lagos Island,Lagos Island,22000,1400,Grid + Generators,1750,98000,Yes,7,245,13.2,Medium
+NECOM House Lagos,Office Complex,Lagos,Lagos Island,Lagos Island,25000,1600,Grid + Generators,2000,112000,Yes,7,278,13.2,Medium
+Wing Offices Lekki,Office Complex,Lagos,Eti-Osa,Lekki,18000,1150,Grid + Generators,1450,81000,Yes,8,202,18.5,Medium
+UBA House Lagos,Office Complex,Lagos,Lagos Island,Lagos Island,28000,1800,Grid + Generators,2250,125000,Yes,7,312,13.2,Medium
+GTBank Tower VI,Office Complex,Lagos,Eti-Osa,Victoria Island,32000,2050,Grid + Generators,2600,145000,Yes,6,362,14.8,High
+Access Bank Tower,Office Complex,Lagos,Eti-Osa,Victoria Island,28000,1800,Grid + Generators,2250,125000,Yes,6,312,14.8,High
+Civic Towers VI,Office Complex,Lagos,Eti-Osa,Victoria Island,24000,1550,Grid + Generators,1950,108000,Yes,7,268,14.8,High
+Silverbird Galleria Offices,Office Complex,Lagos,Eti-Osa,Victoria Island,20000,1300,Grid + Generators,1650,92000,Yes,7,228,14.8,High
+Providence Tower Enugu,Office Complex,Enugu,Enugu South,Enugu,15000,950,Grid + Generators,1200,68000,Yes,9,168,11.8,Medium
+Murtala Mohammed Airport T2,Airport,Lagos,Ikeja,Ikeja,75000,8500,Grid + Generators,10500,685000,Yes,6,1705,8.5,Very High
+Nnamdi Azikiwe Intl Airport,Airport,FCT,Abuja Municipal,Abuja,52000,6000,Grid + Generators,7500,495000,Yes,5,1232,12.8,High
+Port Harcourt Intl Airport,Airport,Rivers,Obio-Akpor,Port Harcourt,38000,4200,Grid + Generators,5250,345000,Yes,7,858,5.2,Very High
+Akanu Ibiam Airport Enugu,Airport,Enugu,Enugu East,Enugu,22000,2500,Grid + Generators,3200,208000,Yes,9,518,13.5,Medium
+Maiduguri Airport,Airport,Borno,Maiduguri,Maiduguri,18000,2000,Grid + Generators,2500,165000,Yes,11,410,125.0,Very Low
+University of Lagos Main Campus,Educational Institution,Lagos,Yaba,Yaba,185000,12000,Grid + Generators,15000,985000,Yes,8,2452,11.8,High
+University of Ibadan,Educational Institution,Oyo,Ibadan North,Ibadan,220000,14000,Grid + Generators,17500,1150000,Yes,9,2862,9.8,High
+Ahmadu Bello University,Educational Institution,Kaduna,Zaria,Zaria,195000,12500,Grid + Generators,15500,1020000,Yes,10,2540,7.5,High
+University of Nigeria Nsukka,Educational Institution,Enugu,Nsukka,Nsukka,175000,11000,Grid + Generators,13800,905000,Yes,10,2254,18.5,Low
+Obafemi Awolowo University,Educational Institution,Osun,Ife Central,Ile-Ife,168000,10500,Grid + Generators,13200,865000,Yes,10,2152,28.5,Low
+University of Port Harcourt,Educational Institution,Rivers,Port Harcourt,Port Harcourt,152000,9500,Grid + Generators,11900,782000,Yes,9,1945,4.5,Very High
+Lagos University Teaching Hospital,Hospital,Lagos,Surulere,Surulere,48000,5200,Grid + Generators,6500,448000,Yes,7,1115,10.2,High
+National Hospital Abuja,Hospital,FCT,Abuja Municipal,Abuja,52000,5800,Grid + Generators,7200,495000,Yes,5,1232,12.8,High
+University College Hospital Ibadan,Hospital,Oyo,Ibadan North,Ibadan,45000,4900,Grid + Generators,6100,425000,Yes,9,1058,9.8,High
+University of Nigeria Teaching Hospital,Hospital,Enugu,Enugu North,Enugu,38000,4100,Grid + Generators,5100,358000,Yes,10,890,11.8,Medium
+Nnamdi Azikiwe University Teaching Hospital,Hospital,Anambra,Nnewi North,Nnewi,32000,3500,Grid + Generators,4400,305000,Yes,11,758,12.0,Medium
+Federal Medical Centre Owerri,Hospital,Imo,Owerri Municipal,Owerri,28000,3000,Grid + Generators,3800,262000,Yes,11,652,16.5,Low
+University of Benin Teaching Hospital,Hospital,Edo,Oredo,Benin City,42000,4600,Grid + Generators,5750,400000,Yes,9,995,6.8,High
+Ikeja Electric HQ,Utility,Lagos,Ikeja,Ikeja,12000,1200,Grid + Generators,1500,92000,Yes,6,228,8.5,High
+Eko Electricity HQ,Utility,Lagos,Lagos Island,Lagos Island,10000,1000,Grid + Generators,1250,78000,Yes,7,195,13.2,Medium
+Abuja Electricity HQ,Utility,FCT,Abuja Municipal,Abuja,14000,1400,Grid + Generators,1750,108000,Yes,5,268,12.8,High
+Port Harcourt Electricity HQ,Utility,Rivers,Port Harcourt,Port Harcourt,11000,1100,Grid + Generators,1400,85000,Yes,8,212,3.8,Very High
+Enugu Electricity HQ,Utility,Enugu,Enugu South,Enugu,9500,950,Grid + Generators,1200,72000,Yes,9,178,11.8,Medium
+Nigerian Breweries Ikeja,Industrial,Lagos,Ikeja,Ikeja,28000,4200,Grid + Generators,5250,368000,Yes,8,915,8.5,Very High
+Dangote Cement Ibese,Industrial,Ogun,Yewa South,Yewa,125000,22000,Grid + Generators,27500,1925000,Yes,9,4790,12.5,High
+Nestle Foods Agbara,Industrial,Ogun,Ado-Odo-Ota,Agbara,45000,6500,Grid + Generators,8100,565000,Yes,10,1405,4.2,Very High
+Guinness Nigeria Ikeja,Industrial,Lagos,Ikeja,Ikeja,32000,4800,Grid + Generators,6000,420000,Yes,8,1045,8.5,Very High
+Cadbury Nigeria Agbara,Industrial,Ogun,Ado-Odo-Ota,Agbara,38000,5500,Grid + Generators,6900,480000,Yes,10,1195,4.2,Very High
+Nigerian Bottling Company Asejire,Industrial,Oyo,Egbeda,Ibadan,42000,6200,Grid + Generators,7750,540000,Yes,9,1345,11.5,High
+Promasidor Nigeria Isolo,Industrial,Lagos,Oshodi-Isolo,Isolo,25000,3800,Grid + Generators,4750,332000,Yes,9,825,10.5,High
+UAC Foods Ikeja,Industrial,Lagos,Ikeja,Ikeja,22000,3300,Grid + Generators,4100,288000,Yes,8,715,8.5,Very High

@@ -1,0 +1,41 @@
+Cluster_Name,State,LGA,Type,Location_Coordinates,Number_of_Companies,Primary_Industries,Estimated_Power_Demand_MW,Current_Power_Supply_MW,Power_Deficit_MW,Grid_Reliability_Percent,Average_Generator_Runtime_Hours_Per_Day,Estimated_Diesel_Consumption_Liters_Per_Day,Industrial_Estate_Area_Hectares,Gas_Pipeline_Proximity_km,SOFC_Suitability_Score
+Ikeja Industrial Estate,Lagos,Ikeja,Mixed Manufacturing,"6.5833, 3.3500",450,"Plastics, Food Processing, Pharmaceuticals, Electronics",185,95,90,45,16,425000,320,8.5,9.2
+Agbara Industrial Estate,Ogun,Ado-Odo-Ota,Mixed Manufacturing,"6.4833, 2.9833",380,"Chemicals, Steel, Food Processing, Textiles",220,110,110,42,17,550000,680,4.2,9.5
+Nnewi Industrial Cluster,Anambra,Nnewi North,Auto Parts & Manufacturing,"6.0196, 6.9167",320,"Automotive Parts, Plastics, Metal Fabrication",145,65,80,38,18,380000,240,12.0,8.8
+Trans-Amadi Industrial Layout,Rivers,Port Harcourt,Mixed Manufacturing,"4.8200, 7.0333",290,"Metal Fabrication, Chemicals, Oil & Gas Services",175,88,87,48,15,420000,410,3.8,9.4
+Oregun Industrial Estate,Lagos,Ikeja,Mixed Manufacturing,"6.5833, 3.3667",180,"Printing, Furniture, Light Manufacturing",72,38,34,48,14,160000,85,9.2,8.5
+Isolo Industrial Estate,Lagos,Oshodi-Isolo,Mixed Manufacturing,"6.5333, 3.3333",240,"Food Processing, Beverages, Packaging",98,52,46,46,15,215000,145,10.5,8.7
+Ilupeju Industrial Estate,Lagos,Mushin,Mixed Manufacturing,"6.5500, 3.3667",210,"Metal Works, Machinery, Manufacturing",88,45,43,45,16,205000,128,11.0,8.6
+Ogba Industrial Scheme,Lagos,Ifako-Ijaiye,Light Manufacturing,"6.6333, 3.3500",165,"Light Manufacturing, Trading, Warehousing",62,35,27,50,13,125000,95,12.5,8.2
+Apapa Industrial Area,Lagos,Apapa,Ports & Manufacturing,"6.4333, 3.3667",280,"Ports, Shipping, Food Processing, Warehousing",145,75,70,52,14,330000,320,6.8,9.0
+Challawa Industrial Estate,Kano,Kumbotso,Textile & Manufacturing,"11.9667, 8.4833",140,"Textiles, Tanning, Food Processing",68,28,40,35,18,185000,185,18.5,7.8
+Sharada Industrial Estate,Kano,Kano Municipal,Mixed Manufacturing,"12.0333, 8.5333",175,"Textiles, Plastics, Food Processing",82,35,47,36,17,220000,210,16.0,8.0
+Kaduna Industrial Estate,Kaduna,Kaduna South,Mixed Manufacturing,"10.4833, 7.4333",165,"Textiles, Metal Products, Automotive",78,38,40,42,16,185000,195,7.5,8.6
+Kakuri Industrial Layout,Kaduna,Kaduna South,Manufacturing & Services,"10.5000, 7.4167",125,"Metal Fabrication, Construction Materials",58,28,30,40,16,140000,110,8.2,8.3
+Onitsha Industrial Layout,Anambra,Onitsha North,Trading & Light Manufacturing,"6.1500, 6.7833",195,"Plastics, Pharmaceuticals, Food Processing",88,42,46,40,17,215000,160,9.5,8.5
+Enugu Industrial Layout,Enugu,Enugu South,Mixed Manufacturing,"6.4167, 7.5000",148,"Cement, Beverages, Pharmaceuticals",72,35,37,42,16,170000,145,11.8,8.4
+Emene Industrial Layout,Enugu,Enugu East,Manufacturing & Agro,"6.4500, 7.5333",112,"Beverages, Rice Milling, Ceramics",52,24,28,38,17,130000,98,13.5,8.1
+Calabar Free Trade Zone,Cross River,Calabar Municipal,Free Trade Zone,"4.9500, 8.3333",95,"Export Processing, Oil & Gas Services, Manufacturing",125,62,63,48,14,285000,580,15.2,8.9
+Aba Industrial Cluster,Abia,Aba South,Textiles & Manufacturing,"5.1067, 7.3667",280,"Textiles, Footwear, Leather Goods, Plastics",115,48,67,35,18,310000,185,14.8,8.2
+Warri/Effurun Industrial Area,Delta,Uvwie,Oil & Gas Services,"5.5400, 5.7500",165,"Oil & Gas Services, Steel, Petrochemicals",95,48,47,45,15,220000,245,2.5,9.3
+Ota Industrial Zone,Ogun,Ado-Odo-Ota,Mixed Manufacturing,"6.7000, 3.2333",220,"Food Processing, Chemicals, Plastics, Beverages",125,62,63,44,16,295000,285,6.8,9.1
+Sagamu Industrial Area,Ogun,Sagamu,Cement & Heavy Industry,"6.8333, 3.6333",98,"Cement, Quarrying, Construction Materials",185,95,90,46,15,420000,420,8.5,8.9
+Ijebu-Ode Industrial Layout,Ogun,Ijebu Ode,Agro-Processing,"6.8167, 3.9167",82,"Food Processing, Beverages, Palm Oil",42,22,20,45,15,95000,72,15.2,7.8
+Ibadan Industrial Estate,Oyo,Ibadan North-East,Mixed Manufacturing,"7.4000, 3.9167",135,"Tobacco, Beverages, Plastics",68,35,33,42,16,155000,165,9.8,8.4
+Oluyole Industrial Estate,Oyo,Ibadan South-West,Food & Beverages,"7.3667, 3.8667",88,"Food Processing, Beverages, Cocoa Processing",45,24,21,44,15,98000,88,12.5,8.2
+Benin Industrial Layout,Edo,Oredo,Mixed Manufacturing,"6.3167, 5.6333",142,"Rubber Processing, Plastics, Beverages",72,36,36,43,16,170000,155,6.8,8.6
+Owerri Industrial Layout,Imo,Owerri Municipal,Mixed Manufacturing,"5.4833, 7.0333",95,"Palm Oil Processing, Beverages, Plastics",48,22,26,38,17,120000,95,16.5,7.9
+Jos Industrial Estate,Plateau,Jos South,Mining & Manufacturing,"9.8667, 8.9167",78,"Mining Equipment, Beverages, Food Processing",42,20,22,40,16,102000,85,45.0,6.5
+Maiduguri Industrial Area,Borno,Maiduguri,Food Processing,"11.8333, 13.1500",52,"Food Processing, Grains Milling",28,12,16,30,19,75000,65,125.0,5.2
+Katsina Industrial Layout,Katsina,Katsina,Mixed Manufacturing,"13.0000, 7.6000",48,"Textiles, Leather Tanning, Food Processing",25,10,15,32,18,68000,58,95.0,5.8
+Minna Industrial Layout,Niger,Minna,Mixed Manufacturing,"9.6167, 6.5500",62,"Textiles, Ceramics, Food Processing",32,15,17,38,17,80000,72,38.0,7.2
+Lafia Industrial Area,Nasarawa,Lafia,Agro-Processing,"8.4833, 8.5167",45,"Food Processing, Rice Milling",22,10,12,36,17,55000,48,42.0,6.8
+Abeokuta Industrial Estate,Ogun,Abeokuta South,Mixed Manufacturing,"7.1500, 3.3500",92,"Food Processing, Textiles, Ceramics",48,24,24,44,15,110000,98,11.5,8.3
+Akure Industrial Layout,Ondo,Akure South,Agro-Processing,"7.2500, 5.1833",68,"Cocoa Processing, Palm Oil, Rubber",35,18,17,42,16,82000,68,22.5,7.6
+Lokoja Industrial Area,Kogi,Lokoja,Mixed Manufacturing,"7.8000, 6.7333",55,"Iron & Steel, Cement, Food Processing",145,72,73,40,16,340000,125,8.8,8.5
+Yola Industrial Layout,Adamawa,Yola North,Agro-Processing,"9.2000, 12.4667",38,"Cotton Ginning, Food Processing",18,8,10,32,18,48000,42,145.0,4.8
+Bauchi Industrial Estate,Bauchi,Bauchi,Mixed Manufacturing,"10.3167, 9.8333",42,"Textiles, Grains Milling",22,9,13,34,18,60000,52,88.0,5.5
+Sokoto Industrial Layout,Sokoto,Sokoto North,Agro-Processing,"13.0833, 5.2333",36,"Leather Tanning, Cement, Food Processing",28,11,17,33,18,78000,58,115.0,5.3
+Gombe Industrial Area,Gombe,Gombe,Agro-Processing,"10.2833, 11.1667",32,"Grains Milling, Food Processing",16,7,9,34,18,42000,38,98.0,5.4
+Ilorin Industrial Estate,Kwara,Ilorin South,Mixed Manufacturing,"8.4667, 4.5500",72,"Sugar Processing, Matches, Textiles",38,18,20,40,16,92000,85,28.5,7.5
+Markurdi Industrial Layout,Benue,Makurdi,Agro-Processing,"7.7333, 8.5333",48,"Food Processing, Beverages",24,11,13,38,17,58000,52,55.0,6.9
