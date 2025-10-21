@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "description": "Nigerian Natural Gas Reserves and Production Data",
+    "last_updated": "2025-01-21",
+    "sources": ["NNPC", "Nigerian Gas Company", "DPR", "OPEC", "BP Statistical Review"]
+  },
+  "reserves": {
+    "proven_reserves": {
+      "total_tcf": 209.5,
+      "total_bcm": 5932,
+      "world_ranking": 9,
+      "africa_ranking": 1,
+      "reserve_life_years": 92,
+      "by_type": {
+        "associated_gas": {
+          "tcf": 104.75,
+          "percentage": 50,
+          "location": "Oil fields in Niger Delta"
+        },
+        "non_associated_gas": {
+          "tcf": 104.75,
+          "percentage": 50,
+          "location": "Dedicated gas fields"
+        }
+      }
+    },
+    "probable_reserves": {
+      "total_tcf": 600,
+      "exploration_areas": [
+        "Deep offshore",
+        "Inland basins",
+        "Chad Basin",
+        "Benue Trough"
+      ]
+    },
+    "major_gas_fields": [
+      {
+        "name": "Otu Field",
+        "operator": "Shell",
+        "reserves_tcf": 2.5,
+        "production_mmscfd": 450,
+        "location": "Rivers State",
+        "status": "Producing"
+      },
+      {
+        "name": "Gbaran-Ubie",
+        "operator": "Shell",
+        "reserves_tcf": 4.0,
+        "production_mmscfd": 1000,
+        "location": "Bayelsa State",
+        "status": "Producing"
+      },
+      {
+        "name": "Soku",
+        "operator": "Shell",
+        "reserves_tcf": 1.8,
+        "production_mmscfd": 300,
+        "location": "Rivers State",
+        "status": "Producing"
+      },
+      {
+        "name": "Bonny",
+        "operator": "Shell",
+        "reserves_tcf": 3.2,
+        "production_mmscfd": 650,
+        "location": "Rivers State",
+        "status": "Producing"
+      },
+      {
+        "name": "Akam",
+        "operator": "Total",
+        "reserves_tcf": 2.0,
+        "production_mmscfd": 380,
+        "location": "Rivers State",
+        "status": "Producing"
+      },
+      {
+        "name": "Amenam-Kpono",
+        "operator": "Total",
+        "reserves_tcf": 1.5,
+        "production_mmscfd": 250,
+        "location": "Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Obiafu-Obrikom",
+        "operator": "Agip",
+        "reserves_tcf": 2.8,
+        "production_mmscfd": 480,
+        "location": "Rivers State",
+        "status": "Producing"
+      },
+      {
+        "name": "Kwale-Okpai",
+        "operator": "Agip",
+        "reserves_tcf": 1.2,
+        "production_mmscfd": 200,
+        "location": "Delta State",
+        "status": "Producing"
+      },
+      {
+        "name": "Brass",
+        "operator": "Agip",
+        "reserves_tcf": 1.6,
+        "production_mmscfd": 320,
+        "location": "Bayelsa State",
+        "status": "Producing"
+      },
+      {
+        "name": "Abo",
+        "operator": "Agip",
+        "reserves_tcf": 1.4,
+        "production_mmscfd": 280,
+        "location": "Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Bonga",
+        "operator": "Shell",
+        "reserves_tcf": 3.5,
+        "production_mmscfd": 600,
+        "location": "Deep Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Erha",
+        "operator": "ExxonMobil",
+        "reserves_tcf": 2.2,
+        "production_mmscfd": 400,
+        "location": "Deep Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Agbami",
+        "operator": "Chevron",
+        "reserves_tcf": 1.8,
+        "production_mmscfd": 350,
+        "location": "Deep Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Usan",
+        "operator": "Total",
+        "reserves_tcf": 1.5,
+        "production_mmscfd": 300,
+        "location": "Deep Offshore",
+        "status": "Producing"
+      },
+      {
+        "name": "Egina",
+        "operator": "Total",
+        "reserves_tcf": 2.0,
+        "production_mmscfd": 420,
+        "location": "Deep Offshore",
+        "status": "Producing"
+      }
+    ]
+  },
+  "production": {
+    "current_production": {
+      "total_mmscfd": 8000,
+      "total_bcf_per_year": 2920,
+      "utilization": {
+        "domestic_consumption_mmscfd": 1500,
+        "lng_export_mmscfd": 3200,
+        "pipeline_export_mmscfd": 450,
+        "reinjection_mmscfd": 1350,
+        "flared_mmscfd": 1300,
+        "industrial_use_mmscfd": 200
+      }
+    },
+    "historical_production": {
+      "2020": {"production_mmscfd": 7500, "flared_mmscfd": 1800},
+      "2021": {"production_mmscfd": 7650, "flared_mmscfd": 1650},
+      "2022": {"production_mmscfd": 7800, "flared_mmscfd": 1500},
+      "2023": {"production_mmscfd": 7900, "flared_mmscfd": 1400},
+      "2024": {"production_mmscfd": 8000, "flared_mmscfd": 1300}
+    },
+    "production_capacity": {
+      "installed_capacity_mmscfd": 12000,
+      "capacity_utilization": 0.67,
+      "constraints": [
+        "Inadequate gas gathering infrastructure",
+        "Limited processing facilities",
+        "Pipeline vandalism",
+        "Lack of domestic market development",
+        "Regulatory uncertainties"
+      ]
+    }
+  },
+  "domestic_supply": {
+    "power_generation": {
+      "current_allocation_mmscfd": 800,
+      "required_for_installed_capacity_mmscfd": 1800,
+      "supply_gap_mmscfd": 1000,
+      "price_per_mmbtu": 2.50,
+      "delivery_points": [
+        {"plant": "Egbin", "allocation_mmscfd": 150},
+        {"plant": "Olorunsogo", "allocation_mmscfd": 80},
+        {"plant": "Omotosho", "allocation_mmscfd": 75},
+        {"plant": "Sapele", "allocation_mmscfd": 120},
+        {"plant": "Delta", "allocation_mmscfd": 100},
+        {"plant": "Afam", "allocation_mmscfd": 90},
+        {"plant": "Calabar", "allocation_mmscfd": 65},
+        {"plant": "Okpai", "allocation_mmscfd": 50},
+        {"plant": "Ihovbor", "allocation_mmscfd": 45},
+        {"plant": "Azura", "allocation_mmscfd": 25}
+      ]
+    },
+    "industrial": {
+      "current_demand_mmscfd": 350,
+      "supply_mmscfd": 200,
+      "major_consumers": [
+        {"company": "Dangote Cement", "consumption_mmscfd": 45},
+        {"company": "Lafarge", "consumption_mmscfd": 30},
+        {"company": "Indorama", "consumption_mmscfd": 35},
+        {"company": "Notore Chemicals", "consumption_mmscfd": 25},
+        {"company": "Steel Companies", "consumption_mmscfd": 20},
+        {"company": "Glass Industries", "consumption_mmscfd": 15},
+        {"company": "Others", "consumption_mmscfd": 30}
+      ]
+    }
+  },
+  "infrastructure": {
+    "processing_plants": [
+      {"name": "Bonny NLNG", "capacity_mtpa": 22, "trains": 6},
+      {"name": "Brass LNG", "capacity_mtpa": 10, "status": "Under development"},
+      {"name": "OK LNG", "capacity_mtpa": 8, "status": "Planned"},
+      {"name": "NLNG Train 7", "capacity_mtpa": 8, "status": "Under construction"}
+    ],
+    "gas_processing_facilities": [
+      {"name": "Escravos Gas Plant", "capacity_mmscfd": 680},
+      {"name": "Obiafu-Obrikom Gas Plant", "capacity_mmscfd": 560},
+      {"name": "Utorogu Gas Plant", "capacity_mmscfd": 390},
+      {"name": "Oben Gas Plant", "capacity_mmscfd": 450}
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "description": "Nigerian Livestock Population and Biogas Potential Data",
+    "last_updated": "2025-01-21",
+    "sources": ["FAO", "National Bureau of Statistics", "Federal Ministry of Agriculture and Rural Development"]
+  },
+  "national_livestock_statistics": {
+    "total_livestock_units_millions": 175.5,
+    "total_manure_production_million_tons_per_year": 285,
+    "total_biogas_potential_billion_m3_per_year": 18.5,
+    "methane_potential_billion_m3_per_year": 11.1,
+    "power_generation_potential_MW": 6200,
+    "households_that_could_be_supplied_millions": 12.4
+  },
+  "livestock_population_by_type": {
+    "cattle": {
+      "population_millions": 20.5,
+      "distribution": {
+        "north_west": 7.2,
+        "north_east": 5.8,
+        "north_central": 4.5,
+        "south_west": 1.5,
+        "south_south": 0.8,
+        "south_east": 0.7
+      },
+      "breeds": {
+        "white_fulani": {"percentage": 37, "average_weight_kg": 250},
+        "red_bororo": {"percentage": 22, "average_weight_kg": 280},
+        "sokoto_gudali": {"percentage": 18, "average_weight_kg": 320},
+        "adamawa_gudali": {"percentage": 12, "average_weight_kg": 300},
+        "azawak": {"percentage": 6, "average_weight_kg": 350},
+        "others": {"percentage": 5, "average_weight_kg": 270}
+      },
+      "manure_production": {
+        "daily_per_head_kg": 15,
+        "annual_total_million_tons": 112.2,
+        "dry_matter_content_percent": 18,
+        "biogas_yield_m3_per_ton_fresh": 40,
+        "methane_content_percent": 60
+      },
+      "management_systems": {
+        "nomadic_pastoral": {"percentage": 45, "manure_collectability": 0.15},
+        "semi_intensive": {"percentage": 35, "manure_collectability": 0.50},
+        "intensive_ranching": {"percentage": 15, "manure_collectability": 0.85},
+        "backyard": {"percentage": 5, "manure_collectability": 0.70}
+      }
+    },
+    "goats": {
+      "population_millions": 84.5,
+      "distribution": {
+        "north_west": 28.5,
+        "north_east": 22.3,
+        "north_central": 15.2,
+        "south_west": 8.5,
+        "south_south": 5.5,
+        "south_east": 4.5
+      },
+      "breeds": {
+        "red_sokoto": {"percentage": 40, "average_weight_kg": 25},
+        "west_african_dwarf": {"percentage": 35, "average_weight_kg": 20},
+        "sahel": {"percentage": 15, "average_weight_kg": 30},
+        "kano_brown": {"percentage": 10, "average_weight_kg": 23}
+      },
+      "manure_production": {
+        "daily_per_head_kg": 1.5,
+        "annual_total_million_tons": 46.3,
+        "dry_matter_content_percent": 25,
+        "biogas_yield_m3_per_ton_fresh": 55,
+        "methane_content_percent": 62
+      },
+      "management_systems": {
+        "free_range": {"percentage": 60, "manure_collectability": 0.10},
+        "semi_intensive": {"percentage": 30, "manure_collectability": 0.45},
+        "intensive": {"percentage": 10, "manure_collectability": 0.80}
+      }
+    },
+    "sheep": {
+      "population_millions": 46.2,
+      "distribution": {
+        "north_west": 16.5,
+        "north_east": 12.8,
+        "north_central": 8.3,
+        "south_west": 4.2,
+        "south_south": 2.4,
+        "south_east": 2.0
+      },
+      "breeds": {
+        "yankasa": {"percentage": 35, "average_weight_kg": 35},
+        "uda": {"percentage": 25, "average_weight_kg": 40},
+        "balami": {"percentage": 20, "average_weight_kg": 45},
+        "west_african_dwarf": {"percentage": 20, "average_weight_kg": 25}
+      },
+      "manure_production": {
+        "daily_per_head_kg": 1.8,
+        "annual_total_million_tons": 30.3,
+        "dry_matter_content_percent": 28,
+        "biogas_yield_m3_per_ton_fresh": 58,
+        "methane_content_percent": 61
+      },
+      "management_systems": {
+        "extensive_grazing": {"percentage": 55, "manure_collectability": 0.12},
+        "semi_intensive": {"percentage": 35, "manure_collectability": 0.48},
+        "intensive": {"percentage": 10, "manure_collectability": 0.82}
+      }
+    },
+    "pigs": {
+      "population_millions": 8.5,
+      "distribution": {
+        "south_west": 2.8,
+        "south_south": 2.2,
+        "south_east": 1.8,
+        "north_central": 1.2,
+        "north_west": 0.3,
+        "north_east": 0.2
+      },
+      "breeds": {
+        "local_breeds": {"percentage": 65, "average_weight_kg": 60},
+        "large_white": {"percentage": 20, "average_weight_kg": 120},
+        "duroc": {"percentage": 10, "average_weight_kg": 110},
+        "hampshire": {"percentage": 5, "average_weight_kg": 100}
+      },
+      "manure_production": {
+        "daily_per_head_kg": 5.5,
+        "annual_total_million_tons": 17.1,
+        "dry_matter_content_percent": 12,
+        "biogas_yield_m3_per_ton_fresh": 65,
+        "methane_content_percent": 65
+      },
+      "management_systems": {
+        "backyard": {"percentage": 70, "manure_collectability": 0.60},
+        "small_scale_commercial": {"percentage": 20, "manure_collectability": 0.85},
+        "large_scale_commercial": {"percentage": 10, "manure_collectability": 0.95}
+      }
+    },
+    "poultry": {
+      "population_millions": 185,
+      "distribution": {
+        "south_west": 55,
+        "south_south": 35,
+        "south_east": 30,
+        "north_central": 28,
+        "north_west": 22,
+        "north_east": 15
+      },
+      "types": {
+        "broilers": {"percentage": 35, "average_weight_kg": 2.5},
+        "layers": {"percentage": 30, "average_weight_kg": 1.8},
+        "local_chickens": {"percentage": 30, "average_weight_kg": 1.2},
+        "turkeys": {"percentage": 3, "average_weight_kg": 8},
+        "ducks": {"percentage": 2, "average_weight_kg": 2}
+      },
+      "manure_production": {
+        "daily_per_head_kg": 0.12,
+        "annual_total_million_tons": 8.1,
+        "dry_matter_content_percent": 22,
+        "biogas_yield_m3_per_ton_fresh": 70,
+        "methane_content_percent": 63
+      },
+      "management_systems": {
+        "backyard": {"percentage": 45, "manure_collectability": 0.35},
+        "small_scale_commercial": {"percentage": 30, "manure_collectability": 0.75},
+        "large_scale_commercial": {"percentage": 25, "manure_collectability": 0.90}
+      }
+    },
+    "horses_donkeys_camels": {
+      "horses": {
+        "population_thousands": 250,
+        "manure_kg_per_day": 20,
+        "biogas_yield_m3_per_ton": 35
+      },
+      "donkeys": {
+        "population_millions": 1.2,
+        "manure_kg_per_day": 12,
+        "biogas_yield_m3_per_ton": 38
+      },
+      "camels": {
+        "population_thousands": 350,
+        "manure_kg_per_day": 25,
+        "biogas_yield_m3_per_ton": 42
+      }
+    }
+  },
+  "biogas_production_potential": {
+    "by_livestock_type": {
+      "cattle": {
+        "collectable_manure_million_tons": 28.1,
+        "biogas_potential_billion_m3": 1.12,
+        "methane_billion_m3": 0.67,
+        "electricity_potential_MW": 750
+      },
+      "goats": {
+        "collectable_manure_million_tons": 9.3,
+        "biogas_potential_billion_m3": 0.51,
+        "methane_billion_m3": 0.32,
+        "electricity_potential_MW": 340
+      },
+      "sheep": {
+        "collectable_manure_million_tons": 6.4,
+        "biogas_potential_billion_m3": 0.37,
+        "methane_billion_m3": 0.23,
+        "electricity_potential_MW": 245
+      },
+      "pigs": {
+        "collectable_manure_million_tons": 12.0,
+        "biogas_potential_billion_m3": 0.78,
+        "methane_billion_m3": 0.51,
+        "electricity_potential_MW": 520
+      },
+      "poultry": {
+        "collectable_manure_million_tons": 5.3,
+        "biogas_potential_billion_m3": 0.37,
+        "methane_billion_m3": 0.23,
+        "electricity_potential_MW": 245
+      }
+    },
+    "by_region": {
+      "north_west": {
+        "total_biogas_billion_m3": 0.95,
+        "electricity_potential_MW": 630,
+        "suitable_for_grid_connection_MW": 180,
+        "suitable_for_mini_grid_MW": 250,
+        "suitable_for_standalone_MW": 200
+      },
+      "north_east": {
+        "total_biogas_billion_m3": 0.72,
+        "electricity_potential_MW": 480,
+        "suitable_for_grid_connection_MW": 120,
+        "suitable_for_mini_grid_MW": 200,
+        "suitable_for_standalone_MW": 160
+      },
+      "north_central": {
+        "total_biogas_billion_m3": 0.58,
+        "electricity_potential_MW": 385,
+        "suitable_for_grid_connection_MW": 150,
+        "suitable_for_mini_grid_MW": 135,
+        "suitable_for_standalone_MW": 100
+      },
+      "south_west": {
+        "total_biogas_billion_m3": 0.45,
+        "electricity_potential_MW": 300,
+        "suitable_for_grid_connection_MW": 180,
+        "suitable_for_mini_grid_MW": 80,
+        "suitable_for_standalone_MW": 40
+      },
+      "south_south": {
+        "total_biogas_billion_m3": 0.28,
+        "electricity_potential_MW": 185,
+        "suitable_for_grid_connection_MW": 100,
+        "suitable_for_mini_grid_MW": 55,
+        "suitable_for_standalone_MW": 30
+      },
+      "south_east": {
+        "total_biogas_billion_m3": 0.22,
+        "electricity_potential_MW": 145,
+        "suitable_for_grid_connection_MW": 85,
+        "suitable_for_mini_grid_MW": 40,
+        "suitable_for_standalone_MW": 20
+      }
+    }
+  },
+  "integrated_farming_systems": {
+    "abattoir_waste": {
+      "major_abattoirs": 285,
+      "daily_waste_tons": 850,
+      "blood_tons_per_day": 120,
+      "rumen_content_tons_per_day": 280,
+      "biogas_potential_million_m3_per_year": 45,
+      "electricity_potential_MW": 30
+    },
+    "dairy_farms": {
+      "commercial_farms": 450,
+      "average_herd_size": 150,
+      "manure_per_farm_tons_per_day": 2.25,
+      "biogas_per_farm_m3_per_day": 90,
+      "electricity_potential_kw_per_farm": 15
+    },
+    "poultry_farms": {
+      "large_scale_farms": 2800,
+      "average_bird_population": 25000,
+      "manure_per_farm_tons_per_day": 3,
+      "biogas_per_farm_m3_per_day": 210,
+      "electricity_potential_kw_per_farm": 35
+    },
+    "piggeries": {
+      "commercial_farms": 850,
+      "average_pig_population": 500,
+      "manure_per_farm_tons_per_day": 2.75,
+      "biogas_per_farm_m3_per_day": 179,
+      "electricity_potential_kw_per_farm": 30
+    }
+  },
+  "biogas_digester_technologies": {
+    "fixed_dome": {
+      "capacity_range_m3": "6-50",
+      "cost_per_m3_ngn": 85000,
+      "lifespan_years": 20,
+      "suitable_for": "Household, small farms",
+      "maintenance": "Low"
+    },
+    "floating_drum": {
+      "capacity_range_m3": "10-100",
+      "cost_per_m3_ngn": 95000,
+      "lifespan_years": 15,
+      "suitable_for": "Medium farms",
+      "maintenance": "Medium"
+    },
+    "tubular_bag": {
+      "capacity_range_m3": "4-20",
+      "cost_per_m3_ngn": 45000,
+      "lifespan_years": 8,
+      "suitable_for": "Small farms, rural areas",
+      "maintenance": "Low"
+    },
+    "cstr": {
+      "capacity_range_m3": "100-10000",
+      "cost_per_m3_ngn": 120000,
+      "lifespan_years": 25,
+      "suitable_for": "Large farms, industrial",
+      "maintenance": "High"
+    },
+    "lagoon_covered": {
+      "capacity_range_m3": "500-50000",
+      "cost_per_m3_ngn": 35000,
+      "lifespan_years": 20,
+      "suitable_for": "Very large farms",
+      "maintenance": "Low"
+    }
+  },
+  "economic_analysis": {
+    "investment_required": {
+      "small_scale_household_ngn": 450000,
+      "medium_farm_ngn": 5500000,
+      "large_commercial_ngn": 85000000,
+      "industrial_scale_ngn": 500000000
+    },
+    "payback_period_years": {
+      "with_electricity_generation": 3.5,
+      "with_cooking_gas_only": 5.5,
+      "with_organic_fertilizer_sales": 4.0,
+      "with_carbon_credits": 3.0
+    },
+    "revenue_streams": {
+      "electricity_ngn_per_kwh": 65,
+      "cooking_gas_equivalent_ngn_per_m3": 180,
+      "organic_fertilizer_ngn_per_ton": 25000,
+      "carbon_credits_usd_per_ton_co2e": 15
+    }
+  },
+  "environmental_benefits": {
+    "ghg_reduction": {
+      "methane_avoided_million_tons_co2e": 45,
+      "n2o_avoided_million_tons_co2e": 8,
+      "total_mitigation_million_tons_co2e": 53
+    },
+    "water_quality": {
+      "bod_reduction_percent": 85,
+      "cod_reduction_percent": 80,
+      "pathogen_reduction_percent": 99
+    },
+    "soil_improvement": {
+      "organic_matter_increase_percent": 25,
+      "nutrient_availability_increase_percent": 30,
+      "soil_carbon_sequestration_tons_per_ha": 2.5
+    }
+  },
+  "sofc_integration_with_biogas": {
+    "advantages": {
+      "efficiency_vs_ice_genset": "60% vs 35%",
+      "emissions_reduction": "95% lower NOx",
+      "noise_reduction_db": 45,
+      "maintenance_interval_hours": "40000 vs 8000"
+    },
+    "technical_requirements": {
+      "h2s_removal": "Required to <1ppm",
+      "siloxane_removal": "Required for digester gas",
+      "moisture_removal": "Condensation required",
+      "pressure_boost": "3-5 bar needed"
+    },
+    "deployment_scenarios": {
+      "large_farms": {
+        "capacity_range_kw": "100-500",
+        "capex_usd_per_kw": 3500,
+        "opex_percent_of_capex": 3,
+        "availability_percent": 96
+      },
+      "abattoirs": {
+        "capacity_range_kw": "250-1000",
+        "capex_usd_per_kw": 3200,
+        "opex_percent_of_capex": 2.5,
+        "availability_percent": 97
+      },
+      "cooperative_clusters": {
+        "capacity_range_kw": "50-200",
+        "capex_usd_per_kw": 3800,
+        "opex_percent_of_capex": 3.5,
+        "availability_percent": 95
+      }
+    },
+    "market_potential": {
+      "immediate_deployment_MW": 450,
+      "medium_term_5years_MW": 1200,
+      "long_term_10years_MW": 2500,
+      "job_creation": 35000
+    }
+  },
+  "policy_recommendations": {
+    "incentives": [
+      "Feed-in tariffs for biogas electricity",
+      "Subsidies for digester construction",
+      "Tax breaks for biogas equipment",
+      "Mandatory organic waste treatment"
+    ],
+    "regulations": [
+      "Waste management standards for farms",
+      "Environmental compliance requirements",
+      "Grid connection standards for biogas plants",
+      "Quality standards for bio-fertilizer"
+    ],
+    "support_programs": [
+      "Technical assistance for farmers",
+      "Soft loans for biogas projects",
+      "Research and development funding",
+      "Demonstration projects"
+    ]
+  }
+}

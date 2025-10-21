@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "description": "Nigerian Electricity Tariffs by Customer Class and DisCo",
+    "last_updated": "2025-01-21",
+    "currency": "NGN",
+    "unit": "per kWh",
+    "source": "Nigerian Electricity Regulatory Commission (NERC)"
+  },
+  "tariff_classes": {
+    "residential": {
+      "R1": {
+        "description": "Life Line (0-50kWh/month)",
+        "consumption_range": "0-50 kWh",
+        "average_tariff": 4.00,
+        "subsidized": true
+      },
+      "R2": {
+        "description": "Single Phase (>50kWh/month)",
+        "consumption_range": ">50 kWh",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 68.00},
+          "B": {"supply_hours": "16-20", "tariff": 55.80},
+          "C": {"supply_hours": "12-16", "tariff": 47.09},
+          "D": {"supply_hours": "8-12", "tariff": 39.30},
+          "E": {"supply_hours": "4-8", "tariff": 32.00}
+        }
+      },
+      "R3": {
+        "description": "Three Phase",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 71.00},
+          "B": {"supply_hours": "16-20", "tariff": 58.50},
+          "C": {"supply_hours": "12-16", "tariff": 49.75},
+          "D": {"supply_hours": "8-12", "tariff": 41.20},
+          "E": {"supply_hours": "4-8", "tariff": 34.00}
+        }
+      }
+    },
+    "commercial": {
+      "C1": {
+        "description": "Single Phase Commercial",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 90.50},
+          "B": {"supply_hours": "16-20", "tariff": 75.20},
+          "C": {"supply_hours": "12-16", "tariff": 62.85},
+          "D": {"supply_hours": "8-12", "tariff": 51.30},
+          "E": {"supply_hours": "4-8", "tariff": 42.00}
+        }
+      },
+      "C2": {
+        "description": "Three Phase LV Maximum Demand",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 94.00},
+          "B": {"supply_hours": "16-20", "tariff": 78.50},
+          "C": {"supply_hours": "12-16", "tariff": 65.40},
+          "D": {"supply_hours": "8-12", "tariff": 53.80},
+          "E": {"supply_hours": "4-8", "tariff": 44.00}
+        }
+      },
+      "C3": {
+        "description": "Three Phase HV Maximum Demand (11/33kV)",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 88.50},
+          "B": {"supply_hours": "16-20", "tariff": 73.80},
+          "C": {"supply_hours": "12-16", "tariff": 61.20},
+          "D": {"supply_hours": "8-12", "tariff": 50.40},
+          "E": {"supply_hours": "4-8", "tariff": 41.00}
+        }
+      }
+    },
+    "industrial": {
+      "D1": {
+        "description": "Industrial LV Maximum Demand",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 86.00},
+          "B": {"supply_hours": "16-20", "tariff": 71.50},
+          "C": {"supply_hours": "12-16", "tariff": 59.80},
+          "D": {"supply_hours": "8-12", "tariff": 48.90},
+          "E": {"supply_hours": "4-8", "tariff": 40.00}
+        }
+      },
+      "D2": {
+        "description": "Industrial 11kV Maximum Demand",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 82.50},
+          "B": {"supply_hours": "16-20", "tariff": 68.75},
+          "C": {"supply_hours": "12-16", "tariff": 57.30},
+          "D": {"supply_hours": "8-12", "tariff": 46.80},
+          "E": {"supply_hours": "4-8", "tariff": 38.00}
+        }
+      },
+      "D3": {
+        "description": "Industrial 33kV Maximum Demand",
+        "bands": {
+          "A": {"supply_hours": "20-24", "tariff": 79.00},
+          "B": {"supply_hours": "16-20", "tariff": 65.80},
+          "C": {"supply_hours": "12-16", "tariff": 54.85},
+          "D": {"supply_hours": "8-12", "tariff": 44.70},
+          "E": {"supply_hours": "4-8", "tariff": 36.50}
+        }
+      }
+    },
+    "special": {
+      "S1": {
+        "description": "Street Lighting",
+        "tariff": 35.00
+      },
+      "A1": {
+        "description": "Agriculture & Agro-Allied",
+        "tariff": 38.50
+      },
+      "A2": {
+        "description": "Water Boards",
+        "tariff": 40.00
+      },
+      "A3": {
+        "description": "Religious Houses",
+        "tariff": 42.00
+      }
+    }
+  },
+  "premium_power_options": {
+    "embedded_generation": {
+      "description": "Direct power supply from embedded generators",
+      "typical_tariff_range": "120-180 NGN/kWh",
+      "availability": "95-99%",
+      "providers": ["Azura Power", "Paras Energy", "Independent Power Producers"]
+    },
+    "bilateral_contracts": {
+      "description": "Direct contracts with generation companies",
+      "typical_tariff_range": "95-130 NGN/kWh",
+      "minimum_demand": "2MW",
+      "contract_duration": "2-10 years"
+    },
+    "captive_power": {
+      "diesel_generator": {
+        "fuel_cost": 850,
+        "fuel_unit": "NGN/liter",
+        "efficiency": 0.35,
+        "levelized_cost": "180-250 NGN/kWh"
+      },
+      "gas_generator": {
+        "fuel_cost": 150,
+        "fuel_unit": "NGN/scm",
+        "efficiency": 0.42,
+        "levelized_cost": "85-120 NGN/kWh"
+      }
+    }
+  },
+  "disco_specific_variations": {
+    "note": "Tariffs vary by ±5-10% across DisCos based on local conditions",
+    "highest_tariff_discos": ["Ikeja", "Eko", "Abuja"],
+    "lowest_tariff_discos": ["Yola", "Jos", "Kaduna"]
+  }
+}
