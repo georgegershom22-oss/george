@@ -1,0 +1,6 @@
+year,proven_reserves_tcf,daily_production_mmscf,annual_production_mmscf,power_generation_mmscf_per_day,industrial_use_mmscf_per_day,export_mmscf_per_day,domestic_consumption_mmscf_per_day,flared_mmscf_per_day,niger_delta_reserves_tcf,anambra_basin_reserves_tcf,sokoto_basin_reserves_tcf,other_reserves_tcf,reserves_to_production_ratio_years
+2020,200,3000,1095000,1050.0,750.0,600.0,450.0,150.0,140.0,30.0,20.0,10.0,66.7
+2021,202,3050,1113250,1067.5,762.5,610.0,457.5,152.5,141.4,30.3,20.2,10.1,66.2
+2022,204,3100,1131500,1085.0,775.0,620.0,465.0,155.0,142.8,30.6,20.4,10.2,65.8
+2023,206,3150,1149750,1102.5,787.5,630.0,472.5,157.5,144.2,30.9,20.6,10.3,65.4
+2024,208,3200,1168000,1120.0,800.0,640.0,480.0,160.0,145.6,31.2,20.8,10.4,65.0

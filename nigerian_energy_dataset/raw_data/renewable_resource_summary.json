@@ -1,0 +1,43 @@
+{
+  "agricultural_waste_summary": {
+    "total_crops_analyzed": 13,
+    "total_states": 37,
+    "total_years": 5,
+    "total_records": 2405
+  },
+  "livestock_summary": {
+    "total_livestock_types": 7,
+    "total_states": 37,
+    "total_years": 5,
+    "total_records": 1295
+  },
+  "biomass_potential_2024": {
+    "total_energy_potential_twh": 793.0680638888889,
+    "total_electricity_potential_mwh": 4750645.33218,
+    "total_biogas_potential_million_m3": 2375.3226660199994
+  },
+  "top_biomass_states_2024": {
+    "top_5_states_by_energy_potential": [
+      {
+        "state": "Katsina",
+        "total_energy_potential_twh": 40.16366111111111
+      },
+      {
+        "state": "Sokoto",
+        "total_energy_potential_twh": 38.87013888888889
+      },
+      {
+        "state": "Kano",
+        "total_energy_potential_twh": 38.45825555555555
+      },
+      {
+        "state": "Zamfara",
+        "total_energy_potential_twh": 36.55430833333334
+      },
+      {
+        "state": "Bauchi",
+        "total_energy_potential_twh": 35.37937222222222
+      }
+    ]
+  }
+}

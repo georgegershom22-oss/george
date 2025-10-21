@@ -1,0 +1,20 @@
+{
+  "natural_gas_summary": {
+    "proven_reserves_2024_tcf": 208.0,
+    "daily_production_2024_mmscf": 3200.0,
+    "annual_production_2024_mmscf": 1168000.0,
+    "flaring_2024_mmscf_per_day": 160.0,
+    "flaring_percentage_2024": 5.0
+  },
+  "pipeline_network_summary": {
+    "total_pipelines": 6,
+    "operational_pipelines": 5,
+    "total_length_km": 2263.0,
+    "total_capacity_mmscf_per_day": 6000.0
+  },
+  "fuel_prices_summary": {
+    "average_petrol_price_2024_naira_per_liter": 216.0124774774775,
+    "average_diesel_price_2024_naira_per_liter": 242.73396396396393,
+    "price_difference_2024_naira": 26.721509009009015
+  }
+}

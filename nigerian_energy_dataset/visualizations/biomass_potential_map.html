@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5db3a94e1133a61311c4e42b9be51c67 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; 
+                bottom: 50px; left: 50px; width: 200px; height: 120px; 
+                background-color: white; border:2px solid grey; z-index:9999; 
+                font-size:14px; padding: 10px">
+    <p><b>Biomass Potential</b></p>
+    <p><i class="fa fa-circle" style="color:green"></i> High (>1000 MWh)</p>
+    <p><i class="fa fa-circle" style="color:orange"></i> Medium (500-1000 MWh)</p>
+    <p><i class="fa fa-circle" style="color:red"></i> Low (<500 MWh)</p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_5db3a94e1133a61311c4e42b9be51c67" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5db3a94e1133a61311c4e42b9be51c67 = L.map(
+                "map_5db3a94e1133a61311c4e42b9be51c67",
+                {
+                    center: [9.0765, 7.3986],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a742af976726210dae02abe757478ce8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a742af976726210dae02abe757478ce8.addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+            var circle_marker_227232714193e82df5507c6b7a6e22b3 = L.circleMarker(
+                [8.577552512083836, 13.587607675371578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_57c9669fe2c8ab9fa57590ed02787a0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3245f44b409ee433713bed0499a6d50 = $(`<div id="html_f3245f44b409ee433713bed0499a6d50" style="width: 100.0%; height: 100.0%;">             <b>Abia</b><br>             Energy Potential: 14.62 TWh<br>             Electricity Potential: 100217.50 MWh<br>             Biogas Potential: 50.11 Million m³             </div>`)[0];
+                popup_57c9669fe2c8ab9fa57590ed02787a0a.setContent(html_f3245f44b409ee433713bed0499a6d50);
+            
+        
+
+        circle_marker_227232714193e82df5507c6b7a6e22b3.bindPopup(popup_57c9669fe2c8ab9fa57590ed02787a0a)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b0c57dfa6432f2e024a2b9347aac23 = L.circleMarker(
+                [8.49525337104275, 7.092915841401986],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_13c59fdfb5581391c1df0031e4bd163e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f708763689ba20ae58633064ff54946 = $(`<div id="html_6f708763689ba20ae58633064ff54946" style="width: 100.0%; height: 100.0%;">             <b>Adamawa</b><br>             Energy Potential: 25.80 TWh<br>             Electricity Potential: 83447.51 MWh<br>             Biogas Potential: 41.72 Million m³             </div>`)[0];
+                popup_13c59fdfb5581391c1df0031e4bd163e.setContent(html_6f708763689ba20ae58633064ff54946);
+            
+        
+
+        circle_marker_c3b0c57dfa6432f2e024a2b9347aac23.bindPopup(popup_13c59fdfb5581391c1df0031e4bd163e)
+        ;
+
+        
+    
+    
+            var circle_marker_27120ebf41e6a7a19818715f90b2bfe7 = L.circleMarker(
+                [11.004799061188958, 5.864241552983516],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_d87fa1430730bb6d1be57bff67f16eb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f42242592a0638b97cb66d930be58b08 = $(`<div id="html_f42242592a0638b97cb66d930be58b08" style="width: 100.0%; height: 100.0%;">             <b>Akwa Ibom</b><br>             Energy Potential: 9.80 TWh<br>             Electricity Potential: 128228.71 MWh<br>             Biogas Potential: 64.11 Million m³             </div>`)[0];
+                popup_d87fa1430730bb6d1be57bff67f16eb0.setContent(html_f42242592a0638b97cb66d930be58b08);
+            
+        
+
+        circle_marker_27120ebf41e6a7a19818715f90b2bfe7.bindPopup(popup_d87fa1430730bb6d1be57bff67f16eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_cc897f1babb8f38d467440126b4f3573 = L.circleMarker(
+                [10.857609146256713, 8.405927418581491],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_362ce634c71ca44a71edf86ac3e8b120 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_176dce6a18b080d16d7fb8f6fe7d9ce7 = $(`<div id="html_176dce6a18b080d16d7fb8f6fe7d9ce7" style="width: 100.0%; height: 100.0%;">             <b>Anambra</b><br>             Energy Potential: 17.61 TWh<br>             Electricity Potential: 154166.47 MWh<br>             Biogas Potential: 77.08 Million m³             </div>`)[0];
+                popup_362ce634c71ca44a71edf86ac3e8b120.setContent(html_176dce6a18b080d16d7fb8f6fe7d9ce7);
+            
+        
+
+        circle_marker_cc897f1babb8f38d467440126b4f3573.bindPopup(popup_362ce634c71ca44a71edf86ac3e8b120)
+        ;
+
+        
+    
+    
+            var circle_marker_82869aee67ab267f02b8b30fc8ad0be8 = L.circleMarker(
+                [8.303864552183382, 5.524335961674647],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_70344f0c69508ad64b3069a84a5e354c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73dac9acad6d4bb1f23c76c3c8d569e2 = $(`<div id="html_73dac9acad6d4bb1f23c76c3c8d569e2" style="width: 100.0%; height: 100.0%;">             <b>Bauchi</b><br>             Energy Potential: 35.38 TWh<br>             Electricity Potential: 180972.06 MWh<br>             Biogas Potential: 90.49 Million m³             </div>`)[0];
+                popup_70344f0c69508ad64b3069a84a5e354c.setContent(html_73dac9acad6d4bb1f23c76c3c8d569e2);
+            
+        
+
+        circle_marker_82869aee67ab267f02b8b30fc8ad0be8.bindPopup(popup_70344f0c69508ad64b3069a84a5e354c)
+        ;
+
+        
+    
+    
+            var circle_marker_bdb9a02695f63229f4a05f3af1dec348 = L.circleMarker(
+                [8.973418255798173, 11.442970084502067],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_a1d9e1ed20ef9b3643b185831f525f6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c3edda11910bed680378615075ff068 = $(`<div id="html_3c3edda11910bed680378615075ff068" style="width: 100.0%; height: 100.0%;">             <b>Bayelsa</b><br>             Energy Potential: 12.63 TWh<br>             Electricity Potential: 130648.04 MWh<br>             Biogas Potential: 65.32 Million m³             </div>`)[0];
+                popup_a1d9e1ed20ef9b3643b185831f525f6e.setContent(html_3c3edda11910bed680378615075ff068);
+            
+        
+
+        circle_marker_bdb9a02695f63229f4a05f3af1dec348.bindPopup(popup_a1d9e1ed20ef9b3643b185831f525f6e)
+        ;
+
+        
+    
+    
+            var circle_marker_194e6d53f28e13553aa38eec1f64b5e0 = L.circleMarker(
+                [10.667037643498581, 14.967334391679302],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_d8936162e1fc569082d72cb2775e40bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cee9982e3c68c435e96af33fb0c04e2b = $(`<div id="html_cee9982e3c68c435e96af33fb0c04e2b" style="width: 100.0%; height: 100.0%;">             <b>Benue</b><br>             Energy Potential: 7.32 TWh<br>             Electricity Potential: 79538.93 MWh<br>             Biogas Potential: 39.77 Million m³             </div>`)[0];
+                popup_d8936162e1fc569082d72cb2775e40bc.setContent(html_cee9982e3c68c435e96af33fb0c04e2b);
+            
+        
+
+        circle_marker_194e6d53f28e13553aa38eec1f64b5e0.bindPopup(popup_d8936162e1fc569082d72cb2775e40bc)
+        ;
+
+        
+    
+    
+            var circle_marker_5101ee1397d1cfaf25d5d3a3934ee179 = L.circleMarker(
+                [6.451126097801408, 8.623640718040686],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_cbb3bf65e3a8c341b22015520bd7e487 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72803ca7cbd4ebb7edb8e9b18e5b097d = $(`<div id="html_72803ca7cbd4ebb7edb8e9b18e5b097d" style="width: 100.0%; height: 100.0%;">             <b>Borno</b><br>             Energy Potential: 33.74 TWh<br>             Electricity Potential: 72609.01 MWh<br>             Biogas Potential: 36.30 Million m³             </div>`)[0];
+                popup_cbb3bf65e3a8c341b22015520bd7e487.setContent(html_72803ca7cbd4ebb7edb8e9b18e5b097d);
+            
+        
+
+        circle_marker_5101ee1397d1cfaf25d5d3a3934ee179.bindPopup(popup_cbb3bf65e3a8c341b22015520bd7e487)
+        ;
+
+        
+    
+    
+            var circle_marker_1de06c448f6cb928bdacac18011f3c8c = L.circleMarker(
+                [10.782545832176488, 5.413947613752505],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_d9ce2fe9d615cb6e695d9273fb66a547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9226c01464745f50d5f5b5ddce78437 = $(`<div id="html_a9226c01464745f50d5f5b5ddce78437" style="width: 100.0%; height: 100.0%;">             <b>Cross River</b><br>             Energy Potential: 6.68 TWh<br>             Electricity Potential: 119685.58 MWh<br>             Biogas Potential: 59.84 Million m³             </div>`)[0];
+                popup_d9ce2fe9d615cb6e695d9273fb66a547.setContent(html_a9226c01464745f50d5f5b5ddce78437);
+            
+        
+
+        circle_marker_1de06c448f6cb928bdacac18011f3c8c.bindPopup(popup_d9ce2fe9d615cb6e695d9273fb66a547)
+        ;
+
+        
+    
+    
+            var circle_marker_94d98bac598eff3319ae706f284cb4da = L.circleMarker(
+                [7.424035211074761, 11.885923411546615],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_920a787f163a306e2cab6a77d214adf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dbef0c1f76c51750a9b3554479d51d3 = $(`<div id="html_6dbef0c1f76c51750a9b3554479d51d3" style="width: 100.0%; height: 100.0%;">             <b>Delta</b><br>             Energy Potential: 10.03 TWh<br>             Electricity Potential: 129557.02 MWh<br>             Biogas Potential: 64.78 Million m³             </div>`)[0];
+                popup_920a787f163a306e2cab6a77d214adf5.setContent(html_6dbef0c1f76c51750a9b3554479d51d3);
+            
+        
+
+        circle_marker_94d98bac598eff3319ae706f284cb4da.bindPopup(popup_920a787f163a306e2cab6a77d214adf5)
+        ;
+
+        
+    
+    
+            var circle_marker_97bc0eda1f2f82296e1cbf3c2744bdb5 = L.circleMarker(
+                [11.258883937650438, 9.161964810126232],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_038e00ac2959bfeba6fff6970a8c7fac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87a25da696b9ad78f5d738fbcdcddb5b = $(`<div id="html_87a25da696b9ad78f5d738fbcdcddb5b" style="width: 100.0%; height: 100.0%;">             <b>Ebonyi</b><br>             Energy Potential: 15.30 TWh<br>             Electricity Potential: 99483.16 MWh<br>             Biogas Potential: 49.74 Million m³             </div>`)[0];
+                popup_038e00ac2959bfeba6fff6970a8c7fac.setContent(html_87a25da696b9ad78f5d738fbcdcddb5b);
+            
+        
+
+        circle_marker_97bc0eda1f2f82296e1cbf3c2744bdb5.bindPopup(popup_038e00ac2959bfeba6fff6970a8c7fac)
+        ;
+
+        
+    
+    
+            var circle_marker_288a3ef773ad81836fb0a7179c6785bd = L.circleMarker(
+                [7.792587470124221, 3.6239082577384356],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_ca4b2393d4daf7ed7a143df7e99bb089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ad59d3f06085cb2346e0d845c7237a = $(`<div id="html_75ad59d3f06085cb2346e0d845c7237a" style="width: 100.0%; height: 100.0%;">             <b>Edo</b><br>             Energy Potential: 16.75 TWh<br>             Electricity Potential: 68346.47 MWh<br>             Biogas Potential: 34.17 Million m³             </div>`)[0];
+                popup_ca4b2393d4daf7ed7a143df7e99bb089.setContent(html_75ad59d3f06085cb2346e0d845c7237a);
+            
+        
+
+        circle_marker_288a3ef773ad81836fb0a7179c6785bd.bindPopup(popup_ca4b2393d4daf7ed7a143df7e99bb089)
+        ;
+
+        
+    
+    
+            var circle_marker_f7fe58f83e37c631479fb04ea02bfcbe = L.circleMarker(
+                [9.85331260562677, 7.92555874618613],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_f1432a5d1efdd97ba6677b1516f40543 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac4602f5916110896064acdcbbb1832e = $(`<div id="html_ac4602f5916110896064acdcbbb1832e" style="width: 100.0%; height: 100.0%;">             <b>Ekiti</b><br>             Energy Potential: 18.57 TWh<br>             Electricity Potential: 120535.26 MWh<br>             Biogas Potential: 60.27 Million m³             </div>`)[0];
+                popup_f1432a5d1efdd97ba6677b1516f40543.setContent(html_ac4602f5916110896064acdcbbb1832e);
+            
+        
+
+        circle_marker_f7fe58f83e37c631479fb04ea02bfcbe.bindPopup(popup_f1432a5d1efdd97ba6677b1516f40543)
+        ;
+
+        
+    
+    
+            var circle_marker_6800f4537878fd291d1f5faa7b5f0825 = L.circleMarker(
+                [7.614822648778451, 3.6599683399346126],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_7aad42f31220e48f00b7aeb4f6b1c084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_398aaa1ea3def6ce77add8b1b7550ba8 = $(`<div id="html_398aaa1ea3def6ce77add8b1b7550ba8" style="width: 100.0%; height: 100.0%;">             <b>Enugu</b><br>             Energy Potential: 14.61 TWh<br>             Electricity Potential: 100943.40 MWh<br>             Biogas Potential: 50.47 Million m³             </div>`)[0];
+                popup_7aad42f31220e48f00b7aeb4f6b1c084.setContent(html_398aaa1ea3def6ce77add8b1b7550ba8);
+            
+        
+
+        circle_marker_6800f4537878fd291d1f5faa7b5f0825.bindPopup(popup_7aad42f31220e48f00b7aeb4f6b1c084)
+        ;
+
+        
+    
+    
+            var circle_marker_92976799ef648004cec7a805e5052ad6 = L.circleMarker(
+                [6.030478829533807, 7.458863216736599],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_c5bf732141116ac78cc253451662d943 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_483a9b791e37d18988aafb5ffe91f1fb = $(`<div id="html_483a9b791e37d18988aafb5ffe91f1fb" style="width: 100.0%; height: 100.0%;">             <b>FCT</b><br>             Energy Potential: 8.71 TWh<br>             Electricity Potential: 115455.92 MWh<br>             Biogas Potential: 57.73 Million m³             </div>`)[0];
+                popup_c5bf732141116ac78cc253451662d943.setContent(html_483a9b791e37d18988aafb5ffe91f1fb);
+            
+        
+
+        circle_marker_92976799ef648004cec7a805e5052ad6.bindPopup(popup_c5bf732141116ac78cc253451662d943)
+        ;
+
+        
+    
+    
+            var circle_marker_bcdd530713ac5174054b077545f6b3b6 = L.circleMarker(
+                [9.979923269247731, 4.502946476636115],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_c3d70dbdaf4a0e38004b6ad367c6c43d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c908c3a2a0711daed2dd42520b611315 = $(`<div id="html_c908c3a2a0711daed2dd42520b611315" style="width: 100.0%; height: 100.0%;">             <b>Gombe</b><br>             Energy Potential: 32.93 TWh<br>             Electricity Potential: 161597.78 MWh<br>             Biogas Potential: 80.80 Million m³             </div>`)[0];
+                popup_c3d70dbdaf4a0e38004b6ad367c6c43d.setContent(html_c908c3a2a0711daed2dd42520b611315);
+            
+        
+
+        circle_marker_bcdd530713ac5174054b077545f6b3b6.bindPopup(popup_c3d70dbdaf4a0e38004b6ad367c6c43d)
+        ;
+
+        
+    
+    
+            var circle_marker_10f96c589cd6110511363d7543c3c7b0 = L.circleMarker(
+                [9.130761884990301, 14.057335886462953],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_27adc53b6dc48f63f154563cc1869079 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbeb48f1fbeb9dab53f77007bb6baf87 = $(`<div id="html_fbeb48f1fbeb9dab53f77007bb6baf87" style="width: 100.0%; height: 100.0%;">             <b>Imo</b><br>             Energy Potential: 12.25 TWh<br>             Electricity Potential: 102240.42 MWh<br>             Biogas Potential: 51.12 Million m³             </div>`)[0];
+                popup_27adc53b6dc48f63f154563cc1869079.setContent(html_fbeb48f1fbeb9dab53f77007bb6baf87);
+            
+        
+
+        circle_marker_10f96c589cd6110511363d7543c3c7b0.bindPopup(popup_27adc53b6dc48f63f154563cc1869079)
+        ;
+
+        
+    
+    
+            var circle_marker_be2e0572b78707a21abca05117b7b291 = L.circleMarker(
+                [9.849159371932535, 12.992356864937017],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_97e2594178d508d46e5534b30a2a1121 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0f48da029814bb8b614a58ffca9a3af = $(`<div id="html_b0f48da029814bb8b614a58ffca9a3af" style="width: 100.0%; height: 100.0%;">             <b>Jigawa</b><br>             Energy Potential: 33.15 TWh<br>             Electricity Potential: 164213.63 MWh<br>             Biogas Potential: 82.11 Million m³             </div>`)[0];
+                popup_97e2594178d508d46e5534b30a2a1121.setContent(html_b0f48da029814bb8b614a58ffca9a3af);
+            
+        
+
+        circle_marker_be2e0572b78707a21abca05117b7b291.bindPopup(popup_97e2594178d508d46e5534b30a2a1121)
+        ;
+
+        
+    
+    
+            var circle_marker_85e661c100124e5601c2d8b82154d276 = L.circleMarker(
+                [11.697659609501859, 14.477934680275395],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_e63d369a90f3834e1788ecc85da40e15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74b94fd7b2f6b0051846c54f501c121 = $(`<div id="html_e74b94fd7b2f6b0051846c54f501c121" style="width: 100.0%; height: 100.0%;">             <b>Kaduna</b><br>             Energy Potential: 29.57 TWh<br>             Electricity Potential: 223538.16 MWh<br>             Biogas Potential: 111.77 Million m³             </div>`)[0];
+                popup_e63d369a90f3834e1788ecc85da40e15.setContent(html_e74b94fd7b2f6b0051846c54f501c121);
+            
+        
+
+        circle_marker_85e661c100124e5601c2d8b82154d276.bindPopup(popup_e63d369a90f3834e1788ecc85da40e15)
+        ;
+
+        
+    
+    
+            var circle_marker_0a656f49f1aaeae5bb626ab30e8fd1a5 = L.circleMarker(
+                [7.874166923203713, 6.187839663347097],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_989ae3722dd10f7a1d7d9e0922453c8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46ec81969cea75c584c80a4b8639c015 = $(`<div id="html_46ec81969cea75c584c80a4b8639c015" style="width: 100.0%; height: 100.0%;">             <b>Kano</b><br>             Energy Potential: 38.46 TWh<br>             Electricity Potential: 226814.22 MWh<br>             Biogas Potential: 113.41 Million m³             </div>`)[0];
+                popup_989ae3722dd10f7a1d7d9e0922453c8f.setContent(html_46ec81969cea75c584c80a4b8639c015);
+            
+        
+
+        circle_marker_0a656f49f1aaeae5bb626ab30e8fd1a5.bindPopup(popup_989ae3722dd10f7a1d7d9e0922453c8f)
+        ;
+
+        
+    
+    
+            var circle_marker_7ec4f2ae19f5ae0f16a08766263a2bea = L.circleMarker(
+                [11.63515565502826, 5.579355541635578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_58352a19573bcf21bf9d231ad4cdf92a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1f3bb3b87c0965e4b1c09ad928e33d2 = $(`<div id="html_c1f3bb3b87c0965e4b1c09ad928e33d2" style="width: 100.0%; height: 100.0%;">             <b>Katsina</b><br>             Energy Potential: 40.16 TWh<br>             Electricity Potential: 196126.88 MWh<br>             Biogas Potential: 98.06 Million m³             </div>`)[0];
+                popup_58352a19573bcf21bf9d231ad4cdf92a.setContent(html_c1f3bb3b87c0965e4b1c09ad928e33d2);
+            
+        
+
+        circle_marker_7ec4f2ae19f5ae0f16a08766263a2bea.bindPopup(popup_58352a19573bcf21bf9d231ad4cdf92a)
+        ;
+
+        
+    
+    
+            var circle_marker_8391b1ae783ffdb75cac8732c8859777 = L.circleMarker(
+                [6.048088348627368, 14.35028333964781],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_f88f22097672bde4b3fcce7ea3b79eaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6a83546b1d69c3b271f07ab5d294489 = $(`<div id="html_f6a83546b1d69c3b271f07ab5d294489" style="width: 100.0%; height: 100.0%;">             <b>Kebbi</b><br>             Energy Potential: 32.19 TWh<br>             Electricity Potential: 103086.10 MWh<br>             Biogas Potential: 51.54 Million m³             </div>`)[0];
+                popup_f88f22097672bde4b3fcce7ea3b79eaf.setContent(html_f6a83546b1d69c3b271f07ab5d294489);
+            
+        
+
+        circle_marker_8391b1ae783ffdb75cac8732c8859777.bindPopup(popup_f88f22097672bde4b3fcce7ea3b79eaf)
+        ;
+
+        
+    
+    
+            var circle_marker_3d4c96dbb47aa92c34127c154452a6d3 = L.circleMarker(
+                [7.141571568467508, 10.418936959050294],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_c2dda49ca72000ca816e028cc2067f86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66bc92281b15cfbdc715551d77d8f473 = $(`<div id="html_66bc92281b15cfbdc715551d77d8f473" style="width: 100.0%; height: 100.0%;">             <b>Kogi</b><br>             Energy Potential: 8.85 TWh<br>             Electricity Potential: 99083.37 MWh<br>             Biogas Potential: 49.54 Million m³             </div>`)[0];
+                popup_c2dda49ca72000ca816e028cc2067f86.setContent(html_66bc92281b15cfbdc715551d77d8f473);
+            
+        
+
+        circle_marker_3d4c96dbb47aa92c34127c154452a6d3.bindPopup(popup_c2dda49ca72000ca816e028cc2067f86)
+        ;
+
+        
+    
+    
+            var circle_marker_0ef4e70ae78ba1d26a144ca7500d786f = L.circleMarker(
+                [9.108079343496943, 4.168480940906086],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_523d62102529a9f630b44c7b4bce7213 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de28593d66ba6b6a9cd17d06ea22ff5c = $(`<div id="html_de28593d66ba6b6a9cd17d06ea22ff5c" style="width: 100.0%; height: 100.0%;">             <b>Kwara</b><br>             Energy Potential: 15.89 TWh<br>             Electricity Potential: 177510.15 MWh<br>             Biogas Potential: 88.76 Million m³             </div>`)[0];
+                popup_523d62102529a9f630b44c7b4bce7213.setContent(html_de28593d66ba6b6a9cd17d06ea22ff5c);
+            
+        
+
+        circle_marker_0ef4e70ae78ba1d26a144ca7500d786f.bindPopup(popup_523d62102529a9f630b44c7b4bce7213)
+        ;
+
+        
+    
+    
+            var circle_marker_bac0e886de0467c21d85305d957a49a8 = L.circleMarker(
+                [10.155964806787036, 12.99385122288713],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_9d5202b76bdb01f4233a554958212308 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e28dca2da6367f919e46969ff345235 = $(`<div id="html_3e28dca2da6367f919e46969ff345235" style="width: 100.0%; height: 100.0%;">             <b>Lagos</b><br>             Energy Potential: 19.42 TWh<br>             Electricity Potential: 94221.64 MWh<br>             Biogas Potential: 47.11 Million m³             </div>`)[0];
+                popup_9d5202b76bdb01f4233a554958212308.setContent(html_3e28dca2da6367f919e46969ff345235);
+            
+        
+
+        circle_marker_bac0e886de0467c21d85305d957a49a8.bindPopup(popup_9d5202b76bdb01f4233a554958212308)
+        ;
+
+        
+    
+    
+            var circle_marker_655750bb010b7e8a82c5a52292260be7 = L.circleMarker(
+                [6.453950495467412, 12.93120753509584],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_c7caf5f03512b0d8be1706c22333d738 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86340c41f0662c4ce4adb699cf91067d = $(`<div id="html_86340c41f0662c4ce4adb699cf91067d" style="width: 100.0%; height: 100.0%;">             <b>Nasarawa</b><br>             Energy Potential: 34.95 TWh<br>             Electricity Potential: 137365.28 MWh<br>             Biogas Potential: 68.68 Million m³             </div>`)[0];
+                popup_c7caf5f03512b0d8be1706c22333d738.setContent(html_86340c41f0662c4ce4adb699cf91067d);
+            
+        
+
+        circle_marker_655750bb010b7e8a82c5a52292260be7.bindPopup(popup_c7caf5f03512b0d8be1706c22333d738)
+        ;
+
+        
+    
+    
+            var circle_marker_a68402a017a655fb6e9d536776e1e1e9 = L.circleMarker(
+                [7.988834360959977, 3.534740004353986],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_c763de0f6fcb4299c11d30a5ffddd68a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39c37e0685dbad195226ef48ba75f9f2 = $(`<div id="html_39c37e0685dbad195226ef48ba75f9f2" style="width: 100.0%; height: 100.0%;">             <b>Niger</b><br>             Energy Potential: 23.70 TWh<br>             Electricity Potential: 111648.71 MWh<br>             Biogas Potential: 55.82 Million m³             </div>`)[0];
+                popup_c763de0f6fcb4299c11d30a5ffddd68a.setContent(html_39c37e0685dbad195226ef48ba75f9f2);
+            
+        
+
+        circle_marker_a68402a017a655fb6e9d536776e1e1e9.bindPopup(popup_c763de0f6fcb4299c11d30a5ffddd68a)
+        ;
+
+        
+    
+    
+            var circle_marker_d0244a7a65487e826c970b3d7a6b6bb5 = L.circleMarker(
+                [6.732419490983478, 9.189527406142261],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_416aa6b3c841ee4fe84cf8d1e98a4b44 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9073b151463f050e841c7d1cbd1cedb = $(`<div id="html_b9073b151463f050e841c7d1cbd1cedb" style="width: 100.0%; height: 100.0%;">             <b>Ogun</b><br>             Energy Potential: 12.83 TWh<br>             Electricity Potential: 164584.60 MWh<br>             Biogas Potential: 82.29 Million m³             </div>`)[0];
+                popup_416aa6b3c841ee4fe84cf8d1e98a4b44.setContent(html_b9073b151463f050e841c7d1cbd1cedb);
+            
+        
+
+        circle_marker_d0244a7a65487e826c970b3d7a6b6bb5.bindPopup(popup_416aa6b3c841ee4fe84cf8d1e98a4b44)
+        ;
+
+        
+    
+    
+            var circle_marker_cd8a5db3c8ca8a1c6a50e65b8ef468d3 = L.circleMarker(
+                [8.86718462439948, 13.737226693509115],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_665f7d0f1f728eaeec42c077976854d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce566653bc1406076131000c7a5de329 = $(`<div id="html_ce566653bc1406076131000c7a5de329" style="width: 100.0%; height: 100.0%;">             <b>Ondo</b><br>             Energy Potential: 15.90 TWh<br>             Electricity Potential: 116778.86 MWh<br>             Biogas Potential: 58.39 Million m³             </div>`)[0];
+                popup_665f7d0f1f728eaeec42c077976854d1.setContent(html_ce566653bc1406076131000c7a5de329);
+            
+        
+
+        circle_marker_cd8a5db3c8ca8a1c6a50e65b8ef468d3.bindPopup(popup_665f7d0f1f728eaeec42c077976854d1)
+        ;
+
+        
+    
+    
+            var circle_marker_0c319285287fa5c39f4d4def0c90eb0d = L.circleMarker(
+                [7.350510720303712, 11.043401101724205],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_b8b98ff3a810c38cc73bcfce71bb9f73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f618fea7be90140c0a952cb7b7594072 = $(`<div id="html_f618fea7be90140c0a952cb7b7594072" style="width: 100.0%; height: 100.0%;">             <b>Osun</b><br>             Energy Potential: 11.86 TWh<br>             Electricity Potential: 122884.71 MWh<br>             Biogas Potential: 61.44 Million m³             </div>`)[0];
+                popup_b8b98ff3a810c38cc73bcfce71bb9f73.setContent(html_f618fea7be90140c0a952cb7b7594072);
+            
+        
+
+        circle_marker_0c319285287fa5c39f4d4def0c90eb0d.bindPopup(popup_b8b98ff3a810c38cc73bcfce71bb9f73)
+        ;
+
+        
+    
+    
+            var circle_marker_49bab7efaefacac88c5e4004e5f114a4 = L.circleMarker(
+                [6.534054581132158, 9.77194878746579],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_611b6fd3490cbc67cf00eec45a0d8bb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_078db059f7c8a9df3bc57fabe4582154 = $(`<div id="html_078db059f7c8a9df3bc57fabe4582154" style="width: 100.0%; height: 100.0%;">             <b>Oyo</b><br>             Energy Potential: 18.52 TWh<br>             Electricity Potential: 174726.45 MWh<br>             Biogas Potential: 87.36 Million m³             </div>`)[0];
+                popup_611b6fd3490cbc67cf00eec45a0d8bb6.setContent(html_078db059f7c8a9df3bc57fabe4582154);
+            
+        
+
+        circle_marker_49bab7efaefacac88c5e4004e5f114a4.bindPopup(popup_611b6fd3490cbc67cf00eec45a0d8bb6)
+        ;
+
+        
+    
+    
+            var circle_marker_bbf570fa66d9f3a0af28590b6b2e5371 = L.circleMarker(
+                [9.87458344069024, 11.404861569829166],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_1c865706fc0e93d204c630d1da5d257b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8836d582b2bc01baefd8eadc2cf0d984 = $(`<div id="html_8836d582b2bc01baefd8eadc2cf0d984" style="width: 100.0%; height: 100.0%;">             <b>Plateau</b><br>             Energy Potential: 26.25 TWh<br>             Electricity Potential: 125501.13 MWh<br>             Biogas Potential: 62.75 Million m³             </div>`)[0];
+                popup_1c865706fc0e93d204c630d1da5d257b.setContent(html_8836d582b2bc01baefd8eadc2cf0d984);
+            
+        
+
+        circle_marker_bbf570fa66d9f3a0af28590b6b2e5371.bindPopup(popup_1c865706fc0e93d204c630d1da5d257b)
+        ;
+
+        
+    
+    
+            var circle_marker_e07cdddf6d36f11db22bd74bb2ec6e66 = L.circleMarker(
+                [11.579111997387143, 8.681347810699686],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_3e0986f82b0865442d05b3c8aba17313 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eec21071e44485afb3d915ae6b84015b = $(`<div id="html_eec21071e44485afb3d915ae6b84015b" style="width: 100.0%; height: 100.0%;">             <b>Rivers</b><br>             Energy Potential: 13.61 TWh<br>             Electricity Potential: 132037.08 MWh<br>             Biogas Potential: 66.02 Million m³             </div>`)[0];
+                popup_3e0986f82b0865442d05b3c8aba17313.setContent(html_eec21071e44485afb3d915ae6b84015b);
+            
+        
+
+        circle_marker_e07cdddf6d36f11db22bd74bb2ec6e66.bindPopup(popup_3e0986f82b0865442d05b3c8aba17313)
+        ;
+
+        
+    
+    
+            var circle_marker_a7a9de8a1531c833e21d71fa9d2387f6 = L.circleMarker(
+                [8.57544825562554, 8.487013215543747],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_1ac0dded3a843b93b73c6c415cf4ea88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c182af76aee3c0192d8cf8433cdba54a = $(`<div id="html_c182af76aee3c0192d8cf8433cdba54a" style="width: 100.0%; height: 100.0%;">             <b>Sokoto</b><br>             Energy Potential: 38.87 TWh<br>             Electricity Potential: 77179.16 MWh<br>             Biogas Potential: 38.59 Million m³             </div>`)[0];
+                popup_1ac0dded3a843b93b73c6c415cf4ea88.setContent(html_c182af76aee3c0192d8cf8433cdba54a);
+            
+        
+
+        circle_marker_a7a9de8a1531c833e21d71fa9d2387f6.bindPopup(popup_1ac0dded3a843b93b73c6c415cf4ea88)
+        ;
+
+        
+    
+    
+            var circle_marker_310f8412eff57b222182e8f49098acdd = L.circleMarker(
+                [11.42738493066891, 4.264857220432516],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_36eb84435af5f78ac52b6e83d7fed598 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d108dddf101e4c54fdbb7c351047ab5 = $(`<div id="html_1d108dddf101e4c54fdbb7c351047ab5" style="width: 100.0%; height: 100.0%;">             <b>Taraba</b><br>             Energy Potential: 23.30 TWh<br>             Electricity Potential: 106717.52 MWh<br>             Biogas Potential: 53.36 Million m³             </div>`)[0];
+                popup_36eb84435af5f78ac52b6e83d7fed598.setContent(html_1d108dddf101e4c54fdbb7c351047ab5);
+            
+        
+
+        circle_marker_310f8412eff57b222182e8f49098acdd.bindPopup(popup_36eb84435af5f78ac52b6e83d7fed598)
+        ;
+
+        
+    
+    
+            var circle_marker_bafcf06d0b6c099527c7243f93146429 = L.circleMarker(
+                [6.0429789877301, 3.4582582545046896],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_925e240cc088817f6d28c884d1571cd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8da0550b09b9c86232f2bd9ecb6282b3 = $(`<div id="html_8da0550b09b9c86232f2bd9ecb6282b3" style="width: 100.0%; height: 100.0%;">             <b>Yobe</b><br>             Energy Potential: 26.32 TWh<br>             Electricity Potential: 118885.92 MWh<br>             Biogas Potential: 59.44 Million m³             </div>`)[0];
+                popup_925e240cc088817f6d28c884d1571cd9.setContent(html_8da0550b09b9c86232f2bd9ecb6282b3);
+            
+        
+
+        circle_marker_bafcf06d0b6c099527c7243f93146429.bindPopup(popup_925e240cc088817f6d28c884d1571cd9)
+        ;
+
+        
+    
+    
+            var circle_marker_1616b116a5a747da3f7e2e2c44e6c6db = L.circleMarker(
+                [11.57485199709824, 9.253872699306584],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_5db3a94e1133a61311c4e42b9be51c67);
+        
+    
+        var popup_dea1eb9be8d40a3fa60434a8f01f4cc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc13fe65ac5bc6c382ab15e336cc8262 = $(`<div id="html_dc13fe65ac5bc6c382ab15e336cc8262" style="width: 100.0%; height: 100.0%;">             <b>Zamfara</b><br>             Energy Potential: 36.55 TWh<br>             Electricity Potential: 130068.49 MWh<br>             Biogas Potential: 65.03 Million m³             </div>`)[0];
+                popup_dea1eb9be8d40a3fa60434a8f01f4cc9.setContent(html_dc13fe65ac5bc6c382ab15e336cc8262);
+            
+        
+
+        circle_marker_1616b116a5a747da3f7e2e2c44e6c6db.bindPopup(popup_dea1eb9be8d40a3fa60434a8f01f4cc9)
+        ;
+
+        
+    
+</script>
+</html>
