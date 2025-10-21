@@ -1,0 +1,295 @@
+{
+  "dataset_metadata": {
+    "title": "Comprehensive SOFC Technical Dataset for Nigeria Analysis",
+    "description": "Technical and technological data for modeling SOFC performance and physical requirements in Nigeria's electricity crisis context",
+    "version": "1.0",
+    "created_date": "2025-10-21",
+    "focus_area": "Harnessing Domestic Gas for Power: A Techno-Economic and Socio-Political Analysis of Solid Oxide Fuel Cells (SOFCs) in Mitigating Nigeria's Electricity Crisis",
+    "data_sources": [
+      "Academic literature",
+      "Manufacturer technical reports (Bloom Energy, Siemens Energy, Rolls-Royce)",
+      "International Energy Agency (IEA) reports",
+      "Nigerian energy sector data",
+      "Environmental and climate data for Nigeria"
+    ],
+    "data_categories": [
+      "SOFC Performance Characteristics",
+      "Fuel Flexibility Specifications",
+      "Power Density and Sizing Data",
+      "Operational Characteristics",
+      "Nigeria-Specific Requirements",
+      "Manufacturer Specifications",
+      "Economic Analysis Data",
+      "Environmental Impact Data"
+    ]
+  },
+  
+  "performance_characteristics": {
+    "description": "Electrical and thermal efficiency data, degradation rates, and operational parameters",
+    "parameters": {
+      "electrical_efficiency_lhv": {
+        "unit": "percentage",
+        "range": "35-65%",
+        "typical_values": {
+          "residential": "48-55%",
+          "commercial": "50-58%",
+          "industrial": "55-62%",
+          "utility": "58-65%"
+        }
+      },
+      "thermal_efficiency": {
+        "unit": "percentage", 
+        "range": "30-40%",
+        "description": "Combined heat and power potential"
+      },
+      "degradation_rate": {
+        "unit": "% per 1000 hours",
+        "range": "0.35-1.5%",
+        "factors": ["operating_temperature", "fuel_quality", "cycling_frequency", "ambient_conditions"]
+      },
+      "stack_lifespan": {
+        "unit": "hours",
+        "range": "45000-78000",
+        "warranty_typical": "40000-60000 hours"
+      }
+    }
+  },
+  
+  "fuel_flexibility": {
+    "description": "Performance data with different fuel compositions available in Nigeria",
+    "nigerian_fuels": {
+      "pipeline_natural_gas": {
+        "composition": {
+          "CH4": "85.2%",
+          "C2H6": "8.5%",
+          "C3H8": "3.1%",
+          "CO2": "1.5%",
+          "H2S": "15 ppm"
+        },
+        "efficiency_impact": "-2.5%",
+        "preprocessing": ["desulfurization", "steam_reforming"],
+        "availability": "high",
+        "regional_source": "Niger Delta, Warri"
+      },
+      "associated_gas": {
+        "composition": {
+          "CH4": "82.1%",
+          "C2H6": "9.8%", 
+          "C3H8": "4.2%",
+          "CO2": "1.3%",
+          "H2S": "25 ppm"
+        },
+        "efficiency_impact": "-3.8%",
+        "preprocessing": ["desulfurization", "steam_reforming", "compression"],
+        "availability": "very_high",
+        "regional_source": "offshore and onshore fields"
+      },
+      "biogas_sources": {
+        "lagos_landfill": {
+          "CH4": "55.8%",
+          "CO2": "38.5%",
+          "efficiency_impact": "-12.5%",
+          "preprocessing": ["biogas_upgrading", "CO2_removal", "H2S_removal"]
+        },
+        "agricultural_waste": {
+          "CH4": "62.3%",
+          "CO2": "32.1%", 
+          "efficiency_impact": "-9.8%",
+          "availability": "high in northern zones"
+        }
+      },
+      "lpg": {
+        "propane_content": "52.8%",
+        "butane_content": "47.2%",
+        "efficiency_impact": "+1.95%",
+        "preprocessing": ["vaporization", "steam_reforming"],
+        "availability": "high from refineries and imports"
+      }
+    }
+  },
+  
+  "power_density_data": {
+    "description": "Power density specifications for sizing and footprint calculations",
+    "configurations": {
+      "planar_anode_supported": {
+        "power_density_kW_per_m2": "2.8-5.5",
+        "volumetric_density_kW_per_m3": "180-480",
+        "applications": ["residential", "commercial", "industrial", "utility"],
+        "nigerian_climate_suitability": "high to medium"
+      },
+      "tubular_cathode_supported": {
+        "power_density_kW_per_m2": "1.8-2.5", 
+        "volumetric_density_kW_per_m3": "120-175",
+        "applications": ["residential", "commercial", "industrial"],
+        "nigerian_climate_suitability": "high (dust resistant)"
+      },
+      "micro_tubular": {
+        "power_density_kW_per_m2": "4.2-6.0",
+        "volumetric_density_kW_per_m3": "350-500",
+        "applications": ["micro_CHP", "residential", "portable"],
+        "nigerian_climate_suitability": "very_high"
+      }
+    }
+  },
+  
+  "operational_characteristics": {
+    "description": "Start-up times, ramp rates, and backup power suitability",
+    "startup_performance": {
+      "cold_start": {
+        "residential": "75-300 minutes",
+        "commercial": "120-420 minutes", 
+        "industrial": "200-540 minutes",
+        "utility": "350-720 minutes"
+      },
+      "warm_start": {
+        "residential": "20-75 minutes",
+        "commercial": "30-105 minutes",
+        "industrial": "50-135 minutes", 
+        "utility": "90-180 minutes"
+      },
+      "hot_start": {
+        "residential": "8-25 minutes",
+        "commercial": "12-35 minutes",
+        "industrial": "18-45 minutes",
+        "utility": "30-60 minutes"
+      }
+    },
+    "ramp_rates": {
+      "ramp_up": "1.5-5.0% per minute",
+      "ramp_down": "2.0-6.0% per minute",
+      "load_following": "excellent for micro systems, good for larger systems"
+    },
+    "backup_power_assessment": {
+      "micro_systems": "excellent - fast start, high cycling capability",
+      "residential": "excellent - suitable for home backup",
+      "commercial": "good - moderate start times, reliable",
+      "industrial": "good - slower start but high reliability",
+      "utility": "fair - slow start, better for baseload"
+    }
+  },
+  
+  "nigeria_specific_requirements": {
+    "description": "Environmental conditions and technical requirements across Nigerian regions",
+    "climate_zones": {
+      "tropical_coastal": {
+        "locations": ["Lagos", "Port Harcourt", "Warri", "Calabar"],
+        "temperature": "27-29°C",
+        "humidity": "84-88%",
+        "corrosion_risk": "very_high",
+        "recommended_sofc": "micro_tubular or metal_supported",
+        "special_requirements": ["marine_grade_materials", "enhanced_cooling", "corrosion_protection"]
+      },
+      "guinea_savanna": {
+        "locations": ["Abuja", "Kaduna", "Ilorin", "Jos"],
+        "temperature": "22-27°C", 
+        "humidity": "58-70%",
+        "dust_level": "0.06-0.19 mg/m³",
+        "recommended_sofc": "planar_anode_supported",
+        "special_requirements": ["dust_filtration", "moderate_protection"]
+      },
+      "sudan_savanna": {
+        "locations": ["Kano", "Sokoto", "Maiduguri", "Yola"],
+        "temperature": "28-31°C",
+        "humidity": "35-50%",
+        "dust_level": "0.22-0.52 mg/m³", 
+        "recommended_sofc": "tubular_cathode_supported",
+        "special_requirements": ["heavy_dust_protection", "extreme_heat_resistance"]
+      }
+    },
+    "grid_conditions": {
+      "frequency": "50 Hz",
+      "voltage": "240V single phase, 415V three phase",
+      "stability_rating": "poor to very_poor",
+      "outage_hours_per_month": "70-200 hours",
+      "grid_code_compliance": "limited to partial for most manufacturers"
+    }
+  },
+  
+  "manufacturer_data": {
+    "description": "Specifications and market presence of major SOFC manufacturers",
+    "international_manufacturers": {
+      "bloom_energy": {
+        "technology": "planar_anode_supported",
+        "power_range": "100-400 kW",
+        "efficiency": "50-60%",
+        "nigeria_presence": "low",
+        "cost_range": "$4500-6500/kW",
+        "warranty": "10 years"
+      },
+      "siemens_energy": {
+        "technology": "planar_electrolyte_supported", 
+        "power_range": "30-300 kW",
+        "efficiency": "45-58%",
+        "nigeria_presence": "medium",
+        "local_partnership": "Siemens Nigeria",
+        "cost_range": "$5200-7800/kW",
+        "warranty": "15 years"
+      }
+    },
+    "potential_nigerian_initiatives": {
+      "nigerian_sofc_initiative": {
+        "type": "government_initiative",
+        "focus": "localized_sofc_development",
+        "power_range": "1-50 kW",
+        "estimated_cost": "$2000-4000/kW",
+        "timeline": "2-4 years development"
+      },
+      "university_research": {
+        "institutions": ["University of Lagos", "Ahmadu Bello University"],
+        "focus": "research_and_development",
+        "power_range": "0.1-10 kW",
+        "status": "research_phase"
+      }
+    }
+  },
+  
+  "economic_analysis": {
+    "description": "Cost data and economic viability for Nigerian market",
+    "cost_breakdown": {
+      "capital_costs": {
+        "residential": "$6800-12000/kW",
+        "commercial": "$4800-5800/kW", 
+        "industrial": "$4200-4800/kW",
+        "utility": "$3800-4200/kW"
+      },
+      "operational_costs": {
+        "maintenance": "$380-1500/kW/year",
+        "fuel_costs_nigeria": "$15-55/MWh",
+        "grid_tariff_nigeria": "$60-110/MWh"
+      },
+      "economic_viability": {
+        "flare_gas_applications": "excellent - LCOE $112/MWh",
+        "biogas_applications": "excellent - LCOE $145/MWh", 
+        "industrial_natural_gas": "very_good - LCOE $142/MWh",
+        "residential_applications": "marginal to good - LCOE $175-245/MWh"
+      }
+    }
+  },
+  
+  "environmental_impact": {
+    "description": "Environmental performance and compliance data",
+    "emissions_data": {
+      "natural_gas_sofc": {
+        "co2_emissions": "340-390 kg/MWh",
+        "nox_emissions": "8-17 g/MWh",
+        "sox_emissions": "1.2-2.5 g/MWh"
+      },
+      "biogas_sofc": {
+        "co2_emissions": "150-180 kg/MWh",
+        "carbon_negative_potential": "yes - up to -15.5 tCO2/year",
+        "environmental_score": "9.2-9.4/10"
+      },
+      "flare_gas_sofc": {
+        "co2_emissions": "0 kg/MWh (avoided emissions)",
+        "carbon_credit_potential": "-85.2 tCO2/year per MW",
+        "environmental_score": "9.8/10"
+      }
+    },
+    "nigerian_compliance": {
+      "environmental_standards": "good to excellent for most applications",
+      "noise_levels": "38-58 dB (within urban limits)",
+      "water_consumption": "70-280 L/MWh",
+      "land_use": "8-60 m²/MW"
+    }
+  }
+}

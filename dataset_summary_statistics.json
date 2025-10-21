@@ -1,0 +1,185 @@
+{
+  "dataset_summary_statistics": {
+    "total_records": {
+      "performance_characteristics": 26,
+      "fuel_flexibility": 20,
+      "power_density": 30,
+      "operational_characteristics": 30,
+      "nigeria_requirements": 30,
+      "manufacturer_data": 30,
+      "economic_data": 20,
+      "environmental_impact": 20,
+      "total_data_points": 206
+    },
+    
+    "key_performance_ranges": {
+      "electrical_efficiency_lhv": {
+        "minimum": "35%",
+        "maximum": "65%",
+        "median": "52%",
+        "residential_typical": "48-55%",
+        "commercial_typical": "50-58%",
+        "industrial_typical": "55-62%",
+        "utility_typical": "58-65%"
+      },
+      
+      "power_density": {
+        "area_based_kW_per_m2": {
+          "minimum": 1.8,
+          "maximum": 6.0,
+          "median": 3.4,
+          "best_technology": "micro_tubular"
+        },
+        "volumetric_kW_per_m3": {
+          "minimum": 120,
+          "maximum": 500,
+          "median": 240,
+          "best_technology": "micro_tubular"
+        }
+      },
+      
+      "economic_performance": {
+        "capital_cost_USD_per_kW": {
+          "minimum": 3800,
+          "maximum": 25500,
+          "residential_range": "6800-15000",
+          "commercial_range": "4800-7300",
+          "industrial_range": "4200-5800",
+          "utility_range": "3800-5100"
+        },
+        "lcoe_USD_per_MWh": {
+          "minimum": 112,
+          "maximum": 395,
+          "most_viable": "flare_gas_112",
+          "least_viable": "portable_395"
+        }
+      }
+    },
+    
+    "nigerian_fuel_analysis": {
+      "total_fuel_types": 20,
+      "natural_gas_variants": 8,
+      "biogas_sources": 4,
+      "lpg_options": 3,
+      "alternative_fuels": 5,
+      
+      "efficiency_impacts": {
+        "best_fuel": "hydrogen_rich_gas (+8.5%)",
+        "worst_fuel": "producer_gas_biomass (-25.2%)",
+        "nigerian_pipeline_ng": "-2.5%",
+        "nigerian_biogas_average": "-11.2%",
+        "nigerian_lpg": "+1.95%"
+      },
+      
+      "availability_assessment": {
+        "very_high": ["associated_gas", "flare_gas"],
+        "high": ["pipeline_ng", "lpg", "agricultural_biogas"],
+        "medium": ["non_associated_gas", "municipal_biogas", "cng"],
+        "low": ["refinery_gas", "lng", "upgraded_biogas"],
+        "very_low": ["coal_syngas", "shale_gas"]
+      }
+    },
+    
+    "regional_suitability_nigeria": {
+      "climate_zones_covered": 4,
+      "locations_analyzed": 30,
+      "suitability_scores": {
+        "highest": "Jos (7.8) - highland_savanna",
+        "lowest": "Gashua (3.2) - sahel_extreme",
+        "coastal_average": "6.4",
+        "savanna_average": "6.2",
+        "sahel_average": "4.1"
+      },
+      
+      "recommended_technologies_by_zone": {
+        "tropical_coastal": "micro_tubular, metal_supported",
+        "guinea_savanna": "planar_anode_supported", 
+        "sudan_savanna": "tubular_cathode_supported",
+        "sahel": "tubular_cathode_supported (extreme_protection)"
+      }
+    },
+    
+    "manufacturer_landscape": {
+      "total_manufacturers": 30,
+      "international_established": 20,
+      "nigerian_initiatives": 5,
+      "academic_research": 3,
+      "government_programs": 2,
+      
+      "nigeria_market_presence": {
+        "high": 1,
+        "medium": 4,
+        "low": 8,
+        "very_low": 15,
+        "none": 2
+      },
+      
+      "technology_distribution": {
+        "planar_anode_supported": 12,
+        "planar_electrolyte_supported": 4,
+        "tubular_cathode_supported": 6,
+        "micro_tubular": 4,
+        "metal_supported": 2,
+        "ceramic_matrix": 2
+      }
+    },
+    
+    "environmental_performance": {
+      "co2_emissions_range_kg_per_MWh": {
+        "minimum": 0,
+        "maximum": 920,
+        "natural_gas_sofc": "340-390",
+        "biogas_sofc": "150-180",
+        "flare_gas_sofc": "0 (avoided)",
+        "coal_syngas": "850-920"
+      },
+      
+      "carbon_credit_potential": {
+        "biogas_applications": "up to -15.5 tCO2/year",
+        "flare_gas_recovery": "up to -85.2 tCO2/year per MW",
+        "hydrogen_sofc": "up to -25.8 tCO2/year"
+      },
+      
+      "environmental_compliance_nigeria": {
+        "excellent": 8,
+        "very_good": 2,
+        "good": 6,
+        "fair": 3,
+        "poor": 1
+      }
+    },
+    
+    "economic_viability_assessment": {
+      "excellent_viability": {
+        "applications": ["flare_gas_recovery", "industrial_biogas", "utility_natural_gas"],
+        "lcoe_range": "112-145 USD/MWh",
+        "payback_period": "5.8-7.8 years"
+      },
+      
+      "good_viability": {
+        "applications": ["commercial_natural_gas", "distributed_systems"],
+        "lcoe_range": "148-168 USD/MWh", 
+        "payback_period": "8.1-9.5 years"
+      },
+      
+      "marginal_viability": {
+        "applications": ["residential_systems", "backup_power"],
+        "lcoe_range": "175-245 USD/MWh",
+        "payback_period": "10.8-15.2 years"
+      }
+    },
+    
+    "technical_readiness": {
+      "commercial_available": 18,
+      "pre_commercial": 6,
+      "development_phase": 4,
+      "research_phase": 2,
+      
+      "nigerian_deployment_readiness": {
+        "ready_now": ["bloom_energy", "siemens_energy", "ceres_power"],
+        "2-3_years": ["convion", "solid_power", "hexis"],
+        "5+ years": ["nigerian_initiatives", "university_programs"]
+      }
+    }
+  }
+}
