@@ -1,0 +1,27 @@
+# SOFC Nigeria Dataset Requirements
+# Python 3.8+
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.11.0
+
+# Data Handling
+openpyxl>=3.0.10  # For Excel export
+xlsxwriter>=3.0.0  # For Excel writing
+
+# Scientific Computing
+scipy>=1.9.0  # For statistical analysis
+
+# Optional but recommended
+jupyter>=1.0.0  # For interactive analysis
+notebook>=6.5.0  # Jupyter notebook
+ipywidgets>=8.0.0  # Interactive widgets
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2022.6

@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "dataset_name": "SOFC Power Density and Operational Characteristics",
+    "version": "1.0",
+    "creation_date": "2025-10-21",
+    "description": "Power density, startup, and operational characteristics for SOFC systems in Nigeria context"
+  },
+  "power_density": {
+    "cell_level": {
+      "planar_sofc": {
+        "current_density_ma_cm2": [100, 200, 300, 400, 500, 600, 700, 800],
+        "voltage_v": [0.85, 0.78, 0.73, 0.69, 0.65, 0.61, 0.57, 0.52],
+        "power_density_mw_cm2": [0.085, 0.156, 0.219, 0.276, 0.325, 0.366, 0.399, 0.416],
+        "operating_temperature_c": 750,
+        "active_area_utilization": 0.92
+      },
+      "tubular_sofc": {
+        "current_density_ma_cm2": [80, 160, 240, 320, 400, 480, 560],
+        "voltage_v": [0.87, 0.80, 0.75, 0.71, 0.67, 0.63, 0.58],
+        "power_density_mw_cm2": [0.070, 0.128, 0.180, 0.227, 0.268, 0.302, 0.325],
+        "operating_temperature_c": 800,
+        "active_area_utilization": 0.88
+      },
+      "microtubular_sofc": {
+        "current_density_ma_cm2": [150, 300, 450, 600, 750, 900],
+        "voltage_v": [0.82, 0.74, 0.68, 0.62, 0.56, 0.49],
+        "power_density_mw_cm2": [0.123, 0.222, 0.306, 0.372, 0.420, 0.441],
+        "operating_temperature_c": 700,
+        "active_area_utilization": 0.85
+      }
+    },
+    "stack_level": {
+      "volumetric_power_density": {
+        "planar_design": {
+          "kw_per_liter": 2.8,
+          "kw_per_m3": 2800,
+          "stack_volume_100kw_liters": 35.7,
+          "packing_efficiency": 0.78
+        },
+        "tubular_design": {
+          "kw_per_liter": 1.5,
+          "kw_per_m3": 1500,
+          "stack_volume_100kw_liters": 66.7,
+          "packing_efficiency": 0.65
+        },
+        "advanced_planar": {
+          "kw_per_liter": 4.2,
+          "kw_per_m3": 4200,
+          "stack_volume_100kw_liters": 23.8,
+          "packing_efficiency": 0.85
+        }
+      },
+      "gravimetric_power_density": {
+        "planar_design": {
+          "w_per_kg": 180,
+          "stack_weight_100kw_kg": 556,
+          "materials": ["yzia", "lscf", "metallic_interconnects"]
+        },
+        "tubular_design": {
+          "w_per_kg": 120,
+          "stack_weight_100kw_kg": 833,
+          "materials": ["ysz", "lsm", "ceramic_interconnects"]
+        }
+      }
+    },
+    "system_level": {
+      "footprint": {
+        "100kw_system": {
+          "area_m2": 12,
+          "height_m": 2.5,
+          "volume_m3": 30,
+          "power_density_kw_m2": 8.3,
+          "containerized": true
+        },
+        "250kw_system": {
+          "area_m2": 25,
+          "height_m": 2.8,
+          "volume_m3": 70,
+          "power_density_kw_m2": 10.0,
+          "containerized": true
+        },
+        "1mw_system": {
+          "area_m2": 80,
+          "height_m": 3.0,
+          "volume_m3": 240,
+          "power_density_kw_m2": 12.5,
+          "containerized": false
+        },
+        "5mw_system": {
+          "area_m2": 350,
+          "height_m": 3.5,
+          "volume_m3": 1225,
+          "power_density_kw_m2": 14.3,
+          "containerized": false
+        }
+      },
+      "balance_of_plant_requirements": {
+        "fuel_processing_volume_percent": 15,
+        "power_conditioning_volume_percent": 20,
+        "thermal_management_volume_percent": 25,
+        "control_system_volume_percent": 5,
+        "auxiliary_systems_volume_percent": 10,
+        "maintenance_access_volume_percent": 25
+      }
+    }
+  },
+  "startup_characteristics": {
+    "cold_start": {
+      "time_to_operating_temp_hours": {
+        "planar_sofc": 4,
+        "tubular_sofc": 8,
+        "microtubular_sofc": 2
+      },
+      "heating_rate_c_per_minute": {
+        "initial_phase": 2,
+        "intermediate_phase": 3,
+        "final_phase": 1
+      },
+      "energy_required_kwh_per_kw": 0.8,
+      "startup_fuel_consumption_nm3_per_kw": 0.5,
+      "stages": [
+        {
+          "stage": "purge",
+          "duration_minutes": 10,
+          "temperature_c": 25
+        },
+        {
+          "stage": "initial_heating",
+          "duration_minutes": 60,
+          "temperature_c": 300
+        },
+        {
+          "stage": "fuel_introduction",
+          "duration_minutes": 30,
+          "temperature_c": 450
+        },
+        {
+          "stage": "temperature_ramp",
+          "duration_minutes": 120,
+          "temperature_c": 700
+        },
+        {
+          "stage": "stabilization",
+          "duration_minutes": 30,
+          "temperature_c": 750
+        },
+        {
+          "stage": "load_acceptance",
+          "duration_minutes": 10,
+          "temperature_c": 750
+        }
+      ]
+    },
+    "warm_start": {
+      "from_temperature_c": 400,
+      "time_to_full_load_minutes": 45,
+      "energy_required_kwh_per_kw": 0.2,
+      "minimum_idle_temperature_c": 350
+    },
+    "hot_standby": {
+      "standby_temperature_c": 650,
+      "time_to_full_load_minutes": 10,
+      "standby_power_consumption_percent": 5,
+      "fuel_consumption_nm3_per_kw_hour": 0.02
+    }
+  },
+  "ramp_rates": {
+    "normal_operation": {
+      "ramp_up_percent_per_minute": 5,
+      "ramp_down_percent_per_minute": 10,
+      "emergency_ramp_down_percent_per_second": 20
+    },
+    "load_following": {
+      "minimum_stable_load_percent": 20,
+      "maximum_continuous_load_percent": 100,
+      "overload_capability": {
+        "110_percent_duration_minutes": 60,
+        "120_percent_duration_minutes": 10,
+        "125_percent_duration_minutes": 2
+      },
+      "response_time": {
+        "10_percent_step_seconds": 30,
+        "50_percent_step_seconds": 120,
+        "100_percent_step_minutes": 5
+      }
+    },
+    "grid_support": {
+      "frequency_response": {
+        "droop_percent": 5,
+        "deadband_hz": 0.03,
+        "response_time_seconds": 1
+      },
+      "voltage_support": {
+        "reactive_power_capability_percent": 30,
+        "power_factor_range": [0.85, 1.0],
+        "response_time_seconds": 0.5
+      }
+    }
+  },
+  "operational_modes": {
+    "baseload": {
+      "typical_load_percent": 85,
+      "efficiency_lhv": 59,
+      "availability_percent": 97,
+      "maintenance_interval_hours": 8000
+      },
+    "load_following": {
+      "load_range_percent": [30, 100],
+      "average_efficiency_lhv": 56,
+      "availability_percent": 95,
+      "maintenance_interval_hours": 6000
+    },
+    "peaking": {
+      "daily_starts": 2,
+      "operating_hours_per_day": 8,
+      "efficiency_lhv": 54,
+      "availability_percent": 92,
+      "maintenance_interval_hours": 4000
+    },
+    "backup_power": {
+      "startup_time_from_cold_minutes": 240,
+      "startup_time_from_standby_minutes": 10,
+      "reliability_percent": 99.9,
+      "fuel_storage_days": 3
+    },
+    "microgrid": {
+      "islanding_capability": true,
+      "black_start_capability": true,
+      "grid_forming_capability": true,
+      "droop_control": true,
+      "virtual_inertia": true
+    },
+    "chp_mode": {
+      "electrical_output_percent": 70,
+      "thermal_output_percent": 30,
+      "total_efficiency_percent": 85,
+      "heat_quality_c": 350
+    }
+  },
+  "environmental_conditions_nigeria": {
+    "ambient_temperature_impact": [
+      {
+        "ambient_temp_c": 20,
+        "power_output_correction": 1.03,
+        "efficiency_correction": 1.01
+      },
+      {
+        "ambient_temp_c": 25,
+        "power_output_correction": 1.00,
+        "efficiency_correction": 1.00
+      },
+      {
+        "ambient_temp_c": 30,
+        "power_output_correction": 0.97,
+        "efficiency_correction": 0.99
+      },
+      {
+        "ambient_temp_c": 35,
+        "power_output_correction": 0.94,
+        "efficiency_correction": 0.98
+      },
+      {
+        "ambient_temp_c": 40,
+        "power_output_correction": 0.91,
+        "efficiency_correction": 0.96
+      },
+      {
+        "ambient_temp_c": 45,
+        "power_output_correction": 0.88,
+        "efficiency_correction": 0.94
+      }
+    ],
+    "humidity_impact": [
+      {
+        "relative_humidity_percent": 40,
+        "power_correction": 1.02,
+        "degradation_multiplier": 0.9
+      },
+      {
+        "relative_humidity_percent": 60,
+        "power_correction": 1.00,
+        "degradation_multiplier": 1.0
+      },
+      {
+        "relative_humidity_percent": 80,
+        "power_correction": 0.98,
+        "degradation_multiplier": 1.1
+      },
+      {
+        "relative_humidity_percent": 95,
+        "power_correction": 0.95,
+        "degradation_multiplier": 1.3
+      }
+    ],
+    "altitude_correction": [
+      {
+        "altitude_m": 0,
+        "pressure_bar": 1.013,
+        "power_correction": 1.00
+      },
+      {
+        "altitude_m": 500,
+        "pressure_bar": 0.954,
+        "power_correction": 0.96
+      },
+      {
+        "altitude_m": 1000,
+        "pressure_bar": 0.899,
+        "power_correction": 0.92
+      },
+      {
+        "altitude_m": 1500,
+        "pressure_bar": 0.846,
+        "power_correction": 0.88
+      }
+    ],
+    "dust_and_particulates": {
+      "filtration_requirement_micron": 0.3,
+      "filter_replacement_interval_hours": 2000,
+      "power_loss_dirty_filter_percent": 2,
+      "nigeria_dust_loading_mg_m3": 0.5
+    }
+  },
+  "control_and_monitoring": {
+    "control_parameters": [
+      {
+        "parameter": "stack_temperature",
+        "setpoint": 750,
+        "range": [700, 800],
+        "control_accuracy_c": 2
+      },
+      {
+        "parameter": "fuel_utilization",
+        "setpoint": 85,
+        "range": [75, 90],
+        "control_accuracy_percent": 1
+      },
+      {
+        "parameter": "steam_to_carbon_ratio",
+        "setpoint": 2.5,
+        "range": [2.0, 3.0],
+        "control_accuracy": 0.05
+      },
+      {
+        "parameter": "stack_pressure",
+        "setpoint": 1.05,
+        "range": [1.0, 1.1],
+        "control_accuracy_bar": 0.002
+      }
+    ],
+    "monitoring_points": {
+      "temperatures": 48,
+      "pressures": 12,
+      "flows": 8,
+      "voltages": 120,
+      "currents": 24,
+      "gas_composition": 4
+    },
+    "data_acquisition": {
+      "sampling_rate_hz": 10,
+      "data_storage_gb_per_day": 2,
+      "remote_monitoring": true,
+      "predictive_maintenance": true
+    },
+    "safety_systems": {
+      "emergency_shutdown_time_seconds": 2,
+      "gas_detection_sensors": 8,
+      "fire_suppression": "co2_based",
+      "ventilation_air_changes_per_hour": 12
+    }
+  }
+}

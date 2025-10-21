@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "dataset_name": "SOFC Performance Characteristics for Nigeria Power Generation",
+    "version": "1.0",
+    "creation_date": "2025-10-21",
+    "description": "Technical performance data for Solid Oxide Fuel Cell systems applicable to Nigeria's electricity crisis mitigation",
+    "units": {
+      "efficiency": "percentage (%)",
+      "temperature": "Celsius (°C)",
+      "pressure": "bar",
+      "power": "kW",
+      "voltage": "V",
+      "current_density": "mA/cm²",
+      "degradation": "%/1000h"
+    }
+  },
+  "electrical_efficiency": {
+    "base_conditions": {
+      "temperature": 750,
+      "pressure": 1.0,
+      "fuel": "natural_gas"
+    },
+    "load_profiles": [
+      {
+        "load_percentage": 10,
+        "efficiency_lhv": 45.2,
+        "efficiency_hhv": 40.7,
+        "voltage": 0.65
+      },
+      {
+        "load_percentage": 20,
+        "efficiency_lhv": 48.5,
+        "efficiency_hhv": 43.7,
+        "voltage": 0.68
+      },
+      {
+        "load_percentage": 30,
+        "efficiency_lhv": 51.3,
+        "efficiency_hhv": 46.2,
+        "voltage": 0.71
+      },
+      {
+        "load_percentage": 40,
+        "efficiency_lhv": 53.8,
+        "efficiency_hhv": 48.4,
+        "voltage": 0.73
+      },
+      {
+        "load_percentage": 50,
+        "efficiency_lhv": 55.6,
+        "efficiency_hhv": 50.0,
+        "voltage": 0.75
+      },
+      {
+        "load_percentage": 60,
+        "efficiency_lhv": 57.2,
+        "efficiency_hhv": 51.5,
+        "voltage": 0.76
+      },
+      {
+        "load_percentage": 70,
+        "efficiency_lhv": 58.4,
+        "efficiency_hhv": 52.6,
+        "voltage": 0.77
+      },
+      {
+        "load_percentage": 80,
+        "efficiency_lhv": 59.1,
+        "efficiency_hhv": 53.2,
+        "voltage": 0.78
+      },
+      {
+        "load_percentage": 90,
+        "efficiency_lhv": 59.5,
+        "efficiency_hhv": 53.6,
+        "voltage": 0.77
+      },
+      {
+        "load_percentage": 100,
+        "efficiency_lhv": 60.0,
+        "efficiency_hhv": 54.0,
+        "voltage": 0.76
+      }
+    ],
+    "temperature_dependency": [
+      {
+        "temperature": 650,
+        "max_efficiency_lhv": 54.5,
+        "power_density_reduction": 25
+      },
+      {
+        "temperature": 700,
+        "max_efficiency_lhv": 57.2,
+        "power_density_reduction": 12
+      },
+      {
+        "temperature": 750,
+        "max_efficiency_lhv": 60.0,
+        "power_density_reduction": 0
+      },
+      {
+        "temperature": 800,
+        "max_efficiency_lhv": 61.5,
+        "power_density_reduction": -8
+      },
+      {
+        "temperature": 850,
+        "max_efficiency_lhv": 62.3,
+        "power_density_reduction": -15
+      }
+    ]
+  },
+  "thermal_efficiency": {
+    "chp_configurations": [
+      {
+        "configuration": "standard_chp",
+        "electrical_efficiency": 55,
+        "thermal_recovery": 30,
+        "total_efficiency": 85,
+        "heat_grade": "medium",
+        "heat_temperature": 350
+      },
+      {
+        "configuration": "high_temp_chp",
+        "electrical_efficiency": 52,
+        "thermal_recovery": 35,
+        "total_efficiency": 87,
+        "heat_grade": "high",
+        "heat_temperature": 450
+      },
+      {
+        "configuration": "electrical_priority",
+        "electrical_efficiency": 60,
+        "thermal_recovery": 20,
+        "total_efficiency": 80,
+        "heat_grade": "low",
+        "heat_temperature": 250
+      }
+    ],
+    "heat_recovery_options": [
+      {
+        "method": "steam_generation",
+        "efficiency": 85,
+        "temperature_output": 180,
+        "application": "industrial_process"
+      },
+      {
+        "method": "hot_water",
+        "efficiency": 90,
+        "temperature_output": 90,
+        "application": "district_heating"
+      },
+      {
+        "method": "absorption_cooling",
+        "efficiency": 70,
+        "temperature_output": -5,
+        "application": "cooling_nigeria_climate"
+      }
+    ]
+  },
+  "degradation_rates": {
+    "stack_lifetime_hours": 80000,
+    "warranty_period_hours": 40000,
+    "degradation_profiles": [
+      {
+        "period": "initial_1000h",
+        "voltage_degradation_rate": 0.5,
+        "power_degradation_rate": 0.6,
+        "cause": "initial_stabilization"
+      },
+      {
+        "period": "1000h_10000h",
+        "voltage_degradation_rate": 0.2,
+        "power_degradation_rate": 0.25,
+        "cause": "normal_operation"
+      },
+      {
+        "period": "10000h_40000h",
+        "voltage_degradation_rate": 0.15,
+        "power_degradation_rate": 0.18,
+        "cause": "stable_operation"
+      },
+      {
+        "period": "40000h_60000h",
+        "voltage_degradation_rate": 0.25,
+        "power_degradation_rate": 0.3,
+        "cause": "mid_life_degradation"
+      },
+      {
+        "period": "60000h_80000h",
+        "voltage_degradation_rate": 0.4,
+        "power_degradation_rate": 0.5,
+        "cause": "end_of_life"
+      }
+    ],
+    "factors_affecting_degradation": {
+      "thermal_cycling": {
+        "impact": "high",
+        "degradation_multiplier": 2.5,
+        "mitigation": "maintain_steady_operation"
+      },
+      "fuel_impurities": {
+        "sulfur": {
+          "threshold_ppm": 0.1,
+          "degradation_per_ppm": 0.5
+        },
+        "siloxanes": {
+          "threshold_ppm": 0.05,
+          "degradation_per_ppm": 1.2
+        }
+      },
+      "humidity": {
+        "optimal_range": "3-5%",
+        "degradation_outside_range": 0.1
+      },
+      "load_cycling": {
+        "cycles_per_day": {
+          "low": 1,
+          "medium": 5,
+          "high": 10
+        },
+        "additional_degradation": {
+          "low": 0.02,
+          "medium": 0.08,
+          "high": 0.15
+        }
+      }
+    }
+  }
+}
