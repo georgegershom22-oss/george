@@ -1,0 +1,29 @@
+Power_Plant,Location,State,Source_Type,Installed_Capacity_MW,Available_Capacity_MW,Operational_Status,Commission_Year,Operator,Efficiency_Percent,Fuel_Type,Capacity_Factor_Percent
+Egbin_Thermal,Ikorodu,Lagos,Gas,1320,780,Operational,1985,NERC,38.5,Natural Gas,42.3
+Afam_VI,Afam,Rivers,Gas,650,420,Operational,2008,Shell/SPDC,41.2,Natural Gas,45.8
+Jebba_Hydro,Jebba,Niger,Hydro,578.4,540,Operational,1984,Mainstream Energy,85.3,Hydro,68.4
+Kainji_Hydro,New Bussa,Niger,Hydro,760,580,Operational,1968,Mainstream Energy,82.1,Hydro,65.2
+Shiroro_Hydro,Shiroro,Niger,Hydro,600,520,Operational,1990,Mainstream Energy,84.5,Hydro,70.1
+Delta_IV,Ughelli,Delta,Gas,900,450,Operational,2003,NDPHC,42.8,Natural Gas,38.2
+Sapele,Sapele,Delta,Gas,1020,380,Operational,1978,NERC,35.2,Natural Gas,28.5
+Okpai,Okpai,Delta,Gas,480,420,Operational,2005,Agip,45.3,Natural Gas,52.1
+Omotosho_Phase_I,Ondo,Ondo,Gas,335,180,Operational,2005,NERC,38.9,Natural Gas,32.4
+Omotosho_Phase_II,Ondo,Ondo,Gas,225,150,Operational,2012,NDPHC,44.1,Natural Gas,41.8
+Geregu_I,Geregu,Kogi,Gas,414,320,Operational,2007,NDPHC,43.5,Natural Gas,48.3
+Geregu_II,Geregu,Kogi,Gas,434,380,Operational,2012,NDPHC,46.2,Natural Gas,54.2
+Olorunsogo_Phase_I,Ogun,Ogun,Gas,335,220,Operational,2007,NDPHC,40.1,Natural Gas,40.5
+Olorunsogo_Phase_II,Ogun,Ogun,Gas,225,180,Operational,2012,NDPHC,44.8,Natural Gas,49.2
+Alaoji_NIPP,Aba,Abia,Gas,1074,650,Operational,2015,NDPHC,45.6,Natural Gas,46.8
+Calabar_NIPP,Calabar,Cross River,Gas,561,380,Operational,2013,NDPHC,43.2,Natural Gas,44.1
+Ihovbor_NIPP,Benin,Edo,Gas,451,290,Operational,2014,NDPHC,42.4,Natural Gas,42.9
+Gbarain_NIPP,Yenagoa,Bayelsa,Gas,225,140,Operational,2012,NDPHC,41.8,Natural Gas,39.7
+Ibom_Power,Ikot Abasi,Akwa Ibom,Gas,190,160,Operational,2009,Akwa Ibom State,44.5,Natural Gas,51.3
+Azura_Edo_IPP,Benin,Edo,Gas,461,450,Operational,2018,Azura Power,52.3,Natural Gas,72.5
+Trans_Amadi,Port Harcourt,Rivers,Gas,100,45,Operational,1982,PHCN,32.1,Natural Gas,25.3
+Rivers_IPP,Omoku,Rivers,Gas,180,135,Operational,2010,Rivers State,43.7,Natural Gas,47.2
+Omoku,Omoku,Rivers,Gas,150,95,Operational,1993,NERC,36.4,Natural Gas,35.8
+Zungeru_Hydro,Zungeru,Niger,Hydro,700,650,Under Construction,2022,CCECC,86.2,Hydro,0.0
+Mambilla_Hydro,Mambilla Plateau,Taraba,Hydro,3050,0,Under Construction,2025,Sunrise Power,88.5,Hydro,0.0
+Kashimbila_Hydro,Takum,Taraba,Hydro,40,35,Operational,2018,FCTA,79.3,Hydro,62.4
+Gurara_II_Hydro,Gurara,Niger,Hydro,30,25,Operational,2019,FCT,78.8,Hydro,58.7
+Dadinkowa_Hydro,Gombe,Gombe,Hydro,40,30,Operational,1984,Gombe State,76.5,Hydro,55.3

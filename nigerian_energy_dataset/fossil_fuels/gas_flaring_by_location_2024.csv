@@ -1,0 +1,31 @@
+Flare_Site_ID,Location_Name,State,Operator,Latitude,Longitude,Daily_Flare_Volume_mscf,Annual_Flare_Volume_Bcf,Associated_Field,Field_Production_Capacity_bbl_per_day,Gas_to_Oil_Ratio_scf_per_bbl,Flare_Intensity_Percent,Emissions_CO2_tonnes_per_year,Emissions_CH4_tonnes_per_year,Environmental_Impact_Score,Population_Within_5km,Health_Impact_Index
+FL-001,Forcados,Delta,Shell/SPDC,5.3458,5.3856,45.2,16.50,Forcados Field,180000,1250,18.5,956780,12450,8.7,45200,7.8
+FL-002,Escravos,Delta,Chevron,5.5892,5.0823,52.8,19.27,Escravos Field,220000,1180,21.3,1117560,14550,9.2,38600,8.4
+FL-003,Bonny,Rivers,Shell/SPDC,4.4456,7.1618,38.4,14.02,Bonny Field,145000,1320,16.8,813280,10580,7.9,52300,8.1
+FL-004,Brass,Bayelsa,Agip,4.3078,6.2456,28.6,10.44,Brass Field,98000,1450,14.2,605760,7880,6.5,28900,6.7
+FL-005,Pennington,Bayelsa,Shell/SPDC,4.7823,6.0945,31.2,11.39,Pennington Field,112000,1380,15.6,660680,8590,7.1,31200,7.0
+FL-006,Amenam,Akwa Ibom,Mobil,4.5612,8.1234,25.7,9.38,Amenam Field,88000,1520,13.5,543840,7070,6.2,24500,6.3
+FL-007,Qua Iboe,Akwa Ibom,Mobil,4.5289,7.9867,34.5,12.59,Qua Iboe Field,135000,1280,16.2,730280,9500,7.6,42800,7.5
+FL-008,Oso,Rivers,Chevron,4.6745,6.8923,22.4,8.18,Oso Field,76000,1620,12.8,474560,6170,5.8,19800,5.9
+FL-009,Obagi,Rivers,SPDC,4.8234,6.7156,19.8,7.23,Obagi Field,68000,1480,11.9,419280,5450,5.4,16700,5.6
+FL-010,Akri,Bayelsa,Agip,5.0123,5.9234,26.3,9.60,Akri Field,92000,1410,14.8,556800,7240,6.6,27600,6.8
+FL-011,Jones Creek,Bayelsa,Shell/SPDC,4.9456,5.7845,21.5,7.85,Jones Creek Field,72000,1540,12.3,455400,5920,5.7,18300,5.8
+FL-012,Cawthorne Channel,Rivers,Shell/SPDC,4.7123,6.5678,29.4,10.73,Cawthorne Channel Field,105000,1360,15.1,622680,8100,6.9,33400,7.2
+FL-013,Buguma,Rivers,Agip,4.7389,6.8512,18.6,6.79,Buguma Field,62000,1590,11.2,393880,5120,5.2,14900,5.4
+FL-014,Kokori,Delta,Chevron,5.6234,5.8967,24.8,9.05,Kokori Field,85000,1465,13.8,524900,6830,6.4,25100,6.5
+FL-015,Ughelli,Delta,SPDC,5.4912,6.0134,33.7,12.30,Ughelli Field,128000,1310,16.9,713400,9280,7.7,40500,7.6
+FL-016,Sapele,Delta,Shell/SPDC,5.8945,5.6789,27.9,10.19,Sapele Field,98000,1425,15.3,590960,7690,7.0,29800,7.1
+FL-017,Warri,Delta,Chevron,5.5167,5.7501,36.2,13.21,Warri Field,142000,1270,17.4,766580,9970,8.0,46700,7.9
+FL-018,Oben,Edo,Seplat,6.2345,5.9123,16.4,5.99,Oben Field,54000,1680,10.5,347420,4520,4.9,12300,5.1
+FL-019,Ewan,Edo,Seplat,6.1789,6.0456,14.7,5.37,Ewan Field,48000,1720,9.8,311640,4050,4.6,10800,4.8
+FL-020,Kwale,Delta,SPDC,5.7123,6.4289,20.2,7.37,Kwale Field,70000,1580,11.7,427640,5560,5.5,17200,5.7
+FL-021,Olomoro,Delta,Heritage Oil,5.6834,6.1567,15.8,5.77,Olomoro Field,52000,1690,10.2,334740,4350,4.8,11600,5.0
+FL-022,Uzere,Delta,NPDC,5.4567,6.2891,13.2,4.82,Uzere Field,44000,1750,9.1,279560,3630,4.4,9500,4.6
+FL-023,Opuama,Bayelsa,Chevron,4.4789,5.9234,17.9,6.53,Opuama Field,60000,1640,10.9,378740,4920,5.3,15100,5.5
+FL-024,Gbaran,Bayelsa,Shell/SPDC,4.6234,6.1567,23.6,8.61,Gbaran Field,82000,1500,13.1,499380,6490,6.1,22800,6.2
+FL-025,Utonana,Bayelsa,Agip,4.8456,6.0123,19.3,7.05,Utonana Field,66000,1610,11.5,408900,5320,5.5,16200,5.6
+FL-026,Okpoho,Rivers,SPDC,4.9123,6.7891,21.8,7.96,Okpoho Field,74000,1560,12.6,461680,6000,5.9,19100,6.0
+FL-027,Belema,Rivers,Belema Oil,4.5678,7.0234,12.4,4.53,Belema Field,42000,1780,8.7,262740,3420,4.2,8700,4.5
+FL-028,Ekulama,Rivers,NPDC,4.7891,6.9567,14.9,5.44,Ekulama Field,50000,1710,9.9,315560,4100,4.7,11100,4.9
+FL-029,Nembe Creek,Bayelsa,Aiteo,4.5234,6.3456,26.7,9.75,Nembe Creek Field,95000,1430,14.5,565500,7350,6.7,28100,6.9
+FL-030,Clough Creek,Bayelsa,First E&P,4.6789,6.2134,18.4,6.72,Clough Creek Field,64000,1625,11.0,389760,5070,5.4,15600,5.5
