@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "ESCRAVOS",
+        "operator": "Chevron",
+        "state": "Delta",
+        "avg_flare_mscf_per_day": 32204.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.198,
+          5.604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "FORCADOS",
+        "operator": "SPDC",
+        "state": "Delta",
+        "avg_flare_mscf_per_day": 35976.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.486,
+          5.268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "BONNY",
+        "operator": "NLNG",
+        "state": "Rivers",
+        "avg_flare_mscf_per_day": 38497.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.17,
+          4.453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "UGHELLI",
+        "operator": "NPDC",
+        "state": "Delta",
+        "avg_flare_mscf_per_day": 37417.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0,
+          5.5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "QIT",
+        "operator": "Mobil",
+        "state": "Akwa Ibom",
+        "avg_flare_mscf_per_day": 29386.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.974,
+          4.335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "BONGA",
+        "operator": "SNEPCo",
+        "state": "Offshore",
+        "avg_flare_mscf_per_day": 47380.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5,
+          4.575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "AGBAMI",
+        "operator": "Chevron",
+        "state": "Offshore",
+        "avg_flare_mscf_per_day": 29467.0,
+        "provenance": "synthetic_fabricated",
+        "sources": "GGFR; NNPC; remote sensing studies"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0,
+          4.0
+        ]
+      }
+    }
+  ]
+}

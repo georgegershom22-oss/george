@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ELPS",
+        "status": "operational",
+        "design_capacity_mmscfd": 800.0,
+        "provenance": "synthetic_traced_from_public_maps",
+        "sources": "NNPC; NGC; media; WAGPCo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.2,
+            5.6
+          ],
+          [
+            5.6,
+            6.2
+          ],
+          [
+            3.4,
+            6.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AKK",
+        "status": "under_construction",
+        "design_capacity_mmscfd": 2000.0,
+        "provenance": "synthetic_traced_from_public_maps",
+        "sources": "NNPC; NGC; media; WAGPCo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.73,
+            7.93
+          ],
+          [
+            7.1,
+            9.25
+          ],
+          [
+            7.44,
+            10.52
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West African Gas Pipeline - Nigeria",
+        "status": "operational",
+        "design_capacity_mmscfd": 600.0,
+        "provenance": "synthetic_traced_from_public_maps",
+        "sources": "NNPC; NGC; media; WAGPCo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            3.4,
+            6.5
+          ],
+          [
+            2.9,
+            6.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ob/Ob to Bonny",
+        "status": "operational",
+        "design_capacity_mmscfd": 300.0,
+        "provenance": "synthetic_traced_from_public_maps",
+        "sources": "NNPC; NGC; media; WAGPCo"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.9,
+            5.4
+          ],
+          [
+            7.17,
+            4.45
+          ]
+        ]
+      }
+    }
+  ]
+}

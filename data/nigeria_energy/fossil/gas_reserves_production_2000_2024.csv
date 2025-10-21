@@ -1,0 +1,26 @@
+year,proven_reserves_tcf,production_bcf_per_day,marketed_bcf_per_day,gas_to_power_bcf_per_day,provenance,sources
+2000,160.9,4.3,3.59,1.11,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2001,162.4,4.39,3.48,0.89,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2002,162.5,3.67,2.99,1.04,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2003,165.8,4.2,3.46,1.11,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2004,167.8,5.22,4.1,1.14,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2005,169.8,5.18,4.1,1.25,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2006,173.8,4.83,3.91,1.28,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2007,176.2,3.89,3.14,0.94,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2008,177.0,5.36,4.26,1.28,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2009,178.5,5.5,4.51,1.4,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2010,179.7,5.41,4.51,1.32,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2011,183.5,5.22,4.07,1.21,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2012,183.1,5.23,4.09,1.21,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2013,185.5,5.59,4.56,1.17,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2014,185.9,5.87,4.63,1.38,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2015,193.4,5.98,4.7,1.45,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2016,192.1,5.57,4.55,1.19,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2017,192.6,5.2,4.21,1.44,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2018,195.5,6.13,5.05,1.62,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2019,198.6,4.87,4.0,1.34,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2020,198.5,6.48,5.27,1.68,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2021,202.9,6.92,5.45,1.84,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2022,205.7,6.44,5.36,1.35,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2023,204.0,6.36,4.99,1.58,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
+2024,206.9,7.29,5.92,1.85,synthetic_fabricated,NNPC; NGC; DPR; OPEC; BP; IEA
