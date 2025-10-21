@@ -1,0 +1,10 @@
+power_rating_kw,electrical_efficiency_percent,thermal_efficiency_percent,total_chp_efficiency_percent,heat_recovery_temperature_c,hot_water_capacity_kw,steam_generation_kg_h,applications
+1,55.93,33.9,89.83,66.8,1.0,16.4,"Residential, Small Commercial"
+5,53.65,28.24,81.89,84.3,6.0,93.0,"Residential, Small Commercial"
+10,57.47,31.27,88.74,74.9,9.5,169.8,"Residential, Small Commercial"
+25,52.59,30.43,83.02,82.1,28.5,456.2,"Commercial, Small Industrial"
+50,54.05,32.96,87.0,77.3,55.9,1247.7,"Commercial, Small Industrial"
+100,50.85,32.0,82.84,81.0,97.1,2364.0,"Industrial, District Heating"
+250,59.3,26.5,85.8,68.9,274.0,4768.3,"Industrial, District Heating"
+500,55.9,30.29,86.18,61.1,410.8,9158.8,"Large Industrial, Utility Scale"
+1000,58.19,26.11,84.3,83.8,1101.9,21309.1,"Large Industrial, Utility Scale"

@@ -1,0 +1,12 @@
+power_rating_kw,power_density_kw_m2,power_density_kw_m3,required_area_m2,required_volume_m3,stack_height_m,footprint_m2,system_type
+1,1.01,0.46,1.0,2.2,1.5,1.0,Micro-CHP
+5,1.06,0.37,4.7,13.6,3.7,4.7,Micro-CHP
+10,0.98,0.46,10.2,21.7,4.7,10.2,Micro-CHP
+25,1.03,0.46,24.2,54.5,7.4,24.2,Small Commercial
+50,1.18,0.63,42.3,79.9,8.9,42.3,Small Commercial
+100,1.15,0.64,87.2,156.1,12.5,87.2,Small Commercial
+250,1.5,0.96,166.6,259.1,16.1,166.6,Industrial
+500,1.89,0.79,265.1,632.9,25.2,265.1,Industrial
+1000,1.48,0.94,674.2,1060.5,32.6,674.2,Industrial
+2000,2.11,0.83,948.6,2421.8,49.2,948.6,Utility Scale
+5000,1.7,1.47,2947.3,3401.6,58.3,2947.3,Utility Scale

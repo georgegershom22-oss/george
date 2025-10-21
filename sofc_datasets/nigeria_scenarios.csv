@@ -1,0 +1,6 @@
+scenario_name,location,power_requirement_mw,fuel_source,application,estimated_efficiency_percent,annual_operation_hours,co2_reduction_tons_year,economic_viability,implementation_timeline_months,key_challenges,estimated_cost_usd_million
+Lagos Industrial Zone,Lagos State,50,Pipeline Natural Gas,Industrial Process Heat + Power,85,8000,25000,High,24,"Grid stability, Fuel supply reliability",45
+Abuja Government Complex,FCT Abuja,10,LPG + Natural Gas Backup,Critical Infrastructure Backup,82,8760,5000,Medium,18,"Initial capital cost, Maintenance expertise",12
+Kano Agricultural Processing,Kano State,25,Bio-methane from Agricultural Waste,Agricultural Processing + District Heating,78,6000,15000,Medium-High,30,"Biogas infrastructure, Feedstock supply",28
+Port Harcourt Oil & Gas,Rivers State,100,Associated Gas + Pipeline Natural Gas,Oil & Gas Facility Power,88,8500,45000,Very High,36,"Gas quality variations, Corrosive environment",85
+Kaduna Textile Industry,Kaduna State,15,Natural Gas + LPG Backup,Textile Manufacturing Process,84,7500,8000,High,20,"Steam quality requirements, Process integration",18

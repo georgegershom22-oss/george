@@ -1,0 +1,5 @@
+fuel_type,composition,lhv_mj_kg,efficiency_impact_percent,preprocessing_required,reforming_temperature_c,steam_carbon_ratio,availability_nigeria,cost_naira_per_m3,cost_naira_per_kg
+Pipeline Natural Gas,"CH4: 85-95%, C2H6: 3-8%, N2: 1-5%, CO2: 1-3%",45.5,0,"Desulfurization, Pressure regulation",800,2.5,High - Existing pipeline infrastructure,221.50118566242077,
+Bio-methane from Waste,"CH4: 60-80%, CO2: 20-40%, H2S: <100 ppm",35.8,-5,"Biogas upgrading, H2S removal, CO2 scrubbing",750,2.0,Medium - Limited biogas facilities,296.6865850926263,
+LPG (Propane/Butane),"C3H8: 60-80%, C4H10: 20-40%",46.4,-2,"Vaporization, Pressure regulation",850,3.0,High - Widespread LPG distribution,,452.4898243409599
+Syngas from Biomass,"H2: 30-50%, CO: 20-40%, CO2: 10-30%, CH4: 5-15%",12.5,-8,"Gasification, Tar removal, H2S removal",700,1.5,Low - Limited biomass gasification,157.4644485544338,

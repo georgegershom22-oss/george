@@ -1,0 +1,67 @@
+[
+  {
+    "manufacturer":"Bloom Energy",
+    "product_line":"Energy Server",
+    "power_range_kw":"200-1000",
+    "efficiency_lhv_percent":60,
+    "operating_temp_c":800,
+    "fuel_flexibility":"Natural Gas, Biogas, Hydrogen",
+    "degradation_rate_percent_1000h":0.5,
+    "warranty_years":10,
+    "price_usd_per_kw":8000,
+    "availability_nigeria":"Limited - Requires import",
+    "local_support":"No"
+  },
+  {
+    "manufacturer":"Siemens Energy",
+    "product_line":"SFC-200",
+    "power_range_kw":"100-500",
+    "efficiency_lhv_percent":58,
+    "operating_temp_c":850,
+    "fuel_flexibility":"Natural Gas, Syngas",
+    "degradation_rate_percent_1000h":0.7,
+    "warranty_years":8,
+    "price_usd_per_kw":7500,
+    "availability_nigeria":"Yes - Regional presence",
+    "local_support":"Yes"
+  },
+  {
+    "manufacturer":"Ceres Power",
+    "product_line":"SteelCell",
+    "power_range_kw":"1-100",
+    "efficiency_lhv_percent":55,
+    "operating_temp_c":600,
+    "fuel_flexibility":"Natural Gas, LPG, Biogas",
+    "degradation_rate_percent_1000h":0.3,
+    "warranty_years":12,
+    "price_usd_per_kw":6000,
+    "availability_nigeria":"No - UK based",
+    "local_support":"No"
+  },
+  {
+    "manufacturer":"FuelCell Energy",
+    "product_line":"SureSource",
+    "power_range_kw":"500-2000",
+    "efficiency_lhv_percent":57,
+    "operating_temp_c":650,
+    "fuel_flexibility":"Natural Gas, Biogas, Hydrogen",
+    "degradation_rate_percent_1000h":0.6,
+    "warranty_years":10,
+    "price_usd_per_kw":7000,
+    "availability_nigeria":"Limited",
+    "local_support":"Limited"
+  },
+  {
+    "manufacturer":"Sunfire",
+    "product_line":"SOEC\/SOFC",
+    "power_range_kw":"50-500",
+    "efficiency_lhv_percent":62,
+    "operating_temp_c":900,
+    "fuel_flexibility":"Natural Gas, Hydrogen, Steam",
+    "degradation_rate_percent_1000h":0.4,
+    "warranty_years":10,
+    "price_usd_per_kw":9000,
+    "availability_nigeria":"No - European",
+    "local_support":"No"
+  }
+]

@@ -1,0 +1,6 @@
+manufacturer,product_line,power_range_kw,efficiency_lhv_percent,operating_temp_c,fuel_flexibility,degradation_rate_percent_1000h,warranty_years,price_usd_per_kw,availability_nigeria,local_support
+Bloom Energy,Energy Server,200-1000,60,800,"Natural Gas, Biogas, Hydrogen",0.5,10,8000,Limited - Requires import,No
+Siemens Energy,SFC-200,100-500,58,850,"Natural Gas, Syngas",0.7,8,7500,Yes - Regional presence,Yes
+Ceres Power,SteelCell,1-100,55,600,"Natural Gas, LPG, Biogas",0.3,12,6000,No - UK based,No
+FuelCell Energy,SureSource,500-2000,57,650,"Natural Gas, Biogas, Hydrogen",0.6,10,7000,Limited,Limited
+Sunfire,SOEC/SOFC,50-500,62,900,"Natural Gas, Hydrogen, Steam",0.4,10,9000,No - European,No

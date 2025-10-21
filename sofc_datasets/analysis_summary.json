@@ -1,0 +1,31 @@
+{
+  "analysis_date": "2025-10-21T03:45:34.574590",
+  "datasets_analyzed": [
+    "electrical_efficiency",
+    "thermal_efficiency_chp",
+    "degradation_lifespan",
+    "fuel_flexibility",
+    "power_density",
+    "startup_ramp_rates",
+    "nigeria_scenarios",
+    "manufacturer_data",
+    "economic_analysis",
+    "environmental_impact",
+    "nigeria_grid_integration",
+    "socio_political_factors",
+    "technology_roadmap",
+    "detailed_performance_curves",
+    "material_specifications",
+    "operational_parameters",
+    "control_systems",
+    "maintenance_schedules",
+    "safety_specifications"
+  ],
+  "total_records": 505,
+  "key_findings": {
+    "technical_performance": "SOFC efficiency ranges from 35-62% LHV",
+    "economic_viability": "High viability for industrial applications",
+    "environmental_benefits": "50-80% CO2 reduction potential",
+    "nigeria_opportunities": "Strong demand due to grid reliability issues"
+  }
+}

@@ -1,0 +1,6 @@
+component,material_type,thickness_mm,porosity_percent,electrical_conductivity_s_cm,thermal_conductivity_w_mk,coefficient_thermal_expansion_1_k,mechanical_strength_mpa,operating_temperature_range_c,cost_usd_per_kg,supplier_availability,local_manufacturing_potential
+Anode,Ni-YSZ (Nickel-Yttria Stabilized Zirconia),0.5,35,1000.0,10.0,1.25e-05,200,600-1000,150,Multiple,Medium
+Cathode,LSM-YSZ (Lanthanum Strontium Manganite),0.05,30,100.0,2.0,1.1e-05,150,600-1000,800,Limited,Low
+Electrolyte,YSZ (Yttria Stabilized Zirconia),0.01,0,0.01,2.5,1.05e-05,300,600-1000,200,Good,High
+Interconnect,Crofer 22 APU (Ferritic Steel),2.0,0,10000.0,25.0,1.2e-05,400,600-800,50,Good,High
+Seal,Glass-Ceramic Seal,0.1,0,0.0,1.5,9e-06,100,600-800,300,Limited,Medium
