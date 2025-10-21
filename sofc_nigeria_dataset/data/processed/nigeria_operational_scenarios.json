@@ -1,0 +1,477 @@
+{
+  "metadata": {
+    "dataset_name": "SOFC Operational Scenarios for Nigeria",
+    "version": "1.0",
+    "creation_date": "2025-10-21",
+    "description": "Nigeria-specific operational scenarios, grid conditions, and deployment cases for SOFC systems"
+  },
+  "nigeria_power_sector_context": {
+    "grid_characteristics": {
+      "installed_capacity_mw": 12522,
+      "available_capacity_mw": 7652,
+      "peak_demand_mw": 15000,
+      "transmission_capacity_mw": 7500,
+      "distribution_losses_percent": 45,
+      "grid_frequency_hz": 50,
+      "frequency_variation_hz": [48, 52],
+      "voltage_levels_kv": [330, 132, 33, 11, 0.415],
+      "grid_collapse_events_per_year": 206
+    },
+    "regional_demand_profiles": {
+      "lagos": {
+        "peak_demand_mw": 2500,
+        "average_demand_mw": 1800,
+        "industrial_percent": 45,
+        "commercial_percent": 35,
+        "residential_percent": 20,
+        "load_factor": 0.72,
+        "outage_hours_per_month": 120
+      },
+      "kano": {
+        "peak_demand_mw": 800,
+        "average_demand_mw": 550,
+        "industrial_percent": 55,
+        "commercial_percent": 25,
+        "residential_percent": 20,
+        "load_factor": 0.69,
+        "outage_hours_per_month": 180
+      },
+      "port_harcourt": {
+        "peak_demand_mw": 1200,
+        "average_demand_mw": 900,
+        "industrial_percent": 60,
+        "commercial_percent": 25,
+        "residential_percent": 15,
+        "load_factor": 0.75,
+        "outage_hours_per_month": 150
+      },
+      "abuja": {
+        "peak_demand_mw": 900,
+        "average_demand_mw": 650,
+        "industrial_percent": 30,
+        "commercial_percent": 45,
+        "residential_percent": 25,
+        "load_factor": 0.72,
+        "outage_hours_per_month": 100
+      }
+    },
+    "electricity_tariffs": {
+      "residential_ngn_kwh": 68,
+      "commercial_ngn_kwh": 85,
+      "industrial_ngn_kwh": 76,
+      "special_industrial_ngn_kwh": 65,
+      "diesel_generation_cost_ngn_kwh": 180,
+      "solar_lcoe_ngn_kwh": 95
+    }
+  },
+  "operational_scenarios": {
+    "industrial_backup_power": {
+      "description": "SOFC system providing backup power for critical industrial operations",
+      "typical_size_kw": 500,
+      "configuration": "grid_parallel_with_islanding",
+      "operational_profile": {
+        "grid_available_hours_per_day": 16,
+        "sofc_operation_mode": "load_following",
+        "average_load_percent": 70,
+        "peak_load_percent": 95,
+        "minimum_load_percent": 30
+      },
+      "performance_metrics": {
+        "annual_operating_hours": 8760,
+        "capacity_factor": 0.75,
+        "electrical_efficiency_average": 56,
+        "fuel_consumption_nm3_year": 1050000,
+        "co2_avoided_tonnes_year": 850
+      },
+      "economic_parameters": {
+        "capex_million_ngn": 900,
+        "opex_million_ngn_year": 45,
+        "fuel_cost_million_ngn_year": 126,
+        "electricity_value_million_ngn_year": 298,
+        "payback_period_years": 4.2,
+        "irr_percent": 22,
+        "npv_million_ngn": 650
+      },
+      "technical_requirements": {
+        "fuel_supply": "pipeline_natural_gas",
+        "fuel_pressure_bar": 4,
+        "cooling_method": "air_cooled",
+        "grid_synchronization": "automatic",
+        "black_start_capability": true
+      }
+    },
+    "commercial_building_chp": {
+      "description": "Combined heat and power for hotels, hospitals, and shopping centers",
+      "typical_size_kw": 250,
+      "configuration": "chp_grid_connected",
+      "operational_profile": {
+        "daily_operation": [
+          {"hour": 0, "electric_load_kw": 100, "thermal_load_kw": 50},
+          {"hour": 6, "electric_load_kw": 150, "thermal_load_kw": 100},
+          {"hour": 12, "electric_load_kw": 225, "thermal_load_kw": 150},
+          {"hour": 18, "electric_load_kw": 200, "thermal_load_kw": 120},
+          {"hour": 22, "electric_load_kw": 125, "thermal_load_kw": 60}
+        ],
+        "seasonal_variation": {
+          "dry_season_multiplier": 1.1,
+          "rainy_season_multiplier": 0.9
+        }
+      },
+      "performance_metrics": {
+        "annual_operating_hours": 8400,
+        "electrical_efficiency": 55,
+        "thermal_efficiency": 30,
+        "total_efficiency": 85,
+        "electricity_generated_mwh_year": 1680,
+        "thermal_energy_mwh_year": 915,
+        "fuel_consumption_nm3_year": 550000
+      },
+      "applications": {
+        "hotel": {
+          "hot_water": true,
+          "laundry_steam": true,
+          "absorption_cooling": true,
+          "pool_heating": true
+        },
+        "hospital": {
+          "sterilization": true,
+          "hot_water": true,
+          "space_heating": false,
+          "absorption_cooling": true
+        },
+        "shopping_center": {
+          "absorption_cooling": true,
+          "hot_water": false,
+          "space_conditioning": true
+        }
+      }
+    },
+    "telecom_tower_power": {
+      "description": "Primary or backup power for telecommunication infrastructure",
+      "typical_size_kw": 10,
+      "configuration": "off_grid_primary",
+      "sites_in_nigeria": 53000,
+      "addressable_market_sites": 15000,
+      "operational_profile": {
+        "power_requirement_kw": 8,
+        "battery_backup_hours": 4,
+        "diesel_replacement": true,
+        "solar_hybrid": true
+      },
+      "performance_metrics": {
+        "availability_percent": 99.9,
+        "electrical_efficiency": 58,
+        "fuel_consumption_nm3_day": 40,
+        "diesel_displaced_liters_year": 26000,
+        "co2_reduction_tonnes_year": 70
+      },
+      "deployment_model": {
+        "ownership": "energy_as_a_service",
+        "contract_term_years": 10,
+        "monthly_fee_ngn": 450000,
+        "diesel_baseline_cost_ngn_month": 780000,
+        "savings_percent": 42
+      }
+    },
+    "agricultural_processing": {
+      "description": "Power for agricultural processing facilities and cold storage",
+      "typical_size_kw": 100,
+      "configuration": "standalone_with_grid_backup",
+      "applications": [
+        "rice_mills",
+        "cassava_processing",
+        "cold_storage",
+        "dairy_processing",
+        "poultry_farms"
+      ],
+      "operational_profile": {
+        "seasonal_operation": {
+          "harvest_season_days": 120,
+          "off_season_days": 245,
+          "harvest_load_factor": 0.85,
+          "off_season_load_factor": 0.40
+        },
+        "daily_pattern": {
+          "processing_hours": 16,
+          "cold_storage_hours": 24,
+          "peak_load_kw": 85,
+          "base_load_kw": 30
+        }
+      },
+      "fuel_options": {
+        "primary": "pipeline_natural_gas",
+        "alternative": "biogas_from_agricultural_waste",
+        "backup": "lpg"
+      },
+      "value_proposition": {
+        "reduced_post_harvest_loss_percent": 25,
+        "increased_processing_capacity_percent": 40,
+        "power_cost_reduction_percent": 35,
+        "carbon_neutral_potential": true
+      }
+    },
+    "residential_estate_microgrid": {
+      "description": "Distributed generation for gated communities and estates",
+      "typical_size_kw": 500,
+      "configuration": "microgrid_with_storage",
+      "homes_served": 200,
+      "operational_profile": {
+        "base_load_kw": 150,
+        "evening_peak_kw": 450,
+        "night_minimum_kw": 100,
+        "weekend_peak_kw": 400
+      },
+      "system_components": {
+        "sofc_units": 2,
+        "battery_storage_kwh": 500,
+        "solar_pv_kw": 200,
+        "smart_meters": 200,
+        "distribution_network": "underground_11kv"
+      },
+      "performance_metrics": {
+        "availability_percent": 99.5,
+        "renewable_fraction": 0.25,
+        "efficiency_overall": 54,
+        "line_losses_percent": 3,
+        "demand_response_capability": true
+      },
+      "business_model": {
+        "developer_owned": true,
+        "connection_fee_ngn": 250000,
+        "monthly_service_charge_ngn": 15000,
+        "energy_charge_ngn_kwh": 75,
+        "prepaid_metering": true
+      }
+    },
+    "data_center_prime_power": {
+      "description": "Primary power for data centers with grid backup",
+      "typical_size_mw": 2,
+      "configuration": "n_plus_1_redundancy",
+      "tier_level": 3,
+      "operational_profile": {
+        "it_load_mw": 1.5,
+        "cooling_load_mw": 0.4,
+        "pue": 1.3,
+        "load_factor": 0.85
+      },
+      "performance_requirements": {
+        "availability_percent": 99.982,
+        "mtbf_hours": 50000,
+        "mttr_hours": 4,
+        "startup_time_minutes": 240,
+        "transfer_time_ms": 10
+      },
+      "cooling_integration": {
+        "absorption_chiller_integration": true,
+        "free_cooling_hours_year": 2000,
+        "water_usage_reduction_percent": 40
+      },
+      "economic_benefits": {
+        "energy_cost_savings_percent": 30,
+        "carbon_credits_value_million_ngn_year": 12,
+        "reduced_diesel_backup": true,
+        "green_certification": true
+      }
+    },
+    "industrial_park_central_plant": {
+      "description": "Central power plant for industrial parks and free trade zones",
+      "typical_size_mw": 10,
+      "configuration": "central_generation_distribution",
+      "customers_served": 50,
+      "operational_profile": {
+        "base_load_mw": 6,
+        "peak_load_mw": 9,
+        "minimum_load_mw": 3,
+        "load_diversity_factor": 0.75
+      },
+      "fuel_infrastructure": {
+        "gas_pipeline_diameter_inch": 12,
+        "gas_pressure_bar": 20,
+        "gas_metering": "ultrasonic",
+        "backup_fuel": "lng_storage",
+        "lng_storage_days": 7
+      },
+      "distribution_system": {
+        "voltage_level_kv": 33,
+        "substation_capacity_mva": 15,
+        "feeder_circuits": 6,
+        "smart_grid_features": true,
+        "scada_system": true
+      },
+      "services_provided": {
+        "electricity": true,
+        "steam": true,
+        "chilled_water": true,
+        "compressed_air": false,
+        "water_treatment": true
+      }
+    },
+    "waste_to_energy_facility": {
+      "description": "SOFC powered by biogas from municipal solid waste",
+      "typical_size_kw": 500,
+      "configuration": "biogas_fed_sofc",
+      "waste_processed_tonnes_day": 100,
+      "operational_profile": {
+        "biogas_production_nm3_day": 4000,
+        "methane_content_percent": 55,
+        "sofc_capacity_factor": 0.90,
+        "parasitic_load_percent": 10
+      },
+      "biogas_treatment": {
+        "h2s_removal": "activated_carbon",
+        "co2_removal": "water_scrubbing",
+        "moisture_removal": "condensation",
+        "siloxane_removal": "activated_carbon",
+        "final_methane_percent": 95
+      },
+      "environmental_benefits": {
+        "waste_diverted_from_landfill_percent": 60,
+        "methane_emissions_avoided_tonnes_year": 2500,
+        "co2_equivalent_reduction_tonnes_year": 52500,
+        "leachate_reduction_percent": 80
+      },
+      "revenue_streams": {
+        "electricity_sales_million_ngn_year": 180,
+        "tipping_fees_million_ngn_year": 150,
+        "carbon_credits_million_ngn_year": 25,
+        "compost_sales_million_ngn_year": 10
+      }
+    }
+  },
+  "grid_integration_scenarios": {
+    "weak_grid_support": {
+      "description": "SOFC providing voltage and frequency support to weak grids",
+      "grid_strength_scr": 2.5,
+      "sofc_capabilities": {
+        "voltage_regulation": true,
+        "frequency_regulation": true,
+        "reactive_power_support": true,
+        "synthetic_inertia": true,
+        "fault_ride_through": true
+      },
+      "control_modes": {
+        "pq_control": true,
+        "vf_control": true,
+        "droop_control": true,
+        "virtual_synchronous_generator": true
+      },
+      "grid_code_compliance": {
+        "frequency_range_hz": [47.5, 52],
+        "voltage_range_pu": [0.85, 1.15],
+        "power_factor_range": [0.85, 1.0],
+        "harmonic_distortion_percent": 5
+      }
+    },
+    "microgrid_formation": {
+      "description": "SOFC as anchor generator in microgrids",
+      "microgrid_size_mw": 5,
+      "sofc_contribution_mw": 2,
+      "other_sources": {
+        "solar_pv_mw": 1.5,
+        "battery_mwh": 2,
+        "diesel_backup_mw": 1.5
+      },
+      "control_architecture": {
+        "central_controller": true,
+        "distributed_control": true,
+        "peer_to_peer_communication": true,
+        "cloud_monitoring": true
+      },
+      "operational_modes": {
+        "grid_connected": true,
+        "islanded": true,
+        "seamless_transition": true,
+        "load_shedding": true,
+        "economic_dispatch": true
+      }
+    },
+    "virtual_power_plant": {
+      "description": "Aggregated SOFC units as virtual power plant",
+      "total_capacity_mw": 20,
+      "number_of_units": 40,
+      "unit_sizes_kw": [250, 500, 1000],
+      "geographical_spread_km2": 100,
+      "control_system": {
+        "centralized_dispatch": true,
+        "real_time_optimization": true,
+        "forecast_integration": true,
+        "market_participation": true
+      },
+      "services_provided": {
+        "energy_arbitrage": true,
+        "capacity_market": true,
+        "ancillary_services": true,
+        "demand_response": true,
+        "renewable_firming": true
+      }
+    }
+  },
+  "climate_and_environmental_conditions": {
+    "temperature_profiles": {
+      "northern_nigeria": {
+        "average_temp_c": 28,
+        "max_temp_c": 45,
+        "min_temp_c": 12,
+        "diurnal_variation_c": 15
+      },
+      "southern_nigeria": {
+        "average_temp_c": 27,
+        "max_temp_c": 35,
+        "min_temp_c": 20,
+        "diurnal_variation_c": 8
+      },
+      "coastal_areas": {
+        "average_temp_c": 26,
+        "max_temp_c": 32,
+        "min_temp_c": 22,
+        "diurnal_variation_c": 6
+      }
+    },
+    "humidity_profiles": {
+      "dry_season": {
+        "northern_rh_percent": 25,
+        "southern_rh_percent": 60,
+        "coastal_rh_percent": 75
+      },
+      "rainy_season": {
+        "northern_rh_percent": 65,
+        "southern_rh_percent": 85,
+        "coastal_rh_percent": 90
+      }
+    },
+    "air_quality": {
+      "harmattan_dust_loading_mg_m3": 2.5,
+      "urban_pm2_5_ug_m3": 95,
+      "industrial_area_sox_ppb": 50,
+      "coastal_salt_content_mg_m3": 0.05
+    },
+    "extreme_events": {
+      "flooding_risk_areas": ["Lagos", "Port Harcourt", "Warri"],
+      "dust_storm_frequency_days_year": 30,
+      "lightning_strikes_per_km2_year": 15,
+      "grid_instability_events_year": 200
+    }
+  },
+  "performance_derating_factors": {
+    "ambient_temperature": {
+      "base_temperature_c": 25,
+      "derating_percent_per_c": 0.5,
+      "max_operating_temp_c": 45
+    },
+    "altitude": {
+      "base_altitude_m": 0,
+      "derating_percent_per_100m": 1,
+      "max_altitude_m": 2000
+    },
+    "fuel_quality": {
+      "heating_value_variation_percent": 5,
+      "impurity_derating_percent": 2,
+      "fuel_pressure_variation_percent": 3
+    },
+    "grid_quality": {
+      "voltage_variation_impact_percent": 1,
+      "frequency_variation_impact_percent": 2,
+      "harmonic_distortion_impact_percent": 1
+    }
+  }
+}

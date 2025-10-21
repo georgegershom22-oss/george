@@ -1,0 +1,294 @@
+{
+  "metadata": {
+    "dataset_name": "SOFC Fuel Flexibility Specifications for Nigeria",
+    "version": "1.0",
+    "creation_date": "2025-10-21",
+    "description": "Detailed fuel composition and performance data for various fuel sources available in Nigeria"
+  },
+  "fuel_types": {
+    "pipeline_natural_gas": {
+      "composition": {
+        "methane_ch4": 87.5,
+        "ethane_c2h6": 5.8,
+        "propane_c3h8": 2.3,
+        "butane_c4h10": 0.8,
+        "nitrogen_n2": 2.1,
+        "carbon_dioxide_co2": 1.2,
+        "hydrogen_sulfide_h2s": 0.0005,
+        "water_vapor_h2o": 0.3
+      },
+      "properties": {
+        "lower_heating_value_mj_nm3": 36.2,
+        "higher_heating_value_mj_nm3": 40.1,
+        "wobbe_index": 48.5,
+        "specific_gravity": 0.62,
+        "reforming_temperature_c": 750
+      },
+      "performance": {
+        "electrical_efficiency_lhv": 60,
+        "fuel_utilization": 85,
+        "steam_to_carbon_ratio": 2.5,
+        "pre_reforming_required": false,
+        "desulfurization_required": true
+      },
+      "nigeria_specific": {
+        "availability": "high",
+        "regions": ["Niger Delta", "Lagos", "Port Harcourt", "Warri"],
+        "pipeline_pressure_bar": 15,
+        "typical_impurities_ppm": {
+          "sulfur": 0.5,
+          "moisture": 50,
+          "particulates": 0.1
+        }
+      }
+    },
+    "associated_gas": {
+      "composition": {
+        "methane_ch4": 75.2,
+        "ethane_c2h6": 8.5,
+        "propane_c3h8": 5.8,
+        "butane_c4h10": 3.2,
+        "pentane_plus": 1.8,
+        "nitrogen_n2": 3.5,
+        "carbon_dioxide_co2": 1.8,
+        "hydrogen_sulfide_h2s": 0.002,
+        "water_vapor_h2o": 0.2
+      },
+      "properties": {
+        "lower_heating_value_mj_nm3": 38.5,
+        "higher_heating_value_mj_nm3": 42.8,
+        "wobbe_index": 51.2,
+        "specific_gravity": 0.68,
+        "reforming_temperature_c": 780
+      },
+      "performance": {
+        "electrical_efficiency_lhv": 58,
+        "fuel_utilization": 82,
+        "steam_to_carbon_ratio": 2.8,
+        "pre_reforming_required": true,
+        "desulfurization_required": true
+      },
+      "nigeria_specific": {
+        "availability": "very_high",
+        "regions": ["Delta", "Rivers", "Akwa Ibom", "Bayelsa", "Imo"],
+        "flare_reduction_potential_bcm_year": 8.5,
+        "current_flaring_bcm_year": 7.4
+      }
+    },
+    "lpg": {
+      "composition": {
+        "propane_c3h8": 60,
+        "butane_c4h10": 38,
+        "ethane_c2h6": 1.5,
+        "pentane_c5h12": 0.3,
+        "propylene_c3h6": 0.2
+      },
+      "properties": {
+        "lower_heating_value_mj_kg": 46.1,
+        "higher_heating_value_mj_kg": 50.0,
+        "vapor_pressure_bar_20c": 7.5,
+        "specific_gravity_liquid": 0.54,
+        "reforming_temperature_c": 800
+      },
+      "performance": {
+        "electrical_efficiency_lhv": 56,
+        "fuel_utilization": 80,
+        "steam_to_carbon_ratio": 3.0,
+        "pre_reforming_required": true,
+        "desulfurization_required": false
+      },
+      "nigeria_specific": {
+        "availability": "moderate",
+        "distribution": "cylinders_and_bulk",
+        "typical_cylinder_size_kg": [3, 6, 12.5, 50],
+        "price_relative_to_ng": 1.8
+      }
+    },
+    "biogas_from_waste": {
+      "composition": {
+        "methane_ch4": 55,
+        "carbon_dioxide_co2": 35,
+        "nitrogen_n2": 5,
+        "oxygen_o2": 2,
+        "hydrogen_sulfide_h2s": 0.5,
+        "ammonia_nh3": 0.1,
+        "water_vapor_h2o": 2.4
+      },
+      "properties": {
+        "lower_heating_value_mj_nm3": 20.5,
+        "higher_heating_value_mj_nm3": 22.8,
+        "wobbe_index": 25.3,
+        "specific_gravity": 0.95,
+        "reforming_temperature_c": 720
+      },
+      "performance": {
+        "electrical_efficiency_lhv": 52,
+        "fuel_utilization": 75,
+        "steam_to_carbon_ratio": 2.2,
+        "pre_reforming_required": false,
+        "desulfurization_required": true,
+        "biogas_cleaning_required": true
+      },
+      "nigeria_specific": {
+        "potential_sources": [
+          "agricultural_waste",
+          "municipal_solid_waste",
+          "sewage_treatment",
+          "food_processing_waste",
+          "abattoir_waste"
+        ],
+        "estimated_potential_mw": 3000,
+        "current_utilization_mw": 15,
+        "waste_generation_mt_year": {
+          "agricultural": 35000000,
+          "municipal": 25000000,
+          "industrial": 5000000
+        }
+      }
+    },
+    "upgraded_biogas_biomethane": {
+      "composition": {
+        "methane_ch4": 95,
+        "carbon_dioxide_co2": 2,
+        "nitrogen_n2": 2,
+        "oxygen_o2": 0.5,
+        "hydrogen_sulfide_h2s": 0.0001,
+        "water_vapor_h2o": 0.5
+      },
+      "properties": {
+        "lower_heating_value_mj_nm3": 35.8,
+        "higher_heating_value_mj_nm3": 39.8,
+        "wobbe_index": 47.5,
+        "specific_gravity": 0.61,
+        "reforming_temperature_c": 740
+      },
+      "performance": {
+        "electrical_efficiency_lhv": 59,
+        "fuel_utilization": 84,
+        "steam_to_carbon_ratio": 2.4,
+        "pre_reforming_required": false,
+        "desulfurization_required": false
+      },
+      "upgrading_technologies": {
+        "water_scrubbing": {
+          "ch4_recovery": 92,
+          "energy_consumption_kwh_nm3": 0.25,
+          "capex_usd_nm3_h": 2500
+        },
+        "pressure_swing_adsorption": {
+          "ch4_recovery": 96,
+          "energy_consumption_kwh_nm3": 0.20,
+          "capex_usd_nm3_h": 3000
+        },
+        "membrane_separation": {
+          "ch4_recovery": 90,
+          "energy_consumption_kwh_nm3": 0.15,
+          "capex_usd_nm3_h": 2000
+        }
+      }
+    }
+  },
+  "fuel_processing_requirements": {
+    "desulfurization": {
+      "methods": [
+        {
+          "type": "activated_carbon",
+          "sulfur_capacity_g_per_kg": 50,
+          "operating_temp_c": 25,
+          "pressure_drop_mbar": 10,
+          "replacement_frequency_hours": 2000
+        },
+        {
+          "type": "zinc_oxide",
+          "sulfur_capacity_g_per_kg": 200,
+          "operating_temp_c": 350,
+          "pressure_drop_mbar": 20,
+          "replacement_frequency_hours": 8000
+        },
+        {
+          "type": "hydrodesulfurization",
+          "sulfur_removal_efficiency": 99.9,
+          "operating_temp_c": 380,
+          "hydrogen_requirement": true,
+          "catalyst_life_hours": 16000
+        }
+      ],
+      "target_sulfur_content_ppb": 100,
+      "impact_on_sofc": {
+        "acceptable_limit_ppb": 100,
+        "degradation_per_ppb_above": 0.001
+      }
+    },
+    "reforming": {
+      "internal_reforming": {
+        "suitable_fuels": ["natural_gas", "upgraded_biogas"],
+        "efficiency_gain": 3,
+        "thermal_management": "simplified",
+        "catalyst": "nickel_based"
+      },
+      "external_reforming": {
+        "suitable_fuels": ["lpg", "associated_gas", "biogas"],
+        "efficiency_penalty": 2,
+        "operating_temperature_c": 800,
+        "steam_generation_required": true
+      },
+      "partial_oxidation": {
+        "suitable_fuels": ["all"],
+        "efficiency_penalty": 5,
+        "air_fuel_ratio": 0.25,
+        "exothermic": true
+      }
+    },
+    "fuel_conditioning": {
+      "pressure_regulation": {
+        "inlet_pressure_bar": [0.5, 70],
+        "operating_pressure_bar": 1.05,
+        "pressure_drop_system_mbar": 50
+      },
+      "filtration": {
+        "particle_size_micron": 5,
+        "moisture_removal_dewpoint_c": -40,
+        "oil_vapor_removal_ppm": 0.01
+      },
+      "heating": {
+        "preheat_temperature_c": 350,
+        "method": "recuperative_heat_exchange",
+        "efficiency": 85
+      }
+    }
+  },
+  "multi_fuel_operation": {
+    "fuel_switching": {
+      "automatic_switching": true,
+      "switching_time_seconds": 30,
+      "power_dip_during_switch": 5,
+      "control_strategy": "predictive_feedforward"
+    },
+    "fuel_blending": {
+      "max_blend_components": 3,
+      "real_time_composition_monitoring": true,
+      "adaptive_control": true,
+      "efficiency_optimization": true
+    },
+    "performance_maps": [
+      {
+        "fuel_blend": "70%_ng_30%_biogas",
+        "efficiency_lhv": 57,
+        "power_derating": 5,
+        "emissions_nox_ppm": 0.5
+      },
+      {
+        "fuel_blend": "50%_ng_50%_lpg",
+        "efficiency_lhv": 58,
+        "power_derating": 2,
+        "emissions_nox_ppm": 0.3
+      },
+      {
+        "fuel_blend": "80%_associated_gas_20%_biogas",
+        "efficiency_lhv": 56,
+        "power_derating": 8,
+        "emissions_nox_ppm": 0.6
+      }
+    ]
+  }
+}

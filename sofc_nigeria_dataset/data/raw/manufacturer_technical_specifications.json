@@ -1,0 +1,551 @@
+{
+  "metadata": {
+    "dataset_name": "SOFC Manufacturer Technical Specifications",
+    "version": "1.0",
+    "creation_date": "2025-10-21",
+    "description": "Technical specifications from major SOFC manufacturers relevant for Nigeria deployment",
+    "note": "Data synthesized from public sources and technical literature"
+  },
+  "manufacturers": {
+    "bloom_energy": {
+      "company_info": {
+        "headquarters": "San Jose, CA, USA",
+        "founded": 2001,
+        "public_company": true,
+        "stock_symbol": "BE",
+        "installed_capacity_mw": 1000,
+        "deployment_countries": 8
+      },
+      "products": {
+        "es5_300kw": {
+          "model": "Energy Server 5",
+          "power_output_kw": 300,
+          "electrical_efficiency_lhv": 53,
+          "dimensions_m": {
+            "length": 9.1,
+            "width": 2.6,
+            "height": 2.1
+          },
+          "weight_kg": 13608,
+          "fuel_types": ["natural_gas", "biogas", "hydrogen_blend"],
+          "operating_temperature_c": 800,
+          "startup_time_hours": 4,
+          "emissions": {
+            "nox_ppm": 0.07,
+            "sox_ppm": 0.001,
+            "co_ppm": 0.5,
+            "particulates_mg_m3": 0.01
+          },
+          "availability_percent": 97.5,
+          "capacity_factor_percent": 95,
+          "degradation_rate_percent_year": 2,
+          "warranty_years": 15,
+          "maintenance_interval_hours": 8760,
+          "water_consumption_liters_mwh": 0,
+          "noise_level_db": 70,
+          "grid_connection": "480V_3phase",
+          "price_usd_kw": 4500
+        },
+        "es5_250kw": {
+          "model": "Energy Server 5 - 250",
+          "power_output_kw": 250,
+          "electrical_efficiency_lhv": 52,
+          "dimensions_m": {
+            "length": 8.5,
+            "width": 2.6,
+            "height": 2.1
+          },
+          "weight_kg": 11800,
+          "fuel_types": ["natural_gas", "biogas"],
+          "operating_temperature_c": 800,
+          "startup_time_hours": 4,
+          "availability_percent": 97.5,
+          "degradation_rate_percent_year": 2,
+          "warranty_years": 15,
+          "price_usd_kw": 4800
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 8.5,
+        "advantages": [
+          "proven_track_record",
+          "low_water_consumption",
+          "modular_scalability",
+          "remote_monitoring"
+        ],
+        "challenges": [
+          "high_capital_cost",
+          "requires_clean_fuel",
+          "limited_local_support"
+        ],
+        "potential_applications": [
+          "industrial_parks",
+          "data_centers",
+          "hospitals",
+          "commercial_buildings"
+        ]
+      }
+    },
+    "mitsubishi_power": {
+      "company_info": {
+        "headquarters": "Tokyo, Japan",
+        "founded": 2014,
+        "parent_company": "Mitsubishi Heavy Industries",
+        "technology": "Tubular SOFC",
+        "installed_capacity_mw": 50
+      },
+      "products": {
+        "megamie_250kw": {
+          "model": "MEGAMIE",
+          "power_output_kw": 250,
+          "electrical_efficiency_lhv": 55,
+          "combined_efficiency_chp": 90,
+          "dimensions_m": {
+            "length": 7.0,
+            "width": 2.2,
+            "height": 2.6
+          },
+          "weight_kg": 9500,
+          "fuel_types": ["natural_gas", "lpg", "biogas"],
+          "operating_temperature_c": 900,
+          "startup_time_hours": 8,
+          "thermal_output_kw": 170,
+          "emissions": {
+            "nox_ppm": 0.1,
+            "sox_ppm": 0.001,
+            "co_ppm": 1
+          },
+          "availability_percent": 95,
+          "degradation_rate_percent_year": 1.5,
+          "warranty_years": 10,
+          "maintenance_interval_hours": 8000,
+          "price_usd_kw": 5500
+        },
+        "hybrid_sofc_gt": {
+          "model": "SOFC-MGT Hybrid",
+          "power_output_mw": 1.2,
+          "electrical_efficiency_lhv": 65,
+          "sofc_contribution_kw": 900,
+          "gas_turbine_kw": 300,
+          "dimensions_m": {
+            "length": 12,
+            "width": 3,
+            "height": 3.5
+          },
+          "weight_kg": 25000,
+          "fuel_types": ["natural_gas"],
+          "operating_temperature_c": 950,
+          "startup_time_hours": 12,
+          "availability_percent": 94,
+          "price_usd_kw": 6000
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 7.5,
+        "advantages": [
+          "high_efficiency",
+          "excellent_chp_capability",
+          "robust_tubular_design",
+          "long_stack_life"
+        ],
+        "challenges": [
+          "long_startup_time",
+          "high_operating_temperature",
+          "complex_maintenance"
+        ],
+        "potential_applications": [
+          "industrial_chp",
+          "district_energy",
+          "large_commercial"
+        ]
+      }
+    },
+    "solid_power": {
+      "company_info": {
+        "headquarters": "Heinsberg, Germany",
+        "founded": 2006,
+        "technology": "Planar SOFC",
+        "focus": "Residential and small commercial",
+        "installed_units": 2000
+      },
+      "products": {
+        "bluegen_bg15": {
+          "model": "BlueGEN BG-15",
+          "power_output_kw": 1.5,
+          "electrical_efficiency_lhv": 60,
+          "thermal_output_kw": 0.85,
+          "combined_efficiency": 85,
+          "dimensions_m": {
+            "length": 0.66,
+            "width": 0.60,
+            "height": 1.00
+          },
+          "weight_kg": 180,
+          "fuel_types": ["natural_gas", "biomethane"],
+          "operating_temperature_c": 750,
+          "startup_time_hours": 24,
+          "annual_electricity_kwh": 13000,
+          "emissions": {
+            "co2_reduction_percent": 50,
+            "nox_ppm": 0.05
+          },
+          "lifetime_hours": 80000,
+          "warranty_years": 10,
+          "maintenance_interval_hours": 8760,
+          "price_usd": 25000
+        },
+        "solink_module": {
+          "model": "SOLink 50",
+          "power_output_kw": 50,
+          "electrical_efficiency_lhv": 58,
+          "modules_per_system": 4,
+          "dimensions_m": {
+            "length": 2.5,
+            "width": 1.2,
+            "height": 2.0
+          },
+          "weight_kg": 1800,
+          "fuel_types": ["natural_gas", "propane"],
+          "operating_temperature_c": 750,
+          "price_usd_kw": 4000
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 6.5,
+        "advantages": [
+          "high_electrical_efficiency",
+          "compact_design",
+          "low_emissions",
+          "quiet_operation"
+        ],
+        "challenges": [
+          "small_scale_only",
+          "long_startup_time",
+          "limited_fuel_flexibility"
+        ],
+        "potential_applications": [
+          "residential_complexes",
+          "small_businesses",
+          "telecom_towers",
+          "rural_electrification"
+        ]
+      }
+    },
+    "convion": {
+      "company_info": {
+        "headquarters": "Espoo, Finland",
+        "founded": 2012,
+        "technology": "Planar SOFC",
+        "focus": "Industrial CHP",
+        "installed_capacity_mw": 10
+      },
+      "products": {
+        "c60_chp": {
+          "model": "C60",
+          "power_output_kw": 60,
+          "electrical_efficiency_lhv": 60,
+          "thermal_output_kw": 25,
+          "combined_efficiency": 85,
+          "dimensions_m": {
+            "length": 3.0,
+            "width": 1.5,
+            "height": 2.3
+          },
+          "weight_kg": 3500,
+          "fuel_types": ["natural_gas", "biogas", "syngas"],
+          "operating_temperature_c": 750,
+          "startup_time_hours": 6,
+          "availability_percent": 96,
+          "lifetime_hours": 60000,
+          "warranty_years": 5,
+          "price_usd_kw": 5000
+        },
+        "c300_system": {
+          "model": "C300 (5xC60)",
+          "power_output_kw": 300,
+          "electrical_efficiency_lhv": 58,
+          "thermal_output_kw": 140,
+          "combined_efficiency": 88,
+          "dimensions_m": {
+            "length": 9.0,
+            "width": 2.5,
+            "height": 2.5
+          },
+          "weight_kg": 18000,
+          "fuel_types": ["natural_gas", "biogas"],
+          "modular_configuration": true,
+          "n_plus_1_redundancy": true,
+          "price_usd_kw": 4500
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 7.8,
+        "advantages": [
+          "excellent_biogas_capability",
+          "modular_design",
+          "high_efficiency",
+          "good_chp_performance"
+        ],
+        "challenges": [
+          "limited_scale_range",
+          "european_focused_support",
+          "cold_climate_optimized"
+        ],
+        "potential_applications": [
+          "agricultural_facilities",
+          "food_processing",
+          "wastewater_treatment",
+          "small_industrial"
+        ]
+      }
+    },
+    "ceres_power": {
+      "company_info": {
+        "headquarters": "Horsham, UK",
+        "founded": 2001,
+        "technology": "Metal-supported SOFC",
+        "business_model": "Technology licensing",
+        "partners": ["Bosch", "Doosan", "Weichai"]
+      },
+      "products": {
+        "steelcell_5kw": {
+          "model": "SteelCell Stack",
+          "power_output_kw": 5,
+          "electrical_efficiency_lhv": 60,
+          "operating_temperature_c": 600,
+          "dimensions_m": {
+            "length": 0.4,
+            "width": 0.3,
+            "height": 0.3
+          },
+          "weight_kg": 25,
+          "fuel_types": ["natural_gas", "hydrogen", "biogas", "ammonia"],
+          "startup_time_hours": 1,
+          "thermal_cycling_capability": "excellent",
+          "degradation_rate_percent_1000h": 0.1,
+          "cost_reduction_potential": "high",
+          "manufacturing_scalability": "high"
+        },
+        "licensed_systems": {
+          "bosch_10kw": {
+            "power_output_kw": 10,
+            "efficiency_lhv": 60,
+            "thermal_output_kw": 5.5,
+            "price_usd_kw": 3500
+          },
+          "doosan_50kw": {
+            "power_output_kw": 50,
+            "efficiency_lhv": 58,
+            "thermal_output_kw": 28,
+            "price_usd_kw": 4000
+          },
+          "weichai_200kw": {
+            "power_output_kw": 200,
+            "efficiency_lhv": 56,
+            "thermal_output_kw": 120,
+            "price_usd_kw": 3800
+          }
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 8.0,
+        "advantages": [
+          "low_operating_temperature",
+          "fast_startup",
+          "excellent_cycling",
+          "fuel_flexibility",
+          "cost_effective"
+        ],
+        "challenges": [
+          "newer_technology",
+          "limited_direct_sales",
+          "partner_dependent"
+        ],
+        "potential_applications": [
+          "distributed_generation",
+          "backup_power",
+          "renewable_integration",
+          "mobile_applications"
+        ]
+      }
+    },
+    "elcogen": {
+      "company_info": {
+        "headquarters": "Tallinn, Estonia",
+        "founded": 2001,
+        "technology": "Planar SOFC cells and stacks",
+        "business_model": "Cell and stack supplier",
+        "production_capacity_mw_year": 50
+      },
+      "products": {
+        "e3000_cell": {
+          "model": "E3000",
+          "active_area_cm2": 300,
+          "power_density_w_cm2": 1.0,
+          "operating_temperature_c": 650,
+          "voltage_at_0_7_a_cm2": 0.85,
+          "degradation_rate_percent_1000h": 0.1,
+          "thermal_cycles_to_failure": 200,
+          "cost_usd_per_cm2": 0.15
+        },
+        "stack_modules": {
+          "e1000_1kw": {
+            "power_output_kw": 1,
+            "cells_per_stack": 30,
+            "efficiency_lhv": 62,
+            "weight_kg": 8,
+            "dimensions_cm": [20, 15, 25]
+          },
+          "e2500_2_5kw": {
+            "power_output_kw": 2.5,
+            "cells_per_stack": 75,
+            "efficiency_lhv": 61,
+            "weight_kg": 20,
+            "dimensions_cm": [25, 20, 40]
+          },
+          "e10000_10kw": {
+            "power_output_kw": 10,
+            "cells_per_stack": 300,
+            "efficiency_lhv": 60,
+            "weight_kg": 80,
+            "dimensions_cm": [40, 35, 60]
+          }
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 7.0,
+        "advantages": [
+          "low_temperature_operation",
+          "high_power_density",
+          "low_degradation",
+          "flexible_integration"
+        ],
+        "challenges": [
+          "component_supplier_only",
+          "requires_system_integration",
+          "limited_field_data"
+        ],
+        "potential_applications": [
+          "custom_systems",
+          "oem_integration",
+          "research_projects",
+          "pilot_demonstrations"
+        ]
+      }
+    },
+    "fuelcell_energy": {
+      "company_info": {
+        "headquarters": "Danbury, CT, USA",
+        "founded": 1969,
+        "technology": "Molten Carbonate and SOFC",
+        "public_company": true,
+        "stock_symbol": "FCEL",
+        "installed_capacity_mw": 500
+      },
+      "products": {
+        "sureconnect_400kw": {
+          "model": "SureConnect 400",
+          "power_output_kw": 400,
+          "electrical_efficiency_lhv": 52,
+          "dimensions_m": {
+            "length": 10,
+            "width": 2.8,
+            "height": 2.5
+          },
+          "weight_kg": 18000,
+          "fuel_types": ["natural_gas", "biogas", "propane"],
+          "operating_temperature_c": 800,
+          "startup_time_hours": 6,
+          "availability_percent": 95,
+          "emissions": {
+            "nox_ppm": 0.1,
+            "sox_ppm": 0.001,
+            "co_ppm": 2
+          },
+          "warranty_years": 20,
+          "maintenance_interval_hours": 6000,
+          "price_usd_kw": 4200
+        },
+        "sureconnect_1500kw": {
+          "model": "SureConnect 1500",
+          "power_output_kw": 1500,
+          "electrical_efficiency_lhv": 50,
+          "combined_efficiency_chp": 90,
+          "dimensions_m": {
+            "length": 15,
+            "width": 3.5,
+            "height": 3.0
+          },
+          "weight_kg": 45000,
+          "fuel_types": ["natural_gas", "renewable_gas"],
+          "thermal_output_kw": 900,
+          "grid_support_services": true,
+          "carbon_capture_ready": true,
+          "price_usd_kw": 3800
+        }
+      },
+      "nigeria_suitability": {
+        "rating": 8.2,
+        "advantages": [
+          "large_scale_capability",
+          "proven_reliability",
+          "excellent_warranty",
+          "biogas_experience"
+        ],
+        "challenges": [
+          "high_capital_cost",
+          "large_footprint",
+          "complex_installation"
+        ],
+        "potential_applications": [
+          "utility_scale",
+          "industrial_parks",
+          "waste_to_energy",
+          "grid_stabilization"
+        ]
+      }
+    }
+  },
+  "technology_comparison": {
+    "efficiency_ranges": {
+      "planar_sofc": [55, 62],
+      "tubular_sofc": [50, 58],
+      "metal_supported": [56, 60],
+      "hybrid_sofc_gt": [60, 70]
+    },
+    "temperature_ranges": {
+      "low_temperature": [550, 650],
+      "intermediate_temperature": [650, 750],
+      "high_temperature": [750, 950]
+    },
+    "scale_categories": {
+      "micro": [0.5, 5],
+      "small": [5, 100],
+      "medium": [100, 1000],
+      "large": [1000, 10000]
+    },
+    "cost_trends": {
+      "2020_usd_kw": 6000,
+      "2023_usd_kw": 4500,
+      "2025_projected_usd_kw": 3500,
+      "2030_target_usd_kw": 2000
+    }
+  },
+  "nigeria_deployment_recommendations": {
+    "tier_1_manufacturers": ["bloom_energy", "fuelcell_energy", "ceres_power"],
+    "tier_2_manufacturers": ["mitsubishi_power", "convion"],
+    "specialized_applications": {
+      "telecom_towers": ["solid_power", "convion"],
+      "industrial_chp": ["mitsubishi_power", "fuelcell_energy"],
+      "distributed_generation": ["bloom_energy", "ceres_power"],
+      "waste_to_energy": ["convion", "fuelcell_energy"]
+    },
+    "key_selection_criteria": [
+      "fuel_flexibility",
+      "tropical_climate_performance",
+      "local_support_availability",
+      "total_cost_of_ownership",
+      "proven_track_record"
+    ]
+  }
+}
