@@ -1,0 +1,41 @@
+# Shared house style for Figures 3.9A–D
+figure.facecolor: white
+axes.facecolor: white
+
+# Fonts and embedding
+font.family: sans-serif
+font.sans-serif: Arial, Helvetica, Nimbus Sans L, Liberation Sans, DejaVu Sans
+mathtext.fontset: dejavusans
+mathtext.default: regular
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none
+
+# Sizing
+axes.titlesize: 28
+axes.titleweight: bold
+axes.labelsize: 22
+xtick.labelsize: 16
+ytick.labelsize: 16
+legend.fontsize: 16
+
+# Grid: light gray major ticks only (0.8 px @300dpi -> 0.192 pt)
+axes.grid: True
+axes.grid.which: major
+# Hex colors with '#' are comments in rc files; use a light gray scalar instead.
+grid.color: 0.9
+grid.linewidth: 0.192
+
+# Lines: round caps/joins
+lines.solid_capstyle: round
+lines.solid_joinstyle: round
+lines.dash_capstyle: round
+lines.dash_joinstyle: round
+
+# Legend
+legend.frameon: False
+legend.loc: best
+
+# Savefig defaults
+savefig.dpi: 300
+savefig.bbox: tight
