@@ -1,0 +1,29 @@
+{
+  "gas_reserves_production": {
+    "total_proven_reserves_tcf": 223.0008333333334,
+    "total_probable_reserves_tcf": 241.80483333333333,
+    "average_daily_production_mmscf": 3924.2846666666665,
+    "largest_field": "Niger Delta",
+    "average_production_cost_usd_per_mscf": 2.1869
+  },
+  "gas_flaring": {
+    "total_daily_flaring_mmscf": 477.5761959496442,
+    "total_annual_flaring_bcf": 174.31531152162015,
+    "total_sofc_potential_mw": 3.097887246852764,
+    "annual_co2_emissions_million_tonnes": 0.009604852134646963,
+    "largest_flaring_site": "Escravos"
+  },
+  "pipeline_network": {
+    "total_pipeline_length_km": 25434.0,
+    "total_capacity_mmscf_per_day": 4880.0,
+    "average_utilization_percent": 74.46490196078432,
+    "operational_pipelines": 4
+  },
+  "fuel_prices": {
+    "average_petrol_price_naira_per_liter": 286.5772747747748,
+    "average_diesel_price_naira_per_liter": 403.4050675675676,
+    "highest_price_state": "Borno",
+    "lowest_price_state": "Lagos",
+    "average_scarcity_factor": 1.1242657657657658
+  }
+}

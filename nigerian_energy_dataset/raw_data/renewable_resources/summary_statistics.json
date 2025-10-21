@@ -1,0 +1,19 @@
+{
+  "agricultural_waste": {
+    "total_annual_residue_production_million_tonnes": 37.76296158800001,
+    "total_available_for_energy_million_tonnes": 27.868455438,
+    "total_energy_potential_pj": 435.718333994,
+    "total_biogas_potential_million_m3": 6167.785241449999,
+    "total_sofc_feedstock_potential_million_tonnes": 17.061709908,
+    "top_residue_by_volume": "Cassava Peels",
+    "top_state_by_waste_production": "Kaduna"
+  },
+  "livestock": {
+    "total_cattle_population_millions": 26.2429484,
+    "total_annual_manure_million_tonnes": 245172.526158,
+    "total_biogas_potential_million_m3": 3557.7158007860003,
+    "total_sofc_potential_gwh": 12904.933716,
+    "top_livestock_state": "Ogun",
+    "most_productive_livestock_type": "Cattle"
+  }
+}
