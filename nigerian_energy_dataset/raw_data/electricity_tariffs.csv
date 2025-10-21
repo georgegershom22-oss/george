@@ -1,0 +1,6 @@
+year,r1_tariff_naira_per_kwh,r2_tariff_naira_per_kwh,r3_tariff_naira_per_kwh,r4_tariff_naira_per_kwh,c1_tariff_naira_per_kwh,c2_tariff_naira_per_kwh,c3_tariff_naira_per_kwh,d1_tariff_naira_per_kwh,d2_tariff_naira_per_kwh,d3_tariff_naira_per_kwh,a1_tariff_naira_per_kwh,a2_tariff_naira_per_kwh,a3_tariff_naira_per_kwh,premium_residential_tariff_naira_per_kwh,premium_commercial_tariff_naira_per_kwh,premium_industrial_tariff_naira_per_kwh
+2020,4.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,19.5,19.5,19.5
+2021,4.32,14.04,14.04,14.04,14.04,14.04,14.04,14.04,14.04,14.04,14.04,14.04,14.04,21.06,21.06,21.06
+2022,4.64,15.08,15.08,15.08,15.08,15.08,15.08,15.08,15.08,15.08,15.08,15.08,15.08,22.62,22.62,22.62
+2023,4.96,16.12,16.12,16.12,16.12,16.12,16.12,16.12,16.12,16.12,16.12,16.12,16.12,24.18,24.18,24.18
+2024,5.28,17.16,17.16,17.16,17.16,17.16,17.16,17.16,17.16,17.16,17.16,17.16,17.16,25.74,25.74,25.74

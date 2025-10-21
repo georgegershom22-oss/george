@@ -1,0 +1,51 @@
+site_name,state,latitude,longitude,year,daily_flaring_mmscf,annual_flaring_mmscf,co2_emissions_tonnes,economic_value_lost_usd_millions,site_capacity_mmscf_per_day
+Bonny Terminal,Rivers,4.43,7.16,2020,73.09,26678.04,66.7,0.08,150
+Bonny Terminal,Rivers,4.43,7.16,2021,104.67,38205.72,95.51,0.11,150
+Bonny Terminal,Rivers,4.43,7.16,2022,79.92,29170.67,72.93,0.09,150
+Bonny Terminal,Rivers,4.43,7.16,2023,62.93,22969.29,57.42,0.07,150
+Bonny Terminal,Rivers,4.43,7.16,2024,34.02,12417.61,31.04,0.04,150
+Forcados Terminal,Delta,5.2,5.4,2020,45.36,16556.28,41.39,0.05,120
+Forcados Terminal,Delta,5.2,5.4,2021,35.54,12970.83,32.43,0.04,120
+Forcados Terminal,Delta,5.2,5.4,2022,70.38,25687.41,64.22,0.08,120
+Forcados Terminal,Delta,5.2,5.4,2023,50.45,18413.09,46.03,0.06,120
+Forcados Terminal,Delta,5.2,5.4,2024,47.09,17188.07,42.97,0.05,120
+Escravos Terminal,Delta,5.6,5.1,2020,31.03,11325.67,28.31,0.03,100
+Escravos Terminal,Delta,5.6,5.1,2021,70.65,25785.77,64.46,0.08,100
+Escravos Terminal,Delta,5.6,5.1,2022,57.3,20913.66,52.28,0.06,100
+Escravos Terminal,Delta,5.6,5.1,2023,28.43,10377.63,25.94,0.03,100
+Escravos Terminal,Delta,5.6,5.1,2024,23.45,8560.98,21.4,0.03,100
+Qua Iboe Terminal,Akwa Ibom,4.5,7.9,2020,31.34,11437.71,28.59,0.03,80
+Qua Iboe Terminal,Akwa Ibom,4.5,7.9,2021,32.55,11881.74,29.7,0.04,80
+Qua Iboe Terminal,Akwa Ibom,4.5,7.9,2022,35.99,13137.16,32.84,0.04,80
+Qua Iboe Terminal,Akwa Ibom,4.5,7.9,2023,28.89,10546.48,26.37,0.03,80
+Qua Iboe Terminal,Akwa Ibom,4.5,7.9,2024,21.39,7807.17,19.52,0.02,80
+Brass Terminal,Bayelsa,4.3,6.2,2020,36.36,13269.79,33.17,0.04,60
+Brass Terminal,Bayelsa,4.3,6.2,2021,19.97,7287.71,18.22,0.02,60
+Brass Terminal,Bayelsa,4.3,6.2,2022,21.41,7815.19,19.54,0.02,60
+Brass Terminal,Bayelsa,4.3,6.2,2023,20.29,7407.16,18.52,0.02,60
+Brass Terminal,Bayelsa,4.3,6.2,2024,19.01,6938.38,17.35,0.02,60
+Ogbia Flow Station,Bayelsa,4.6,6.1,2020,27.7,10111.78,25.28,0.03,40
+Ogbia Flow Station,Bayelsa,4.6,6.1,2021,14.39,5253.86,13.13,0.02,40
+Ogbia Flow Station,Bayelsa,4.6,6.1,2022,17.83,6507.13,16.27,0.02,40
+Ogbia Flow Station,Bayelsa,4.6,6.1,2023,16.69,6093.24,15.23,0.02,40
+Ogbia Flow Station,Bayelsa,4.6,6.1,2024,7.76,2831.45,7.08,0.01,40
+Oben Gas Plant,Edo,6.2,5.8,2020,21.13,7713.19,19.28,0.02,35
+Oben Gas Plant,Edo,6.2,5.8,2021,12.14,4429.55,11.07,0.01,35
+Oben Gas Plant,Edo,6.2,5.8,2022,9.31,3398.41,8.5,0.01,35
+Oben Gas Plant,Edo,6.2,5.8,2023,18.97,6925.45,17.31,0.02,35
+Oben Gas Plant,Edo,6.2,5.8,2024,16.44,6000.28,15.0,0.02,35
+Obiafu-Obrikom,Rivers,5.0,6.5,2020,21.13,7710.98,19.28,0.02,30
+Obiafu-Obrikom,Rivers,5.0,6.5,2021,12.21,4457.48,11.14,0.01,30
+Obiafu-Obrikom,Rivers,5.0,6.5,2022,8.37,3055.8,7.64,0.01,30
+Obiafu-Obrikom,Rivers,5.0,6.5,2023,13.48,4921.82,12.3,0.01,30
+Obiafu-Obrikom,Rivers,5.0,6.5,2024,9.36,3416.9,8.54,0.01,30
+Obagi Gas Plant,Rivers,4.8,6.8,2020,9.03,3294.3,8.24,0.01,25
+Obagi Gas Plant,Rivers,4.8,6.8,2021,12.32,4497.07,11.24,0.01,25
+Obagi Gas Plant,Rivers,4.8,6.8,2022,6.34,2315.52,5.79,0.01,25
+Obagi Gas Plant,Rivers,4.8,6.8,2023,13.21,4820.39,12.05,0.01,25
+Obagi Gas Plant,Rivers,4.8,6.8,2024,6.44,2350.91,5.88,0.01,25
+Utorogu Gas Plant,Delta,5.4,5.6,2020,12.63,4608.21,11.52,0.01,20
+Utorogu Gas Plant,Delta,5.4,5.6,2021,8.21,2994.97,7.49,0.01,20
+Utorogu Gas Plant,Delta,5.4,5.6,2022,8.96,3270.6,8.18,0.01,20
+Utorogu Gas Plant,Delta,5.4,5.6,2023,8.03,2929.84,7.32,0.01,20
+Utorogu Gas Plant,Delta,5.4,5.6,2024,4.71,1718.83,4.3,0.01,20

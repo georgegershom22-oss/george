@@ -1,0 +1,25 @@
+{
+  "generation_capacity_summary": {
+    "total_installed_capacity_2024_mw": 13630.0,
+    "total_available_capacity_2024_mw": 9694.0,
+    "gas_share_percent": 67.49816581071167,
+    "hydro_share_percent": 15.407190022010273,
+    "renewable_share_percent": 2.421129860601614
+  },
+  "load_allocation_summary": {
+    "average_daily_demand_2024_mw": 4382.427178082192,
+    "average_daily_supply_2024_mw": 3087.056383561644,
+    "average_load_shedding_2024_mw": 1295.3708219178084,
+    "supply_reliability_percent": 70.44170406301151
+  },
+  "reliability_summary": {
+    "average_saidi_2024_hours": 29.667142857142853,
+    "average_saifi_2024_interruptions": 126.98057142857142,
+    "average_availability_2024_percent": 99.66228571428572
+  },
+  "tariffs_summary": {
+    "residential_tariff_2024_naira_per_kwh": 17.16,
+    "commercial_tariff_2024_naira_per_kwh": 17.16,
+    "industrial_tariff_2024_naira_per_kwh": 17.16
+  }
+}

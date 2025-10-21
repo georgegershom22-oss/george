@@ -1,0 +1,46 @@
+{
+  "dataset_overview": {
+    "total_datasets_created": 3,
+    "sofc_analysis_records": 1,
+    "regional_analysis_records": 34,
+    "time_series_records": 60,
+    "creation_date": "2025-10-21 04:23:11"
+  },
+  "sofc_analysis_highlights": {
+    "total_installed_capacity_mw": 13630.0,
+    "electricity_deficit_mw": 1295.3707945205479,
+    "sofc_power_potential_mw": 640.0,
+    "sofc_deficit_reduction_percent": 49.40670290755486,
+    "gas_flaring_percentage": 5.0,
+    "co2_reduction_potential_tonnes_per_year": 138.464
+  },
+  "top_sofc_priority_states": {
+    "top_5_states": [
+      {
+        "state": "Rivers",
+        "sofc_priority_score": 6,
+        "sofc_power_potential_mw": 24.91
+      },
+      {
+        "state": "Delta",
+        "sofc_priority_score": 6,
+        "sofc_power_potential_mw": 37.625
+      },
+      {
+        "state": "Edo",
+        "sofc_priority_score": 6,
+        "sofc_power_potential_mw": 8.22
+      },
+      {
+        "state": "Bayelsa",
+        "sofc_priority_score": 6,
+        "sofc_power_potential_mw": 13.385000000000002
+      },
+      {
+        "state": "Akwa Ibom",
+        "sofc_priority_score": 6,
+        "sofc_power_potential_mw": 10.695
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+year,gas_installed_capacity,gas_available_capacity,hydro_installed_capacity,hydro_available_capacity,solar_installed_capacity,solar_available_capacity,wind_installed_capacity,wind_available_capacity,coal_installed_capacity,coal_available_capacity,diesel_installed_capacity,diesel_available_capacity,total_installed_capacity,total_available_capacity,gas_capacity_factor,hydro_capacity_factor,solar_capacity_factor,wind_capacity_factor,diesel_capacity_factor
+2020,8000,4800,2100,1800,50,45,10,8,0,0,2000,1800,12160,8453,0.6,0.8571428571428571,0.9,0.8,0.9
+2021,8200,5000,2100,1850,100,90,15,12,0,0,2000,1800,12415,8752,0.6097560975609756,0.8809523809523809,0.9,0.8,0.9
+2022,8500,5200,2100,1900,150,135,20,16,0,0,2000,1800,12770,9051,0.611764705882353,0.9047619047619048,0.9,0.8,0.9
+2023,8800,5400,2100,1950,200,180,25,20,0,0,2000,1800,13125,9350,0.6136363636363636,0.9285714285714286,0.9,0.8,0.9
+2024,9200,5600,2100,2000,300,270,30,24,0,0,2000,1800,13630,9694,0.6086956521739131,0.9523809523809523,0.9,0.8,0.9

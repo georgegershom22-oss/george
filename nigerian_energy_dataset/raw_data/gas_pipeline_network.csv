@@ -1,0 +1,7 @@
+pipeline_name,start_location,end_location,length_km,diameter_inches,capacity_mmscf_per_day,status,commission_year,start_lat,start_lon,end_lat,end_lon
+Escravos-Lagos Pipeline System (ELPS),"Escravos, Delta",Lagos,614,36,1000,Operational,2008,5.6,5.1,6.5244,3.3792
+West African Gas Pipeline (WAGP),Lagos,Ghana,678,20,200,Operational,2010,6.5244,3.3792,5.6037,-0.187
+Ajaokuta-Kaduna-Kano (AKK) Pipeline,"Ajaokuta, Kogi",Kano,614,40,2000,Under Construction,2024,7.5,6.7,12.0,8.5167
+Obiafu-Obrikom-Oben (OB3) Pipeline,"Obiafu-Obrikom, Rivers","Oben, Edo",127,48,2000,Operational,2019,5.0,6.5,6.2,5.8
+Trans-Niger Pipeline,"Bonny, Rivers","Port Harcourt, Rivers",180,24,500,Operational,1965,4.43,7.16,4.8156,7.0498
+Forcados-Yokri Pipeline,"Forcados, Delta","Yokri, Delta",50,30,300,Operational,1970,5.2,5.4,5.5,5.6

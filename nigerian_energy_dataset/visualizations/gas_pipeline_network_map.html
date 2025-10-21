@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5803fcf79e64e4f8843d2f50c7d97880 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5803fcf79e64e4f8843d2f50c7d97880" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5803fcf79e64e4f8843d2f50c7d97880 = L.map(
+                "map_5803fcf79e64e4f8843d2f50c7d97880",
+                {
+                    center: [9.0765, 7.3986],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4a7c4edd0c839ed8e76b9223d0ec1496 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4a7c4edd0c839ed8e76b9223d0ec1496.addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var poly_line_c9097da5df97054512feb243bcf57aba = L.polyline(
+                [[5.6, 5.1], [6.5244, 3.3792]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_afe8d039013e6acd87fc8f6e4cf30a50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e069e6f02d64d007c98c6bb702554bb2 = $(`<div id="html_e069e6f02d64d007c98c6bb702554bb2" style="width: 100.0%; height: 100.0%;">Escravos-Lagos Pipeline System (ELPS)<br>Length: 614 km<br>Capacity: 1000 MMscf/day</div>`)[0];
+                popup_afe8d039013e6acd87fc8f6e4cf30a50.setContent(html_e069e6f02d64d007c98c6bb702554bb2);
+            
+        
+
+        poly_line_c9097da5df97054512feb243bcf57aba.bindPopup(popup_afe8d039013e6acd87fc8f6e4cf30a50)
+        ;
+
+        
+    
+    
+            var marker_1df925580f82258afcd80318cdb5cf9f = L.marker(
+                [5.6, 5.1],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_0e6892cc33e4f4bfefaf626e481fff5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a74b3b23dcc1e5a43fa3865ede45a484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd102f0793602dcf0b5a496b6b16041f = $(`<div id="html_fd102f0793602dcf0b5a496b6b16041f" style="width: 100.0%; height: 100.0%;">Start: Escravos, Delta</div>`)[0];
+                popup_a74b3b23dcc1e5a43fa3865ede45a484.setContent(html_fd102f0793602dcf0b5a496b6b16041f);
+            
+        
+
+        marker_1df925580f82258afcd80318cdb5cf9f.bindPopup(popup_a74b3b23dcc1e5a43fa3865ede45a484)
+        ;
+
+        
+    
+    
+                marker_1df925580f82258afcd80318cdb5cf9f.setIcon(icon_0e6892cc33e4f4bfefaf626e481fff5b);
+            
+    
+            var marker_a8bec1849dc78b95779464c1bff4835f = L.marker(
+                [6.5244, 3.3792],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_7bcad5fd856978017b1c66a68791d8d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fd694730aee5f579d1ecf84f176917f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0821ead4319ed906ec40cf581c472895 = $(`<div id="html_0821ead4319ed906ec40cf581c472895" style="width: 100.0%; height: 100.0%;">End: Lagos</div>`)[0];
+                popup_8fd694730aee5f579d1ecf84f176917f.setContent(html_0821ead4319ed906ec40cf581c472895);
+            
+        
+
+        marker_a8bec1849dc78b95779464c1bff4835f.bindPopup(popup_8fd694730aee5f579d1ecf84f176917f)
+        ;
+
+        
+    
+    
+                marker_a8bec1849dc78b95779464c1bff4835f.setIcon(icon_7bcad5fd856978017b1c66a68791d8d6);
+            
+    
+            var poly_line_ea25233cdad196780b410e2a32ad5dd8 = L.polyline(
+                [[6.5244, 3.3792], [5.6037, -0.187]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_62e1d49c816cf0f37a80606cc8184118 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a899b2b457359ea9dd18fcadfbb3db07 = $(`<div id="html_a899b2b457359ea9dd18fcadfbb3db07" style="width: 100.0%; height: 100.0%;">West African Gas Pipeline (WAGP)<br>Length: 678 km<br>Capacity: 200 MMscf/day</div>`)[0];
+                popup_62e1d49c816cf0f37a80606cc8184118.setContent(html_a899b2b457359ea9dd18fcadfbb3db07);
+            
+        
+
+        poly_line_ea25233cdad196780b410e2a32ad5dd8.bindPopup(popup_62e1d49c816cf0f37a80606cc8184118)
+        ;
+
+        
+    
+    
+            var marker_d295a75f66564157f2676e5fda7b4161 = L.marker(
+                [6.5244, 3.3792],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_7bd74418e12b690a32559c5c03467d1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_814696b4f2eb6865d368b9853295157f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b10214ad700b8bca6096f3211df2c531 = $(`<div id="html_b10214ad700b8bca6096f3211df2c531" style="width: 100.0%; height: 100.0%;">Start: Lagos</div>`)[0];
+                popup_814696b4f2eb6865d368b9853295157f.setContent(html_b10214ad700b8bca6096f3211df2c531);
+            
+        
+
+        marker_d295a75f66564157f2676e5fda7b4161.bindPopup(popup_814696b4f2eb6865d368b9853295157f)
+        ;
+
+        
+    
+    
+                marker_d295a75f66564157f2676e5fda7b4161.setIcon(icon_7bd74418e12b690a32559c5c03467d1e);
+            
+    
+            var marker_678f0a4ebac1c584173729c4887012dc = L.marker(
+                [5.6037, -0.187],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_ab4da0a606cf2da7557fb8a504778747 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57ea583c44cb426e1e16ff2c1dda9099 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_417830e0746a14e49a0222c601897d5c = $(`<div id="html_417830e0746a14e49a0222c601897d5c" style="width: 100.0%; height: 100.0%;">End: Ghana</div>`)[0];
+                popup_57ea583c44cb426e1e16ff2c1dda9099.setContent(html_417830e0746a14e49a0222c601897d5c);
+            
+        
+
+        marker_678f0a4ebac1c584173729c4887012dc.bindPopup(popup_57ea583c44cb426e1e16ff2c1dda9099)
+        ;
+
+        
+    
+    
+                marker_678f0a4ebac1c584173729c4887012dc.setIcon(icon_ab4da0a606cf2da7557fb8a504778747);
+            
+    
+            var poly_line_45c4330cc374848d12d203d97b081751 = L.polyline(
+                [[7.5, 6.7], [12.0, 8.5167]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_371d6da8b4b339cba0a162aca6d24ed2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fe76d43fb223a07e4bb8310417fabda = $(`<div id="html_8fe76d43fb223a07e4bb8310417fabda" style="width: 100.0%; height: 100.0%;">Ajaokuta-Kaduna-Kano (AKK) Pipeline<br>Length: 614 km<br>Capacity: 2000 MMscf/day</div>`)[0];
+                popup_371d6da8b4b339cba0a162aca6d24ed2.setContent(html_8fe76d43fb223a07e4bb8310417fabda);
+            
+        
+
+        poly_line_45c4330cc374848d12d203d97b081751.bindPopup(popup_371d6da8b4b339cba0a162aca6d24ed2)
+        ;
+
+        
+    
+    
+            var marker_90577e75bdd6049d1b537bee78701169 = L.marker(
+                [7.5, 6.7],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_2c47d98fd5e6c6b6527f205f865f0180 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ac1815fc3c6695fabeb5235211f61ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e21379db48200ea170bf458f64338431 = $(`<div id="html_e21379db48200ea170bf458f64338431" style="width: 100.0%; height: 100.0%;">Start: Ajaokuta, Kogi</div>`)[0];
+                popup_7ac1815fc3c6695fabeb5235211f61ce.setContent(html_e21379db48200ea170bf458f64338431);
+            
+        
+
+        marker_90577e75bdd6049d1b537bee78701169.bindPopup(popup_7ac1815fc3c6695fabeb5235211f61ce)
+        ;
+
+        
+    
+    
+                marker_90577e75bdd6049d1b537bee78701169.setIcon(icon_2c47d98fd5e6c6b6527f205f865f0180);
+            
+    
+            var marker_7bec8c493b027466955a8cfcd28f7d2a = L.marker(
+                [12.0, 8.5167],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_eeed1c924323188201c85ba3eb7098f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b4580186e7091a3a89d2c71fc65397e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ef57264deef3e8dd1f1f1ea4483075a = $(`<div id="html_6ef57264deef3e8dd1f1f1ea4483075a" style="width: 100.0%; height: 100.0%;">End: Kano</div>`)[0];
+                popup_7b4580186e7091a3a89d2c71fc65397e.setContent(html_6ef57264deef3e8dd1f1f1ea4483075a);
+            
+        
+
+        marker_7bec8c493b027466955a8cfcd28f7d2a.bindPopup(popup_7b4580186e7091a3a89d2c71fc65397e)
+        ;
+
+        
+    
+    
+                marker_7bec8c493b027466955a8cfcd28f7d2a.setIcon(icon_eeed1c924323188201c85ba3eb7098f5);
+            
+    
+            var poly_line_1fc52ddc70800b035bb066a537d3cc51 = L.polyline(
+                [[5.0, 6.5], [6.2, 5.8]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_ee6aad8626cf0c72aed2622b4255337e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3633698e6066ace12b4eb5b925920748 = $(`<div id="html_3633698e6066ace12b4eb5b925920748" style="width: 100.0%; height: 100.0%;">Obiafu-Obrikom-Oben (OB3) Pipeline<br>Length: 127 km<br>Capacity: 2000 MMscf/day</div>`)[0];
+                popup_ee6aad8626cf0c72aed2622b4255337e.setContent(html_3633698e6066ace12b4eb5b925920748);
+            
+        
+
+        poly_line_1fc52ddc70800b035bb066a537d3cc51.bindPopup(popup_ee6aad8626cf0c72aed2622b4255337e)
+        ;
+
+        
+    
+    
+            var marker_1b4b9bc8fef3e799c4575b4761bd6dc5 = L.marker(
+                [5.0, 6.5],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_ffed67e53691ec1136fa7448aabfa27e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f2a527b7ea387abf4740c50f6ada37a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee3801f129db41d3ca97ae8b10adc1c2 = $(`<div id="html_ee3801f129db41d3ca97ae8b10adc1c2" style="width: 100.0%; height: 100.0%;">Start: Obiafu-Obrikom, Rivers</div>`)[0];
+                popup_6f2a527b7ea387abf4740c50f6ada37a.setContent(html_ee3801f129db41d3ca97ae8b10adc1c2);
+            
+        
+
+        marker_1b4b9bc8fef3e799c4575b4761bd6dc5.bindPopup(popup_6f2a527b7ea387abf4740c50f6ada37a)
+        ;
+
+        
+    
+    
+                marker_1b4b9bc8fef3e799c4575b4761bd6dc5.setIcon(icon_ffed67e53691ec1136fa7448aabfa27e);
+            
+    
+            var marker_cf278b93cddfd67e9ac56f51d5072e41 = L.marker(
+                [6.2, 5.8],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_46364828d44effd4ff451001b9949335 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bb0eb0ed5533dd9697b022ca1cd1833a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_422216c08593807cc202e13d76eeedcd = $(`<div id="html_422216c08593807cc202e13d76eeedcd" style="width: 100.0%; height: 100.0%;">End: Oben, Edo</div>`)[0];
+                popup_bb0eb0ed5533dd9697b022ca1cd1833a.setContent(html_422216c08593807cc202e13d76eeedcd);
+            
+        
+
+        marker_cf278b93cddfd67e9ac56f51d5072e41.bindPopup(popup_bb0eb0ed5533dd9697b022ca1cd1833a)
+        ;
+
+        
+    
+    
+                marker_cf278b93cddfd67e9ac56f51d5072e41.setIcon(icon_46364828d44effd4ff451001b9949335);
+            
+    
+            var poly_line_fe8d281474d6d5b02ec44d12e0c4d666 = L.polyline(
+                [[4.43, 7.16], [4.8156, 7.0498]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_0c9bd23fcda6c55b85b4f1fe2c3b6573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db22e708440e4cda68ee02c68777dc58 = $(`<div id="html_db22e708440e4cda68ee02c68777dc58" style="width: 100.0%; height: 100.0%;">Trans-Niger Pipeline<br>Length: 180 km<br>Capacity: 500 MMscf/day</div>`)[0];
+                popup_0c9bd23fcda6c55b85b4f1fe2c3b6573.setContent(html_db22e708440e4cda68ee02c68777dc58);
+            
+        
+
+        poly_line_fe8d281474d6d5b02ec44d12e0c4d666.bindPopup(popup_0c9bd23fcda6c55b85b4f1fe2c3b6573)
+        ;
+
+        
+    
+    
+            var marker_76083b93e980fd1b013c58b64dc28eed = L.marker(
+                [4.43, 7.16],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_a214315dcee9ccfb5d1d94889a1539f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af241f58c7a77a7f5a8a61b4eb006d64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3116961e29bed650648c320816ba519 = $(`<div id="html_a3116961e29bed650648c320816ba519" style="width: 100.0%; height: 100.0%;">Start: Bonny, Rivers</div>`)[0];
+                popup_af241f58c7a77a7f5a8a61b4eb006d64.setContent(html_a3116961e29bed650648c320816ba519);
+            
+        
+
+        marker_76083b93e980fd1b013c58b64dc28eed.bindPopup(popup_af241f58c7a77a7f5a8a61b4eb006d64)
+        ;
+
+        
+    
+    
+                marker_76083b93e980fd1b013c58b64dc28eed.setIcon(icon_a214315dcee9ccfb5d1d94889a1539f9);
+            
+    
+            var marker_4df20df9bf7be7f8d97acf71e32e66fe = L.marker(
+                [4.8156, 7.0498],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_ad9087c50033dffd7a72a441780e62d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed681ad09d589a545bfb0bd5f0336f43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_725400c818310931a8eaa6023a9503a2 = $(`<div id="html_725400c818310931a8eaa6023a9503a2" style="width: 100.0%; height: 100.0%;">End: Port Harcourt, Rivers</div>`)[0];
+                popup_ed681ad09d589a545bfb0bd5f0336f43.setContent(html_725400c818310931a8eaa6023a9503a2);
+            
+        
+
+        marker_4df20df9bf7be7f8d97acf71e32e66fe.bindPopup(popup_ed681ad09d589a545bfb0bd5f0336f43)
+        ;
+
+        
+    
+    
+                marker_4df20df9bf7be7f8d97acf71e32e66fe.setIcon(icon_ad9087c50033dffd7a72a441780e62d4);
+            
+    
+            var poly_line_ad11564efadb9778f0918dbe9c0f835a = L.polyline(
+                [[5.2, 5.4], [5.5, 5.6]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_1efa7886f3f1c729d5fa2e4df3f128fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_392aef638a8748fdbaf098c0eead8004 = $(`<div id="html_392aef638a8748fdbaf098c0eead8004" style="width: 100.0%; height: 100.0%;">Forcados-Yokri Pipeline<br>Length: 50 km<br>Capacity: 300 MMscf/day</div>`)[0];
+                popup_1efa7886f3f1c729d5fa2e4df3f128fa.setContent(html_392aef638a8748fdbaf098c0eead8004);
+            
+        
+
+        poly_line_ad11564efadb9778f0918dbe9c0f835a.bindPopup(popup_1efa7886f3f1c729d5fa2e4df3f128fa)
+        ;
+
+        
+    
+    
+            var marker_5fca5f6b79de296a5a443b1179362df8 = L.marker(
+                [5.2, 5.4],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_b3b4da1032ca70755b9cce5f7cbea94a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3375bc31e53e0d0d87993d3c0f24598 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee1dd65c92ae8dcf419410996fdd9233 = $(`<div id="html_ee1dd65c92ae8dcf419410996fdd9233" style="width: 100.0%; height: 100.0%;">Start: Forcados, Delta</div>`)[0];
+                popup_e3375bc31e53e0d0d87993d3c0f24598.setContent(html_ee1dd65c92ae8dcf419410996fdd9233);
+            
+        
+
+        marker_5fca5f6b79de296a5a443b1179362df8.bindPopup(popup_e3375bc31e53e0d0d87993d3c0f24598)
+        ;
+
+        
+    
+    
+                marker_5fca5f6b79de296a5a443b1179362df8.setIcon(icon_b3b4da1032ca70755b9cce5f7cbea94a);
+            
+    
+            var marker_0860e289d92b26bae92508814eb12b07 = L.marker(
+                [5.5, 5.6],
+                {
+}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+            var icon_ec3f583695481ebc12a3139f67cb5e18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e624da1f99680101960aef575501c8a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15d3e4f29996b423b1b6dac51934e6ea = $(`<div id="html_15d3e4f29996b423b1b6dac51934e6ea" style="width: 100.0%; height: 100.0%;">End: Yokri, Delta</div>`)[0];
+                popup_e624da1f99680101960aef575501c8a2.setContent(html_15d3e4f29996b423b1b6dac51934e6ea);
+            
+        
+
+        marker_0860e289d92b26bae92508814eb12b07.bindPopup(popup_e624da1f99680101960aef575501c8a2)
+        ;
+
+        
+    
+    
+                marker_0860e289d92b26bae92508814eb12b07.setIcon(icon_ec3f583695481ebc12a3139f67cb5e18);
+            
+    
+            var circle_marker_84e5bff1fecdd1fcfd181d48363eb6f6 = L.circleMarker(
+                [4.43, 7.16],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.112, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_5f4fe1088b57ce90ba9b5c442a76668a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51b6baa42fa96bb21cc84a01be8be895 = $(`<div id="html_51b6baa42fa96bb21cc84a01be8be895" style="width: 100.0%; height: 100.0%;">Bonny Terminal<br>State: Rivers<br>Daily Flaring: 41.1 MMscf</div>`)[0];
+                popup_5f4fe1088b57ce90ba9b5c442a76668a.setContent(html_51b6baa42fa96bb21cc84a01be8be895);
+            
+        
+
+        circle_marker_84e5bff1fecdd1fcfd181d48363eb6f6.bindPopup(popup_5f4fe1088b57ce90ba9b5c442a76668a)
+        ;
+
+        
+    
+    
+            var circle_marker_671c3b7634683e8e658a05f71c394413 = L.circleMarker(
+                [4.3, 6.2],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.278, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_d0de14695b5328dd430f2b584c9cc2f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b1fca367658049b68e4ad1d2dea5b36 = $(`<div id="html_9b1fca367658049b68e4ad1d2dea5b36" style="width: 100.0%; height: 100.0%;">Brass Terminal<br>State: Bayelsa<br>Daily Flaring: 12.8 MMscf</div>`)[0];
+                popup_d0de14695b5328dd430f2b584c9cc2f2.setContent(html_9b1fca367658049b68e4ad1d2dea5b36);
+            
+        
+
+        circle_marker_671c3b7634683e8e658a05f71c394413.bindPopup(popup_d0de14695b5328dd430f2b584c9cc2f2)
+        ;
+
+        
+    
+    
+            var circle_marker_7fc4005cb5fa886946177f9a35f1b36f = L.circleMarker(
+                [5.6, 5.1],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.7, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_362ab2db01079f5ed0cc69c9d13123c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c16fac98aebea3738890751e606046 = $(`<div id="html_10c16fac98aebea3738890751e606046" style="width: 100.0%; height: 100.0%;">Escravos Terminal<br>State: Delta<br>Daily Flaring: 27.0 MMscf</div>`)[0];
+                popup_362ab2db01079f5ed0cc69c9d13123c9.setContent(html_10c16fac98aebea3738890751e606046);
+            
+        
+
+        circle_marker_7fc4005cb5fa886946177f9a35f1b36f.bindPopup(popup_362ab2db01079f5ed0cc69c9d13123c9)
+        ;
+
+        
+    
+    
+            var circle_marker_da25a68eb8e73be8eabde1941492f74e = L.circleMarker(
+                [5.2, 5.4],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0920000000000005, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_53ce1053168933baacb98cf62edf7ddd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13e79043c72a5c1ff6dedaf9b4246b10 = $(`<div id="html_13e79043c72a5c1ff6dedaf9b4246b10" style="width: 100.0%; height: 100.0%;">Forcados Terminal<br>State: Delta<br>Daily Flaring: 50.9 MMscf</div>`)[0];
+                popup_53ce1053168933baacb98cf62edf7ddd.setContent(html_13e79043c72a5c1ff6dedaf9b4246b10);
+            
+        
+
+        circle_marker_da25a68eb8e73be8eabde1941492f74e.bindPopup(popup_53ce1053168933baacb98cf62edf7ddd)
+        ;
+
+        
+    
+    
+            var circle_marker_dc7ea59f74365d75a8140085e987447d = L.circleMarker(
+                [4.8, 6.8],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.145, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_ffb1c48e1548e12293c3ae8eccee27c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_158685d143c26c1ed5123a7c0b87069e = $(`<div id="html_158685d143c26c1ed5123a7c0b87069e" style="width: 100.0%; height: 100.0%;">Obagi Gas Plant<br>State: Rivers<br>Daily Flaring: 11.4 MMscf</div>`)[0];
+                popup_ffb1c48e1548e12293c3ae8eccee27c0.setContent(html_158685d143c26c1ed5123a7c0b87069e);
+            
+        
+
+        circle_marker_dc7ea59f74365d75a8140085e987447d.bindPopup(popup_ffb1c48e1548e12293c3ae8eccee27c0)
+        ;
+
+        
+    
+    
+            var circle_marker_5911a030fa3603567fb66e3de0767213 = L.circleMarker(
+                [6.2, 5.8],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.036, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_c3c813b1fa4702db5fc63f623ffa3c69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b15ce7af076f515d06f8ef144c74f29 = $(`<div id="html_8b15ce7af076f515d06f8ef144c74f29" style="width: 100.0%; height: 100.0%;">Oben Gas Plant<br>State: Edo<br>Daily Flaring: 10.4 MMscf</div>`)[0];
+                popup_c3c813b1fa4702db5fc63f623ffa3c69.setContent(html_8b15ce7af076f515d06f8ef144c74f29);
+            
+        
+
+        circle_marker_5911a030fa3603567fb66e3de0767213.bindPopup(popup_c3c813b1fa4702db5fc63f623ffa3c69)
+        ;
+
+        
+    
+    
+            var circle_marker_c0eb2c64ce3895aded0177181a4fdef6 = L.circleMarker(
+                [5.0, 6.5],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3599999999999999, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_d3392253b417d0fa896ababa8f3d5682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71a02c514face548a0d933baa3d143d9 = $(`<div id="html_71a02c514face548a0d933baa3d143d9" style="width: 100.0%; height: 100.0%;">Obiafu-Obrikom<br>State: Rivers<br>Daily Flaring: 13.6 MMscf</div>`)[0];
+                popup_d3392253b417d0fa896ababa8f3d5682.setContent(html_71a02c514face548a0d933baa3d143d9);
+            
+        
+
+        circle_marker_c0eb2c64ce3895aded0177181a4fdef6.bindPopup(popup_d3392253b417d0fa896ababa8f3d5682)
+        ;
+
+        
+    
+    
+            var circle_marker_8664c09ad0c7f3e6dc45fa29ab18ca34 = L.circleMarker(
+                [4.6, 6.1],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.548, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_2986685b1c981e7735306abd108cc789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a95f92623460f3f99b56ac4e83df079a = $(`<div id="html_a95f92623460f3f99b56ac4e83df079a" style="width: 100.0%; height: 100.0%;">Ogbia Flow Station<br>State: Bayelsa<br>Daily Flaring: 15.5 MMscf</div>`)[0];
+                popup_2986685b1c981e7735306abd108cc789.setContent(html_a95f92623460f3f99b56ac4e83df079a);
+            
+        
+
+        circle_marker_8664c09ad0c7f3e6dc45fa29ab18ca34.bindPopup(popup_2986685b1c981e7735306abd108cc789)
+        ;
+
+        
+    
+    
+            var circle_marker_8efaad1a1f938c8c039d526aef99c1bd = L.circleMarker(
+                [4.5, 7.9],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.418, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_4eb8c9c7072c030b2f4aa05c65227396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5547ae839ee41cdafb4ad8d6ba49e451 = $(`<div id="html_5547ae839ee41cdafb4ad8d6ba49e451" style="width: 100.0%; height: 100.0%;">Qua Iboe Terminal<br>State: Akwa Ibom<br>Daily Flaring: 34.2 MMscf</div>`)[0];
+                popup_4eb8c9c7072c030b2f4aa05c65227396.setContent(html_5547ae839ee41cdafb4ad8d6ba49e451);
+            
+        
+
+        circle_marker_8efaad1a1f938c8c039d526aef99c1bd.bindPopup(popup_4eb8c9c7072c030b2f4aa05c65227396)
+        ;
+
+        
+    
+    
+            var circle_marker_2f208cf2b979e7d5a3032fa78c19a202 = L.circleMarker(
+                [5.4, 5.6],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.688, "stroke": true, "weight": 3}
+            ).addTo(map_5803fcf79e64e4f8843d2f50c7d97880);
+        
+    
+        var popup_e1a7372a020c87fcd9423fbc71d6dcfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_589a38ebea949438952ff31e1c1db3e8 = $(`<div id="html_589a38ebea949438952ff31e1c1db3e8" style="width: 100.0%; height: 100.0%;">Utorogu Gas Plant<br>State: Delta<br>Daily Flaring: 6.9 MMscf</div>`)[0];
+                popup_e1a7372a020c87fcd9423fbc71d6dcfc.setContent(html_589a38ebea949438952ff31e1c1db3e8);
+            
+        
+
+        circle_marker_2f208cf2b979e7d5a3032fa78c19a202.bindPopup(popup_e1a7372a020c87fcd9423fbc71d6dcfc)
+        ;
+
+        
+    
+</script>
+</html>
