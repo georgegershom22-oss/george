@@ -1,0 +1,32 @@
+{
+  "dataset_name": "macro_timeseries",
+  "generator": "src.generators.synthetic_macro.generate_macro_series",
+  "source": "world_bank or synthetic",
+  "parameters": {
+    "years": [
+      2005,
+      2024
+    ]
+  },
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "gdp_growth": {
+      "name": "gdp_growth",
+      "path": "/workspace/data/processed/macro_gdp_growth.csv",
+      "kind": "processed",
+      "description": "GDP growth annual %"
+    },
+    "inflation": {
+      "name": "inflation",
+      "path": "/workspace/data/processed/macro_inflation.csv",
+      "kind": "processed",
+      "description": "Inflation annual %"
+    },
+    "lending_rate": {
+      "name": "lending_rate",
+      "path": "/workspace/data/processed/macro_lending_rate.csv",
+      "kind": "processed",
+      "description": "Lending rate %"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "dataset_name": "macro_tech_combined",
+  "generator": "src.pipeline.build_dataset.build_combined",
+  "source": "processed",
+  "parameters": {},
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "macro_tech_combined": {
+      "name": "macro_tech_combined",
+      "path": "/workspace/data/combined/macro_tech_combined.csv",
+      "kind": "combined",
+      "description": "Combined macro + tech adoption"
+    }
+  }
+}
