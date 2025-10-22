@@ -1,0 +1,88 @@
+variable,section,label,type,scale,allowed_values,derived
+firm_id,A,Anonymized Firm ID (UUID),string,,,no
+state,A,State,string,,"Benue,Kogi,Kwara,Nasarawa,Niger,Plateau,FCT Abuja,Adamawa,Bauchi,Borno,Gombe,Taraba,Yobe,Jigawa,Kaduna,Kano,Katsina,Kebbi,Sokoto,Zamfara,Abia,Anambra,Ebonyi,Enugu,Imo,Akwa Ibom,Bayelsa,Cross River,Delta,Edo,Rivers,Ekiti,Lagos,Ogun,Ondo,Osun,Oyo",no
+geo_zone,A,Geo-Political Zone,string,,"North Central,North East,North West,South East,South South,South West",no
+urban_rural,A,Location Type,string,,"Urban,Rural",no
+industry_isic,A,ISIC Section Code,string,,"C,G,J,A,I,H,M,S",no
+industry_label,A,Industry Label,string,,,no
+firm_age_years,A,Firm Age (years),number,,,no
+size_class,A,SME Size Class,string,,"Micro,Small,Medium",no
+employees_full_time,A,Full-time Employees,integer,,,no
+turnover_naira,A,Estimated Annual Turnover (NGN),number,,,yes
+legal_structure,A,Legal Structure,string,,"Sole Proprietorship,Partnership,Limited Liability",no
+manager_age,A,Owner/Manager Age,integer,,,no
+manager_gender,A,Owner/Manager Gender,string,,"Male,Female,Other/Prefer not to say",no
+manager_education,A,Highest Education Level,string,,"Primary,Secondary,Diploma/OND,Bachelor's,Master's,PhD",no
+manager_field_of_study,A,Field of Study,string,,"Business/Management,Engineering,Computer Science/IT,Agriculture,Arts/Humanities,Other",no
+manager_prior_entre_experience,A,Prior Entrepreneurial Experience,boolean,,,no
+manager_digital_literacy_score,A,Digital Literacy Score (0-100),integer,0-100,,no
+B_Tech_DigitalTools_Computers,B,B Tech DigitalTools Computers,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_DigitalTools_Accounting,B,B Tech DigitalTools Accounting,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_DigitalTools_CRM,B,B Tech DigitalTools CRM,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_DigitalTools_Ecommerce,B,B Tech DigitalTools Ecommerce,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_DigitalTools_Cloud,B,B Tech DigitalTools Cloud,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_DigitalTools_SocialMedia,B,B Tech DigitalTools SocialMedia,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_Advanced_AI_ML,B,B Tech Advanced AI ML,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_Advanced_IoT,B,B Tech Advanced IoT,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_Advanced_Blockchain,B,B Tech Advanced Blockchain,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Tech_Advanced_Robotics,B,B Tech Advanced Robotics,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Process_NewMethods,B,B Process NewMethods,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Process_SupplyChainSoftware,B,B Process SupplyChainSoftware,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Process_SupportTechniques,B,B Process SupportTechniques,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Product_NewOrImproved_Last3Y,B,B Product NewOrImproved Last3Y,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Product_NewLaunch_Frequency,B,B Product NewLaunch Frequency,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_BMI_RevenueModel_Changes,B,B BMI RevenueModel Changes,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_BMI_ValueProp_Changes,B,B BMI ValueProp Changes,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_BMI_CustomerEngagement_Changes,B,B BMI CustomerEngagement Changes,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Drivers_CompetitivePressure,B,B Drivers CompetitivePressure,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Drivers_CustomerDemand,B,B Drivers CustomerDemand,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+B_Drivers_TopMgmtAttitude,B,B Drivers TopMgmtAttitude,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+has_website,B,Has Business Website,boolean,,,no
+uses_social_media,B,Uses Social Media for Business,boolean,,,no
+accepts_online_payments,B,Accepts Online/Digital Payments,boolean,,,no
+level_of_digitization_score,B,Digital Presence Composite (0-100),number,0-100,,yes
+TechnologicalInnovationIndex,B,Technological Innovation Index (mean of 6 items),number,1-5,,yes
+AdvancedTechAdoptionIndex,B,Advanced Technology Adoption Index (mean of 4 items),number,1-5,,yes
+ProcessInnovationIndex,B,Process Innovation Index (mean of 3 items),number,1-5,,yes
+ProductInnovationIndex,B,Product/Service Innovation Index (mean of 2 items),number,1-5,,yes
+BusinessModelInnovationIndex,B,Business Model Innovation Index (mean of 3 items),number,1-5,,yes
+InnovationDriversIndex,B,Innovation Drivers Index (mean of 3 items),number,1-5,,yes
+InnovationCompositeIndex,B,Innovation Composite Index (weighted),number,1-5,,yes
+C_Financial_Difficulty_Access_Credit,C,C Financial Difficulty Access Credit,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Financial_Cost_of_Innovation,C,C Financial Cost of Innovation,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Financial_Internal_Capital_Insufficient,C,C Financial Internal Capital Insufficient,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_HC_Skilled_Employees_Difficult,C,C HC Skilled Employees Difficult,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_HC_Training_Cost_High,C,C HC Training Cost High,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_HC_Mgmt_Leadership_Capability_Low,C,C HC Mgmt Leadership Capability Low,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Infra_Power_Unreliable,C,C Infra Power Unreliable,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Infra_Internet_Poor_Expensive,C,C Infra Internet Poor Expensive,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Infra_Logistics_Challenges,C,C Infra Logistics Challenges,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Reg_Burden_Regulations_Taxes,C,C Reg Burden Regulations Taxes,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Reg_Corruption_Informal_Charges,C,C Reg Corruption Informal Charges,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Reg_Support_Programs_Effectiveness,C,C Reg Support Programs Effectiveness,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Mkt_Competition_Intensity,C,C Mkt Competition Intensity,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Mkt_Demand_Uncertainty,C,C Mkt Demand Uncertainty,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+C_Mkt_Limited_International_Access,C,C Mkt Limited International Access,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+Constraints_Financial_Index,C,Financial Constraints Index (mean of 3 items),number,1-5,,yes
+Constraints_HumanCapital_Index,C,Human Capital Constraints Index (mean of 3 items),number,1-5,,yes
+Constraints_Infrastructure_Index,C,Infrastructure Constraints Index (mean of 3 items),number,1-5,,yes
+Constraints_Regulatory_Index,C,"Regulatory Constraints Index (mean of 3 items, effectiveness inverted)",number,1-5,,yes
+Constraints_Market_Index,C,Market Constraints Index (mean of 3 items),number,1-5,,yes
+Constraints_Composite_Index,C,Constraints Composite Index (weighted),number,1-5,,yes
+D_Subj_Profitability_Growth,D,D Subj Profitability Growth,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_Subj_Sales_Growth,D,D Subj Sales Growth,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_Subj_MarketShare_Growth,D,D Subj MarketShare Growth,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_Subj_ROI,D,D Subj ROI,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_Subj_Overall_Satisfaction,D,D Subj Overall Satisfaction,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_NonFin_ProductLines_Increase,D,D NonFin ProductLines Increase,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_NonFin_Quality_Improved,D,D NonFin Quality Improved,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+D_NonFin_Customer_Satisfaction_Retention,D,D NonFin Customer Satisfaction Retention,integer,"1-5 (1=Strongly Disagree, 5=Strongly Agree)",,no
+SubjectivePerformanceIndex,D,Subjective Performance Index (mean of 5 items),number,1-5,,yes
+turnover_naira_reported,D,"Annual Turnover (NGN, reported)",number,,,no
+turnover_range,D,Annual Turnover Range (NGN),string,,"0-1m,1-5m,5-20m,20-100m,100-500m,>500m",no
+profit_naira_reported,D,"Annual Profit (NGN, reported)",number,,,no
+profit_range,D,Annual Profit Range (NGN),string,,"0-250k,250k-1m,1-5m,5-20m,20-100m,>100m",no
+employee_growth_rate,D,Employee Growth Rate (ratio),number,,,no
+employee_growth_percent,D,Employee Growth Rate (%),number,,,no
+num_new_branches,D,Number of New Branches (3y),integer,,,no
+num_new_clients,D,Number of New Clients (3y),integer,,,no

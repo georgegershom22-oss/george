@@ -1,0 +1,535 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Core Dataset 1: Primary Quantitative Survey (Synthetic)",
+  "description": "Structured SME survey dataset for Nigerian SMEs: Innovation, Constraints, and Performance.",
+  "type": "object",
+  "properties": {
+    "firm_id": {
+      "type": "string",
+      "description": "Anonymized Firm ID (UUID)"
+    },
+    "state": {
+      "type": "string",
+      "enum": [
+        "Benue",
+        "Kogi",
+        "Kwara",
+        "Nasarawa",
+        "Niger",
+        "Plateau",
+        "FCT Abuja",
+        "Adamawa",
+        "Bauchi",
+        "Borno",
+        "Gombe",
+        "Taraba",
+        "Yobe",
+        "Jigawa",
+        "Kaduna",
+        "Kano",
+        "Katsina",
+        "Kebbi",
+        "Sokoto",
+        "Zamfara",
+        "Abia",
+        "Anambra",
+        "Ebonyi",
+        "Enugu",
+        "Imo",
+        "Akwa Ibom",
+        "Bayelsa",
+        "Cross River",
+        "Delta",
+        "Edo",
+        "Rivers",
+        "Ekiti",
+        "Lagos",
+        "Ogun",
+        "Ondo",
+        "Osun",
+        "Oyo"
+      ],
+      "description": "State"
+    },
+    "geo_zone": {
+      "type": "string",
+      "enum": [
+        "North Central",
+        "North East",
+        "North West",
+        "South East",
+        "South South",
+        "South West"
+      ],
+      "description": "Geo-Political Zone"
+    },
+    "urban_rural": {
+      "type": "string",
+      "enum": [
+        "Urban",
+        "Rural"
+      ],
+      "description": "Location Type"
+    },
+    "industry_isic": {
+      "type": "string",
+      "enum": [
+        "C",
+        "G",
+        "J",
+        "A",
+        "I",
+        "H",
+        "M",
+        "S"
+      ],
+      "description": "ISIC Section Code"
+    },
+    "industry_label": {
+      "type": "string",
+      "description": "Industry Label"
+    },
+    "firm_age_years": {
+      "type": "number",
+      "minimum": 0
+    },
+    "size_class": {
+      "type": "string",
+      "enum": [
+        "Micro",
+        "Small",
+        "Medium"
+      ]
+    },
+    "employees_full_time": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "turnover_naira": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "legal_structure": {
+      "type": "string",
+      "enum": [
+        "Sole Proprietorship",
+        "Partnership",
+        "Limited Liability"
+      ]
+    },
+    "manager_age": {
+      "type": "integer",
+      "minimum": 15,
+      "maximum": 100
+    },
+    "manager_gender": {
+      "type": "string",
+      "enum": [
+        "Male",
+        "Female",
+        "Other/Prefer not to say"
+      ]
+    },
+    "manager_education": {
+      "type": "string",
+      "enum": [
+        "Primary",
+        "Secondary",
+        "Diploma/OND",
+        "Bachelor's",
+        "Master's",
+        "PhD"
+      ]
+    },
+    "manager_field_of_study": {
+      "type": "string",
+      "enum": [
+        "Business/Management",
+        "Engineering",
+        "Computer Science/IT",
+        "Agriculture",
+        "Arts/Humanities",
+        "Other"
+      ]
+    },
+    "manager_prior_entre_experience": {
+      "type": "boolean"
+    },
+    "manager_digital_literacy_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "B_Tech_DigitalTools_Computers": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools Computers (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_DigitalTools_Accounting": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools Accounting (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_DigitalTools_CRM": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools CRM (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_DigitalTools_Ecommerce": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools Ecommerce (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_DigitalTools_Cloud": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools Cloud (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_DigitalTools_SocialMedia": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech DigitalTools SocialMedia (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_Advanced_AI_ML": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech Advanced AI ML (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_Advanced_IoT": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech Advanced IoT (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_Advanced_Blockchain": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech Advanced Blockchain (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Tech_Advanced_Robotics": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Tech Advanced Robotics (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Process_NewMethods": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Process NewMethods (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Process_SupplyChainSoftware": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Process SupplyChainSoftware (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Process_SupportTechniques": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Process SupportTechniques (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Product_NewOrImproved_Last3Y": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Product NewOrImproved Last3Y (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Product_NewLaunch_Frequency": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Product NewLaunch Frequency (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_BMI_RevenueModel_Changes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B BMI RevenueModel Changes (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_BMI_ValueProp_Changes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B BMI ValueProp Changes (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_BMI_CustomerEngagement_Changes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B BMI CustomerEngagement Changes (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Drivers_CompetitivePressure": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Drivers CompetitivePressure (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Drivers_CustomerDemand": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Drivers CustomerDemand (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "B_Drivers_TopMgmtAttitude": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "B Drivers TopMgmtAttitude (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Financial_Difficulty_Access_Credit": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Financial Difficulty Access Credit (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Financial_Cost_of_Innovation": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Financial Cost of Innovation (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Financial_Internal_Capital_Insufficient": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Financial Internal Capital Insufficient (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_HC_Skilled_Employees_Difficult": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C HC Skilled Employees Difficult (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_HC_Training_Cost_High": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C HC Training Cost High (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_HC_Mgmt_Leadership_Capability_Low": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C HC Mgmt Leadership Capability Low (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Infra_Power_Unreliable": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Infra Power Unreliable (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Infra_Internet_Poor_Expensive": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Infra Internet Poor Expensive (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Infra_Logistics_Challenges": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Infra Logistics Challenges (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Reg_Burden_Regulations_Taxes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Reg Burden Regulations Taxes (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Reg_Corruption_Informal_Charges": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Reg Corruption Informal Charges (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Reg_Support_Programs_Effectiveness": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Reg Support Programs Effectiveness (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Mkt_Competition_Intensity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Mkt Competition Intensity (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Mkt_Demand_Uncertainty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Mkt Demand Uncertainty (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "C_Mkt_Limited_International_Access": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "C Mkt Limited International Access (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_Subj_Profitability_Growth": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D Subj Profitability Growth (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_Subj_Sales_Growth": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D Subj Sales Growth (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_Subj_MarketShare_Growth": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D Subj MarketShare Growth (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_Subj_ROI": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D Subj ROI (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_Subj_Overall_Satisfaction": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D Subj Overall Satisfaction (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_NonFin_ProductLines_Increase": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D NonFin ProductLines Increase (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_NonFin_Quality_Improved": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D NonFin Quality Improved (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "D_NonFin_Customer_Satisfaction_Retention": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "D NonFin Customer Satisfaction Retention (1=Strongly Disagree, 5=Strongly Agree)"
+    },
+    "TechnologicalInnovationIndex": {
+      "type": "number"
+    },
+    "AdvancedTechAdoptionIndex": {
+      "type": "number"
+    },
+    "ProcessInnovationIndex": {
+      "type": "number"
+    },
+    "ProductInnovationIndex": {
+      "type": "number"
+    },
+    "BusinessModelInnovationIndex": {
+      "type": "number"
+    },
+    "InnovationDriversIndex": {
+      "type": "number"
+    },
+    "InnovationCompositeIndex": {
+      "type": "number"
+    },
+    "Constraints_Financial_Index": {
+      "type": "number"
+    },
+    "Constraints_HumanCapital_Index": {
+      "type": "number"
+    },
+    "Constraints_Infrastructure_Index": {
+      "type": "number"
+    },
+    "Constraints_Regulatory_Index": {
+      "type": "number"
+    },
+    "Constraints_Market_Index": {
+      "type": "number"
+    },
+    "Constraints_Composite_Index": {
+      "type": "number"
+    },
+    "SubjectivePerformanceIndex": {
+      "type": "number"
+    },
+    "level_of_digitization_score": {
+      "type": "number"
+    },
+    "has_website": {
+      "type": "boolean"
+    },
+    "uses_social_media": {
+      "type": "boolean"
+    },
+    "accepts_online_payments": {
+      "type": "boolean"
+    },
+    "turnover_naira_reported": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "turnover_range": {
+      "type": "string",
+      "enum": [
+        "0-1m",
+        "1-5m",
+        "5-20m",
+        "20-100m",
+        "100-500m",
+        ">500m"
+      ]
+    },
+    "profit_naira_reported": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "profit_range": {
+      "type": "string",
+      "enum": [
+        "0-250k",
+        "250k-1m",
+        "1-5m",
+        "5-20m",
+        "20-100m",
+        ">100m"
+      ]
+    },
+    "employee_growth_rate": {
+      "type": "number"
+    },
+    "employee_growth_percent": {
+      "type": "number"
+    },
+    "num_new_branches": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "num_new_clients": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": false
+}
