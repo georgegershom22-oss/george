@@ -1,0 +1,20 @@
+{
+  "dataset_name": "sectoral_growth",
+  "generator": "src.generators.sectoral_growth.generate_sectoral_growth",
+  "source": "synthetic",
+  "parameters": {
+    "years": [
+      2005,
+      2024
+    ]
+  },
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "sectoral_growth": {
+      "name": "sectoral_growth",
+      "path": "/workspace/data/processed/sectoral_growth.csv",
+      "kind": "processed",
+      "description": "Sectoral growth rates"
+    }
+  }
+}

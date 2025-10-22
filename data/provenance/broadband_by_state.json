@@ -1,0 +1,17 @@
+{
+  "dataset_name": "broadband_by_state",
+  "generator": "src.generators.broadband_by_state.generate_broadband_by_state",
+  "source": "synthetic",
+  "parameters": {
+    "year": 2024
+  },
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "broadband_by_state": {
+      "name": "broadband_by_state",
+      "path": "/workspace/data/processed/broadband_by_state.csv",
+      "kind": "processed",
+      "description": "Broadband penetration by state"
+    }
+  }
+}

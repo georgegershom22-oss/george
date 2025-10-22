@@ -1,0 +1,41 @@
+{
+  "dataset_name": "world_bank_macro",
+  "generator": "src.fetchers.world_bank.fetch_all",
+  "source": "https://api.worldbank.org",
+  "parameters": {
+    "country": "NGA",
+    "indicators": [
+      "gdp_growth",
+      "inflation",
+      "lending_rate",
+      "ease_of_doing_business"
+    ]
+  },
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "gdp_growth": {
+      "name": "gdp_growth",
+      "path": "/workspace/data/raw/wb/wb_gdp_growth.csv",
+      "kind": "raw",
+      "description": "World Bank gdp_growth"
+    },
+    "inflation": {
+      "name": "inflation",
+      "path": "/workspace/data/raw/wb/wb_inflation.csv",
+      "kind": "raw",
+      "description": "World Bank inflation"
+    },
+    "lending_rate": {
+      "name": "lending_rate",
+      "path": "/workspace/data/raw/wb/wb_lending_rate.csv",
+      "kind": "raw",
+      "description": "World Bank lending_rate"
+    },
+    "ease_of_doing_business": {
+      "name": "ease_of_doing_business",
+      "path": "/workspace/data/raw/wb/wb_ease_of_doing_business_ERROR.txt",
+      "kind": "raw",
+      "description": "World Bank ease_of_doing_business"
+    }
+  }
+}

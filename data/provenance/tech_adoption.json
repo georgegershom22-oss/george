@@ -1,0 +1,26 @@
+{
+  "dataset_name": "tech_adoption",
+  "generator": "src.generators.tech_adoption",
+  "source": "synthetic",
+  "parameters": {
+    "years": [
+      2005,
+      2024
+    ]
+  },
+  "created_at_utc": "2025-10-22T21:46:20Z",
+  "artifacts": {
+    "mobile_money": {
+      "name": "mobile_money",
+      "path": "/workspace/data/processed/mobile_money_adoption.csv",
+      "kind": "processed",
+      "description": "Mobile money/FinTech adoption"
+    },
+    "itu_idi": {
+      "name": "itu_idi",
+      "path": "/workspace/data/processed/itu_idi.csv",
+      "kind": "processed",
+      "description": "ITU ICT Development Index (synthetic)"
+    }
+  }
+}
