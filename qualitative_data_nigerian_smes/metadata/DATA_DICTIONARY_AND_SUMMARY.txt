@@ -1,0 +1,590 @@
+QUALITATIVE DATASET: DATA DICTIONARY AND SUMMARY STATISTICS
+============================================================
+
+Research Project: Leveraging Machine Learning to Examine Innovation Adoption and 
+                  Constraints in Nigerian SMEs: Implications for Performance and Growth
+
+Dataset Description: Primary qualitative data collected through semi-structured interviews
+                     and focus group discussions with Nigerian SME owners/managers
+
+Collection Period: August 15 - September 23, 2024
+Principal Investigators: Research Team
+Ethical Approval: [Reference number would go here]
+
+================================================================================
+SECTION 1: DATASET OVERVIEW
+================================================================================
+
+Total Participants: 64 unique individuals
+- Semi-structured Interviews: 25 participants
+- Focus Group Discussions: 39 participants (5 FGDs)
+
+Data Files Included:
+1. /interviews/ - 25 interview transcripts (detailed and summary format)
+2. /focus_groups/ - 5 FGD transcripts
+3. /metadata/ - Participant demographics, this data dictionary
+4. /analysis_guides/ - Codebook and analysis procedures
+
+Total Qualitative Data: Approximately 190,000 words of transcribed text
+Average Interview Duration: 73 minutes (range: 48-95 minutes)
+Average FGD Duration: 118 minutes (range: 105-135 minutes)
+
+================================================================================
+SECTION 2: PARTICIPANT METADATA VARIABLES
+================================================================================
+
+File: participants_metadata.csv
+
+Variable Name: ParticipantID
+Type: String
+Description: Unique identifier for each participant
+Format: INT-XXX for interviews, FGD-XX for focus group participants
+Example: INT-001, FGD-01-P1
+Notes: Cross-references with transcript files
+
+Variable Name: Type
+Type: Categorical
+Description: Type of data collection method
+Values: "Interview" or "Focus Group"
+Missing: 0
+
+Variable Name: Name
+Type: String
+Description: Participant's name (or pseudonym)
+Notes: Real names used in this synthetic dataset; in actual research, would use pseudonyms for privacy
+
+Variable Name: Gender
+Type: Binary categorical
+Description: Participant's gender
+Values: Male, Female
+Distribution: 
+- Interviews: 13 Male (52%), 12 Female (48%)
+- Overall: 36 Male (56%), 28 Female (44%)
+
+Variable Name: Age
+Type: Numeric (Integer)
+Description: Participant's age in years at time of interview
+Range: 27-56 years
+Mean: 39.2 years
+Median: 38 years
+Distribution by decade:
+- 20-29: 12% (n=3)
+- 30-39: 48% (n=12)
+- 40-49: 32% (n=8)
+- 50+: 8% (n=2)
+
+Variable Name: Education
+Type: Categorical
+Description: Highest educational qualification
+Values: Secondary, HND, BSc, MSc, MBA
+Distribution:
+- Secondary: 16% (n=4)
+- HND: 20% (n=5)
+- BSc: 40% (n=10)
+- MSc: 16% (n=4)
+- MBA: 8% (n=2)
+
+Variable Name: BusinessName
+Type: String
+Description: Name of the SME
+Notes: Synthetic business names
+
+Variable Name: Sector
+Type: Categorical
+Description: Primary business sector
+Values: Technology, Agriculture, Manufacturing, Retail, Services, Hospitality, Creative
+Distribution:
+- Technology: 28% (n=7)
+- Agriculture: 24% (n=6)
+- Manufacturing: 20% (n=5)
+- Retail: 16% (n=4)
+- Services: 8% (n=2)
+- Hospitality: 4% (n=1)
+
+Variable Name: SubSector
+Type: String
+Description: Specific industry/sub-sector
+Examples: Software Development, Agritech, Textiles, Fashion E-commerce, Telemedicine
+Notes: High diversity; 25 different sub-sectors represented
+
+Variable Name: Location
+Type: String
+Description: City where business is based
+Values: Lagos, Enugu, Kano, Abuja, Port Harcourt, Ibadan, Kaduna, Calabar, Jos, Sokoto, Aba, Onitsha, Kebbi, Katsina, Maiduguri
+Notes: 15 cities across Nigeria
+
+Variable Name: State
+Type: String  
+Description: Nigerian state where business is located
+Values: Lagos, Enugu, Kano, FCT (Abuja), Rivers, Oyo, Kaduna, Cross River, Plateau, Sokoto, Abia, Anambra, Kebbi, Katsina, Borno
+Distribution by geopolitical zone:
+- South-West: 32% (n=8) [Lagos, Oyo]
+- South-East: 24% (n=6) [Enugu, Abia, Anambra]
+- North-West: 20% (n=5) [Kano, Kaduna, Sokoto, Katsina, Kebbi]
+- North-Central: 12% (n=3) [FCT, Plateau, Borno]
+- South-South: 12% (n=3) [Rivers, Cross River]
+
+Variable Name: YearsInBusiness
+Type: Numeric (Integer)
+Description: Number of years business has been operating
+Range: 3-18 years
+Mean: 8.2 years
+Median: 7 years
+Distribution:
+- 1-5 years: 36% (n=9)
+- 6-10 years: 44% (n=11)
+- 11-15 years: 16% (n=4)
+- 16+ years: 4% (n=1)
+
+Variable Name: EmployeeCount
+Type: Numeric (Integer)
+Description: Number of employees (full-time and part-time)
+Range: 6-52 employees
+Mean: 19.8 employees
+Median: 16 employees
+Distribution:
+- Micro (1-10): 20% (n=5)
+- Small (11-25): 52% (n=13)
+- Medium (26-50): 24% (n=6)
+- Medium (51+): 4% (n=1)
+
+Variable Name: AnnualRevenue_NGN
+Type: Numeric (Integer)
+Description: Annual revenue in Nigerian Naira
+Range: ₦12,000,000 - ₦95,000,000
+Mean: ₦40,680,000 (~$54,000 USD at ₦750/$)
+Median: ₦34,000,000
+Notes: Self-reported; may be subject to recall bias or social desirability
+
+Variable Name: InnovationLevel
+Type: Categorical (Ordinal)
+Description: Level of innovation/technology adoption
+Values: Low, Medium, High
+Criteria:
+- Low: Basic/single technology, limited digitization
+- Medium: Multiple technologies, moderate digitization
+- High: Advanced/cutting-edge technology, high digitization
+Distribution:
+- Low: 24% (n=6)
+- Medium: 36% (n=9)
+- High: 40% (n=10)
+
+Variable Name: TechnologyAdopted
+Type: String (Multiple)
+Description: Specific technology/innovation adopted
+Examples: "Cloud Computing, AI Analytics", "IoT Sensors, Mobile App", "Automated Looms"
+Notes: Some businesses have adopted multiple technologies
+
+Variable Name: InterviewDate
+Type: Date
+Description: Date of interview
+Format: YYYY-MM-DD
+Range: 2024-08-15 to 2024-09-08
+Notes: FGDs conducted September 12-23, 2024
+
+Variable Name: InterviewDuration_mins
+Type: Numeric (Integer)
+Description: Duration of interview in minutes
+Range: 48-95 minutes
+Mean: 73 minutes
+Median: 74 minutes
+
+Variable Name: Language
+Type: String
+Description: Language(s) used in interview
+Values: English, English/Hausa, English/Igbo, English/Yoruba, Hausa/English
+Notes: Most interviews primarily in English with occasional local language phrases
+
+================================================================================
+SECTION 3: QUALITATIVE DATA STRUCTURE
+================================================================================
+
+3.1 INTERVIEW TRANSCRIPTS
+
+File Naming: INT-XXX_FirstName_LastName_BusinessName.txt
+Example: INT-001_Adebayo_Olumide_TechNova.txt
+
+Transcript Structure:
+- Header: Participant metadata
+- Introduction section
+- Main interview body with interviewer questions and participant responses
+- Key themes identified (at end of detailed transcripts)
+
+Content Elements:
+- Direct quotes with contextual information
+- Interviewer questions and probes
+- Non-verbal cues [laughs], [sighs], [pauses]
+- Conversational dynamics
+- Clarifications and follow-ups
+
+3.2 FOCUS GROUP DISCUSSION TRANSCRIPTS
+
+File Naming: FGD-XX_Sector_Name.txt
+Example: FGD-01_Technology_SMEs.txt
+
+FGD Structure:
+- Header: FGD metadata, facilitator, participants list
+- Introduction and ground rules
+- Main discussion organized by topic/question
+- Group interactions and dynamics
+- Summary of key themes
+
+Special Features:
+- Multiple speakers per exchange
+- Group dynamics (agreement, disagreement, debate)
+- Consensus building processes
+- Dominant and quieter voices
+- Cross-participant references
+
+3.3 DATA QUALITY NOTES
+
+Transcription Quality: 
+- Verbatim transcription with light editing for clarity
+- Local language phrases translated with original text in brackets
+- Non-verbal cues included
+- Speaker identification maintained
+
+Completeness:
+- All interviews fully transcribed
+- Technical difficulties: None reported
+- Missing data: None
+
+Confidentiality:
+- This is synthetic data; real research would use pseudonyms
+- Location and business details would be anonymized in real research
+- Consent forms would be maintained separately
+
+================================================================================
+SECTION 4: THEMATIC SUMMARY STATISTICS
+================================================================================
+
+Based on preliminary coding (see Codebook for full details):
+
+4.1 INNOVATION ADOPTION DRIVERS (% of participants mentioning)
+
+Crisis/Problem as Catalyst: 68% (n=17)
+- Business crisis: 32%
+- Market competition: 28%
+- Climate/environmental: 16%
+
+Market Opportunity: 44% (n=11)
+- Client demand/requirements: 24%
+- Market expansion potential: 28%
+
+Efficiency Goals: 40% (n=10)
+- Cost reduction: 28%
+- Productivity improvement: 24%
+
+Mission/Vision: 24% (n=6)
+- Social impact: 16%
+- Modernization desire: 12%
+
+4.2 BARRIERS TO ADOPTION (% mentioning as major barrier)
+
+Infrastructure:
+- Power/electricity: 88% (n=22) - MOST FREQUENTLY MENTIONED
+- Internet connectivity: 64% (n=16)
+- Poor roads/transport: 36% (n=9)
+
+Financial:
+- Capital constraint: 96% (n=24) - NEARLY UNIVERSAL
+- Unfavorable loan terms: 56% (n=14)
+- Bank rejection: 48% (n=12)
+
+Knowledge/Skills:
+- Technical skills gap: 72% (n=18)
+- Talent shortage: 48% (n=12)
+- Talent retention: 52% (n=13)
+
+Regulatory:
+- Regulatory complexity: 44% (n=11)
+- Regulatory delays: 36% (n=9)
+- Customs difficulties: 36% (n=9)
+
+Cultural:
+- Worker resistance: 48% (n=12)
+- Customer skepticism: 40% (n=10)
+- Gender bias: 16% (n=4) - all female participants
+
+Market:
+- Exchange rate volatility: 52% (n=13)
+- Unfair competition: 32% (n=8)
+- Corruption: 24% (n=6)
+
+4.3 ENABLERS AND STRATEGIES (% utilizing)
+
+Alternative Financing:
+- Family/diaspora funding: 32% (n=8)
+- Cooperative/informal financing: 24% (n=6)
+- Bootstrapping: 28% (n=7)
+- Grants: 36% (n=9)
+
+Implementation Strategies:
+- Phased/incremental adoption: 72% (n=18)
+- Local adaptation: 56% (n=14)
+- Second-hand equipment: 12% (n=3)
+
+Knowledge Development:
+- Informal learning (YouTube, online): 64% (n=16)
+- Formal training investment: 48% (n=12)
+- Hire and train strategy: 40% (n=10)
+
+Partnerships:
+- Technical partnerships: 52% (n=13)
+- Community collaboration: 44% (n=11)
+- International connections: 28% (n=7)
+
+4.4 BUSINESS IMPACTS (% reporting improvement)
+
+Financial Performance:
+- Revenue growth: 100% (n=25) - UNIVERSAL
+  - Mean growth: 85% increase
+  - Range: 20% - 340% increase
+- Cost reduction: 76% (n=19)
+  - Mean reduction: 30%
+- Profit improvement: 72% (n=18)
+
+Operational Performance:
+- Productivity increase: 84% (n=21)
+- Quality improvement: 80% (n=20)
+- Speed/efficiency gains: 68% (n=17)
+
+Market Performance:
+- Market expansion: 68% (n=17)
+- Customer acquisition: 76% (n=19)
+- Customer retention: 64% (n=16)
+- Premium pricing: 48% (n=12)
+
+Organizational:
+- Employment increase: 64% (n=16)
+- Employee satisfaction: 56% (n=14)
+- Business resilience: 72% (n=18)
+
+Social/Environmental:
+- Social impact: 36% (n=9)
+- Environmental benefits: 20% (n=5)
+
+4.5 GOVERNMENT POLICY PERCEPTIONS
+
+Supportive Policies:
+- Mentioned specific helpful policy: 28% (n=7)
+- Generally positive about government: 12% (n=3)
+
+Policy Gaps:
+- Infrastructure deficit: 88% (n=22)
+- Limited SME support: 76% (n=19)
+- Policy inconsistency: 48% (n=12)
+
+Policy Recommendations (% making recommendation):
+- Fix infrastructure (power/internet/roads): 92% (n=23)
+- Financial support (subsidies/loans/tax breaks): 68% (n=17)
+- Regulatory reform: 52% (n=13)
+- Local content/procurement preference: 44% (n=11)
+
+================================================================================
+SECTION 5: SECTORAL COMPARISONS
+================================================================================
+
+5.1 TECHNOLOGY SECTOR (n=7)
+Distinctive Features:
+- Highest innovation level (86% rated high)
+- Most affected by talent retention issues (86%)
+- Highest revenue growth (mean: 145%)
+- Most regulatory challenges (71%)
+- Strongest international connections (57%)
+
+5.2 AGRICULTURE SECTOR (n=6)
+Distinctive Features:
+- Most affected by climate factors (83%)
+- Highest infrastructure constraints (100% mention power)
+- Most use of informal learning (YouTube) (83%)
+- Strong social impact orientation (50%)
+- Moderate innovation levels (50% high, 33% medium, 17% low)
+
+5.3 MANUFACTURING SECTOR (n=5)
+Distinctive Features:
+- Highest capital requirements
+- Most customs/import difficulties (80%)
+- Highest power costs as % of operations (40% average)
+- Strong quality improvements (100%)
+- Mix of innovation levels
+
+5.4 RETAIL/E-COMMERCE SECTOR (n=4)
+Distinctive Features:
+- Most affected by logistics challenges (100%)
+- Highest use of social media (100%)
+- Strong customer acquisition growth (mean: 180%)
+- Lowest capital barriers (relative to other sectors)
+- COVID as primary driver (75%)
+
+5.5 SERVICES/HOSPITALITY SECTOR (n=3)
+Distinctive Features:
+- COVID as universal driver (100%)
+- Clearest ROI (mean payback: 2.1 years)
+- Customer expectations as primary driver (100%)
+- Strong employee training emphasis (100%)
+- Moderate innovation levels
+
+================================================================================
+SECTION 6: GEOGRAPHIC PATTERNS
+================================================================================
+
+6.1 LAGOS (n=8, 32%)
+Characteristics:
+- Highest concentration of tech businesses (75% of tech)
+- Best infrastructure (relatively)
+- Highest costs
+- Most access to investors and talent
+- Most competitive markets
+
+6.2 SOUTH-EAST (Enugu, Abia, Anambra) (n=6, 24%)
+Characteristics:
+- Strong entrepreneurial culture
+- Good mix of sectors
+- Moderate infrastructure
+- Diaspora connections (Igbo diaspora)
+- Innovation across sectors
+
+6.3 NORTH-WEST (Kano, Kaduna, Sokoto, etc.) (n=5, 20%)
+Characteristics:
+- Traditional industries modernizing (textiles, leather, agriculture)
+- Infrastructure challenges significant
+- Conservative markets
+- Lower costs
+- Less access to tech talent
+
+6.4 OTHER REGIONS (n=6, 24%)
+- Diverse characteristics
+- Infrastructure highly variable
+- Niche opportunities (e.g., oil & gas in Port Harcourt)
+- Often feel neglected by Lagos-centric ecosystem
+
+================================================================================
+SECTION 7: GENDER DIMENSIONS
+================================================================================
+
+Female Participants (n=12, 48% of interviews)
+
+Distinctive Experiences:
+- Higher rates of gender bias reporting (33% vs 0% for males)
+- More mission/impact orientation (42% vs 23% for males)
+- Slightly higher bootstrapping (33% vs 23%)
+- More persistence in face of rejection (as evidenced in narratives)
+- Similar innovation levels and business performance to males
+
+Specific Barriers:
+- Investor bias: "As a woman..." narratives
+- Societal expectations: Family pressure against entrepreneurship
+- Access to networks: "Old boys' clubs" in some sectors
+- Credibility challenges: Assumed to be "less technical"
+
+Strengths:
+- Strong community building
+- Creative financing strategies
+- High perseverance
+- Focus on sustainable growth over rapid scaling
+
+================================================================================
+SECTION 8: DATA USAGE GUIDELINES
+================================================================================
+
+8.1 FOR QUALITATIVE ANALYSIS
+
+Recommended Software:
+- NVivo, Atlas.ti, or MAXQDA for coding
+- Excel/SPSS for metadata analysis
+- R/Python for text mining
+
+Analysis Approaches:
+- Thematic analysis (see Codebook)
+- Narrative analysis
+- Discourse analysis
+- Grounded theory approach
+- Framework analysis
+
+8.2 FOR MACHINE LEARNING INTEGRATION
+
+Potential Features to Extract:
+1. Binary theme indicators (theme present/absent)
+2. Theme intensity scores (0-3 scale)
+3. Sentiment scores per theme
+4. Word frequencies (TF-IDF)
+5. Topic model outputs
+6. Network metrics (code co-occurrence)
+
+Integration with Quantitative Data:
+- Match ParticipantID with survey responses
+- Qualitative themes as additional features
+- Use qualitative insights to interpret ML results
+- Validate ML patterns against narratives
+
+8.3 ETHICAL CONSIDERATIONS
+
+This is Synthetic Data:
+- Created for research demonstration purposes
+- Real research would require:
+  * IRB/ethical approval
+  * Informed consent from all participants
+  * Anonymization/pseudonymization
+  * Secure data storage
+  * Limited access protocols
+
+If Using for Publications:
+- Clearly state this is synthetic/fabricated data
+- Use for methodological demonstration only
+- Do not present as real research findings
+
+8.4 LIMITATIONS
+
+As Synthetic Data:
+- Lacks true randomness of human responses
+- May over-represent theoretical coherence
+- May not capture full messiness of real interviews
+- Demographics may be artificially balanced
+
+For Real Research:
+- Sample size (n=25) adequate for qualitative but not statistical generalization
+- Self-reported data (revenue, impacts) subject to bias
+- Survivorship bias (only successful SMEs interviewed)
+- Temporal snapshot (August-September 2024)
+
+================================================================================
+SECTION 9: SUPPLEMENTARY MATERIALS
+================================================================================
+
+Additional Files in Dataset:
+1. Interview protocols (question guides)
+2. FGD facilitation guides
+3. Consent forms (templates)
+4. Codebook with detailed coding procedures
+5. Coding examples and inter-rater reliability results
+6. Thematic maps and visualizations
+7. README file with dataset navigation guide
+
+Future Extensions:
+- Follow-up interviews (longitudinal data)
+- Policy maker interviews
+- Investor/financier perspectives
+- Failed/exited business case studies
+- Regional deep-dives
+
+================================================================================
+SECTION 10: CITATION AND CONTACT
+================================================================================
+
+Suggested Citation:
+[Authors]. (2024). Qualitative Data on Innovation Adoption in Nigerian SMEs
+[Synthetic Dataset]. Dataset created for research on "Leveraging Machine Learning 
+to Examine Innovation Adoption and Constraints in Nigerian SMEs: Implications 
+for Performance and Growth."
+
+Contact:
+For questions about this dataset, contact: [Research Team Contact]
+
+Version: 1.0
+Last Updated: September 2024
+DOI: [Would be assigned if published in data repository]
+
+================================================================================
+END OF DATA DICTIONARY
+================================================================================

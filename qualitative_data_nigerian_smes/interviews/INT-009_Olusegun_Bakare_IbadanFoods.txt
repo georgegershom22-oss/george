@@ -1,0 +1,70 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+=====================================
+
+Participant ID: INT-009
+Name: Olusegun Bakare
+Business: Ibadan Foods (Food Processing)
+Location: Ibadan, Oyo State
+Date: August 23, 2024
+Duration: 62 minutes
+Interviewer: Research Team Lead
+Language: English/Yoruba
+
+---
+
+[Abridged transcript]
+
+INTERVIEWER: Mr. Bakare, you've been in food processing for 18 years but only recently adopted semi-automated packaging. Why the delay?
+
+OLUSEGUN: [laughs] Delay? No, it's not delay. It's Nigerian business reality. When I started this business in 2006, I was packaging gari, beans flour, elubo—all by hand. Manual weighing, manual sealing, everything manual. It worked fine. We were making money.
+
+Why would I rush to buy expensive machines when what I have is working? That's the question every small business owner asks.
+
+What changed was market demand. In 2021, a supermarket chain—Game Stores—approached us. They wanted to stock our products, but they had requirements: uniform packaging, nutritional labels, barcodes, certified weights. With manual packaging, we couldn't meet these standards consistently.
+
+Also, our workers—young people don't want to do manual packaging anymore. They want easier work. We had high turnover. Training new people every few months was expensive and inefficient.
+
+So in 2022, I decided to buy packaging machines. Not fully automated—too expensive—but semi-automated. The machine measures the quantity automatically, fills the bag, seals it. Workers just load the raw material and pack the finished products.
+
+INTERVIEWER: What was your experience with acquiring and implementing the machines?
+
+OLUSEGUN: I bought from a local fabricator here in Ibadan. A young engineer who builds food processing equipment. Cost was ₦2.8 million for two machines. Much cheaper than importing from China or India.
+
+Good thing about local is that when machine breaks, the engineer comes to fix it same day or next day. If I had imported, I would wait weeks for spare parts.
+
+The machines are not sophisticated. Very simple, mechanical mostly, some electrical components. My workers learned to operate them in one week. No special training needed.
+
+But the impact is limited, I must be honest. Yes, our packaging is more consistent, yes, we can meet supermarket requirements. But our production volume didn't increase dramatically—maybe 30%. Our costs didn't decrease much because we still need workers for other parts of the process.
+
+INTERVIEWER: So was it worth the investment?
+
+OLUSEGUN: Worth it? Yes, but not in the way you might think. The main value is market access. We now supply four supermarket chains—Game, Shoprite, Justrite, and one local chain. These premium channels pay better prices and pay on time. That's the real benefit.
+
+In 2021, our revenue was about ₦72 million. In 2023, ₦95 million. The growth is mainly from premium market access, not from production efficiency.
+
+But I'm not rushing to more automation. Food processing in Nigeria, the big cost is raw materials and power, not labor. Labor is still relatively cheap. Machines need power—constant power. My generator bill went up by ₦150,000 monthly after buying these machines.
+
+Unless Nigeria solves the power problem, full automation doesn't make economic sense for most of us.
+
+INTERVIEWER: What would incentivize you to adopt more technology?
+
+OLUSEGUN: Three things: One, stable electricity. If I had 20 hours power supply daily, I would definitely automate more processes. But current situation, no.
+
+Two, access to affordable credit. These machines, even locally made, cost millions. Banks want collateral I don't have. If there was a special loan scheme for SME equipment acquisition—low interest, long repayment period—many of us would upgrade.
+
+Three, proof of ROI. Show me a food processor like me who fully automated and succeeded. Show me the numbers. Nigerian business owners are practical people. We need to see evidence before we invest.
+
+Government talks about "fourth industrial revolution," "technology adoption." But they don't understand our reality. We're still struggling with basic infrastructure. Fix power, fix roads, then we can talk about advanced technology.
+
+[Interview continues...]
+
+KEY THEMES:
+- Pragmatic, ROI-focused approach
+- Market access as driver rather than efficiency
+- Preference for local over imported technology
+- Limited impact from partial automation
+- Power costs undermining benefits
+- Risk-averse mindset
+- Infrastructure as prerequisite for automation
+- Labor-capital trade-offs in Nigerian context
+- Need for demonstrated success cases

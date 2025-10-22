@@ -1,0 +1,841 @@
+QUALITATIVE DATA CODEBOOK AND THEMATIC ANALYSIS GUIDE
+=======================================================
+
+Research Topic: Leveraging Machine Learning to Examine Innovation Adoption and Constraints 
+            in Nigerian SMEs: Implications for Performance and Growth
+
+Data Collection Period: August-September 2024
+Total Interviews: 25 semi-structured interviews
+Total Focus Groups: 5 FGDs (39 total participants)
+Geographic Coverage: 12 states across Nigeria
+
+---
+
+PART 1: CODING FRAMEWORK
+==========================
+
+This codebook provides a systematic framework for analyzing the qualitative data collected.
+Codes are organized hierarchically into themes, sub-themes, and specific codes.
+
+---
+
+THEME 1: INNOVATION ADOPTION DRIVERS
+======================================
+
+Definition: Factors, circumstances, or motivations that led SMEs to adopt technological innovations
+
+SUB-THEME 1.1: Crisis-Driven Adoption
+Code: CRISIS_CATALYST
+Definition: Innovation adoption triggered by specific business crisis or failure
+Examples: 
+- Server crash leading to cloud adoption (INT-001)
+- Pest outbreak leading to IoT sensors (INT-002)  
+- Disease outbreak in poultry (INT-009)
+Indicators: "After we lost...", "When X failed...", "The crisis forced us..."
+
+Code: CLIMATE_PRESSURE
+Definition: Climate change impacts driving technology adoption
+Examples:
+- Erratic rainfall patterns (INT-005)
+- Extreme weather events (FGD-02)
+Indicators: "Rainfall patterns changed...", "Climate is unpredictable..."
+
+SUB-THEME 1.2: Market-Driven Adoption  
+Code: COMPETITIVE_PRESSURE
+Definition: Adoption to compete with other businesses (domestic or international)
+Examples:
+- Competing with Chinese textiles (INT-003)
+- Competing with imported rice (FGD-02)
+Indicators: "We were losing market share...", "Chinese/Indian competitors..."
+
+Code: CLIENT_DEMAND
+Definition: Customer or client requirements driving adoption
+Examples:
+- ISO certification requirements (FGD-03)
+- Supermarket quality standards (INT-009)
+Indicators: "Client required...", "Market demanded...", "To supply to X we needed..."
+
+Code: MARKET_EXPANSION
+Definition: Adopting technology to access new markets
+Examples:
+- Export opportunities through traceability (INT-002)
+- Online sales expanding geographic reach (FGD-04)
+Indicators: "Open new markets...", "Reach customers in...", "Export to..."
+
+SUB-THEME 1.3: Vision-Driven Adoption
+Code: MISSION_ORIENTED
+Definition: Innovation driven by social mission or personal values
+Examples:
+- Healthcare access mission (INT-008)
+- Environmental mission in waste management (INT-025)
+Indicators: "My vision was...", "I wanted to solve...", "Impact on society..."
+
+Code: MODERNIZATION_DESIRE
+Definition: Desire to modernize "traditional" business
+Examples:
+- Young generation wanting to modernize family farm (INT-005)
+- Making farming "modern" and attractive (INT-002)
+Indicators: "Do things differently...", "Modern approach...", "21st century business..."
+
+SUB-THEME 1.4: Efficiency-Driven Adoption
+Code: COST_REDUCTION
+Definition: Adopting technology primarily to reduce costs
+Examples:
+- Cloud reducing infrastructure costs (INT-001)
+- Automation reducing labor costs (INT-003)
+Indicators: "Save money on...", "Reduce costs...", "More economical..."
+
+Code: PRODUCTIVITY_IMPROVEMENT  
+Definition: Adopting technology to increase output or speed
+Examples:
+- Automated looms increasing production 6x (INT-003)
+- Route optimization increasing deliveries (FGD-05)
+Indicators: "Produce more...", "Faster production...", "Increase efficiency..."
+
+---
+
+THEME 2: BARRIERS TO INNOVATION ADOPTION
+==========================================
+
+Definition: Obstacles, constraints, or challenges preventing or hindering innovation adoption
+
+SUB-THEME 2.1: Financial Barriers
+Code: CAPITAL_CONSTRAINT
+Definition: Lack of funds or difficulty accessing capital for technology investment
+Examples:
+- Unable to afford imported equipment (INT-002)
+- High upfront costs relative to revenue (FGD-03)
+Indicators: "We didn't have the money...", "Cost was prohibitive...", "₦X million was too much..."
+
+Code: UNFAVORABLE_FINANCING
+Definition: Available financing has unfavorable terms (high interest, collateral requirements)
+Examples:
+- 24% interest rates (FGD-02)
+- Unrealistic collateral demands (INT-003)
+Indicators: "Interest rate was...", "Bank wanted collateral...", "Loan terms were..."
+
+Code: BANK_REJECTION
+Definition: Outright rejection by financial institutions
+Examples:
+- Six banks rejecting textile loan (INT-003)
+- Tech businesses having no collateral (FGD-01)
+Indicators: "Bank rejected...", "All applications denied...", "Couldn't get loan..."
+
+Code: INVESTMENT_BIAS
+Definition: Investor bias (geographic, gender, sector, stage)
+Examples:
+- VCs ignoring Northern Nigeria (FGD-01)
+- Gender bias in fundraising (INT-010)
+Indicators: "As a woman...", "Lagos-based investors don't...", "They assumed..."
+
+SUB-THEME 2.2: Infrastructure Barriers  
+Code: POWER_UNRELIABILITY
+Definition: Unstable electricity supply or lack of grid power
+Examples:
+- Constant generator use (INT-003)
+- 35% of costs being power-related (FGD-03)
+Indicators: "NEPA/PHCN...", "Generator costs...", "Power failure...", "Diesel expenses..."
+
+Code: INTERNET_INADEQUACY
+Definition: Poor internet connectivity or high internet costs
+Examples:
+- Rural areas lacking connectivity (INT-002)
+- Cloud adoption hindered by internet (FGD-01)
+Indicators: "Internet is slow/unreliable...", "No 4G coverage...", "Connectivity issues..."
+
+Code: POOR_ROADS
+Definition: Road infrastructure inadequacy affecting logistics
+Examples:
+- Machines damaged during transport (FGD-03)
+- Produce spoiling during transport (FGD-02)
+Indicators: "Roads are terrible...", "Transport damage...", "Journey time..."
+
+SUB-THEME 2.3: Knowledge and Skills Barriers
+Code: KNOWLEDGE_GAP
+Definition: Lack of knowledge about available technologies or how to use them
+Examples:
+- Not knowing about cloud computing (INT-001)
+- Limited awareness of agricultural technology (INT-005)
+Indicators: "We didn't know...", "Not aware of...", "Nobody taught us..."
+
+Code: TECHNICAL_SKILLS_DEFICIT
+Definition: Lack of technical skills to operate/maintain technology
+Examples:
+- Workers unable to operate automated equipment (INT-003)
+- Need for extensive training (FGD-03)
+Indicators: "Workers didn't have skills...", "Had to train for months...", "Learning curve..."
+
+Code: TALENT_SHORTAGE
+Definition: Difficulty finding skilled personnel to hire
+Examples:
+- Lack of blockchain developers (INT-010)
+- Shortage of tech talent outside Lagos (FGD-01)
+Indicators: "Couldn't find developers...", "No skilled workers available...", "Talent scarce..."
+
+Code: TALENT_RETENTION
+Definition: Inability to retain trained staff
+Examples:
+- Staff leaving after training (INT-001, FGD-03)
+- Brain drain to foreign companies (FGD-01)
+Indicators: "Employees left after...", "Poached by...", "Trained them but..."
+
+SUB-THEME 2.4: Regulatory and Institutional Barriers
+Code: REGULATORY_COMPLEXITY
+Definition: Complex, unclear, or contradictory regulations
+Examples:
+- Multiple agencies with unclear jurisdiction (FGD-01)
+- Blockchain regulatory uncertainty (INT-010)
+Indicators: "Nobody knows which agency...", "Contradictory requirements...", "Unclear regulations..."
+
+Code: REGULATORY_DELAYS
+Definition: Slow regulatory approval processes
+Examples:
+- 18 months for telemedicine approval (INT-008)
+- One year for fintech licensing (INT-010)
+Indicators: "Approval took X months...", "Still waiting for...", "Bureaucratic delays..."
+
+Code: REGULATORY_KNOWLEDGE_GAP
+Definition: Regulators lacking understanding of new technologies
+Examples:
+- Regulator not understanding cloud (FGD-01)
+- CBN confusion about blockchain (INT-010)
+Indicators: "Regulator didn't understand...", "Had to explain for hours...", "They think technology is..."
+
+Code: CUSTOMS_DIFFICULTIES
+Definition: Challenges with importing equipment (delays, corruption, costs)
+Examples:
+- 4-month port delays (INT-003)
+- Excessive demurrage and "facilitation fees" (INT-002, FGD-03)
+Indicators: "Customs/port delays...", "Clearing agents...", "Facilitation fees...", "Demurrage..."
+
+SUB-THEME 2.5: Cultural and Social Barriers
+Code: WORKER_RESISTANCE
+Definition: Employee resistance to new technology
+Examples:
+- Manual weavers resisting automation (INT-003)
+- Drivers viewing GPS as spying (FGD-05)
+Indicators: "Workers were afraid...", "They felt spied on...", "Resistance from..."
+
+Code: CUSTOMER_SKEPTICISM
+Definition: Customer distrust or reluctance to use new technology/services
+Examples:
+- Clients not trusting cloud storage (INT-001)
+- Patients skeptical of telemedicine (INT-008)
+Indicators: "Customers don't trust...", "Skepticism about...", "Cultural resistance..."
+
+Code: GENDER_BIAS
+Definition: Discrimination or bias based on gender
+Examples:
+- Female founders facing investor bias (INT-010)
+- "Manufacturing is for men" attitudes (FGD-03)
+Indicators: "As a woman I...", "They assumed because I'm female...", "Gender discrimination..."
+
+Code: GENERATIONAL_DIVIDE
+Definition: Age-related differences in technology adoption and attitudes
+Examples:
+- Older farmers resistant to technology (INT-005)
+- Young people as tech bridge (FGD-02)
+Indicators: "Older workers...", "Young people embrace...", "Generation gap..."
+
+SUB-THEME 2.6: Geographic Barriers
+Code: LAGOS_CENTRISM
+Definition: Concentration of resources, services, talent in Lagos creating disadvantage for others
+Examples:
+- All accelerators in Lagos (FGD-01)
+- VCs not visiting Northern Nigeria (INT-010)
+Indicators: "Everything is in Lagos...", "If you're not in Lagos...", "Lagos-based..."
+
+Code: RURAL_URBAN_DIVIDE
+Definition: Differences in access to infrastructure, services, markets between rural and urban
+Examples:
+- Rural areas lacking internet (INT-002)
+- Extension services not reaching rural farmers (FGD-02)
+Indicators: "In rural areas...", "Village doesn't have...", "Urban versus rural..."
+
+SUB-THEME 2.7: Market and Business Environment Barriers
+Code: EXCHANGE_RATE_VOLATILITY
+Definition: Naira depreciation affecting dollar-denominated technology costs
+Examples:
+- Cloud costs doubling due to naira crash (INT-001)
+- AWS subscription costs increasing (FGD-01)
+Indicators: "Exchange rate...", "Dollar costs...", "When naira fell...", "Forex..."
+
+Code: UNFAIR_COMPETITION
+Definition: Competing against smuggling, subsidized foreign products, or informal sector
+Examples:
+- Smuggled textiles (INT-003)
+- Unregulated Airbnb competing with hotels (FGD-05)
+Indicators: "Smuggled goods...", "Unfair competition from...", "They don't pay taxes but..."
+
+Code: CORRUPTION
+Definition: Bribery, extortion, or corrupt practices affecting business
+Examples:
+- Customs "facilitation fees" (INT-003)
+- Need to "know people" for approvals (FGD-01)
+Indicators: "Grease palms...", "Unofficial payments...", "You need to know people..."
+
+---
+
+THEME 3: ENABLERS AND COPING STRATEGIES  
+=========================================
+
+Definition: Factors, strategies, or mechanisms that facilitated innovation adoption despite barriers
+
+SUB-THEME 3.1: Alternative Financing Strategies
+Code: FAMILY_DIASPORA_FUNDING
+Definition: Funding from family members or diaspora community
+Examples:
+- Brother-in-law investment from Saudi Arabia (INT-003)
+- Friends and family round (FGD-01)
+Indicators: "My brother/uncle/family invested...", "Diaspora funding...", "Relatives contributed..."
+
+Code: COOPERATIVE_FINANCING
+Definition: Using savings groups, cooperatives, or informal financing
+Examples:
+- Thrift cooperative loan (INT-002)
+- Trader association financing (FGD-02)
+Indicators: "Cooperative lent...", "Ajo/esusu group...", "Savings association..."
+
+Code: BOOTSTRAPPING
+Definition: Self-financing through personal savings or reinvested profits
+Examples:
+- Profitable from day one (FGD-01)
+- Using harvest proceeds (FGD-02)
+Indicators: "Personal savings...", "Reinvested profits...", "No external funding..."
+
+Code: GRANT_FUNDING
+Definition: Accessing grant programs from government, donors, or foundations
+Examples:
+- ACIP World Bank grant (INT-002)
+- Lagos State grant (INT-010)
+Indicators: "Got grant from...", "Won competition...", "Grant funding..."
+
+Code: CREATIVE_FINANCING
+Definition: Innovative financing arrangements (leasing, revenue-sharing, equity)
+Examples:
+- Asset financing/leasing (FGD-03)
+- Equity for employees (FGD-01)
+Indicators: "Leasing arrangement...", "Gave them equity...", "Revenue-sharing..."
+
+SUB-THEME 3.2: Incremental and Adaptive Strategies
+Code: PHASED_ADOPTION
+Definition: Gradual, step-by-step technology adoption rather than all-at-once
+Examples:
+- Starting with cloud storage before full migration (INT-001)
+- One machine before full automation (FGD-03)
+Indicators: "Started small...", "Gradual rollout...", "First X then Y...", "Phased approach..."
+
+Code: LOCAL_ADAPTATION
+Definition: Modifying or customizing technology for local context
+Examples:
+- Building affordable IoT from Arduino (INT-002)
+- Low-bandwidth solutions for Northern Nigeria (FGD-01)
+Indicators: "Adapted for Nigeria...", "Customized for our context...", "Local version..."
+
+Code: SECONDHAND_TECHNOLOGY
+Definition: Using refurbished or second-hand equipment to reduce costs
+Examples:
+- Buying used irrigation from another farmer (INT-005)
+- Refurbished machines from Turkey (INT-012)
+Indicators: "Second-hand...", "Used equipment...", "Refurbished...", "Bought from farmer who..."
+
+SUB-THEME 3.3: Knowledge and Skills Development
+Code: INFORMAL_LEARNING
+Definition: Learning through YouTube, online courses, self-study
+Examples:
+- YouTube for greenhouse techniques (FGD-02)
+- Online courses for blockchain (INT-010)
+Indicators: "YouTube university...", "Learned online...", "Self-taught...", "Google and YouTube..."
+
+Code: TRAINING_INVESTMENT
+Definition: Formal training for self or employees
+Examples:
+- Sending developers for AWS certification (INT-001)
+- Staff training in South Africa (FGD-03)
+Indicators: "Sent workers for training...", "Certification program...", "Training course..."
+
+Code: HIRE_AND_TRAIN
+Definition: Hiring less experienced workers and training them in-house
+Examples:
+- Hiring fresh graduates and training (INT-001)
+- Youth internship programs (FGD-03)
+Indicators: "Hire graduates and train...", "In-house training...", "Grow our own talent..."
+
+SUB-THEME 3.4: Partnership and Collaboration
+Code: TECHNICAL_PARTNERSHIP
+Definition: Partnering with technical experts or companies
+Examples:
+- Partnering with engineer to build IoT (INT-002)
+- Logistics company partnership (FGD-02)
+Indicators: "Partnered with...", "Collaborated with...", "Found engineer who..."
+
+Code: COMMUNITY_COLLABORATION
+Definition: Cooperation with other SMEs, industry associations, or communities
+Examples:
+- EdTech association for collective advocacy (FGD-01)
+- Agritech community knowledge sharing (FGD-02)
+Indicators: "Industry association...", "Community of...", "We support each other...", "Network of..."
+
+CODE: INTERNATIONAL_CONNECTIONS
+Definition: Learning from or partnering with international entities
+Examples:
+- Kenya workshop on precision agriculture (INT-002)
+- South African investor (FGD-01)
+Indicators: "Conference in Kenya/Ghana...", "Learned from East Africa...", "International partner..."
+
+SUB-THEME 3.5: Resilience and Adaptive Capacity
+Code: NIGERIAN_INGENUITY
+Definition: Creative problem-solving and improvisation
+Examples:
+- Multiple internet providers for redundancy (INT-001)
+- Working from car during power outage (FGD-01)
+Indicators: "We find a way...", "Nigerian hustle...", "Improvise...", "Make do..."
+
+Code: PERSISTENCE
+Definition: Continued effort despite setbacks and failures
+Examples:
+- Applying for grants four times (FGD-02)
+- Pitching to 50 investors (FGD-01)
+Indicators: "Didn't give up...", "Kept trying...", "Eventually...", "After X attempts..."
+
+---
+
+THEME 4: BUSINESS PERFORMANCE IMPACTS
+=======================================
+
+Definition: Observable effects of innovation adoption on business performance metrics
+
+SUB-THEME 4.1: Financial Performance
+Code: REVENUE_GROWTH
+Definition: Increase in sales or revenue attributable to innovation
+Examples:
+- Revenue from ₦15M to ₦45M (INT-001)
+- 200% revenue increase (FGD-03)
+Indicators: "Revenue grew...", "Sales increased...", "From ₦X to ₦Y..."
+
+Code: COST_REDUCTION
+Definition: Decrease in operating costs due to innovation
+Examples:
+- 35% operational cost reduction (INT-001)
+- Fuel savings of 35% (INT-013)
+Indicators: "Costs decreased...", "Saved ₦X on...", "Spending less on..."
+
+Code: PROFIT_IMPROVEMENT
+Definition: Increase in profit margins or profitability
+Examples:
+- Margin from 8% to 18% (INT-003)
+- Profitability achieved (FGD-04)
+Indicators: "Profit margin increased...", "Now profitable...", "Margin improved..."
+
+SUB-THEME 4.2: Operational Performance
+Code: PRODUCTIVITY_INCREASE
+Definition: Higher output per unit of input (time, labor, capital)
+Examples:
+- Production 6x higher (INT-003)
+- Same workers, 4x output (FGD-03)
+Indicators: "Produce more with...", "Output increased...", "Productivity up..."
+
+Code: QUALITY_IMPROVEMENT
+Definition: Better product/service quality, consistency, or lower defect rates
+Examples:
+- Rejection rate from 15% to 3% (INT-003)
+- Consistent quality for supermarkets (INT-009)
+Indicators: "Quality improved...", "Defects decreased...", "More consistent...", "Better quality..."
+
+CODE: SPEED_EFFICIENCY
+Definition: Faster processes, shorter lead times, quicker delivery
+Examples:
+- Project delivery 50% faster (INT-001)
+- Order processing time reduced (FGD-05)
+Indicators: "Faster...", "Lead time reduced...", "Takes less time...", "Quicker..."
+
+SUB-THEME 4.3: Market Performance
+Code: MARKET_EXPANSION
+Definition: Access to new markets, geographies, or customer segments
+Examples:
+- Export to Ghana and Cameroon (INT-002)
+- Serving government parastatals (INT-001)
+Indicators: "New markets...", "Export to...", "Reached customers in...", "Now serving..."
+
+Code: CUSTOMER_ACQUISITION
+Definition: Increase in customer base or customer numbers
+Examples:
+- From 12 to 38 clients (INT-001)
+- 180,000 registered users (INT-010)
+Indicators: "Customer base grew...", "More clients...", "Acquired X customers..."
+
+Code: CUSTOMER_RETENTION
+Definition: Improved ability to retain customers or repeat business
+Examples:
+- Retention rate 45% to 78% (INT-013)
+- Repeat customer rate 48% (FGD-04)
+Indicators: "Retention improved...", "Customers come back...", "Loyalty increased..."
+
+CODE: PREMIUM_PRICING
+Definition: Ability to charge higher prices due to quality or differentiation
+Examples:
+- 40% price premium for supermarket supply (FGD-02)
+- Premium pricing for consistent quality (FGD-02)
+Indicators: "Charge higher prices...", "Premium pricing...", "Pay more for our..."
+
+SUB-THEME 4.4: Organizational Impacts
+CODE: EMPLOYMENT_EFFECTS
+Definition: Changes in employment (numbers, nature of jobs, skills required)
+Examples:
+- Jobs increased from 45 to 52 (INT-003)
+- Jobs changed from manual to technical (FGD-03)
+Indicators: "Hired more workers...", "Employment increased/decreased...", "Job types changed..."
+
+CODE: EMPLOYEE_SATISFACTION
+Definition: Improved worker motivation, satisfaction, or reduced turnover
+Examples:
+- More motivated team (INT-001)
+- Lower turnover after equity offering (FGD-01)
+Indicators: "Workers are happier...", "Morale improved...", "Less turnover..."
+
+CODE: BUSINESS_RESILIENCE
+Definition: Better ability to withstand shocks or adapt to changes
+Examples:
+- COVID resilience due to cloud (INT-001)
+- Climate resilience through irrigation (FGD-02)
+Indicators: "Survived COVID...", "Adapted to...", "Resilient to...", "Withstood..."
+
+SUB-THEME 4.5: Social and Environmental Impacts
+CODE: SOCIAL_IMPACT
+Definition: Positive effects on community, customers, or society
+Examples:
+- Financial inclusion for underserved (INT-010)
+- Healthcare access in rural areas (INT-008)
+Indicators: "Impact on community...", "Helping people...", "Social benefits...", "Lives changed..."
+
+CODE: ENVIRONMENTAL_IMPACT
+Definition: Environmental benefits (reduced emissions, waste, resource use)
+Examples:
+- 450,000 liters diesel eliminated (INT-016)
+- Water savings 40% (INT-002)
+Indicators: "Carbon reduction...", "Environmental benefits...", "Waste reduced...", "Sustainable..."
+
+---
+
+THEME 5: GOVERNMENT AND POLICY FACTORS
+========================================
+
+Definition: Role of government policies, programs, and actions in innovation ecosystem
+
+SUB-THEME 5.1: Supportive Policies/Programs
+CODE: POLICY_SUPPORT
+Definition: Government policies that helped innovation adoption
+Examples:
+- CBN cashless policy creating demand (INT-010)
+- Rice import ban protecting local millers (FGD-02)
+Indicators: "Government policy helped...", "CBN/SEC/NITDA program...", "Tax holiday..."
+
+CODE: GRANT_PROGRAMS
+Definition: Government or donor grant programs
+Examples:
+- Lagos Innovates program (INT-001)
+- BOI loans (attempted) (FGD-02)
+Indicators: "Government grant...", "BOI/NIRSAL/AfDB...", "State program..."
+
+SUB-THEME 5.2: Policy Gaps and Failures
+CODE: INFRASTRUCTURE_DEFICIT
+Definition: Government failure to provide basic infrastructure
+Examples:
+- Unreliable power supply (pervasive)
+- Poor roads (FGD-02, FGD-03)
+Indicators: "Government should provide...", "If we had power...", "Infrastructure lacking..."
+
+CODE: POLICY_INCONSISTENCY
+Definition: Unstable, contradictory, or poorly implemented policies
+Examples:
+- Exchange rate volatility (INT-001, FGD-01)
+- Ban on crypto but unclear on blockchain (INT-010)
+Indicators: "Policy changed...", "Inconsistent...", "Contradictory policies..."
+
+CODE: LIMITED_SME_SUPPORT
+Definition: Inadequate government support programs for SMEs
+Examples:
+- Programs favor big companies (INT-003)
+- Grants too competitive/small (FGD-02)
+Indicators: "No support for small businesses...", "Programs favor big players...", "SMEs are neglected..."
+
+CODE: CORRUPTION_IMPACT
+Definition: Corruption affecting business operations or access to opportunities
+Examples:
+- Need to pay bribes at customs (INT-003)
+- Need connections for government contracts (FGD-01)
+Indicators: "Corruption...", "You need to know someone...", "Unofficial payments..."
+
+SUB-THEME 5.3: Policy Recommendations
+CODE: INFRASTRUCTURE_INVESTMENT
+Definition: Calls for government to invest in infrastructure
+Examples:
+- Stable electricity (universal theme)
+- Rural internet (FGD-01)
+Indicators: "Government should fix power...", "Invest in infrastructure...", "We need electricity..."
+
+CODE: FINANCIAL_SUPPORT
+Definition: Recommendations for financing support (subsidies, low-interest loans, tax breaks)
+Examples:
+- Tax incentives for R&D (FGD-01)
+- Subsidized equipment loans (FGD-02)
+Indicators: "Government should subsidize...", "Low-interest loans...", "Tax breaks for..."
+
+CODE: REGULATORY_REFORM
+Definition: Calls for better, clearer, faster regulations
+Examples:
+- Sandbox for fintech (INT-010)
+- Streamlined approval processes (FGD-01)
+Indicators: "Need regulatory clarity...", "Streamline approval...", "Modern regulations..."
+
+CODE: LOCAL_CONTENT_POLICY
+Definition: Recommendations for preferring local businesses in procurement
+Examples:
+- Government buying Nigerian textiles (INT-003)
+- Tech procurement from local firms (FGD-01)
+Indicators: "Buy local...", "Procurement preference...", "Local content..."
+
+---
+
+THEME 6: SECTOR-SPECIFIC PATTERNS
+===================================
+
+Definition: Unique characteristics, challenges, or opportunities by sector
+
+CODE: TECH_SECTOR_DYNAMICS
+Definition: Patterns specific to technology sector SMEs
+Examples:
+- High investor interest but tough competition (FGD-01)
+- Brain drain to foreign companies (FGD-01)
+Indicators: [Apply to technology sector participants]
+
+CODE: AGRICULTURE_PATTERNS
+Definition: Patterns specific to agricultural/agribusiness SMEs
+Examples:
+- Climate vulnerability (FGD-02)
+- Post-harvest losses (FGD-02)
+Indicators: [Apply to agriculture sector participants]
+
+CODE: MANUFACTURING_CHALLENGES
+Definition: Patterns specific to manufacturing SMEs
+Examples:
+- Capital intensity (FGD-03)
+- Power costs dominating expenses (FGD-03)
+Indicators: [Apply to manufacturing sector participants]
+
+CODE: RETAIL_ECOMMERCE_TRENDS
+Definition: Patterns specific to retail and e-commerce SMEs
+Examples:
+- Logistics as critical bottleneck (FGD-04)
+- Trust deficit in online shopping (FGD-04)
+Indicators: [Apply to retail/e-commerce participants]
+
+CODE: SERVICES_CHARACTERISTICS
+Definition: Patterns specific to services sector SMEs
+Examples:
+- COVID as digitization accelerator (FGD-05)
+- Customer expectations driving adoption (FGD-05)
+Indicators: [Apply to services sector participants]
+
+---
+
+THEME 7: FUTURE OUTLOOK AND ASPIRATIONS
+=========================================
+
+Definition: Participants' visions, plans, and expectations for future
+
+CODE: OPTIMISM
+Definition: Positive outlook despite challenges
+Examples:
+- "Future is bright" (FGD-02)
+- "Nigeria can feed Africa" (FGD-02)
+Indicators: "I'm hopeful...", "Future is bright...", "Things will improve..."
+
+CODE: EXPANSION_PLANS
+Definition: Plans to expand business, adopt more technology, enter new markets
+Examples:
+- Expanding to Ghana/Kenya (INT-010)
+- Building farmer network (INT-002)
+Indicators: "We plan to...", "Next step is...", "Expanding to..."
+
+CODE: EMERGING_TECHNOLOGIES
+Definition: Interest in or plans to adopt cutting-edge technologies
+Examples:
+- AI and machine learning (INT-001, FGD-01)
+- Blockchain and DLT (FGD-02)
+- VR/AR (INT-004, FGD-05)
+Indicators: "Looking at AI...", "Exploring blockchain...", "Next is..."
+
+CODE: GENERATIONAL_TRANSITION
+Definition: Involving next generation in business
+Examples:
+- Son bringing new ideas to textile business (INT-003)
+- Young people returning to farming (FGD-02)
+Indicators: "My son/daughter...", "Next generation...", "Youth are..."
+
+---
+
+PART 2: ANALYTICAL PROCEDURES
+==============================
+
+Step 1: Data Familiarization
+- Read all transcripts thoroughly
+- Note initial impressions and patterns
+- Create memo of emerging themes
+
+Step 2: Initial Coding
+- Apply codes systematically to each transcript
+- Use NVivo, Atlas.ti, or manual coding
+- Code each meaning unit (sentence, paragraph, or exchange)
+- Multiple codes can apply to same text segment
+
+Step 3: Code Refinement
+- Review coded segments for consistency
+- Merge redundant codes
+- Split overly broad codes
+- Refine code definitions
+
+Step 4: Thematic Analysis
+- Group codes into themes
+- Identify relationships between themes
+- Create thematic maps/diagrams
+- Look for patterns within and across cases
+
+Step 5: Cross-Case Analysis
+- Compare patterns across sectors
+- Compare by geographic location
+- Compare by innovation level (high/medium/low)
+- Compare by gender
+
+Step 6: Quantification of Qualitative Data
+For ML integration, quantify themes:
+- Count frequency of codes per case
+- Create binary variables (theme present=1, absent=0)
+- Rate intensity of themes (0-3 scale: absent, minor, moderate, major)
+- Create composite scores for theme clusters
+
+Example Quantification:
+Participant | CAPITAL_CONSTRAINT | POWER_UNRELIABILITY | REVENUE_GROWTH | Sector | InnovationLevel
+INT-001     | 2 (moderate)       | 3 (major)          | 3 (major)      | Tech   | High
+INT-002     | 3 (major)          | 2 (moderate)       | 3 (major)      | Agric  | High
+...
+
+Step 7: Integration with Quantitative Data
+- Link qualitative themes to survey variables
+- Use qualitative findings to explain ML model results
+- Identify mechanisms behind statistical correlations
+- Generate hypotheses for further testing
+
+---
+
+PART 3: QUALITY ASSURANCE
+==========================
+
+Inter-Coder Reliability:
+- Have 2-3 coders independently code 20% of transcripts
+- Calculate Cohen's Kappa or percentage agreement
+- Discuss discrepancies and refine codebook
+- Target: >80% agreement or Kappa >0.70
+
+Member Checking:
+- Share analysis summaries with select participants
+- Verify interpretations match their experiences
+- Incorporate feedback
+
+Triangulation:
+- Compare interview and FGD data
+- Look for convergence and divergence
+- Cross-validate with secondary sources
+
+Reflexivity:
+- Document researcher positionality
+- Note potential biases
+- Transparent about interpretation process
+
+---
+
+PART 4: REPORTING GUIDELINES
+=============================
+
+Quotation Selection:
+- Choose vivid, representative quotes
+- Include participant ID and context
+- Balance across participants (don't over-rely on few voices)
+- Include counter-examples and deviant cases
+
+Reporting Structure:
+1. Overview of participants and data collection
+2. Major themes with sub-themes
+3. Quotes and examples supporting each theme
+4. Cross-cutting patterns (sector, geography, gender)
+5. Integration with quantitative findings
+6. Implications for theory and practice
+
+Visualization:
+- Thematic maps showing relationships
+- Word clouds for frequency
+- Network diagrams for co-occurrence
+- Comparison charts (e.g., barriers by sector)
+
+---
+
+PART 5: MACHINE LEARNING INTEGRATION GUIDE
+===========================================
+
+Converting Qualitative Data for ML Analysis:
+
+1. Document-Term Matrix
+- Create bag-of-words representation
+- Use TF-IDF weighting
+- Can be input to clustering, classification, topic modeling
+
+2. Theme Presence Matrix
+- Binary indicators for each code/theme
+- Example: Does this participant mention CAPITAL_CONSTRAINT? (Yes=1, No=0)
+- Can be merged with survey data for integrated analysis
+
+3. Theme Intensity Matrix
+- Ordinal scale (0-3) for theme prominence
+- More nuanced than binary
+- Suitable for regression analysis
+
+4. Sentiment and Emotion Coding
+- Code emotional tone of statements
+- Frustration, hope, fear, pride, etc.
+- Can reveal affective dimensions of innovation adoption
+
+5. Network Analysis
+- Co-occurrence of codes
+- Which barriers and enablers appear together?
+- Network centrality = importance
+
+Example Applications:
+
+Supervised Learning:
+- Use qualitative codes as features to predict innovation success
+- Compare with survey-based features
+- Feature importance reveals key factors
+
+Unsupervised Learning:
+- Cluster participants based on qualitative themes
+- Do clusters match predefined categories (sector, innovation level)?
+- Topic modeling to discover latent themes
+
+Natural Language Processing:
+- Named Entity Recognition: Organizations, technologies, locations mentioned
+- Sentiment analysis: Overall tone of innovation narratives
+- Keyword extraction: Most important terms by sector
+
+Mixed Methods ML:
+- Combine survey variables + qualitative theme variables
+- Richer predictive models
+- Qualitative themes explain "why" behind statistical patterns
+
+---
+
+END OF CODEBOOK
+================
+
+For questions or clarifications, contact research team.
+
+Last Updated: September 2024

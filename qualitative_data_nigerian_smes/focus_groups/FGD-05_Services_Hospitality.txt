@@ -1,0 +1,104 @@
+FOCUS GROUP DISCUSSION TRANSCRIPT
+===================================
+
+FGD ID: FGD-05
+Sector: Services & Hospitality SMEs
+Location: Transcorp Hilton, Abuja
+Date: September 23, 2024
+Duration: 118 minutes
+Facilitator: Mr. Adekunle Oyewale
+Number of Participants: 8
+
+PARTICIPANTS:
+1. Blessing (F, 35) - Hotel, Calabar - Online booking system, POS
+2. Mahmoud (M, 42) - Transport/logistics, Kano - GPS tracking, route optimization
+3. Grace (F, 40) - Catering, Port Harcourt - Online ordering, kitchen automation
+4. Uche (M, 38) - Event management, Enugu - Booking platform, virtual events
+5. Zainab (F, 33) - Spa/wellness, Abuja - Appointment scheduling, CRM
+6. Tayo (M, 45) - Security services, Lagos - Surveillance tech, mobile app
+7. Rahmat (F, 36) - Cleaning services, Ibadan - Scheduling app, quality monitoring
+8. Efe (M, 40) - Consulting, Lagos - Remote collaboration tools, cloud storage
+
+---
+
+[Condensed highlights]
+
+ON SERVICE SECTOR DIGITIZATION:
+
+BLESSING: "Hospitality industry was forced to digitize during COVID. Hotels couldn't rely on walk-ins. Online booking became essential. We integrated with Booking.com, Expedia, Hotels.ng. Our international guest bookings increased 300%."
+
+MAHMOUD: "Logistics has always been chaotic in Nigeria—manual dispatch, guessing locations, wasting fuel. GPS tracking and route optimization changed everything. We cut fuel costs 35%, increased daily deliveries from 15 to 28. Customers love real-time tracking."
+
+GRACE: "Catering is still heavily manual, but we digitized order management and kitchen workflow. No more lost orders, kitchen knows exactly what to prepare, customers can track their order status. Errors dropped 70%."
+
+UCHE: "Events went virtual during COVID. We had to learn Zoom, virtual event platforms, streaming tech. Now we do hybrid events—physical plus virtual attendance. This expanded our market beyond Enugu to nationwide, even diaspora attendance."
+
+ON CUSTOMER EXPECTATIONS:
+
+ZAINAB: "Modern customers expect to book appointments online, get reminders on WhatsApp, pay digitally, reschedule easily. Walk-in customers are decreasing. If you're not online, you don't exist to younger customers."
+
+TAYO: "For security services, clients want real-time monitoring, instant alerts, historical video access. They don't want to call and ask 'What's happening?' They want to see for themselves on app. Technology shifted from nice-to-have to essential."
+
+RAHMAT: "Cleaning services clients want proof of work done—photos, timestamps, quality checklists. Our app allows cleaners to upload evidence after each job. Client satisfaction improved dramatically because they have visibility."
+
+EFE: "Consulting has gone completely remote. Clients don't want to pay for consultant's travel time and expenses. They expect Zoom meetings, cloud-based collaboration, digital deliverables. Those who didn't adapt lost clients during COVID and never recovered."
+
+ON EMPLOYEE TRAINING AND RESISTANCE:
+
+GRACE: "My kitchen staff—many are older women who've cooked for 20-30 years. When I introduced digital kitchen display system, they were confused and resistant. Took 3 months of patient training and showing benefits before they accepted it."
+
+MAHMOUD: "Drivers felt GPS was spy device. 'You don't trust us?' Some sabotaged devices. I had to explain it's not about trust—it's about efficiency and customer service. Once they saw benefits—easier navigation, less stress—they came around."
+
+BLESSING: "Hotel staff training is ongoing challenge. Check-in system, POS, housekeeping app—each new technology requires training. Staff turnover means constant retraining. We created video tutorials they can review anytime."
+
+RAHMAT: "I hire young people now—they're tech-native. Someone under 30 can learn our scheduling app in one day. Someone over 50 might take two weeks. Unfortunately, this creates age discrimination problem."
+
+ON COST-BENEFIT ANALYSIS:
+
+BLESSING: "Our hotel booking and management system cost ₦6.5 million initial setup plus ₦150,000 monthly subscription. Expensive! But occupancy rate increased from 45% to 72%, and we eliminated booking agent commissions—about ₦2.3 million saved annually. ROI in under 3 years."
+
+TAYO: "Surveillance technology is expensive—cameras, storage servers, monitoring software, internet connectivity. For 50-camera system, we spent ₦8 million. But this allows us to serve 4x more clients with same number of human guards. Economics work out."
+
+MAHMOUD: "Route optimization software subscription is $200 monthly—₦150,000 at current exchange rate. Fuel savings alone are ₦1.2 million monthly. No-brainer investment."
+
+ZAINAB: "My spa booking system was ₦450,000 one-time plus ₦30,000 monthly. Not cheap for small spa, but no-shows decreased from 25% to 6% because of automated reminders. Each no-show costs us ₦15,000 in lost revenue. System paid for itself in 4 months."
+
+ON COMPETITIVE DIFFERENTIATION:
+
+EFE: "In consulting, technology is differentiator. Firms using modern collaboration tools, data analytics, cloud-based project management are winning against traditional firms. Clients see us as forward-thinking, efficient."
+
+UCHE: "Event management is crowded market. Everyone claims to do events. We differentiate through technology—professional virtual event platform, hybrid capabilities, post-event analytics. This attracts corporate clients willing to pay premium."
+
+GRACE: "Large catering companies can compete on scale. We compete on technology-enabled service—customized menus online, real-time order tracking, feedback systems, digital invoicing. Corporate clients appreciate this professionalism."
+
+ON INFRASTRUCTURE CONSTRAINTS:
+
+BLESSING: "Calabar has poor internet connectivity. Our booking system needs internet to sync reservations. We've had cases where Booking.com shows rooms available, customer books, but our local system didn't sync due to internet failure. We double-booked rooms—very embarrassing. We now have backup 4G router, but it's expensive."
+
+TAYO: "Surveillance systems need stable internet for remote monitoring. Many client locations have no internet. We install dedicated internet lines—adds ₦80,000-120,000 per location to project cost. In developed countries, internet is assumed; in Nigeria, it's additional expense."
+
+MAHMOUD: "Route optimization needs real-time traffic data. In Lagos, Abuja, data is available. In smaller cities—Kano, Kaduna—traffic data is sparse. The system works at maybe 60% efficiency outside major cities."
+
+ON GOVERNMENT POLICY AND REGULATION:
+
+BLESSING: "Tourism and hospitality sector gets little government support. Hotels face multiple taxes—tourism levy, environmental levy, state taxes, federal taxes. Meanwhile, Airbnb operators pay nothing. Unfair competition."
+
+TAYO: "Security services require multiple licenses and permits. The bureaucracy is excessive. We support regulation—security is serious business—but process should be streamlined and digital. Everything is still paper-based."
+
+RAHMAT: "We wanted to register as certified cleaning company. The requirements from different agencies were contradictory. We gave up and just operate as informal business. Government is losing tax revenue because compliance is too difficult."
+
+EFE: "Consulting benefits from professional body recognition—CIPM, NIMN, etc. But these bodies are slow to recognize new tech-enabled consulting models. They're stuck in traditional mindset."
+
+ON FUTURE SERVICE INNOVATIONS:
+
+ZAINAB: "AI-powered personalization is coming. Imagine spa system that remembers every client's preferences—preferred massage pressure, room temperature, music, scent—and automatically customizes without asking. That's next level."
+
+MAHMOUD: "Autonomous vehicles for logistics. Still far future in Nigeria, but coming. When it arrives, it will disrupt entire transport sector."
+
+UCHE: "Metaverse events—fully immersive virtual experiences. We're experimenting with VR event platforms. Could enable global Nigerian events where diaspora fully participates."
+
+BLESSING: "Contactless everything—check-in, room access, service requests, payments. COVID accelerated this trend. Next generation hotels will be largely automated with minimal human interaction."
+
+---
+
+KEY THEMES: COVID as digitization accelerator for services, Customer expectations driving adoption, Employee training challenges (generational, skills), Clear ROI for most digital investments, Technology as competitive differentiator, Infrastructure (internet) limiting full potential, Regulatory complexity and government neglect of services sector, Future pointing toward AI personalization, automation, virtual/immersive experiences

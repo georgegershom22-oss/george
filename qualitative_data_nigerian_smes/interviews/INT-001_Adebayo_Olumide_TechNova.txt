@@ -1,0 +1,108 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+=====================================
+
+Participant ID: INT-001
+Name: Adebayo Olumide
+Business: TechNova Solutions (Software Development)
+Location: Lagos, Lagos State
+Date: August 15, 2024
+Duration: 75 minutes
+Interviewer: Research Team Lead
+
+---
+
+[Introduction and rapport building - 5 minutes]
+
+INTERVIEWER: Thank you for taking the time to meet with me today, Mr. Olumide. Let's start with your innovation journey. Can you tell me the story of when you decided to adopt cloud computing and AI analytics in your business?
+
+ADEBAYO: Ah, that's a long story! [laughs] You know, when I started TechNova in 2016, we were doing basic software development—building websites, simple apps for clients. Everything was on-premise, our own servers in a small office in Yaba. But in 2019, something happened that changed everything. We had a major client, a bank, and our server crashed during a critical deployment. We lost almost 48 hours of work, and the client was furious. That moment, I knew we had to change.
+
+INTERVIEWER: That must have been stressful. What led you specifically to cloud computing?
+
+ADEBAYO: You see, I had been hearing about AWS and Azure from colleagues who studied abroad, but I was skeptical. In Nigeria, we have serious power issues. I was thinking, "How can I trust someone else's computer when I can't even trust NEPA?" [laughs] But after that incident, I started researching. I attended a Google Cloud event here in Lagos, and they showed us the reliability metrics—99.99% uptime. I was amazed. 
+
+The turning point was when I calculated the cost. We were spending about ₦200,000 monthly on diesel for generators to power our servers, plus maintenance, plus the IT person to manage them. Moving to cloud would cost us about ₦150,000 monthly, and we wouldn't have to worry about power at all. It was a no-brainer financially.
+
+INTERVIEWER: So cost was the primary driver?
+
+ADEBAYO: Cost opened the door, but what kept us going was the capability. With cloud, we could suddenly offer our clients services we couldn't before. We started building scalable applications, we could handle bigger clients. Then in 2021, we added AI analytics. One of our clients in retail wanted to predict customer behavior, and we used Google's AI tools to build them a recommendation system. That single project brought us ₦8 million in revenue.
+
+INTERVIEWER: That's impressive! But I'm curious about the challenges. What were the biggest hurdles you faced during this transition?
+
+ADEBAYO: [sighs] Oh, plenty! First, the technical knowledge gap. My team knew how to code, but cloud architecture? That's different. I had to invest in training. I sent two of my senior developers to a 3-month certification program—AWS Solutions Architect. That cost me about ₦2.5 million, and there was no guarantee they wouldn't leave after getting certified. Actually, one of them did leave! [laughs] He got a job with a multinational. That hurt.
+
+Second challenge: internet connectivity. You cannot do cloud without reliable internet. In Lagos, that's still a problem. We had to get two separate internet providers—Spectranet and Airtel—for redundancy. When one fails, we switch to the other. That's an extra cost, about ₦80,000 monthly.
+
+Third: client education. Many of our Nigerian clients don't trust the cloud. They want their data "physically" with them. I've had to turn down some projects because they insisted on on-premise solutions. Trust is a big issue here.
+
+INTERVIEWER: How did you navigate these hurdles?
+
+ADEBAYO: For the knowledge gap, I changed my hiring strategy. I now hire fresh graduates and train them myself. I have a 2-year bond with them—if they leave before 2 years, they pay back part of the training cost. It's working better. 
+
+For internet, we just absorb the cost. It's part of doing business in Nigeria. 
+
+For client trust, we focus on education. We show them case studies, we explain data encryption, we even take them on virtual tours of data centers. Some clients come around, some don't. We've learned to target forward-thinking clients—usually younger CEOs or companies that already have international exposure.
+
+INTERVIEWER: How has this innovation specifically affected your business performance? Can you quantify the impact?
+
+ADEBAYO: Definitely. Let me break it down:
+
+Revenue: In 2019, before cloud, our annual revenue was about ₦15 million. In 2023, we hit ₦45 million. That's a 200% increase in four years. The AI analytics service alone accounts for about 30% of our current revenue.
+
+Cost savings: We reduced our operational costs by about 35%. No more generator diesel, no more server maintenance, smaller office space needed. We redirected those savings into marketing and hiring better talent.
+
+Client base: We went from 12 clients in 2019 to 38 clients in 2023. More importantly, we're now serving bigger clients—banks, insurance companies, government parastatals. Before, we couldn't even bid for those contracts because we didn't have the infrastructure.
+
+Speed: Our project delivery time reduced by almost 50%. What used to take 6 months now takes 3-4 months. Clients love that.
+
+Employee satisfaction: This is harder to quantify, but my team is more motivated. They're learning cutting-edge technology. I have less turnover now—except for that one guy who left! [laughs]
+
+INTERVIEWER: What about unexpected benefits or challenges?
+
+ADEBAYO: Unexpected benefit? During COVID, we didn't skip a beat. While other companies were struggling to set up remote work, we were already fully cloud-based. We actually gained clients during COVID because we could deliver remotely without any issues.
+
+Unexpected challenge? Exchange rate volatility. Our cloud costs are in dollars. When dollar went from ₦360 to ₦750, our costs almost doubled overnight. That was painful. We had to renegotiate some contracts and increase our prices. Some clients left because of that.
+
+INTERVIEWER: What role did government policy or support play in your innovation adoption?
+
+ADEBAYO: [laughs] Government support? Almost none. The only thing that helped was CBN's special FX window for tech companies back in 2020-2021. That gave us some relief on foreign exchange for our subscriptions. But that program ended.
+
+What would really help is if government subsidized internet costs for tech SMEs, or provided tax breaks for companies investing in innovation. We pay the same taxes as a company selling bread, but our operating environment is much more challenging. Also, if they could stabilize the exchange rate, that would be massive.
+
+The Lagos State government has been trying—they have the Lagos Innovates program, but it's mostly focused on very early-stage startups. For companies like us that are trying to scale, there's not much support.
+
+INTERVIEWER: Looking forward, what are your plans for further innovation?
+
+ADEBAYO: We're looking at machine learning now—building predictive models for businesses. The challenge is data. Nigerian businesses don't have good data management practices, so training ML models is difficult. We're also exploring blockchain for supply chain solutions. There's a lot of potential there, especially in agriculture and manufacturing.
+
+But honestly, my biggest focus now is talent. I want to build a team that can compete globally. We're considering remote hiring—bringing in expertise from other African countries where talent might be cheaper but still skilled.
+
+INTERVIEWER: If you could give advice to another SME owner considering innovation adoption, what would it be?
+
+ADEBAYO: Three things: One, start small. Don't try to transform everything at once. We started with just moving our file storage to cloud, then email, then gradually the bigger systems. 
+
+Two, invest in your people. Technology is nothing without people who can use it. Training is expensive, but it's worth it.
+
+Three, be patient. ROI doesn't come immediately. It took us almost two years to really start seeing the financial benefits. Many Nigerian business owners want instant results. Innovation doesn't work like that.
+
+And one more thing—have backup plans. In Nigeria, anything can happen. Power can fail, internet can fail, government policy can change overnight. Always have Plan B and Plan C.
+
+INTERVIEWER: Thank you so much for your time and insights, Mr. Olumide. This has been very enlightening.
+
+ADEBAYO: My pleasure! I'm happy to contribute to research on Nigerian SMEs. We need more of this. If this can help other business owners, I'm glad to share our story.
+
+---
+
+[End of Interview]
+
+KEY THEMES IDENTIFIED:
+- Crisis as catalyst for innovation
+- Cost-benefit analysis as decision factor
+- Knowledge gap and training challenges
+- Infrastructure constraints (power, internet)
+- Client trust and cultural resistance
+- Revenue growth and operational efficiency gains
+- Exchange rate vulnerability
+- Limited government support
+- Talent retention challenges
+- Importance of patience and incremental adoption
