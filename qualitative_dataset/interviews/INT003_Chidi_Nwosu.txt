@@ -1,0 +1,123 @@
+INTERVIEW TRANSCRIPT
+=====================
+Participant ID: INT003
+Name: Chidi Nwosu
+Company: Nwosu Manufacturing Co.
+Date: September 17, 2024
+Duration: 55 minutes
+Location: Aba, Nigeria
+
+[START OF TRANSCRIPT]
+
+INTERVIEWER: Good morning, Mr. Nwosu. Thank you for agreeing to share your innovation experience with us. May I record our conversation?
+
+CHIDI: Good morning. Yes, you can record. I hope our story helps other manufacturers in Nigeria.
+
+INTERVIEWER: Please tell me about your business.
+
+CHIDI: Nwosu Manufacturing has been operating for 12 years. We started as a small workshop making leather goods - bags, shoes, belts. Today, we're one of the largest indigenous leather manufacturers in the Southeast. We produce for local markets and export to China, Turkey, and Italy. Yes, we export leather goods to Italy! [laughs] That still amazes me.
+
+We employ 52 permanent staff and about 30 contract workers during peak seasons. The Aba spirit of enterprise runs through everything we do.
+
+INTERVIEWER: What triggered your decision to adopt automated production lines?
+
+CHIDI: It was a combination of pressure and opportunity. In 2021, we got a massive order from a Chinese company - 50,000 leather bags in 3 months. Our manual processes could produce maybe 15,000 in that time if we pushed hard. I had two choices: decline the order or revolutionize our production.
+
+But the real trigger was when I visited a trade fair in Lagos and saw a demonstration of automated cutting and stitching machines. The precision, the speed - it was like watching the future. I realized we were competing with our hands tied behind our backs.
+
+Then my biggest customer, who supplies Shoprite, told me bluntly: "Chidi, your quality is inconsistent. One batch is excellent, the next has variations. If you can't standardize, we'll have to look elsewhere." That was my wake-up call.
+
+INTERVIEWER: How did you approach the implementation?
+
+CHIDI: First, I flew to China with my production manager. We needed to see these machines in action, understand what we were getting into. That trip opened our eyes but also scared us - the complexity was overwhelming.
+
+We decided on phased implementation. Phase one: automated cutting machines for leather. This was our biggest bottleneck. Phase two: computerized stitching machines for consistent seam quality. Phase three: automated finishing and packaging lines. Phase four: integrating everything with production management software.
+
+The most critical decision was hiring a Chinese technician to stay with us for six months. Expensive, but necessary. He lived in Aba, ate our food, and became part of the team.
+
+INTERVIEWER: What were the major challenges?
+
+CHIDI: Aba's infrastructure was our biggest enemy. Power supply is epileptic - sometimes 2 hours of electricity in 48 hours. These machines need stable power. We had to invest 18 million Naira in industrial generators and voltage stabilizers. That wasn't in our original budget.
+
+Technical knowledge was another mountain. My workers, skilled as they were with traditional methods, looked at these machines like they were spaceships. The manuals were in Chinese and broken English. We had to create our own training materials, taking videos, making diagrams.
+
+Finance nearly killed the project. Total investment was about 85 million Naira. Banks wanted 200% collateral. One bank manager actually laughed at me. "Automated production in Aba? Who do you think you are?" Eventually, we got financing through a combination of asset finance, a loan from Bank of Industry, and selling my personal property in Lagos.
+
+Resistance from workers was heartbreaking. They thought machines meant job losses. We had a near-strike situation. I had to call a general meeting, explain that automation meant growth, not replacement. I promised no one would lose their job - they'd be retrained for better roles.
+
+INTERVIEWER: How did you manage the change with your workforce?
+
+CHIDI: Communication and demonstration. I selected five of our best craftsmen for initial training. When others saw them operating these sophisticated machines, earning higher salaries, perception changed. We created a skills upgrade program - manual workers could train to become machine operators, operators could become technicians.
+
+We also maintained a manual production line alongside automation. This served two purposes: preserving artisanal skills for custom orders and showing workers that both approaches had value.
+
+I personally worked on the floor during the transition, learning alongside my workers. When they saw the "Oga" struggling with computer interfaces, making mistakes, it humanized the process.
+
+INTERVIEWER: What impact has automation had on your business?
+
+CHIDI: Transformational! Production capacity increased from 5,000 units monthly to 20,000 units. Quality consistency improved dramatically - defect rate dropped from 8% to less than 1%. We can now accept orders we would have rejected before.
+
+Revenue grew by 150% in two years. But more importantly, profit margins improved from 15% to 28% because of reduced waste and rework. Labor productivity increased 300% - same number of workers producing four times more.
+
+Export revenue now constitutes 40% of our total revenue, up from 10%. We're competing with Asian manufacturers on quality, though not yet on price.
+
+INTERVIEWER: Were there unexpected outcomes?
+
+CHIDI: Several! Our workers became more skilled and confident. Some have started their own businesses using knowledge gained here. That's bittersweet - losing trained people but seeing them succeed.
+
+We became a training center inadvertently. Other manufacturers pay us to train their staff. That's become a revenue stream we never anticipated.
+
+Environmental impact improved. Automated cutting reduced leather waste by 30%. We now sell scraps to smaller workshops instead of burning them.
+
+Negative surprise: dependency on foreign technicians for maintenance. When our main stitching machine broke down, we waited three weeks for a technician from China. Lost millions in downtime. We're now training local technicians.
+
+INTERVIEWER: How has this affected your market position?
+
+CHIDI: We've moved from competing on price to competing on quality and reliability. We're now the preferred supplier for three major retail chains. Our "Made in Aba" products are in Dubai malls - that's the power of consistent quality.
+
+Locally, we're seen as innovation leaders. The Abia State government brings visitors to our factory. That recognition opens doors, though I wish it came with more tangible support.
+
+INTERVIEWER: What support did you receive?
+
+CHIDI: Bank of Industry provided 40 million Naira loan at 9% interest - without them, this wouldn't have happened. Nigerian Export Promotion Council helped with export documentation and market linkage.
+
+But support systems are weak. No local technical training on advanced manufacturing. No tax incentives for technology adoption. Customs harassment when importing equipment was terrible - we paid "facilitation fees" equal to 20% of the equipment cost.
+
+INTERVIEWER: What advice would you give other manufacturers?
+
+CHIDI: Start with your biggest constraint and solve that first. Don't try to automate everything at once. Invest in your people alongside technology - machines don't run themselves. 
+
+Build relationships with equipment suppliers. They're your lifeline when things break down. Document everything - create your own manuals, record training sessions. Knowledge must be preserved.
+
+Most importantly, be prepared for the total cost to be double your budget. Hidden costs will emerge - infrastructure, training, maintenance, downtime. Have a buffer or you'll get stuck midway.
+
+INTERVIEWER: What's next for your innovation journey?
+
+CHIDI: We're exploring Industry 4.0 concepts - IoT sensors for predictive maintenance, AI for quality control, connecting our machines to the cloud for remote monitoring. But infrastructure remains our biggest constraint.
+
+We're also looking at sustainable manufacturing - solar power to reduce generator dependence, water recycling systems. Customers, especially international ones, increasingly demand environmental responsibility.
+
+INTERVIEWER: What changes would make innovation easier for Nigerian manufacturers?
+
+CHIDI: Stable power supply - I can't emphasize this enough. We spend 30% of revenue on power generation. That money could drive more innovation. Industrial clusters with shared infrastructure would help. Why should every manufacturer own generators?
+
+Access to patient capital at single-digit interest rates. Manufacturing innovation has long gestation periods. Current 20%+ rates kill innovation before it starts.
+
+Technical education reform. Our polytechnics should teach modern manufacturing, not 1980s curriculum. Partner with industry to ensure relevance.
+
+Protect local manufacturers. When we invest in innovation, cheap substandard imports shouldn't undercut us. Enforce quality standards uniformly.
+
+Finally, celebrate manufacturing success stories. Nigeria focuses on tech startups, but manufacturing creates more jobs and adds real value. We need recognition and support.
+
+INTERVIEWER: Thank you for sharing your inspiring journey.
+
+CHIDI: Thank you. If manufacturers in Aba can automate successfully despite our challenges, imagine what's possible with proper support. Nigerian manufacturing can compete globally - we just need the right environment.
+
+[END OF TRANSCRIPT]
+
+Post-Interview Notes:
+- Infrastructure challenges particularly acute in manufacturing
+- Strong emphasis on workforce development alongside technology adoption  
+- Clear ROI despite massive initial investment
+- Innovation driven by market pressure and opportunity
+- Need for ecosystem support beyond just finance
