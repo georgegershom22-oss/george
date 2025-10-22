@@ -1,0 +1,42 @@
+{
+  "participant_id": "INT_026",
+  "segments": [
+    {
+      "text": "We first tried WhatsApp Business in 206. At the time, market pressure mattered because competitors moved online and took some market share.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_026"
+    },
+    {
+      "text": "The biggest issue was Policy uncertainty. Without steady power in Enugu, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/Policy_Uncertainty",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_026"
+    },
+    {
+      "text": "Our sales changed after WhatsApp Business\u2014we saw Better cashflow visibility within 4 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_026"
+    },
+    {
+      "text": "Policy-wise, Tax compliance shaped our move. We adjusted by Peer learning.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_026"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during New Year.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_026"
+    }
+  ]
+}

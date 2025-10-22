@@ -1,0 +1,17 @@
+Case memo for INT_002 (Hassan Olawale)
+Sector: Hospitality | Size: Micro | Region: Port Harcourt
+Adoption level: Low | Tech: WhatsApp Business; Data analytics dashboard; Inventory management software; IoT cold-chain sensor
+
+Salient codes:
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Data analytics dashboard in 209. At the time, customer demand mattered because we needed visibility across branches."
+• "The biggest issue was Cybersecurity concerns. Without steady power in Port Harcourt, costs kept rising."
+• "Our sales changed after Data analytics dashboard—we saw Better cashflow visibility within 7 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

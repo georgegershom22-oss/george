@@ -1,0 +1,46 @@
+{
+  "participant_id": "INT_022",
+  "segments": [
+    {
+      "text": "We first tried Customer Relationship Management (CRM) in 209. At the time, customer demand mattered because competitors moved online and took some market share.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_022"
+    },
+    {
+      "text": "The biggest issue was Access to finance. Without steady power in Abuja, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_022"
+    },
+    {
+      "text": "Our sales changed after Customer Relationship Management (CRM)\u2014we saw Better cashflow visibility within 6 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_022"
+    },
+    {
+      "text": "Policy-wise, Import duty waivers shaped our move. We adjusted by Pilot then scale.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Strategies/Pilot_Scale"
+      ],
+      "participant_id": "INT_022"
+    },
+    {
+      "text": "Data helped; even a Excel-based trendline gave us clearer demand patterns during Christmas.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_022"
+    }
+  ]
+}

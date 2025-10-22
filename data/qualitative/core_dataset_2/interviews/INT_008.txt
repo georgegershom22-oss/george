@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Maryam Okoro: I own a Micro enterprise in Lagos operating within Technology. We've been around since 2022, serving mostly wholesale buyers.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Maryam Okoro: We first tried Customer Relationship Management (CRM) in 208. At the time, market pressure mattered because manual reconciliation wasted staff time.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Maryam Okoro: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Maryam Okoro: The biggest issue was Trust in vendors. Without steady power in Lagos, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Maryam Okoro: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Tell me the story of when you decided to adopt it.
+Maryam Okoro: Our sales changed after Customer Relationship Management (CRM)—we saw Better cashflow visibility within 9 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Maryam Okoro: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Maryam Okoro: Policy-wise, Import duty waivers shaped our move. We adjusted by Peer learning.
+Interviewer: What role did policy or regulation play?
+Maryam Okoro: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How do you use data or analytics today?
+Maryam Okoro: Data helped; even a moving-average model gave us clearer demand patterns during Sallah.
+Interviewer: Tell me the story of when you decided to adopt it.
+Maryam Okoro: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Any closing thoughts for other SMEs?
+Maryam Okoro: Looking back, the combination of Customer Relationship Management (CRM) and peer learning mattered most. We still struggle with trust in vendors, but we track metrics and keep training.

@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_025",
+  "pseudonym": "Halima Eze",
+  "sector": "Logistics",
+  "size": "Medium",
+  "region": "Kano",
+  "technologies": [
+    "Point-of-Sale (POS)",
+    "Inventory management software",
+    "WhatsApp Business",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

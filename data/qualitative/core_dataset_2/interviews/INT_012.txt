@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Okeke: I manage a Small Agribusiness business in Aba. We started in 2005 and currently employ 42 people. Our main products revolve around restaurant and outdoor catering.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Amina Okeke: We first tried Cloud accounting in 208. At the time, market pressure mattered because manual reconciliation wasted staff time.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Amina Okeke: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Amina Okeke: The biggest issue was FX volatility. Without steady power in Aba, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Amina Okeke: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Okeke: Our sales changed after Cloud accounting—we saw Better cashflow visibility within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Amina Okeke: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Amina Okeke: Policy-wise, Import duty waivers shaped our move. We adjusted by Partnership with fintech.
+Interviewer: What role did policy or regulation play?
+Amina Okeke: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How do you use data or analytics today?
+Amina Okeke: Data helped; even a moving-average model gave us clearer demand patterns during Back-to-school.
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Okeke: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Any closing thoughts for other SMEs?
+Amina Okeke: Looking back, the combination of Cloud accounting and partnership with fintech mattered most. We still struggle with fx volatility, but we track metrics and keep training.

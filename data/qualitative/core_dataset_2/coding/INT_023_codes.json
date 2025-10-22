@@ -1,0 +1,41 @@
+{
+  "participant_id": "INT_023",
+  "segments": [
+    {
+      "text": "We first tried E-commerce platform in 208. At the time, market pressure mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_023"
+    },
+    {
+      "text": "The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_023"
+    },
+    {
+      "text": "Our sales changed after E-commerce platform\u2014we saw Faster order fulfillment within 11 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_023"
+    },
+    {
+      "text": "Policy-wise, Tax compliance shaped our move. We adjusted by Use interns/NYSC.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_023"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_023"
+    }
+  ]
+}

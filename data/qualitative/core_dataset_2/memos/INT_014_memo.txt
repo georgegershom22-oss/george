@@ -1,0 +1,17 @@
+Case memo for INT_014 (Sade Umar)
+Sector: Healthcare | Size: Small | Region: Port Harcourt
+Adoption level: Medium | Tech: IoT cold-chain sensor; Cloud accounting; Data analytics dashboard
+
+Salient codes:
+- Drivers/Efficiency_Gains: 1
+- Barriers/Power_Outage: 1
+- Barriers/FX_Volatility: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried IoT cold-chain sensor in 209. At the time, efficiency needs mattered because manual reconciliation wasted staff time."
+• "The biggest issue was FX volatility. Without steady power in Port Harcourt, costs kept rising."
+• "Our sales changed after IoT cold-chain sensor—we saw Better cashflow visibility within 5 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

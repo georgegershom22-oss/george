@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Yemi Balogun: I manage a Micro Manufacturing business in Aba. We started in 2001 and currently employ 8 people. Our main products revolve around light manufacturing of plastics.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Yemi Balogun: We first tried Cloud accounting in 208. At the time, competition mattered because competitors moved online and took some market share.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Yemi Balogun: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Yemi Balogun: The biggest issue was Skills gap. Without steady power in Aba, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Yemi Balogun: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Tell me the story of when you decided to adopt it.
+Yemi Balogun: Our sales changed after Cloud accounting—we saw Better cashflow visibility within 6 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Yemi Balogun: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Yemi Balogun: Policy-wise, Regulatory licenses shaped our move. We adjusted by Alternative power.
+Interviewer: What role did policy or regulation play?
+Yemi Balogun: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How do you use data or analytics today?
+Yemi Balogun: Data helped; even a low-code AutoML gave us clearer demand patterns during Christmas.
+Interviewer: Tell me the story of when you decided to adopt it.
+Yemi Balogun: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Any closing thoughts for other SMEs?
+Yemi Balogun: Looking back, the combination of Cloud accounting and alternative power mattered most. We still struggle with skills gap, but we track metrics and keep training.

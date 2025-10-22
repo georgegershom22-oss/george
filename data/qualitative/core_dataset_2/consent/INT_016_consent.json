@@ -1,0 +1,13 @@
+{
+  "participant_id": "INT_016",
+  "pseudonym": "Seyi Okon",
+  "consent_given": true,
+  "audio_recorded": true,
+  "anonymization": {
+    "remove_names": true,
+    "replace_locations": true,
+    "mask_financials": true
+  },
+  "consent_date": "2025-10-22",
+  "contact_for_followup": false
+}

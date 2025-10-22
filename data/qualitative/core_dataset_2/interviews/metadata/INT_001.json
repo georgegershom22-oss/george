@@ -1,0 +1,15 @@
+{
+  "participant_id": "INT_001",
+  "pseudonym": "Blessing Bello",
+  "sector": "Healthcare",
+  "size": "Micro",
+  "region": "Maiduguri",
+  "technologies": [
+    "Inventory management software",
+    "Digital marketing tools"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

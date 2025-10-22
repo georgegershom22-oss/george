@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Tunde Mohammed: I manage a Micro Healthcare business in Lagos. We started in 2011 and currently employ 3 people. Our main products revolve around packaged grains and oil.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Tunde Mohammed: We first tried Point-of-Sale (POS) in 208. At the time, competition mattered because customers were asking for digital receipts.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Tunde Mohammed: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: What role did policy or regulation play?
+Tunde Mohammed: The biggest issue was Access to finance. Without steady power in Lagos, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Tunde Mohammed: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Tell me the story of when you decided to adopt it.
+Tunde Mohammed: Our sales changed after Point-of-Sale (POS)—we saw Operational efficiency within 6 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Tunde Mohammed: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Tunde Mohammed: Policy-wise, Import duty waivers shaped our move. We adjusted by Alternative power.
+Interviewer: What role did policy or regulation play?
+Tunde Mohammed: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How do you use data or analytics today?
+Tunde Mohammed: Data helped; even a low-code AutoML gave us clearer demand patterns during Christmas.
+Interviewer: Tell me the story of when you decided to adopt it.
+Tunde Mohammed: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Any closing thoughts for other SMEs?
+Tunde Mohammed: Looking back, the combination of Point-of-Sale (POS) and alternative power mattered most. We still struggle with access to finance, but we track metrics and keep training.

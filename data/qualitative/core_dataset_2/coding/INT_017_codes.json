@@ -1,0 +1,44 @@
+{
+  "participant_id": "INT_017",
+  "segments": [
+    {
+      "text": "We first tried IoT cold-chain sensor in 208. At the time, efficiency needs mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains"
+      ],
+      "participant_id": "INT_017"
+    },
+    {
+      "text": "The biggest issue was Skills gap. Without steady power in Enugu, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Capabilities/Digital_Skills",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_017"
+    },
+    {
+      "text": "Our sales changed after IoT cold-chain sensor\u2014we saw Customer retention within 12 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_017"
+    },
+    {
+      "text": "Policy-wise, Tax compliance shaped our move. We adjusted by Partnership with fintech.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_017"
+    },
+    {
+      "text": "Data helped; even a simple regression model gave us clearer demand patterns during New Year.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_017"
+    }
+  ]
+}

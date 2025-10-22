@@ -1,0 +1,17 @@
+Case memo for INT_013 (Ifeoma Umar)
+Sector: Services | Size: Micro | Region: Ibadan
+Adoption level: High | Tech: Point-of-Sale (POS); Cloud accounting; Digital marketing tools; Mobile money; Basic machine learning forecast
+
+Salient codes:
+- Drivers/Efficiency_Gains: 2
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Basic machine learning forecast in 207. At the time, efficiency needs mattered because manual reconciliation wasted staff time."
+• "The biggest issue was Import restrictions. Without steady power in Ibadan, costs kept rising."
+• "Our sales changed after Basic machine learning forecast—we saw Operational efficiency within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

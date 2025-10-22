@@ -1,0 +1,17 @@
+Case memo for INT_005 (Hassan Balogun)
+Sector: Technology | Size: Micro | Region: Maiduguri
+Adoption level: Medium | Tech: Inventory management software; Point-of-Sale (POS); Data analytics dashboard
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Capabilities/Digital_Skills: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Customer_Demand: 1
+
+Notable excerpts:
+• "We first tried Point-of-Sale (POS) in 208. At the time, market pressure mattered because competitors moved online and took some market share."
+• "The biggest issue was Skills gap. Without steady power in Maiduguri, costs kept rising."
+• "Our sales changed after Point-of-Sale (POS)—we saw Customer retention within 3 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

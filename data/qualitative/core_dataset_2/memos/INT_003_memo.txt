@@ -1,0 +1,17 @@
+Case memo for INT_003 (Hauwa Ojo)
+Sector: Manufacturing | Size: Small | Region: Benin City
+Adoption level: High | Tech: E-commerce platform; WhatsApp Business; Mobile money; Basic machine learning forecast
+
+Salient codes:
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried WhatsApp Business in 207. At the time, customer demand mattered because manual reconciliation wasted staff time."
+• "The biggest issue was Trust in vendors. Without steady power in Benin City, costs kept rising."
+• "Our sales changed after WhatsApp Business—we saw Sales increase within 4 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

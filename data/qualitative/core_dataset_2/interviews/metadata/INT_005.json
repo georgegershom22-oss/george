@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_005",
+  "pseudonym": "Hassan Balogun",
+  "sector": "Technology",
+  "size": "Micro",
+  "region": "Maiduguri",
+  "technologies": [
+    "Inventory management software",
+    "Point-of-Sale (POS)",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

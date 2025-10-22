@@ -1,0 +1,17 @@
+Case memo for INT_026 (Zainab Balogun)
+Sector: Agribusiness | Size: Small | Region: Enugu
+Adoption level: Medium | Tech: Solar power system; Customer Relationship Management (CRM); WhatsApp Business
+
+Salient codes:
+- Barriers/Policy_Uncertainty: 2
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried WhatsApp Business in 206. At the time, market pressure mattered because competitors moved online and took some market share."
+• "The biggest issue was Policy uncertainty. Without steady power in Enugu, costs kept rising."
+• "Our sales changed after WhatsApp Business—we saw Better cashflow visibility within 4 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

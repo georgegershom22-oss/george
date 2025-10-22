@@ -1,0 +1,17 @@
+Case memo for INT_010 (Blessing Ogundipe)
+Sector: Retail | Size: Micro | Region: Aba
+Adoption level: Medium | Tech: Cloud accounting; E-commerce platform
+
+Salient codes:
+- Drivers/Efficiency_Gains: 2
+- Barriers/Power_Outage: 2
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Cloud accounting in 209. At the time, efficiency needs mattered because we needed visibility across branches."
+• "The biggest issue was Power outages. Without steady power in Aba, costs kept rising."
+• "Our sales changed after Cloud accounting—we saw Operational efficiency within 12 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

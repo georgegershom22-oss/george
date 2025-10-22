@@ -1,0 +1,17 @@
+Case memo for INT_004 (Kunle Eze)
+Sector: Services | Size: Small | Region: Lagos
+Adoption level: Low | Tech: Digital marketing tools; Cloud accounting; Data analytics dashboard
+
+Salient codes:
+- Drivers/Market_Pressure: 2
+- Outcomes/Cost_Reduction: 2
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Digital marketing tools in 207. At the time, customer demand mattered because we wanted to stop stock-outs during festive seasons."
+• "The biggest issue was Access to finance. Without steady power in Lagos, costs kept rising."
+• "Our sales changed after Digital marketing tools—we saw Cost reduction within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

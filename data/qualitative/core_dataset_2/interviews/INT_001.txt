@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Bello: I own a Micro enterprise in Maiduguri operating within Healthcare. We've been around since 2021, serving mostly wholesale buyers.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Blessing Bello: We first tried Digital marketing tools in 209. At the time, competition mattered because we needed visibility across branches.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Blessing Bello: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: What role did policy or regulation play?
+Blessing Bello: The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Blessing Bello: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Bello: Our sales changed after Digital marketing tools—we saw Reduced stock-outs within 9 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Blessing Bello: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Blessing Bello: Policy-wise, CBN cashless policy shaped our move. We adjusted by Bundle financing.
+Interviewer: What role did policy or regulation play?
+Blessing Bello: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How do you use data or analytics today?
+Blessing Bello: Data helped; even a simple regression model gave us clearer demand patterns during Back-to-school.
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Bello: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Any closing thoughts for other SMEs?
+Blessing Bello: Looking back, the combination of Digital marketing tools and bundle financing mattered most. We still struggle with power outages, but we track metrics and keep training.

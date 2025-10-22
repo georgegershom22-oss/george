@@ -1,0 +1,42 @@
+{
+  "participant_id": "INT_014",
+  "segments": [
+    {
+      "text": "We first tried IoT cold-chain sensor in 209. At the time, efficiency needs mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains"
+      ],
+      "participant_id": "INT_014"
+    },
+    {
+      "text": "The biggest issue was FX volatility. Without steady power in Port Harcourt, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/FX_Volatility",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_014"
+    },
+    {
+      "text": "Our sales changed after IoT cold-chain sensor\u2014we saw Better cashflow visibility within 5 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_014"
+    },
+    {
+      "text": "Policy-wise, Tax compliance shaped our move. We adjusted by Peer learning.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_014"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during Christmas.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_014"
+    }
+  ]
+}

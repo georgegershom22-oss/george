@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_023",
+  "pseudonym": "Halima Mohammed",
+  "sector": "Services",
+  "size": "Micro",
+  "region": "Maiduguri",
+  "technologies": [
+    "E-commerce platform",
+    "IoT cold-chain sensor",
+    "Digital marketing tools",
+    "Solar power system"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

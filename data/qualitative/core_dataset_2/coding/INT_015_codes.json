@@ -1,0 +1,44 @@
+{
+  "participant_id": "INT_015",
+  "segments": [
+    {
+      "text": "We first tried Point-of-Sale (POS) in 208. At the time, competition mattered because customers were asking for digital receipts.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_015"
+    },
+    {
+      "text": "The biggest issue was Access to finance. Without steady power in Lagos, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_015"
+    },
+    {
+      "text": "Our sales changed after Point-of-Sale (POS)\u2014we saw Operational efficiency within 6 months.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains",
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_015"
+    },
+    {
+      "text": "Policy-wise, Import duty waivers shaped our move. We adjusted by Alternative power.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_015"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during Christmas.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_015"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "participant_id": "INT_008",
+  "segments": [
+    {
+      "text": "We first tried Customer Relationship Management (CRM) in 208. At the time, market pressure mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_008"
+    },
+    {
+      "text": "The biggest issue was Trust in vendors. Without steady power in Lagos, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_008"
+    },
+    {
+      "text": "Our sales changed after Customer Relationship Management (CRM)\u2014we saw Better cashflow visibility within 9 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_008"
+    },
+    {
+      "text": "Policy-wise, Import duty waivers shaped our move. We adjusted by Peer learning.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_008"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during Sallah.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_008"
+    }
+  ]
+}

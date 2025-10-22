@@ -1,0 +1,43 @@
+{
+  "participant_id": "INT_010",
+  "segments": [
+    {
+      "text": "We first tried Cloud accounting in 209. At the time, efficiency needs mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains"
+      ],
+      "participant_id": "INT_010"
+    },
+    {
+      "text": "The biggest issue was Power outages. Without steady power in Aba, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_010"
+    },
+    {
+      "text": "Our sales changed after Cloud accounting\u2014we saw Operational efficiency within 12 months.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains",
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_010"
+    },
+    {
+      "text": "Policy-wise, Regulatory licenses shaped our move. We adjusted by Alternative power.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_010"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_010"
+    }
+  ]
+}

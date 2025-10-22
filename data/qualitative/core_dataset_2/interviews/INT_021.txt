@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Olawale: I manage a Small Healthcare business in Enugu. We started in 2005 and currently employ 19 people. Our main products revolve around tailored fashion items.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Olawale: We first tried Data analytics dashboard in 207. At the time, market pressure mattered because customers were asking for digital receipts.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Olawale: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: What role did policy or regulation play?
+Emeka Olawale: The biggest issue was Power outages. Without steady power in Enugu, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Emeka Olawale: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Olawale: Our sales changed after Data analytics dashboard—we saw Sales increase within 3 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Olawale: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Olawale: Policy-wise, Import duty waivers shaped our move. We adjusted by Staff training.
+Interviewer: What role did policy or regulation play?
+Emeka Olawale: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How do you use data or analytics today?
+Emeka Olawale: Data helped; even a moving-average model gave us clearer demand patterns during New Year.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Olawale: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Any closing thoughts for other SMEs?
+Emeka Olawale: Looking back, the combination of Data analytics dashboard and staff training mattered most. We still struggle with power outages, but we track metrics and keep training.

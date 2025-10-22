@@ -1,0 +1,17 @@
+Case memo for INT_016 (Seyi Okon)
+Sector: Technology | Size: Micro | Region: Maiduguri
+Adoption level: Low | Tech: Digital marketing tools; E-commerce platform; WhatsApp Business; Basic machine learning forecast
+
+Salient codes:
+- Barriers/Policy_Uncertainty: 2
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Efficiency_Gains: 1
+
+Notable excerpts:
+• "We first tried WhatsApp Business in 207. At the time, customer demand mattered because manual reconciliation wasted staff time."
+• "The biggest issue was Policy uncertainty. Without steady power in Maiduguri, costs kept rising."
+• "Our sales changed after WhatsApp Business—we saw Operational efficiency within 9 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

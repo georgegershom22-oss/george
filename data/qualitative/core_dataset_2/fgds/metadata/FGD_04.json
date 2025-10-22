@@ -1,0 +1,15 @@
+{
+  "fgd_id": "FGD_04",
+  "sector": "Services",
+  "participant_ids": [
+    "INT_023",
+    "INT_019",
+    "INT_017",
+    "INT_013",
+    "INT_004"
+  ],
+  "date": "2025-10-22",
+  "length_lines": 30,
+  "location": "Abuja Hub",
+  "moderator": "Bisi Eze"
+}

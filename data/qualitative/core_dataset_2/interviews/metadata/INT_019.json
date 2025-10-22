@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_019",
+  "pseudonym": "Emeka Mohammed",
+  "sector": "Services",
+  "size": "Small",
+  "region": "Abuja",
+  "technologies": [
+    "IoT cold-chain sensor",
+    "Solar power system",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

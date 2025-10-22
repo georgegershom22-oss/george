@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Mohammed: I manage a Micro Services business in Maiduguri. We started in 2020 and currently employ 4 people. Our main products revolve around tailored fashion items.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Halima Mohammed: We first tried E-commerce platform in 208. At the time, market pressure mattered because manual reconciliation wasted staff time.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Halima Mohammed: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: What role did policy or regulation play?
+Halima Mohammed: The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Halima Mohammed: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Mohammed: Our sales changed after E-commerce platform—we saw Faster order fulfillment within 11 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Halima Mohammed: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Halima Mohammed: Policy-wise, Tax compliance shaped our move. We adjusted by Use interns/NYSC.
+Interviewer: What role did policy or regulation play?
+Halima Mohammed: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How do you use data or analytics today?
+Halima Mohammed: Data helped; even a low-code AutoML gave us clearer demand patterns during Easter.
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Mohammed: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Any closing thoughts for other SMEs?
+Halima Mohammed: Looking back, the combination of E-commerce platform and use interns/nysc mattered most. We still struggle with power outages, but we track metrics and keep training.

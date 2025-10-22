@@ -1,0 +1,44 @@
+{
+  "participant_id": "INT_007",
+  "segments": [
+    {
+      "text": "We first tried Data analytics dashboard in 209. At the time, competition mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_007"
+    },
+    {
+      "text": "The biggest issue was High generator cost. Without steady power in Aba, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Strategies/Alternative_Power",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_007"
+    },
+    {
+      "text": "Our sales changed after Data analytics dashboard\u2014we saw Customer retention within 10 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_007"
+    },
+    {
+      "text": "Policy-wise, Data protection shaped our move. We adjusted by Partnership with fintech.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_007"
+    },
+    {
+      "text": "Data helped; even a Excel-based trendline gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_007"
+    }
+  ]
+}

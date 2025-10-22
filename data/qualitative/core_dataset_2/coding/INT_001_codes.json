@@ -1,0 +1,43 @@
+{
+  "participant_id": "INT_001",
+  "segments": [
+    {
+      "text": "We first tried Digital marketing tools in 209. At the time, competition mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_001"
+    },
+    {
+      "text": "The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_001"
+    },
+    {
+      "text": "Our sales changed after Digital marketing tools\u2014we saw Reduced stock-outs within 9 months.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_001"
+    },
+    {
+      "text": "Policy-wise, CBN cashless policy shaped our move. We adjusted by Bundle financing.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Policy_Environment/Cashless"
+      ],
+      "participant_id": "INT_001"
+    },
+    {
+      "text": "Data helped; even a simple regression model gave us clearer demand patterns during Back-to-school.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_001"
+    }
+  ]
+}

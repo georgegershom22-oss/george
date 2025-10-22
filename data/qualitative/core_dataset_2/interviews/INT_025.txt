@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Eze: I manage a Medium Logistics business in Kano. We started in 2000 and currently employ 145 people. Our main products revolve around solar installation and maintenance.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Halima Eze: We first tried Point-of-Sale (POS) in 206. At the time, competition mattered because competitors moved online and took some market share.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Halima Eze: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: What role did policy or regulation play?
+Halima Eze: The biggest issue was Power outages. Without steady power in Kano, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Halima Eze: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Eze: Our sales changed after Point-of-Sale (POS)—we saw Faster order fulfillment within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Halima Eze: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Halima Eze: Policy-wise, Data protection shaped our move. We adjusted by Partnership with fintech.
+Interviewer: What role did policy or regulation play?
+Halima Eze: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How do you use data or analytics today?
+Halima Eze: Data helped; even a moving-average model gave us clearer demand patterns during New Year.
+Interviewer: Tell me the story of when you decided to adopt it.
+Halima Eze: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Halima Eze: Looking back, the combination of Point-of-Sale (POS) and partnership with fintech mattered most. We still struggle with power outages, but we track metrics and keep training.

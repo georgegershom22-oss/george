@@ -1,0 +1,45 @@
+{
+  "participant_id": "INT_004",
+  "segments": [
+    {
+      "text": "We first tried Digital marketing tools in 207. At the time, customer demand mattered because we wanted to stop stock-outs during festive seasons.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_004"
+    },
+    {
+      "text": "The biggest issue was Access to finance. Without steady power in Lagos, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_004"
+    },
+    {
+      "text": "Our sales changed after Digital marketing tools\u2014we saw Cost reduction within 8 months.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_004"
+    },
+    {
+      "text": "Policy-wise, Import duty waivers shaped our move. We adjusted by Staff training.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Capabilities/Digital_Skills"
+      ],
+      "participant_id": "INT_004"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during Back-to-school.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_004"
+    }
+  ]
+}

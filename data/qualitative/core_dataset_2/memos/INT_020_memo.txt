@@ -1,0 +1,17 @@
+Case memo for INT_020 (Yemi Balogun)
+Sector: Manufacturing | Size: Micro | Region: Aba
+Adoption level: Medium | Tech: Cloud accounting; Basic machine learning forecast; Customer Relationship Management (CRM)
+
+Salient codes:
+- Barriers/Power_Outage: 2
+- Drivers/Market_Pressure: 1
+- Capabilities/Digital_Skills: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Cloud accounting in 208. At the time, competition mattered because competitors moved online and took some market share."
+• "The biggest issue was Skills gap. Without steady power in Aba, costs kept rising."
+• "Our sales changed after Cloud accounting—we saw Better cashflow visibility within 6 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

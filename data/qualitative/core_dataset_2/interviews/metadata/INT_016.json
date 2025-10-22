@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_016",
+  "pseudonym": "Seyi Okon",
+  "sector": "Technology",
+  "size": "Micro",
+  "region": "Maiduguri",
+  "technologies": [
+    "Digital marketing tools",
+    "E-commerce platform",
+    "WhatsApp Business",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "Low",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

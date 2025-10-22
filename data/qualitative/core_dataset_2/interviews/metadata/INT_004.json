@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_004",
+  "pseudonym": "Kunle Eze",
+  "sector": "Services",
+  "size": "Small",
+  "region": "Lagos",
+  "technologies": [
+    "Digital marketing tools",
+    "Cloud accounting",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "Low",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

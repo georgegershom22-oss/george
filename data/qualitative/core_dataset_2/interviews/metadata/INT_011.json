@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_011",
+  "pseudonym": "Fatima Umar",
+  "sector": "Technology",
+  "size": "Small",
+  "region": "Kaduna",
+  "technologies": [
+    "Point-of-Sale (POS)",
+    "WhatsApp Business",
+    "E-commerce platform",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "Low",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

@@ -1,0 +1,17 @@
+Case memo for INT_011 (Fatima Umar)
+Sector: Technology | Size: Small | Region: Kaduna
+Adoption level: Low | Tech: Point-of-Sale (POS); WhatsApp Business; E-commerce platform; Basic machine learning forecast
+
+Salient codes:
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried WhatsApp Business in 209. At the time, customer demand mattered because customers were asking for digital receipts."
+• "The biggest issue was Trust in vendors. Without steady power in Kaduna, costs kept rising."
+• "Our sales changed after WhatsApp Business—we saw Better cashflow visibility within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

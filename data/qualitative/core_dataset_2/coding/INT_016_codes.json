@@ -1,0 +1,44 @@
+{
+  "participant_id": "INT_016",
+  "segments": [
+    {
+      "text": "We first tried WhatsApp Business in 207. At the time, customer demand mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_016"
+    },
+    {
+      "text": "The biggest issue was Policy uncertainty. Without steady power in Maiduguri, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/Policy_Uncertainty",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_016"
+    },
+    {
+      "text": "Our sales changed after WhatsApp Business\u2014we saw Operational efficiency within 9 months.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains",
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_016"
+    },
+    {
+      "text": "Policy-wise, Tax compliance shaped our move. We adjusted by Staff training.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Capabilities/Digital_Skills"
+      ],
+      "participant_id": "INT_016"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during New Year.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_016"
+    }
+  ]
+}

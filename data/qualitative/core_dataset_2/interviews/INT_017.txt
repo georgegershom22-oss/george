@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Aliyu: I own a Medium enterprise in Enugu operating within Services. We've been around since 2023, serving mostly schools and clinics.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Blessing Aliyu: We first tried IoT cold-chain sensor in 208. At the time, efficiency needs mattered because we needed visibility across branches.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Blessing Aliyu: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: What role did policy or regulation play?
+Blessing Aliyu: The biggest issue was Skills gap. Without steady power in Enugu, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Blessing Aliyu: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Aliyu: Our sales changed after IoT cold-chain sensor—we saw Customer retention within 12 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Blessing Aliyu: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Blessing Aliyu: Policy-wise, Tax compliance shaped our move. We adjusted by Partnership with fintech.
+Interviewer: What role did policy or regulation play?
+Blessing Aliyu: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How do you use data or analytics today?
+Blessing Aliyu: Data helped; even a simple regression model gave us clearer demand patterns during New Year.
+Interviewer: Tell me the story of when you decided to adopt it.
+Blessing Aliyu: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Blessing Aliyu: Looking back, the combination of IoT cold-chain sensor and partnership with fintech mattered most. We still struggle with skills gap, but we track metrics and keep training.

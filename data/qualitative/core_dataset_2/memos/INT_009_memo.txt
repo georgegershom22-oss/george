@@ -1,0 +1,17 @@
+Case memo for INT_009 (Ibrahim Ekanem)
+Sector: Healthcare | Size: Small | Region: Maiduguri
+Adoption level: Low | Tech: E-commerce platform; Point-of-Sale (POS)
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried E-commerce platform in 206. At the time, competition mattered because competitors moved online and took some market share."
+• "The biggest issue was Cybersecurity concerns. Without steady power in Maiduguri, costs kept rising."
+• "Our sales changed after E-commerce platform—we saw Sales increase within 5 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

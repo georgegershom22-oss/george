@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Chinedu Mohammed: I manage a Micro Technology business in Aba. We started in 2010 and currently employ 5 people. Our main products revolve around solar installation and maintenance.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Chinedu Mohammed: We first tried Inventory management software in 209. At the time, efficiency needs mattered because we needed visibility across branches.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Chinedu Mohammed: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: What role did policy or regulation play?
+Chinedu Mohammed: The biggest issue was Power outages. Without steady power in Aba, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Chinedu Mohammed: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Tell me the story of when you decided to adopt it.
+Chinedu Mohammed: Our sales changed after Inventory management software—we saw Reduced stock-outs within 12 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Chinedu Mohammed: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Chinedu Mohammed: Policy-wise, Data protection shaped our move. We adjusted by Alternative power.
+Interviewer: What role did policy or regulation play?
+Chinedu Mohammed: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How do you use data or analytics today?
+Chinedu Mohammed: Data helped; even a Excel-based trendline gave us clearer demand patterns during Sallah.
+Interviewer: Tell me the story of when you decided to adopt it.
+Chinedu Mohammed: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: Any closing thoughts for other SMEs?
+Chinedu Mohammed: Looking back, the combination of Inventory management software and alternative power mattered most. We still struggle with power outages, but we track metrics and keep training.

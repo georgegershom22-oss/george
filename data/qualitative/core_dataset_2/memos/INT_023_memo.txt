@@ -1,0 +1,17 @@
+Case memo for INT_023 (Halima Mohammed)
+Sector: Services | Size: Micro | Region: Maiduguri
+Adoption level: Medium | Tech: E-commerce platform; IoT cold-chain sensor; Digital marketing tools; Solar power system
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried E-commerce platform in 208. At the time, market pressure mattered because manual reconciliation wasted staff time."
+• "The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising."
+• "Our sales changed after E-commerce platform—we saw Faster order fulfillment within 11 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

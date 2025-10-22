@@ -1,0 +1,43 @@
+{
+  "participant_id": "INT_024",
+  "segments": [
+    {
+      "text": "We first tried Basic machine learning forecast in 206. At the time, market pressure mattered because we wanted to stop stock-outs during festive seasons.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_024"
+    },
+    {
+      "text": "The biggest issue was Import restrictions. Without steady power in Enugu, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_024"
+    },
+    {
+      "text": "Our sales changed after Basic machine learning forecast\u2014we saw Customer retention within 3 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_024"
+    },
+    {
+      "text": "Policy-wise, Data protection shaped our move. We adjusted by Peer learning.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_024"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during Back-to-school.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_024"
+    }
+  ]
+}

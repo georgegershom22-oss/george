@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_007",
+  "pseudonym": "Seyi Ogundipe",
+  "sector": "Hospitality",
+  "size": "Micro",
+  "region": "Aba",
+  "technologies": [
+    "Solar power system",
+    "IoT cold-chain sensor",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

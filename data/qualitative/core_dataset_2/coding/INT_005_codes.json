@@ -1,0 +1,45 @@
+{
+  "participant_id": "INT_005",
+  "segments": [
+    {
+      "text": "We first tried Point-of-Sale (POS) in 208. At the time, market pressure mattered because competitors moved online and took some market share.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_005"
+    },
+    {
+      "text": "The biggest issue was Skills gap. Without steady power in Maiduguri, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Capabilities/Digital_Skills",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_005"
+    },
+    {
+      "text": "Our sales changed after Point-of-Sale (POS)\u2014we saw Customer retention within 3 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_005"
+    },
+    {
+      "text": "Policy-wise, Regulatory licenses shaped our move. We adjusted by Pilot then scale.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Strategies/Pilot_Scale"
+      ],
+      "participant_id": "INT_005"
+    },
+    {
+      "text": "Data helped; even a simple regression model gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_005"
+    }
+  ]
+}

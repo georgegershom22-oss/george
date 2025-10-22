@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Balogun: I own a Micro enterprise in Maiduguri operating within Technology. We've been around since 2009, serving mostly SMEs across Lagos and Ogun.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Hassan Balogun: We first tried Point-of-Sale (POS) in 208. At the time, market pressure mattered because competitors moved online and took some market share.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Hassan Balogun: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: What role did policy or regulation play?
+Hassan Balogun: The biggest issue was Skills gap. Without steady power in Maiduguri, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Hassan Balogun: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Balogun: Our sales changed after Point-of-Sale (POS)—we saw Customer retention within 3 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Hassan Balogun: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Hassan Balogun: Policy-wise, Regulatory licenses shaped our move. We adjusted by Pilot then scale.
+Interviewer: What role did policy or regulation play?
+Hassan Balogun: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How do you use data or analytics today?
+Hassan Balogun: Data helped; even a simple regression model gave us clearer demand patterns during Easter.
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Balogun: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Hassan Balogun: Looking back, the combination of Point-of-Sale (POS) and pilot then scale mattered most. We still struggle with skills gap, but we track metrics and keep training.
