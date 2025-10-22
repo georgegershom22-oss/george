@@ -1,0 +1,48 @@
+{
+  "Drivers": {
+    "Market_Pressure": {},
+    "Customer_Demand": {},
+    "Competition": {},
+    "Efficiency_Gains": {}
+  },
+  "Barriers": {
+    "Power_Outage": {},
+    "Broadband_Cost": {},
+    "Internet_Reliability": {},
+    "FX_Volatility": {},
+    "Policy_Uncertainty": {},
+    "Skills_Gap": {},
+    "Financing": {},
+    "Cybersecurity_Trust": {}
+  },
+  "Capabilities": {
+    "Digital_Skills": {},
+    "Data_Analytics": {},
+    "IT_Support": {}
+  },
+  "Strategies": {
+    "Pilot_Scale": {},
+    "Training": {},
+    "Partnerships": {},
+    "Alternative_Power": {},
+    "Vendor_Management": {},
+    "Financing_Options": {}
+  },
+  "Outcomes": {
+    "Sales_Increase": {},
+    "Cost_Reduction": {},
+    "Customer_Retention": {},
+    "Operational_Efficiency": {},
+    "Stockout_Reduction": {},
+    "Faster_Fulfillment": {},
+    "Cashflow_Visibility": {}
+  },
+  "Policy_Environment": {
+    "Tax": {},
+    "Licensing": {},
+    "Cashless": {},
+    "Data_Privacy": {},
+    "Import_Duty": {},
+    "Grants_Programs": {}
+  }
+}

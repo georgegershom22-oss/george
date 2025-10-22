@@ -1,0 +1,15 @@
+{
+  "fgd_id": "FGD_03",
+  "sector": "Technology",
+  "participant_ids": [
+    "INT_005",
+    "INT_008",
+    "INT_018",
+    "INT_016",
+    "INT_011"
+  ],
+  "date": "2025-10-22",
+  "length_lines": 26,
+  "location": "Zoom",
+  "moderator": "Tunde Adewale"
+}

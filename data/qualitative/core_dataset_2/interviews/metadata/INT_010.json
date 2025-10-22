@@ -1,0 +1,15 @@
+{
+  "participant_id": "INT_010",
+  "pseudonym": "Blessing Ogundipe",
+  "sector": "Retail",
+  "size": "Micro",
+  "region": "Aba",
+  "technologies": [
+    "Cloud accounting",
+    "E-commerce platform"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

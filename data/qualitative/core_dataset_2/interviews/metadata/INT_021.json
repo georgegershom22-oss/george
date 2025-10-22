@@ -1,0 +1,15 @@
+{
+  "participant_id": "INT_021",
+  "pseudonym": "Emeka Olawale",
+  "sector": "Healthcare",
+  "size": "Small",
+  "region": "Enugu",
+  "technologies": [
+    "Solar power system",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "Low",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

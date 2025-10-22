@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Mohammed: I manage a Small Services business in Abuja. We started in 2009 and currently employ 11 people. Our main products revolve around pharmaceutical retail.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Mohammed: We first tried Data analytics dashboard in 207. At the time, competition mattered because we wanted to stop stock-outs during festive seasons.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Mohammed: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Emeka Mohammed: The biggest issue was FX volatility. Without steady power in Abuja, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Emeka Mohammed: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Mohammed: Our sales changed after Data analytics dashboard—we saw Cost reduction within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Mohammed: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Mohammed: Policy-wise, Regulatory licenses shaped our move. We adjusted by Pilot then scale.
+Interviewer: What role did policy or regulation play?
+Emeka Mohammed: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How do you use data or analytics today?
+Emeka Mohammed: Data helped; even a Excel-based trendline gave us clearer demand patterns during Easter.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Mohammed: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Emeka Mohammed: Looking back, the combination of Data analytics dashboard and pilot then scale mattered most. We still struggle with fx volatility, but we track metrics and keep training.

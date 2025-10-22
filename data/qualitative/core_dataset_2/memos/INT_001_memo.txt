@@ -1,0 +1,17 @@
+Case memo for INT_001 (Blessing Bello)
+Sector: Healthcare | Size: Micro | Region: Maiduguri
+Adoption level: High | Tech: Inventory management software; Digital marketing tools
+
+Salient codes:
+- Drivers/Market_Pressure: 2
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Digital marketing tools in 209. At the time, competition mattered because we needed visibility across branches."
+• "The biggest issue was Power outages. Without steady power in Maiduguri, costs kept rising."
+• "Our sales changed after Digital marketing tools—we saw Reduced stock-outs within 9 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

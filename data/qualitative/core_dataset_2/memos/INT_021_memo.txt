@@ -1,0 +1,17 @@
+Case memo for INT_021 (Emeka Olawale)
+Sector: Healthcare | Size: Small | Region: Enugu
+Adoption level: Low | Tech: Solar power system; Data analytics dashboard
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Drivers/Customer_Demand: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Data analytics dashboard in 207. At the time, market pressure mattered because customers were asking for digital receipts."
+• "The biggest issue was Power outages. Without steady power in Enugu, costs kept rising."
+• "Our sales changed after Data analytics dashboard—we saw Sales increase within 3 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

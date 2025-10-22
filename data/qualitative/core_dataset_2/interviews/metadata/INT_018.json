@@ -1,0 +1,18 @@
+{
+  "participant_id": "INT_018",
+  "pseudonym": "Chinedu Mohammed",
+  "sector": "Technology",
+  "size": "Micro",
+  "region": "Aba",
+  "technologies": [
+    "WhatsApp Business",
+    "E-commerce platform",
+    "Inventory management software",
+    "IoT cold-chain sensor",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

@@ -1,0 +1,17 @@
+Case memo for INT_019 (Emeka Mohammed)
+Sector: Services | Size: Small | Region: Abuja
+Adoption level: High | Tech: IoT cold-chain sensor; Solar power system; Data analytics dashboard
+
+Salient codes:
+- Outcomes/Cost_Reduction: 2
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Barriers/FX_Volatility: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Data analytics dashboard in 207. At the time, competition mattered because we wanted to stop stock-outs during festive seasons."
+• "The biggest issue was FX volatility. Without steady power in Abuja, costs kept rising."
+• "Our sales changed after Data analytics dashboard—we saw Cost reduction within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

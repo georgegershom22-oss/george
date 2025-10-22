@@ -1,0 +1,42 @@
+{
+  "participant_id": "INT_013",
+  "segments": [
+    {
+      "text": "We first tried Basic machine learning forecast in 207. At the time, efficiency needs mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains"
+      ],
+      "participant_id": "INT_013"
+    },
+    {
+      "text": "The biggest issue was Import restrictions. Without steady power in Ibadan, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_013"
+    },
+    {
+      "text": "Our sales changed after Basic machine learning forecast\u2014we saw Operational efficiency within 8 months.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains",
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_013"
+    },
+    {
+      "text": "Policy-wise, Government grants shaped our move. We adjusted by Partnership with fintech.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_013"
+    },
+    {
+      "text": "Data helped; even a low-code AutoML gave us clearer demand patterns during Back-to-school.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_013"
+    }
+  ]
+}

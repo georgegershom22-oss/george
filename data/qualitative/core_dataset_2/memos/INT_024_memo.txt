@@ -1,0 +1,17 @@
+Case memo for INT_024 (Emeka Aliyu)
+Sector: Agribusiness | Size: Micro | Region: Enugu
+Adoption level: Medium | Tech: IoT cold-chain sensor; Inventory management software; Basic machine learning forecast
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Customer_Demand: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Basic machine learning forecast in 206. At the time, market pressure mattered because we wanted to stop stock-outs during festive seasons."
+• "The biggest issue was Import restrictions. Without steady power in Enugu, costs kept rising."
+• "Our sales changed after Basic machine learning forecast—we saw Customer retention within 3 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

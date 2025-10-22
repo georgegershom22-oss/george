@@ -1,0 +1,17 @@
+Case memo for INT_025 (Halima Eze)
+Sector: Logistics | Size: Medium | Region: Kano
+Adoption level: High | Tech: Point-of-Sale (POS); Inventory management software; WhatsApp Business; Basic machine learning forecast
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Point-of-Sale (POS) in 206. At the time, competition mattered because competitors moved online and took some market share."
+• "The biggest issue was Power outages. Without steady power in Kano, costs kept rising."
+• "Our sales changed after Point-of-Sale (POS)—we saw Faster order fulfillment within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

@@ -1,0 +1,46 @@
+{
+  "participant_id": "INT_006",
+  "segments": [
+    {
+      "text": "We first tried Customer Relationship Management (CRM) in 208. At the time, competition mattered because manual reconciliation wasted staff time.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_006"
+    },
+    {
+      "text": "The biggest issue was Trust in vendors. Without steady power in Port Harcourt, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_006"
+    },
+    {
+      "text": "Our sales changed after Customer Relationship Management (CRM)\u2014we saw Reduced stock-outs within 8 months.",
+      "applied_codes": [
+        "Drivers/Customer_Demand",
+        "Outcomes/Sales_Increase",
+        "Outcomes/Customer_Retention"
+      ],
+      "participant_id": "INT_006"
+    },
+    {
+      "text": "Policy-wise, CBN cashless policy shaped our move. We adjusted by Use interns/NYSC.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Policy_Environment/Cashless"
+      ],
+      "participant_id": "INT_006"
+    },
+    {
+      "text": "Data helped; even a basic ML forecast gave us clearer demand patterns during Christmas.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_006"
+    }
+  ]
+}

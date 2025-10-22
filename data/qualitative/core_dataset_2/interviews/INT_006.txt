@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Ogundipe: I manage a Micro Agribusiness business in Port Harcourt. We started in 2020 and currently employ 8 people. Our main products revolve around pharmaceutical retail.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Amina Ogundipe: We first tried Customer Relationship Management (CRM) in 208. At the time, competition mattered because manual reconciliation wasted staff time.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Amina Ogundipe: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Amina Ogundipe: The biggest issue was Trust in vendors. Without steady power in Port Harcourt, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Amina Ogundipe: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Ogundipe: Our sales changed after Customer Relationship Management (CRM)—we saw Reduced stock-outs within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Amina Ogundipe: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Amina Ogundipe: Policy-wise, CBN cashless policy shaped our move. We adjusted by Use interns/NYSC.
+Interviewer: What role did policy or regulation play?
+Amina Ogundipe: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How do you use data or analytics today?
+Amina Ogundipe: Data helped; even a basic ML forecast gave us clearer demand patterns during Christmas.
+Interviewer: Tell me the story of when you decided to adopt it.
+Amina Ogundipe: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Any closing thoughts for other SMEs?
+Amina Ogundipe: Looking back, the combination of Customer Relationship Management (CRM) and use interns/nysc mattered most. We still struggle with trust in vendors, but we track metrics and keep training.

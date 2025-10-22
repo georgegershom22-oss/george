@@ -1,0 +1,17 @@
+Case memo for INT_022 (Seyi Okoro)
+Sector: Healthcare | Size: Small | Region: Abuja
+Adoption level: Medium | Tech: Customer Relationship Management (CRM); WhatsApp Business; Data analytics dashboard
+
+Salient codes:
+- Drivers/Customer_Demand: 2
+- Outcomes/Customer_Retention: 2
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+
+Notable excerpts:
+• "We first tried Customer Relationship Management (CRM) in 209. At the time, customer demand mattered because competitors moved online and took some market share."
+• "The biggest issue was Access to finance. Without steady power in Abuja, costs kept rising."
+• "Our sales changed after Customer Relationship Management (CRM)—we saw Better cashflow visibility within 6 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

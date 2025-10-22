@@ -1,0 +1,41 @@
+{
+  "participant_id": "INT_002",
+  "segments": [
+    {
+      "text": "We first tried Data analytics dashboard in 209. At the time, customer demand mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_002"
+    },
+    {
+      "text": "The biggest issue was Cybersecurity concerns. Without steady power in Port Harcourt, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_002"
+    },
+    {
+      "text": "Our sales changed after Data analytics dashboard\u2014we saw Better cashflow visibility within 7 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_002"
+    },
+    {
+      "text": "Policy-wise, Regulatory licenses shaped our move. We adjusted by Peer learning.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_002"
+    },
+    {
+      "text": "Data helped; even a basic ML forecast gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_002"
+    }
+  ]
+}

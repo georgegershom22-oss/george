@@ -1,0 +1,18 @@
+{
+  "participant_id": "INT_013",
+  "pseudonym": "Ifeoma Umar",
+  "sector": "Services",
+  "size": "Micro",
+  "region": "Ibadan",
+  "technologies": [
+    "Point-of-Sale (POS)",
+    "Cloud accounting",
+    "Digital marketing tools",
+    "Mobile money",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

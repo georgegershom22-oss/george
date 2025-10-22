@@ -1,0 +1,17 @@
+Case memo for INT_006 (Amina Ogundipe)
+Sector: Agribusiness | Size: Micro | Region: Port Harcourt
+Adoption level: Medium | Tech: Customer Relationship Management (CRM); Solar power system; Data analytics dashboard
+
+Salient codes:
+- Drivers/Customer_Demand: 2
+- Outcomes/Customer_Retention: 2
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Outcomes/Cost_Reduction: 1
+
+Notable excerpts:
+• "We first tried Customer Relationship Management (CRM) in 208. At the time, competition mattered because manual reconciliation wasted staff time."
+• "The biggest issue was Trust in vendors. Without steady power in Port Harcourt, costs kept rising."
+• "Our sales changed after Customer Relationship Management (CRM)—we saw Reduced stock-outs within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

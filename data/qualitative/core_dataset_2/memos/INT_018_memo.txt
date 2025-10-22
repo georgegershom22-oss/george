@@ -1,0 +1,17 @@
+Case memo for INT_018 (Chinedu Mohammed)
+Sector: Technology | Size: Micro | Region: Aba
+Adoption level: High | Tech: WhatsApp Business; E-commerce platform; Inventory management software; IoT cold-chain sensor; Data analytics dashboard
+
+Salient codes:
+- Barriers/Power_Outage: 2
+- Drivers/Efficiency_Gains: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+- Barriers/Policy_Uncertainty: 1
+
+Notable excerpts:
+• "We first tried Inventory management software in 209. At the time, efficiency needs mattered because we needed visibility across branches."
+• "The biggest issue was Power outages. Without steady power in Aba, costs kept rising."
+• "Our sales changed after Inventory management software—we saw Reduced stock-outs within 12 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

@@ -1,0 +1,15 @@
+{
+  "participant_id": "INT_009",
+  "pseudonym": "Ibrahim Ekanem",
+  "sector": "Healthcare",
+  "size": "Small",
+  "region": "Maiduguri",
+  "technologies": [
+    "E-commerce platform",
+    "Point-of-Sale (POS)"
+  ],
+  "adoption_level": "Low",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

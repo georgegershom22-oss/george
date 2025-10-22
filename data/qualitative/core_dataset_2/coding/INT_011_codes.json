@@ -1,0 +1,42 @@
+{
+  "participant_id": "INT_011",
+  "segments": [
+    {
+      "text": "We first tried WhatsApp Business in 209. At the time, customer demand mattered because customers were asking for digital receipts.",
+      "applied_codes": [
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_011"
+    },
+    {
+      "text": "The biggest issue was Trust in vendors. Without steady power in Kaduna, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_011"
+    },
+    {
+      "text": "Our sales changed after WhatsApp Business\u2014we saw Better cashflow visibility within 8 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_011"
+    },
+    {
+      "text": "Policy-wise, CBN cashless policy shaped our move. We adjusted by Use interns/NYSC.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Policy_Environment/Cashless"
+      ],
+      "participant_id": "INT_011"
+    },
+    {
+      "text": "Data helped; even a Excel-based trendline gave us clearer demand patterns during Back-to-school.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_011"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "participant_id": "INT_009",
+  "segments": [
+    {
+      "text": "We first tried E-commerce platform in 206. At the time, competition mattered because competitors moved online and took some market share.",
+      "applied_codes": [
+        "Drivers/Market_Pressure"
+      ],
+      "participant_id": "INT_009"
+    },
+    {
+      "text": "The biggest issue was Cybersecurity concerns. Without steady power in Maiduguri, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_009"
+    },
+    {
+      "text": "Our sales changed after E-commerce platform\u2014we saw Sales increase within 5 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_009"
+    },
+    {
+      "text": "Policy-wise, CBN cashless policy shaped our move. We adjusted by Staff training.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Capabilities/Digital_Skills",
+        "Policy_Environment/Cashless"
+      ],
+      "participant_id": "INT_009"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during Easter.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_009"
+    }
+  ]
+}

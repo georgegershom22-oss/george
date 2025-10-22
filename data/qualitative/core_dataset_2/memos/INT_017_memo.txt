@@ -1,0 +1,17 @@
+Case memo for INT_017 (Blessing Aliyu)
+Sector: Services | Size: Medium | Region: Enugu
+Adoption level: Medium | Tech: IoT cold-chain sensor; Solar power system; Digital marketing tools; Mobile money
+
+Salient codes:
+- Drivers/Efficiency_Gains: 1
+- Barriers/Power_Outage: 1
+- Capabilities/Digital_Skills: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Customer_Demand: 1
+
+Notable excerpts:
+• "We first tried IoT cold-chain sensor in 208. At the time, efficiency needs mattered because we needed visibility across branches."
+• "The biggest issue was Skills gap. Without steady power in Enugu, costs kept rising."
+• "Our sales changed after IoT cold-chain sensor—we saw Customer retention within 12 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

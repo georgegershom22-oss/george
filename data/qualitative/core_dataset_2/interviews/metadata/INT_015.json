@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_015",
+  "pseudonym": "Tunde Mohammed",
+  "sector": "Healthcare",
+  "size": "Micro",
+  "region": "Lagos",
+  "technologies": [
+    "Cloud accounting",
+    "Point-of-Sale (POS)",
+    "Digital marketing tools",
+    "Customer Relationship Management (CRM)"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Aliyu: I own a Micro enterprise in Enugu operating within Agribusiness. We've been around since 2018, serving mostly schools and clinics.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Aliyu: We first tried Basic machine learning forecast in 206. At the time, market pressure mattered because we wanted to stop stock-outs during festive seasons.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Aliyu: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: What role did policy or regulation play?
+Emeka Aliyu: The biggest issue was Import restrictions. Without steady power in Enugu, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Emeka Aliyu: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Aliyu: Our sales changed after Basic machine learning forecast—we saw Customer retention within 3 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Emeka Aliyu: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Emeka Aliyu: Policy-wise, Data protection shaped our move. We adjusted by Peer learning.
+Interviewer: What role did policy or regulation play?
+Emeka Aliyu: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How do you use data or analytics today?
+Emeka Aliyu: Data helped; even a moving-average model gave us clearer demand patterns during Back-to-school.
+Interviewer: Tell me the story of when you decided to adopt it.
+Emeka Aliyu: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Emeka Aliyu: Looking back, the combination of Basic machine learning forecast and peer learning mattered most. We still struggle with import restrictions, but we track metrics and keep training.

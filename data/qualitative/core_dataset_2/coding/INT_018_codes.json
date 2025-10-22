@@ -1,0 +1,42 @@
+{
+  "participant_id": "INT_018",
+  "segments": [
+    {
+      "text": "We first tried Inventory management software in 209. At the time, efficiency needs mattered because we needed visibility across branches.",
+      "applied_codes": [
+        "Drivers/Efficiency_Gains"
+      ],
+      "participant_id": "INT_018"
+    },
+    {
+      "text": "The biggest issue was Power outages. Without steady power in Aba, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_018"
+    },
+    {
+      "text": "Our sales changed after Inventory management software\u2014we saw Reduced stock-outs within 12 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_018"
+    },
+    {
+      "text": "Policy-wise, Data protection shaped our move. We adjusted by Alternative power.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Barriers/Policy_Uncertainty"
+      ],
+      "participant_id": "INT_018"
+    },
+    {
+      "text": "Data helped; even a Excel-based trendline gave us clearer demand patterns during Sallah.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_018"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Olawale: I manage a Micro Hospitality business in Port Harcourt. We started in 2023 and currently employ 6 people. Our main products revolve around software consulting and training.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Hassan Olawale: We first tried Data analytics dashboard in 209. At the time, customer demand mattered because we needed visibility across branches.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Hassan Olawale: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: What role did policy or regulation play?
+Hassan Olawale: The biggest issue was Cybersecurity concerns. Without steady power in Port Harcourt, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Hassan Olawale: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Olawale: Our sales changed after Data analytics dashboard—we saw Better cashflow visibility within 7 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Hassan Olawale: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Hassan Olawale: Policy-wise, Regulatory licenses shaped our move. We adjusted by Peer learning.
+Interviewer: What role did policy or regulation play?
+Hassan Olawale: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: How do you use data or analytics today?
+Hassan Olawale: Data helped; even a basic ML forecast gave us clearer demand patterns during Easter.
+Interviewer: Tell me the story of when you decided to adopt it.
+Hassan Olawale: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Any closing thoughts for other SMEs?
+Hassan Olawale: Looking back, the combination of Data analytics dashboard and peer learning mattered most. We still struggle with cybersecurity concerns, but we track metrics and keep training.

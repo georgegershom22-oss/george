@@ -1,0 +1,18 @@
+{
+  "participant_id": "INT_008",
+  "pseudonym": "Maryam Okoro",
+  "sector": "Technology",
+  "size": "Micro",
+  "region": "Lagos",
+  "technologies": [
+    "IoT cold-chain sensor",
+    "Customer Relationship Management (CRM)",
+    "E-commerce platform",
+    "Inventory management software",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

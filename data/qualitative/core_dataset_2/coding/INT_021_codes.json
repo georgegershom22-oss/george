@@ -1,0 +1,43 @@
+{
+  "participant_id": "INT_021",
+  "segments": [
+    {
+      "text": "We first tried Data analytics dashboard in 207. At the time, market pressure mattered because customers were asking for digital receipts.",
+      "applied_codes": [
+        "Drivers/Market_Pressure",
+        "Drivers/Customer_Demand"
+      ],
+      "participant_id": "INT_021"
+    },
+    {
+      "text": "The biggest issue was Power outages. Without steady power in Enugu, costs kept rising.",
+      "applied_codes": [
+        "Barriers/Power_Outage",
+        "Outcomes/Cost_Reduction"
+      ],
+      "participant_id": "INT_021"
+    },
+    {
+      "text": "Our sales changed after Data analytics dashboard\u2014we saw Sales increase within 3 months.",
+      "applied_codes": [
+        "Outcomes/Sales_Increase"
+      ],
+      "participant_id": "INT_021"
+    },
+    {
+      "text": "Policy-wise, Import duty waivers shaped our move. We adjusted by Staff training.",
+      "applied_codes": [
+        "Barriers/Policy_Uncertainty",
+        "Capabilities/Digital_Skills"
+      ],
+      "participant_id": "INT_021"
+    },
+    {
+      "text": "Data helped; even a moving-average model gave us clearer demand patterns during New Year.",
+      "applied_codes": [
+        "Drivers/Competition"
+      ],
+      "participant_id": "INT_021"
+    }
+  ]
+}

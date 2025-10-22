@@ -1,0 +1,25 @@
+FGD FGD_03 | Sector: Technology | Participants: 5
+
+Moderator: What practical strategies have actually worked for you?
+[Multiple participants nod]
+
+Moderator: Did alternative power (solar/inverter) change the cost-benefit?
+Maryam Okoro: In our micro setup, unreliable internet was tough. We used pilot then scale around e-commerce platform, and saw sales increase.
+Fatima Umar: In our small setup, power outages was tough. We used alternative power around point-of-sale (pos), and saw reduced stock-outs.
+Chinedu Mohammed: In our micro setup, unreliable internet was tough. We used use interns/nysc around data analytics dashboard, and saw operational efficiency.
+
+Moderator: And how did you pay for it—own funds, loans, or vendor financing?
+Hassan Balogun: In our micro setup, power outages was tough. We used bundle financing around inventory management software, and saw faster order fulfillment.
+Seyi Okon: In our micro setup, fx volatility was tough. We used partnership with fintech around basic machine learning forecast, and saw faster order fulfillment.
+Fatima Umar: In our small setup, fx volatility was tough. We used bundle financing around whatsapp business, and saw cost reduction.
+
+Moderator: And how did you pay for it—own funds, loans, or vendor financing?
+Hassan Balogun: In our micro setup, fx volatility was tough. We used bundle financing around data analytics dashboard, and saw customer retention.
+Seyi Okon: In our micro setup, broadband cost was tough. We used partnership with fintech around digital marketing tools, and saw operational efficiency.
+Chinedu Mohammed: In our micro setup, trust in vendors was tough. We used alternative power around inventory management software, and saw reduced stock-outs.
+[Multiple participants nod]
+
+Moderator: If you could change one policy item, what would it be?
+Hassan Balogun: CBN cashless policy needs clearer guidance for SMEs.
+Maryam Okoro: Tax compliance needs clearer guidance for SMEs.
+Seyi Okon: Import duty waivers needs clearer guidance for SMEs.

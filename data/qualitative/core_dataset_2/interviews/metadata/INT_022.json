@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_022",
+  "pseudonym": "Seyi Okoro",
+  "sector": "Healthcare",
+  "size": "Small",
+  "region": "Abuja",
+  "technologies": [
+    "Customer Relationship Management (CRM)",
+    "WhatsApp Business",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

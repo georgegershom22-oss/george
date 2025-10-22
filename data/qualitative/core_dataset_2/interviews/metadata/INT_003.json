@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_003",
+  "pseudonym": "Hauwa Ojo",
+  "sector": "Manufacturing",
+  "size": "Small",
+  "region": "Benin City",
+  "technologies": [
+    "E-commerce platform",
+    "WhatsApp Business",
+    "Mobile money",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "High",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

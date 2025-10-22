@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Fatima Umar: I own a Small enterprise in Kaduna operating within Technology. We've been around since 2003, serving mostly walk-in customers.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Fatima Umar: We first tried WhatsApp Business in 209. At the time, customer demand mattered because customers were asking for digital receipts.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Fatima Umar: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: What role did policy or regulation play?
+Fatima Umar: The biggest issue was Trust in vendors. Without steady power in Kaduna, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Fatima Umar: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Tell me the story of when you decided to adopt it.
+Fatima Umar: Our sales changed after WhatsApp Business—we saw Better cashflow visibility within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Fatima Umar: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Fatima Umar: Policy-wise, CBN cashless policy shaped our move. We adjusted by Use interns/NYSC.
+Interviewer: What role did policy or regulation play?
+Fatima Umar: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: How do you use data or analytics today?
+Fatima Umar: Data helped; even a Excel-based trendline gave us clearer demand patterns during Back-to-school.
+Interviewer: Tell me the story of when you decided to adopt it.
+Fatima Umar: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: Any closing thoughts for other SMEs?
+Fatima Umar: Looking back, the combination of WhatsApp Business and use interns/nysc mattered most. We still struggle with trust in vendors, but we track metrics and keep training.

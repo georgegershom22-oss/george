@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Ibrahim Ekanem: I manage a Small Healthcare business in Maiduguri. We started in 2007 and currently employ 13 people. Our main products revolve around solar installation and maintenance.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Ibrahim Ekanem: We first tried E-commerce platform in 206. At the time, competition mattered because competitors moved online and took some market share.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Ibrahim Ekanem: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: What role did policy or regulation play?
+Ibrahim Ekanem: The biggest issue was Cybersecurity concerns. Without steady power in Maiduguri, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Ibrahim Ekanem: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: Tell me the story of when you decided to adopt it.
+Ibrahim Ekanem: Our sales changed after E-commerce platform—we saw Sales increase within 5 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Ibrahim Ekanem: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Ibrahim Ekanem: Policy-wise, CBN cashless policy shaped our move. We adjusted by Staff training.
+Interviewer: What role did policy or regulation play?
+Ibrahim Ekanem: Connectivity was patchy. We configured offline modes so work didn't stop during outages.
+Interviewer: How do you use data or analytics today?
+Ibrahim Ekanem: Data helped; even a moving-average model gave us clearer demand patterns during Easter.
+Interviewer: Tell me the story of when you decided to adopt it.
+Ibrahim Ekanem: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: Any closing thoughts for other SMEs?
+Ibrahim Ekanem: Looking back, the combination of E-commerce platform and staff training mattered most. We still struggle with cybersecurity concerns, but we track metrics and keep training.

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2025-10-22T15:53:26.442679",
+  "random_seed": 43127,
+  "num_interviews": 26,
+  "num_fgds": 5,
+  "num_quotes": 130,
+  "participants_csv": "participants/participants.csv",
+  "fgd_ids": [
+    "FGD_01",
+    "FGD_02",
+    "FGD_03",
+    "FGD_04",
+    "FGD_05"
+  ]
+}

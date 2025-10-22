@@ -1,0 +1,17 @@
+{
+  "participant_id": "INT_012",
+  "pseudonym": "Amina Okeke",
+  "sector": "Agribusiness",
+  "size": "Small",
+  "region": "Aba",
+  "technologies": [
+    "IoT cold-chain sensor",
+    "Solar power system",
+    "Basic machine learning forecast",
+    "Cloud accounting"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

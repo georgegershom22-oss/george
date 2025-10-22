@@ -1,0 +1,17 @@
+Case memo for INT_015 (Tunde Mohammed)
+Sector: Healthcare | Size: Micro | Region: Lagos
+Adoption level: High | Tech: Cloud accounting; Point-of-Sale (POS); Digital marketing tools; Customer Relationship Management (CRM)
+
+Salient codes:
+- Barriers/Power_Outage: 2
+- Drivers/Market_Pressure: 1
+- Drivers/Customer_Demand: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Efficiency_Gains: 1
+
+Notable excerpts:
+• "We first tried Point-of-Sale (POS) in 208. At the time, competition mattered because customers were asking for digital receipts."
+• "The biggest issue was Access to finance. Without steady power in Lagos, costs kept rising."
+• "Our sales changed after Point-of-Sale (POS)—we saw Operational efficiency within 6 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

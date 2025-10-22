@@ -1,0 +1,24 @@
+Interviewer: Tell me the story of when you decided to adopt it.
+Ifeoma Umar: I manage a Micro Services business in Ibadan. We started in 2003 and currently employ 7 people. Our main products revolve around local logistics and dispatch.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Ifeoma Umar: We first tried Basic machine learning forecast in 207. At the time, efficiency needs mattered because manual reconciliation wasted staff time.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Ifeoma Umar: We tracked KPIs like order cycle time, stock variance, and customer repeat rate.
+Interviewer: What role did policy or regulation play?
+Ifeoma Umar: The biggest issue was Import restrictions. Without steady power in Ibadan, costs kept rising.
+Interviewer: How do you use data or analytics today?
+Ifeoma Umar: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Tell me the story of when you decided to adopt it.
+Ifeoma Umar: Our sales changed after Basic machine learning forecast—we saw Operational efficiency within 8 months.
+Interviewer: What were the biggest hurdles, and how did you navigate them?
+Ifeoma Umar: Training interns helped us build internal champions. It reduced dependence on vendors.
+Interviewer: How did this specifically affect your sales, costs, or relationships?
+Ifeoma Umar: Policy-wise, Government grants shaped our move. We adjusted by Partnership with fintech.
+Interviewer: What role did policy or regulation play?
+Ifeoma Umar: At first, staff pushed back, worrying the new system might expose mistakes. We ran a hands-on demo and set clear SOPs.
+Interviewer: How do you use data or analytics today?
+Ifeoma Umar: Data helped; even a low-code AutoML gave us clearer demand patterns during Back-to-school.
+Interviewer: Tell me the story of when you decided to adopt it.
+Ifeoma Umar: Cashflow was tight. We phased licensing costs and negotiated quarterly payments.
+Interviewer: Any closing thoughts for other SMEs?
+Ifeoma Umar: Looking back, the combination of Basic machine learning forecast and partnership with fintech mattered most. We still struggle with import restrictions, but we track metrics and keep training.

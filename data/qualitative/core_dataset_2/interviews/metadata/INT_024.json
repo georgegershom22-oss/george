@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_024",
+  "pseudonym": "Emeka Aliyu",
+  "sector": "Agribusiness",
+  "size": "Micro",
+  "region": "Enugu",
+  "technologies": [
+    "IoT cold-chain sensor",
+    "Inventory management software",
+    "Basic machine learning forecast"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}

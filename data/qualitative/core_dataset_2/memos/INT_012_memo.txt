@@ -1,0 +1,17 @@
+Case memo for INT_012 (Amina Okeke)
+Sector: Agribusiness | Size: Small | Region: Aba
+Adoption level: Medium | Tech: IoT cold-chain sensor; Solar power system; Basic machine learning forecast; Cloud accounting
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Barriers/FX_Volatility: 1
+- Outcomes/Cost_Reduction: 1
+- Outcomes/Sales_Increase: 1
+
+Notable excerpts:
+• "We first tried Cloud accounting in 208. At the time, market pressure mattered because manual reconciliation wasted staff time."
+• "The biggest issue was FX volatility. Without steady power in Aba, costs kept rising."
+• "Our sales changed after Cloud accounting—we saw Better cashflow visibility within 8 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

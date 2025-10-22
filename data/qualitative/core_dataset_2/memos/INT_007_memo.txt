@@ -1,0 +1,17 @@
+Case memo for INT_007 (Seyi Ogundipe)
+Sector: Hospitality | Size: Micro | Region: Aba
+Adoption level: High | Tech: Solar power system; IoT cold-chain sensor; Data analytics dashboard
+
+Salient codes:
+- Drivers/Market_Pressure: 1
+- Barriers/Power_Outage: 1
+- Strategies/Alternative_Power: 1
+- Outcomes/Cost_Reduction: 1
+- Drivers/Customer_Demand: 1
+
+Notable excerpts:
+• "We first tried Data analytics dashboard in 209. At the time, competition mattered because we needed visibility across branches."
+• "The biggest issue was High generator cost. Without steady power in Aba, costs kept rising."
+• "Our sales changed after Data analytics dashboard—we saw Customer retention within 10 months."
+
+Analyst reflection: Adoption driven by pragmatic efficiency gains; power/internet constraints shape ROI.

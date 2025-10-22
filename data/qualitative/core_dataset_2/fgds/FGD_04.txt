@@ -1,0 +1,29 @@
+FGD FGD_04 | Sector: Services | Participants: 5
+
+Moderator: How has policy or regulation helped or hindered your adoption journey?
+[Multiple participants nod]
+
+Moderator: And how did you pay for it—own funds, loans, or vendor financing?
+Kunle Eze: In our small setup, trust in vendors was tough. We used bundle financing around data analytics dashboard, and saw sales increase.
+Halima Mohammed: In our micro setup, broadband cost was tough. We used peer learning around solar power system, and saw faster order fulfillment.
+Blessing Aliyu: In our medium setup, policy uncertainty was tough. We used bundle financing around mobile money, and saw customer retention.
+Emeka Mohammed: In our small setup, trust in vendors was tough. We used vendor negotiation around solar power system, and saw reduced stock-outs.
+Ifeoma Umar: In our micro setup, import restrictions was tough. We used peer learning around digital marketing tools, and saw cost reduction.
+[Short pause]
+
+Moderator: Which training or support made the most difference?
+Blessing Aliyu: In our medium setup, import restrictions was tough. We used peer learning around mobile money, and saw reduced stock-outs.
+Emeka Mohammed: In our small setup, high generator cost was tough. We used staff training around iot cold-chain sensor, and saw reduced stock-outs.
+Ifeoma Umar: In our micro setup, high generator cost was tough. We used use interns/nysc around mobile money, and saw sales increase.
+Halima Mohammed: In our micro setup, access to finance was tough. We used vendor negotiation around iot cold-chain sensor, and saw sales increase.
+
+Moderator: And how did you pay for it—own funds, loans, or vendor financing?
+Blessing Aliyu: In our medium setup, trust in vendors was tough. We used vendor negotiation around solar power system, and saw operational efficiency.
+Kunle Eze: In our small setup, fx volatility was tough. We used staff training around digital marketing tools, and saw customer retention.
+Emeka Mohammed: In our small setup, trust in vendors was tough. We used peer learning around iot cold-chain sensor, and saw cost reduction.
+[Multiple participants nod]
+
+Moderator: If you could change one policy item, what would it be?
+Kunle Eze: Tax compliance needs clearer guidance for SMEs.
+Ifeoma Umar: Tax compliance needs clearer guidance for SMEs.
+Halima Mohammed: Tax compliance needs clearer guidance for SMEs.

@@ -1,0 +1,16 @@
+{
+  "participant_id": "INT_006",
+  "pseudonym": "Amina Ogundipe",
+  "sector": "Agribusiness",
+  "size": "Micro",
+  "region": "Port Harcourt",
+  "technologies": [
+    "Customer Relationship Management (CRM)",
+    "Solar power system",
+    "Data analytics dashboard"
+  ],
+  "adoption_level": "Medium",
+  "interview_date": "2025-10-22",
+  "length_lines": 25,
+  "audio_recorded": true
+}
