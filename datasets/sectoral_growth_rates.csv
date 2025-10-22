@@ -1,0 +1,136 @@
+year,sector,growth_rate
+2015,Agriculture,4.7
+2015,Manufacturing,3.57
+2015,Services,2.36
+2015,Technology,3.02
+2015,Construction,4.04
+2015,Healthcare,3.89
+2015,Education,4.66
+2015,Financial Services,0.29
+2015,Retail,1.02
+2015,Transportation,1.51
+2015,Energy,0.92
+2015,Mining,-1.94
+2015,Tourism,2.94
+2015,Real Estate,0.2
+2015,Food & Beverage,2.03
+2016,Agriculture,2.64
+2016,Manufacturing,2.57
+2016,Services,4.48
+2016,Technology,4.9
+2016,Construction,-2.02
+2016,Healthcare,6.4
+2016,Education,3.3
+2016,Financial Services,2.15
+2016,Retail,4.89
+2016,Transportation,1.64
+2016,Energy,3.75
+2016,Mining,-0.28
+2016,Tourism,6.97
+2016,Real Estate,4.43
+2016,Food & Beverage,1.9
+2017,Agriculture,3.67
+2017,Manufacturing,2.77
+2017,Services,5.66
+2017,Technology,5.41
+2017,Construction,2.64
+2017,Healthcare,6.01
+2017,Education,0.16
+2017,Financial Services,1.2
+2017,Retail,-1.57
+2017,Transportation,1.18
+2017,Energy,2.59
+2017,Mining,4.31
+2017,Tourism,1.41
+2017,Real Estate,4.24
+2017,Food & Beverage,0.54
+2018,Agriculture,0.46
+2018,Manufacturing,1.72
+2018,Services,3.89
+2018,Technology,8.4
+2018,Construction,-3.14
+2018,Healthcare,3.94
+2018,Education,0.84
+2018,Financial Services,5.27
+2018,Retail,2.76
+2018,Transportation,0.37
+2018,Energy,-0.48
+2018,Mining,-3.89
+2018,Tourism,1.02
+2018,Real Estate,3.23
+2018,Food & Beverage,1.02
+2019,Agriculture,3.1
+2019,Manufacturing,1.0
+2019,Services,1.77
+2019,Technology,8.16
+2019,Construction,-0.97
+2019,Healthcare,3.1
+2019,Education,1.0
+2019,Financial Services,8.12
+2019,Retail,2.16
+2019,Transportation,0.66
+2019,Energy,1.33
+2019,Mining,-0.86
+2019,Tourism,0.58
+2019,Real Estate,2.72
+2019,Food & Beverage,3.11
+2020,Agriculture,1.86
+2020,Manufacturing,0.94
+2020,Services,2.7
+2020,Technology,1.13
+2020,Construction,-1.98
+2020,Healthcare,6.56
+2020,Education,5.27
+2020,Financial Services,3.25
+2020,Retail,3.14
+2020,Transportation,1.87
+2020,Energy,8.5
+2020,Mining,3.08
+2020,Tourism,0.84
+2020,Real Estate,0.37
+2020,Food & Beverage,0.27
+2021,Agriculture,2.74
+2021,Manufacturing,0.67
+2021,Services,0.64
+2021,Technology,6.43
+2021,Construction,-1.07
+2021,Healthcare,7.14
+2021,Education,4.12
+2021,Financial Services,3.78
+2021,Retail,4.76
+2021,Transportation,1.59
+2021,Energy,-1.35
+2021,Mining,4.37
+2021,Tourism,2.71
+2021,Real Estate,0.24
+2021,Food & Beverage,1.97
+2022,Agriculture,1.45
+2022,Manufacturing,-0.27
+2022,Services,4.87
+2022,Technology,14.61
+2022,Construction,-1.74
+2022,Healthcare,5.11
+2022,Education,1.82
+2022,Financial Services,2.73
+2022,Retail,1.03
+2022,Transportation,0.46
+2022,Energy,0.92
+2022,Mining,-3.16
+2022,Tourism,1.96
+2022,Real Estate,1.72
+2022,Food & Beverage,1.91
+2023,Agriculture,1.41
+2023,Manufacturing,0.93
+2023,Services,4.56
+2023,Technology,10.1
+2023,Construction,-0.85
+2023,Healthcare,4.28
+2023,Education,3.93
+2023,Financial Services,0.13
+2023,Retail,3.08
+2023,Transportation,0.7
+2023,Energy,2.23
+2023,Mining,-2.94
+2023,Tourism,-3.85
+2023,Real Estate,-0.64
+2023,Food & Beverage,2.26
