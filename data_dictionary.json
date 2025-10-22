@@ -1,0 +1,795 @@
+{
+  "Dataset_Info": {
+    "Title": "Nigerian SME Innovation Adoption and Performance Dataset",
+    "Research_Topic": "Leveraging Machine Learning to Examine Innovation Adoption and Constraints in Nigerian SMEs",
+    "Sample_Size": 800,
+    "Generation_Date": "2025-10-22",
+    "Data_Type": "Synthetic/Simulated",
+    "Purpose": "Academic Research - Statistical Analysis and Machine Learning"
+  },
+  "Sections": {
+    "A": "Firmographics & Managerial Characteristics",
+    "B": "Innovation Adoption (Independent Variables)",
+    "C": "Constraint Assessment (Moderating Variables)",
+    "D": "Firm Performance and Growth (Dependent Variables)",
+    "E": "Composite Indices (Calculated)"
+  },
+  "Variables": {
+    "Firm_ID": {
+      "Description": "Unique anonymized firm identifier",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "State": {
+      "Description": "Nigerian state where firm operates",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Geo_Political_Zone": {
+      "Description": "Nigerian geo-political zone (South West, South East, South South, North Central, North East, North West)",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Location_Type": {
+      "Description": "Urban or Rural location",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Industry": {
+      "Description": "Industry sector classification",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "ISIC_Code": {
+      "Description": "International Standard Industrial Classification code",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Firm_Age_Years": {
+      "Description": "Years of operation",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 0.0,
+      "Max": 50.0,
+      "Mean": 6.625,
+      "Std": 6.7226011861767825
+    },
+    "Num_Employees": {
+      "Description": "Number of full-time employees",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 199.0,
+      "Mean": 23.82875,
+      "Std": 38.66103034739118
+    },
+    "Size_Category": {
+      "Description": "Firm size: Micro (1-10), Small (11-50), Medium (51-200)",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Annual_Turnover_Naira": {
+      "Description": "Annual revenue in Nigerian Naira",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 599444.0,
+      "Max": 1382210082.0,
+      "Mean": 81745284.255,
+      "Std": 198440620.00964415
+    },
+    "Legal_Structure": {
+      "Description": "Legal form of business",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Owner_Age": {
+      "Description": "Age of primary owner/manager",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 25.0,
+      "Max": 70.0,
+      "Mean": 41.3,
+      "Std": 9.832005666153478
+    },
+    "Owner_Gender": {
+      "Description": "Gender of primary owner/manager",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Owner_Education": {
+      "Description": "Highest educational level",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Owner_Field_of_Study": {
+      "Description": "Academic field of study",
+      "Type": "object",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0
+    },
+    "Owner_Prior_Experience_Years": {
+      "Description": "Years of prior entrepreneurial experience",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 0.0,
+      "Max": 24.0,
+      "Mean": 2.52,
+      "Std": 2.888776780769222
+    },
+    "Owner_Digital_Literacy_Score": {
+      "Description": "Digital literacy score (1-10 scale)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.5961842966420803,
+      "Max": 9.715236249847505,
+      "Mean": 5.896012788671876,
+      "Std": 1.3569927039168268
+    },
+    "Tech_Computers": {
+      "Description": "Extent of computer use (1=No use, 5=Extensive use)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.56625,
+      "Std": 0.9349886053397356
+    },
+    "Tech_Accounting_Software": {
+      "Description": "Use of accounting software (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.2925,
+      "Std": 1.0299367515241773
+    },
+    "Tech_CRM": {
+      "Description": "Use of Customer Relationship Management systems (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.06125,
+      "Std": 1.075380859272943
+    },
+    "Tech_Ecommerce_Platform": {
+      "Description": "Use of e-commerce platforms (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.2375,
+      "Std": 1.0816914164402438
+    },
+    "Tech_Cloud_Computing": {
+      "Description": "Adoption of cloud computing (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.97625,
+      "Std": 1.1488410386842935
+    },
+    "Tech_Social_Media_Business": {
+      "Description": "Use of social media for business (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.76125,
+      "Std": 0.9723323635885016
+    },
+    "Tech_AI_ML": {
+      "Description": "Use of AI/ML for analytics (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.2125,
+      "Std": 0.9790515448173612
+    },
+    "Tech_IoT": {
+      "Description": "Use of Internet of Things in operations (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.00875,
+      "Std": 0.91088450185501
+    },
+    "Tech_Blockchain": {
+      "Description": "Adoption of blockchain technology (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 4.0,
+      "Mean": 1.74125,
+      "Std": 0.7842622466939785
+    },
+    "Tech_Robotics": {
+      "Description": "Use of robotics/automation (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 1.89875,
+      "Std": 0.8257425451910986
+    },
+    "Digital_Website": {
+      "Description": "Has functional business website (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.075,
+      "Std": 1.0855173581839437
+    },
+    "Digital_Social_Media_Presence": {
+      "Description": "Active social media presence (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.58375,
+      "Std": 1.0058581539075118
+    },
+    "Digital_Online_Payments": {
+      "Description": "Accepts online payments (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.91375,
+      "Std": 1.14474844343569
+    },
+    "Process_New_Production_Methods": {
+      "Description": "Adopted new production/delivery methods (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.56625,
+      "Std": 1.0533270193829658
+    },
+    "Process_Supply_Chain_Software": {
+      "Description": "Use of supply chain/logistics software (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.98875,
+      "Std": 1.142477573634521
+    },
+    "Process_Inventory_Management": {
+      "Description": "Use of inventory management systems (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.19,
+      "Std": 1.108122248963674
+    },
+    "Process_HR_Software": {
+      "Description": "Use of HR management software (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.88625,
+      "Std": 1.1123657827096172
+    },
+    "Product_New_Services_3yrs": {
+      "Description": "Introduced new/improved products in last 3 years (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.7625,
+      "Std": 1.0024219731556825
+    },
+    "Product_Improvements": {
+      "Description": "Degree of product improvements (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.8225,
+      "Std": 0.9550570231126232
+    },
+    "Product_Launch_Frequency": {
+      "Description": "Frequency of new product launches (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.57375,
+      "Std": 1.054015950795178
+    },
+    "Business_Model_Revenue_Change": {
+      "Description": "Changes in revenue model (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.26125,
+      "Std": 1.1065844291664293
+    },
+    "Business_Model_Value_Proposition": {
+      "Description": "Changes in value proposition (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.59,
+      "Std": 1.0139946900942944
+    },
+    "Business_Model_Customer_Engagement": {
+      "Description": "Changes in customer engagement strategies (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.65625,
+      "Std": 1.0034164106274102
+    },
+    "Driver_Competitive_Pressure": {
+      "Description": "Perceived competitive pressure (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.51875,
+      "Std": 0.8947900586513724
+    },
+    "Driver_Customer_Demand": {
+      "Description": "Customer demand for innovation (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.6925,
+      "Std": 0.8404324234124381
+    },
+    "Driver_Management_Attitude": {
+      "Description": "Management attitude towards innovation (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.09875,
+      "Std": 0.8029971625440636
+    },
+    "Constraint_Access_Credit": {
+      "Description": "Difficulty accessing credit (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.79125,
+      "Std": 0.9293831981002987
+    },
+    "Constraint_Cost_Innovation": {
+      "Description": "High cost of innovation (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.94625,
+      "Std": 0.8180448852556113
+    },
+    "Constraint_Internal_Capital": {
+      "Description": "Sufficiency of internal capital (Likert 1-5, reverse coded)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.25875,
+      "Std": 0.900172942638426
+    },
+    "Constraint_Skilled_Employees": {
+      "Description": "Difficulty finding skilled employees (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.87625,
+      "Std": 0.9134982409919403
+    },
+    "Constraint_Training_Cost": {
+      "Description": "High cost of training staff (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.76875,
+      "Std": 0.8358509113068044
+    },
+    "Constraint_Leadership_Capability": {
+      "Description": "Management capability for change (Likert 1-5, reverse coded)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.5,
+      "Std": 0.9918314685860683
+    },
+    "Constraint_Electricity": {
+      "Description": "Poor electricity reliability (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 4.16875,
+      "Std": 0.8580172956295807
+    },
+    "Constraint_Internet_Quality": {
+      "Description": "Poor internet quality (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.89125,
+      "Std": 0.9249285396744877
+    },
+    "Constraint_Internet_Cost": {
+      "Description": "High internet cost (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.9175,
+      "Std": 0.8698503028894088
+    },
+    "Constraint_Logistics": {
+      "Description": "Poor logistics/transportation (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.7775,
+      "Std": 0.9389333015080737
+    },
+    "Constraint_Regulatory_Burden": {
+      "Description": "Heavy regulatory burden (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 2.0,
+      "Max": 5.0,
+      "Mean": 4.03625,
+      "Std": 0.8991365277973776
+    },
+    "Constraint_Corruption": {
+      "Description": "Corruption and informal charges (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 4.1275,
+      "Std": 0.9538768795692244
+    },
+    "Constraint_Govt_Support": {
+      "Description": "Effectiveness of government support (Likert 1-5, reverse coded)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.19375,
+      "Std": 1.0185812791711064
+    },
+    "Constraint_Competition_Intensity": {
+      "Description": "Intensity of competition (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.81,
+      "Std": 0.8586743574051117
+    },
+    "Constraint_Demand_Uncertainty": {
+      "Description": "Market demand uncertainty (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.7275,
+      "Std": 0.9588498272613124
+    },
+    "Constraint_International_Access": {
+      "Description": "Access to international markets (Likert 1-5, reverse coded)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 1.84375,
+      "Std": 0.9153596515110977
+    },
+    "Perf_Profitability_Growth": {
+      "Description": "Profitability growth last 3 years (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.5875,
+      "Std": 1.0092655851046322
+    },
+    "Perf_Sales_Growth": {
+      "Description": "Sales growth last 3 years (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.67625,
+      "Std": 1.017462517721764
+    },
+    "Perf_Market_Share_Growth": {
+      "Description": "Market share growth (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.44125,
+      "Std": 1.066757189395229
+    },
+    "Perf_ROI": {
+      "Description": "Return on Investment perception (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.43875,
+      "Std": 1.0464785397549774
+    },
+    "Perf_Overall_Satisfaction": {
+      "Description": "Overall business performance satisfaction (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.52875,
+      "Std": 1.0188085694213649
+    },
+    "Perf_Turnover_Growth_Pct": {
+      "Description": "Actual turnover growth % (last 3 years, may have missing data)",
+      "Type": "float64",
+      "Missing_Count": 240,
+      "Missing_Percentage": 30.0,
+      "Min": -30.0,
+      "Max": 63.95621174236533,
+      "Mean": 7.4925923364051705,
+      "Std": 16.28835576731686
+    },
+    "Perf_Profit_Margin_Pct": {
+      "Description": "Actual profit margin % (may have missing data)",
+      "Type": "float64",
+      "Missing_Count": 321,
+      "Missing_Percentage": 40.12,
+      "Min": -10.0,
+      "Max": 34.14861235779334,
+      "Mean": 8.246443277152142,
+      "Std": 7.017408942181813
+    },
+    "Perf_Employee_Growth_Pct": {
+      "Description": "Employee growth rate % (may have missing data)",
+      "Type": "float64",
+      "Missing_Count": 202,
+      "Missing_Percentage": 25.25,
+      "Min": -20.0,
+      "Max": 41.20720909045356,
+      "Mean": 4.4911767515228895,
+      "Std": 11.7947999619307
+    },
+    "Perf_New_Branches_3yrs": {
+      "Description": "Number of new branches opened (last 3 years)",
+      "Type": "float64",
+      "Missing_Count": 148,
+      "Missing_Percentage": 18.5,
+      "Min": 0.0,
+      "Max": 3.0,
+      "Mean": 0.19171779141104295,
+      "Std": 0.4720047060246331
+    },
+    "Growth_Product_Lines": {
+      "Description": "Increase in product/service lines (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.6025,
+      "Std": 1.0587232256759707
+    },
+    "Growth_Quality_Improvement": {
+      "Description": "Product/service quality improvement (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.88375,
+      "Std": 1.0327483473412922
+    },
+    "Growth_Customer_Satisfaction": {
+      "Description": "Customer satisfaction improvement (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.8225,
+      "Std": 1.0160138311713154
+    },
+    "Growth_Customer_Retention": {
+      "Description": "Customer retention improvement (Likert 1-5)",
+      "Type": "int64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.75625,
+      "Std": 1.0407641062729502
+    },
+    "Index_Technology_Innovation": {
+      "Description": "Technology adoption index (mean of tech variables)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.1666666666666667,
+      "Max": 5.0,
+      "Mean": 3.315833333333333,
+      "Std": 0.7722318014830813
+    },
+    "Index_Advanced_Technology": {
+      "Description": "Advanced technology index (AI, IoT, Blockchain, Robotics)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 3.75,
+      "Mean": 1.9653125,
+      "Std": 0.6774805363921813
+    },
+    "Index_Digital_Presence": {
+      "Description": "Digital presence index (website, social media, online payments)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.190833333333334,
+      "Std": 0.8524747812557021
+    },
+    "Index_Process_Innovation": {
+      "Description": "Process innovation index",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 3.1578125,
+      "Std": 0.8213466702828538
+    },
+    "Index_Product_Innovation": {
+      "Description": "Product innovation index",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.3333333333333333,
+      "Max": 5.0,
+      "Mean": 3.719583333333334,
+      "Std": 0.794995362376043
+    },
+    "Index_Overall_Innovation": {
+      "Description": "Overall innovation index (composite)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.2083333333333335,
+      "Max": 4.854166666666667,
+      "Mean": 3.346015625,
+      "Std": 0.720825683869906
+    },
+    "Index_Financial_Constraints": {
+      "Description": "Financial constraints index",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 2.0,
+      "Max": 5.0,
+      "Mean": 3.82625,
+      "Std": 0.640890810087596
+    },
+    "Index_Infrastructure_Constraints": {
+      "Description": "Infrastructure constraints index",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 2.25,
+      "Max": 5.0,
+      "Mean": 3.93875,
+      "Std": 0.5818475923950961
+    },
+    "Index_Overall_Constraints": {
+      "Description": "Overall constraints index (composite)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 2.3,
+      "Max": 5.0,
+      "Mean": 3.8810000000000002,
+      "Std": 0.525714881697022
+    },
+    "Index_Overall_Performance": {
+      "Description": "Overall performance index (composite)",
+      "Type": "float64",
+      "Missing_Count": 0,
+      "Missing_Percentage": 0.0,
+      "Min": 1.0,
+      "Max": 5.0,
+      "Mean": 2.5345,
+      "Std": 0.7843971242685053
+    }
+  }
+}

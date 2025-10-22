@@ -1,0 +1,6 @@
+,R2_Test,RMSE,Accuracy
+Linear Regression,0.35346291268121277,0.603926091644923,
+Random Forest,0.2986270860729522,0.6290158179043813,
+Gradient Boosting,0.23754908497595806,0.655832624309269,
+Logistic Classification,,,0.7875
+Random Forest Classification,,,0.76875

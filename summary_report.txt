@@ -1,0 +1,210 @@
+================================================================================
+NIGERIAN SME INNOVATION DATASET - SUMMARY REPORT
+================================================================================
+
+Generated: 2025-10-22 15:07:28
+Sample Size: 800 SMEs
+
+================================================================================
+SECTION A: FIRMOGRAPHICS
+================================================================================
+
+Geo-Political Zones Distribution:
+Geo_Political_Zone
+South West       287
+South East       154
+South South      120
+North Central    112
+North East        68
+North West        59
+
+
+Top 10 States:
+State
+Ekiti      56
+Lagos      51
+Oyo        49
+Osun       46
+Ogun       45
+Ondo       40
+Imo        35
+Anambra    35
+Ebonyi     34
+Abia       27
+
+
+Location Type:
+Location_Type
+Urban    583
+Rural    217
+
+
+Industry Distribution:
+Industry
+Manufacturing             144
+Retail Trade              111
+Information Technology     93
+Professional Services      82
+Wholesale Trade            63
+Food Services              62
+Agriculture                51
+Hospitality                47
+Construction               47
+Transportation             38
+Financial Services         15
+Healthcare                 15
+Creative Industries        13
+Education Services         12
+Real Estate                 7
+
+
+Firm Size Categories:
+Size_Category
+Micro     501
+Small     227
+Medium     72
+
+
+Legal Structure:
+Legal_Structure
+Sole Proprietorship          359
+Limited Liability Company    242
+Partnership                  199
+
+
+Firm Age Statistics:
+count    800.000000
+mean       6.625000
+std        6.722601
+min        0.000000
+25%        2.000000
+50%        5.000000
+75%        9.000000
+max       50.000000
+
+
+Owner Education:
+Owner_Education
+HND/Bachelor    381
+OND/NCE         196
+Secondary       114
+Postgraduate    109
+
+
+Owner Gender:
+Owner_Gender
+Male      538
+Female    262
+
+
+================================================================================
+SECTION B: INNOVATION ADOPTION
+================================================================================
+
+
+Innovation Indices (Scale 1-5):
+Overall Innovation Index: 3.35 ± 0.72
+Technology Innovation Index: 3.32 ± 0.77
+Process Innovation Index: 3.16 ± 0.82
+Product Innovation Index: 3.72 ± 0.79
+Digital Presence Index: 3.19 ± 0.85
+Advanced Technology Index: 1.97 ± 0.68
+
+
+================================================================================
+SECTION C: CONSTRAINTS
+================================================================================
+
+
+Constraint Indices (Scale 1-5, higher = more constrained):
+Overall Constraints Index: 3.88 ± 0.53
+Financial Constraints Index: 3.83 ± 0.64
+Infrastructure Constraints Index: 3.94 ± 0.58
+
+
+Top 5 Constraints (by mean severity):
+Constraint_Electricity          4.16875
+Constraint_Corruption           4.12750
+Constraint_Regulatory_Burden    4.03625
+Constraint_Cost_Innovation      3.94625
+Constraint_Internet_Cost        3.91750
+
+
+================================================================================
+SECTION D: PERFORMANCE
+================================================================================
+
+
+Performance Indices (Scale 1-5):
+Overall Performance Index: 2.53 ± 0.78
+Profitability Growth: 2.59 ± 1.01
+Sales Growth: 2.68 ± 1.02
+ROI Perception: 2.44 ± 1.05
+
+
+Objective Performance Metrics (with missing data):
+Turnover Growth %: 7.49 ± 16.29 (n=560)
+Profit Margin %: 8.25 ± 7.02 (n=479)
+Employee Growth %: 4.49 ± 11.79 (n=598)
+
+
+================================================================================
+KEY CORRELATIONS
+================================================================================
+
+
+Innovation → Performance: r = 0.585
+Constraints → Performance: r = -0.173
+Innovation → Constraints: r = -0.075
+
+
+================================================================================
+DATA QUALITY NOTES
+================================================================================
+
+- This is a SYNTHETIC dataset generated for research purposes
+- Realistic correlations have been built in:
+  * Higher innovation → better performance
+  * Higher constraints → lower performance
+  * Larger firms → more innovative
+  * Urban location → more innovative
+  * Higher education → higher digital literacy
+  * Rural/Northern areas → more constraints
+
+- Missing data patterns:
+  * Turnover growth: 240 missing (30.0%)
+  * Profit margin: 321 missing (40.1%)
+  * Employee growth: 202 missing (25.2%)
+  * New branches: 148 missing (18.5%)
+
+
+================================================================================
+RECOMMENDED ANALYSES
+================================================================================
+
+1. Regression Analysis:
+   - Dependent: Performance indices
+   - Independent: Innovation indices
+   - Moderators: Constraint indices
+   - Controls: Firm age, size, location, industry
+
+2. Machine Learning Models:
+   - Classification: High vs Low performers
+   - Regression: Predict performance scores
+   - Clustering: Identify SME archetypes
+   - Feature importance: Key innovation drivers
+
+3. Structural Equation Modeling:
+   - Test mediation and moderation effects
+   - Validate composite indices
+
+4. Comparative Analysis:
+   - By firm size (Micro/Small/Medium)
+   - By location (Urban/Rural)
+   - By geo-political zone
+   - By industry sector
+
+
+================================================================================
+END OF REPORT
+================================================================================
