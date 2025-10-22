@@ -1,0 +1,451 @@
+================================================================================
+NIGERIAN SME INNOVATION DATASET - STRUCTURE & RELATIONSHIPS
+================================================================================
+
+DATASET ARCHITECTURE
+================================================================================
+
+                    ┌─────────────────────────────────────┐
+                    │   MACROECONOMIC INDICATORS (N=10)   │
+                    │   • GDP, Inflation, Interest Rates  │
+                    │   • Exchange Rates, EODB            │
+                    │   • National-level context          │
+                    └────────────────┬────────────────────┘
+                                     │
+                                     │ (Year)
+                                     │
+        ┌────────────────────────────┴────────────────────────────┐
+        │                                                          │
+        ▼                                                          ▼
+┌───────────────────┐                                  ┌──────────────────────┐
+│ SECTORAL GROWTH   │                                  │ POLICY & EXTERNAL    │
+│ RATES (N=10)      │                                  │ FACTORS (N=10)       │
+│ • 14+ sectors     │                                  │ • Government budget  │
+│ • ICT, Mfg, Trade │                                  │ • CBN interventions  │
+│ • GDP contribution│                                  │ • Stability indices  │
+└───────────────────┘                                  └──────────────────────┘
+        │                                                          │
+        │                                                          │
+        │                    (Year)                                │
+        │                                                          │
+        └────────────────────────────┬────────────────────────────┘
+                                     │
+                                     ▼
+                    ┌─────────────────────────────────────┐
+                    │  TECHNOLOGY ADOPTION INDICES (N=10) │
+                    │  • FinTech, Mobile Money, ICT       │
+                    │  • Digital Payments, E-commerce     │
+                    │  • National-level tech metrics      │
+                    └────────────────┬────────────────────┘
+                                     │
+                                     │ (Year)
+                                     │
+                                     ▼
+                    ┌─────────────────────────────────────┐
+                    │  SME LANDSCAPE INDICATORS (N=10)    │
+                    │  • 37-51 million SMEs               │
+                    │  • Formality, Innovation, Demographics │
+                    │  • National SME characteristics     │
+                    └────────────────┬────────────────────┘
+                                     │
+                                     │ (Year)
+                                     │
+        ┌────────────────────────────┴────────────────────────────┐
+        │                                                          │
+        ▼                                                          ▼
+┌───────────────────────┐                          ┌──────────────────────────┐
+│ BROADBAND PENETRATION │                          │ REGIONAL SUMMARY         │
+│ BY STATE (N=100)      │                          │ STATISTICS (N=60)        │
+│ • 10 states × 10 yrs  │◄─────(Region/State)─────►│ • 6 regions × 10 yrs    │
+│ • Digital infra       │                          │ • SME density, VC, hubs  │
+│ • Electricity access  │                          │ • Innovation ecosystem   │
+└───────────────────────┘                          └────────────┬─────────────┘
+                                                                 │
+                                                                 │ (Year, Region)
+                                                                 │
+                                                                 ▼
+                                                   ┌──────────────────────────┐
+                                                   │ INNOVATION ADOPTION      │
+                                                   │ BARRIERS (N=60)          │
+                                                   │ • 6 regions × 10 yrs     │
+                                                   │ • 15 constraint types    │
+                                                   │ • Regional disparities   │
+                                                   └──────────────────────────┘
+
+================================================================================
+DATASET RELATIONSHIPS & MERGE KEYS
+================================================================================
+
+PRIMARY KEY: Year (all datasets)
+SECONDARY KEYS:
+  • Region (barriers, regional summary, broadband)
+  • State (broadband only)
+
+MERGE SCENARIOS
+---------------
+
+1. NATIONAL TIME SERIES ANALYSIS
+   Merge: macro + sectors + tech + sme + policy
+   Key: Year
+   Result: 10 observations, 80+ variables
+
+2. REGIONAL PANEL ANALYSIS
+   Merge: regional + barriers
+   Key: Year + Region
+   Result: 60 observations, 30+ variables
+   Enhancement: Add macro + tech by Year
+
+3. STATE-LEVEL INFRASTRUCTURE ANALYSIS
+   Merge: broadband (grouped by region) + regional + barriers
+   Key: Year + Region
+   Result: 60 observations, 40+ variables
+
+4. COMPREHENSIVE MERGED DATASET
+   Merge: regional + barriers + (macro + tech + sme + policy)
+   Keys: Year + Region (regional), Year (national)
+   Result: 60 regional observations with national context
+
+5. SECTORAL-REGIONAL ANALYSIS
+   Merge: sectors + regional (cross join on year)
+   Key: Year
+   Result: 60 region-year observations + sectoral variables
+
+================================================================================
+DATA GRANULARITY LEVELS
+================================================================================
+
+LEVEL 1: NATIONAL (Annual, 2015-2024)
+--------------------------------------
+Datasets: macro (10), sectors (10), tech (10), sme (10), policy (10)
+Total: 50 observations
+Use Case: National trends, policy evaluation, macro forecasting
+
+LEVEL 2: REGIONAL (6 Regions × Annual, 2015-2024)
+-------------------------------------------------
+Datasets: regional (60), barriers (60)
+Total: 120 regional-year observations
+Use Case: Regional disparities, ecosystem analysis, constraint profiling
+
+LEVEL 3: STATE (10 States × Annual, 2015-2024)
+----------------------------------------------
+Datasets: broadband (100)
+Total: 100 state-year observations
+Use Case: Digital infrastructure, connectivity gaps, state-level targeting
+
+COMBINED: Multi-level panel
+----------------------------
+Total unique observations: 270 rows across all files
+Variables: 120+ (with many overlapping time variables)
+
+================================================================================
+VARIABLE CATEGORIES
+================================================================================
+
+MACROECONOMIC (11 variables)
+----------------------------
+GDP, inflation, interest rates, exchange rates, unemployment, FDI, EODB
+
+DIGITAL INFRASTRUCTURE (9 variables per state)
+----------------------------------------------
+Broadband, mobile, internet penetration, electricity, urban-rural ratio
+
+SECTORAL PERFORMANCE (19 variables)
+-----------------------------------
+Growth rates and GDP contributions for 14+ sectors
+
+TECHNOLOGY ADOPTION (15 variables)
+----------------------------------
+FinTech, mobile money, ICT index, digital payments, e-commerce, crypto
+
+SME LANDSCAPE (20 variables)
+----------------------------
+Total SMEs, formality, employment, demographics, innovation, digitalization
+
+INNOVATION BARRIERS (15 variables per region)
+---------------------------------------------
+Finance, skills, infrastructure, awareness, regulation, culture, etc.
+
+REGIONAL ECOSYSTEM (16 variables per region)
+--------------------------------------------
+SME density, revenue, VC investment, hubs, R&D, patents, infrastructure
+
+POLICY & INSTITUTIONS (20 variables)
+------------------------------------
+Government budget, CBN schemes, training, stability, corruption, regulation
+
+================================================================================
+SAMPLE ANALYSIS QUERIES
+================================================================================
+
+QUERY 1: What drives SME revenue growth?
+-----------------------------------------
+Data: regional + policy + barriers
+Target: Average_SME_Revenue_Million_NGN
+Features: VC investment, digital infrastructure, government budget, barriers
+Method: Random Forest Regression
+
+QUERY 2: Which regions are innovation leaders?
+----------------------------------------------
+Data: regional (2024)
+Features: Innovation hubs, R&D, patents, VC investment, digital score
+Method: K-means clustering (3-4 clusters)
+
+QUERY 3: How do barriers vary by region over time?
+--------------------------------------------------
+Data: barriers (all years)
+Visualization: Heatmap (region × barrier type) or time series by region
+Method: Panel visualization, PCA for barrier dimensions
+
+QUERY 4: What predicts FinTech adoption?
+----------------------------------------
+Data: tech + macro + broadband (aggregated)
+Target: FinTech_Adoption_Rate_Percent
+Features: Broadband penetration, inflation, mobile penetration, GDP
+Method: Logistic growth curve fitting, regression analysis
+
+QUERY 5: Impact of CBN interventions on SME access to finance?
+--------------------------------------------------------------
+Data: policy + sme (merged by Year)
+Treatment: CBN_Intervention_Funds_Billion_NGN
+Outcome: Access_to_Finance_Percent
+Method: Time series regression, Granger causality
+
+QUERY 6: Regional convergence or divergence in ecosystem maturity?
+------------------------------------------------------------------
+Data: regional (all years)
+Metrics: Digital infrastructure, VC investment, SME revenue
+Method: Coefficient of variation over time, beta convergence
+
+QUERY 7: Which sectors benefit most from digital infrastructure?
+----------------------------------------------------------------
+Data: sectors + broadband (aggregated by year)
+Analysis: Correlation between broadband penetration and sectoral growth
+Method: Panel regression with sector fixed effects
+
+================================================================================
+RECOMMENDED MERGE STRATEGIES
+================================================================================
+
+STRATEGY A: Regional Panel with Full Context
+---------------------------------------------
+base = regional.merge(barriers, on=['Year', 'Region'])
+base = base.merge(macro, on='Year')
+base = base.merge(tech, on='Year')
+base = base.merge(policy, on='Year')
+base = base.merge(sme, on='Year')
+Result: 60 rows × 90+ columns (rich regional panel)
+
+STRATEGY B: State-Level Infrastructure Focus
+---------------------------------------------
+base = broadband.copy()
+# Aggregate to regional level
+regional_broadband = base.groupby(['Region', 'Year']).mean().reset_index()
+merged = regional_broadband.merge(regional, on=['Region', 'Year'])
+merged = merged.merge(barriers, on=['Region', 'Year'])
+Result: 60 rows × 40+ columns (infrastructure emphasis)
+
+STRATEGY C: National Trends Only
+---------------------------------
+base = macro.merge(sectors, on='Year')
+base = base.merge(tech, on='Year')
+base = base.merge(sme, on='Year')
+base = base.merge(policy, on='Year')
+Result: 10 rows × 80+ columns (time series analysis)
+
+STRATEGY D: Sectoral-Regional Cross-Join
+-----------------------------------------
+# Expand sectors to regional level
+from itertools import product
+regions = regional['Region'].unique()
+years = regional['Year'].unique()
+
+# Create cartesian product
+sector_regional = sectors.merge(regional, on='Year')
+Result: 60 rows × 35+ columns (sector-region analysis)
+
+================================================================================
+FEATURE ENGINEERING SUGGESTIONS
+================================================================================
+
+TEMPORAL FEATURES
+-----------------
+• Lag variables (t-1, t-2) for predictors
+• Growth rates (year-over-year % change)
+• Moving averages (3-year, 5-year)
+• Cumulative sums (e.g., total CBN interventions)
+• Time trend (linear: 0, 1, 2, ..., 9)
+• Year dummies (for non-parametric time effects)
+
+SPATIAL FEATURES
+----------------
+• Region dummies (South West, South East, etc.)
+• North vs South indicator (development divide)
+• Distance to Lagos (economic center proxy)
+• Neighboring region effects (spatial lag)
+
+INTERACTION FEATURES
+--------------------
+• Infrastructure × Policy (complementarity)
+• Broadband × ICT sector growth (synergy)
+• Finance access × Innovation (enabling effect)
+• Corruption × Government budget (governance quality)
+
+COMPOSITE INDICES
+-----------------
+• Weighted barrier index (PCA of 15 barriers)
+• Digital readiness index (broadband + mobile + internet)
+• Policy support index (budget + training + schemes)
+• Ecosystem maturity score (hubs + VC + R&D + patents)
+
+RATIO FEATURES
+--------------
+• SME density per capita
+• VC investment per SME
+• Government budget per SME
+• Hubs per 1M population
+• Credit-to-GDP ratio (already included)
+
+CATEGORICAL ENCODINGS
+---------------------
+• Region → one-hot encoding (6 dummies)
+• State → one-hot encoding (10 dummies)
+• Year → cyclical encoding (for periodicities)
+• Sector → one-hot encoding (for sectoral models)
+
+================================================================================
+DATA QUALITY CHECKS
+================================================================================
+
+COMPLETENESS
+------------
+✓ Zero missing values across all datasets
+✓ All years 2015-2024 represented
+✓ All regions/states consistently labeled
+
+CONSISTENCY
+-----------
+✓ Time periods align across datasets
+✓ Region names standardized (6 categories)
+✓ State names standardized (10 categories)
+✓ Currency units explicit (NGN, USD)
+✓ Percentage scales consistent (0-100)
+
+VALIDITY
+--------
+✓ GDP growth rates plausible (-1.79% to 3.65%)
+✓ FinTech adoption follows S-curve pattern
+✓ Regional disparities realistic (2-3× gaps)
+✓ Barrier percentages logical (40-90% ranges)
+✓ Exchange rate depreciation gradual
+✓ SME counts align with population
+
+RELIABILITY
+-----------
+✓ Temporal trends smooth (no sudden jumps)
+✓ Cross-sectional patterns stable
+✓ Correlations align with theory
+✓ Economic shocks reflected (2016, 2020)
+
+================================================================================
+PYTHON CODE: COMPREHENSIVE MERGE EXAMPLE
+================================================================================
+
+import pandas as pd
+
+# Load all datasets
+macro = pd.read_csv('macroeconomic_indicators.csv')
+sectors = pd.read_csv('sectoral_growth_rates.csv')
+tech = pd.read_csv('technology_adoption_indices.csv')
+sme = pd.read_csv('sme_landscape_indicators.csv')
+barriers = pd.read_csv('innovation_adoption_barriers.csv')
+regional = pd.read_csv('regional_summary_statistics.csv')
+broadband = pd.read_csv('broadband_penetration_by_state.csv')
+policy = pd.read_csv('policy_and_external_factors.csv')
+
+# Strategy A: Full regional panel with national context
+national = (macro
+    .merge(sectors, on='Year', suffixes=('', '_sector'))
+    .merge(tech, on='Year', suffixes=('', '_tech'))
+    .merge(sme, on='Year', suffixes=('', '_sme'))
+    .merge(policy, on='Year', suffixes=('', '_policy'))
+)
+
+full_panel = (regional
+    .merge(barriers, on=['Year', 'Region'], suffixes=('', '_barrier'))
+    .merge(national, on='Year')
+)
+
+print(f"Full panel shape: {full_panel.shape}")
+print(f"Variables: {full_panel.columns.tolist()}")
+
+# Strategy B: State-level with regional aggregation
+broadband_agg = (broadband
+    .groupby(['Region', 'Year'])
+    .agg({
+        'Broadband_Penetration_Percent': 'mean',
+        'Mobile_Penetration_Percent': 'mean',
+        'Internet_Users_Percent': 'mean',
+        'Electricity_Access_Percent': 'mean',
+        'Population_Million': 'sum'
+    })
+    .reset_index()
+)
+
+regional_full = (regional
+    .merge(barriers, on=['Year', 'Region'])
+    .merge(broadband_agg, on=['Year', 'Region'])
+    .merge(national, on='Year')
+)
+
+print(f"Regional full shape: {regional_full.shape}")
+
+# Export for ML
+regional_full.to_csv('merged_ml_ready.csv', index=False)
+print("✓ Exported: merged_ml_ready.csv")
+
+================================================================================
+R CODE: COMPREHENSIVE MERGE EXAMPLE
+================================================================================
+
+library(tidyverse)
+
+# Load all datasets
+macro <- read_csv('macroeconomic_indicators.csv')
+sectors <- read_csv('sectoral_growth_rates.csv')
+tech <- read_csv('technology_adoption_indices.csv')
+sme <- read_csv('sme_landscape_indicators.csv')
+barriers <- read_csv('innovation_adoption_barriers.csv')
+regional <- read_csv('regional_summary_statistics.csv')
+broadband <- read_csv('broadband_penetration_by_state.csv')
+policy <- read_csv('policy_and_external_factors.csv')
+
+# National-level merge
+national <- macro %>%
+  left_join(sectors, by = "Year") %>%
+  left_join(tech, by = "Year") %>%
+  left_join(sme, by = "Year") %>%
+  left_join(policy, by = "Year")
+
+# Regional panel merge
+full_panel <- regional %>%
+  left_join(barriers, by = c("Year", "Region")) %>%
+  left_join(national, by = "Year")
+
+glimpse(full_panel)
+
+# Export
+write_csv(full_panel, "merged_ml_ready.csv")
+
+================================================================================
+END OF STRUCTURE DOCUMENTATION
+================================================================================
+
+This file provides the complete architecture and merge strategies for the
+Nigerian SME Innovation dataset. Use this as a reference when designing your
+analysis workflows and ML experiments.
+
+For variable definitions, see: DATA_DICTIONARY.md
+For quick start code, see: README.md and analysis_starter.py
+For executive summary, see: DATASET_SUMMARY.txt
+
+================================================================================
