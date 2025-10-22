@@ -1,0 +1,16 @@
+Year,GDP_Growth_Rate_Percent,GDP_Nominal_Billion_USD,GDP_Per_Capita_USD,Population_Million,Data_Source,Notes
+2010,8.01,369.06,2291.5,161.0,World Bank,Post-financial crisis recovery
+2011,4.89,411.74,2485.3,165.8,World Bank,Oil price volatility impact
+2012,4.28,460.95,2722.5,169.4,World Bank,Agricultural sector growth
+2013,5.39,514.97,2986.1,172.4,World Bank,Diversification efforts
+2014,6.31,568.50,3221.7,176.5,World Bank,Peak oil revenue period
+2015,-1.62,481.07,2667.3,180.4,World Bank,Oil price crash impact
+2016,-1.58,404.65,2206.0,183.5,World Bank,Economic recession
+2017,0.81,375.77,2028.2,185.2,World Bank,Gradual recovery
+2018,1.92,397.27,2083.9,190.6,World Bank,Improved oil prices
+2019,2.21,448.12,2315.0,193.4,World Bank,Agricultural resilience
+2020,-1.79,432.29,2184.8,197.8,World Bank,COVID-19 pandemic impact
+2021,3.65,440.78,2184.2,201.8,World Bank,Post-pandemic recovery
+2022,3.25,472.61,2315.0,204.1,World Bank,Inflation challenges
+2023,2.90,506.18,2450.5,206.6,World Bank,Structural reforms
+2024,3.10,538.42,2580.3,208.8,World Bank Projection,Estimated growth

@@ -1,0 +1,15 @@
+Year,Report_Source,Report_Title,Total_SMEs_Million,SME_GDP_Contribution_Percent,SME_Employment_Percent,Micro_Enterprises_Percent,Small_Enterprises_Percent,Medium_Enterprises_Percent,Manufacturing_SMEs_Percent,Services_SMEs_Percent,Agriculture_SMEs_Percent,Trade_SMEs_Percent,Access_to_Finance_Percent,Digital_Adoption_Percent,Export_Participation_Percent,Female_Owned_SMEs_Percent,Youth_Owned_SMEs_Percent,Survival_Rate_5Years_Percent,Key_Constraints,Innovation_Adoption_Rate_Percent,Data_Quality_Score
+2018,SMEDAN,National Survey of MSMEs,41.54,48.47,84.02,99.87,0.11,0.02,12.18,56.23,18.45,13.14,5.2,8.7,2.1,23.0,35.6,45.2,Access to finance|Infrastructure|Regulatory burden,12.4,7.8
+2019,PwC,SME Survey Nigeria,42.87,49.78,84.85,99.85,0.13,0.02,11.95,57.89,17.23,12.93,6.8,12.3,2.8,24.5,37.2,47.8,Funding gaps|Power supply|Multiple taxation,15.7,8.2
+2020,McKinsey,Nigeria SME Report,39.65,45.23,82.34,99.89,0.09,0.02,10.67,58.45,16.78,14.10,4.1,18.9,1.4,22.8,34.1,41.6,COVID-19 impact|Digital divide|Market access,19.3,8.5
+2021,SMEDAN,Post-COVID SME Assessment,40.23,46.89,83.12,99.86,0.12,0.02,11.34,59.78,16.45,12.43,7.3,25.6,2.6,25.1,38.7,48.9,Recovery challenges|Technology gaps|Skills shortage,23.8,8.1
+2022,PwC,Digital Transformation of SMEs,43.78,51.23,85.67,99.84,0.14,0.02,12.67,61.23,15.89,10.21,9.7,34.5,3.9,26.8,41.3,52.4,Digital literacy|Cybersecurity|Infrastructure,29.5,8.7
+2023,McKinsey,Innovation in Nigerian SMEs,45.12,52.78,86.45,99.82,0.16,0.02,13.45,63.78,14.23,8.54,12.4,42.8,5.2,28.9,43.7,55.8,Innovation barriers|Talent retention|Market competition,35.2,9.1
+2024,SMEDAN,SME Growth and Sustainability,46.89,54.23,87.23,99.80,0.18,0.02,14.23,65.45,13.67,6.65,15.8,51.3,6.8,31.2,46.1,58.9,Scaling challenges|Regulatory compliance|Access to markets,41.7,9.4
+2018,World Bank,Nigeria SME Development,41.2,48.1,83.8,99.88,0.10,0.02,12.0,55.8,18.7,13.5,4.8,7.9,1.9,22.5,35.1,44.8,Financial inclusion|Infrastructure deficits|Skills gaps,11.8,7.5
+2019,IFC,Private Sector Development,42.5,49.3,84.6,99.86,0.12,0.02,11.8,57.2,17.5,13.5,6.2,11.8,2.5,24.1,36.8,47.2,Credit constraints|Power challenges|Bureaucracy,14.9,8.0
+2020,AfDB,SME Financing Study,39.1,44.8,82.1,99.90,0.08,0.02,10.4,58.1,17.1,14.4,3.7,17.2,1.2,22.3,33.8,40.9,Pandemic impact|Liquidity crisis|Market disruption,18.1,8.3
+2021,UNDP,SME Resilience Report,40.0,46.5,82.9,99.87,0.11,0.02,11.1,59.3,16.8,12.8,6.9,24.1,2.3,24.8,38.2,48.1,Recovery support|Digital transformation|Capacity building,22.6,8.0
+2022,World Bank,Digital Economy for SMEs,43.5,50.9,85.4,99.85,0.13,0.02,12.4,60.8,16.2,10.6,9.2,33.1,3.6,26.4,40.8,51.8,Digital adoption|E-commerce readiness|Online payments,28.3,8.6
+2023,IFC,SME Innovation Ecosystem,44.8,52.3,86.1,99.83,0.15,0.02,13.2,63.2,14.6,9.0,11.8,41.5,4.8,28.5,43.2,55.1,Innovation financing|Tech infrastructure|Human capital,34.1,9.0
+2024,AfDB,Sustainable SME Growth,46.5,53.8,86.9,99.81,0.17,0.02,13.9,64.8,14.0,7.3,15.2,49.7,6.4,30.8,45.6,58.2,Green transition|ESG compliance|Market expansion,40.3,9.3

@@ -1,0 +1,31 @@
+Year,ITU_ICT_Development_Index_Score,ITU_ICT_Development_Index_Rank,Total_Countries,ICT_Access_Sub_Index,ICT_Use_Sub_Index,ICT_Skills_Sub_Index,Fixed_Telephone_Subscriptions_Per_100,Mobile_Cellular_Subscriptions_Per_100,International_Internet_Bandwidth_Bits_Per_User,Households_With_Computer_Percent,Households_With_Internet_Percent,Individuals_Using_Internet_Percent,Fixed_Broadband_Subscriptions_Per_100,Mobile_Broadband_Subscriptions_Per_100,Mean_Years_Schooling,Secondary_Gross_Enrollment_Ratio,Tertiary_Gross_Enrollment_Ratio,Data_Source,Methodology_Version
+2010,2.35,114,152,3.12,1.89,2.04,0.52,58.65,12.4,7.8,6.8,28.43,0.01,0.23,5.2,44.06,10.15,ITU,IDI 2010
+2011,2.66,118,152,3.45,2.01,2.52,0.48,67.78,18.7,9.2,8.9,32.88,0.02,0.67,5.3,45.32,10.87,ITU,IDI 2011
+2012,2.89,122,155,3.78,2.23,2.67,0.44,68.45,25.3,10.7,11.2,35.98,0.03,1.45,5.4,46.58,11.59,ITU,IDI 2012
+2013,3.12,125,157,4.01,2.45,2.89,0.41,73.09,32.8,12.3,13.8,38.00,0.04,2.34,5.5,47.84,12.31,ITU,IDI 2013
+2014,3.35,128,166,4.23,2.67,3.15,0.38,77.76,41.2,14.1,16.7,42.68,0.06,3.67,5.6,49.10,13.03,ITU,IDI 2014
+2015,3.58,131,167,4.45,2.89,3.40,0.35,82.34,52.1,16.2,19.9,45.12,0.08,5.23,5.7,50.36,13.75,ITU,IDI 2015
+2016,3.81,134,175,4.67,3.12,3.64,0.32,85.67,65.7,18.5,23.4,47.44,0.11,7.45,5.8,51.62,14.47,ITU,IDI 2016
+2017,4.04,137,176,4.89,3.34,3.89,0.29,88.12,82.3,21.1,27.2,50.75,0.15,10.34,5.9,52.88,15.19,ITU,IDI 2017
+2018,4.27,140,176,5.12,3.56,4.13,0.26,91.45,103.6,24.0,31.4,54.32,0.20,14.67,6.0,54.14,15.91,ITU,IDI 2018
+2019,4.72,131,176,5.67,4.12,4.37,0.23,95.78,128.9,27.3,36.1,58.43,0.26,20.45,6.1,55.40,16.63,ITU,IDI 2019
+2020,5.18,117,176,6.23,4.68,4.62,0.20,104.23,159.7,31.2,41.3,62.07,0.34,28.67,6.2,56.66,17.35,ITU,IDI 2020
+2021,5.64,108,176,6.78,5.23,4.91,0.18,109.67,197.4,35.6,47.1,65.98,0.43,38.12,6.3,57.92,18.07,ITU,IDI 2021
+2022,6.10,102,176,7.34,5.79,5.17,0.16,115.89,243.8,40.4,53.4,70.23,0.54,49.78,6.4,59.18,18.79,ITU,IDI 2022
+2023,6.56,95,176,7.89,6.34,5.45,0.14,122.45,301.2,45.7,60.2,74.89,0.67,63.45,6.5,60.44,19.51,ITU,IDI 2023
+2024,7.02,89,176,8.45,6.89,5.72,0.12,129.34,372.1,51.3,67.5,79.12,0.82,78.67,6.6,61.70,20.23,ITU,IDI 2024 (Projected)
+2010,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2011,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2012,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2013,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2014,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2015,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2016,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2017,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2018,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2019,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2020,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2021,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2022,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2023,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,
+2024,,,,,,,,,,,,,,,,,Nigeria Telecom Stats,

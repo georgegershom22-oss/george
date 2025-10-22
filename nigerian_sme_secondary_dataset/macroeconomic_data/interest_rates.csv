@@ -1,0 +1,19 @@
+Year,Quarter,Monetary_Policy_Rate_Percent,Prime_Lending_Rate_Percent,Deposit_Rate_Percent,Treasury_Bill_91Day_Percent,Bond_Yield_10Year_Percent,Interbank_Rate_Percent,Data_Source,Policy_Context
+2010,Q4,6.25,17.59,3.85,5.74,13.45,6.12,CBN,Accommodative policy
+2011,Q4,12.00,21.86,4.23,14.68,15.89,11.45,CBN,Tightening cycle
+2012,Q4,12.00,23.45,4.67,12.34,16.23,10.89,CBN,Maintaining stability
+2013,Q4,12.00,24.12,4.89,9.87,15.67,9.23,CBN,Inflation targeting
+2014,Q4,13.00,25.67,5.12,10.45,16.78,12.34,CBN,Currency pressure
+2015,Q4,11.00,26.89,5.45,12.67,17.23,13.45,CBN,Economic slowdown
+2016,Q4,14.00,27.45,6.78,18.89,16.98,16.23,CBN,Recession response
+2017,Q4,14.00,24.67,6.23,15.34,15.67,14.56,CBN,Recovery support
+2018,Q4,14.00,22.89,5.89,13.45,14.23,12.78,CBN,Gradual normalization
+2019,Q4,13.50,21.34,5.67,11.23,13.89,11.45,CBN,Easing cycle begins
+2020,Q4,11.50,20.67,4.89,2.34,12.45,8.67,CBN,Pandemic response
+2021,Q4,11.50,19.89,4.23,4.67,11.78,9.23,CBN,Accommodative stance
+2022,Q4,16.50,23.45,6.78,8.89,14.56,15.67,CBN,Aggressive tightening
+2023,Q4,18.75,26.89,8.45,12.34,16.23,17.89,CBN,Inflation combat
+2024,Q1,22.75,29.67,9.78,15.67,18.45,21.23,CBN,Continued tightening
+2024,Q2,24.75,31.23,10.45,17.89,19.67,23.45,CBN,Peak tightening
+2024,Q3,26.25,32.89,11.23,19.45,20.89,25.67,CBN,Maintaining hawkish stance
+2024,Q4,27.25,34.12,11.89,21.23,21.45,26.89,CBN,Policy peak expected

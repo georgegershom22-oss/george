@@ -1,0 +1,12 @@
+Year,Overall_Rank,Total_Countries,Overall_Score,Starting_Business_Rank,Starting_Business_Score,Dealing_Construction_Permits_Rank,Dealing_Construction_Permits_Score,Getting_Electricity_Rank,Getting_Electricity_Score,Registering_Property_Rank,Registering_Property_Score,Getting_Credit_Rank,Getting_Credit_Score,Protecting_Minority_Investors_Rank,Protecting_Minority_Investors_Score,Paying_Taxes_Rank,Paying_Taxes_Score,Trading_Across_Borders_Rank,Trading_Across_Borders_Score,Enforcing_Contracts_Rank,Enforcing_Contracts_Score,Resolving_Insolvency_Rank,Resolving_Insolvency_Score,Data_Source,Methodology_Notes
+2010,137,183,45.8,118,68.2,175,32.1,149,41.5,185,12.3,89,45.0,59,60.0,138,58.7,146,52.3,98,56.7,149,28.9,World Bank,DB2010 Methodology
+2011,138,183,45.9,115,69.1,174,32.8,151,40.9,184,12.8,89,45.0,59,60.0,141,57.9,143,53.1,98,56.7,146,29.8,World Bank,DB2011 Methodology
+2012,131,183,47.2,110,70.5,172,33.5,149,42.1,182,13.2,89,45.0,59,60.0,138,59.2,139,54.7,98,56.7,142,31.2,World Bank,DB2012 Methodology
+2013,131,185,47.5,108,71.2,171,34.1,148,42.8,181,13.7,6,75.0,59,60.0,134,60.1,137,55.3,98,56.7,138,32.5,World Bank,DB2013 Methodology
+2014,147,189,44.7,120,67.8,173,33.2,172,38.9,179,14.2,6,75.0,59,60.0,170,45.2,182,42.1,137,48.3,149,28.1,World Bank,DB2014 Methodology
+2015,170,189,41.2,136,63.5,175,32.1,187,25.4,182,13.8,6,75.0,59,60.0,181,38.7,179,43.8,149,45.2,145,29.5,World Bank,DB2015 Methodology
+2016,169,189,41.8,135,64.1,174,32.9,186,26.1,183,13.5,6,75.0,59,60.0,179,39.4,177,44.5,148,45.8,142,30.8,World Bank,DB2016 Methodology
+2017,145,190,44.6,121,67.2,149,45.8,172,38.2,179,14.5,6,75.0,59,60.0,171,44.8,182,42.3,137,48.1,145,29.2,World Bank,DB2017 Methodology
+2018,146,190,44.9,119,67.8,148,46.2,171,38.7,178,14.9,6,75.0,59,60.0,173,43.9,181,42.7,136,48.5,143,30.1,World Bank,DB2018 Methodology
+2019,131,190,48.2,104,72.1,125,52.3,169,39.1,174,16.2,6,75.0,59,60.0,159,48.7,179,43.2,132,49.8,138,32.8,World Bank,DB2019 Methodology
+2020,131,190,48.5,103,72.8,124,52.9,168,39.8,173,16.7,6,75.0,59,60.0,157,49.3,178,43.8,131,50.2,136,33.5,World Bank,DB2020 Methodology
