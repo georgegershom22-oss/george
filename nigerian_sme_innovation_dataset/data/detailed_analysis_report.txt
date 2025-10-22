@@ -1,0 +1,163 @@
+======================================================================
+NIGERIAN SME INNOVATION DATASET - DETAILED ANALYSIS REPORT
+======================================================================
+
+Generated: 2025-10-22 15:17:13
+Dataset: 5000 SMEs, 81 variables
+
+============================================================
+DATA QUALITY CHECKS
+============================================================
+⚠ Found 2461 missing values:
+owner_field_of_study    2461
+dtype: int64
+✓ No duplicate rows found
+
+✓ Data Types Summary:
+  - Numeric columns: 70
+  - Text columns: 10
+  - Date columns: 0
+⚠ objective_turnover_growth_percent: Values outside 1-5 range
+⚠ objective_employee_growth_percent: Values outside 1-5 range
+⚠ growth_customer_retention_rate: Values outside 1-5 range
+
+✓ Logical Consistency Checks:
+  - ✓ Employee-turnover consistency valid
+  - ⚠ 5 owners younger than expected given firm age
+
+============================================================
+DESCRIPTIVE STATISTICS
+============================================================
+
+1. FIRMOGRAPHICS
+----------------------------------------
+Average firm age: 5.5 years (SD: 5.0)
+Average employees: 24.8 (SD: 17.4)
+Average turnover: ₦88.1M (SD: 67.0)
+Average owner age: 39.5 years
+Digital literacy: 6.7/10
+
+Gender Distribution:
+  - Male: 3229 (64.6%)
+  - Female: 1771 (35.4%)
+
+Education Levels:
+  - Bachelor: 1922 (38.4%)
+  - Secondary: 1196 (23.9%)
+  - Primary: 812 (16.2%)
+  - Postgraduate: 617 (12.3%)
+  - No Formal Education: 453 (9.1%)
+
+============================================================
+CORRELATION ANALYSIS
+============================================================
+
+Key Correlations with Performance:
+  - innovation_overall_score: 0.796
+  - objective_turnover_growth_percent: 0.619
+  - digital_literacy_score: 0.575
+  - num_employees: -0.073
+  - firm_age_years: -0.081
+  - constraint_overall_score: -0.125
+
+Key Correlations with Innovation:
+  - performance_subjective_score: 0.796
+  - digital_literacy_score: 0.656
+  - objective_turnover_growth_percent: 0.611
+  - constraint_overall_score: 0.001
+  - num_employees: -0.043
+  - firm_age_years: -0.149
+
+✓ Statistical Significance Tests:
+  - Innovation → Performance: r=0.796, p=<0.001
+  - Constraints → Performance: r=-0.125, p=<0.001
+
+============================================================
+SEGMENT ANALYSIS
+============================================================
+
+1. PERFORMANCE BY GEOPOLITICAL ZONE
+----------------------------------------
+                    performance_subjective_score  innovation_overall_score  constraint_overall_score  objective_turnover_growth_percent
+geo_political_zone                                                                                                                     
+South-West                                  2.85                      2.08                      3.10                               3.43
+North-Central                               2.83                      2.10                      3.26                               3.18
+South-South                                 2.83                      2.05                      3.10                               3.36
+South-East                                  2.81                      2.12                      3.27                               3.02
+North-East                                  2.77                      2.09                      3.48                               2.28
+North-West                                  2.77                      2.09                      3.48                               2.29
+
+2. PERFORMANCE BY INDUSTRY
+----------------------------------------
+                                performance_subjective_score  innovation_overall_score  digital_literacy_score  objective_profit_margin_percent
+industry_sector                                                                                                                                
+Information and Communication                           3.28                      2.36                    7.74                            18.86
+Professional Services                                   3.25                      2.32                    7.90                            18.72
+Health and Social Work                                  2.80                      2.05                    6.68                            16.27
+Manufacturing                                           2.78                      2.10                    6.39                            16.32
+Construction                                            2.76                      2.05                    6.50                            16.30
+Wholesale and Retail Trade                              2.73                      1.98                    6.48                            16.13
+Transportation and Storage                              2.72                      1.98                    6.35                            16.26
+Education                                               2.68                      1.96                    6.44                            15.97
+Accommodation and Food Service                          2.53                      1.96                    6.37                            15.16
+Agriculture                                             2.50                      1.94                    6.38                            15.00
+
+3. PERFORMANCE BY FIRM SIZE
+----------------------------------------
+                 performance_subjective_score  innovation_overall_score  constraint_financial_score  objective_employee_growth_percent
+size_category                                                                                                                         
+Micro (1-9)                              2.94                      2.17                        3.23                               3.08
+Small (10-49)                            2.81                      2.08                        2.93                               2.05
+Medium (50-250)                          2.75                      2.01                        2.24                               1.94
+
+============================================================
+INNOVATION ADOPTION PATTERNS
+============================================================
+
+1. TECHNOLOGY ADOPTION RATES (Mean Scores)
+----------------------------------------
+  - Social Media: 2.55/5.0
+  - Computers: 2.55/5.0
+  - Ecommerce: 2.12/5.0
+  - Accounting Software: 2.09/5.0
+  - Cloud Computing: 1.85/5.0
+  - Crm: 1.70/5.0
+
+2. ADVANCED TECHNOLOGY ADOPTION (Mean Scores)
+----------------------------------------
+  - IOT: 1.11/5.0
+  - AI ML: 1.08/5.0
+  - BLOCKCHAIN: 1.03/5.0
+  - ROBOTICS: 1.02/5.0
+
+3. INNOVATION TYPES COMPARISON
+----------------------------------------
+  - Product: 2.35/5.0
+  - Process: 2.15/5.0
+  - Business Model: 2.12/5.0
+  - Technology: 1.71/5.0
+
+============================================================
+CONSTRAINT ANALYSIS
+============================================================
+
+1. TOP 10 CONSTRAINTS (Highest Scores)
+----------------------------------------
+  1. International Market Access: 3.81/5.0
+  2. Competition Intensity: 3.69/5.0
+  3. Electricity Reliability: 3.58/5.0
+  4. Corruption Informal Charges: 3.48/5.0
+  5. Training Cost: 3.45/5.0
+  6. Demand Uncertainty: 3.41/5.0
+  7. Logistics Transportation: 3.31/5.0
+  8. Regulations Taxes: 3.30/5.0
+  9. Finding Skilled Employees: 3.24/5.0
+  10. Internet Quality Cost: 3.10/5.0
+
+2. CONSTRAINT CATEGORIES RANKING
+----------------------------------------
+  - Market: 3.64/5.0
+  - Infrastructure: 3.33/5.0
+  - Human Capital: 3.21/5.0
+  - Regulatory: 2.99/5.0
+  - Financial: 2.92/5.0
