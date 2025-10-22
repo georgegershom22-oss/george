@@ -1,0 +1,48 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT (CONDENSED)
+=================================================
+
+Participant ID: INT-013
+Name: Tunde Ogunleye
+Business: Lagos Logistics Hub (Logistics Technology)
+Location: Lagos, Lagos State
+Date: August 27, 2024
+Duration: 88 minutes
+
+---
+
+KEY EXCERPTS:
+
+On Innovation Adoption Decision:
+"The logistics business in Lagos is chaotic. Traffic, multiple pickup points, fuel costs—everything eating into margins. In 2017, I was managing dispatch manually with phone calls and WhatsApp messages. I had 8 vehicles but couldn't tell you where each one was at any moment. Customer would call: 'Where's my package?' I would be guessing.
+
+I attended a logistics conference in Nairobi, saw Kenyan companies using GPS tracking and route optimization software. Came back determined to implement it. Started with a simple GPS tracker—Chinese device, ₦45,000 per vehicle. Then graduated to full logistics management software with route optimization algorithms."
+
+On Implementation Challenges:
+"The software was the easy part—we bought a SaaS solution from a South African company, ₦200,000 monthly subscription. The hard part was drivers accepting it. They felt I was spying on them. Some were diverting company vehicles for personal use or using more fuel than necessary. When I installed trackers, three drivers resigned immediately. They knew they couldn't cheat anymore.
+
+But the honest drivers loved it. The system calculates the most efficient routes, saves fuel, reduces time on road. Drivers finish work earlier, less stress."
+
+On Business Impact:
+"The numbers speak: Fuel savings alone—35% reduction. We went from ₦3.2 million monthly fuel cost to ₦2.1 million. That's over ₦13 million saved annually.
+
+Vehicle utilization improved from about 60% to 85%. Same 8 vehicles now do work that would have required 11-12 vehicles before.
+
+Customer satisfaction shot up. We now give clients real-time tracking links. They can see exactly where their package is. Our customer retention rate went from 45% to 78%.
+
+Revenue grew from ₦42 million in 2017 to ₦68 million in 2023. We've added 17 more vehicles, now operating 25 total."
+
+On Ecosystem Challenges:
+"Lagos traffic is unpredictable—even the best route optimization can't solve that. Road infrastructure is poor. Internet connectivity for real-time tracking drops in many areas. These are things technology can't fix; only government can.
+
+We need dedicated lanes for commercial vehicles, better road maintenance, improved data connectivity across Lagos. Until then, our technology operates at maybe 60% of its potential."
+
+---
+
+KEY THEMES:
+- Operational inefficiency driving adoption
+- International exposure/learning
+- Worker resistance and control issues
+- Significant cost savings and efficiency gains
+- Customer service improvement
+- Infrastructure limitations
+- Technology amplifying honest operations

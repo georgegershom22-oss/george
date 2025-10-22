@@ -1,0 +1,26 @@
+ParticipantID,Type,Name,Gender,Age,Education,BusinessName,Sector,SubSector,Location,State,YearsInBusiness,EmployeeCount,AnnualRevenue_NGN,InnovationLevel,TechnologyAdopted,InterviewDate,InterviewDuration_mins,Language
+INT-001,Interview,Adebayo Olumide,Male,42,MBA,TechNova Solutions,Technology,Software Development,Lagos,Lagos,8,15,45000000,High,"Cloud Computing, AI Analytics",2024-08-15,75,English
+INT-002,Interview,Chioma Okafor,Female,35,BSc,AgroFresh Ventures,Agriculture,Agritech,Enugu,Enugu,5,22,32000000,High,"IoT Sensors, Mobile App",2024-08-16,82,English
+INT-003,Interview,Ibrahim Musa,Male,48,HND,Kano Textiles Ltd,Manufacturing,Textiles,Kano,Kano,12,45,78000000,Medium,Automated Looms,2024-08-17,68,English/Hausa
+INT-004,Interview,Ngozi Eze,Female,39,MSc,EduTech Hub,Technology,EdTech,Abuja,FCT,4,8,18000000,High,"E-learning Platform, VR",2024-08-18,90,English
+INT-005,Interview,Yusuf Abdullahi,Male,52,Secondary,Golden Grains Farm,Agriculture,Crop Production,Kaduna,Kaduna,15,12,25000000,Low,Basic Irrigation,2024-08-19,55,Hausa/English
+INT-006,Interview,Folake Ademola,Female,33,MBA,StyleHub Fashion,Retail,Fashion E-commerce,Lagos,Lagos,6,10,28000000,High,"E-commerce Platform, Digital Marketing",2024-08-20,78,English
+INT-007,Interview,Emeka Nwankwo,Male,45,BSc,Delta Manufacturing,Manufacturing,Plastics,Port Harcourt,Rivers,10,35,62000000,Medium,"CNC Machines, ERP System",2024-08-21,71,English
+INT-008,Interview,Amina Bello,Female,29,BSc,HealthCare Plus,Services,Telemedicine,Abuja,FCT,3,6,12000000,High,"Telemedicine Platform, Mobile Diagnostics",2024-08-22,85,English
+INT-009,Interview,Olusegun Bakare,Male,55,HND,Ibadan Foods,Manufacturing,Food Processing,Ibadan,Oyo,18,52,95000000,Low,Semi-Automated Packaging,2024-08-23,62,English/Yoruba
+INT-010,Interview,Fatima Ibrahim,Female,37,MSc,FintechNaija,Technology,Fintech,Lagos,Lagos,5,18,55000000,High,"Blockchain, Mobile Payment",2024-08-24,95,English
+INT-011,Interview,Chukwudi Obi,Male,41,BSc,Obi Auto Parts,Retail,Automotive,Aba,Abia,9,14,38000000,Medium,Inventory Management System,2024-08-25,66,English/Igbo
+INT-012,Interview,Aisha Mohammed,Female,44,MBA,Sokoto Leather Works,Manufacturing,Leather Goods,Sokoto,Sokoto,11,28,42000000,Low,Basic Machinery,2024-08-26,58,Hausa/English
+INT-013,Interview,Tunde Ogunleye,Male,36,BSc,Lagos Logistics Hub,Services,Logistics Tech,Lagos,Lagos,7,25,68000000,High,"GPS Tracking, Route Optimization",2024-08-27,88,English
+INT-014,Interview,Blessing Udoh,Female,31,HND,Calabar Hospitality,Hospitality,Hotel Management,Calabar,Cross River,4,20,22000000,Medium,"Online Booking, POS System",2024-08-28,72,English
+INT-015,Interview,Aliyu Garba,Male,49,Secondary,Garba Transport,Services,Transportation,Katsina,Katsina,13,8,15000000,Low,Mobile Payment,2024-08-29,48,Hausa/English
+INT-016,Interview,Nneka Okonkwo,Female,38,MSc,Green Energy Solutions,Technology,Renewable Energy,Enugu,Enugu,6,16,48000000,High,"Solar Tech, Smart Grid",2024-08-30,92,English
+INT-017,Interview,Mohammed Lawal,Male,43,BSc,Zaria Pharmaceuticals,Manufacturing,Pharmaceuticals,Zaria,Kaduna,8,32,71000000,Medium,"Quality Control Systems, Automation",2024-08-31,75,English
+INT-018,Interview,Funmi Adeyemi,Female,34,MBA,Beauty & Wellness Co,Retail,Beauty Products,Abuja,FCT,5,11,26000000,Medium,"E-commerce, Social Media Marketing",2024-09-01,69,English
+INT-019,Interview,Usman Danjuma,Male,51,HND,Jos Dairy Farm,Agriculture,Dairy,Jos,Plateau,14,19,34000000,Low,Cold Storage,2024-09-02,61,English
+INT-020,Interview,Ifeoma Chukwu,Female,32,BSc,Craft & Design Studio,Creative,Handicrafts,Enugu,Enugu,4,7,14000000,Medium,"Online Marketplace, 3D Design",2024-09-03,77,English
+INT-021,Interview,Sani Ahmed,Male,46,Secondary,Ahmed Poultry,Agriculture,Poultry,Maiduguri,Borno,10,15,28000000,Low,Automated Feeders,2024-09-04,52,Hausa/English
+INT-022,Interview,Grace Okoro,Female,40,MBA,Port Harcourt Catering,Hospitality,Catering Services,Port Harcourt,Rivers,9,23,36000000,Medium,"Online Ordering, Kitchen Automation",2024-09-05,73,English
+INT-023,Interview,Bashir Yusuf,Male,35,BSc,SmartHome Nigeria,Technology,IoT Solutions,Abuja,FCT,4,12,31000000,High,"IoT Devices, Mobile App",2024-09-06,86,English
+INT-024,Interview,Obiageli Nwosu,Female,47,HND,Onitsha Market Ventures,Retail,General Merchandise,Onitsha,Anambra,16,42,82000000,Low,Basic POS,2024-09-07,64,English/Igbo
+INT-025,Interview,Kabiru Hassan,Male,38,BSc,Waste2Wealth Initiative,Services,Waste Management,Lagos,Lagos,5,14,27000000,High,"Recycling Tech, Route Optimization",2024-09-08,81,English

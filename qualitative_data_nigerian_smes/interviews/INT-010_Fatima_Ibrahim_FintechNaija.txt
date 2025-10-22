@@ -1,0 +1,178 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+=====================================
+
+Participant ID: INT-010
+Name: Fatima Ibrahim
+Business: FintechNaija (Financial Technology)
+Location: Lagos, Lagos State
+Date: August 24, 2024
+Duration: 95 minutes
+Interviewer: Research Team Lead
+
+---
+
+INTERVIEWER: Thank you for making time, Ms. Fatima. FintechNaija has been recognized as one of Nigeria's innovative fintech startups. Can you walk me through your journey with blockchain and mobile payment technology?
+
+FATIMA: Thank you for having me. Our story starts in 2019, but really, it goes back to my own frustration as a user. I studied Computer Science at UNILAG, worked for a bank for three years, and I saw how inefficient our financial system was—especially for SMEs and individuals in rural areas.
+
+I remember my aunt in Sokoto. She runs a small provisions shop. To receive payments from suppliers or send money to her children in university, she had to walk 30 minutes to the nearest bank, queue for hours, pay ridiculous fees. Sometimes transactions would fail but money would be debited. I thought, "There must be a better way."
+
+INTERVIEWER: So that personal observation sparked the business idea?
+
+FATIMA: Yes, but observation alone doesn't build a business. I started researching financial inclusion and came across blockchain technology—specifically, how it was being used in Kenya with M-Pesa and in Ghana with mobile money platforms. I became obsessed.
+
+I attended every tech meetup, every blockchain seminar. In 2018, I went to a blockchain conference in South Africa—used my savings for that trip. That's where I met my co-founder, Tobi. He was a software developer building blockchain applications. We started talking about how we could build something for Nigeria.
+
+The decision to actually start FintechNaija came in early 2019. We both quit our jobs—scary decision! My parents thought I was crazy. "You have a good bank job, MBA scholarship waiting, and you want to do startup?" [laughs] But I was 32, if not then, when?
+
+INTERVIEWER: What exactly does FintechNaija do? Can you explain the technology you adopted?
+
+FATIMA: We built a mobile payment platform with blockchain backend. Essentially, users can send and receive money, pay bills, save, invest—all from their phone, without needing a traditional bank account.
+
+The innovation is the blockchain component. Unlike traditional mobile money which relies on a central server, our transactions are verified on a distributed ledger. This means:
+- Lower transaction costs (we charge 0.5% vs banks' 1-2%)
+- Faster settlements (real-time vs 24-48 hours)
+- More transparent (users can track transaction history immutably)
+- More secure (decentralized, harder to hack)
+
+We also built smart contract features for SMEs—automated payments, invoice financing, micro-lending based on transaction history. This is the killer application for us.
+
+INTERVIEWER: Building something this complex in Nigeria—what were the technical and regulatory hurdles?
+
+FATIMA: [exhales] Where do I start? Technical challenges first: Nigeria doesn't have blockchain developers everywhere. Tobi and I had to learn a lot ourselves—online courses, YouTube tutorials, trial and error. We initially tried to hire developers but couldn't afford the rates. A good blockchain developer in Lagos charges ₦800,000 monthly—we didn't have that kind of money.
+
+So we did what many Nigerian startups do—we hired smart fresh graduates and trained them. We had a 6-month intensive training program. We lost some to bigger companies after training them, but the core team stuck around.
+
+Infrastructure was another nightmare. Blockchain requires significant computing power and reliable internet. Our initial servers couldn't handle the load. We had to migrate to AWS cloud, which comes with dollar-denominated costs. When naira crashed, our operating costs nearly doubled.
+
+But the biggest challenge was regulatory. CBN [Central Bank of Nigeria] doesn't know how to handle blockchain and cryptocurrency. In 2021, they banned crypto transactions. We panicked because our platform uses blockchain. We had to quickly clarify—"We're not crypto, we're blockchain-based payments." 
+
+We spent almost one year going back and forth with CBN, SEC [Securities and Exchange Commission], NITDA [National Information Technology Development Agency]. Everyone wanted to regulate us, but nobody understood what we were doing. Eventually, in 2022, we got approval as a Mobile Money Operator license, but we had to modify our product significantly to fit their framework.
+
+INTERVIEWER: How did those regulatory restrictions affect your business model?
+
+FATIMA: Significantly! Our original vision was full blockchain—decentralized, peer-to-peer, minimal intermediaries. But CBN regulations require us to partner with a licensed bank as a settlement partner. That added costs and complexity.
+
+We also had to remove some features. We wanted to allow users to hold digital assets, but regulators said no. We wanted cross-border remittances using stable coins, but that was prohibited.
+
+We had to pivot—focus on domestic mobile payments, bill payments, and SME financing tools. It's still valuable, but it's not the fully decentralized system we envisioned.
+
+The positive side? Getting regulatory approval gave us legitimacy. Banks and bigger companies now take us seriously. We can partner with them, integrate into their systems.
+
+INTERVIEWER: Let's talk about impact. How has your technology affected your users and your business performance?
+
+FATIMA: We launched commercially in mid-2022. Growth has been exponential:
+
+User acquisition: We started with 500 users in a pilot program. As of August 2024, we have over 180,000 registered users. Our target is 1 million by end of 2025.
+
+Transaction volume: In our first month, we processed ₦15 million in transactions. Last month—July 2024—we processed ₦2.3 billion. That's growth of over 15,000%.
+
+Revenue: We monetize through transaction fees and premium services. In 2022, revenue was about ₦8 million. In 2023, ₦55 million. We're projecting ₦120 million for 2024.
+
+SME financing: This is our most impactful product. We've disbursed over ₦450 million in micro-loans to 3,200 SMEs. Default rate is only 4%—much better than traditional banks—because our algorithm uses transaction data to assess creditworthiness.
+
+INTERVIEWER: Can you share specific stories of how users have benefited?
+
+FATIMA: Many stories! There's a woman in Ibadan, Mrs. Adebisi. She runs a small catering business. Banks wouldn't give her a loan because she didn't have "proper financial records." She started using our platform for receiving payments from customers. After three months of transaction history, our algorithm approved her for a ₦500,000 loan at 3% monthly interest—lower than loan sharks who were charging her 10-15%.
+
+She used the loan to buy equipment, expanded her business. She's paid back the loan and has taken two more. Her business revenue has grown from about ₦300,000 monthly to over ₦1 million monthly. She now employs four people.
+
+Another story—a group of traders in Onitsha market. They formed a savings cooperative on our platform. They use our automated savings feature—"smart save" we call it—which deducts a small amount from every sale and saves it. In one year, 15 of them collectively saved over ₦8 million. They used it to purchase goods in bulk, getting better prices.
+
+These stories motivate us every day.
+
+INTERVIEWER: What about challenges in getting users to adopt the technology? Is there trust issues with digital financial services?
+
+FATIMA: Absolutely! Trust is the biggest barrier in Nigeria. People have been scammed so many times—MMM, Ponzi schemes, fraudulent apps. When we tell them, "Put your money in our app," they're skeptical.
+
+Our strategy has been multi-pronged:
+
+One, transparency. We publish our regulatory approvals, our partnerships with licensed banks, security certifications. We have a physical office in Lagos that people can visit.
+
+Two, community ambassadors. We recruit local champions in markets, communities—people who are trusted locally. They introduce the platform, demonstrate it, answer questions. Personal referrals work better than any advertising.
+
+Three, starting small. We encourage users to start with small transactions—₦500, ₦1,000—build confidence, then scale up.
+
+Four, customer service. We have a 24/7 helpline. When something goes wrong, we resolve it quickly. Word spreads that we're reliable.
+
+Five, partnerships. We partner with churches, market associations, transport unions. They endorse us to their members.
+
+It's still an uphill battle, though. For every user who adopts, maybe five others remain skeptical.
+
+INTERVIEWER: How have you funded this growth? What's been your experience with investors?
+
+FATIMA: Funding has been a rollercoaster. We started with personal savings—Tobi and I put in ₦5 million combined. That got us through the first year of development.
+
+In 2020, we applied to 15 accelerator programs. We got into one—CcHUB's incubation program—which gave us ₦3 million in grant funding plus mentorship and office space.
+
+In 2021, we did our first fundraising round—a pre-seed round. We pitched to over 40 investors—angel investors, VCs, everyone. We got rejected by most. Comments like "Too risky," "Regulatory uncertainty," "Unproven model." It was depressing.
+
+Eventually, three angel investors believed in us—two diaspora Nigerians and one local entrepreneur. They invested ₦25 million combined for 20% equity.
+
+In 2023, after we got regulatory approval and started showing traction, we raised a proper seed round—$250,000 (about ₦187 million then) from a pan-African VC fund and a group of angels. That's what we're using to scale now.
+
+But fundraising in Nigeria is tough. Investors want proven businesses with positive cash flow. But to get to that point, you need capital! It's a chicken-and-egg problem.
+
+Also, there's gender bias. As a female founder in tech, I've faced investors who don't take me seriously. I've been in pitch meetings where they direct technical questions to Tobi, assuming I'm just the "business person." I have to constantly prove my technical competence.
+
+INTERVIEWER: What role has government or public policy played in your journey?
+
+FATIMA: Mixed bag. On the negative side, the regulatory uncertainty around blockchain and crypto has been very challenging. The 2021 crypto ban created massive FUD [fear, uncertainty, doubt] for us. It scared investors, scared users, scared partners.
+
+The exchange rate crisis has hurt too. Our cloud infrastructure costs dollars. When naira depreciated from ₦410 to over ₦750, our costs nearly doubled. Government's inability to stabilize the economy directly affects us.
+
+On the positive side, CBN's push for cashless economy has helped. Their policies encouraging digital payments create demand for services like ours. The NIBSS Instant Payment (NIP) infrastructure has been great—we integrate with it for inter-bank transfers.
+
+Lagos State government's innovation programs have been supportive. We won a grant from the Lagos State Science Research and Innovation Council—₦5 million. It was mostly symbolic, but it gave us credibility.
+
+What I'd love to see: tax incentives for fintech startups, government contracts for financial inclusion programs, sandbox environments for testing new technologies, and honestly, just regulatory clarity and speed. Sometimes it takes 6-9 months to get approvals that should take 6 weeks.
+
+INTERVIEWER: Looking forward, what's your vision for FintechNaija?
+
+FATIMA: We want to be the financial operating system for African SMEs. Not just Nigeria—across Africa.
+
+Short term (next 2 years): Scale to 1 million users in Nigeria, expand our SME lending product, launch savings and investment products, possibly get a microfinance banking license.
+
+Medium term (3-5 years): Expand to Ghana, Kenya, maybe Senegal. Build partnerships with major corporations for payroll and vendor payments.
+
+Long term: Full-fledged digital bank, but with blockchain transparency and efficiency. Maybe even revisit cross-border crypto payments if regulations open up.
+
+We're also thinking about social impact products—Islamic finance-compliant products for Northern Nigeria, agricultural financing tied to harvest cycles, women-focused savings groups.
+
+INTERVIEWER: Final question—advice for other entrepreneurs looking to adopt innovative technology in their SMEs?
+
+FATIMA: First, understand the problem deeply before falling in love with the technology. Technology is a tool, not the goal. We started with a problem—financial exclusion—then found technology to solve it.
+
+Second, be ready to adapt. Our original vision changed significantly due to regulations, market feedback, resource constraints. Flexibility is key.
+
+Third, build a strong team. Tobi and I complement each other—he's deeply technical, I'm more business and regulatory focused. We trust each other completely. That partnership is our foundation.
+
+Fourth, especially for women—don't let anyone diminish you. You belong in tech, in innovation, in entrepreneurship. When you face bias, prove them wrong with results.
+
+Fifth, persistence. We've been at this for five years. We've had moments of near-failure, sleepless nights, payroll struggles. But we kept going. Most startups fail not because of bad ideas but because founders give up too early.
+
+And embrace learning. Technology changes fast. We're constantly learning—new blockchain protocols, new fintech models, new regulations. Stay curious.
+
+INTERVIEWER: Thank you so much, Fatima. This has been incredibly insightful. Your work is truly making a difference.
+
+FATIMA: Thank you! I'm happy to contribute to your research. We need more academic work documenting African innovation stories. It's important for the ecosystem.
+
+---
+
+[End of Interview]
+
+KEY THEMES IDENTIFIED:
+- Personal experience driving innovation
+- Gender dynamics in tech entrepreneurship
+- Blockchain/emerging technology adoption challenges
+- Regulatory uncertainty and complexity
+- Infrastructure constraints (power, internet, costs)
+- Talent development and retention
+- Fundraising challenges and investor bias
+- User trust and adoption barriers
+- Measurable financial inclusion impact
+- Exchange rate vulnerability
+- Partnership and community-based growth strategies
+- Adaptability and pivoting
+- Long-term vision vs short-term constraints
+- Social impact orientation

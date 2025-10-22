@@ -1,0 +1,137 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+=====================================
+
+Participant ID: INT-002
+Name: Chioma Okafor
+Business: AgroFresh Ventures (Agritech)
+Location: Enugu, Enugu State
+Date: August 16, 2024
+Duration: 82 minutes
+Interviewer: Research Team Lead
+
+---
+
+[Introduction and consent - 5 minutes]
+
+INTERVIEWER: Thank you for meeting with me, Mrs. Okafor. I'd love to hear about your journey with technology adoption at AgroFresh Ventures. Tell me the story of how you decided to adopt IoT sensors and mobile apps in your farming operations.
+
+CHIOMA: Thank you for having me. You know, my journey is quite personal. I studied Agricultural Economics at UNN [University of Nigeria, Nsukka], and I always wanted to do something in agriculture. But I saw how my parents struggled as farmers—the unpredictability, the losses, the guesswork. I didn't want to repeat that cycle.
+
+When I started AgroFresh in 2019, I wanted to do farming differently. I had a vision of "smart farming," but honestly, I didn't even know what that meant practically. I just knew I didn't want to farm the traditional way.
+
+INTERVIEWER: What was the specific moment or trigger that led you to IoT and mobile technology?
+
+CHIOMA: It was in my second planting season, 2020. I was growing tomatoes on a 10-hectare farm in Nsukka. We had a pest outbreak—tuta absoluta, the tomato leaf miner. By the time we noticed it, we had lost almost 60% of our crop. That was about ₦3.5 million in expected revenue, gone.
+
+I was devastated. I sat down and thought, "There must be a better way to monitor crops." I started researching and found out about precision agriculture, IoT sensors that can detect pest activity, soil moisture, temperature—everything. I was fascinated but also intimidated.
+
+I attended a workshop organized by CTA [Technical Centre for Agricultural and Rural Cooperation] in Abuja. They had case studies from Kenya, Ghana, showing how farmers were using technology. I met a young man from Kenya who had built a simple IoT system using Arduino and solar panels. He explained it to me, and I thought, "If they can do it in Kenya, why not Nigeria?"
+
+INTERVIEWER: That's inspiring! But going from that workshop to actual implementation—how did that happen?
+
+CHIOMA: [laughs] It wasn't smooth at all! First, I had to find someone who could build this for me. In Enugu, there were no companies doing agricultural IoT. I contacted three tech companies in Lagos, but they quoted me between ₦5 million and ₦8 million. I didn't have that kind of money.
+
+Eventually, I found a young engineer, Chinedu, who had just finished his masters in Electronics Engineering at ESUT [Enugu State University of Technology]. He was looking for work. I showed him the system from Kenya, and he said he could build something similar for ₦1.2 million. I took a loan from my savings cooperative—₦1.5 million—and we started.
+
+It took six months! Six months of trial and error. The sensors would malfunction, the solar panels weren't charging properly, the mobile app kept crashing. There were times I wanted to give up. My husband was telling me, "Chioma, just farm the normal way. Stop wasting money on these gadgets."
+
+INTERVIEWER: What kept you going?
+
+CHIOMA: Stubbornness! [laughs] But seriously, it was the vision. I could see what was possible. Also, Chinedu was committed. Even when I couldn't pay him some months, he kept working because he believed in the project. He's now my CTO, and I've given him equity in the company.
+
+By late 2020, we had a working system. We installed soil moisture sensors, temperature sensors, and a simple camera system for pest detection. The data fed into a mobile app that Chinedu built. I could check my farm conditions from my phone, anywhere.
+
+INTERVIEWER: How did this technology specifically affect your operations and outcomes?
+
+CHIOMA: The impact was gradual but significant. Let me give you specifics:
+
+First harvest after full implementation—March 2021—we reduced crop loss from pests and diseases by about 70%. We caught issues early. The sensors would alert me if soil moisture was too low or too high, if temperature was unusual, anything. We could intervene quickly.
+
+Water savings: We reduced water usage by almost 40%. Before, we were irrigating by guesswork. Now, we irrigate based on actual soil moisture data. In Nigeria where water can be an issue, especially dry season, this was huge.
+
+Labor costs: This is interesting. We reduced labor costs by about 25%. Before, I had to pay workers to constantly check the farm, walk around, inspect crops. Now, one person can monitor multiple sections through the mobile app and only go physically when there's an issue.
+
+Yield improvement: Our yield increased by about 50% over two years. Part of this was the technology, part was also better farm practices we learned along the way. But the technology enabled the better practices.
+
+Revenue: In 2019, our revenue was about ₦8 million. In 2023, we hit ₦32 million. We also expanded from 10 hectares to 25 hectares because we could manage more land with the same resources.
+
+INTERVIEWER: Those are impressive numbers! Were there any unexpected challenges during the scaling process?
+
+CHIOMA: Oh yes, many! The biggest was technical maintenance. These sensors are exposed to weather—rain, sun, humidity. They break down. Initially, Chinedu had to come to the farm almost every week to fix something. We realized we needed more robust, weather-resistant sensors. We imported some from China in 2022, but customs was a nightmare. The sensors stayed in Lagos port for three months! By the time we cleared them, we had paid almost as much in demurrage and bribes as the sensors cost.
+
+Second challenge: connectivity. Our farm is in a rural area. Network is very poor. The IoT system needs internet to send data. We tried MTN, Glo, Airtel—all of them weak signal. Eventually, we had to install a signal booster, another ₦300,000 expense.
+
+Third: farmer education. I wanted to train my farm workers to use the system, but many of them are older men who have been farming for 30-40 years. They were resistant. "This woman and her phone farming," they would say. I had to be patient, show them the results, involve them in decision-making. Now, even the skeptical ones are convinced.
+
+INTERVIEWER: How did you finance these innovations, especially the unexpected costs?
+
+CHIOMA: That's been a major challenge. Initially, it was personal savings and that loan from my cooperative. Then in 2021, I applied for BOI [Bank of Industry] SME loan. I got ₦3 million at 9% interest. That helped us scale.
+
+I also applied for grants. There's an organization called ACIP—Agricultural Competitiveness and Innovation Program—funded by World Bank. I applied three times before I got it in 2022. They gave us ₦2 million grant. That's what we used to expand to 25 hectares and upgrade our system.
+
+But honestly, access to finance is still the biggest constraint. Banks don't understand agritech. When I go to pitch for a loan, they see "agriculture" and immediately think it's high risk. They ask for collateral—land documents, guarantors. It's frustrating because our technology reduces risk, but they don't see it that way.
+
+INTERVIEWER: What about government support? Has there been any?
+
+CHIOMA: The Enugu State government has an agricultural development program—ENADEP. They provided some inputs—seeds, fertilizer—at subsidized rates. That helped. But in terms of technology adoption, there's no specific support.
+
+What I would love to see is government providing infrastructure for agritech—maybe shared IoT platforms that smallholder farmers can access, subsidized internet for rural farms, tax breaks for agricultural technology imports. These things would make a huge difference.
+
+Also, the regulatory environment is confusing. When we wanted to register our produce for organic certification, the process was so complicated. Multiple agencies—NAFDAC, SON, Ministry of Agriculture—all wanting different things. We spent almost a year just on regulatory compliance.
+
+INTERVIEWER: Despite these challenges, you've grown significantly. What's been the impact on your customers and market access?
+
+CHIOMA: This is where it gets exciting! Because we use technology, we can guarantee quality and consistency. We can track our entire production process—planting date, inputs used, harvest date, everything. Big buyers love this.
+
+We now supply three major supermarket chains—Shoprite, Spar, and a local chain called Justrite. They pay premium prices for traceable, quality produce. We also export to Ghana and Cameroon. Our mobile app includes a customer interface where hotels and restaurants can order directly. That cut out middlemen and increased our margins by about 30%.
+
+Social media has been huge too. I document our "smart farming" on Instagram and Twitter. We've built a following—over 15,000 followers. Young people see that farming can be modern, tech-driven, profitable. I've had over 50 young graduates reach out wanting to learn or partner with us.
+
+INTERVIEWER: That's wonderful! Looking at the broader ecosystem, what would need to change for more farmers to adopt technology like yours?
+
+CHIOMA: First, we need success stories. Nigerian farmers are risk-averse, and rightly so—margins are tight. They need to see that this technology works, that it's worth the investment. That's why I'm so open about sharing our story.
+
+Second, we need affordable solutions. Most agritech solutions are designed in Europe or America and cost too much. We need locally-developed, appropriate technology. What Chinedu and I built costs a fraction of imported systems and works just as well—maybe even better because it's designed for our context.
+
+Third, infrastructure—electricity, internet, roads. You cannot do agritech without these basics. Government needs to prioritize rural infrastructure.
+
+Fourth, financing. We need agricultural banks or special loan products for agritech. The current banking system doesn't work for us.
+
+Fifth, education. Agricultural extension officers need to be trained in technology. They're still teaching farmers methods from the 1980s. We need a new generation of tech-savvy extension workers.
+
+INTERVIEWER: What are your future plans? What's next for AgroFresh?
+
+CHIOMA: We're expanding into aquaculture—fish farming with IoT monitoring systems for water quality. We're also building a farmer's network. We want to provide our IoT system as a service to other farmers. They pay a subscription—maybe ₦50,000 per quarter—and we install sensors, provide the app, and technical support. We've already signed up 8 farmers in a pilot program.
+
+Long term, I want to build a full digital platform for agriculture—from farm to market. Farmers can access technology, buyers can access quality produce, logistics can be coordinated. It's ambitious, but I believe it's possible.
+
+INTERVIEWER: Final question—what advice would you give to other SME owners, especially women, considering innovation adoption?
+
+CHIOMA: Don't be afraid! Yes, it's challenging, yes, there will be failures, but the potential rewards are worth it. Start small—you don't need millions to begin. Find a problem you're facing and look for a technological solution. Be willing to learn and adapt.
+
+For women specifically, don't let anyone tell you technology is not for you. I've faced that bias—"Women don't understand technology," "Go and do small farming." Ignore that noise. Some of the best agritech innovations globally are by women.
+
+Also, build partnerships. I couldn't have done this without Chinedu. Find people who complement your skills and share your vision.
+
+And persistence—this is not a get-rich-quick scheme. Innovation takes time. But if you persist, the results will come.
+
+INTERVIEWER: Thank you so much, Mrs. Okafor. Your story is truly inspiring and valuable for our research.
+
+CHIOMA: Thank you! I'm happy to share. If this helps even one person to start their innovation journey, it's worth it.
+
+---
+
+[End of Interview]
+
+KEY THEMES IDENTIFIED:
+- Personal experience/crisis as catalyst
+- Gender dynamics in technology adoption
+- Importance of local partnerships and talent
+- Infrastructure constraints (internet, power, logistics)
+- Financing challenges and creative solutions
+- Customer education and market access
+- Regulatory complexity
+- Gradual, measurable impact on operations
+- Ecosystem gaps (extension services, affordable tech)
+- Social media and youth engagement
+- Vision for scaling and platform development

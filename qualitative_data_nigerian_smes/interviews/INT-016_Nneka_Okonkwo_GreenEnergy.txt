@@ -1,0 +1,63 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT (CONDENSED)
+=================================================
+
+Participant ID: INT-016
+Name: Nneka Okonkwo
+Business: Green Energy Solutions (Renewable Energy)
+Location: Enugu, Enugu State
+Date: August 30, 2024
+Duration: 92 minutes
+
+---
+
+KEY EXCERPTS:
+
+On Innovation Journey:
+"I started Green Energy Solutions in 2018 after working with an international NGO on rural electrification projects. I saw the massive energy gap in Nigeria—millions of homes and businesses without reliable power.
+
+But renewable energy in Nigeria was niche, expensive, seen as 'foreign technology.' I had to change that perception. We focused on solar solutions with smart grid technology—systems that can monitor energy production and consumption in real-time, optimize battery usage, and even connect multiple households for shared power.
+
+The smart grid component was revolutionary for our market. Traditional solar installers just put up panels and batteries. We offered intelligent systems that maximize efficiency and longevity."
+
+On Technology Acquisition:
+"We imported solar panels from China—cheaper and good quality if you know the right suppliers. The smart grid controllers, we initially imported from Germany, but they were prohibitively expensive. Eventually, we partnered with a Nigerian engineering startup that builds IoT devices. They developed custom controllers for us at one-third the cost.
+
+This local partnership was game-changing. When systems malfunction, we don't wait for spare parts from Europe. We build or repair locally."
+
+On Market Challenges:
+"The biggest challenge is upfront cost. A good home solar system with smart features costs ₦2-4 million. Most Nigerians can't afford that upfront. We had to innovate our business model.
+
+We introduced 'solar-as-a-service'—customers pay an installation fee of about ₦500,000, then monthly subscription based on usage, like ₦35,000-50,000 monthly for three years. After three years, they own the system. This made it accessible to middle-income families and SMEs.
+
+We've installed 240 systems so far. Our revenue model is recurring—much more stable than one-time sales."
+
+On Impact:
+"Our clients report 80-90% reduction in generator costs. One client, a small hotel in Enugu, was spending ₦380,000 monthly on diesel. Now they spend ₦40,000 monthly on system maintenance and occasional grid electricity backup.
+
+For businesses, reliable power means extended operating hours, no product spoilage (for those with refrigeration), happier customers. We have testimonials of businesses increasing revenue by 30-50% just from having stable power.
+
+Environmentally, we've helped eliminate about 450,000 liters of diesel consumption annually across our clients. That's significant carbon reduction."
+
+On Government and Policy:
+"Government policy is contradictory. They talk about renewable energy transition, but they subsidize petrol and diesel, making fossil fuels artificially cheap. There are no subsidies or tax breaks for solar equipment imports.
+
+The few incentives that exist—like the REA [Rural Electrification Agency] programs—favor big players. Small companies like us can't access them.
+
+What would help: zero-tariff on solar equipment imports, tax credits for renewable energy companies, low-interest loans for customers buying solar systems, and frankly, stop subsidizing fossil fuels."
+
+On Future Plans:
+"We're developing community micro-grids—where 20-30 households share a larger solar system with smart distribution. This reduces per-household cost dramatically. We have a pilot in a rural community near Enugu.
+
+We're also exploring solar-powered cold chain solutions for farmers. That's a huge need in Nigeria. If we can help farmers store produce longer, reduce post-harvest losses, that's transformative."
+
+---
+
+KEY THEMES:
+- Mission-driven entrepreneurship
+- Hybrid technology approach (imported + local)
+- Business model innovation (subscription/leasing)
+- Addressing affordability through financing
+- Measurable cost savings and environmental impact
+- Policy contradictions (fossil fuel subsidies)
+- Scaling through community solutions
+- Sector convergence (energy + agriculture)

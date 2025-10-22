@@ -1,0 +1,90 @@
+FOCUS GROUP DISCUSSION TRANSCRIPT
+===================================
+
+FGD ID: FGD-03
+Sector: Manufacturing SMEs
+Location: MAN House, Ikeja, Lagos
+Date: September 18, 2024
+Duration: 115 minutes
+Facilitator: Engr. Adewale Ogunbiyi
+Number of Participants: 6
+
+PARTICIPANTS:
+1. Alhaji Ibrahim (M, 51) - Textiles, Kano - Automated looms
+2. Mrs. Ngozi (F, 45) - Plastics, Aba - Injection molding machines
+3. Kenneth (M, 47) - Pharmaceuticals, Lagos - Quality control systems
+4. Amina (F, 39) - Leather goods, Sokoto - Basic machinery
+5. Tunde (M, 43) - Food processing, Ibadan - Semi-automation
+6. Mercy (F, 36) - Cosmetics, Lagos - Mixing and packaging equipment
+
+---
+
+[Abbreviated transcript highlighting key discussions]
+
+ON AUTOMATION DRIVERS:
+
+ALHAJI IBRAHIM: "The decision to automate was forced by competition. Chinese fabrics were flooding market—cheaper, faster production. We either modernize or close shop. I chose to fight. Bought four automated looms from China in 2018. Expensive—₦36 million—but necessary for survival."
+
+MRS. NGOZI: "For me, it was a client demand. Coca-Cola wanted plastic crates from us, but they required ISO certification and consistent quality. Manual production couldn't meet their standards. I had to invest in injection molding machines with automated controls. Lost the immediate profit but gained long-term sustainable business."
+
+KENNETH: "Pharmaceutical industry is heavily regulated. NAFDAC requirements, WHO standards—you can't meet them with manual processes. Quality control systems, automated filling lines, environmental monitoring—all mandatory, not optional."
+
+ON COST AND FINANCING BARRIERS:
+
+AMINA: "Manufacturing equipment is expensive. My basic leather cutting and stitching machines cost ₦4.5 million. For SME in Sokoto making ₦10 million annual revenue, that's nearly half of yearly revenue as upfront investment. Banks offered 22% interest—impossible to service."
+
+TUNDE: "I used asset finance—leasing company bought the equipment, I pay monthly installments. More expensive in total, but cashflow is manageable. Otherwise, no way I could afford ₦15 million processing line."
+
+MERCY: "Women face additional barriers. Bank manager actually told me, 'Manufacturing is too technical for women. Why don't you do trading?' I had to fight to even get application reviewed. Eventually got loan but at higher rate than male competitors with similar businesses."
+
+ON IMPORTATION CHALLENGES:
+
+ALHAJI IBRAHIM: "My machines arrived Lagos port in February. I cleared them in June. Four months! Every day, customs found new problem—wrong HS code, need additional document, pay this fee, pay that fee. By time I finished, I had paid ₦5.8 million in official and 'unofficial' costs. Equipment itself cost ₦36 million, total landed cost became ₦48 million."
+
+MRS. NGOZI: "Some of us now use agents who specialize in equipment clearing. Expensive but faster. But this adds to cost burden—manufacturers in other countries don't have these costs."
+
+ON POWER/INFRASTRUCTURE:
+
+TUNDE: "Manufacturing needs stable power. My processing line draws 45kW. Can't run that on small generator. I installed 100kVA generator—cost ₦4.2 million. Diesel consumption is ₦450,000 monthly. This is higher than my labor cost! Power should be government responsibility, but we bear the cost."
+
+KENNETH: "We calculated—35% of our operating cost is power-related. In normal country, maybe 8-10%. This eats into competitiveness. We can't export because our production cost is too high due to power expenses."
+
+MRS. NGOZI: "Road infrastructure also affects us. Transporting heavy machinery from Lagos port to Aba, roads are terrible. One of my molds got damaged during transport. We had to reinforce packaging, hire special trucks—everything adds cost."
+
+ON SKILLS/TRAINING:
+
+MERCY: "Nigerian workers are hardworking but lack technical training. When I installed automated mixing equipment, I had to send three workers to South Africa for training—₦3.5 million expense. Then two of them left after training to work for multinationals! Painful experience."
+
+ALHAJI IBRAHIM: "I now hire fresh graduates and train them in-house. I have 2-year contract with penalty clause if they leave early. Not ideal, but protects my training investment."
+
+KENNETH: "We partner with polytechnics. We take students for industrial attachment, teach them our systems. If they perform well, we employ them after graduation. This way we grow our own talent."
+
+ON BUSINESS IMPACT:
+
+MRS. NGOZI: "Automation increased our production from 2,000 units daily to 8,000 units. Same workforce, four times output. Quality rejection rate dropped from 15% to 3%. We're now supplying major companies—Coca-Cola, Unilever, Guinness. Revenue grew from ₦35 million to ₦89 million in four years."
+
+TUNDE: "Cost per unit decreased by 38%. We can now compete on price while maintaining margins. Market share in Oyo State increased from 12% to 31%."
+
+AMINA: "My impact is more modest. Production speed up 40%, quality more consistent. But profit margins only improved slightly because other costs—power, transport, raw materials—are still high."
+
+ON GOVERNMENT POLICY NEEDS:
+
+ALHAJI IBRAHIM: "Government should provide industrial power at subsidized rates. Look at Ethiopia—they give manufacturers electricity at 3 cents per kWh. We pay equivalent of 25 cents! How can we compete?"
+
+KENNETH: "Tax incentives for equipment purchases. Allow us to deduct capital expenditure from taxable income over 5 years. This would encourage investment."
+
+MERCY: "Enforce local content policies. Oil companies are mandated to buy Nigerian. Extend this to other sectors—construction, food, pharmaceuticals. Give preference to local manufacturers in government procurement."
+
+MRS. NGOZI: "Fix port efficiency. Equipment clearing should take maximum 2 weeks, not 4 months. This requires political will to fight corruption and modernize customs."
+
+ON FUTURE OF MANUFACTURING:
+
+KENNETH: "Industry 4.0 is coming—IoT, AI, robotics. But Nigeria is stuck in Industry 2.0. We need massive leap. This requires government vision, infrastructure investment, skills development."
+
+MERCY: "We'll see more regional manufacturing—African Continental Free Trade Area creates bigger market. Those who modernize now will win. Those who don't will die."
+
+TUNDE: "Sustainability will matter more—green manufacturing, waste reduction, circular economy. Consumers and regulators are demanding it. Technology will enable this."
+
+---
+
+KEY THEMES: Capital intensity and financing challenges, Gender bias in manufacturing finance, Importation and customs as major constraint, Power costs dominating operating expenses, Skills gaps and training investment risks, Significant production and quality improvements from automation, Government policy wish list (power, tax, procurement, trade), Future oriented toward Industry 4.0 and regional integration

@@ -1,0 +1,140 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+=====================================
+
+Participant ID: INT-003
+Name: Ibrahim Musa
+Business: Kano Textiles Ltd (Textile Manufacturing)
+Location: Kano, Kano State
+Date: August 17, 2024
+Duration: 68 minutes
+Interviewer: Research Team Lead
+Language: English with some Hausa phrases
+
+---
+
+INTERVIEWER: Sannu da zuwa, Alhaji Ibrahim. Thank you for agreeing to this interview. I'd like to understand your experience with adopting automated looms in your textile business.
+
+IBRAHIM: Sannu, sannu. You're welcome. You know, textile business in Kano is our heritage. My grandfather was a textile trader, my father expanded into weaving. When I took over in 2012, the industry was already dying. Chinese fabrics everywhere, Indian prints, our traditional weaving couldn't compete.
+
+INTERVIEWER: So what made you decide to automate? Tell me about that decision process.
+
+IBRAHIM: It was survival, wallahi. In 2015, 2016, we were barely breaking even. We had 45 workers operating manual looms—good quality but very slow. We could produce maybe 500 yards per week. Meanwhile, I was seeing automated factories in China on YouTube producing thousands of yards daily. I knew if we didn't change, we would die.
+
+But the challenge was capital. These machines are expensive—very expensive. One automated loom from China costs about $25,000. I needed at least four to make a difference. That's $100,000, about ₦36 million then. I didn't have it.
+
+INTERVIEWER: How did you overcome that capital challenge?
+
+IBRAHIM: I tried banks first. I went to six banks in Kano and Lagos. They all said the same thing—collateral, business plan, feasibility study. I did all of that. But in the end, they all rejected me. They said textile industry is declining, too risky. One bank manager told me, "Alhaji, why don't you sell this factory and invest in real estate?"
+
+I was frustrated. Then I remembered—my brother-in-law works in Jeddah. We have a family investment group, mostly diaspora members. I called an emergency meeting in 2017. I showed them videos of automated textile factories, I showed them calculations of ROI. After two months of back and forth, they agreed to invest ₦40 million in exchange for 30% equity.
+
+That's how we started. In 2018, we ordered four automated looms from a manufacturer in Guangdong, China.
+
+INTERVIEWER: What was the importation process like?
+
+IBRAHIM: [sighs heavily] Kai! That was more difficult than getting the money. First, the shipping took three months. Then the machines arrived at Apapa port in Lagos. The clearing process—I cannot even describe it. Every day, a new problem. Customs wanted this document, that document. The clearing agent was asking for "facilitation fees." 
+
+The machines stayed at the port for two months. Every day, we're paying demurrage—it reached ₦2.8 million. Finally, I had to travel to Lagos myself, spend two weeks there, meet people, grease palms. It's corruption, but what can you do? If you don't play the game, your goods will rot at the port.
+
+Then transporting the machines from Lagos to Kano—another challenge. These machines are heavy, delicate. We hired a specialized truck. The road from Lagos to Kano, you know how it is. We were praying all the way. Alhamdulillah, they arrived safely, but one machine had minor damage from the journey.
+
+INTERVIEWER: Once the machines arrived, what was the installation and training process?
+
+IBRAHIM: The Chinese manufacturer sent two technicians. They stayed for one month to install and train us. Communication was difficult—they spoke broken English, we spoke broken Chinese English! [laughs] But we managed.
+
+The bigger challenge was training our workers. These are men who have been using manual looms for 20, 30 years. Suddenly, they're seeing computerized machines with digital displays. Many were afraid—afraid the machines would replace them, afraid they couldn't learn.
+
+I had to do a lot of convincing. I gathered all workers, explained that we're not replacing them, we're upgrading. I selected the youngest, most educated workers for initial training—12 people. The Chinese technicians trained them for three weeks.
+
+Even after the Chinese left, we had issues for almost six months. Machine would stop working, error codes we didn't understand. We had to call the Chinese supplier on WhatsApp at 2am—time difference, you know. They would send videos showing what to do. Sometimes we had to hire a local engineer, but Nigerian engineers weren't familiar with these specific machines.
+
+INTERVIEWER: Despite these challenges, did you see improvements in production?
+
+IBRAHIM: Oh yes, definitely! But not immediately. The first six months were actually difficult—production was lower than before because we were still learning. Some machines were idle while we figured things out. I was getting pressure from my family investors—"Ibrahim, what is happening? We invested ₦40 million and production is down!"
+
+But from the seventh month, things changed. Our workers became more skilled, machines were running smoothly. Our production jumped from 500 yards per week to 3,000 yards per week. That's six times! 
+
+Quality also improved. The fabric consistency, the patterns—automated machines don't make mistakes like human hands. Our rejection rate dropped from about 15% to less than 3%.
+
+Most importantly, our cost per yard decreased dramatically. With manual looms, considering labor, time, wastage, each yard cost us about ₦850. With automated looms, cost dropped to about ₦380 per yard. We could suddenly compete with Chinese fabrics on price while maintaining our traditional Nigerian designs.
+
+INTERVIEWER: How did this affect your market and sales?
+
+IBRAHIM: That's the interesting part. Initially, I thought we would just compete better in existing markets. But automation opened completely new markets for us.
+
+First, we started supplying major fashion designers in Lagos and Abuja. They wanted large volumes with consistent quality—something we couldn't do before. Now we can deliver 5,000 yards of uniform fabric in two weeks. We're now suppliers to three major fashion brands.
+
+Second, we started exporting. A trader in Ghana found us through a trade fair in 2020. He visited our factory, saw the automated setup, and placed an order for 10,000 yards. That was our first export. Now we export to Ghana, Benin, Niger, even some to Mali. Export revenue is about 25% of our total revenue.
+
+Third, we diversified products. With automation, we can experiment with different designs, patterns. We developed a line of "modern traditional" fabrics—traditional Nigerian patterns but with contemporary colors and styles. Young people love it. We sell through Instagram now—can you imagine?
+
+INTERVIEWER: Can you quantify the business impact? Revenue, employment, profitability?
+
+IBRAHIM: In 2017, before automation, our annual revenue was about ₦45 million. In 2023, we reached ₦78 million. That's about 73% increase.
+
+Profit margin improved from about 8% to 18%. This is significant in manufacturing where margins are usually thin.
+
+Employment—this is interesting. Many people think automation means job losses. For us, we actually increased employment. We went from 45 workers in 2017 to 52 workers now. Why? Because we're producing more, we need more people for quality control, packaging, design, maintenance. The nature of jobs changed—less manual weaving, more technical roles—but total jobs increased.
+
+We also built a small showroom in 2022, employed 6 more people there for retail sales.
+
+INTERVIEWER: What about challenges that persisted or new ones that emerged?
+
+IBRAHIM: Power! Always power. These machines need stable electricity. In Kano, NEPA gives us maybe 8-10 hours daily. We have to run generators the rest of the time. Diesel costs have been killing us. In 2023 alone, we spent over ₦12 million on diesel. That's eating into our profits.
+
+We've been looking at solar power. I got a quote—₦18 million for a system that can power our factory. We're trying to raise that capital now. It will pay for itself in about 3-4 years through diesel savings, but finding ₦18 million upfront is difficult.
+
+Second challenge: spare parts. When a machine breaks down, getting spare parts from China takes 4-6 weeks. Meanwhile, the machine is idle. We've learned to keep critical spare parts in stock, but that's capital tied up.
+
+Third: competition from smuggled fabrics. Government bans textile importation, but fabrics still pour in through Benin Republic borders. These smuggled fabrics don't pay duties, so they're cheaper. We're competing unfairly. Sometimes I feel like, "Why did I invest in all this when people are making money from smuggling?"
+
+INTERVIEWER: What role has government policy played—positively or negatively?
+
+IBRAHIM: Mixed. On one hand, the federal government's ban on textile importation through land borders was meant to help local manufacturers like us. It did help a bit—reduced competition. 
+
+The Central Bank had a textile intervention fund—I applied in 2019 but didn't get it. I hear only big factories in Lagos got the money. We small people in Kano didn't benefit.
+
+Kano State government has been more helpful. Governor Ganduje's administration gave us a tax holiday for three years—2019 to 2021. That saved us about ₦2 million in state taxes. They also renovated the access road to our industrial area. Small thing, but it helped.
+
+But overall, government support is limited. What we need is stable power, better roads, and enforcing the borders against smuggling. Also, government should buy Nigerian fabrics. All these government schools, hospitals, military uniforms—they should be mandated to use Nigerian textiles. That would create huge demand.
+
+INTERVIEWER: Looking ahead, what are your plans for further innovation or expansion?
+
+IBRAHIM: We want to integrate backward—into cotton production. Nigeria produces cotton, but we import yarn because our cotton processing is poor. If we can set up a small ginning operation, we can control our entire value chain.
+
+We're also looking at digital printing technology. Young people want custom designs, small batches. Digital printing allows that. But again, capital is the issue—these machines cost about ₦25 million.
+
+I'm also training my son to take over. He studied Industrial Engineering at ABU [Ahmadu Bello University]. He's bringing new ideas—like using social media for marketing, online ordering system, even talking about blockchain for supply chain tracking. I don't understand everything he says, but I know the business needs young energy.
+
+INTERVIEWER: If you could advise another manufacturer considering automation, what would you say?
+
+IBRAHIM: Three things: One, be ready for a long, difficult journey. It's not just buying machines. It's the importation wahala, installation, training, maintenance—everything. You need patience and reserve capital for unexpected costs.
+
+Two, train your people seriously. Machines are useless without skilled operators. Invest in training, both formal and on-the-job.
+
+Three, find your niche. Don't try to compete with China on everything. Find what makes you unique—for us, it's Nigerian traditional designs with modern quality. That's our competitive advantage.
+
+And very important—manage cash flow carefully. When we started, we had months where revenue was low but we still had to pay for diesel, maintenance, loan repayments. We survived because I was conservative with cash. Many businesses fail not because of bad ideas but poor cash flow management.
+
+INTERVIEWER: Thank you so much, Alhaji Ibrahim. This has been very insightful.
+
+IBRAHIM: You're welcome. Nagode. I hope this helps your research. Nigerian businesses need support—both from government and from researchers who can show our stories. We're trying our best in difficult conditions.
+
+---
+
+[End of Interview]
+
+KEY THEMES IDENTIFIED:
+- Heritage industry facing existential threat
+- Capital access as major barrier (family/diaspora financing)
+- Corruption and inefficiency in importation/customs
+- Infrastructure challenges (power, roads)
+- Worker resistance and training challenges
+- Significant production and quality improvements
+- Market expansion (domestic and export)
+- Employment transformation (not reduction)
+- Ongoing operational challenges (power, spare parts)
+- Mixed government support
+- Unfair competition from smuggling
+- Generational transition and new ideas
+- Cash flow management importance
