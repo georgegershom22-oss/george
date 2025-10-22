@@ -1,0 +1,311 @@
+{
+  "major_themes": {
+    "T1_Financial_Constraints": {
+      "description": "Challenges related to accessing and managing financial resources for innovation",
+      "sub_themes": [
+        {
+          "code": "T1.1",
+          "label": "High interest rates",
+          "frequency": 23,
+          "example_quote": "Banks charge 20-25% interest. How can I innovate when loan repayment takes all my profit?"
+        },
+        {
+          "code": "T1.2",
+          "label": "Collateral requirements",
+          "frequency": 18,
+          "example_quote": "Banks wanted 200% collateral. My rice farm is worth millions, but they want buildings in Lagos."
+        },
+        {
+          "code": "T1.3",
+          "label": "Limited venture capital",
+          "frequency": 15,
+          "example_quote": "VCs want you to have traction, but you need funding to get traction."
+        },
+        {
+          "code": "T1.4",
+          "label": "Hidden costs of innovation",
+          "frequency": 20,
+          "example_quote": "Budget twice what you think you need - there are always hidden costs."
+        }
+      ]
+    },
+    "T2_Human_Capital_Challenges": {
+      "description": "Issues related to workforce skills, training, and retention",
+      "sub_themes": [
+        {
+          "code": "T2.1",
+          "label": "Skills gap",
+          "frequency": 22,
+          "example_quote": "Finding developers who actually know what they're doing is nearly impossible."
+        },
+        {
+          "code": "T2.2",
+          "label": "Brain drain",
+          "frequency": 19,
+          "example_quote": "My best developer just got his Canadian visa last month."
+        },
+        {
+          "code": "T2.3",
+          "label": "Resistance to change",
+          "frequency": 21,
+          "example_quote": "Workers thought machines meant job losses. We had a near-strike situation."
+        },
+        {
+          "code": "T2.4",
+          "label": "Training costs and time",
+          "frequency": 17,
+          "example_quote": "Training replacement will take six months minimum."
+        }
+      ]
+    },
+    "T3_Infrastructure_Deficits": {
+      "description": "Physical and digital infrastructure limitations affecting innovation",
+      "sub_themes": [
+        {
+          "code": "T3.1",
+          "label": "Power supply issues",
+          "frequency": 24,
+          "example_quote": "Sometimes 2 hours of electricity in 48 hours. These machines need stable power."
+        },
+        {
+          "code": "T3.2",
+          "label": "Internet connectivity",
+          "frequency": 18,
+          "example_quote": "We pay for 100Mbps, we get 20Mbps on a good day."
+        },
+        {
+          "code": "T3.3",
+          "label": "Transportation and roads",
+          "frequency": 16,
+          "example_quote": "How do you move modern equipment to farms when roads are death traps?"
+        },
+        {
+          "code": "T3.4",
+          "label": "Cold chain and storage",
+          "frequency": 12,
+          "example_quote": "Without refrigerated transport, I'm limited to local markets."
+        }
+      ]
+    },
+    "T4_Regulatory_Environment": {
+      "description": "Government policies, regulations, and bureaucratic challenges",
+      "sub_themes": [
+        {
+          "code": "T4.1",
+          "label": "Policy inconsistency",
+          "frequency": 20,
+          "example_quote": "Every new government cancels previous programs. No continuity."
+        },
+        {
+          "code": "T4.2",
+          "label": "Regulatory complexity",
+          "frequency": 17,
+          "example_quote": "NITDA says one thing, NCC says another, CBN has different rules."
+        },
+        {
+          "code": "T4.3",
+          "label": "Bureaucratic delays",
+          "frequency": 19,
+          "example_quote": "NAFDAC approval took 18 months. By then, our technology was outdated."
+        },
+        {
+          "code": "T4.4",
+          "label": "Multiple taxation",
+          "frequency": 14,
+          "example_quote": "We're taxed to death before we can innovate."
+        }
+      ]
+    },
+    "T5_Market_Dynamics": {
+      "description": "Market-related factors affecting innovation adoption",
+      "sub_themes": [
+        {
+          "code": "T5.1",
+          "label": "Customer price sensitivity",
+          "frequency": 18,
+          "example_quote": "Customers still prefer to buy in reused bottles because it's cheaper."
+        },
+        {
+          "code": "T5.2",
+          "label": "Market access barriers",
+          "frequency": 16,
+          "example_quote": "Middlemen prefer status quo because innovation threatens their control."
+        },
+        {
+          "code": "T5.3",
+          "label": "Competition from imports",
+          "frequency": 13,
+          "example_quote": "Generator costs make my vegetables more expensive than imports."
+        },
+        {
+          "code": "T5.4",
+          "label": "Export market opportunities",
+          "frequency": 15,
+          "example_quote": "Export markets appreciate innovation more."
+        }
+      ]
+    },
+    "T6_Innovation_Success_Factors": {
+      "description": "Strategies and factors that enable successful innovation",
+      "sub_themes": [
+        {
+          "code": "T6.1",
+          "label": "Phased implementation",
+          "frequency": 19,
+          "example_quote": "Start with your biggest constraint and solve that first."
+        },
+        {
+          "code": "T6.2",
+          "label": "Strategic partnerships",
+          "frequency": 17,
+          "example_quote": "Instead of building everything, we partner."
+        },
+        {
+          "code": "T6.3",
+          "label": "Customer-centric approach",
+          "frequency": 14,
+          "example_quote": "Customer-funded innovation works. We pre-sell features to enterprise clients."
+        },
+        {
+          "code": "T6.4",
+          "label": "Change management",
+          "frequency": 18,
+          "example_quote": "The technology is the easy part; changing mindsets is hard."
+        }
+      ]
+    },
+    "T7_Performance_Impact": {
+      "description": "Measurable outcomes and impacts of innovation adoption",
+      "sub_themes": [
+        {
+          "code": "T7.1",
+          "label": "Revenue growth",
+          "frequency": 22,
+          "example_quote": "Revenue increased by 45% in two years."
+        },
+        {
+          "code": "T7.2",
+          "label": "Operational efficiency",
+          "frequency": 20,
+          "example_quote": "Production capacity increased from 5,000 units monthly to 20,000 units."
+        },
+        {
+          "code": "T7.3",
+          "label": "Quality improvement",
+          "frequency": 18,
+          "example_quote": "Defect rate dropped from 8% to less than 1%."
+        },
+        {
+          "code": "T7.4",
+          "label": "Market expansion",
+          "frequency": 16,
+          "example_quote": "Export revenue now constitutes 40% of our total revenue, up from 10%."
+        }
+      ]
+    },
+    "T8_Support_Ecosystem": {
+      "description": "External support systems and their effectiveness",
+      "sub_themes": [
+        {
+          "code": "T8.1",
+          "label": "Government programs",
+          "frequency": 18,
+          "example_quote": "Bank of Industry provided loan at 9% - without them, this wouldn't have happened."
+        },
+        {
+          "code": "T8.2",
+          "label": "Industry associations",
+          "frequency": 13,
+          "example_quote": "Nigeria Computer Society connected us with other SMEs who had gone through similar transformations."
+        },
+        {
+          "code": "T8.3",
+          "label": "Development partners",
+          "frequency": 11,
+          "example_quote": "GIZ provided technical support and partially funded our weather stations."
+        },
+        {
+          "code": "T8.4",
+          "label": "Incubators and accelerators",
+          "frequency": 12,
+          "example_quote": "CcHub accelerator transformed our business."
+        }
+      ]
+    },
+    "T9_Cultural_Factors": {
+      "description": "Cultural and social factors influencing innovation adoption",
+      "sub_themes": [
+        {
+          "code": "T9.1",
+          "label": "Traditional vs modern practices",
+          "frequency": 16,
+          "example_quote": "These are generational practices. Respect for heritage matters."
+        },
+        {
+          "code": "T9.2",
+          "label": "Gender dynamics",
+          "frequency": 12,
+          "example_quote": "As a woman, getting bank loans was extra challenging."
+        },
+        {
+          "code": "T9.3",
+          "label": "Failure stigma",
+          "frequency": 10,
+          "example_quote": "In Silicon Valley, failure is a badge of honor. Here, it's shame."
+        },
+        {
+          "code": "T9.4",
+          "label": "Trust and relationships",
+          "frequency": 14,
+          "example_quote": "Building relationships with regulators helps."
+        }
+      ]
+    },
+    "T10_Future_Outlook": {
+      "description": "Future plans and emerging innovation opportunities",
+      "sub_themes": [
+        {
+          "code": "T10.1",
+          "label": "AI and automation",
+          "frequency": 18,
+          "example_quote": "We're exploring AI for predictive analytics and automated customer support."
+        },
+        {
+          "code": "T10.2",
+          "label": "Blockchain adoption",
+          "frequency": 14,
+          "example_quote": "Blockchain for traceability and supply chain transparency."
+        },
+        {
+          "code": "T10.3",
+          "label": "Sustainability focus",
+          "frequency": 12,
+          "example_quote": "Climate-smart agriculture and renewable energy integration."
+        },
+        {
+          "code": "T10.4",
+          "label": "Digital transformation",
+          "frequency": 16,
+          "example_quote": "IoT sensors for predictive maintenance and quality control."
+        }
+      ]
+    }
+  },
+  "code_frequency_summary": {
+    "most_frequent_codes": [
+      {"code": "T3.1", "label": "Power supply issues", "count": 24},
+      {"code": "T1.1", "label": "High interest rates", "count": 23},
+      {"code": "T2.1", "label": "Skills gap", "count": 22},
+      {"code": "T7.1", "label": "Revenue growth", "count": 22},
+      {"code": "T2.3", "label": "Resistance to change", "count": 21}
+    ],
+    "total_codes_applied": 487,
+    "total_interviews_coded": 25,
+    "total_fgd_coded": 6
+  },
+  "inter_rater_reliability": {
+    "cohens_kappa": 0.84,
+    "percent_agreement": 89.2,
+    "disagreement_resolution": "consensus through discussion"
+  }
+}

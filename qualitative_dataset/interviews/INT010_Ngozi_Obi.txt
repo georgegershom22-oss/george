@@ -1,0 +1,127 @@
+INTERVIEW TRANSCRIPT
+=====================
+Participant ID: INT010
+Name: Ngozi Obi
+Company: MicroCredit Solutions
+Date: September 24, 2024
+Duration: 50 minutes
+Location: Lagos, Nigeria
+
+[START OF TRANSCRIPT]
+
+INTERVIEWER: Good afternoon, Mrs. Obi. Thank you for agreeing to discuss your innovation journey in the financial services sector. May I record?
+
+NGOZI: Yes, please record. The FinTech space in Nigeria needs more documented experiences, especially from women founders.
+
+INTERVIEWER: Tell me about MicroCredit Solutions and your role.
+
+NGOZI: I founded MicroCredit Solutions five years ago after working in traditional banking for twelve years. I saw how banks ignored the bottom of the pyramid - market traders, artisans, small retailers. These people need credit but can't navigate traditional banking.
+
+We provide micro-loans from 10,000 to 500,000 Naira to micro-entrepreneurs, primarily women traders. We have 20 full-time staff and over 5,000 active borrowers. I serve as CEO, but I'm hands-on with product development and strategic partnerships.
+
+INTERVIEWER: What triggered your decision to develop a mobile banking platform?
+
+NGOZI: Two things converged. First, our manual processes were killing us. Loan officers carrying paper forms, cash collections in markets, Excel spreadsheets for record-keeping. We had a situation where one loan officer disappeared with 3 million Naira in collections. No proper tracking system.
+
+Second, our clients started asking, "Why can't I check my balance on my phone like GTBank customers?" They may be market traders, but they use smartphones. They see what's possible and expect similar service.
+
+The real trigger was when we lost a major grant opportunity. The foundation said our operations weren't scalable without technology. That hurt, but they were right.
+
+INTERVIEWER: Walk me through developing and implementing the mobile platform.
+
+NGOZI: First challenge - finding the right technology partner. Most FinTech developers wanted millions upfront. As a woman founder, getting taken seriously was already hard. They'd quote ridiculous prices thinking I didn't understand technology.
+
+I eventually partnered with a young team from Covenant University. Hungry, talented, affordable. We spent three months designing the MVP - basic loan application, disbursement, repayment tracking, and balance checking.
+
+Phase two was interesting - regulatory compliance. CBN requirements for digital financial services are complex. We needed special licenses, security audits, data protection compliance. This took six months and cost more than building the actual platform.
+
+Phase three - field testing with 100 traders in Computer Village. Eye-opening! Many couldn't navigate the app. We had to redesign everything for simplicity. Big buttons, voice prompts in local languages, USSD option for feature phones.
+
+INTERVIEWER: What were the major obstacles?
+
+NGOZI: Trust was huge. Our clients trusted paper receipts, not digital confirmations. Some thought we were trying to steal their money through "computer magic." We had to run parallel systems for months - digital and paper.
+
+Digital literacy was challenging. Teaching a 55-year-old trader who never used ATM to trust mobile banking isn't easy. We created "Digital Mama" ambassadors - respected traders who learned first and taught others.
+
+Infrastructure nearly killed us. Network failures meant clients couldn't repay on time, incurring penalties. We had to build offline capability and automatic penalty waivers for system-caused delays.
+
+Fraud attempts increased. Cybercriminals targeted us thinking a women-led FinTech would be soft. We lost 800,000 Naira to fraud in month two. Had to invest heavily in security.
+
+INTERVIEWER: How has the platform impacted your business performance?
+
+NGOZI: Transformational! We grew from 500 to 5,000 borrowers in 18 months. Loan processing time dropped from 5 days to 2 hours. Default rates actually decreased from 8% to 4% because of better monitoring and automated reminders.
+
+Operational costs reduced by 40%. No more loan officers traveling to collect payments. Clients repay through agents or transfers. We redeployed loan officers to customer acquisition and support.
+
+Revenue grew 200% in two years. But more importantly, we can now serve rural areas without physical presence. We have borrowers in villages we've never visited.
+
+INTERVIEWER: What about client relationships?
+
+NGOZI: Deeper but different. Less face-to-face interaction, but more consistent touchpoints through automated messages, tips, and financial education content. Client satisfaction scores improved by 45%.
+
+The platform gave clients dignity. They feel like "real bank customers" now. One trader told me she showed her daughter the app and said, "You see, Mama is also doing digital banking!"
+
+We can now offer additional services - savings, insurance, bill payments. Clients stay with us longer because we meet more needs. Lifetime value per client increased 150%.
+
+INTERVIEWER: Any unexpected outcomes?
+
+NGOZI: Our data became valuable! We have transaction patterns, business cycles, creditworthiness indicators that traditional banks don't have for this segment. A major bank approached us for partnership based on our data insights.
+
+Negative surprise - dependency on telecoms. When MTN had a major outage, our operations were paralyzed. We now have redundancy across all networks, expensive but necessary.
+
+Another surprise - regulatory attention. As we grew, CBN scrutiny intensified. Compliance costs now consume 15% of revenue. That wasn't in our projections.
+
+INTERVIEWER: How do you measure the success of this innovation?
+
+NGOZI: Multiple metrics: Active users growing 20% monthly. Transaction success rate at 96%. Customer acquisition cost dropped 60%. Most importantly, portfolio at risk (loans overdue 30+ days) at just 4%, industry average is 12%.
+
+But real success is impact. We've financed over 50 million Naira to women-owned businesses. When a trader expands from one stall to three because of our loans, that's success.
+
+INTERVIEWER: What external support did you receive?
+
+NGOZI: Lagos State Employment Trust Fund provided initial grant funding. Women's World Banking gave technical assistance on product design. IFC provided subsidized consulting on risk management.
+
+But accessing support as a women-led FinTech is tough. Many programs exist, but old boys' network still dominates. I've been on panels where I'm the only woman among twenty FinTech CEOs.
+
+INTERVIEWER: What advice would you give other SMEs considering digital innovation?
+
+NGOZI: Start with customer needs, not technology capabilities. Understand your users deeply. Design for the least sophisticated user; others will manage.
+
+Don't underestimate change management. Budget 30% of resources for training and adoption support. Technology is useless if people won't use it.
+
+For women entrepreneurs - build your technical knowledge. You don't need to code, but understand enough to avoid exploitation. Join women in tech communities for support and protection.
+
+Finally, plan for regulation. In FinTech especially, compliance can make or break you. Engage regulators early, often, and transparently.
+
+INTERVIEWER: What's next for MicroCredit Solutions?
+
+NGOZI: We're exploring AI for credit scoring using alternative data - utility payments, mobile phone usage patterns. Traditional credit bureaus don't cover our segment.
+
+Also looking at expanding to agricultural finance. Farmers need credit, but cycles are different from traders. Technology will help us manage seasonal variations.
+
+Blockchain for identity verification is interesting. Many clients lack formal ID documents. Blockchain could create immutable digital identities.
+
+INTERVIEWER: What changes would accelerate innovation in Nigerian SMEs?
+
+NGOZI: Digital identity infrastructure. If every Nigerian had a verifiable digital ID, financial inclusion would explode. India's Aadhaar transformed their FinTech landscape.
+
+Regulatory sandboxes with real support, not just permission to test. Provide funding, mentorship, and protection while innovating.
+
+Gender-lens investing. Women receive less than 5% of African VC funding. Yet we repay loans better, build sustainable businesses. The bias must end.
+
+Open banking regulations that actually work. Let FinTechs access bank data (with consent) to build better products. Current system protects incumbent banks.
+
+Finally, celebrate innovation failures as learning. Our fear of failure keeps us playing small. Innovation requires risk-taking.
+
+INTERVIEWER: Thank you for sharing your inspiring journey.
+
+NGOZI: Thank you. If our story inspires one woman to innovate despite the challenges, it's worth it.
+
+[END OF TRANSCRIPT]
+
+Post-Interview Notes:
+- Strong emphasis on customer-centric innovation
+- Gender-specific challenges in accessing funding and recognition
+- Regulatory compliance as major cost and complexity factor
+- Technology as enabler of financial inclusion
+- Clear metrics demonstrating ROI on innovation

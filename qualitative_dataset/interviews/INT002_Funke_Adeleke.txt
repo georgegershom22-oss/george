@@ -1,0 +1,161 @@
+INTERVIEW TRANSCRIPT
+=====================
+Participant ID: INT002
+Name: Funke Adeleke
+Company: GreenField Agro Industries
+Date: September 16, 2024
+Duration: 48 minutes
+Location: Ibadan, Nigeria
+
+[START OF TRANSCRIPT]
+
+INTERVIEWER: Good afternoon, Mrs. Adeleke. Thank you for meeting with me today. I understand you've implemented some interesting innovations in your agribusiness. May I record our conversation?
+
+FUNKE: Good afternoon. Yes, please go ahead and record. I'm excited to share our story, especially if it can help other women in agribusiness.
+
+INTERVIEWER: Wonderful. Let's start with your background. Tell me about GreenField Agro Industries.
+
+FUNKE: We started GreenField six years ago, focusing on cassava and maize processing. I have a Master's in Agricultural Science, and after working for the Ministry of Agriculture for ten years, I saw the gap between our farming practices and global standards. We now process cassava into garri, flour, and starch, and we've recently added maize processing for animal feed and corn flour.
+
+We work directly with over 200 smallholder farmers across Oyo and Osun states, providing them with a guaranteed market. We employ 28 full-time staff and about 50 seasonal workers during harvest periods.
+
+INTERVIEWER: What's your role in the company?
+
+FUNKE: I'm the founder and Managing Director. I oversee everything from farmer relations to processing operations and market development. In Nigerian SMEs, you wear many hats.
+
+INTERVIEWER: What would you describe as your main market?
+
+FUNKE: 70% local Nigerian market - mainly food processors, bakeries, and feed mills. 20% to other West African countries, particularly Ghana and Benin Republic. We're just starting to explore European markets for our cassava starch - that's about 10% now.
+
+INTERVIEWER: Now, tell me about your decision to adopt precision agriculture technology.
+
+FUNKE: It started two years ago when we had a devastating experience. We had projected yields based on traditional estimates from our farmers, made commitments to buyers, including an export order. Then the rains failed, yields were 40% below projection, and we couldn't meet our obligations. We lost about 30 million Naira and damaged relationships with two major buyers.
+
+I attended an agriculture conference in Abuja where they demonstrated precision agriculture - GPS mapping, soil sensors, weather stations, and drone monitoring. I thought, "This could have prevented our disaster." That night, I couldn't sleep. I kept thinking, if we don't modernize, we'll remain at the mercy of guesswork and weather.
+
+INTERVIEWER: What triggered the final decision to invest?
+
+FUNKE: Two things happened simultaneously. First, one of our biggest competitors started offering farmers better prices because they had better yield predictions and could optimize their purchasing. We were losing farmers to them. Second, I met a young Nigerian who had returned from studying in Israel and was setting up an AgTech company. He showed me data from a pilot farm where precision agriculture increased yields by 35%. That sealed it for me.
+
+INTERVIEWER: Walk me through the implementation process.
+
+FUNKE: We started small - very important lesson. We selected 20 progressive farmers for a pilot program. First phase was mapping and soil testing. We used GPS to map their farms properly - many didn't even know their actual farm size! Soil testing revealed so much - some farms were over-fertilized, others under-fertilized, all using the same approach.
+
+Second phase was installing weather stations and soil moisture sensors on five demonstration farms. This took about three months because we had to import some equipment and train local technicians for maintenance.
+
+Third phase was the interesting part - getting farmers to trust and use the data. We provided tablets with a simple app showing when to plant, when to apply fertilizer, when to expect rain. The resistance was massive initially. Many farmers said their grandfathers didn't need computers to farm.
+
+Fourth phase was integrating drone monitoring for pest and disease detection. We partnered with a drone service company because buying our own was too expensive.
+
+INTERVIEWER: What were the biggest hurdles?
+
+FUNKE: Culture clash was number one. Convincing traditional farmers to trust technology over inherited wisdom was like selling ice to Eskimos. We had to use a lot of demonstration plots, showing the difference between precision and traditional methods side by side.
+
+Cost was huge - initial investment was about 25 million Naira. As a woman, getting bank loans was extra challenging. They wanted my husband to co-sign, even though the business is in my name! I eventually got funding through a development finance institution focused on women entrepreneurs.
+
+Technical literacy was another mountain. Most of our farmers can't read English well, let alone interpret data. We had to develop voice-based systems in Yoruba and use lots of visual aids. We hired two young agriculture graduates just to work as "precision agriculture extension officers."
+
+Infrastructure challenges - no electricity in many farm areas, poor mobile network coverage. We had to invest in solar panels and sometimes drive to farms just to download data from sensors.
+
+INTERVIEWER: How did you navigate the resistance from farmers?
+
+FUNKE: We identified influential farmers - the ones others listen to - and focused on converting them first. When Baba Alao, a respected 65-year-old farmer, started using our weather app and increased his yield, others paid attention.
+
+We also tied it to money. We offered premium prices for crops grown using precision methods because we could guarantee quality. We showed them the math - spend 5,000 Naira extra per hectare, earn 20,000 Naira more from higher yields.
+
+Most importantly, we didn't force anyone. We let results speak. After the first season when precision farmers earned 40% more, we had farmers begging to join the program.
+
+INTERVIEWER: What specific impacts have you seen on your business performance?
+
+FUNKE: Our processing capacity utilization went from 60% to 85% because we can now predict supply accurately and plan processing schedules. Revenue increased by 45% in two years. But more importantly, our gross margins improved from 22% to 31% because we're buying better quality raw materials and have less waste.
+
+We've reduced post-harvest losses from 25% to about 10% because we can predict optimal harvest times. That alone saved us millions. Export revenue grew by 200% because we can now guarantee consistent quality and quantity to international buyers.
+
+INTERVIEWER: How about operational costs?
+
+FUNKE: Initially, costs increased by about 30% - technology, training, new staff. But efficiency gains kicked in after year one. We now spend 20% less on raw materials per unit of output because of better quality. Transportation costs dropped 15% because we optimized collection routes based on harvest predictions.
+
+Unexpected savings came from reduced crop failure insurance premiums. Insurance companies gave us 30% discount because we could demonstrate better risk management through precision agriculture.
+
+INTERVIEWER: What about relationships with farmers and customers?
+
+FUNKE: This transformation deepened our farmer relationships incredibly. We're no longer just buyers; we're partners in their success. Farmer retention went from 60% to 90%. We now have waiting lists of farmers wanting to join our program.
+
+Customer relationships transformed too. We can now offer forward contracts with confidence. Last month, we signed a three-year supply agreement with Nestlé Nigeria because we could demonstrate supply reliability through our data systems.
+
+INTERVIEWER: Were there unexpected outcomes?
+
+FUNKE: Many! Positive: We became accidentally famous! The Ministry of Agriculture brings delegations to see our model. We've won two innovation awards, which opened doors to new markets and investors.
+
+We discovered our data has value beyond farming. A bank approached us to use our farmer data for developing agricultural loans. We're exploring that carefully, ensuring farmer privacy.
+
+Young people became interested in farming. We have university graduates applying to work with us because we're "techy." That's revolutionary in Nigerian agriculture.
+
+Negative: We created dependency. When our main weather station broke down during planting season, farmers panicked. Some delayed planting waiting for our advisory. We learned to have backup systems and teach farmers to blend traditional knowledge with technology.
+
+Cybersecurity became an issue. Someone hacked our farmer database trying to steal our farmer network. We had to invest in better IT security.
+
+INTERVIEWER: How do you measure success of this innovation?
+
+FUNKE: Key metrics include: Farmer yield improvement - average 35% increase. Supply prediction accuracy - now 85% accurate versus 45% before. Quality consistency - reject rate from customers down from 15% to 3%. Farmer income - our farmers earn 40% more than area average.
+
+Business metrics: ROI reached 140% in year two. Market share in our region grew from 15% to 25%. Customer retention is now 95%.
+
+But beyond numbers, success is seeing farmers send their children to university with increased income, or a female farmer buying her first car. That's real impact.
+
+INTERVIEWER: What external support did you receive?
+
+FUNKE: The German development agency GIZ provided technical support and partially funded our weather stations. The Central Bank's Anchor Borrowers Programme helped finance our farmers. Nigerian Export Promotion Council supported our export market development.
+
+But honestly, support for women in AgTech is limited. Many programs exist on paper but accessing them requires connections and sometimes "facilitation fees." It's frustrating.
+
+INTERVIEWER: What role did employees play?
+
+FUNKE: Our young employees were crucial. They bridged the gap between technology and traditional farming. My operations manager, a 28-year-old agricultural engineer, became the innovation champion. He would spend weekends on farms, teaching and learning.
+
+However, we had to let go of our old procurement manager. He was secretly discouraging farmers from the program because he had informal arrangements with traditional suppliers. Change threatens vested interests.
+
+INTERVIEWER: What would you advise other SME owners about innovation?
+
+FUNKE: First, start with a real problem, not shiny technology. Second, respect existing knowledge - don't throw away tradition, enhance it with innovation. Third, involve your ecosystem early - suppliers, customers, employees.
+
+Fourth, be patient with ROI. Agricultural innovation especially takes time. Fifth, invest in people alongside technology. Technology without capable people is useless.
+
+For women specifically: Don't be intimidated. Yes, you'll face extra challenges, but your perspective is valuable. Find allies, join women's business networks, and document everything to protect yourself.
+
+INTERVIEWER: What's next for GreenField's innovation journey?
+
+FUNKE: We're exploring blockchain for supply chain traceability. European buyers increasingly want to know exact farm origins, farming practices, carbon footprint. Blockchain can provide that transparency.
+
+We're also looking at climate-smart agriculture - drought-resistant varieties, water conservation technologies, carbon credit programs. Climate change is real, and we must adapt.
+
+INTERVIEWER: What changes would make innovation easier for SMEs?
+
+FUNKE: First, practical education. Universities should teach applicable AgTech, not just theory. Second, affordable, patient capital. Innovation in agriculture doesn't yield overnight returns. Banks need to understand this.
+
+Third, infrastructure! How can we have smart farms without electricity or internet? Government must prioritize rural infrastructure. Fourth, streamline regulations. Importing agricultural technology equipment shouldn't take six months of paperwork.
+
+Fifth, create innovation sandboxes where AgTech can be tested without full regulatory compliance initially. Sixth, support local technology development. Not everything should be imported.
+
+Finally, recognize and support women innovators specifically. We face unique challenges but drive significant economic activity.
+
+INTERVIEWER: Any final thoughts?
+
+FUNKE: Nigerian agriculture must modernize to feed our growing population and compete globally. But modernization must be inclusive, bringing smallholder farmers along, not leaving them behind.
+
+Innovation in our context isn't just about technology - it's about changing mindsets, building trust, and creating value for everyone in the chain. It's hard, sometimes heartbreaking, but ultimately transformative.
+
+If a woman from Ibadan can transform traditional farming with technology, imagine what's possible if we all embrace innovation. The future of Nigerian SMEs depends on our willingness to change.
+
+INTERVIEWER: Thank you for your inspiring story, Mrs. Adeleke.
+
+FUNKE: Thank you for listening. Please share our story. Maybe it will encourage someone else to take the innovation leap.
+
+[END OF TRANSCRIPT]
+
+Post-Interview Notes:
+- Participant emphasized gender-specific challenges in accessing finance and support
+- Strong focus on inclusive innovation that brings traditional farmers along
+- Clear evidence of ecosystem transformation beyond just the company
+- Innovation adoption driven by crisis and competition
+- Impressive ROI despite high initial costs and cultural resistance

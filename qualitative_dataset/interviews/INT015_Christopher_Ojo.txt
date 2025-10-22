@@ -1,0 +1,84 @@
+INTERVIEW TRANSCRIPT
+=====================
+Participant ID: INT015
+Name: Christopher Ojo
+Company: Export Connect Ltd
+Date: September 29, 2024
+Duration: 46 minutes
+Location: Lagos, Nigeria
+
+[START OF TRANSCRIPT]
+
+INTERVIEWER: Good morning, Mr. Ojo. Thank you for sharing your innovation experience in the export trading sector. May I record?
+
+CHRISTOPHER: Good morning. Yes, please record. The export sector needs more visibility on how technology can transform operations.
+
+INTERVIEWER: Tell me about Export Connect Ltd.
+
+CHRISTOPHER: We've been operating for nine years, facilitating agricultural exports - cashews, sesame seeds, shea butter, cocoa - to international markets. We work with over 500 smallholder farmers and cooperatives, aggregating, processing, and exporting their produce. We employ 29 full-time staff and seasonal workers during harvest.
+
+I'm the founder and CEO, but I'm very involved in operations, especially our technology initiatives.
+
+INTERVIEWER: What prompted you to develop a digital trade platform?
+
+CHRISTOPHER: The inefficiencies were killing us and our farmers. Picture this: I'd physically travel to farms to inspect produce, negotiate prices on paper, coordinate trucks via phone calls, manage documentation in filing cabinets. One mistake in paperwork could hold up a container at the port for weeks, costing millions.
+
+The breaking point was in 2022. We had a shipment of cashews worth $500,000 stuck at Apapa port for three weeks because of documentation errors. The buyer cancelled, we lost the contract, and some farmers didn't get paid for months. I knew we had to digitize or die.
+
+INTERVIEWER: How did you approach building the digital platform?
+
+CHRISTOPHER: We started by mapping every process - from farmer registration to final payment. Eye-opening exercise! We discovered we were duplicating efforts, losing information, and creating unnecessary bottlenecks.
+
+We partnered with a local software company, but I insisted our operations team be involved in design. Too many tech solutions fail because they're built in isolation from actual users. We spent four months just on system design and user experience.
+
+Implementation was phased. First, we digitized farmer registration and produce tracking. Then quality control and certification management. Then logistics and shipping documentation. Finally, payments and financial reconciliation. Each phase took about two months.
+
+INTERVIEWER: What were the major challenges?
+
+CHRISTOPHER: Farmer adoption was brutal. Many don't have smartphones or can't read English. We had to develop a USSD system and hire field agents with tablets to interface between farmers and the platform. Added cost we didn't budget for.
+
+Integration with government systems was a nightmare. NEPC, Customs, NAQS - they all have different systems that don't talk to each other. We basically had to build bridges between incompatible systems.
+
+Trust was huge. Farmers thought we were trying to cheat them with "computer calculations." Some insisted on paper receipts even after digital payments. We ran dual systems for a year, expensive and frustrating.
+
+Internet connectivity in rural areas meant our platform had to work offline and sync when connected. That architectural decision saved us but complicated development significantly.
+
+INTERVIEWER: How has the platform impacted your business?
+
+CHRISTOPHER: Revolutionary! We can now trace every kilogram from farm to ship. Documentation that took 2 weeks now takes 2 days. We've reduced post-harvest losses by 30% through better coordination.
+
+Revenue grew 150% in two years because we can handle more volume efficiently. More importantly, we can guarantee traceability and quality to international buyers, commanding premium prices. Our rejection rate at destination ports dropped from 5% to less than 0.5%.
+
+Farmer payments now happen within 48 hours of delivery, compared to 2-3 weeks before. This built tremendous trust and loyalty. We now have farmers calling us instead of us chasing them.
+
+INTERVIEWER: Were there unexpected outcomes?
+
+CHRISTOPHER: Our data became incredibly valuable. We can predict harvest volumes, optimize logistics routes, and even provide market intelligence to farmers about what to plant. The Nigerian Export Promotion Council now uses our data for policy planning.
+
+Negative surprise - cyber attacks increased. Competitors tried to hack our farmer database. We had to invest heavily in cybersecurity, which wasn't in our original budget.
+
+Another unexpected outcome: we became a informal bank. Farmers started asking us to hold their money digitally since they trust our platform more than rural banks. We're now exploring becoming a licensed payment service provider.
+
+INTERVIEWER: What support did you receive?
+
+CHRISTOPHER: USADF provided a grant for the initial platform development. The Nigerian Export Promotion Council helped with training on international trade documentation. GIZ supported our farmer digital literacy programs.
+
+But honestly, most support came from private sector partnerships. Microsoft provided discounted cloud services, Flutterwave integrated payment solutions, and DHL gave us preferential rates for documentation handling.
+
+INTERVIEWER: What advice would you give other export SMEs?
+
+CHRISTOPHER: Start with the end-user - whether it's farmers or buyers, design for them. Technology should simplify, not complicate. Don't try to build everything yourself. Use existing solutions where possible and focus your innovation on what makes you unique.
+
+Document everything digitally from day one. The ability to provide instant traceability and documentation is becoming mandatory for international trade. Most importantly, invest in digital literacy for your entire value chain. A platform is useless if people can't use it.
+
+INTERVIEWER: What's next for Export Connect?
+
+CHRISTOPHER: Blockchain for supply chain transparency is our next frontier. European buyers increasingly demand proof of sustainable and ethical sourcing. Blockchain can provide immutable records from farm to table.
+
+We're also exploring trade finance solutions. Many SME exporters can't access letters of credit. We want to use our transaction data to facilitate trade financing for verified exporters.
+
+INTERVIEWER: Thank you for your insights, Mr. Ojo.
+
+CHRISTOPHER: Thank you. Digital transformation in export trading isn't optional anymore - it's survival.
+
+[END OF TRANSCRIPT]

@@ -1,0 +1,289 @@
+{
+  "performance_metrics": {
+    "financial_impact": {
+      "revenue_growth": {
+        "mean": 45.2,
+        "median": 42.5,
+        "range": [20, 200],
+        "unit": "percentage",
+        "timeframe": "2 years post-innovation"
+      },
+      "profit_margin_improvement": {
+        "mean": 10.5,
+        "median": 9.0,
+        "range": [5, 28],
+        "unit": "percentage points"
+      },
+      "roi_on_innovation": {
+        "mean": 160,
+        "median": 140,
+        "range": [80, 280],
+        "unit": "percentage",
+        "timeframe": "by year 2"
+      },
+      "operational_cost_reduction": {
+        "mean": 22.5,
+        "median": 20,
+        "range": [15, 40],
+        "unit": "percentage"
+      }
+    },
+    "operational_impact": {
+      "productivity_increase": {
+        "mean": 225,
+        "median": 200,
+        "range": [150, 400],
+        "unit": "percentage"
+      },
+      "quality_defect_reduction": {
+        "mean": 85,
+        "median": 82,
+        "range": [70, 95],
+        "unit": "percentage"
+      },
+      "process_time_reduction": {
+        "mean": 65,
+        "median": 62,
+        "range": [40, 80],
+        "unit": "percentage"
+      },
+      "capacity_utilization": {
+        "before_innovation": 58,
+        "after_innovation": 83,
+        "improvement": 25,
+        "unit": "percentage"
+      }
+    },
+    "market_impact": {
+      "customer_base_growth": {
+        "mean": 520,
+        "median": 400,
+        "range": [200, 1000],
+        "unit": "percentage"
+      },
+      "geographic_expansion": {
+        "local_only_before": 68,
+        "national_reach_after": 45,
+        "international_reach_after": 23,
+        "unit": "percentage of SMEs"
+      },
+      "new_service_lines": {
+        "mean": 3.5,
+        "median": 3,
+        "range": [2, 6],
+        "unit": "number of new services"
+      },
+      "customer_satisfaction": {
+        "before": 7.1,
+        "after": 8.6,
+        "improvement": 1.5,
+        "unit": "score out of 10"
+      }
+    }
+  },
+  "innovation_costs": {
+    "initial_investment": {
+      "technology": {
+        "mean": 35000000,
+        "median": 25000000,
+        "range": [5000000, 85000000],
+        "currency": "NGN"
+      },
+      "training": {
+        "mean": 8000000,
+        "median": 5000000,
+        "range": [2000000, 20000000],
+        "currency": "NGN"
+      },
+      "infrastructure": {
+        "mean": 15000000,
+        "median": 12000000,
+        "range": [5000000, 30000000],
+        "currency": "NGN"
+      },
+      "consulting": {
+        "mean": 5000000,
+        "median": 3000000,
+        "range": [1000000, 15000000],
+        "currency": "NGN"
+      }
+    },
+    "hidden_costs_factor": {
+      "actual_vs_budget": 2.1,
+      "description": "Actual costs averaged 2.1x initial budget"
+    },
+    "ongoing_costs": {
+      "subscriptions": {
+        "mean_annual": 3600000,
+        "currency": "NGN"
+      },
+      "maintenance": {
+        "mean_annual": 4800000,
+        "currency": "NGN"
+      },
+      "continuous_training": {
+        "mean_annual": 2400000,
+        "currency": "NGN"
+      }
+    }
+  },
+  "implementation_timeline": {
+    "planning_phase": {
+      "mean_duration": 3.2,
+      "unit": "months"
+    },
+    "pilot_phase": {
+      "mean_duration": 2.8,
+      "unit": "months"
+    },
+    "rollout_phase": {
+      "mean_duration": 4.5,
+      "unit": "months"
+    },
+    "optimization_phase": {
+      "mean_duration": 6.0,
+      "unit": "months"
+    },
+    "total_implementation": {
+      "mean": 16.5,
+      "median": 15,
+      "range": [8, 24],
+      "unit": "months"
+    }
+  },
+  "success_factors_correlation": {
+    "phased_implementation": {
+      "success_rate": 75,
+      "vs_big_bang": 40,
+      "unit": "percentage"
+    },
+    "change_management_investment": {
+      "high_investment_success": 82,
+      "low_investment_success": 35,
+      "threshold": "30% of innovation budget"
+    },
+    "employee_involvement": {
+      "early_involvement_success": 78,
+      "late_involvement_success": 42,
+      "unit": "percentage"
+    },
+    "external_support": {
+      "with_support_success": 71,
+      "without_support_success": 48,
+      "unit": "percentage"
+    }
+  },
+  "barrier_severity_index": {
+    "power_supply": 9.2,
+    "access_to_finance": 8.8,
+    "skills_gap": 8.5,
+    "regulatory_uncertainty": 7.9,
+    "internet_connectivity": 7.6,
+    "resistance_to_change": 7.4,
+    "market_readiness": 6.8,
+    "maintenance_support": 6.5,
+    "scale": "1-10 severity"
+  },
+  "sector_performance": {
+    "technology": {
+      "innovation_adoption_rate": 78,
+      "average_roi": 180,
+      "main_constraint": "talent retention"
+    },
+    "agribusiness": {
+      "innovation_adoption_rate": 45,
+      "average_roi": 140,
+      "main_constraint": "rural infrastructure"
+    },
+    "manufacturing": {
+      "innovation_adoption_rate": 56,
+      "average_roi": 165,
+      "main_constraint": "power supply"
+    },
+    "financial_services": {
+      "innovation_adoption_rate": 72,
+      "average_roi": 195,
+      "main_constraint": "regulatory compliance"
+    },
+    "retail": {
+      "innovation_adoption_rate": 52,
+      "average_roi": 135,
+      "main_constraint": "customer adoption"
+    }
+  },
+  "gender_disparities": {
+    "access_to_finance": {
+      "male_approval_rate": 68,
+      "female_approval_rate": 41,
+      "gap": 27,
+      "unit": "percentage"
+    },
+    "average_loan_amount": {
+      "male": 45000000,
+      "female": 28000000,
+      "gap": 17000000,
+      "currency": "NGN"
+    },
+    "innovation_success_rate": {
+      "male_led": 64,
+      "female_led": 71,
+      "unit": "percentage",
+      "note": "Female-led SMEs show higher success despite barriers"
+    }
+  },
+  "support_effectiveness": {
+    "government_programs": {
+      "awareness": 72,
+      "access": 34,
+      "satisfaction": 42,
+      "unit": "percentage"
+    },
+    "bank_financing": {
+      "application_success": 28,
+      "average_interest_rate": 22.5,
+      "processing_time": 4.2,
+      "time_unit": "months"
+    },
+    "development_partners": {
+      "reach": 18,
+      "satisfaction": 76,
+      "sustainability": 45,
+      "unit": "percentage"
+    },
+    "private_sector": {
+      "mentorship_availability": 31,
+      "market_linkage": 38,
+      "technology_transfer": 25,
+      "unit": "percentage"
+    }
+  },
+  "future_innovation_plans": {
+    "artificial_intelligence": 72,
+    "blockchain": 56,
+    "iot_sensors": 64,
+    "cloud_computing": 81,
+    "renewable_energy": 69,
+    "automation": 75,
+    "unit": "percentage planning adoption"
+  },
+  "data_collection_metadata": {
+    "sample_size": {
+      "interviews": 25,
+      "focus_groups": 6,
+      "total_participants": 67
+    },
+    "geographic_coverage": [
+      "Lagos",
+      "Abuja",
+      "Ibadan",
+      "Aba",
+      "Kano",
+      "Port Harcourt",
+      "Enugu",
+      "Others"
+    ],
+    "sectors_covered": 12,
+    "collection_period": "September-October 2024",
+    "analysis_method": "Thematic analysis with grounded theory approach"
+  }
+}
