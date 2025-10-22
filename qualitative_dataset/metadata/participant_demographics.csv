@@ -1,0 +1,26 @@
+Participant_ID,Name,Age,Gender,Education,Business_Sector,Business_Size,Years_in_Business,Location,Annual_Revenue_NGN,Innovation_Level,Interview_Date,Duration_Minutes
+P001,Adebayo Okonkwo,42,Male,Bachelor's,Technology,Medium,8,Lagos,45000000,High,2024-03-15,65
+P002,Fatima Hassan,38,Female,Master's,Agribusiness,Small,5,Kano,12000000,Medium,2024-03-18,58
+P003,Chinedu Okoro,45,Male,Diploma,Manufacturing,Medium,12,Onitsha,38000000,High,2024-03-20,72
+P004,Aisha Bello,35,Female,Bachelor's,Fashion,Small,4,Abuja,8500000,Low,2024-03-22,45
+P005,Emeka Nwosu,50,Male,Master's,Fintech,Large,15,Lagos,125000000,Very High,2024-03-25,85
+P006,Kemi Adeyemi,33,Female,Bachelor's,Food Processing,Small,6,Ibadan,15000000,Medium,2024-03-27,52
+P007,Ibrahim Musa,41,Male,Secondary,Transportation,Medium,9,Kaduna,22000000,Low,2024-03-29,48
+P008,Ngozi Okafor,39,Female,Master's,Healthcare,Medium,7,Enugu,28000000,High,2024-04-02,68
+P009,Yusuf Abdullahi,44,Male,Bachelor's,Agriculture,Large,11,Sokoto,55000000,Medium,2024-04-05,61
+P010,Blessing Eze,29,Female,Bachelor's,E-commerce,Small,3,Port Harcourt,9200000,High,2024-04-08,56
+P011,Olumide Adebisi,47,Male,Diploma,Construction,Medium,13,Lagos,42000000,Medium,2024-04-10,59
+P012,Hauwa Garba,36,Female,Bachelor's,Education Tech,Small,5,Abuja,11000000,High,2024-04-12,63
+P013,Chioma Obi,41,Female,Master's,Cosmetics,Medium,8,Lagos,31000000,Medium,2024-04-15,54
+P014,Suleiman Ahmad,52,Male,Bachelor's,Logistics,Large,16,Kano,78000000,High,2024-04-17,76
+P015,Funmi Ogundimu,34,Female,Bachelor's,Digital Marketing,Small,4,Ibadan,7800000,High,2024-04-19,49
+P016,Tunde Bakare,43,Male,Diploma,Automotive,Medium,10,Lagos,35000000,Low,2024-04-22,51
+P017,Amina Sani,37,Female,Master's,Renewable Energy,Medium,6,Abuja,26000000,Very High,2024-04-24,71
+P018,Chukwu Okwu,46,Male,Bachelor's,Retail,Medium,11,Onitsha,33000000,Medium,2024-04-26,57
+P019,Zainab Usman,32,Female,Bachelor's,Hospitality,Small,5,Lagos,13500000,Medium,2024-04-29,53
+P020,Biodun Alabi,48,Male,Master's,Pharmaceuticals,Large,14,Lagos,92000000,High,2024-05-02,79
+P021,Maryam Aliyu,31,Female,Bachelor's,Textiles,Small,4,Kano,10200000,Low,2024-05-05,46
+P022,Ikechukwu Nnaji,40,Male,Diploma,Real Estate,Medium,9,Abuja,41000000,Medium,2024-05-07,62
+P023,Folake Adebayo,35,Female,Master's,Consulting,Small,6,Lagos,16800000,High,2024-05-10,66
+P024,Garba Mohammed,49,Male,Bachelor's,Mining,Large,12,Jos,67000000,Low,2024-05-12,55
+P025,Chidinma Ugwu,28,Female,Bachelor's,Media & Entertainment,Small,3,Lagos,8900000,High,2024-05-15,58

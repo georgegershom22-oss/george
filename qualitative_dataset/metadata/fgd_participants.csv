@@ -1,0 +1,25 @@
+FGD_ID,Participant_ID,Name,Age,Gender,Education,Business_Sector,Business_Size,Years_in_Business,Location,Annual_Revenue_NGN,Innovation_Level,Role_in_Business
+FGD01,FGD01_P1,Kemi Adebayo,34,Female,Bachelor's,Software Development,Small,7,Lagos,18000000,High,Founder/CEO
+FGD01,FGD01_P2,Chidi Okafor,41,Male,Master's,Cybersecurity Services,Medium,9,Lagos,32000000,Very High,Managing Director
+FGD01,FGD01_P3,Aisha Bello,29,Female,Bachelor's,Mobile App Development,Small,4,Lagos,12000000,High,Co-founder
+FGD01,FGD01_P4,Emeka Nwosu,38,Male,Master's,IT Consulting,Medium,11,Lagos,28000000,High,Founder/CTO
+FGD01,FGD01_P5,Fatima Hassan,35,Female,Master's,EdTech Platform,Small,6,Lagos,16000000,High,CEO
+FGD01,FGD01_P6,Biodun Alabi,42,Male,Bachelor's,Cloud Services,Medium,8,Lagos,35000000,Very High,Founder
+FGD01,FGD01_P7,Ngozi Eze,31,Female,Bachelor's,Digital Marketing,Small,5,Lagos,14000000,Medium,Managing Partner
+FGD01,FGD01_P8,Yusuf Abdullahi,39,Male,Master's,Fintech Solutions,Medium,7,Lagos,45000000,Very High,Co-founder/CTO
+FGD02,FGD02_P1,Fatima Hassan,38,Female,Master's,Organic Farming,Small,5,Kano,12000000,Medium,Owner/Manager
+FGD02,FGD02_P2,Musa Garba,45,Male,Diploma,Livestock & Dairy,Medium,12,Kano,25000000,Medium,Proprietor
+FGD02,FGD02_P3,Hauwa Abdullahi,33,Female,Bachelor's,Grain Trading,Small,8,Kano,18000000,Low,Managing Director
+FGD02,FGD02_P4,Suleiman Ahmad,52,Male,Bachelor's,Agricultural Equipment,Large,16,Kano,78000000,High,CEO
+FGD02,FGD02_P5,Zainab Usman,29,Female,Bachelor's,Poultry Production,Small,4,Kano,9500000,Medium,Owner
+FGD02,FGD02_P6,Garba Mohammed,49,Male,Diploma,Irrigation Systems,Medium,11,Kano,22000000,High,Founder
+FGD02,FGD02_P7,Amina Sani,35,Female,Master's,Food Processing,Medium,6,Kano,26000000,Very High,CEO
+FGD02,FGD02_P8,Yusuf Musa,41,Male,Bachelor's,Agricultural Inputs,Medium,9,Kano,19000000,Medium,General Manager
+FGD03,FGD03_P1,Chinedu Okoro,45,Male,Bachelor's,Plastic Manufacturing,Medium,12,Onitsha,38000000,High,Managing Director
+FGD03,FGD03_P2,Ngozi Okafor,39,Female,Master's,Textile Production,Medium,7,Onitsha,28000000,High,CEO
+FGD03,FGD03_P3,Ikechukwu Nnaji,40,Male,Diploma,Metal Fabrication,Medium,9,Onitsha,31000000,Medium,Proprietor
+FGD03,FGD03_P4,Chioma Obi,41,Female,Master's,Cosmetics Manufacturing,Medium,8,Onitsha,24000000,Medium,Founder/CEO
+FGD03,FGD03_P5,Emeka Nwosu,38,Male,Bachelor's,Food Processing,Small,6,Onitsha,15000000,Medium,Owner
+FGD03,FGD03_P6,Chidinma Ugwu,28,Female,Bachelor's,Fashion & Garment,Small,3,Onitsha,8900000,High,Creative Director
+FGD03,FGD03_P7,Tunde Bakare,43,Male,Diploma,Automotive Parts,Medium,10,Onitsha,35000000,Low,Managing Partner
+FGD03,FGD03_P8,Blessing Eze,29,Female,Bachelor's,Pharmaceutical Manufacturing,Small,4,Onitsha,11000000,High,Founder

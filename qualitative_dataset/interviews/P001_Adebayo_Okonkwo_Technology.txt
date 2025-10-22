@@ -1,0 +1,93 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+Participant: P001 - Adebayo Okonkwo
+Business: TechSolve Nigeria (Software Development)
+Date: March 15, 2024
+Duration: 65 minutes
+Location: Lagos, Nigeria
+Interviewer: Dr. Sarah Okeke
+
+[INNOVATION JOURNEY]
+
+Interviewer: Tell me the story of when you decided to adopt cloud computing technology for your business.
+
+Adebayo: Ah, that's a story! You know, back in 2019, we were still running everything on physical servers in our small office in Ikeja. The electricity situation was killing us - NEPA would take light, and our servers would go down. Our clients were getting frustrated because their applications would be offline for hours.
+
+I remember the exact moment. We had this major client, a bank, and their system went down during a critical transaction period. They threatened to terminate our contract. That night, I couldn't sleep. I kept thinking, "There has to be a better way."
+
+My younger brother, who works in tech in the US, had been telling me about cloud services - AWS, Microsoft Azure. But honestly, I was scared. The costs seemed high, and I didn't understand how it worked. Plus, there were all these concerns about data security and whether our internet infrastructure could handle it.
+
+Interviewer: What were the biggest hurdles you faced in making this transition?
+
+Adebayo: Oh boy, where do I start? First was the knowledge gap. None of my staff, including myself, really understood cloud architecture. We were used to physical servers where you could touch and see everything. The cloud felt... abstract.
+
+Second was the cost structure. Instead of buying servers once and using them for years, now we had to pay monthly. My accountant was worried about cash flow. "What if we can't pay one month?" he kept asking.
+
+Third - and this was huge - was the internet connectivity. You know how our internet can be in Nigeria. Some days fast, some days crawling. We were worried about latency issues affecting our applications.
+
+But the biggest hurdle was actually internal resistance. My senior developer, Kunle, was completely against it. He said, "Oga, why should we trust our data to some American company? What if they decide to shut us down?" He had a point, but I knew we had to evolve.
+
+Interviewer: How did you navigate these challenges?
+
+Adebayo: Step by step, my brother. First, I invested in training. I sent Kunle and two other developers to a three-day AWS workshop in Lagos. Cost me almost 500,000 naira, but it was worth it. When they came back, their whole perspective changed.
+
+For the internet issue, we got a dedicated fiber connection and a backup from a different ISP. Yes, it was expensive, but downtime was costing us more.
+
+For the cost concern, I did a detailed analysis. When I factored in electricity costs, server maintenance, security, and the cost of downtime, the cloud actually made financial sense.
+
+The resistance issue... that took time. I started small. We migrated one non-critical application first as a pilot. When the team saw how smoothly it ran, how we could scale resources up and down based on demand, they started to believe.
+
+Interviewer: How did this adoption specifically affect your sales, costs, and customer relationships?
+
+Adebayo: The transformation was remarkable. Within six months, our uptime improved from about 85% to 99.5%. That alone saved us from losing three major clients.
+
+Sales-wise, we could now pitch to bigger clients because we could guarantee reliability and scalability. Before, if a client needed us to handle 10,000 concurrent users, I would panic. Now, I just scale up the cloud resources. We landed a contract with the Lagos State government worth 15 million naira because of this capability.
+
+Cost-wise, it was interesting. Our monthly operational costs actually increased initially - from about 800,000 naira to 1.2 million naira. But our revenue grew by 40% in the first year because we could take on more projects and bigger clients.
+
+Customer relationships improved dramatically. No more embarrassing calls about system downtime. We could offer 24/7 support because our systems were always accessible. One client told me, "Adebayo, you guys have become more professional. We can rely on you now."
+
+Interviewer: What role did government policies or support play in your innovation journey?
+
+Adebayo: Honestly? Very minimal. The government talks about digital transformation, but there's little practical support. The only help we got was through the Bank of Industry's MSME fund, which gave us a low-interest loan that helped with the initial setup costs.
+
+What would have helped is if the government had subsidized training programs or created tax incentives for technology adoption. Instead, we're dealing with multiple taxation and poor infrastructure.
+
+The CBN's cashless policy actually helped indirectly because it forced more businesses to go digital, creating more demand for our services.
+
+Interviewer: What advice would you give to other SMEs considering similar innovations?
+
+Adebayo: Start small, but start. Don't wait until you have all the money or knowledge. Begin with a pilot project. Invest in training your team - it's not optional. And most importantly, calculate the true cost of not innovating. For us, staying with physical servers would have meant losing clients and limiting our growth.
+
+Also, find a mentor or consultant who has done it before. I wish I had done that earlier. It would have saved us months of trial and error.
+
+[ADDITIONAL INSIGHTS]
+
+Interviewer: How has this innovation affected your competitive position?
+
+Adebayo: We went from being just another small software company to being seen as a serious player. We can now compete with bigger firms because our infrastructure is just as robust. In fact, sometimes better, because we're more agile.
+
+We've also started offering cloud migration services to other SMEs. It's become a new revenue stream worth about 3 million naira annually.
+
+Interviewer: Any unexpected challenges or benefits?
+
+Adebayo: Unexpected challenge: Data compliance. When we started working with international clients, we had to understand GDPR and other regulations. The cloud providers helped, but it was a learning curve.
+
+Unexpected benefit: Remote work capability. When COVID hit in 2020, we were already set up for remote work because everything was in the cloud. While other companies struggled, we actually grew during the pandemic.
+
+Also, the analytics and monitoring tools in the cloud gave us insights into our applications that we never had before. We could optimize performance in ways we never imagined.
+
+Interviewer: Looking forward, what's next for your innovation journey?
+
+Adebayo: We're now looking at AI and machine learning services. AWS has these pre-built ML models that we can integrate into our applications. We're already working on a prototype for predictive analytics for one of our retail clients.
+
+The key lesson I've learned is that innovation is not a one-time thing. It's continuous. You have to keep evolving or you'll be left behind.
+
+[END OF INTERVIEW]
+
+Interviewer Notes:
+- Participant was very open and detailed in responses
+- Clear progression from problem identification to solution implementation
+- Strong emphasis on practical challenges and solutions
+- Good example of successful technology adoption despite initial resistance
+- Demonstrates clear ROI and business impact
+- Highlights infrastructure and policy challenges in Nigerian context
