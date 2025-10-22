@@ -1,0 +1,124 @@
+{
+  "dataset_overview": {
+    "title": "Nigerian SME Innovation Adoption Dataset",
+    "description": "Comprehensive dataset for analyzing innovation adoption and constraints in Nigerian SMEs",
+    "time_period": "2015-2023",
+    "total_records": "~45,000 SME-year observations",
+    "geographic_scope": "36 Nigerian states + FCT",
+    "sectors_covered": 15
+  },
+  "files": {
+    "macroeconomic_indicators.csv": {
+      "description": "National macroeconomic indicators",
+      "variables": [
+        "year",
+        "gdp_growth_rate",
+        "inflation_rate",
+        "lending_rate",
+        "ease_of_doing_business_index"
+      ],
+      "records": 9
+    },
+    "broadband_penetration_by_state.csv": {
+      "description": "Broadband penetration rates by state and year",
+      "variables": [
+        "year",
+        "state",
+        "broadband_penetration_rate"
+      ],
+      "records": 333
+    },
+    "sectoral_growth_rates.csv": {
+      "description": "Growth rates by economic sector",
+      "variables": [
+        "year",
+        "sector",
+        "growth_rate"
+      ],
+      "records": 135
+    },
+    "technology_adoption_indices.csv": {
+      "description": "Technology adoption metrics at national level",
+      "variables": [
+        "year",
+        "mobile_money_adoption_rate",
+        "fintech_adoption_rate",
+        "ict_development_index",
+        "ecommerce_adoption_rate",
+        "digital_banking_penetration"
+      ],
+      "records": 9
+    },
+    "sme_innovation_adoption.csv": {
+      "description": "SME-level innovation adoption and performance data",
+      "variables": [
+        "sme_id",
+        "year",
+        "state",
+        "sector",
+        "size_category",
+        "annual_revenue_ngn",
+        "innovations_adopted",
+        "innovation_intensity",
+        "constraints_faced",
+        "constraint_severity",
+        "revenue_growth_rate",
+        "profitability_rate",
+        "employee_growth_rate",
+        "digital_readiness_score",
+        "access_to_finance",
+        "government_support",
+        "num_employees",
+        "years_in_operation",
+        "export_orientation",
+        "formal_registration"
+      ],
+      "records": "~45,000"
+    },
+    "consolidated_sme_innovation_dataset.csv": {
+      "description": "Consolidated dataset with all features for ML analysis",
+      "variables": "All SME variables + macroeconomic + broadband + sectoral + technology adoption + derived features",
+      "records": "~45,000"
+    }
+  },
+  "variable_definitions": {
+    "sme_id": "Unique identifier for each SME",
+    "year": "Year of observation (2015-2023)",
+    "state": "Nigerian state where SME is located",
+    "sector": "Economic sector of the SME",
+    "size_category": "SME size classification (Micro/Small/Medium)",
+    "annual_revenue_ngn": "Annual revenue in Nigerian Naira",
+    "innovations_adopted": "Semicolon-separated list of adopted innovations",
+    "innovation_intensity": "Proportion of available innovations adopted (0-1)",
+    "constraints_faced": "Semicolon-separated list of constraints faced",
+    "constraint_severity": "Average severity of constraints (1-5 scale)",
+    "revenue_growth_rate": "Year-over-year revenue growth rate (%)",
+    "profitability_rate": "Profit margin as percentage of revenue",
+    "employee_growth_rate": "Year-over-year employee growth rate (%)",
+    "digital_readiness_score": "Digital readiness assessment (1-5 scale)",
+    "access_to_finance": "Ease of accessing finance (Easy/Moderate/Difficult/Very Difficult)",
+    "government_support": "Level of government support received",
+    "gdp_growth_rate": "National GDP growth rate (%)",
+    "inflation_rate": "National inflation rate (%)",
+    "lending_rate": "Commercial bank lending rate (%)",
+    "broadband_penetration_rate": "Broadband penetration rate by state (%)",
+    "growth_rate": "Sectoral growth rate (%)",
+    "mobile_money_adoption_rate": "National mobile money adoption rate (%)",
+    "fintech_adoption_rate": "National FinTech adoption rate (%)",
+    "ict_development_index": "ITU ICT Development Index (0-10 scale)",
+    "innovation_adoption_binary": "Binary indicator of innovation adoption (0/1)",
+    "high_performer": "Binary indicator of high performance (0/1)",
+    "constraint_count": "Number of constraints faced",
+    "innovation_count": "Number of innovations adopted"
+  },
+  "research_applications": [
+    "Machine learning classification of innovation adoption patterns",
+    "Regression analysis of factors affecting SME performance",
+    "Clustering analysis of SME innovation strategies",
+    "Time series analysis of technology adoption trends",
+    "Geographic analysis of innovation diffusion",
+    "Sectoral analysis of innovation adoption barriers",
+    "Predictive modeling of SME growth trajectories",
+    "Policy impact assessment of government interventions"
+  ]
+}
