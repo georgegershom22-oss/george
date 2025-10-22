@@ -1,0 +1,910 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigerian SME Innovation Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #16a085;
+            margin-top: 20px;
+        }
+        .intro {
+            background-color: #e8f8f5;
+            padding: 15px;
+            border-left: 4px solid #16a085;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 3px solid #3498db;
+            background-color: #f8f9fa;
+        }
+        .question-number {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        .likert-scale {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .scale-label {
+            display: inline-block;
+            margin-right: 15px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            border-top: 2px solid #bdc3c7;
+            padding-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        .consent {
+            background-color: #fff3cd;
+            border: 2px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>NIGERIAN SME INNOVATION ADOPTION SURVEY</h1>
+    
+    <div class="intro">
+        <h3>Research Title:</h3>
+        <p><strong>Leveraging Machine Learning to Examine Innovation Adoption and Constraints in Nigerian SMEs: Implications for Performance and Growth</strong></p>
+        
+        <h3>Purpose:</h3>
+        <p>This survey aims to understand how Nigerian SMEs adopt innovation and the challenges they face. Your responses will help develop policies and programs to support SME growth.</p>
+        
+        <h3>Confidentiality:</h3>
+        <p>All information provided will be kept strictly confidential and used only for academic research purposes. Your firm will remain anonymous in all reports.</p>
+        
+        <h3>Time Required:</h3>
+        <p>Approximately 20-25 minutes</p>
+    </div>
+    
+    <div class="consent">
+        <h3>INFORMED CONSENT</h3>
+        <p>By completing this survey, you confirm that:</p>
+        <ul>
+            <li>You have read and understood the purpose of this research</li>
+            <li>Your participation is voluntary and you may withdraw at any time</li>
+            <li>You consent to the use of your responses for academic research</li>
+        </ul>
+        <label>
+            <input type="checkbox" name="consent" required>
+            <strong>I consent to participate in this survey</strong>
+        </label>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION A: FIRMOGRAPHICS & MANAGERIAL CHARACTERISTICS -->
+    <!-- ========================================================================= -->
+    
+    <h2>SECTION A: FIRM & OWNER/MANAGER INFORMATION</h2>
+    
+    <div class="question">
+        <span class="question-number">A1.</span> <strong>State where your firm is primarily located:</strong><br>
+        <input type="text" name="state" style="width: 300px;">
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A2.</span> <strong>Is your firm located in:</strong><br>
+        <label><input type="radio" name="location_type" value="urban"> Urban area</label><br>
+        <label><input type="radio" name="location_type" value="rural"> Rural area</label>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A3.</span> <strong>Primary industry/sector:</strong><br>
+        <select name="industry" style="width: 300px;">
+            <option value="">-- Select Industry --</option>
+            <option value="manufacturing">Manufacturing</option>
+            <option value="retail">Retail Trade</option>
+            <option value="wholesale">Wholesale Trade</option>
+            <option value="it">Information Technology</option>
+            <option value="professional">Professional Services</option>
+            <option value="food">Food Services</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="construction">Construction</option>
+            <option value="transport">Transportation</option>
+            <option value="hospitality">Hospitality</option>
+            <option value="education">Education Services</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="finance">Financial Services</option>
+            <option value="realestate">Real Estate</option>
+            <option value="creative">Creative Industries</option>
+            <option value="other">Other (please specify)</option>
+        </select>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A4.</span> <strong>How many years has your firm been in operation?</strong><br>
+        <input type="number" name="firm_age" min="0" max="100" style="width: 100px;"> years
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A5.</span> <strong>Number of full-time employees:</strong><br>
+        <input type="number" name="employees" min="1" style="width: 100px;"> employees
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A6.</span> <strong>Approximate annual turnover (in Naira):</strong><br>
+        <select name="turnover" style="width: 300px;">
+            <option value="">-- Select Range --</option>
+            <option value="1">Less than ₦1 million</option>
+            <option value="2">₦1 - ₦10 million</option>
+            <option value="3">₦10 - ₦50 million</option>
+            <option value="4">₦50 - ₦100 million</option>
+            <option value="5">₦100 - ₦500 million</option>
+            <option value="6">Above ₦500 million</option>
+        </select>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A7.</span> <strong>Legal structure of your firm:</strong><br>
+        <label><input type="radio" name="legal_structure" value="sole"> Sole Proprietorship</label><br>
+        <label><input type="radio" name="legal_structure" value="partnership"> Partnership</label><br>
+        <label><input type="radio" name="legal_structure" value="llc"> Limited Liability Company</label>
+    </div>
+    
+    <h3>Owner/Manager Profile</h3>
+    
+    <div class="question">
+        <span class="question-number">A8.</span> <strong>Your age:</strong>
+        <input type="number" name="owner_age" min="18" max="100" style="width: 100px;"> years
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A9.</span> <strong>Gender:</strong><br>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Prefer not to say</label>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A10.</span> <strong>Highest level of education:</strong><br>
+        <label><input type="radio" name="education" value="secondary"> Secondary/SSCE</label><br>
+        <label><input type="radio" name="education" value="ond"> OND/NCE</label><br>
+        <label><input type="radio" name="education" value="bachelor"> HND/Bachelor's Degree</label><br>
+        <label><input type="radio" name="education" value="postgrad"> Postgraduate (Master's/PhD)</label>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A11.</span> <strong>Field of study:</strong>
+        <input type="text" name="field_study" style="width: 300px;">
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A12.</span> <strong>Years of prior entrepreneurial experience (before this business):</strong>
+        <input type="number" name="prior_experience" min="0" style="width: 100px;"> years
+    </div>
+    
+    <div class="question">
+        <span class="question-number">A13.</span> <strong>Rate your digital literacy (comfort with computers, internet, digital tools):</strong><br>
+        <div class="likert-scale">
+            1 (Very Low)
+            <input type="radio" name="digital_literacy" value="1"> 
+            <input type="radio" name="digital_literacy" value="2"> 
+            <input type="radio" name="digital_literacy" value="3"> 
+            <input type="radio" name="digital_literacy" value="4"> 
+            <input type="radio" name="digital_literacy" value="5"> 
+            <input type="radio" name="digital_literacy" value="6"> 
+            <input type="radio" name="digital_literacy" value="7"> 
+            <input type="radio" name="digital_literacy" value="8"> 
+            <input type="radio" name="digital_literacy" value="9"> 
+            <input type="radio" name="digital_literacy" value="10">
+            10 (Very High)
+        </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION B: INNOVATION ADOPTION -->
+    <!-- ========================================================================= -->
+    
+    <h2>SECTION B: INNOVATION ADOPTION</h2>
+    
+    <p><strong>Instructions:</strong> For the following questions, please indicate your level of agreement using the scale:</p>
+    <p style="text-align: center;">
+        <strong>1 = Strongly Disagree | 2 = Disagree | 3 = Neutral | 4 = Agree | 5 = Strongly Agree</strong>
+    </p>
+    
+    <h3>B1: Technological Innovation - Digital Tools</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We extensively use computers in our business operations</td>
+            <td><input type="radio" name="tech_computers" value="1"></td>
+            <td><input type="radio" name="tech_computers" value="2"></td>
+            <td><input type="radio" name="tech_computers" value="3"></td>
+            <td><input type="radio" name="tech_computers" value="4"></td>
+            <td><input type="radio" name="tech_computers" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use accounting software (e.g., QuickBooks, Sage)</td>
+            <td><input type="radio" name="tech_accounting" value="1"></td>
+            <td><input type="radio" name="tech_accounting" value="2"></td>
+            <td><input type="radio" name="tech_accounting" value="3"></td>
+            <td><input type="radio" name="tech_accounting" value="4"></td>
+            <td><input type="radio" name="tech_accounting" value="5"></td>
+        </tr>
+        <tr>
+            <td>We have adopted Customer Relationship Management (CRM) systems</td>
+            <td><input type="radio" name="tech_crm" value="1"></td>
+            <td><input type="radio" name="tech_crm" value="2"></td>
+            <td><input type="radio" name="tech_crm" value="3"></td>
+            <td><input type="radio" name="tech_crm" value="4"></td>
+            <td><input type="radio" name="tech_crm" value="5"></td>
+        </tr>
+        <tr>
+            <td>We sell our products/services through e-commerce platforms</td>
+            <td><input type="radio" name="tech_ecommerce" value="1"></td>
+            <td><input type="radio" name="tech_ecommerce" value="2"></td>
+            <td><input type="radio" name="tech_ecommerce" value="3"></td>
+            <td><input type="radio" name="tech_ecommerce" value="4"></td>
+            <td><input type="radio" name="tech_ecommerce" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use cloud computing services (e.g., Google Drive, Dropbox, AWS)</td>
+            <td><input type="radio" name="tech_cloud" value="1"></td>
+            <td><input type="radio" name="tech_cloud" value="2"></td>
+            <td><input type="radio" name="tech_cloud" value="3"></td>
+            <td><input type="radio" name="tech_cloud" value="4"></td>
+            <td><input type="radio" name="tech_cloud" value="5"></td>
+        </tr>
+        <tr>
+            <td>We actively use social media for business marketing and customer engagement</td>
+            <td><input type="radio" name="tech_social" value="1"></td>
+            <td><input type="radio" name="tech_social" value="2"></td>
+            <td><input type="radio" name="tech_social" value="3"></td>
+            <td><input type="radio" name="tech_social" value="4"></td>
+            <td><input type="radio" name="tech_social" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B2: Advanced Technology Adoption</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We use AI/Machine Learning for business analytics or decision-making</td>
+            <td><input type="radio" name="tech_ai" value="1"></td>
+            <td><input type="radio" name="tech_ai" value="2"></td>
+            <td><input type="radio" name="tech_ai" value="3"></td>
+            <td><input type="radio" name="tech_ai" value="4"></td>
+            <td><input type="radio" name="tech_ai" value="5"></td>
+        </tr>
+        <tr>
+            <td>We have integrated IoT (Internet of Things) in our operations</td>
+            <td><input type="radio" name="tech_iot" value="1"></td>
+            <td><input type="radio" name="tech_iot" value="2"></td>
+            <td><input type="radio" name="tech_iot" value="3"></td>
+            <td><input type="radio" name="tech_iot" value="4"></td>
+            <td><input type="radio" name="tech_iot" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use blockchain technology in our business</td>
+            <td><input type="radio" name="tech_blockchain" value="1"></td>
+            <td><input type="radio" name="tech_blockchain" value="2"></td>
+            <td><input type="radio" name="tech_blockchain" value="3"></td>
+            <td><input type="radio" name="tech_blockchain" value="4"></td>
+            <td><input type="radio" name="tech_blockchain" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use robotics or automation in our production/service delivery</td>
+            <td><input type="radio" name="tech_robotics" value="1"></td>
+            <td><input type="radio" name="tech_robotics" value="2"></td>
+            <td><input type="radio" name="tech_robotics" value="3"></td>
+            <td><input type="radio" name="tech_robotics" value="4"></td>
+            <td><input type="radio" name="tech_robotics" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B3: Digital Presence</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We have a functional business website</td>
+            <td><input type="radio" name="digital_website" value="1"></td>
+            <td><input type="radio" name="digital_website" value="2"></td>
+            <td><input type="radio" name="digital_website" value="3"></td>
+            <td><input type="radio" name="digital_website" value="4"></td>
+            <td><input type="radio" name="digital_website" value="5"></td>
+        </tr>
+        <tr>
+            <td>We maintain active social media business pages</td>
+            <td><input type="radio" name="digital_social_presence" value="1"></td>
+            <td><input type="radio" name="digital_social_presence" value="2"></td>
+            <td><input type="radio" name="digital_social_presence" value="3"></td>
+            <td><input type="radio" name="digital_social_presence" value="4"></td>
+            <td><input type="radio" name="digital_social_presence" value="5"></td>
+        </tr>
+        <tr>
+            <td>We accept online payments (mobile money, cards, bank transfers)</td>
+            <td><input type="radio" name="digital_payments" value="1"></td>
+            <td><input type="radio" name="digital_payments" value="2"></td>
+            <td><input type="radio" name="digital_payments" value="3"></td>
+            <td><input type="radio" name="digital_payments" value="4"></td>
+            <td><input type="radio" name="digital_payments" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B4: Process Innovation</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We have adopted new production or service delivery methods in the last 3 years</td>
+            <td><input type="radio" name="process_production" value="1"></td>
+            <td><input type="radio" name="process_production" value="2"></td>
+            <td><input type="radio" name="process_production" value="3"></td>
+            <td><input type="radio" name="process_production" value="4"></td>
+            <td><input type="radio" name="process_production" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use software for supply chain/logistics management</td>
+            <td><input type="radio" name="process_supply_chain" value="1"></td>
+            <td><input type="radio" name="process_supply_chain" value="2"></td>
+            <td><input type="radio" name="process_supply_chain" value="3"></td>
+            <td><input type="radio" name="process_supply_chain" value="4"></td>
+            <td><input type="radio" name="process_supply_chain" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use inventory management systems</td>
+            <td><input type="radio" name="process_inventory" value="1"></td>
+            <td><input type="radio" name="process_inventory" value="2"></td>
+            <td><input type="radio" name="process_inventory" value="3"></td>
+            <td><input type="radio" name="process_inventory" value="4"></td>
+            <td><input type="radio" name="process_inventory" value="5"></td>
+        </tr>
+        <tr>
+            <td>We use HR management software for recruitment, payroll, or employee management</td>
+            <td><input type="radio" name="process_hr" value="1"></td>
+            <td><input type="radio" name="process_hr" value="2"></td>
+            <td><input type="radio" name="process_hr" value="3"></td>
+            <td><input type="radio" name="process_hr" value="4"></td>
+            <td><input type="radio" name="process_hr" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B5: Product/Service Innovation</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We have introduced new or significantly improved products/services in the last 3 years</td>
+            <td><input type="radio" name="product_new" value="1"></td>
+            <td><input type="radio" name="product_new" value="2"></td>
+            <td><input type="radio" name="product_new" value="3"></td>
+            <td><input type="radio" name="product_new" value="4"></td>
+            <td><input type="radio" name="product_new" value="5"></td>
+        </tr>
+        <tr>
+            <td>We regularly improve the quality of our existing products/services</td>
+            <td><input type="radio" name="product_improvements" value="1"></td>
+            <td><input type="radio" name="product_improvements" value="2"></td>
+            <td><input type="radio" name="product_improvements" value="3"></td>
+            <td><input type="radio" name="product_improvements" value="4"></td>
+            <td><input type="radio" name="product_improvements" value="5"></td>
+        </tr>
+        <tr>
+            <td>We frequently launch new products/services</td>
+            <td><input type="radio" name="product_frequency" value="1"></td>
+            <td><input type="radio" name="product_frequency" value="2"></td>
+            <td><input type="radio" name="product_frequency" value="3"></td>
+            <td><input type="radio" name="product_frequency" value="4"></td>
+            <td><input type="radio" name="product_frequency" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B6: Business Model Innovation</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We have changed our revenue model (e.g., subscription, freemium) in recent years</td>
+            <td><input type="radio" name="bm_revenue" value="1"></td>
+            <td><input type="radio" name="bm_revenue" value="2"></td>
+            <td><input type="radio" name="bm_revenue" value="3"></td>
+            <td><input type="radio" name="bm_revenue" value="4"></td>
+            <td><input type="radio" name="bm_revenue" value="5"></td>
+        </tr>
+        <tr>
+            <td>We have redefined our value proposition to customers</td>
+            <td><input type="radio" name="bm_value" value="1"></td>
+            <td><input type="radio" name="bm_value" value="2"></td>
+            <td><input type="radio" name="bm_value" value="3"></td>
+            <td><input type="radio" name="bm_value" value="4"></td>
+            <td><input type="radio" name="bm_value" value="5"></td>
+        </tr>
+        <tr>
+            <td>We have adopted new customer engagement strategies</td>
+            <td><input type="radio" name="bm_engagement" value="1"></td>
+            <td><input type="radio" name="bm_engagement" value="2"></td>
+            <td><input type="radio" name="bm_engagement" value="3"></td>
+            <td><input type="radio" name="bm_engagement" value="4"></td>
+            <td><input type="radio" name="bm_engagement" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>B7: Innovation Drivers</h3>
+    
+    <table>
+        <tr>
+            <th>Statement</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>We face strong competitive pressure to innovate</td>
+            <td><input type="radio" name="driver_competition" value="1"></td>
+            <td><input type="radio" name="driver_competition" value="2"></td>
+            <td><input type="radio" name="driver_competition" value="3"></td>
+            <td><input type="radio" name="driver_competition" value="4"></td>
+            <td><input type="radio" name="driver_competition" value="5"></td>
+        </tr>
+        <tr>
+            <td>Our customers demand innovative products/services</td>
+            <td><input type="radio" name="driver_customers" value="1"></td>
+            <td><input type="radio" name="driver_customers" value="2"></td>
+            <td><input type="radio" name="driver_customers" value="3"></td>
+            <td><input type="radio" name="driver_customers" value="4"></td>
+            <td><input type="radio" name="driver_customers" value="5"></td>
+        </tr>
+        <tr>
+            <td>Our top management strongly supports innovation initiatives</td>
+            <td><input type="radio" name="driver_management" value="1"></td>
+            <td><input type="radio" name="driver_management" value="2"></td>
+            <td><input type="radio" name="driver_management" value="3"></td>
+            <td><input type="radio" name="driver_management" value="4"></td>
+            <td><input type="radio" name="driver_management" value="5"></td>
+        </tr>
+    </table>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION C: CONSTRAINTS -->
+    <!-- ========================================================================= -->
+    
+    <h2>SECTION C: CONSTRAINTS TO INNOVATION AND GROWTH</h2>
+    
+    <p><strong>Instructions:</strong> Please rate the severity of the following constraints to your business innovation and growth:</p>
+    <p style="text-align: center;">
+        <strong>1 = Not a Constraint | 2 = Minor Constraint | 3 = Moderate | 4 = Major Constraint | 5 = Severe Constraint</strong>
+    </p>
+    
+    <h3>C1: Financial Constraints</h3>
+    
+    <table>
+        <tr>
+            <th>Constraint</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Difficulty accessing credit/loans from banks</td>
+            <td><input type="radio" name="fin_credit" value="1"></td>
+            <td><input type="radio" name="fin_credit" value="2"></td>
+            <td><input type="radio" name="fin_credit" value="3"></td>
+            <td><input type="radio" name="fin_credit" value="4"></td>
+            <td><input type="radio" name="fin_credit" value="5"></td>
+        </tr>
+        <tr>
+            <td>High cost of innovation and technology adoption</td>
+            <td><input type="radio" name="fin_cost" value="1"></td>
+            <td><input type="radio" name="fin_cost" value="2"></td>
+            <td><input type="radio" name="fin_cost" value="3"></td>
+            <td><input type="radio" name="fin_cost" value="4"></td>
+            <td><input type="radio" name="fin_cost" value="5"></td>
+        </tr>
+        <tr>
+            <td>Insufficient internal capital for R&D/Investment</td>
+            <td><input type="radio" name="fin_capital" value="1"></td>
+            <td><input type="radio" name="fin_capital" value="2"></td>
+            <td><input type="radio" name="fin_capital" value="3"></td>
+            <td><input type="radio" name="fin_capital" value="4"></td>
+            <td><input type="radio" name="fin_capital" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>C2: Human Capital Constraints</h3>
+    
+    <table>
+        <tr>
+            <th>Constraint</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Difficulty finding employees with technical/digital skills</td>
+            <td><input type="radio" name="hc_skilled" value="1"></td>
+            <td><input type="radio" name="hc_skilled" value="2"></td>
+            <td><input type="radio" name="hc_skilled" value="3"></td>
+            <td><input type="radio" name="hc_skilled" value="4"></td>
+            <td><input type="radio" name="hc_skilled" value="5"></td>
+        </tr>
+        <tr>
+            <td>High cost of training existing staff</td>
+            <td><input type="radio" name="hc_training" value="1"></td>
+            <td><input type="radio" name="hc_training" value="2"></td>
+            <td><input type="radio" name="hc_training" value="3"></td>
+            <td><input type="radio" name="hc_training" value="4"></td>
+            <td><input type="radio" name="hc_training" value="5"></td>
+        </tr>
+        <tr>
+            <td>Lack of management capability to lead change</td>
+            <td><input type="radio" name="hc_leadership" value="1"></td>
+            <td><input type="radio" name="hc_leadership" value="2"></td>
+            <td><input type="radio" name="hc_leadership" value="3"></td>
+            <td><input type="radio" name="hc_leadership" value="4"></td>
+            <td><input type="radio" name="hc_leadership" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>C3: Infrastructure Constraints</h3>
+    
+    <table>
+        <tr>
+            <th>Constraint</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Unreliable electricity/power supply</td>
+            <td><input type="radio" name="infra_electricity" value="1"></td>
+            <td><input type="radio" name="infra_electricity" value="2"></td>
+            <td><input type="radio" name="infra_electricity" value="3"></td>
+            <td><input type="radio" name="infra_electricity" value="4"></td>
+            <td><input type="radio" name="infra_electricity" value="5"></td>
+        </tr>
+        <tr>
+            <td>Poor internet connectivity quality</td>
+            <td><input type="radio" name="infra_internet_quality" value="1"></td>
+            <td><input type="radio" name="infra_internet_quality" value="2"></td>
+            <td><input type="radio" name="infra_internet_quality" value="3"></td>
+            <td><input type="radio" name="infra_internet_quality" value="4"></td>
+            <td><input type="radio" name="infra_internet_quality" value="5"></td>
+        </tr>
+        <tr>
+            <td>High cost of internet services</td>
+            <td><input type="radio" name="infra_internet_cost" value="1"></td>
+            <td><input type="radio" name="infra_internet_cost" value="2"></td>
+            <td><input type="radio" name="infra_internet_cost" value="3"></td>
+            <td><input type="radio" name="infra_internet_cost" value="4"></td>
+            <td><input type="radio" name="infra_internet_cost" value="5"></td>
+        </tr>
+        <tr>
+            <td>Poor logistics and transportation infrastructure</td>
+            <td><input type="radio" name="infra_logistics" value="1"></td>
+            <td><input type="radio" name="infra_logistics" value="2"></td>
+            <td><input type="radio" name="infra_logistics" value="3"></td>
+            <td><input type="radio" name="infra_logistics" value="4"></td>
+            <td><input type="radio" name="infra_logistics" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>C4: Regulatory and Institutional Constraints</h3>
+    
+    <table>
+        <tr>
+            <th>Constraint</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Burdensome government regulations and taxes</td>
+            <td><input type="radio" name="reg_burden" value="1"></td>
+            <td><input type="radio" name="reg_burden" value="2"></td>
+            <td><input type="radio" name="reg_burden" value="3"></td>
+            <td><input type="radio" name="reg_burden" value="4"></td>
+            <td><input type="radio" name="reg_burden" value="5"></td>
+        </tr>
+        <tr>
+            <td>Corruption and informal charges/payments</td>
+            <td><input type="radio" name="reg_corruption" value="1"></td>
+            <td><input type="radio" name="reg_corruption" value="2"></td>
+            <td><input type="radio" name="reg_corruption" value="3"></td>
+            <td><input type="radio" name="reg_corruption" value="4"></td>
+            <td><input type="radio" name="reg_corruption" value="5"></td>
+        </tr>
+        <tr>
+            <td>Ineffective government support programs (BOI, SMEDAN, etc.)</td>
+            <td><input type="radio" name="reg_support" value="1"></td>
+            <td><input type="radio" name="reg_support" value="2"></td>
+            <td><input type="radio" name="reg_support" value="3"></td>
+            <td><input type="radio" name="reg_support" value="4"></td>
+            <td><input type="radio" name="reg_support" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>C5: Market Constraints</h3>
+    
+    <table>
+        <tr>
+            <th>Constraint</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Intense competition in our market</td>
+            <td><input type="radio" name="mkt_competition" value="1"></td>
+            <td><input type="radio" name="mkt_competition" value="2"></td>
+            <td><input type="radio" name="mkt_competition" value="3"></td>
+            <td><input type="radio" name="mkt_competition" value="4"></td>
+            <td><input type="radio" name="mkt_competition" value="5"></td>
+        </tr>
+        <tr>
+            <td>Uncertainty of market demand</td>
+            <td><input type="radio" name="mkt_uncertainty" value="1"></td>
+            <td><input type="radio" name="mkt_uncertainty" value="2"></td>
+            <td><input type="radio" name="mkt_uncertainty" value="3"></td>
+            <td><input type="radio" name="mkt_uncertainty" value="4"></td>
+            <td><input type="radio" name="mkt_uncertainty" value="5"></td>
+        </tr>
+        <tr>
+            <td>Limited access to international markets</td>
+            <td><input type="radio" name="mkt_international" value="1"></td>
+            <td><input type="radio" name="mkt_international" value="2"></td>
+            <td><input type="radio" name="mkt_international" value="3"></td>
+            <td><input type="radio" name="mkt_international" value="4"></td>
+            <td><input type="radio" name="mkt_international" value="5"></td>
+        </tr>
+    </table>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION D: PERFORMANCE AND GROWTH -->
+    <!-- ========================================================================= -->
+    
+    <h2>SECTION D: FIRM PERFORMANCE AND GROWTH</h2>
+    
+    <p><strong>Instructions:</strong> Please rate your firm's performance over the <strong>last 3 years</strong>:</p>
+    <p style="text-align: center;">
+        <strong>1 = Significantly Declined | 2 = Declined | 3 = Remained Stable | 4 = Improved | 5 = Significantly Improved</strong>
+    </p>
+    
+    <h3>D1: Subjective Performance (Last 3 Years)</h3>
+    
+    <table>
+        <tr>
+            <th>Performance Indicator</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Profitability growth</td>
+            <td><input type="radio" name="perf_profitability" value="1"></td>
+            <td><input type="radio" name="perf_profitability" value="2"></td>
+            <td><input type="radio" name="perf_profitability" value="3"></td>
+            <td><input type="radio" name="perf_profitability" value="4"></td>
+            <td><input type="radio" name="perf_profitability" value="5"></td>
+        </tr>
+        <tr>
+            <td>Sales growth</td>
+            <td><input type="radio" name="perf_sales" value="1"></td>
+            <td><input type="radio" name="perf_sales" value="2"></td>
+            <td><input type="radio" name="perf_sales" value="3"></td>
+            <td><input type="radio" name="perf_sales" value="4"></td>
+            <td><input type="radio" name="perf_sales" value="5"></td>
+        </tr>
+        <tr>
+            <td>Market share growth</td>
+            <td><input type="radio" name="perf_market_share" value="1"></td>
+            <td><input type="radio" name="perf_market_share" value="2"></td>
+            <td><input type="radio" name="perf_market_share" value="3"></td>
+            <td><input type="radio" name="perf_market_share" value="4"></td>
+            <td><input type="radio" name="perf_market_share" value="5"></td>
+        </tr>
+        <tr>
+            <td>Return on Investment (ROI)</td>
+            <td><input type="radio" name="perf_roi" value="1"></td>
+            <td><input type="radio" name="perf_roi" value="2"></td>
+            <td><input type="radio" name="perf_roi" value="3"></td>
+            <td><input type="radio" name="perf_roi" value="4"></td>
+            <td><input type="radio" name="perf_roi" value="5"></td>
+        </tr>
+        <tr>
+            <td>Overall satisfaction with business performance</td>
+            <td><input type="radio" name="perf_satisfaction" value="1"></td>
+            <td><input type="radio" name="perf_satisfaction" value="2"></td>
+            <td><input type="radio" name="perf_satisfaction" value="3"></td>
+            <td><input type="radio" name="perf_satisfaction" value="4"></td>
+            <td><input type="radio" name="perf_satisfaction" value="5"></td>
+        </tr>
+    </table>
+    
+    <h3>D2: Objective Performance (Optional - Last 3 Years)</h3>
+    
+    <div class="question">
+        <span class="question-number">D6.</span> <strong>Approximate annual turnover growth rate (%):</strong><br>
+        <input type="number" name="turnover_growth" min="-100" max="500" style="width: 100px;"> %
+        <small>(e.g., 10 for 10% growth, -5 for 5% decline)</small>
+    </div>
+    
+    <div class="question">
+        <span class="question-number">D7.</span> <strong>Approximate profit margin (%):</strong><br>
+        <input type="number" name="profit_margin" min="-100" max="100" style="width: 100px;"> %
+    </div>
+    
+    <div class="question">
+        <span class="question-number">D8.</span> <strong>Employee growth rate (%):</strong><br>
+        <input type="number" name="employee_growth" min="-100" max="500" style="width: 100px;"> %
+    </div>
+    
+    <div class="question">
+        <span class="question-number">D9.</span> <strong>Number of new branches/locations opened (last 3 years):</strong><br>
+        <input type="number" name="new_branches" min="0" max="100" style="width: 100px;">
+    </div>
+    
+    <h3>D3: Non-Financial Growth Indicators (Last 3 Years)</h3>
+    
+    <table>
+        <tr>
+            <th>Growth Indicator</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>Increase in number of product/service lines</td>
+            <td><input type="radio" name="growth_products" value="1"></td>
+            <td><input type="radio" name="growth_products" value="2"></td>
+            <td><input type="radio" name="growth_products" value="3"></td>
+            <td><input type="radio" name="growth_products" value="4"></td>
+            <td><input type="radio" name="growth_products" value="5"></td>
+        </tr>
+        <tr>
+            <td>Improvement in product/service quality</td>
+            <td><input type="radio" name="growth_quality" value="1"></td>
+            <td><input type="radio" name="growth_quality" value="2"></td>
+            <td><input type="radio" name="growth_quality" value="3"></td>
+            <td><input type="radio" name="growth_quality" value="4"></td>
+            <td><input type="radio" name="growth_quality" value="5"></td>
+        </tr>
+        <tr>
+            <td>Enhanced customer satisfaction</td>
+            <td><input type="radio" name="growth_cust_sat" value="1"></td>
+            <td><input type="radio" name="growth_cust_sat" value="2"></td>
+            <td><input type="radio" name="growth_cust_sat" value="3"></td>
+            <td><input type="radio" name="growth_cust_sat" value="4"></td>
+            <td><input type="radio" name="growth_cust_sat" value="5"></td>
+        </tr>
+        <tr>
+            <td>Customer retention rate improvement</td>
+            <td><input type="radio" name="growth_retention" value="1"></td>
+            <td><input type="radio" name="growth_retention" value="2"></td>
+            <td><input type="radio" name="growth_retention" value="3"></td>
+            <td><input type="radio" name="growth_retention" value="4"></td>
+            <td><input type="radio" name="growth_retention" value="5"></td>
+        </tr>
+    </table>
+
+    <!-- ========================================================================= -->
+    <!-- THANK YOU -->
+    <!-- ========================================================================= -->
+    
+    <div class="footer">
+        <h2>THANK YOU!</h2>
+        <p>Thank you for participating in this survey. Your input is invaluable to understanding how Nigerian SMEs can leverage innovation for growth.</p>
+        <p><strong>Contact Information:</strong></p>
+        <p>For questions or to receive a summary of research findings, please contact:<br>
+        [Your Name]<br>
+        [Your Institution]<br>
+        [Your Email]<br>
+        [Your Phone Number]</p>
+        
+        <p style="margin-top: 30px; font-size: 0.8em; color: #95a5a6;">
+            Survey ID: _______________<br>
+            Date Completed: _______________<br>
+            Interviewer (if applicable): _______________
+        </p>
+    </div>
+
+</body>
+</html>
