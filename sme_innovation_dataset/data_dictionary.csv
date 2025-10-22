@@ -1,0 +1,73 @@
+Variable_Name,Data_Type,Description,Value_Range,Section
+firm_id,Categorical,Anonymized firm identifier,SME_0001 to SME_2000,A
+state,Categorical,Nigerian state where firm is located,36 Nigerian states + FCT,A
+geo_political_zone,Categorical,Geo-political zone,"North Central, North East, North West, South East, South South, South West",A
+location_type,Categorical,Urban or rural location,"Urban, Rural",A
+industry_code,Categorical,ISIC industry classification code,"A01, C10, C13, etc.",A
+industry_name,Categorical,Industry sector name,"Agriculture, Manufacturing, Services, etc.",A
+firm_age_years,Continuous,Years since firm establishment,1-50 years,A
+num_employees,Continuous,Number of full-time employees,1-200 employees,A
+annual_turnover_naira,Continuous,Annual turnover in Nigerian Naira,Varies by firm size and industry,A
+legal_structure,Categorical,Legal form of business,"Sole Proprietorship, Partnership, Limited Liability Company",A
+owner_age,Continuous,Age of owner/manager,25-70 years,A
+owner_gender,Categorical,Gender of owner/manager,"Male, Female",A
+owner_education,Ordinal,Highest educational qualification,No Formal Education to PhD,A
+field_of_study,Categorical,Field of educational specialization,"Business, Engineering, IT, etc.",A
+prior_entrepreneurial_exp,Binary,Previous entrepreneurial experience,"0=No, 1=Yes",A
+digital_literacy_score,Ordinal,Self-assessed digital literacy,1-10 scale,A
+digital_tools_computers,Ordinal,Extent of computer usage,1=Strongly Disagree to 5=Strongly Agree,B
+digital_tools_accounting_software,Ordinal,Use of accounting software,1-5 Likert scale,B
+digital_tools_crm,Ordinal,Use of CRM systems,1-5 Likert scale,B
+digital_tools_ecommerce,Ordinal,Use of e-commerce platforms,1-5 Likert scale,B
+digital_tools_cloud_computing,Ordinal,Use of cloud computing,1-5 Likert scale,B
+digital_tools_social_media,Ordinal,Use of social media for business,1-5 Likert scale,B
+advanced_tech_ai_ml,Ordinal,Use of AI/ML for analytics,1-5 Likert scale,B
+advanced_tech_iot,Ordinal,Use of IoT in operations,1-5 Likert scale,B
+advanced_tech_blockchain,Ordinal,Use of blockchain technology,1-5 Likert scale,B
+advanced_tech_robotics,Ordinal,Use of robotics/automation,1-5 Likert scale,B
+website_presence,Ordinal,Company website presence,1-5 Likert scale,B
+social_media_presence,Ordinal,Social media business presence,1-5 Likert scale,B
+online_payments,Ordinal,Online payment capabilities,1-5 Likert scale,B
+new_production_methods,Ordinal,Adoption of new production methods,1-5 Likert scale,B
+supply_chain_software,Ordinal,Use of supply chain software,1-5 Likert scale,B
+inventory_management,Ordinal,Use of inventory management systems,1-5 Likert scale,B
+new_support_processes,Ordinal,New techniques for support processes,1-5 Likert scale,B
+new_products_services_3yrs,Ordinal,Introduction of new products/services,1-5 Likert scale,B
+frequency_new_launches,Ordinal,Frequency of new product launches,1-5 Likert scale,B
+product_improvement_efforts,Ordinal,Product improvement efforts,1-5 Likert scale,B
+revenue_model_changes,Ordinal,Changes in revenue models,1-5 Likert scale,B
+value_proposition_changes,Ordinal,Changes in value proposition,1-5 Likert scale,B
+customer_engagement_changes,Ordinal,Changes in customer engagement,1-5 Likert scale,B
+competitive_pressure,Ordinal,Perceived competitive pressure,1-5 Likert scale,B
+customer_demand_innovation,Ordinal,Customer demand for innovation,1-5 Likert scale,B
+management_innovation_attitude,Ordinal,Management attitude towards innovation,1-5 Likert scale,B
+access_to_credit,Ordinal,Difficulty accessing credit/loans,1-5 scale (5=Very Difficult),C
+cost_of_innovation,Ordinal,High cost of innovation,1-5 scale (5=Very High Cost),C
+internal_capital_sufficiency,Ordinal,Insufficient internal capital,1-5 scale (5=Very Insufficient),C
+skilled_employee_availability,Ordinal,Difficulty finding skilled employees,1-5 scale (5=Very Difficult),C
+training_costs,Ordinal,High cost of training staff,1-5 scale (5=Very High Cost),C
+management_capability,Ordinal,Insufficient management capability,1-5 scale (5=Very Insufficient),C
+electricity_reliability,Ordinal,Poor electricity reliability,1-5 scale (5=Very Poor),C
+internet_quality_cost,Ordinal,Poor internet quality/high cost,1-5 scale (5=Very Poor/Expensive),C
+logistics_transportation,Ordinal,Poor logistics/transportation,1-5 scale (5=Very Poor),C
+regulatory_burden,Ordinal,High regulatory burden,1-5 scale (5=Very High Burden),C
+corruption_informal_charges,Ordinal,Corruption and informal charges,1-5 scale (5=Very High),C
+govt_support_effectiveness,Ordinal,Ineffective government support,1-5 scale (5=Very Ineffective),C
+competition_intensity,Ordinal,Intense competition,1-5 scale (5=Very Intense),C
+demand_uncertainty,Ordinal,High demand uncertainty,1-5 scale (5=Very Uncertain),C
+international_market_access,Ordinal,Poor international market access,1-5 scale (5=Very Poor),C
+profitability_growth_3yrs,Ordinal,Profitability growth (last 3 years),1-5 Likert scale,D
+sales_growth_3yrs,Ordinal,Sales growth (last 3 years),1-5 Likert scale,D
+market_share_growth_3yrs,Ordinal,Market share growth (last 3 years),1-5 Likert scale,D
+roi_satisfaction,Ordinal,Return on Investment satisfaction,1-5 Likert scale,D
+overall_performance_satisfaction,Ordinal,Overall performance satisfaction,1-5 Likert scale,D
+annual_turnover_growth_pct,Continuous,Annual turnover growth percentage,-50% to +100% (30% missing),D
+profit_margin_pct,Continuous,Profit margin percentage,-5% to +50% (40% missing),D
+employee_growth_pct,Continuous,Employee growth percentage,-30% to +200% (20% missing),D
+new_branches_3yrs,Continuous,Number of new branches (last 3 years),0-5+ branches,D
+product_line_increase,Ordinal,Increase in product/service lines,1-5 Likert scale,D
+service_quality_improvement,Ordinal,Service quality improvement,1-5 Likert scale,D
+customer_satisfaction_improvement,Ordinal,Customer satisfaction improvement,1-5 Likert scale,D
+innovation_composite_score,Continuous,Composite innovation adoption score,Average of key innovation indicators,Derived
+constraint_composite_score,Continuous,Composite constraint score,Average of key constraint indicators,Derived
+performance_composite_score,Continuous,Composite performance score,Average of key performance indicators,Derived
