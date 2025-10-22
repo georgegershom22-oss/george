@@ -1,0 +1,149 @@
+SEMI-STRUCTURED INTERVIEW TRANSCRIPT
+Participant: P005 - Emeka Nwosu
+Business: PayEasy Solutions (Digital Payment Platform)
+Date: March 25, 2024
+Duration: 85 minutes
+Location: Lagos, Nigeria
+Interviewer: Dr. Sarah Okeke
+
+[INNOVATION JOURNEY]
+
+Interviewer: Tell me about your journey in adopting artificial intelligence and machine learning for fraud detection in your fintech platform.
+
+Emeka: That's a story that almost broke my company, but ultimately saved it. PayEasy started in 2009 as a simple payment gateway. We were doing well, processing about 2 billion naira in transactions monthly by 2021. But we had a massive problem - fraud.
+
+Traditional rule-based fraud detection wasn't cutting it anymore. Fraudsters were getting sophisticated. We were losing about 0.8% of transaction value to fraud - that's 16 million naira monthly! Our insurance costs were skyrocketing, and some partner banks were threatening to drop us.
+
+The wake-up call came in December 2021. We had a coordinated fraud attack that cost us 45 million naira in one weekend. Sophisticated card testing, account takeovers, synthetic identity fraud - all happening simultaneously. Our manual review team was overwhelmed.
+
+I remember sitting in my office that Monday morning, looking at the damage report, thinking, "We need to fight technology with technology."
+
+Interviewer: What specific AI/ML technologies did you implement?
+
+Emeka: We implemented a comprehensive machine learning fraud detection system. The core components included:
+
+First, real-time transaction scoring using ensemble models - Random Forest, Gradient Boosting, and Neural Networks. Every transaction gets a fraud probability score within 50 milliseconds.
+
+Second, behavioral analytics using unsupervised learning to detect unusual patterns. If a user who typically makes 5,000 naira transactions suddenly tries to transfer 500,000 naira at 3 AM from a new device, the system flags it.
+
+Third, network analysis to identify fraud rings. Machine learning algorithms map relationships between accounts, devices, and transactions to spot coordinated attacks.
+
+Fourth, natural language processing for analyzing customer support tickets and social media to identify emerging fraud trends.
+
+The system processes over 50 features per transaction - amount, time, location, device fingerprint, user behavior history, merchant risk profile, and many others.
+
+Interviewer: What were the major challenges in implementing this system?
+
+Emeka: Oh boy, where do I even start? The challenges were enormous.
+
+First was the technical complexity. None of my existing team had deep machine learning expertise. We were good at building payment systems, but ML was a different beast entirely. I had to hire three data scientists and two ML engineers, which increased our payroll by 40%.
+
+Second was data quality and availability. Machine learning is hungry for clean, labeled data. We had transaction data, but it wasn't properly structured for ML. We spent six months just cleaning and preparing historical data. And getting labeled fraud data - knowing which past transactions were actually fraudulent - was a nightmare.
+
+Third was infrastructure. Our existing system couldn't handle the computational requirements of real-time ML inference. We had to migrate to a cloud-based microservices architecture, which meant rebuilding core parts of our platform.
+
+Fourth was regulatory compliance. The CBN and other regulators didn't have clear guidelines for AI in financial services. We had to work closely with our compliance team and external lawyers to ensure we weren't violating any regulations.
+
+But the biggest challenge was the false positive problem. Early versions of our ML system were too aggressive - flagging legitimate transactions as fraud. Customer complaints skyrocketed. We were solving the fraud problem but creating a customer experience problem.
+
+Interviewer: How did you navigate these challenges?
+
+Emeka: It required a complete transformation of how we operated.
+
+For the talent gap, I partnered with the University of Lagos and hired recent graduates as interns while bringing in experienced consultants from South Africa and Kenya. We also sent our senior developers for intensive ML training.
+
+For data quality, we implemented a comprehensive data governance framework. Every transaction now gets properly tagged and stored. We also partnered with other fintech companies to share anonymized fraud patterns - collective defense against fraudsters.
+
+The infrastructure challenge led us to adopt a hybrid cloud approach. Critical components run on AWS for scalability, while sensitive data stays on our local servers for regulatory compliance.
+
+For the false positive issue, we implemented a multi-layered approach. High-risk transactions get blocked automatically, medium-risk ones go to human reviewers, and low-risk ones get additional monitoring. We also built a customer feedback loop - when customers report legitimate transactions being blocked, the system learns.
+
+Most importantly, we adopted an agile approach. Instead of trying to build the perfect system from day one, we deployed incrementally, learned from each iteration, and improved continuously.
+
+Interviewer: What has been the impact on your business performance?
+
+Emeka: The transformation has been remarkable, but it took time to see the full benefits.
+
+Fraud losses dropped from 0.8% to 0.12% of transaction value. That's saving us about 14 million naira monthly. Our fraud detection accuracy improved from 65% to 94%, while false positives decreased from 12% to 2.3%.
+
+But the real impact goes beyond direct fraud savings. Partner banks now see us as a low-risk processor. We've signed agreements with four new banks and increased our transaction limits with existing partners.
+
+Customer trust improved significantly. Our Net Promoter Score went from 42 to 67, largely because customers feel more secure using our platform.
+
+Revenue growth accelerated. We went from processing 2 billion naira monthly to 8.5 billion naira monthly. Part of this is market growth, but our improved security reputation definitely helped us win larger enterprise clients.
+
+The ML system also enabled new products. We now offer risk scoring services to other fintech companies and merchants. This B2B revenue stream generates about 15 million naira monthly.
+
+Interviewer: How did regulatory environment and government policies affect your innovation?
+
+Emeka: The regulatory landscape was both a challenge and an opportunity.
+
+Challenge: The CBN's data localization requirements meant we couldn't use some international ML services. We had to build more capabilities in-house, which was expensive and time-consuming.
+
+The lack of clear AI governance frameworks created uncertainty. We had to be very conservative in our approach, which slowed down innovation.
+
+Opportunity: The CBN's push for financial inclusion created demand for our services. Their regulatory sandbox program allowed us to test new ML-powered products with reduced regulatory burden.
+
+The Open Banking initiative, though still evolving, is creating opportunities for more sophisticated fraud detection across multiple financial institutions.
+
+Government policies on digital payments - like the cashless policy and eNaira initiative - increased transaction volumes, giving us more data to train our ML models.
+
+Interviewer: What unexpected challenges or benefits emerged?
+
+Emeka: Unexpected challenge: Adversarial attacks. Fraudsters started using machine learning to attack our machine learning system. They would probe our system to understand its decision boundaries and then craft attacks to evade detection. We had to implement adversarial training to make our models more robust.
+
+Another surprise was the interpretability requirement. Regulators and auditors wanted to understand why our ML system made specific decisions. "Black box" models weren't acceptable. We had to invest in explainable AI techniques.
+
+Unexpected benefit: The ML infrastructure we built for fraud detection became the foundation for other innovations. We now use ML for credit scoring, customer segmentation, and operational optimization.
+
+The talent we hired for ML brought fresh perspectives to other parts of our business. Our product development became more data-driven, our marketing more targeted.
+
+Also, the reputation as an "AI-powered fintech" helped us attract top talent and investors. We raised 2.5 billion naira in Series B funding, partly because investors were excited about our AI capabilities.
+
+Interviewer: How has this innovation affected your competitive position?
+
+Emeka: We went from being a mid-tier payment processor to being recognized as one of the most innovative fintech companies in Nigeria.
+
+Our fraud detection capabilities became a key differentiator. When pitching to enterprise clients, we can guarantee fraud rates below 0.2%, which most competitors can't match.
+
+We've also become a technology partner for other financial institutions. Three banks now license our fraud detection technology, creating a new revenue stream and strengthening our market position.
+
+The ML expertise we developed opened doors to international markets. We're now processing payments for Nigerian businesses operating in Ghana and Kenya.
+
+Interviewer: What advice would you give to other fintech SMEs considering AI adoption?
+
+Emeka: First, start with a clear business problem, not the technology. Don't adopt AI because it's trendy; adopt it because it solves a specific, measurable problem.
+
+Second, invest heavily in data infrastructure before building ML models. Garbage in, garbage out is especially true for machine learning.
+
+Third, plan for the long term. AI implementation is not a one-time project; it's an ongoing capability that requires continuous investment in talent, infrastructure, and data.
+
+Fourth, focus on explainability from day one. Regulators and customers will want to understand your AI decisions. Build interpretability into your models, don't try to add it later.
+
+Finally, consider partnerships. You don't have to build everything in-house. Partner with universities for research, with other companies for data sharing, and with technology vendors for specialized capabilities.
+
+[FUTURE VISION]
+
+Interviewer: What's next for your AI journey?
+
+Emeka: We're exploring several exciting frontiers.
+
+First is conversational AI for customer support. We want to handle 80% of customer queries through intelligent chatbots that can understand context and provide personalized responses.
+
+Second is predictive analytics for merchants. Using transaction data to help businesses forecast cash flow, identify growth opportunities, and optimize operations.
+
+Third is blockchain integration with AI for enhanced security and transparency in cross-border payments.
+
+The ultimate vision is to become the "AI-first" financial services platform for Africa. Every product, every process, every decision enhanced by artificial intelligence.
+
+But we're also mindful of the ethical implications. We're developing AI governance frameworks to ensure our technology is used responsibly and doesn't perpetuate biases or exclude vulnerable populations.
+
+[END OF INTERVIEW]
+
+Interviewer Notes:
+- Highly technical participant with deep understanding of AI/ML implementation
+- Clear articulation of business impact and ROI
+- Strong emphasis on regulatory and compliance challenges
+- Good example of technology-driven competitive advantage
+- Demonstrates evolution from problem-solving to platform building
+- Highlights importance of talent acquisition and partnerships in innovation
