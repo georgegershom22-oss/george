@@ -1,0 +1,31 @@
+participant_id,interview_type,age,gender,education_level,years_in_business,company_size,annual_revenue_range,sector,location,innovation_experience
+INT001,individual,42,Male,Bachelor's,8,15-50 employees,50-100M NGN,Technology,Lagos,High
+INT002,individual,38,Female,Master's,12,5-15 employees,20-50M NGN,Agribusiness,Abuja,Medium
+INT003,individual,45,Male,Diploma,15,50-200 employees,100-500M NGN,Manufacturing,Kano,High
+INT004,individual,35,Female,Bachelor's,6,5-15 employees,10-20M NGN,Retail,Lagos,Low
+INT005,individual,50,Male,Master's,20,200+ employees,500M+ NGN,Financial Services,Lagos,High
+INT006,individual,29,Female,Bachelor's,4,1-5 employees,5-10M NGN,Technology,Port Harcourt,Medium
+INT007,individual,41,Male,Diploma,10,15-50 employees,30-50M NGN,Agribusiness,Ibadan,Medium
+INT008,individual,36,Female,Bachelor's,7,5-15 employees,15-30M NGN,Manufacturing,Abuja,Low
+INT009,individual,48,Male,Master's,18,50-200 employees,100-300M NGN,Financial Services,Lagos,High
+INT010,individual,33,Female,Bachelor's,5,5-15 employees,20-40M NGN,Retail,Enugu,Medium
+INT011,individual,44,Male,Diploma,13,15-50 employees,40-80M NGN,Technology,Abuja,High
+INT012,individual,39,Female,Master's,9,5-15 employees,25-50M NGN,Agribusiness,Kaduna,Medium
+INT013,individual,52,Male,Bachelor's,22,200+ employees,300-800M NGN,Manufacturing,Lagos,High
+INT014,individual,31,Female,Bachelor's,6,1-5 employees,8-15M NGN,Retail,Abuja,Low
+INT015,individual,46,Male,Master's,16,50-200 employees,150-400M NGN,Financial Services,Lagos,High
+INT016,individual,37,Female,Diploma,8,5-15 employees,20-35M NGN,Technology,Port Harcourt,Medium
+INT017,individual,43,Male,Bachelor's,11,15-50 employees,50-100M NGN,Agribusiness,Ibadan,High
+INT018,individual,34,Female,Master's,7,5-15 employees,15-25M NGN,Manufacturing,Abuja,Medium
+INT019,individual,49,Male,Diploma,19,50-200 employees,200-500M NGN,Financial Services,Lagos,High
+INT020,individual,32,Female,Bachelor's,4,1-5 employees,10-20M NGN,Retail,Enugu,Low
+INT021,individual,40,Male,Master's,14,15-50 employees,60-120M NGN,Technology,Abuja,High
+INT022,individual,35,Female,Bachelor's,8,5-15 employees,25-45M NGN,Agribusiness,Kaduna,Medium
+INT023,individual,47,Male,Diploma,17,50-200 employees,180-400M NGN,Manufacturing,Lagos,High
+INT024,individual,30,Female,Master's,5,1-5 employees,12-25M NGN,Retail,Abuja,Low
+INT025,individual,45,Male,Bachelor's,21,200+ employees,400-1000M NGN,Financial Services,Lagos,High
+FGD001,group,35-50,Mixed,Bachelor's-Master's,5-20,5-200 employees,20-500M NGN,Technology,Lagos,Mixed
+FGD002,group,30-55,Mixed,Diploma-Master's,8-25,10-150 employees,30-300M NGN,Agribusiness,Abuja,Mixed
+FGD003,group,28-52,Mixed,Bachelor's-Master's,6-22,5-200 employees,15-800M NGN,Manufacturing,Kano,Mixed
+FGD004,group,25-45,Mixed,Diploma-Bachelor's,3-15,1-50 employees,5-100M NGN,Retail,Lagos,Mixed
+FGD005,group,32-50,Mixed,Bachelor's-Master's,7-20,10-200 employees,50-1000M NGN,Financial Services,Lagos,Mixed
