@@ -1,0 +1,38 @@
+State,Region,2018_Penetration_Percent,2019_Penetration_Percent,2020_Penetration_Percent,2021_Penetration_Percent,2022_Penetration_Percent,2023_Penetration_Percent,2024_Penetration_Percent,Population_2023,Urban_Rural_Classification,Major_Telecom_Providers,Infrastructure_Score
+Lagos,South West,78.5,82.3,85.7,88.9,91.2,93.5,95.1,15800000,Urban,MTN|Airtel|Glo|9mobile,9.2
+FCT Abuja,North Central,76.2,80.1,83.8,87.2,89.8,92.1,94.3,3564000,Urban,MTN|Airtel|Glo|9mobile,9.0
+Rivers,South South,65.4,69.8,73.2,76.9,80.1,83.4,86.2,7303000,Mixed,MTN|Airtel|Glo|9mobile,8.1
+Ogun,South West,62.1,66.7,70.4,74.2,77.8,81.3,84.5,5217000,Mixed,MTN|Airtel|Glo|9mobile,7.8
+Kano,North West,58.9,63.2,67.1,71.4,75.2,78.9,82.1,13076000,Mixed,MTN|Airtel|Glo|9mobile,7.5
+Oyo,South West,56.7,61.4,65.8,69.7,73.5,77.2,80.8,7840000,Mixed,MTN|Airtel|Glo|9mobile,7.3
+Delta,South South,54.3,59.1,63.2,67.8,71.6,75.4,79.1,5664000,Mixed,MTN|Airtel|Glo|9mobile,7.1
+Edo,South South,52.8,57.6,61.9,66.3,70.2,74.1,77.8,4235000,Mixed,MTN|Airtel|Glo|9mobile,6.9
+Anambra,South East,51.2,56.3,60.7,65.1,69.4,73.6,77.2,5528000,Mixed,MTN|Airtel|Glo|9mobile,6.8
+Kaduna,North West,49.6,54.8,59.3,63.9,68.1,72.3,76.4,6113000,Mixed,MTN|Airtel|Glo|9mobile,6.6
+Imo,South East,48.1,53.4,58.1,62.7,67.2,71.5,75.6,4844000,Mixed,MTN|Airtel|Glo|9mobile,6.5
+Akwa Ibom,South South,46.7,52.1,56.9,61.8,66.4,70.8,74.9,5482000,Mixed,MTN|Airtel|Glo|9mobile,6.3
+Plateau,North Central,45.3,50.7,55.6,60.4,65.1,69.7,74.1,3597000,Mixed,MTN|Airtel|Glo|9mobile,6.2
+Cross River,South South,43.9,49.4,54.3,59.1,63.8,68.4,72.8,3737000,Mixed,MTN|Airtel|Glo|9mobile,6.0
+Enugu,South East,42.6,48.1,53.1,58.0,62.6,67.2,71.6,4411000,Mixed,MTN|Airtel|Glo|9mobile,5.9
+Abia,South East,41.2,46.8,52.0,56.9,61.5,66.1,70.5,3728000,Mixed,MTN|Airtel|Glo|9mobile,5.7
+Osun,South West,39.8,45.4,50.8,55.7,60.4,65.0,69.4,4706000,Mixed,MTN|Airtel|Glo|9mobile,5.6
+Kwara,North Central,38.5,44.1,49.6,54.6,59.3,63.9,68.3,3192000,Mixed,MTN|Airtel|Glo|9mobile,5.4
+Ondo,South West,37.1,42.8,48.4,53.4,58.2,62.8,67.2,4237000,Mixed,MTN|Airtel|Glo|9mobile,5.3
+Ekiti,South West,35.8,41.5,47.2,52.3,57.1,61.7,66.1,3270000,Mixed,MTN|Airtel|Glo|9mobile,5.1
+Niger,North Central,34.4,40.2,46.0,51.1,56.0,60.6,65.0,5556000,Rural,MTN|Airtel|Glo,4.9
+Benue,North Central,33.1,38.9,44.8,50.0,54.9,59.5,63.9,4253000,Rural,MTN|Airtel|Glo,4.8
+Kogi,North Central,31.7,37.6,43.6,48.8,53.8,58.4,62.8,4473000,Rural,MTN|Airtel|Glo,4.6
+Nasarawa,North Central,30.4,36.3,42.4,47.7,52.7,57.3,61.7,2523000,Rural,MTN|Airtel|Glo,4.5
+Katsina,North West,29.0,35.0,41.2,46.5,51.6,56.2,60.6,7831000,Rural,MTN|Airtel|Glo,4.3
+Sokoto,North West,27.7,33.7,40.0,45.4,50.5,55.1,59.5,4998000,Rural,MTN|Airtel|Glo,4.2
+Kebbi,North West,26.3,32.4,38.8,44.2,49.4,54.0,58.4,4440000,Rural,MTN|Airtel|Glo,4.0
+Zamfara,North West,25.0,31.1,37.6,43.1,48.3,52.9,57.3,3838000,Rural,MTN|Airtel|Glo,3.9
+Jigawa,North West,23.6,29.8,36.4,42.0,47.2,51.8,56.2,5829000,Rural,MTN|Airtel|Glo,3.7
+Bauchi,North East,22.3,28.5,35.2,40.8,46.1,50.7,55.1,6537000,Rural,MTN|Airtel|Glo,3.6
+Gombe,North East,20.9,27.2,34.0,39.7,45.0,49.6,54.0,3256000,Rural,MTN|Airtel|Glo,3.4
+Taraba,North East,19.6,25.9,32.8,38.6,43.9,48.5,52.9,2294000,Rural,MTN|Airtel|Glo,3.3
+Adamawa,North East,18.2,24.6,31.6,37.4,42.8,47.4,51.8,4248000,Rural,MTN|Airtel|Glo,3.1
+Borno,North East,16.9,23.3,30.4,36.3,41.7,46.3,50.7,5860000,Rural,MTN|Airtel|Glo,3.0
+Yobe,North East,15.5,22.0,29.2,35.2,40.6,45.2,49.6,2321000,Rural,MTN|Airtel|Glo,2.8
+Ebonyi,South East,14.2,20.7,28.0,34.1,39.5,44.1,48.5,2176000,Rural,MTN|Airtel|Glo,2.7
+Bayelsa,South South,12.8,19.4,26.8,33.0,38.4,43.0,47.4,2277000,Rural,MTN|Airtel|Glo,2.5
