@@ -1,0 +1,62 @@
+{
+  "title": "Focus Group Discussion Guide – Innovation Adoption and Constraints (Nigerian SMEs)",
+  "version": "1.0",
+  "created_at": "2025-10-22",
+  "purpose": "Elicit group-level norms, consensus, and contested views on constraints, enablers, and strategies when adopting innovation.",
+  "ground_rules": [
+    "One person at a time, respect all views",
+    "Confidentiality: nothing leaves the room",
+    "No need to agree; differences are valuable",
+    "Keep examples anonymized"
+  ],
+  "segments": [
+    {
+      "segment": "Introductions and context",
+      "time_min": 10,
+      "prompts": [
+        "Briefly introduce your business and your most recent innovation adoption.",
+        "What problem were you trying to solve?"
+      ]
+    },
+    {
+      "segment": "Common constraints",
+      "time_min": 20,
+      "prompts": [
+        "Which constraints are most binding in your sector (power, broadband, finance, skills, policy, trust)?",
+        "How do these constraints interact? For example, power affecting broadband equipment or cold-chain?"
+      ],
+      "activities": [
+        "Constraint ranking: participants vote on top three constraints",
+        "Causal mapping: draw arrows between constraints and outcomes"
+      ]
+    },
+    {
+      "segment": "Enablers and strategies",
+      "time_min": 20,
+      "prompts": [
+        "What helped you move forward (peer learning, vendor support, platforms, government programs)?",
+        "Share specific tactics that worked in your context."
+      ]
+    },
+    {
+      "segment": "Impacts and trade-offs",
+      "time_min": 15,
+      "prompts": [
+        "How did adoption affect performance (sales, costs, delivery times, rejection rates)?",
+        "What unintended consequences emerged (dependency, churn, cybersecurity, compliance costs)?"
+      ]
+    },
+    {
+      "segment": "Policy and ecosystem",
+      "time_min": 15,
+      "prompts": [
+        "Which policies or ecosystem changes would most unlock adoption in your sector?",
+        "What is feasible in the next 12 months vs. longer-term?"
+      ]
+    }
+  ],
+  "closing": {
+    "thanks": "Thank you for sharing. We will synthesize the themes and return a summary to the group, if desired.",
+    "feedback": "Any feedback on this session?"
+  }
+}

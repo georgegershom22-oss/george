@@ -1,0 +1,21 @@
+participant_id,pseudonym,gender,age_range,role,firm_size,sector,sub_sector,state,geo_zone,years_in_operation,adoption_case,adoption_year,adoption_stage,primary_constraint,digital_maturity,growth_trend,survey_response_id,selection_rationale
+P001,Aisha-Kano,F,32-39,Owner,Small,Agribusiness,Rice milling,Kano,North West,6,"Solar milling and IoT moisture sensors",2021,scaled,power,2,modest_growth,S1001,Represents agribusiness with power reliability issues
+P002,Chinedu-Onitsha,M,40-49,Manager,Small,Retail,Electronics,Anambra,South East,10,E-commerce storefront and WhatsApp CRM,2020,adopted,logistics,3,modest_growth,S1002,Traditional retail adopting online channels
+P003,Funmi-Ikeja,F,25-31,Owner,Micro,Services,Beauty salon,Lagos,South West,4,POS and digital bookkeeping,2019,adopted,finance,3,strong_growth,S1003,Micro-service with early digital adoption
+P004,Musa-Kaduna,M,32-39,Owner,Small,Manufacturing,Furniture,Kaduna,North West,8,CAD software and CNC router,2022,pilot,skills,2,modest_growth,S1004,Manufacturing facing skills constraint for advanced tools
+P005,Titi-Ibadan,F,40-49,Manager,Medium,Manufacturing,Garment,Oyo,South West,12,ERP lite and barcode inventory,2021,adopted,skills,3,modest_growth,S1005,Medium enterprise with process digitization
+P006,Sade-VI,F,32-39,COO,Small,Healthcare,Diagnostics,Lagos,South West,7,LIMS and cloud records,2023,pilot,data_privacy,3,modest_growth,S1006,Healthcare facing compliance and privacy concerns
+P007,Emeka-Aba,M,25-31,Owner,Micro,Manufacturing,Footwear,Abia,South East,5,Instagram shop and courier integration,2020,adopted,broadband,3,strong_growth,S1007,Maker using social commerce and logistics
+P008,Halima-Minna,F,32-39,Owner,Micro,Agribusiness,Shea butter,Niger,North Central,6,Mobile money and agent network,2019,adopted,trust,2,modest_growth,S1008,Rural producer using mobile money
+P009,Bayo-Akure,M,32-39,CTO,Small,Tech,SaaS,Ondo,South West,3,AI demand forecasting module,2024,pilot,data_access,4,strong_growth,S1009,Tech startup piloting AI
+P010,Zainab-Maiduguri,F,25-31,Owner,Micro,Retail,Grocery,Borno,North East,5,Solar freezer and mobile bookkeeping,2022,adopted,power,2,modest_growth,S1010,Perishables retail under power constraints
+P011,Ahmed-Kano,M,40-49,Manager,Small,Logistics,Last mile,Kano,North West,9,Routing software and driver app,2021,scaled,broadband,3,strong_growth,S1011,Logistics optimizing routes and fuel
+P012,Ngozi-Enugu,F,32-39,Owner,Small,Education,Edtech,Enugu,South East,4,LMS and video classes,2020,adopted,broadband,3,modest_growth,S1012,Online teaching and content delivery
+P013,Tunde-Ilorin,M,32-39,Owner,Small,Agribusiness,Poultry,Kwara,North Central,7,IoT sensors and farm app,2021,pilot,vendor_lockin,2,modest_growth,S1013,Farm digitization with vendor dependency
+P014,Maryam-Sokoto,F,40-49,Owner,Micro,Retail,Textiles,Sokoto,North West,15,POS and inventory app,2018,adopted,skills,2,modest_growth,S1014,Established retailer modernizing sales
+P015,Ifeoma-Awka,F,32-39,CFO,Medium,Manufacturing,Plastics,Anambra,South East,11,Energy management and solar hybrid,2020,scaled,policy,3,modest_growth,S1015,Energy-intensive firm with policy exposure
+P016,Seyi-Lekki,M,32-39,CEO,Small,Hospitality,Restaurant,Lagos,South West,6,Online ordering and delivery aggregator,2020,adopted,finance,3,strong_growth,S1016,Service SME using platforms
+P017,Idris-Jos,M,25-31,Owner,Micro,Services,Tailoring,Plateau,North Central,5,WhatsApp Business and invoicing,2019,adopted,skills,2,modest_growth,S1017,Home-based service going digital
+P018,Ruth-Calabar,F,32-39,Owner,Small,Agribusiness,Fish farming,Cross River,South South,8,Aeration control and sensors,2022,pilot,power,2,modest_growth,S1018,Aquaculture exploring automation
+P019,Uche-PortHarcourt,M,40-49,Manager,Small,Services,Oil services,Rivers,South South,14,Asset tracking and analytics,2021,adopted,cybersecurity,3,modest_growth,S1019,Field services with data sensitivity
+P020,Aminat-Osogbo,F,25-31,Owner,Micro,Retail,Fashion,Osun,South West,3,TikTok shop and POS,2023,pilot,trust,2,modest_growth,S1020,New retail experimenting with social commerce

@@ -1,0 +1,77 @@
+{
+  "title": "Semi-Structured Interview Guide – Innovation Adoption in Nigerian SMEs",
+  "version": "1.0",
+  "created_at": "2025-10-22",
+  "purpose": "Elicit rich narratives about why and how SMEs adopt innovation, constraints faced, enabling factors, and tangible impacts on performance.",
+  "ethics_and_consent": {
+    "intro_script": "Thank you for speaking with us. This conversation is voluntary and confidential. We will use a pseudonym and remove identifiers. You can skip any question or stop at any time. With your permission, we will record notes for analysis.",
+    "permission_prompt": "Do you consent to participate and for us to use anonymized data for research?",
+    "privacy_notes": "Avoid collecting personally identifiable information or trade secrets; focus on experiences, processes, and outcomes."
+  },
+  "structure": [
+    {
+      "phase": "Warm-up and context",
+      "time_min": 5,
+      "core_questions": [
+        "Please tell me about your business: sector, size, and how long you have operated.",
+        "What are your current products/services and typical customers?",
+        "What was 2023-2025 like for your business in terms of growth and challenges?"
+      ]
+    },
+    {
+      "phase": "Adoption story",
+      "time_min": 15,
+      "core_questions": [
+        "Tell me the story of when you decided to adopt [X technology/practice].",
+        "What problem were you trying to solve?",
+        "Who championed this internally and who resisted?"
+      ],
+      "probes": [
+        "Catalyst event (e.g., loss, regulation, competitor move, new client demand)",
+        "Decision criteria (cost, reliability, skills, vendor support)",
+        "Alternatives considered and why rejected"
+      ]
+    },
+    {
+      "phase": "Constraints and enablers",
+      "time_min": 15,
+      "core_questions": [
+        "What were the biggest hurdles and how did you navigate them?",
+        "Which constraint was binding (power, broadband, finance, skills, policy, trust, etc.)?",
+        "What helped you move forward (peers, government support, platforms, vendors)?"
+      ],
+      "probes": [
+        "Hidden costs (integration, training, downtime)",
+        "Vendor lock-in or data access limitations",
+        "Cybersecurity/data privacy considerations"
+      ]
+    },
+    {
+      "phase": "Outcomes and evidence",
+      "time_min": 15,
+      "core_questions": [
+        "How did adoption affect sales, costs, customer relationships, or productivity?",
+        "What evidence supports this (POS reports, delivery times, rejection rates, downtime logs)?",
+        "Any unintended consequences or trade-offs?"
+      ],
+      "probes": [
+        "Magnitude and timing (immediate vs. lagged)",
+        "Sustainability of gains and scalability",
+        "Sector-specific impacts (e.g., spoilage, fuel, lead times)"
+      ]
+    },
+    {
+      "phase": "Reflections",
+      "time_min": 10,
+      "core_questions": [
+        "What would you do differently if repeating this journey?",
+        "What advice would you give a peer considering the same innovation?",
+        "What role should government, banks, or platforms play?"
+      ]
+    }
+  ],
+  "closing": {
+    "thanks_script": "Thank you for your time. We will share a brief summary of insights after analysis, if you wish.",
+    "follow_up": "May we contact you for clarification if needed?"
+  }
+}

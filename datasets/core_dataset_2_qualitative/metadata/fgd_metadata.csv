@@ -1,0 +1,6 @@
+fgd_id,theme,sector_group,location,city_state,mode,date_planned,facilitator,num_planned,notes
+FGD001,Technology and Services,Tech+Services,Lagos,Lagos,online,2025-10-25,Dr. Adewale,6,Founders and operations managers in growth phase
+FGD002,Agribusiness,Agribusiness,Kaduna,Kaduna,in_person,2025-10-26,Ms. Ibrahim,7,Producers and processors from North Central and North West
+FGD003,Retail and E-commerce,Retail+Ecommerce,Onitsha,Anambra,in_person,2025-10-27,Mr. Okeke,6,Brick-and-mortar shifting online in South East
+FGD004,Manufacturing and Logistics,Manufacturing+Logistics,Port Harcourt,Rivers,hybrid,2025-10-28,Ms. Danjuma,8,Factory managers and fleet operators
+FGD005,Healthcare and Education,Healthcare+Education,Abuja,FCT,online,2025-10-29,Dr. Eze,6,SMEs navigating compliance and remote delivery

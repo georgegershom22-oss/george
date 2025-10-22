@@ -1,0 +1,33 @@
+{
+  "dataset": "Core Dataset 2: Primary Qualitative Data (The Context & Richness)",
+  "topic": "Leveraging Machine Learning to Examine Innovation Adoption and Constraints in Nigerian SMEs: Implications for Performance and Growth",
+  "generated_at": "2025-10-22",
+  "structure": {
+    "base_path": "/workspace/datasets/core_dataset_2_qualitative",
+    "subdirs": ["metadata", "guides", "data", "analysis"]
+  },
+  "counts": {
+    "participants": 20,
+    "fgds": 4,
+    "files": 9,
+    "interview_records": 20,
+    "fgd_records": 4
+  },
+  "files": [
+    { "rel_path": "metadata/participants.csv", "bytes": null, "sha256": null },
+    { "rel_path": "metadata/fgd_metadata.csv", "bytes": null, "sha256": null },
+    { "rel_path": "metadata/fgd_participants.csv", "bytes": null, "sha256": null },
+    { "rel_path": "guides/interview_guide.json", "bytes": null, "sha256": null },
+    { "rel_path": "guides/fgd_guide.json", "bytes": null, "sha256": null },
+    { "rel_path": "data/interviews.jsonl", "records": 20, "bytes": null, "sha256": null },
+    { "rel_path": "data/fgds.jsonl", "records": 4, "bytes": null, "sha256": null },
+    { "rel_path": "analysis/codebook.json", "bytes": null, "sha256": null },
+    { "rel_path": "analysis/thematic_matrix.csv", "bytes": null, "sha256": null }
+  ],
+  "notes": [
+    "All data are synthetic, reflecting Nigerian SME contexts and common constraints/enablers.",
+    "Use participants.csv to map pseudonyms to sampling metadata; transcripts are anonymized.",
+    "Codes in interviews.jsonl align with analysis/codebook.json."
+  ],
+  "license": "CC BY 4.0 (Synthetic, no PII)"
+}
