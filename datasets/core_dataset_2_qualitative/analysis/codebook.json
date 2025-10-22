@@ -1,0 +1,48 @@
+{
+  "title": "Qualitative Codebook – Innovation Adoption in Nigerian SMEs",
+  "version": "1.0",
+  "created_at": "2025-10-22",
+  "code_categories": [
+    {
+      "category": "Constraints",
+      "codes": [
+        {"code": "power_constraint", "definition": "Unreliable or expensive electricity limiting operations or technology reliability.", "inclusion": ["Generator, outages, rationing, battery replacement cost"], "exclusion": ["Energy efficiency efforts where power is adequate"], "example": "Power was killing us—diesel cost and outages."},
+        {"code": "broadband_constraint", "definition": "Limited, unreliable, or costly internet affecting adoption or usage of digital tools.", "inclusion": ["Dead zones, data cost, upload windows"], "exclusion": ["General IT issues not related to connectivity"], "example": "We switched to night uploads and compressed images."},
+        {"code": "finance_access", "definition": "Difficulty accessing credit or capital for adoption.", "inclusion": ["Collateral, interest rate, cash flow timing"], "exclusion": ["Operating cost issues without financing element"], "example": "Bank wanted collateral we didn’t have."},
+        {"code": "skills_gap", "definition": "Shortage of technical or managerial skills to implement and use innovation.", "inclusion": ["Training, vendor support, learning curve"], "exclusion": ["General staff shortage"], "example": "Operators were scared of the dashboard."},
+        {"code": "policy_risk", "definition": "Regulatory or tariff uncertainty affecting investment decisions.", "inclusion": ["Import duty volatility, compliance audits"], "exclusion": ["Firm internal policy"], "example": "Policy risk on import duties; we diversified suppliers."},
+        {"code": "trust_constraint", "definition": "Customer or partner distrust hindering adoption or transactions.", "inclusion": ["Fear of scams, hidden fees"], "exclusion": ["Supplier reliability (see vendor_lockin)"], "example": "Some customers fear scams; we offer pay-on-delivery."},
+        {"code": "data_access_constraint", "definition": "Inability to access or share data required for analytics due to privacy or business concerns.", "inclusion": ["Data sharing reluctance, legal/privacy blocks"], "exclusion": ["Connectivity (see broadband_constraint)"], "example": "Merchants reluctant to share granular data."},
+        {"code": "vendor_lockin", "definition": "Dependence on proprietary vendor ecosystems that restrict switching or data portability.", "inclusion": ["Closed gateways, export limitations"], "exclusion": ["Normal supplier reliance without restrictions"], "example": "Proprietary gateway; negotiated data export."}
+      ]
+    },
+    {
+      "category": "Enablers and Strategies",
+      "codes": [
+        {"code": "vendor_financing", "definition": "Financing structures provided by vendors enabling adoption.", "inclusion": ["Lease, installment with maintenance"], "exclusion": ["Bank loans"], "example": "Vendor lease with maintenance."},
+        {"code": "peer_learning", "definition": "Learning via peers, demos, or communities of practice.", "inclusion": ["Market-day demos, WhatsApp groups"], "exclusion": ["Formal vendor training"], "example": "We did demos at market days."},
+        {"code": "localization_language", "definition": "Adapting tools and training to local language and context.", "inclusion": ["Hausa guides, laminated quick guides"], "exclusion": ["Generic training"], "example": "We made Hausa guides and peer mentoring."},
+        {"code": "incentive_alignment", "definition": "Aligning incentives to encourage adoption and compliance.", "inclusion": ["Bonuses, dashboards, targets"], "exclusion": ["Punitive-only approaches"], "example": "Bonus eligibility based on safe driving and OTP deliveries."},
+        {"code": "privacy_preserving_analytics", "definition": "Use of techniques to analyze data while maintaining privacy.", "inclusion": ["Cohorts, aggregates, clean-room approaches"], "exclusion": ["Raw PII sharing"], "example": "Opt-in cohorts with clean-room style aggregates."}
+      ]
+    },
+    {
+      "category": "Outcomes and Evidence",
+      "codes": [
+        {"code": "cost_reduction", "definition": "Lower operating costs attributable to the innovation.", "inclusion": ["Fuel spend, energy per unit, logistics"], "exclusion": ["Revenue-only effects"], "example": "Fuel spend dropped 40%."},
+        {"code": "downtime_reduction", "definition": "Decrease in unplanned downtime.", "inclusion": ["Outage hours, breakdowns"], "exclusion": ["Planned maintenance"], "example": "Downtime fell by half."},
+        {"code": "process_quality", "definition": "Improved process control and quality metrics.", "inclusion": ["Rejection rates, mix-ups"], "exclusion": ["Brand perception only"], "example": "Rejection fell from 8% to 2%."},
+        {"code": "lead_time_reduction", "definition": "Shorter lead times from order to delivery.", "inclusion": ["Cycle time, throughput"], "exclusion": ["Shipping delays outside firm"], "example": "Lead time down 20%."},
+        {"code": "revenue_growth", "definition": "Increase in sales attributable to innovation.", "inclusion": ["Channel expansion, basket size"], "exclusion": ["Macro-only growth"], "example": "Revenue grew ~18%."},
+        {"code": "stockout_reduction", "definition": "Lower stockout frequency or depth.", "inclusion": ["On-shelf availability, reorder accuracy"], "exclusion": ["Supplier failures unrelated to adoption"], "example": "Stock-outs reduced after forecasting module."},
+        {"code": "spoilage_reduction", "definition": "Reduced spoilage or waste.", "inclusion": ["Cold chain reliability"], "exclusion": ["Returns not due to spoilage"], "example": "Spoilage down 60%."}
+      ]
+    }
+  ],
+  "coding_rules": {
+    "unit_of_analysis": "Turn-level or idea-level excerpt (1-3 sentences).",
+    "double_coding": "Allowed when excerpt clearly spans constraint and strategy or outcome.",
+    "handling_quantities": "Capture before/after metrics when mentioned; store as evidence objects.",
+    "disagreements": "Resolve via coder meeting; document rationale in memo field."
+  }
+}
