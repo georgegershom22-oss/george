@@ -1,0 +1,25 @@
+SOFC Low-Fidelity Dataset Summary
+========================================
+
+Total samples: 100
+Generation time: 6.17 seconds
+Average time per sample: 0.062 seconds
+
+Input Parameters:
+  input_temperature: 700.000 to 900.000
+  input_current_density: 1000.000 to 5000.000
+  input_fuel_utilization: 0.600 to 0.900
+  input_anode_porosity: 0.200 to 0.400
+  input_air_utilization: 0.150 to 0.250
+
+Output Parameters:
+  output_voltage_stack: 15.000 to 15.000
+  output_voltage_cell: 0.300 to 0.300
+  output_power_stack: 150.000 to 750.000
+  output_efficiency_electrochemical: 0.700 to 0.700
+  output_temperature_stack: 928.150 to 1123.150
+  output_nernst_potential: 1.349 to 1.354
+  output_overpotential_ohmic: 91.088 to 554.662
+  output_overpotential_activation_anode: -0.097 to 0.359
+  output_overpotential_activation_cathode: -0.116 to 0.377
+  output_overpotential_concentration: 1.000 to 1.000
