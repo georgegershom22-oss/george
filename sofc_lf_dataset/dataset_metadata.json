@@ -1,0 +1,97 @@
+{
+  "total_samples": 10200,
+  "failed_samples": 0,
+  "parameter_ranges": {
+    "operating_temperature": [
+      973.15,
+      1173.15
+    ],
+    "fuel_utilization": [
+      0.7,
+      0.95
+    ],
+    "air_utilization": [
+      0.15,
+      0.3
+    ],
+    "cell_area": [
+      0.005,
+      0.02
+    ],
+    "anode_thickness": [
+      0.0003,
+      0.0008
+    ],
+    "cathode_thickness": [
+      3e-05,
+      0.0001
+    ],
+    "electrolyte_thickness": [
+      5e-06,
+      2e-05
+    ],
+    "anode_porosity": [
+      0.25,
+      0.55
+    ],
+    "cathode_porosity": [
+      0.25,
+      0.55
+    ],
+    "anode_tortuosity": [
+      2.0,
+      5.0
+    ],
+    "cathode_tortuosity": [
+      2.0,
+      5.0
+    ],
+    "exchange_current_density_anode": [
+      3000,
+      10000
+    ],
+    "exchange_current_density_cathode": [
+      1000,
+      5000
+    ],
+    "activation_energy_anode": [
+      100000.0,
+      140000.0
+    ],
+    "activation_energy_cathode": [
+      140000.0,
+      180000.0
+    ],
+    "ionic_conductivity_ref": [
+      20000.0,
+      50000.0
+    ],
+    "electronic_conductivity_anode": [
+      70000.0,
+      120000.0
+    ],
+    "electronic_conductivity_cathode": [
+      60000.0,
+      100000.0
+    ],
+    "h2_inlet_fraction": [
+      0.9,
+      0.99
+    ],
+    "h2o_inlet_fraction": [
+      0.01,
+      0.1
+    ],
+    "o2_inlet_fraction": [
+      0.18,
+      0.23
+    ]
+  },
+  "fixed_parameters": {
+    "ref_temperature": 1073.15
+  },
+  "generation_time": "2025-10-23T19:34:18.392682",
+  "model_type": "1D_lumped_electrochemical",
+  "fidelity": "low",
+  "parallel_processes": 4
+}
