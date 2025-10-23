@@ -11,7 +11,8 @@ Based on fundamental SOFC electrochemical principles and thermodynamics.
 import numpy as np
 import pandas as pd
 from scipy.optimize import fsolve
-from scipy.constants import R, F  # Gas constant and Faraday constant
+from scipy.constants import R  # Gas constant
+F = 96485.33212  # Faraday constant (C/mol)
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import warnings
