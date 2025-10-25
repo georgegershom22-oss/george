@@ -1,0 +1,89 @@
+{
+  "success_rate": 0.6577380952380952,
+  "optimal_ranges": {
+    "Heating_Rate_C_per_min": [
+      1.0,
+      20.0
+    ],
+    "Peak_Temperature_C": [
+      1200.0,
+      1400.0
+    ],
+    "Hold_Time_min": [
+      0.0,
+      480.0
+    ]
+  },
+  "best_experiments": [
+    {
+      "Experiment_ID": "EXP_1941",
+      "Heating_Rate_C_per_min": "8",
+      "Peak_Temperature_C": "1328.5714285714287",
+      "Hold_Time_min": "30",
+      "Quality_Score": "109.48702534420036"
+    },
+    {
+      "Experiment_ID": "EXP_0854",
+      "Heating_Rate_C_per_min": "3",
+      "Peak_Temperature_C": "1200.0",
+      "Hold_Time_min": "60",
+      "Quality_Score": "109.4847871662838"
+    },
+    {
+      "Experiment_ID": "EXP_1138",
+      "Heating_Rate_C_per_min": "3",
+      "Peak_Temperature_C": "1342.857142857143",
+      "Hold_Time_min": "120",
+      "Quality_Score": "109.48382520511916"
+    },
+    {
+      "Experiment_ID": "EXP_1401",
+      "Heating_Rate_C_per_min": "5",
+      "Peak_Temperature_C": "1271.4285714285713",
+      "Hold_Time_min": "0",
+      "Quality_Score": "109.47985998455164"
+    },
+    {
+      "Experiment_ID": "EXP_0663",
+      "Heating_Rate_C_per_min": "2",
+      "Peak_Temperature_C": "1314.2857142857142",
+      "Hold_Time_min": "120",
+      "Quality_Score": "109.47408023965244"
+    },
+    {
+      "Experiment_ID": "EXP_0318",
+      "Heating_Rate_C_per_min": "1",
+      "Peak_Temperature_C": "1357.142857142857",
+      "Hold_Time_min": "30",
+      "Quality_Score": "109.47321900272833"
+    },
+    {
+      "Experiment_ID": "EXP_2669",
+      "Heating_Rate_C_per_min": "15",
+      "Peak_Temperature_C": "1271.4285714285713",
+      "Hold_Time_min": "30",
+      "Quality_Score": "109.4424931052662"
+    },
+    {
+      "Experiment_ID": "EXP_2285",
+      "Heating_Rate_C_per_min": "10",
+      "Peak_Temperature_C": "1285.7142857142858",
+      "Hold_Time_min": "120",
+      "Quality_Score": "109.44172916725564"
+    },
+    {
+      "Experiment_ID": "EXP_0977",
+      "Heating_Rate_C_per_min": "3",
+      "Peak_Temperature_C": "1257.142857142857",
+      "Hold_Time_min": "480",
+      "Quality_Score": "109.42789464204854"
+    },
+    {
+      "Experiment_ID": "EXP_0219",
+      "Heating_Rate_C_per_min": "1",
+      "Peak_Temperature_C": "1300.0",
+      "Hold_Time_min": "240",
+      "Quality_Score": "109.42708761788565"
+    }
+  ]
+}

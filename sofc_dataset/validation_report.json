@@ -1,0 +1,104 @@
+{
+  "sintering_kinetics/anode_master_curve.csv": {
+    "valid": true,
+    "message": "Valid dataset with 6375 rows, 5 columns",
+    "size_mb": 0.4850587844848633,
+    "checksum": "a37d6dfa138f3a842ba9284618bb3167"
+  },
+  "sintering_kinetics/anode_kinetics.csv": {
+    "valid": true,
+    "message": "Valid dataset with 7500 rows, 10 columns",
+    "size_mb": 1.3432502746582031,
+    "checksum": "6ab158f5218fa2c9a04c4dfeffe500e6"
+  },
+  "sintering_kinetics/functional_layer_kinetics.csv": {
+    "valid": true,
+    "message": "Valid dataset with 7500 rows, 10 columns",
+    "size_mb": 1.4214982986450195,
+    "checksum": "8c2da359d9f9a618f0799351b9670953"
+  },
+  "sintering_kinetics/electrolyte_kinetics.csv": {
+    "valid": true,
+    "message": "Valid dataset with 7500 rows, 10 columns",
+    "size_mb": 1.4075689315795898,
+    "checksum": "4146d9f86a396f724080cbeb710668f1"
+  },
+  "sintering_kinetics/all_materials_kinetics.csv": {
+    "valid": true,
+    "message": "Valid dataset with 22500 rows, 10 columns",
+    "size_mb": 4.171974182128906,
+    "checksum": "de79acf1f6ffd6c4a4cd80d374003cdc"
+  },
+  "sintering_kinetics/electrolyte_master_curve.csv": {
+    "valid": true,
+    "message": "Valid dataset with 6375 rows, 5 columns",
+    "size_mb": 0.5214643478393555,
+    "checksum": "adb249abdc3281f2c29cc85459e57f83"
+  },
+  "sintering_kinetics/functional_layer_master_curve.csv": {
+    "valid": true,
+    "message": "Valid dataset with 6375 rows, 5 columns",
+    "size_mb": 0.5518102645874023,
+    "checksum": "7c33d8ebce49fd9c67a4ec19242359b6"
+  },
+  "microstructure/anode_evolution.csv": {
+    "valid": true,
+    "message": "Valid dataset with 24 rows, 12 columns",
+    "size_mb": 0.0044384002685546875,
+    "checksum": "564244e154be8ea2a4df1b46548fc83f"
+  },
+  "microstructure/functional_layer_evolution.csv": {
+    "valid": true,
+    "message": "Valid dataset with 24 rows, 12 columns",
+    "size_mb": 0.0046939849853515625,
+    "checksum": "ef507a2ab21af3f8467769bfe5fe0070"
+  },
+  "microstructure/electrolyte_evolution.csv": {
+    "valid": true,
+    "message": "Valid dataset with 24 rows, 12 columns",
+    "size_mb": 0.004645347595214844,
+    "checksum": "d7f90cc70431871eac39452170ec85c5"
+  },
+  "microstructure/image_metadata.csv": {
+    "valid": true,
+    "message": "Valid dataset with 95 rows, 19 columns",
+    "size_mb": 0.01626873016357422,
+    "checksum": "eb67ffa6222a1b734051ec4bf2326bbf"
+  },
+  "microstructure/all_materials_evolution.csv": {
+    "valid": true,
+    "message": "Valid dataset with 72 rows, 12 columns",
+    "size_mb": 0.013417243957519531,
+    "checksum": "2cc9fef55661461f47f3c30ee057e49e"
+  },
+  "process_window/sintering_experiments.csv": {
+    "valid": true,
+    "message": "Valid dataset with 3360 rows, 14 columns",
+    "size_mb": 0.5792350769042969,
+    "checksum": "5dfbf6e34c0dafc3f145d65488d58a91"
+  },
+  "thermophysical/anode_properties.csv": {
+    "valid": true,
+    "message": "Valid dataset with 100 rows, 8 columns",
+    "size_mb": 0.012581825256347656,
+    "checksum": "a5aa3595b210125b7f31941ca19b50ce"
+  },
+  "thermophysical/all_materials_properties.csv": {
+    "valid": true,
+    "message": "Valid dataset with 300 rows, 8 columns",
+    "size_mb": 0.03945350646972656,
+    "checksum": "f552c03071f34e586e7413617d61222f"
+  },
+  "thermophysical/electrolyte_properties.csv": {
+    "valid": true,
+    "message": "Valid dataset with 100 rows, 8 columns",
+    "size_mb": 0.013452529907226562,
+    "checksum": "2a776f201a0be13448554b35552630c6"
+  },
+  "thermophysical/functional_layer_properties.csv": {
+    "valid": true,
+    "message": "Valid dataset with 100 rows, 8 columns",
+    "size_mb": 0.013634681701660156,
+    "checksum": "91f15153fd9a713ab5184a3529f1f837"
+  }
+}
