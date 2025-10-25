@@ -1,0 +1,65 @@
+purpose: 'Phase 2: Core Real-Time Training & Validation Data'
+description:
+  visual_data: Two-camera high-contrast speckle videos (synthetic).
+  derived_data: Downsampled full-field displacement (U,V,W) and strain (EXX,EYY,EXY)
+    maps per frame.
+  furnace_data: Synchronized setpoints, actions (per-step setpoint changes), measured
+    zone temps, gas, pressure.
+  rl_tuples: JSONL of state-action-reward-next_state with timestamps and video refs.
+config:
+  width_px: 480
+  height_px: 480
+  grid_downsample: 2
+  fps: 60
+  num_frames: 300
+  speckle_threshold: 0.55
+  speckle_blur_sigma: 0.8
+  speckle_contrast: 0.9
+  t_init_c: 500.0
+  t_target_c: 1200.0
+  num_zones: 3
+  zone_time_constant_s: 4.0
+  zone_coupling: 0.06
+  sensor_noise_c: 0.7
+  rho_init: 0.6
+  rho_target: 0.95
+  k0: 0.0025
+  ea_over_r: 18000.0
+  shrinkage_scale: 0.06
+  warp_temp_sensitivity: 0.00012
+  warp_smooth_sigma: 15.0
+  camera_0:
+    name: cam0
+    parallax_factor: 0.0
+    skew_x: 0.002
+    skew_y: 0.0
+  camera_1:
+    name: cam1
+    parallax_factor: 0.18
+    skew_x: -0.001
+    skew_y: 0.001
+  reward_weights:
+    w1_warpage_rate: 1.0
+    w2_max_strain: 100.0
+    w3_density_error_sq: 500.0
+  seed: 42
+cameras:
+- name: cam0
+  parallax_factor: 0.0
+  skew_x: 0.002
+  skew_y: 0.0
+- name: cam1
+  parallax_factor: 0.18
+  skew_x: -0.001
+  skew_y: 0.001
+reward_weights:
+  w1_warpage_rate: 1.0
+  w2_max_strain: 100.0
+  w3_density_error_sq: 500.0
+files:
+  cam0_video: dic/cam0/video.mp4
+  cam1_video: dic/cam1/video.mp4
+  derived_fields: derived_fields/fields_downsampled_fp16.npz
+  sensors_csv: furnace/sensors.csv
+  controls_csv: furnace/controls.csv
+  rl_tuples_jsonl: rl/tuples.jsonl
