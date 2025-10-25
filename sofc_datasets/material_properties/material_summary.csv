@@ -1,0 +1,5 @@
+Material,Composition,Density_25C_g_per_cm3,Melting_Point_C,Youngs_Modulus_25C_GPa,CTE_25C_1perK,Shear_Viscosity_1000C_Pa_s
+NiO_YSZ_anode,40% NiO - 60% YSZ,6.85,1455,200.0,1.25e-05,4.969869678689834e+23
+YSZ_electrolyte,8 mol% Y2O3 - 92 mol% ZrO2,6.1,2700,220.0,1.05e-05,4.969869678689834e+26
+LSCF_cathode,La0.6Sr0.4Co0.2Fe0.8O3-δ,6.2,1650,180.0,1.32e-05,4.969869678689834e+24
+GDC_interlayer,Ce0.9Gd0.1O2-δ,7.2,2400,190.0,1.28e-05,4.969869678689834e+25
