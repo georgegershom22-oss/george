@@ -1,0 +1,62 @@
+{
+  "validation_date": "2025-10-25T00:14:17.007305",
+  "overall_status": "WARNINGS",
+  "datasets_validated": 4,
+  "total_issues": 4,
+  "summary": {
+    "material_properties": {
+      "status": "PASS",
+      "materials": 4,
+      "issues": 0
+    },
+    "sintering_kinetics": {
+      "status": "WARNINGS",
+      "materials": 4,
+      "issues": 4
+    },
+    "microstructural_evolution": {
+      "status": "PASS",
+      "temperatures": 8,
+      "issues": 0
+    },
+    "process_window": {
+      "status": "PASS",
+      "combinations": 864,
+      "success_rate": 0.8600788652705463,
+      "issues": 0
+    }
+  },
+  "detailed_results": {
+    "material_properties": {
+      "materials_count": 4,
+      "properties_validated": true,
+      "temperature_range": "25-1400\u00b0C",
+      "issues": [],
+      "status": "PASS"
+    },
+    "sintering_kinetics": {
+      "materials_count": 4,
+      "temperature_range": "800-1400\u00b0C",
+      "density_range": "0.5-0.99",
+      "issues": [
+        "NiO_YSZ_anode: Viscosity values out of reasonable range",
+        "YSZ_electrolyte: Viscosity values out of reasonable range",
+        "LSCF_cathode: Viscosity values out of reasonable range",
+        "GDC_interlayer: Viscosity values out of reasonable range"
+      ],
+      "status": "WARNINGS"
+    },
+    "microstructural_evolution": {
+      "temperatures": 8,
+      "time_points": 8,
+      "issues": [],
+      "status": "PASS"
+    },
+    "process_window": {
+      "total_combinations": 864,
+      "success_rate": 0.8600788652705463,
+      "issues": [],
+      "status": "PASS"
+    }
+  }
+}
