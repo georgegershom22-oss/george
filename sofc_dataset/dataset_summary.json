@@ -1,0 +1,84 @@
+{
+  "dataset_info": {
+    "generation_date": "2025-10-25T00:17:46.787915",
+    "materials": {
+      "anode": "NiO-YSZ (60-40 vol%)",
+      "electrolyte": "8YSZ (8 mol% Y2O3-ZrO2)",
+      "functional_layer": "NiO-YSZ (40-60 vol%)"
+    },
+    "temperature_range_C": [
+      20.0,
+      1400.0
+    ],
+    "sintering_temp_range_C": [
+      1200.0,
+      1400.0
+    ]
+  },
+  "datasets": {
+    "thermophysical_properties": {
+      "description": "Temperature-dependent material properties for FEM modeling",
+      "parameters": [
+        "CTE",
+        "Young's Modulus",
+        "Poisson's Ratio",
+        "Shear Viscosity",
+        "Density"
+      ],
+      "temperature_points": 100,
+      "materials": 3
+    },
+    "sintering_kinetics": {
+      "description": "Kinetic parameters for phase-field modeling",
+      "parameters": [
+        "Sintering Stress",
+        "Bulk/Shear Viscosity",
+        "Densification Rate",
+        "Grain Growth Rate"
+      ],
+      "conditions": "25 temperatures \u00d7 20 densities \u00d7 15 time points",
+      "total_points": 22500
+    },
+    "microstructural_evolution": {
+      "description": "Time-series microstructural data for model validation",
+      "parameters": [
+        "Porosity",
+        "Pore Size",
+        "Grain Size",
+        "Tortuosity",
+        "Connectivity"
+      ],
+      "conditions": "4 temperatures \u00d7 6 time points \u00d7 3 materials",
+      "image_metadata": "SEM and X-ray CT synthetic metadata"
+    },
+    "process_window": {
+      "description": "Initial sintering experiments for RL training",
+      "parameters": [
+        "Heating Rate",
+        "Peak Temperature",
+        "Hold Time",
+        "Atmosphere"
+      ],
+      "experiments": 3360,
+      "outcomes": [
+        "Warpage",
+        "Cracking",
+        "Density",
+        "Quality Score"
+      ]
+    }
+  },
+  "file_structure": {
+    "thermophysical/": "Material property datasets",
+    "sintering_kinetics/": "Kinetic parameters and master curves",
+    "microstructure/": "Microstructural evolution and image metadata",
+    "process_window/": "Sintering experiments and analysis",
+    "plots/": "Visualization plots"
+  },
+  "usage_notes": {
+    "FEM_calibration": "Use thermophysical properties for mechanical and thermal FEM models",
+    "phase_field_calibration": "Use sintering kinetics for phase-field model parameters",
+    "validation": "Use microstructural evolution data to validate model predictions",
+    "RL_training": "Use process window data as initial training set for reinforcement learning"
+  }
+}

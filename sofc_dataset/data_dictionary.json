@@ -1,0 +1,88 @@
+{
+  "thermophysical_properties": {
+    "description": "Temperature-dependent material properties for FEM modeling",
+    "source": "Generated from literature models and experimental correlations",
+    "fields": {
+      "Temperature_C": "Temperature in Celsius (20-1400\u00b0C)",
+      "CTE_per_K": "Coefficient of Thermal Expansion (1/K)",
+      "Youngs_Modulus_GPa": "Young's Modulus (GPa)",
+      "Poisson_Ratio": "Poisson's Ratio (dimensionless)",
+      "Shear_Viscosity_Pa_s": "Shear Viscosity for sintering (Pa\u00b7s)",
+      "Density_g_cm3": "Density (g/cm\u00b3)",
+      "Material": "Material type (anode, electrolyte, functional_layer)",
+      "Composition": "Material composition description"
+    },
+    "experimental_methods": [
+      "Dynamical Mechanical Analysis (DMA)",
+      "Dilatometry",
+      "Nanoindentation"
+    ]
+  },
+  "sintering_kinetics": {
+    "description": "Kinetic parameters for phase-field modeling",
+    "source": "Master sintering curve models and densification theory",
+    "fields": {
+      "Temperature_C": "Sintering temperature (1200-1400\u00b0C)",
+      "Relative_Density": "Relative density (0.45-0.95)",
+      "Hold_Time_min": "Hold time at temperature (1-1000 min)",
+      "Sintering_Stress_MPa": "Sintering stress (MPa)",
+      "Bulk_Viscosity_Pa_s": "Bulk viscosity (Pa\u00b7s)",
+      "Shear_Viscosity_Pa_s": "Shear viscosity (Pa\u00b7s)",
+      "Densification_Rate_per_s": "Densification rate (1/s)",
+      "Grain_Growth_Rate_um_per_s": "Grain growth rate (\u03bcm/s)"
+    },
+    "experimental_methods": [
+      "Dilatometry at multiple heating rates",
+      "Master sintering curve analysis",
+      "Interrupted sintering tests"
+    ]
+  },
+  "microstructural_evolution": {
+    "description": "Time-series microstructural data for model validation",
+    "source": "Interrupted sintering experiments with SEM/CT analysis",
+    "fields": {
+      "Temperature_C": "Sintering temperature (1250-1400\u00b0C)",
+      "Time_min": "Sintering time (0-480 min)",
+      "Porosity_fraction": "Porosity fraction (0-1)",
+      "Average_Pore_Size_um": "Average pore size (\u03bcm)",
+      "Pore_Size_Std_um": "Pore size standard deviation (\u03bcm)",
+      "Average_Grain_Size_um": "Average grain size (\u03bcm)",
+      "Grain_Size_Std_um": "Grain size standard deviation (\u03bcm)",
+      "Tortuosity": "Tortuosity factor",
+      "Connectivity_factor": "Pore connectivity factor",
+      "Surface_Area_m2_g": "Specific surface area (m\u00b2/g)"
+    },
+    "experimental_methods": [
+      "Quenched interrupted sintering",
+      "SEM imaging and analysis",
+      "X-ray Computed Tomography",
+      "Image analysis and quantification"
+    ]
+  },
+  "process_window": {
+    "description": "Initial sintering experiments for RL training",
+    "source": "Systematic process parameter variation study",
+    "fields": {
+      "Experiment_ID": "Unique experiment identifier",
+      "Heating_Rate_C_per_min": "Heating rate (1-20\u00b0C/min)",
+      "Peak_Temperature_C": "Peak sintering temperature (1200-1400\u00b0C)",
+      "Hold_Time_min": "Hold time at peak temperature (0-480 min)",
+      "Atmosphere": "Sintering atmosphere",
+      "Total_Cycle_Time_min": "Total cycle time (min)",
+      "Warpage_Max_mm": "Maximum warpage (mm)",
+      "Warpage_RMS_mm": "RMS warpage (mm)",
+      "Cracking": "Presence of cracks (boolean)",
+      "Final_Relative_Density": "Final relative density",
+      "Final_Porosity_fraction": "Final porosity fraction",
+      "Average_Grain_Size_um": "Final average grain size (\u03bcm)",
+      "Success": "Overall success (boolean)",
+      "Quality_Score": "Quality score (0-100)"
+    },
+    "experimental_methods": [
+      "3D profilometry for warpage measurement",
+      "Visual inspection for cracking",
+      "Density measurement",
+      "Microstructural analysis"
+    ]
+  }
+}
