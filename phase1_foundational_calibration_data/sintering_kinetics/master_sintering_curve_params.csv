@@ -1,0 +1,5 @@
+Material,Activation_Energy_kJ_mol,Pre_exponential_Factor,Grain_Growth_Exponent_n,Densification_Rate_Constant_K0,Apparent_Activation_Energy_Q_kJ_mol,Critical_Density,Reference_Temperature_C,Gas_Constant_R
+NiO-YSZ_Anode,425.3,2.45e+12,3.2,1.85e+08,425.3,0.92,1400,8.314
+YSZ_Electrolyte,485.7,5.82e+13,2.8,3.42e+08,485.7,0.95,1450,8.314
+GDC_Barrier,398.2,8.95e+11,3.5,1.24e+08,398.2,0.93,1350,8.314
+SDC_Interlayer,412.6,1.67e+12,3.1,1.58e+08,412.6,0.94,1375,8.314
