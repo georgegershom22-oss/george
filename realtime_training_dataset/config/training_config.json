@@ -1,0 +1,29 @@
+{
+  "dataset_path": "/workspace/realtime_training_dataset",
+  "agent_type": "ppo",
+  "num_episodes": 2000,
+  "learning_rate": 3e-4,
+  "gamma": 0.99,
+  "clip_ratio": 0.2,
+  "alpha": 0.2,
+  "batch_size": 256,
+  "total_episodes": 1000,
+  "train_split": 0.8,
+  "max_steps": 3600,
+  "reward_weights": {
+    "warpage": 1.0,
+    "strain": 0.8,
+    "density": 1.2,
+    "temperature": 0.6,
+    "energy": 0.1
+  },
+  "val_episodes": 20,
+  "val_frequency": 50,
+  "save_frequency": 100,
+  "update_frequency": 10,
+  "num_objectives": 4,
+  "use_wandb": false,
+  "output_dir": "training_results",
+  "experiment_name": "furnace_control_baseline",
+  "notes": "Baseline training configuration for furnace control with DIC feedback"
+}

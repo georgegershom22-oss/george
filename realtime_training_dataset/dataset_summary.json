@@ -1,0 +1,35 @@
+{
+  "dataset_info": {
+    "total_episodes": 10,
+    "episode_duration": 3600,
+    "total_duration_hours": 10,
+    "dic_fps": 100,
+    "furnace_fps": 10,
+    "rl_fps": 1
+  },
+  "physical_parameters": {
+    "sample_size_mm": [
+      50,
+      50
+    ],
+    "image_resolution": [
+      2048,
+      2048
+    ],
+    "num_cameras": 2,
+    "num_heating_zones": 6,
+    "num_thermocouples": 12,
+    "max_temperature_c": 1200,
+    "target_density": 0.95
+  },
+  "data_volumes": {
+    "estimated_total_size_gb": 5,
+    "dic_data_gb": 3.5,
+    "furnace_data_gb": 1,
+    "rl_data_gb": 0.5
+  },
+  "generation_info": {
+    "generated_on": "2025-10-25T01:29:50.680433",
+    "generator_version": "1.0.0"
+  }
+}

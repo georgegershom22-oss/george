@@ -1,0 +1,8 @@
+{
+  "episode_id": 5,
+  "duration": 3600,
+  "dic_samples": 360,
+  "furnace_samples": 360,
+  "rl_samples": 3600,
+  "generation_time": "2025-10-25T01:29:50.682886"
+}
