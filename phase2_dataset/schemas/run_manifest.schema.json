@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Run Manifest Schema",
+  "type": "object",
+  "properties": {
+    "run_id": {"type": "string"},
+    "split": {"type": "string", "enum": ["train", "val"]},
+    "num_steps": {"type": "integer"},
+    "fps": {"type": "number"},
+    "dic": {"$ref": "dic_stream.schema.json"},
+    "furnace": {"$ref": "furnace_stream.schema.json"},
+    "rl": {"$ref": "rl_tuples.schema.json"}
+  },
+  "required": ["run_id", "split", "num_steps", "fps", "dic", "furnace", "rl"],
+  "additionalProperties": true
+}

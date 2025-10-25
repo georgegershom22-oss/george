@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RL Tuples Schema",
+  "type": "object",
+  "properties": {
+    "tuples_parquet": {"type": "string"},
+    "state_columns": {"type": "array", "items": {"type": "string"}},
+    "action_columns": {"type": "array", "items": {"type": "string"}},
+    "reward_column": {"type": "string"},
+    "metadata": {"type": "object"}
+  },
+  "required": ["tuples_parquet", "state_columns", "action_columns", "reward_column"],
+  "additionalProperties": true
+}

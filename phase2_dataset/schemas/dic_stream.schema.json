@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DIC Stream Schema",
+  "type": "object",
+  "properties": {
+    "timestamps": {"type": "array", "items": {"type": "number"}},
+    "fields_downsampled_npz": {"type": "string", "description": "Path to NPZ containing U,V,W,exx,eyy,exy,prin1,prin2,curvature arrays of shape (T,H,W)"},
+    "metrics_csv": {"type": "string"},
+    "cameras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "video_path": {"type": "string"},
+          "frames_dir": {"type": "string"},
+          "camera_params_json": {"type": "string"}
+        },
+        "required": ["id"],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": ["timestamps", "fields_downsampled_npz", "metrics_csv", "cameras"],
+  "additionalProperties": true
+}

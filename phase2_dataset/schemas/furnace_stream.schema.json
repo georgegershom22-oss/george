@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Furnace Control and Sensor Stream Schema",
+  "type": "object",
+  "properties": {
+    "actions_csv": {"type": "string"},
+    "sensors_csv": {"type": "string"},
+    "timestamps": {"type": "array", "items": {"type": "number"}}
+  },
+  "required": ["actions_csv", "sensors_csv", "timestamps"],
+  "additionalProperties": true
+}
