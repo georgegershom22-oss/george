@@ -1,0 +1,140 @@
+# Real-Time Training & Validation Dataset Configuration
+# Phase 2: Core Real-Time Training & Validation Data
+
+# DIC Video Generation Settings
+dic:
+  width: 1920
+  height: 1080
+  fps: 120
+  duration: 3600  # seconds
+  material_type: "alumina"  # alumina, zirconia, silicon_carbide
+  speckle_density: 0.4
+  speckle_size_range: [3, 10]
+  thermal_sensitivity: 0.8
+
+# Furnace Control Settings
+furnace:
+  num_zones: 6
+  num_thermocouples: 12
+  max_power: 100.0  # kW
+  temp_ramp_rate: 5.0  # °C/min
+  control_dt: 1.0  # seconds
+  zone_thermal_mass: [0.8, 1.2]  # range
+  zone_heat_capacity: [800, 1200]  # range
+  zone_heat_transfer: [0.1, 0.3]  # range
+
+# Strain Analysis Settings
+strain:
+  subset_size: 32
+  step_size: 16
+  correlation_method: "correlation"  # correlation, phase_correlation
+  strain_method: "finite_difference"  # finite_difference, gaussian_fit
+  confidence_threshold: 0.5
+
+# RL State Representation
+rl_state:
+  state_dim: 50
+  feature_scaling: "standard"  # standard, minmax, robust
+  include_derivatives: true
+  include_curvature: true
+  include_heterogeneity: true
+
+# Reward Function Settings
+reward:
+  weights:
+    warpage: 1.0
+    strain: 0.5
+    density: 0.3
+    temperature_uniformity: 0.2
+    power_efficiency: 0.1
+  target_density: 0.95
+  max_strain_threshold: 0.01
+  max_warpage_threshold: 0.001
+
+# Material Properties
+materials:
+  alumina:
+    thermal_expansion_base: 8e-6
+    thermal_expansion_temp_factor: 1000
+    youngs_modulus: 200e9
+    poisson_ratio: 0.3
+    sintering_temperature: 1200
+    sintering_rate: 0.1
+    linear_shrinkage: 0.15
+  zirconia:
+    thermal_expansion_base: 10e-6
+    thermal_expansion_temp_factor: 800
+    youngs_modulus: 200e9
+    poisson_ratio: 0.3
+    sintering_temperature: 1400
+    sintering_rate: 0.08
+    linear_shrinkage: 0.12
+  silicon_carbide:
+    thermal_expansion_base: 4e-6
+    thermal_expansion_temp_factor: 1200
+    youngs_modulus: 400e9
+    poisson_ratio: 0.2
+    sintering_temperature: 1800
+    sintering_rate: 0.05
+    linear_shrinkage: 0.08
+
+# Dataset Generation Settings
+dataset:
+  num_episodes: 100
+  output_dir: "real_time_training_dataset"
+  save_formats: ["h5", "json", "csv", "mp4"]
+  compression: "gzip"
+  chunk_size: 1000
+  
+# Control Strategies
+control_strategies:
+  sintering_cycle:
+    phases:
+      - name: "heating_1"
+        duration: 0.2
+        temp_range: [25, 600]
+        ramp_rate: 5.0
+      - name: "soak_1"
+        duration: 0.1
+        temp_range: [600, 600]
+        ramp_rate: 0.0
+      - name: "heating_2"
+        duration: 0.3
+        temp_range: [600, 1200]
+        ramp_rate: 3.0
+      - name: "sintering"
+        duration: 0.2
+        temp_range: [1200, 1400]
+        ramp_rate: 2.0
+      - name: "soak_2"
+        duration: 0.1
+        temp_range: [1400, 1400]
+        ramp_rate: 0.0
+      - name: "cooling"
+        duration: 0.1
+        temp_range: [1400, 25]
+        ramp_rate: -10.0
+  
+  random_exploration:
+    phases:
+      - name: "random"
+        duration: 1.0
+        temp_range: [25, 1500]
+        ramp_rate: 0.0
+
+# Data Validation Settings
+validation:
+  check_data_integrity: true
+  validate_timestamps: true
+  check_physical_constraints: true
+  validate_strain_continuity: true
+  check_temperature_monotonicity: false  # Allow cooling phases
+  
+# Visualization Settings
+visualization:
+  plot_strain_fields: true
+  plot_displacement_fields: true
+  plot_furnace_data: true
+  save_plots: true
+  plot_format: "png"
+  dpi: 300
