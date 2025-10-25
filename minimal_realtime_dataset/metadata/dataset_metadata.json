@@ -1,0 +1,24 @@
+{
+  "dataset_info": {
+    "generation_date": "2025-10-25T01:16:05.874220",
+    "type": "minimal_demonstration_dataset",
+    "duration_hours": 0.5,
+    "dic_sample_rate_hz": 5,
+    "furnace_sample_rate_hz": 2,
+    "total_dic_frames": 9000,
+    "total_furnace_states": 3600,
+    "total_rl_tuples": 3599
+  },
+  "physical_parameters": {
+    "sample_size_mm": 100,
+    "max_temperature_C": 1600,
+    "target_density": 0.95,
+    "num_furnace_zones": 3,
+    "image_resolution": "64x64"
+  },
+  "data_description": {
+    "dic_data": "Summary statistics and sample full frames",
+    "furnace_data": "Complete time series of furnace control states",
+    "rl_data": "Complete state-action-reward-next_state tuples for training"
+  }
+}
