@@ -1,0 +1,169 @@
+BANKING SECURITY BEHAVIOR QUIZ
+==================================================
+
+INSTRUCTIONS:
+---------------
+• Read each scenario carefully
+• Consider what you would actually do in this situation
+• Choose the response that best matches your likely behavior
+• There are no 'trick' questions - answer honestly
+• Your responses help measure real-world security behavior
+
+SCORING:
+----------
+Scale: 0-2 points per question
+Total Possible: 20 points
+
+SCENARIOS:
+------------
+
+Scenario 1:
+You receive this SMS: 'Your account is locked. Click here to secure it: bit.ly/secure-now' What do you do?
+
+a) Click the link immediately
+   Score: 0 - High risk - could be phishing
+b) Call your bank using the number on your card
+   Score: 2 - Best practice - use official contact
+c) Ignore it
+   Score: 1 - Safe but not optimal - should verify with bank
+d) Reply to the SMS asking for more info
+   Score: 0 - High risk - never reply to suspicious messages
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 2:
+You're at a coffee shop using public WiFi. You need to check your bank balance. What do you do?
+
+a) Log in immediately using the banking app
+   Score: 0 - High risk - public WiFi is insecure
+b) Wait until you get home to use secure WiFi
+   Score: 2 - Best practice - avoid public WiFi for banking
+c) Use the banking website with HTTPS
+   Score: 1 - Better than app on public WiFi, but still risky
+d) Use mobile data instead of WiFi
+   Score: 2 - Good alternative - mobile data is more secure
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 3:
+You receive an email claiming to be from your bank asking you to update your password. What do you do?
+
+a) Click the link in the email and update password
+   Score: 0 - High risk - could be phishing email
+b) Log into your bank account directly (not via email link) to check
+   Score: 2 - Best practice - verify through official channels
+c) Reply to the email asking for verification
+   Score: 0 - High risk - never reply to suspicious emails
+d) Ignore the email completely
+   Score: 1 - Safe but should verify if it's legitimate
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 4:
+Your banking app asks if you want to enable biometric login (fingerprint/face). What do you do?
+
+a) Enable it immediately
+   Score: 2 - Good practice - biometrics are secure and convenient
+b) Enable it but also keep password as backup
+   Score: 2 - Excellent - layered security approach
+c) Skip it and stick with password only
+   Score: 1 - Acceptable but missing security benefits
+d) Disable it because it's less secure
+   Score: 0 - Incorrect - biometrics are generally more secure than passwords
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 5:
+You notice a small charge ($2.50) on your statement from an unknown merchant. What do you do?
+
+a) Ignore it - it's such a small amount
+   Score: 0 - Risky - small charges can be test transactions
+b) Call your bank immediately to report it
+   Score: 2 - Best practice - report all suspicious activity
+c) Wait to see if more charges appear
+   Score: 0 - Risky - delay allows fraud to continue
+d) Check if you made any recent small purchases
+   Score: 1 - Good first step, but should still verify with bank
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 6:
+Your bank sends you a text with a verification code. You're expecting this code. What do you do?
+
+a) Enter the code immediately when prompted
+   Score: 2 - Correct - you initiated the transaction
+b) Wait 5 minutes before entering the code
+   Score: 1 - Unnecessary delay - codes expire quickly
+c) Call the bank to verify the code is legitimate
+   Score: 1 - Overly cautious - you initiated the transaction
+d) Ignore the code and try again later
+   Score: 0 - Inefficient - codes are time-sensitive
+
+Correct Answer: a
+--------------------------------------------------
+
+Scenario 7:
+You're setting up a new online account that requires banking information. What do you do?
+
+a) Provide your account number and routing number
+   Score: 1 - Acceptable for legitimate services, but verify first
+b) Use a payment service like PayPal instead
+   Score: 2 - Better - adds security layer
+c) Provide your full debit card number and PIN
+   Score: 0 - High risk - never share PIN
+d) Ask for alternative payment methods
+   Score: 2 - Good - explore secure alternatives
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 8:
+You receive a call claiming to be from your bank's fraud department. They ask for your account number to verify your identity. What do you do?
+
+a) Provide your account number to verify
+   Score: 0 - High risk - banks never call asking for account numbers
+b) Ask for their employee ID and call back using the number on your card
+   Score: 2 - Best practice - verify through official channels
+c) Provide the last 4 digits only
+   Score: 1 - Still risky - banks don't call asking for account info
+d) Hang up and call your bank directly
+   Score: 2 - Excellent - always initiate contact yourself
+
+Correct Answer: b
+--------------------------------------------------
+
+Scenario 9:
+Your banking app offers to save your login credentials. What do you do?
+
+a) Save credentials for convenience
+   Score: 0 - High risk - never save banking credentials
+b) Save username only, not password
+   Score: 1 - Better but still not recommended for banking
+c) Use device biometrics instead of saving credentials
+   Score: 2 - Best practice - biometrics are more secure
+d) Never save any banking information
+   Score: 2 - Excellent - maximum security approach
+
+Correct Answer: c
+--------------------------------------------------
+
+Scenario 10:
+You're about to make a large transfer to a new payee. What do you do first?
+
+a) Make the transfer immediately
+   Score: 0 - Risky - should verify payee first
+b) Verify the payee's information through a separate channel
+   Score: 2 - Best practice - always verify large transfers
+c) Start with a small test transfer
+   Score: 1 - Good practice but should still verify payee
+d) Ask a family member to double-check
+   Score: 1 - Good idea but should also verify independently
+
+Correct Answer: b
+--------------------------------------------------
+

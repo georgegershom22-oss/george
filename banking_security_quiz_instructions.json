@@ -1,0 +1,22 @@
+{
+  "title": "Banking Security Behavior Assessment",
+  "description": "This quiz measures your knowledge and behavioral tendencies regarding banking security practices. Each scenario presents a realistic banking situation. Choose the response that best reflects what you would actually do.",
+  "instructions": [
+    "Read each scenario carefully",
+    "Consider what you would actually do in this situation",
+    "Choose the response that best matches your likely behavior",
+    "There are no 'trick' questions - answer honestly",
+    "Your responses help measure real-world security behavior"
+  ],
+  "scoring": {
+    "scale": "0-2 points per question",
+    "total_possible": "20 points",
+    "interpretation": {
+      "18-20": "Excellent security behavior",
+      "14-17": "Good security behavior",
+      "10-13": "Moderate security behavior",
+      "6-9": "Below average security behavior",
+      "0-5": "Poor security behavior"
+    }
+  }
+}
