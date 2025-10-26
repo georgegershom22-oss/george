@@ -1,0 +1,134 @@
+{
+  "dataset_info": {
+    "title": "Digital Banking Fraud Prevention Research Dataset",
+    "description": "Comprehensive dataset for analyzing demographic and control variables in digital banking fraud prevention research",
+    "sample_size": 5000,
+    "countries": [
+      "Nigeria",
+      "Ghana"
+    ],
+    "generated_date": "2025-10-26 18:53:41"
+  },
+  "variables": {
+    "Participant_ID": {
+      "type": "integer",
+      "description": "Unique identifier for each participant",
+      "coding": "Sequential numbers starting from 1"
+    },
+    "Country": {
+      "type": "categorical",
+      "description": "Country of residence",
+      "coding": "1=Nigeria, 2=Ghana"
+    },
+    "Age": {
+      "type": "continuous",
+      "description": "Age in years",
+      "coding": "18-65 years, normally distributed around 35"
+    },
+    "Gender": {
+      "type": "categorical",
+      "description": "Gender identity",
+      "coding": "1=Male, 2=Female, 3=Other/Prefer not to say"
+    },
+    "Education": {
+      "type": "ordinal",
+      "description": "Highest level of education completed",
+      "coding": "1=No formal education, 2=Primary, 3=Secondary, 4=Diploma/Certificate, 5=Bachelor's, 6=Postgraduate"
+    },
+    "Income_Level": {
+      "type": "ordinal",
+      "description": "Income level in local currency bands",
+      "coding": "1-6 bands (country-specific): Nigeria (NGN): 50k, 100k, 200k, 500k, 1M, 2M+; Ghana (GHS): 500, 1k, 2k, 5k, 10k, 20k+"
+    },
+    "Bank_Type": {
+      "type": "categorical",
+      "description": "Type of primary banking institution",
+      "coding": "1=Traditional Commercial Bank, 2=Digital-Only Bank, 3=Microfinance Institution"
+    },
+    "Years_with_Account": {
+      "type": "continuous",
+      "description": "Number of years with current bank account",
+      "coding": "1-30 years, exponential distribution"
+    },
+    "Frequency_of_Use": {
+      "type": "ordinal",
+      "description": "Frequency of banking service usage",
+      "coding": "1=Daily, 2=Weekly, 3=Monthly, 4=Quarterly, 5=Less than monthly"
+    },
+    "Past_Victim": {
+      "type": "binary",
+      "description": "Whether participant has been a victim of bank fraud",
+      "coding": "1=Yes, 0=No"
+    },
+    "Fraud_Incidents": {
+      "type": "count",
+      "description": "Number of fraud incidents experienced",
+      "coding": "0-5 incidents (only for victims)"
+    },
+    "Fraud_Types": {
+      "type": "text",
+      "description": "Types of fraud experienced",
+      "coding": "Semicolon-separated list of fraud types"
+    },
+    "Fraud_Amount": {
+      "type": "continuous",
+      "description": "Total amount lost to fraud in local currency",
+      "coding": "Country-specific currency amounts"
+    },
+    "Fraud_Resolution": {
+      "type": "ordinal",
+      "description": "Resolution status of fraud incidents",
+      "coding": "1=Resolved, 2=Partially Resolved, 3=Not Resolved, 0=Not Applicable"
+    },
+    "Tech_Adoption": {
+      "type": "continuous",
+      "description": "Technology adoption level",
+      "coding": "1-5 scale (1=Very Low, 5=Very High)"
+    },
+    "Risk_Tolerance": {
+      "type": "continuous",
+      "description": "Financial risk tolerance",
+      "coding": "1-5 scale (1=Very Low, 5=Very High)"
+    },
+    "Financial_Literacy": {
+      "type": "continuous",
+      "description": "Self-reported financial literacy level",
+      "coding": "1-5 scale (1=Very Low, 5=Very High)"
+    },
+    "Trust_Banking": {
+      "type": "continuous",
+      "description": "Trust in banking system",
+      "coding": "1-5 scale (1=Very Low, 5=Very High)"
+    },
+    "Mobile_Usage": {
+      "type": "continuous",
+      "description": "Mobile phone usage frequency",
+      "coding": "1-5 scale (1=Very Low, 5=Very High)"
+    },
+    "Internet_Quality": {
+      "type": "continuous",
+      "description": "Perceived internet access quality",
+      "coding": "1-5 scale (1=Very Poor, 5=Excellent)"
+    },
+    "Employment_Status": {
+      "type": "categorical",
+      "description": "Current employment status",
+      "coding": "1=Full-time, 2=Part-time, 3=Self-employed, 4=Unemployed, 5=Student"
+    },
+    "Marital_Status": {
+      "type": "categorical",
+      "description": "Marital status",
+      "coding": "1=Single, 2=Married, 3=Divorced, 4=Widowed"
+    },
+    "Urban_Rural": {
+      "type": "categorical",
+      "description": "Location type",
+      "coding": "1=Urban, 2=Rural"
+    },
+    "Data_Collection_Date": {
+      "type": "date",
+      "description": "Date when data was collected",
+      "coding": "YYYY-MM-DD format"
+    }
+  }
+}
