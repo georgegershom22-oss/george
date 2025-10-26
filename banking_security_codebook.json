@@ -1,0 +1,370 @@
+{
+  "dataset_info": {
+    "title": "Banking Security Behavior Dataset",
+    "description": "Longitudinal dataset examining the intention-behavior gap in banking security behaviors using Theory of Planned Behavior",
+    "sample_size": 1200,
+    "time_points": 2,
+    "collection_period": "September-December 2024",
+    "missing_data": "Multiple patterns: MCAR, MAR, and dropout"
+  },
+  "variables": {
+    "participant_id": {
+      "type": "string",
+      "description": "Unique participant identifier",
+      "values": "P0001-P9999"
+    },
+    "age": {
+      "type": "integer",
+      "description": "Age in years",
+      "range": "18-75"
+    },
+    "gender": {
+      "type": "categorical",
+      "description": "Gender identity",
+      "values": [
+        "Female",
+        "Male",
+        "Non-binary/Other"
+      ]
+    },
+    "education": {
+      "type": "ordinal",
+      "description": "Highest education level",
+      "scale": "1=Less than high school to 7=Doctoral degree"
+    },
+    "income": {
+      "type": "ordinal",
+      "description": "Annual household income",
+      "scale": "1=<$25k to 8=>$150k"
+    },
+    "tech_savviness": {
+      "type": "ordinal",
+      "description": "Self-reported technology proficiency",
+      "scale": "1=Very low to 7=Very high"
+    },
+    "banking_frequency": {
+      "type": "ordinal",
+      "description": "Frequency of online/mobile banking use",
+      "scale": "1=Rarely to 7=Multiple times daily"
+    },
+    "previous_incidents": {
+      "type": "ordinal",
+      "description": "Previous security incidents",
+      "values": "0=None, 1=Minor, 2=Major"
+    },
+    "t1_attitudes_1": {
+      "type": "ordinal",
+      "description": "Attitudes toward banking security - Item 1",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_attitudes_2": {
+      "type": "ordinal",
+      "description": "Attitudes toward banking security - Item 2",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_attitudes_3": {
+      "type": "ordinal",
+      "description": "Attitudes toward banking security - Item 3",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_attitudes_mean": {
+      "type": "continuous",
+      "description": "Mean of attitudes items",
+      "range": "1-7"
+    },
+    "t1_subjective_norms_1": {
+      "type": "ordinal",
+      "description": "Subjective norms - Item 1",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_subjective_norms_2": {
+      "type": "ordinal",
+      "description": "Subjective norms - Item 2",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_subjective_norms_3": {
+      "type": "ordinal",
+      "description": "Subjective norms - Item 3",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_subjective_norms_mean": {
+      "type": "continuous",
+      "description": "Mean of subjective norms items",
+      "range": "1-7"
+    },
+    "t1_pbc_1": {
+      "type": "ordinal",
+      "description": "Perceived Behavioral Control - Item 1",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_pbc_2": {
+      "type": "ordinal",
+      "description": "Perceived Behavioral Control - Item 2",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_pbc_3": {
+      "type": "ordinal",
+      "description": "Perceived Behavioral Control - Item 3",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_pbc_mean": {
+      "type": "continuous",
+      "description": "Mean of PBC items",
+      "range": "1-7"
+    },
+    "t1_intentions_1": {
+      "type": "ordinal",
+      "description": "Behavioral intentions - Item 1",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_intentions_2": {
+      "type": "ordinal",
+      "description": "Behavioral intentions - Item 2",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_intentions_3": {
+      "type": "ordinal",
+      "description": "Behavioral intentions - Item 3",
+      "scale": "1=Strongly disagree to 7=Strongly agree"
+    },
+    "t1_intentions_mean": {
+      "type": "continuous",
+      "description": "Mean of intentions items",
+      "range": "1-7"
+    },
+    "srb_1_check_statements": {
+      "type": "ordinal",
+      "description": "How often: Check bank statements for unauthorized transactions",
+      "scale": "1=Never to 7=Always"
+    },
+    "srb_2_strong_passwords": {
+      "type": "ordinal",
+      "description": "How often: Use strong, unique passwords for banking",
+      "scale": "1=Never to 7=Always"
+    },
+    "srb_3_two_factor_auth": {
+      "type": "ordinal",
+      "description": "How often: Enable two-factor authentication",
+      "scale": "1=Never to 7=Always"
+    },
+    "srb_4_logout_properly": {
+      "type": "ordinal",
+      "description": "How often: Log out of banking apps/sites after use",
+      "scale": "1=Never to 7=Always"
+    },
+    "srb_5_verify_alerts": {
+      "type": "ordinal",
+      "description": "How often: Verify text/email alerts before clicking links",
+      "scale": "1=Never to 7=Always"
+    },
+    "srb_total_mean": {
+      "type": "continuous",
+      "description": "Mean of all SRB items",
+      "range": "1-7"
+    },
+    "objective_total_score": {
+      "type": "integer",
+      "description": "Total score on objective security scenarios",
+      "range": "0-10"
+    },
+    "predicted_behavior": {
+      "type": "continuous",
+      "description": "Predicted behavior based on T1 intentions",
+      "range": "1-7"
+    },
+    "intention_behavior_gap": {
+      "type": "continuous",
+      "description": "Residual score: actual - predicted behavior"
+    },
+    "gap_category": {
+      "type": "categorical",
+      "description": "Categorized gap",
+      "values": [
+        "Under-performer",
+        "As expected",
+        "Over-performer"
+      ]
+    },
+    "risk_perception": {
+      "type": "ordinal",
+      "description": "Perceived risk of banking security threats",
+      "scale": "1=Very low to 7=Very high"
+    },
+    "bank_trust": {
+      "type": "ordinal",
+      "description": "Trust in bank's security measures",
+      "scale": "1=Very low to 7=Very high"
+    },
+    "security_self_efficacy": {
+      "type": "ordinal",
+      "description": "Confidence in personal security abilities",
+      "scale": "1=Very low to 7=Very high"
+    },
+    "months_since_training": {
+      "type": "integer",
+      "description": "Months since last security training",
+      "range": "0-60"
+    },
+    "primary_device": {
+      "type": "categorical",
+      "description": "Primary device for banking",
+      "values": [
+        "Desktop",
+        "Mobile",
+        "Tablet",
+        "Multiple"
+      ]
+    },
+    "t1_date": {
+      "type": "date",
+      "description": "Date of Time 1 data collection",
+      "format": "YYYY-MM-DD"
+    },
+    "t2_date": {
+      "type": "date",
+      "description": "Date of Time 2 data collection",
+      "format": "YYYY-MM-DD"
+    },
+    "t1_response_time_minutes": {
+      "type": "integer",
+      "description": "Time to complete T1 survey (minutes)",
+      "range": "3-45"
+    },
+    "t2_response_time_minutes": {
+      "type": "integer",
+      "description": "Time to complete T2 survey (minutes)",
+      "range": "2-35"
+    }
+  },
+  "objective_scenarios": {
+    "scenario_1_phishing_sms": {
+      "description": "SMS phishing scenario",
+      "prompt": "You receive this SMS: 'Your account is locked. Click here to secure it: bit.ly/secure123'",
+      "options": {
+        "click_immediately": {
+          "score": 0,
+          "description": "Click the link immediately"
+        },
+        "ignore_message": {
+          "score": 1,
+          "description": "Ignore the message"
+        },
+        "call_bank_official": {
+          "score": 2,
+          "description": "Call bank using official number"
+        },
+        "report_as_spam": {
+          "score": 2,
+          "description": "Report as spam/phishing"
+        }
+      }
+    },
+    "scenario_2_fake_email": {
+      "description": "Email phishing scenario",
+      "prompt": "Email from 'your bank' asking to update personal information via link",
+      "options": {
+        "click_and_update": {
+          "score": 0,
+          "description": "Click link and update info"
+        },
+        "forward_to_friend": {
+          "score": 0,
+          "description": "Forward to friend for advice"
+        },
+        "delete_email": {
+          "score": 1,
+          "description": "Delete the email"
+        },
+        "verify_with_bank": {
+          "score": 2,
+          "description": "Verify with bank first"
+        },
+        "report_phishing": {
+          "score": 2,
+          "description": "Report as phishing"
+        }
+      }
+    },
+    "scenario_3_public_wifi": {
+      "description": "Public WiFi banking scenario",
+      "prompt": "Need to check bank balance while on public WiFi at coffee shop",
+      "options": {
+        "use_public_wifi": {
+          "score": 0,
+          "description": "Use public WiFi"
+        },
+        "wait_until_home": {
+          "score": 2,
+          "description": "Wait until home"
+        },
+        "use_mobile_data": {
+          "score": 2,
+          "description": "Use mobile data instead"
+        },
+        "ask_for_password": {
+          "score": 1,
+          "description": "Ask for WiFi password"
+        }
+      }
+    },
+    "scenario_4_password_sharing": {
+      "description": "Password sharing scenario",
+      "prompt": "Family member asks for your banking password to help with finances",
+      "options": {
+        "share_password": {
+          "score": 0,
+          "description": "Share the password"
+        },
+        "log_in_for_them": {
+          "score": 1,
+          "description": "Log in for them"
+        },
+        "refuse_completely": {
+          "score": 2,
+          "description": "Refuse completely"
+        },
+        "create_joint_account": {
+          "score": 2,
+          "description": "Suggest joint account"
+        }
+      }
+    },
+    "scenario_5_suspicious_charge": {
+      "description": "Suspicious charge scenario",
+      "prompt": "Notice unfamiliar $50 charge on bank statement",
+      "options": {
+        "ignore_small_amount": {
+          "score": 0,
+          "description": "Ignore small amount"
+        },
+        "ask_family_members": {
+          "score": 1,
+          "description": "Ask family members"
+        },
+        "contact_bank_immediately": {
+          "score": 2,
+          "description": "Contact bank immediately"
+        },
+        "wait_and_see": {
+          "score": 0,
+          "description": "Wait and see"
+        }
+      }
+    }
+  },
+  "analysis_notes": {
+    "intention_behavior_gap": "Calculated as unstandardized residuals from regression: SRB_mean ~ Intentions_mean",
+    "missing_data_patterns": {
+      "dropout": "12% dropout between T1 and T2",
+      "item_nonresponse": "5% base rate, higher for sensitive items",
+      "mechanisms": "Combination of MCAR, MAR, and MNAR patterns"
+    },
+    "recommended_analyses": [
+      "Descriptive statistics and correlations",
+      "Regression analysis: Intentions predicting behavior",
+      "Moderation analysis: PBC moderating intention-behavior relationship",
+      "Mediation analysis: Gap mediating PBC effects",
+      "Missing data analysis using multiple imputation"
+    ]
+  }
+}
