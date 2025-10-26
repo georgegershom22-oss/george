@@ -1,0 +1,22 @@
+variable,description
+participant_id,Unique participant row identifier (1..N)
+Intention_T1,"Time 1 intention to perform banking security behaviors (1-7, bounded)"
+SRB1,"Check bank statement for unauthorized transactions (1=Never, 7=Always)"
+SRB2,"Use strong, unique passwords for banking (1=Never, 7=Always)"
+SRB3,"Enable two-factor authentication (1=Never, 7=Always)"
+SRB4,"Log out of banking apps/sites after use (1=Never, 7=Always)"
+SRB5,"Verify a text/email alert before clicking a link (1=Never, 7=Always)"
+SRB_Mean,Mean of SRB1..SRB5 (1-7)
+Objective_Q1_Choice,Choice (a/b/c) for objective scenario Q1
+Objective_Q1_Score,Score (0/1/2) for objective scenario Q1
+Objective_Q2_Choice,Choice (a/b/c) for objective scenario Q2
+Objective_Q2_Score,Score (0/1/2) for objective scenario Q2
+Objective_Q3_Choice,Choice (a/b/c) for objective scenario Q3
+Objective_Q3_Score,Score (0/1/2) for objective scenario Q3
+Objective_Q4_Choice,Choice (a/b/c) for objective scenario Q4
+Objective_Q4_Score,Score (0/1/2) for objective scenario Q4
+Objective_Q5_Choice,Choice (a/b/c) for objective scenario Q5
+Objective_Q5_Score,Score (0/1/2) for objective scenario Q5
+Objective_Score_Total,Sum of objective scenario scores (0-10)
+Objective_Score_Percent,Objective score as percent (0-100)
+Intention_Behavior_Gap,Residuals from OLS: SRB_Mean ~ Intention_T1 (unstandardized)
