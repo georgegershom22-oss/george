@@ -1,0 +1,18 @@
+variable,type,coding,description
+respondent_id,integer,1..N,Unique respondent identifier
+Country,integer,"1=Nigeria, 2=Ghana",Country of residence
+Country_label,string,Nigeria/Ghana,Human-readable country label
+Age,integer,18..75,Age in years (approximate continuous)
+Gender,integer,"1=Male, 2=Female, 3=Other/Prefer not to say",Self-reported gender
+Gender_label,string,Male/Female/Other/Prefer not to say,Human-readable gender label
+Education,integer,"1=No formal, 2=Primary, 3=Secondary, 4=Vocational/Technical, 5=Undergraduate, 6=Postgraduate",Highest educational attainment (ordinal)
+Education_label,string,See Education codes,Human-readable education label
+Income_Level,integer,1..5 (ordinal; country-specific band labels),Household monthly income band
+Income_Level_label,string,"Nigeria: <₦50k, ₦50–100k, ₦100–250k, ₦250–500k, >₦500k; Ghana: analogous in GHS",Human-readable income band label
+Bank_Type,integer,"1=Traditional Commercial, 2=Digital-Only Bank, 3=Microfinance",Primary bank type used
+Bank_Type_label,string,See Bank_Type codes,Human-readable bank type label
+Years_with_Account,integer,0..(Age-10),Years with primary bank account
+Frequency_of_Use,integer,"1=Daily, 2=Several times a week, 3=Weekly, 4=Monthly, 5=Less than monthly",Primary banking usage frequency
+Frequency_of_Use_label,string,See Frequency_of_Use codes,Human-readable frequency label
+Past_Victim,integer,"1=Yes, 0=No",Ever a victim of bank fraud
+Past_Victim_label,string,Yes/No,Human-readable victimization indicator
