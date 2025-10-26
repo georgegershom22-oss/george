@@ -1,0 +1,210 @@
+{
+  "descriptive_statistics": {
+    "sample_characteristics": {
+      "n": 1200,
+      "age_mean": 32.25666666666667,
+      "age_sd": 10.721780917549355,
+      "gender_distribution": {
+        "Female": 587,
+        "Male": 584,
+        "Non-binary/Other": 29
+      }
+    },
+    "tpb_constructs": {
+      "Attitudes": {
+        "mean": 5.038055555555555,
+        "sd": 1.1734624413491983,
+        "n": 1200
+      },
+      "Subjective Norms": {
+        "mean": 4.783055555555555,
+        "sd": 1.2795193576302473,
+        "n": 1200
+      },
+      "PBC": {
+        "mean": 4.573055555555555,
+        "sd": 1.3830848330870373,
+        "n": 1200
+      },
+      "Intentions": {
+        "mean": 5.264722222222223,
+        "sd": 1.069633729865442,
+        "n": 1200
+      }
+    },
+    "behavioral_outcomes": {
+      "Self-Reported Behavior": {
+        "mean": 5.1309433962264155,
+        "sd": 1.2282729519064788,
+        "n": 1060
+      },
+      "Objective Security Score": {
+        "mean": 8.181666666666667,
+        "sd": 1.6106393207067582,
+        "n": 1200
+      },
+      "Intention-Behavior Gap": {
+        "mean": -0.0038471892901679283,
+        "sd": 0.46587558869323503,
+        "n": 1060
+      },
+      "gap_categories": {
+        "As expected": 757,
+        "Under-performer": 155,
+        "Over-performer": 148
+      }
+    }
+  },
+  "correlation_analysis": {
+    "tpb_correlations": {
+      "t1_attitudes_mean": {
+        "t1_attitudes_mean": 1.0,
+        "t1_subjective_norms_mean": 0.3349617460864181,
+        "t1_pbc_mean": 0.386979683996143,
+        "t1_intentions_mean": 0.4816090760660169
+      },
+      "t1_subjective_norms_mean": {
+        "t1_attitudes_mean": 0.3349617460864181,
+        "t1_subjective_norms_mean": 1.0,
+        "t1_pbc_mean": 0.28683914987888487,
+        "t1_intentions_mean": 0.34662685071313387
+      },
+      "t1_pbc_mean": {
+        "t1_attitudes_mean": 0.386979683996143,
+        "t1_subjective_norms_mean": 0.28683914987888487,
+        "t1_pbc_mean": 1.0,
+        "t1_intentions_mean": 0.40156457449009464
+      },
+      "t1_intentions_mean": {
+        "t1_attitudes_mean": 0.4816090760660169,
+        "t1_subjective_norms_mean": 0.34662685071313387,
+        "t1_pbc_mean": 0.40156457449009464,
+        "t1_intentions_mean": 1.0
+      }
+    },
+    "behavioral_correlations": {
+      "Intentions \u2192 SRB": {
+        "r": 0.9252782461470571,
+        "p": 0.0,
+        "n": 1060
+      },
+      "Intentions \u2192 Objective": {
+        "r": 0.1500545573991903,
+        "p": 1.767917562798289e-07,
+        "n": 1200
+      },
+      "PBC \u2192 SRB": {
+        "r": 0.5876608947502094,
+        "p": 1.9506822437350454e-99,
+        "n": 1060
+      },
+      "PBC \u2192 Objective": {
+        "r": 0.18922353185340862,
+        "p": 3.89947984621313e-11,
+        "n": 1200
+      },
+      "SRB \u2194 Objective": {
+        "r": 0.1855575768602104,
+        "p": 1.1495503955899115e-09,
+        "n": 1060
+      }
+    }
+  },
+  "regression_analyses": {
+    "tpb_predicting_intentions": {
+      "r_squared": 0.31106922341509136,
+      "n": 1200,
+      "coefficients": {
+        "(Intercept)": 2.2459442348979786,
+        "Attitudes": 0.30903386769420055,
+        "Subj Norms": 0.1416583206053247,
+        "PBC": 0.17150208792410268
+      },
+      "p_values": {
+        "(Intercept)": 0.0,
+        "Attitudes": 0.0,
+        "Subj Norms": 8.934675221894395e-11,
+        "PBC": 2.220446049250313e-16
+      }
+    },
+    "intentions_predicting_behavior": {
+      "Self-Reported Behavior": {
+        "correlation": 0.9252782461470556,
+        "r_squared": 0.8561398327929739,
+        "n": 1060,
+        "intercept": -0.398211174677144,
+        "slope": 1.051408929945185
+      },
+      "Objective Security Score": {
+        "correlation": 0.15005455739919013,
+        "r_squared": 0.022516370196266844,
+        "n": 1200,
+        "intercept": 6.992102537152071,
+        "slope": 0.22595002723856492
+      }
+    },
+    "gap_prediction": {
+      "r_squared": 0.2907567055288137,
+      "n": 965,
+      "coefficients": {
+        "(Intercept)": -0.8596083737792141,
+        "PBC": 0.18389905870053752,
+        "Tech Savvy": 0.007201571661329085,
+        "Prev Incidents": 0.011536275663612646,
+        "Self-Efficacy": -0.003759951876902048
+      }
+    }
+  },
+  "moderation_analysis": {
+    "moderation_analysis": {
+      "r_squared_main": 0.9076005256651368,
+      "r_squared_full": 0.9118244887848547,
+      "r_squared_change": 0.004223963119717844,
+      "n": 1060,
+      "interaction_coefficient": -0.05252786567490894,
+      "coefficients": {
+        "(Intercept)": 5.163157022507897,
+        "Intentions": 0.9292592881860828,
+        "PBC": 0.22052405061678734,
+        "Intentions \u00d7 PBC": -0.05252786567490894
+      }
+    }
+  },
+  "gap_analysis": {
+    "gap_analysis": {
+      "distribution": {
+        "mean": -0.0038471892901679283,
+        "std": 0.46587558869323503,
+        "min": -1.6640235954623093,
+        "max": 1.3861812219468297
+      },
+      "categories": {
+        "As expected": 757,
+        "Under-performer": 155,
+        "Over-performer": 148
+      },
+      "group_comparisons": {
+        "t1_pbc_mean": {
+          "under_performers": 3.2817204301075265,
+          "as_expected": 4.607221488331131,
+          "over_performers": 5.711711711711711
+        },
+        "tech_savviness": {
+          "under_performers": 4.064516129032258,
+          "as_expected": 4.136063408190225,
+          "over_performers": 4.047297297297297
+        },
+        "security_self_efficacy": {
+          "under_performers": 4.503225806451613,
+          "as_expected": 4.494055482166447,
+          "over_performers": 4.425675675675675
+        },
+        "previous_incidents": {
+          "under_performers": 0.40559440559440557,
+          "as_expected": 0.3521739130434783,
+          "over_performers": 0.4015151515151515
+        }
+      }
+    }
+  }
+}
