@@ -1,0 +1,120 @@
+{
+  "dataset_info": {
+    "title": "Enhanced Behavioral Intention Dataset - Bank Security Practices",
+    "description": "Comprehensive dataset for studying behavioral intentions regarding bank security practices using Theory of Planned Behavior (TPB) and Protection Motivation Theory (PMT) with enhanced statistical properties",
+    "n_participants": 2000,
+    "n_variables": 35,
+    "scale_type": "7-point Likert scale (1=Strongly Disagree to 7=Strongly Agree)",
+    "generated_date": "2025-10-26 19:30:36",
+    "theoretical_framework": [
+      "Theory of Planned Behavior",
+      "Protection Motivation Theory"
+    ],
+    "enhancements": [
+      "Additional measurement items for each construct",
+      "Enhanced demographic variables",
+      "Realistic inter-construct correlations",
+      "Improved statistical properties",
+      "Factor analysis validation"
+    ]
+  },
+  "demographic_variables": {
+    "participant_id": "Unique identifier for each participant",
+    "age": "Age in years (18-80)",
+    "gender": "Gender identity (Male, Female, Other, Prefer not to say)",
+    "education": "Highest level of education completed",
+    "income_level": "Annual household income range",
+    "employment_status": "Current employment status",
+    "banking_experience_years": "Years of banking experience",
+    "previous_fraud_experience": "Binary indicator of previous fraud experience (0=No, 1=Yes)",
+    "technology_comfort": "Self-reported comfort with technology (1-7 scale)",
+    "financial_literacy": "Self-reported financial knowledge (1-7 scale)",
+    "risk_tolerance": "Self-reported risk tolerance (1-7 scale)",
+    "trust_in_banks": "Trust in banking institutions (1-7 scale)",
+    "privacy_concerns": "Concerns about data privacy (1-7 scale)"
+  },
+  "theory_of_planned_behavior_constructs": {
+    "attitude": {
+      "description": "Overall evaluation of following bank security steps",
+      "items": {
+        "ATT1": "Following bank security steps is beneficial/harmful",
+        "ATT2": "Following bank security steps is wise/foolish",
+        "ATT3": "Following bank security steps is important/unimportant",
+        "ATT4": "Following bank security steps is valuable/worthless",
+        "ATT5": "Following bank security steps is pleasant/unpleasant"
+      },
+      "scale": "7-point semantic differential scale"
+    },
+    "subjective_norm": {
+      "description": "Perceived social pressure to follow security steps",
+      "items": {
+        "SN1": "Most people who are important to me think I should follow these steps",
+        "SN2": "My family expects me to be diligent with my bank security",
+        "SN3": "My friends would approve of me following these steps",
+        "SN4": "My colleagues think it's important to follow security steps"
+      },
+      "scale": "7-point Likert scale"
+    },
+    "perceived_behavioral_control": {
+      "description": "Perceived ease and control over following security steps",
+      "items": {
+        "PBC1": "For me, following all the security steps would be easy/difficult",
+        "PBC2": "I have the resources, time, and knowledge to follow them",
+        "PBC3": "Whether I follow them is entirely up to me",
+        "PBC4": "I am confident I can follow these security steps",
+        "PBC5": "I have the necessary skills to follow these steps"
+      },
+      "scale": "7-point Likert scale"
+    },
+    "intention": {
+      "description": "Behavioral intention to follow security steps",
+      "items": {
+        "INT1": "I intend to follow all recommended security steps in the next 3 months",
+        "INT2": "I plan to make an effort to be more diligent",
+        "INT3": "I will try my best to follow these security steps",
+        "INT4": "I am committed to following these security steps"
+      },
+      "scale": "7-point Likert scale"
+    }
+  },
+  "protection_motivation_theory_constructs": {
+    "threat_appraisal": {
+      "description": "Perception of threat severity and personal vulnerability",
+      "items": {
+        "Perceived_Severity": "The financial loss from fraud would be severe for me",
+        "Perceived_Vulnerability": "I am at high risk of experiencing bank fraud",
+        "Threat_Probability": "It is likely that I will experience bank fraud",
+        "Threat_Consequences": "The consequences of bank fraud would be serious for me"
+      },
+      "scale": "7-point Likert scale"
+    },
+    "coping_appraisal": {
+      "description": "Belief in personal ability and solution effectiveness",
+      "items": {
+        "Self_Efficacy": "I am confident I can perform the security steps correctly",
+        "Response_Efficacy": "I believe these security steps are effective in protecting me",
+        "Response_Cost": "Following these security steps is worth the effort",
+        "Coping_Confidence": "I am confident in my ability to protect myself from fraud"
+      },
+      "scale": "7-point Likert scale"
+    }
+  },
+  "behavioral_measures": {
+    "past_behavior": {
+      "description": "Self-reported frequency and consistency of following security steps",
+      "items": {
+        "Past_Behavior": "In the past 3 months, how often have you followed recommended security steps?",
+        "Behavior_Frequency": "How frequently do you practice security measures?",
+        "Behavior_Consistency": "How consistently do you follow security recommendations?"
+      },
+      "scale": "7-point frequency scale (1=Never to 7=Always)"
+    }
+  },
+  "statistical_properties": {
+    "correlations": "Enhanced realistic correlations based on TPB and PMT theory",
+    "variance": "Adequate variance for statistical analysis",
+    "reliability": "Internal consistency designed to be >0.8 for all scales",
+    "normality": "Approximately normal distributions with realistic skewness",
+    "factor_structure": "Validated through exploratory factor analysis"
+  }
+}
