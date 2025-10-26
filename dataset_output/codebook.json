@@ -1,0 +1,87 @@
+{
+  "dataset_info": {
+    "title": "Banking Security Behavior Dataset",
+    "description": "Comprehensive dataset for Q1/SCI research on banking security behaviors",
+    "n_participants": 2000,
+    "variables": 25,
+    "time_points": 2
+  },
+  "variable_descriptions": {
+    "demographics": {
+      "participant_id": "Unique participant identifier (P0001-P2000)",
+      "age": "Age in years (18-75)",
+      "gender": "Gender identity (Female/Male/Other)",
+      "education": "Highest education level",
+      "income": "Annual household income (USD)",
+      "banking_years": "Years of banking experience",
+      "prev_incident": "Previous security incident (0=No, 1=Yes)",
+      "tech_comfort": "Technology comfort level (1-7 scale)"
+    },
+    "t1_baseline": {
+      "t1_attitude": "Attitude toward banking security (1-7 scale)",
+      "t1_subjective_norm": "Perceived social pressure (1-7 scale)",
+      "t1_pbc": "Perceived Behavioral Control (1-7 scale)",
+      "t1_intention": "Intention to engage in security behaviors (1-7 scale)",
+      "t1_knowledge": "Security knowledge level (1-7 scale)",
+      "t1_risk_perception": "Perceived risk of security threats (1-7 scale)",
+      "t1_trust_banking": "Trust in banking institutions (1-7 scale)"
+    },
+    "t2_self_reported_behavior": {
+      "t2_srb1_check_statements": "Check bank statements for unauthorized transactions (1=Never, 7=Always)",
+      "t2_srb2_strong_passwords": "Use strong, unique passwords for banking (1=Never, 7=Always)",
+      "t2_srb3_two_factor_auth": "Enable two-factor authentication (1=Never, 7=Always)",
+      "t2_srb4_logout_after_use": "Log out of banking apps/sites after use (1=Never, 7=Always)",
+      "t2_srb5_verify_alerts": "Verify text/email alerts before clicking links (1=Never, 7=Always)",
+      "t2_srb_composite": "Composite self-reported behavior score (average of SRB1-SRB5)"
+    },
+    "t2_objective_behavior": {
+      "t2_objective_scenario1_phishing_sms": "Response to phishing SMS scenario (0=Click, 1=Ignore, 2=Call bank)",
+      "t2_objective_scenario2_suspicious_email": "Response to suspicious email scenario (0=Click, 1=Ignore, 2=Call bank)",
+      "t2_objective_scenario3_public_wifi": "Response to public WiFi banking scenario (0=Use, 1=Maybe, 2=Avoid)",
+      "t2_objective_scenario4_password_sharing": "Response to password sharing scenario (0=Share, 1=Maybe, 2=Refuse)",
+      "t2_objective_scenario5_suspicious_app": "Response to suspicious app scenario (0=Download, 1=Maybe, 2=Refuse)",
+      "t2_objective_score": "Total objective behavioral score (0-10)"
+    },
+    "t2_gap_analysis": {
+      "t2_intention_behavior_gap": "Residual score from intention-behavior regression (negative=underperformer, positive=overperformer)",
+      "t2_gap_category": "Categorical gap classification (Underperformer/Slight Underperformer/Slight Overperformer/Overperformer)",
+      "t2_gap_pbc_moderated": "Gap score moderated by PBC",
+      "t2_gap_age_moderated": "Gap score moderated by age",
+      "t2_gap_incident_moderated": "Gap score moderated by previous incident"
+    },
+    "additional_variables": {
+      "time_gap_weeks": "Time between T1 and T2 measurements (weeks)",
+      "t2_dropout": "T2 completion status (0=Complete, 1=Dropout)",
+      "completion_status": "Overall completion status (Complete/Incomplete)"
+    }
+  },
+  "scoring_notes": {
+    "self_reported_behavior": "All SRB variables use 1-7 Likert scale (1=Never, 7=Always)",
+    "objective_behavior": "Scenario responses scored 0-2 (0=risky, 1=neutral, 2=safe)",
+    "intention_behavior_gap": "Calculated as residuals from regression of T2 behavior on T1 intention",
+    "missing_data": "Approximately 5% missing data in SRB variables, 12% dropout rate"
+  },
+  "research_applications": {
+    "primary_analysis": "Intention-behavior gap prediction using PBC as moderator",
+    "secondary_analyses": [
+      "Self-report vs objective behavior comparison",
+      "Demographic predictors of security behavior",
+      "Knowledge-behavior relationship",
+      "Risk perception effects",
+      "Trust-behavior relationship"
+    ],
+    "statistical_considerations": [
+      "Use multiple imputation for missing data",
+      "Account for dropout bias in analyses",
+      "Consider moderation effects in gap analysis",
+      "Validate self-reports against objective measures"
+    ]
+  },
+  "regression_info": {
+    "r_squared": 0.18693864088895606,
+    "coefficient": 0.5009410523952281,
+    "intercept": 0.5514102135083934,
+    "mean_residual": 2.3447910280083307e-16,
+    "std_residual": 1.0870522963552398
+  }
+}

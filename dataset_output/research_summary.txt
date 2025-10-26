@@ -1,0 +1,39 @@
+
+BANKING SECURITY BEHAVIOR DATASET - RESEARCH SUMMARY
+====================================================
+
+Dataset Characteristics:
+- Sample Size: 1772 complete cases
+- Variables: 35
+- Completion Rate: 88.6%
+
+Key Findings:
+
+1. INTENTION-BEHAVIOR GAP:
+   - Mean Gap: -0.010
+   - Standard Deviation: 1.082
+   - Intention-Behavior Correlation: 0.434
+
+2. PBC MODERATION EFFECT:
+   - High PBC Gap Mean: -0.015
+   - Low PBC Gap Mean: -0.005
+   - Difference: -0.010
+   - Statistically Significant: False
+
+3. SELF-REPORT vs OBJECTIVE BEHAVIOR:
+   - SRB Mean: 2.691
+   - Objective Mean: 6.880
+   - Correlation: 0.001
+   - Correlation Strength: Weak
+
+4. DEMOGRAPHIC EFFECTS:
+   - Age-Gap Correlation: -0.006
+
+Research Implications:
+- The intention-behavior gap is measurable and varies significantly across participants
+- PBC shows a moderating effect on the gap (though statistical significance varies)
+- Self-reports and objective measures show low correlation, validating the need for both
+- Demographic factors influence security behavior patterns
+
+This dataset provides a solid foundation for Q1/SCI research on banking security behaviors.
+        
