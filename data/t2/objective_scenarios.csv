@@ -1,0 +1,6 @@
+scenario_id,scenario_text,option_a_text,option_a_score,option_b_text,option_b_score,option_c_text,option_c_score
+Q1,You receive an SMS: 'Your account is locked. Click here to secure it: bit.ly/...'. What do you do?,Click the link immediately,0,Call your bank using the number on your card,2,Ignore it,1
+Q2,You're on public Wi‑Fi and need to check your bank balance. What do you do?,Log in to your bank directly over public Wi‑Fi,0,Use mobile data or a trusted VPN before logging in,2,Use a private/incognito browser window on public Wi‑Fi,1
+Q3,An email says: 'Unusual login detected—update password here' with a link. What do you do?,Click the link to update password,0,Report phishing; navigate to bank manually to check,2,Delete the email,1
+Q4,An ATM shows an error and has a sticker with a support number to call. What do you do?,Call the number on the ATM sticker,0,Use the official bank app/support to verify/report,2,Use another ATM and monitor account closely,1
+Q5,You get a call 'from your bank' asking for a one‑time passcode to verify your account. What do you do?,Provide the passcode to the caller,0,Refuse and call the bank back using the official number,2,Hang up and block the number,1
