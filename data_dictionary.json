@@ -1,0 +1,250 @@
+{
+  "Study_Title": "Banking Fraud Intention and Behavior Study - Section A: Demographics and Control Variables (T1)",
+  "Countries": "Nigeria and Ghana",
+  "Sample_Size": 1000,
+  "Collection_Period": "January 2025",
+  "Variables": [
+    {
+      "Variable_Name": "Participant_ID",
+      "Type": "String",
+      "Description": "Unique participant identifier",
+      "Format": "P#### (e.g., P0001)",
+      "Notes": "Auto-generated, unique for each participant"
+    },
+    {
+      "Variable_Name": "Data_Collection_Date",
+      "Type": "DateTime",
+      "Description": "Date and time of data collection",
+      "Format": "YYYY-MM-DD HH:MM:SS",
+      "Notes": "Timestamp for each survey response"
+    },
+    {
+      "Variable_Name": "Country",
+      "Type": "Categorical (Numeric)",
+      "Description": "Country of residence",
+      "Coding": {
+        "1": "Nigeria",
+        "2": "Ghana"
+      },
+      "Notes": "Core variable for comparative analysis. Balanced sample (n=500 each)"
+    },
+    {
+      "Variable_Name": "Country_Name",
+      "Type": "Categorical (Text)",
+      "Description": "Country name (text version)",
+      "Values": [
+        "Nigeria",
+        "Ghana"
+      ],
+      "Notes": "Text label for Country variable"
+    },
+    {
+      "Variable_Name": "Age",
+      "Type": "Continuous",
+      "Description": "Participant age in years",
+      "Range": "18-75",
+      "Mean": "~33 years",
+      "Notes": "Distribution skewed towards younger adults (gamma distribution). Controls for developmental and generational differences."
+    },
+    {
+      "Variable_Name": "Gender",
+      "Type": "Categorical (Numeric)",
+      "Description": "Self-reported gender identity",
+      "Coding": {
+        "1": "Male",
+        "2": "Female",
+        "3": "Other/Prefer not to say"
+      },
+      "Distribution": "~52% Male, ~46% Female, ~2% Other/Prefer not to say",
+      "Notes": "Inclusive coding following best practices. Controls for gender differences in technology adoption and risk perception."
+    },
+    {
+      "Variable_Name": "Gender_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Gender label (text version)",
+      "Values": [
+        "Male",
+        "Female",
+        "Other/Prefer not to say"
+      ],
+      "Notes": "Text label for Gender variable"
+    },
+    {
+      "Variable_Name": "Education",
+      "Type": "Ordinal",
+      "Description": "Highest level of education completed",
+      "Coding": {
+        "1": "No formal education",
+        "2": "Primary",
+        "3": "Secondary",
+        "4": "Vocational/Diploma",
+        "5": "Undergraduate",
+        "6": "Postgraduate"
+      },
+      "Notes": "Correlated with age and income. Controls for digital literacy and comprehension of financial information."
+    },
+    {
+      "Variable_Name": "Education_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Education level label (text version)",
+      "Values": [
+        "No formal education",
+        "Primary",
+        "Secondary",
+        "Vocational/Diploma",
+        "Undergraduate",
+        "Postgraduate"
+      ],
+      "Notes": "Text label for Education variable"
+    },
+    {
+      "Variable_Name": "Income_Level",
+      "Type": "Ordinal",
+      "Description": "Monthly income level (ordinal bands)",
+      "Coding": {
+        "1": "Very Low",
+        "2": "Low",
+        "3": "Lower-Middle",
+        "4": "Middle",
+        "5": "Upper-Middle",
+        "6": "High"
+      },
+      "Notes": "Correlated with education and age. Country-specific currency bands provided separately. Controls for financial resources and access to banking services."
+    },
+    {
+      "Variable_Name": "Income_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Income level label",
+      "Values": [
+        "Very Low",
+        "Low",
+        "Lower-Middle",
+        "Middle",
+        "Upper-Middle",
+        "High"
+      ],
+      "Notes": "Text label for Income_Level variable"
+    },
+    {
+      "Variable_Name": "Income_Band_NGN",
+      "Type": "Categorical (Text)",
+      "Description": "Income band in Nigerian Naira (NGN)",
+      "Values": [
+        "< \u20a650,000/month",
+        "\u20a650,000 - \u20a6100,000/month",
+        "\u20a6100,001 - \u20a6200,000/month",
+        "\u20a6200,001 - \u20a6400,000/month",
+        "\u20a6400,001 - \u20a6800,000/month",
+        "> \u20a6800,000/month"
+      ],
+      "Notes": "Currency-specific income bands for Nigeria. Based on 2025 economic data."
+    },
+    {
+      "Variable_Name": "Income_Band_GHS",
+      "Type": "Categorical (Text)",
+      "Description": "Income band in Ghanaian Cedi (GHS)",
+      "Values": [
+        "< GH\u20b5500/month",
+        "GH\u20b5500 - GH\u20b51,000/month",
+        "GH\u20b51,001 - GH\u20b52,000/month",
+        "GH\u20b52,001 - GH\u20b54,000/month",
+        "GH\u20b54,001 - GH\u20b58,000/month",
+        "> GH\u20b58,000/month"
+      ],
+      "Notes": "Currency-specific income bands for Ghana. Based on 2025 economic data."
+    },
+    {
+      "Variable_Name": "Bank_Type",
+      "Type": "Categorical (Numeric)",
+      "Description": "Primary bank account type",
+      "Coding": {
+        "1": "Traditional Commercial Bank",
+        "2": "Digital-Only Bank",
+        "3": "Microfinance Bank"
+      },
+      "Notes": "Digital bank users may face different security controls and fraud exposure patterns. Correlated with age, education, and income. Digital banking more prevalent in Nigeria."
+    },
+    {
+      "Variable_Name": "Bank_Type_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Bank type label (text version)",
+      "Values": [
+        "Traditional Commercial Bank",
+        "Digital-Only Bank",
+        "Microfinance Bank"
+      ],
+      "Notes": "Text label for Bank_Type variable"
+    },
+    {
+      "Variable_Name": "Years_with_Account",
+      "Type": "Continuous",
+      "Description": "Years of having a bank account",
+      "Range": "0.5 - maximum (age - 18)",
+      "Format": "Decimal (1 decimal place)",
+      "Notes": "Correlated with age and bank type. Digital bank accounts are newer (max ~8 years). Longer tenure increases exposure to fraud attempts."
+    },
+    {
+      "Variable_Name": "Frequency_of_Use",
+      "Type": "Ordinal",
+      "Description": "Frequency of bank account usage",
+      "Coding": {
+        "1": "Daily",
+        "2": "Several times a week",
+        "3": "Weekly",
+        "4": "Monthly",
+        "5": "Less than monthly"
+      },
+      "Notes": "Correlated with bank type (digital users more frequent), income, and age. Higher frequency increases exposure to fraud risks."
+    },
+    {
+      "Variable_Name": "Frequency_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Frequency of use label (text version)",
+      "Values": [
+        "Daily",
+        "Several times a week",
+        "Weekly",
+        "Monthly",
+        "Less than monthly"
+      ],
+      "Notes": "Text label for Frequency_of_Use variable"
+    },
+    {
+      "Variable_Name": "Past_Victim",
+      "Type": "Binary",
+      "Description": "Previous experience as a victim of bank fraud",
+      "Coding": {
+        "1": "Yes",
+        "0": "No"
+      },
+      "Question": "Have you ever been a victim of bank fraud?",
+      "Notes": "Powerful predictor of both intention and behavior. Correlated with frequency of use, years with account, and bank type. Overall rate ~20-30% (realistic for West African markets)."
+    },
+    {
+      "Variable_Name": "Past_Victim_Label",
+      "Type": "Categorical (Text)",
+      "Description": "Past victim status label (text version)",
+      "Values": [
+        "Yes",
+        "No"
+      ],
+      "Notes": "Text label for Past_Victim variable"
+    }
+  ],
+  "Data_Quality_Notes": [
+    "All correlations are realistic and theoretically justified",
+    "Missing data: None (complete cases)",
+    "Outliers: Age and Years_with_Account are constrained to realistic ranges",
+    "Distribution checks: All variables follow expected patterns for West African banking populations"
+  ],
+  "Sampling_Strategy": "Balanced sampling across countries (n=500 each). Realistic distributions based on demographic profiles of banking populations in Nigeria and Ghana.",
+  "Ethical_Considerations": "Inclusive gender coding, culturally appropriate income bands, consent assumed for fabricated data.",
+  "Recommended_Analyses": [
+    "Descriptive statistics by country",
+    "Chi-square tests for categorical variables",
+    "Independent t-tests for continuous variables (Nigeria vs Ghana)",
+    "Correlation matrix for all variables",
+    "Logistic regression with Past_Victim as outcome",
+    "ANOVA for differences across Bank_Type"
+  ]
+}

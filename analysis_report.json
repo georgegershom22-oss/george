@@ -1,0 +1,69 @@
+{
+  "Analysis_Date": "2025-10-26 18:56:03",
+  "Dataset_Summary": {
+    "Total_Records": 1000,
+    "Countries": [
+      "Nigeria",
+      "Ghana"
+    ],
+    "Date_Range": "2025-01-15 00:00:00 to 2025-01-19 03:54:00"
+  },
+  "Key_Metrics": {
+    "Average_Age": 41.88,
+    "Fraud_Rate_Overall": 26.2,
+    "Digital_Banking_Adoption": 32.9,
+    "High_Frequency_Users_Percent": 61.2
+  },
+  "Country_Comparison": {
+    "Nigeria": {
+      "Sample_Size": 500,
+      "Fraud_Rate": 27.0,
+      "Average_Age": 41.19,
+      "Digital_Bank_Adoption": 36.2
+    },
+    "Ghana": {
+      "Sample_Size": 500,
+      "Fraud_Rate": 25.4,
+      "Average_Age": 42.57,
+      "Digital_Bank_Adoption": 29.6
+    }
+  },
+  "Risk_Analysis": {
+    "By_Bank_Type": {
+      "Traditional Commercial Bank": {
+        "Sample_Size": 513,
+        "Fraud_Rate": 27.88
+      },
+      "Microfinance Bank": {
+        "Sample_Size": 158,
+        "Fraud_Rate": 29.75
+      },
+      "Digital-Only Bank": {
+        "Sample_Size": 329,
+        "Fraud_Rate": 21.88
+      }
+    },
+    "By_Frequency": {
+      "Monthly": {
+        "Sample_Size": 135,
+        "Fraud_Rate": 18.52
+      },
+      "Several times a week": {
+        "Sample_Size": 284,
+        "Fraud_Rate": 31.34
+      },
+      "Weekly": {
+        "Sample_Size": 208,
+        "Fraud_Rate": 20.67
+      },
+      "Less than monthly": {
+        "Sample_Size": 45,
+        "Fraud_Rate": 17.78
+      },
+      "Daily": {
+        "Sample_Size": 328,
+        "Fraud_Rate": 29.57
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "Overall_Statistics": {
+    "Total_N": 1000,
+    "Nigeria_N": 500,
+    "Ghana_N": 500,
+    "Collection_Period": "2025-01-15 00:00:00 to 2025-01-19 03:54:00"
+  },
+  "Age_Statistics": {
+    "Overall": {
+      "Mean": 41.88,
+      "SD": 13.11,
+      "Median": 39.0,
+      "Min": 18,
+      "Max": 75
+    },
+    "By_Country": {
+      "Nigeria": {
+        "Mean": 41.19,
+        "SD": 12.64
+      },
+      "Ghana": {
+        "Mean": 42.57,
+        "SD": 13.54
+      }
+    }
+  },
+  "Gender_Distribution": {
+    "Male": 542,
+    "Female": 443,
+    "Other/Prefer not to say": 15
+  },
+  "Education_Distribution": {
+    "Undergraduate": 358,
+    "Vocational/Diploma": 224,
+    "Secondary": 213,
+    "Postgraduate": 107,
+    "Primary": 68,
+    "No formal education": 30
+  },
+  "Income_Distribution": {
+    "Middle": 262,
+    "Upper-Middle": 232,
+    "Lower-Middle": 176,
+    "Low": 133,
+    "Very Low": 111,
+    "High": 86
+  },
+  "Bank_Type_Distribution": {
+    "Traditional Commercial Bank": 513,
+    "Digital-Only Bank": 329,
+    "Microfinance Bank": 158
+  },
+  "Years_with_Account_Statistics": {
+    "Mean": 4.19,
+    "SD": 3.79,
+    "Median": 3.2,
+    "Min": 0.0,
+    "Max": 29.0
+  },
+  "Frequency_Distribution": {
+    "Daily": 328,
+    "Several times a week": 284,
+    "Weekly": 208,
+    "Monthly": 135,
+    "Less than monthly": 45
+  },
+  "Past_Victim_Statistics": {
+    "Total_Victims": 262,
+    "Percentage": 26.2,
+    "By_Country": {
+      "Nigeria": {
+        "N": 135,
+        "Percentage": 27.0
+      },
+      "Ghana": {
+        "N": 127,
+        "Percentage": 25.4
+      }
+    },
+    "By_Bank_Type": {
+      "Traditional Commercial Bank": {
+        "N": 143,
+        "Percentage": 27.88
+      },
+      "Microfinance Bank": {
+        "N": 47,
+        "Percentage": 29.75
+      },
+      "Digital-Only Bank": {
+        "N": 72,
+        "Percentage": 21.88
+      }
+    }
+  }
+}
