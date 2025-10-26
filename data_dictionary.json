@@ -1,0 +1,476 @@
+{
+  "dataset_info": {
+    "title": "Comprehensive Behavioral Intention Dataset: Bank Security Behavior",
+    "description": "A longitudinal dataset examining behavioral intentions and actual behavior in the context of following bank security recommendations. Based on Theory of Planned Behavior (TPB) and Protection Motivation Theory (PMT).",
+    "n_participants": 1200,
+    "time_points": 2,
+    "measurement_scale": "7-point Likert scale (1=Strongly Disagree to 7=Strongly Agree) unless otherwise specified",
+    "context": "Bank security behavior compliance",
+    "theoretical_framework": ["Theory of Planned Behavior (TPB)", "Protection Motivation Theory (PMT)"],
+    "data_collection_period": "January 2024 - June 2024",
+    "longitudinal_gap": "Approximately 3 months between T1 and T2"
+  },
+  
+  "variables": {
+    "identification": {
+      "Participant_ID": {
+        "description": "Unique participant identifier",
+        "type": "string",
+        "format": "P#### (e.g., P0001)",
+        "example": "P0001"
+      },
+      "T1_Date": {
+        "description": "Date of Time 1 data collection",
+        "type": "date",
+        "format": "YYYY-MM-DD",
+        "example": "2024-01-15"
+      },
+      "T2_Date": {
+        "description": "Date of Time 2 data collection",
+        "type": "date",
+        "format": "YYYY-MM-DD",
+        "example": "2024-04-20"
+      }
+    },
+    
+    "demographics": {
+      "Age": {
+        "description": "Participant age in years",
+        "type": "integer",
+        "range": "18-80",
+        "mean": 43.5,
+        "std": 13.3
+      },
+      "Gender": {
+        "description": "Self-reported gender",
+        "type": "categorical",
+        "categories": ["Male", "Female", "Other"],
+        "distribution": {"Female": 0.51, "Male": 0.47, "Other": 0.02}
+      },
+      "Education": {
+        "description": "Highest level of education completed",
+        "type": "categorical",
+        "categories": ["High School", "Some College", "Bachelor's", "Master's", "PhD", "Other"],
+        "distribution": {"Bachelor's": 0.35, "Some College": 0.25, "Master's": 0.20, "High School": 0.15, "PhD": 0.04, "Other": 0.01}
+      },
+      "Income": {
+        "description": "Annual household income bracket",
+        "type": "categorical",
+        "categories": ["<30k", "30k-50k", "50k-75k", "75k-100k", "100k-150k", ">150k"],
+        "distribution": {"<30k": 0.18, "30k-50k": 0.22, "50k-75k": 0.25, "75k-100k": 0.20, "100k-150k": 0.10, ">150k": 0.05}
+      },
+      "Banking_Experience_Years": {
+        "description": "Years of experience using banking services",
+        "type": "float",
+        "range": "1-50",
+        "mean": 15.0,
+        "std": 8.0
+      },
+      "Tech_Comfort": {
+        "description": "Self-reported comfort level with technology (1=Very Uncomfortable, 7=Very Comfortable)",
+        "type": "integer",
+        "scale": "1-7",
+        "mean": 4.8,
+        "std": 1.2
+      },
+      "Previous_Fraud_Experience": {
+        "description": "Whether participant has experienced financial fraud before",
+        "type": "categorical",
+        "categories": ["Yes", "No"],
+        "distribution": {"No": 0.77, "Yes": 0.23}
+      }
+    },
+    
+    "contextual_variables": {
+      "Primary_Bank_Type": {
+        "description": "Type of primary banking institution",
+        "type": "categorical",
+        "categories": ["National Bank", "Regional Bank", "Credit Union", "Online Bank"],
+        "distribution": {"National Bank": 0.45, "Regional Bank": 0.25, "Credit Union": 0.20, "Online Bank": 0.10}
+      },
+      "Number_Bank_Accounts": {
+        "description": "Number of bank accounts held",
+        "type": "integer",
+        "range": "1-5",
+        "distribution": {"1": 0.25, "2": 0.35, "3": 0.25, "4": 0.10, "5": 0.05}
+      },
+      "Online_Banking_Frequency": {
+        "description": "Frequency of online banking usage",
+        "type": "categorical",
+        "categories": ["Daily", "Several times/week", "Weekly", "Monthly", "Rarely"],
+        "distribution": {"Daily": 0.15, "Several times/week": 0.30, "Weekly": 0.25, "Monthly": 0.20, "Rarely": 0.10}
+      },
+      "Uses_Mobile_Banking": {
+        "description": "Whether participant uses mobile banking",
+        "type": "categorical",
+        "categories": ["Yes", "No"],
+        "distribution": {"Yes": 0.78, "No": 0.22}
+      },
+      "Financial_Literacy": {
+        "description": "Self-reported financial literacy level (1=Very Low, 7=Very High)",
+        "type": "integer",
+        "scale": "1-7",
+        "mean": 4.6,
+        "std": 1.1
+      },
+      "Risk_Tolerance": {
+        "description": "Financial risk tolerance (1=Very Risk Averse, 7=Very Risk Tolerant)",
+        "type": "integer",
+        "scale": "1-7",
+        "mean": 3.8,
+        "std": 1.3
+      },
+      "Trust_Bank_Security": {
+        "description": "Trust in bank's security measures (1=No Trust, 7=Complete Trust)",
+        "type": "integer",
+        "scale": "1-7",
+        "mean": 5.1,
+        "std": 1.0
+      }
+    },
+    
+    "tpb_constructs": {
+      "attitude": {
+        "construct_name": "Attitude (ATT)",
+        "definition": "Overall evaluation of following bank security steps",
+        "theoretical_basis": "Theory of Planned Behavior (Ajzen, 1991)",
+        "items": {
+          "ATT1": {
+            "text": "Following bank security steps is beneficial",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.87,
+            "std": 0.91
+          },
+          "ATT2": {
+            "text": "Following bank security steps is wise",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.79,
+            "std": 0.94
+          },
+          "ATT3": {
+            "text": "Following bank security steps is important",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.74,
+            "std": 0.96
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Convergent and discriminant validity via CFA"
+      },
+      
+      "subjective_norm": {
+        "construct_name": "Subjective Norm (SN)",
+        "definition": "Perceived social pressure to follow bank security steps",
+        "theoretical_basis": "Theory of Planned Behavior (Ajzen, 1991)",
+        "items": {
+          "SN1": {
+            "text": "Most people important to me think I should follow security steps",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.25,
+            "std": 1.10
+          },
+          "SN2": {
+            "text": "My family expects me to be diligent with bank security",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.16,
+            "std": 1.13
+          },
+          "SN3": {
+            "text": "People whose opinions I value would approve of my following security steps",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.11,
+            "std": 1.13
+          }
+        },
+        "reliability_expected": "α > 0.80",
+        "validity": "Convergent and discriminant validity via CFA"
+      },
+      
+      "perceived_behavioral_control": {
+        "construct_name": "Perceived Behavioral Control (PBC)",
+        "definition": "Perceived ease/difficulty and control over following security steps",
+        "theoretical_basis": "Theory of Planned Behavior (Ajzen, 1991)",
+        "items": {
+          "PBC1": {
+            "text": "Following all security steps would be easy for me",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.29,
+            "std": 1.28
+          },
+          "PBC2": {
+            "text": "I have the resources, time, and knowledge to follow security steps",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.17,
+            "std": 1.30
+          },
+          "PBC3": {
+            "text": "Whether I follow security steps is entirely up to me",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.11,
+            "std": 1.30
+          }
+        },
+        "reliability_expected": "α > 0.80",
+        "validity": "Convergent and discriminant validity via CFA",
+        "note": "Core independent variable capturing both capacity and autonomy"
+      },
+      
+      "intention": {
+        "construct_name": "Intention (INT)",
+        "definition": "Intention to follow bank security recommendations",
+        "theoretical_basis": "Theory of Planned Behavior (Ajzen, 1991)",
+        "items": {
+          "INT1": {
+            "text": "I intend to follow all recommended security steps in the next 3 months",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.72,
+            "std": 1.06
+          },
+          "INT2": {
+            "text": "I plan to make an effort to be more diligent with bank security",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.65,
+            "std": 1.08
+          },
+          "INT3": {
+            "text": "I will try to follow all bank security recommendations consistently",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.59,
+            "std": 1.07
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Convergent and discriminant validity via CFA",
+        "note": "Key dependent variable at T1, predictor of T2 behavior"
+      }
+    },
+    
+    "pmt_constructs": {
+      "perceived_severity": {
+        "construct_name": "Perceived Severity (PS)",
+        "definition": "Perceived severity of consequences from bank fraud",
+        "theoretical_basis": "Protection Motivation Theory (Rogers, 1975)",
+        "items": {
+          "PS1": {
+            "text": "The financial loss from fraud would be severe for me",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 6.2,
+            "std": 0.8
+          },
+          "PS2": {
+            "text": "Bank fraud would cause serious problems in my life",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 6.2,
+            "std": 0.8
+          },
+          "PS3": {
+            "text": "The consequences of bank fraud would be significant for me",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 6.2,
+            "std": 0.8
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Part of threat appraisal component"
+      },
+      
+      "perceived_vulnerability": {
+        "construct_name": "Perceived Vulnerability (PV)",
+        "definition": "Perceived likelihood of experiencing bank fraud",
+        "theoretical_basis": "Protection Motivation Theory (Rogers, 1975)",
+        "items": {
+          "PV1": {
+            "text": "I am at high risk of experiencing bank fraud",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 4.1,
+            "std": 1.3
+          },
+          "PV2": {
+            "text": "It is likely that I could become a victim of bank fraud",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 4.1,
+            "std": 1.3
+          },
+          "PV3": {
+            "text": "I am vulnerable to bank fraud attacks",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 4.1,
+            "std": 1.3
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Part of threat appraisal component"
+      },
+      
+      "self_efficacy": {
+        "construct_name": "Self-Efficacy (SE)",
+        "definition": "Confidence in ability to perform security behaviors",
+        "theoretical_basis": "Protection Motivation Theory (Rogers, 1975)",
+        "items": {
+          "SE1": {
+            "text": "I am confident I can perform security steps correctly",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.3,
+            "std": 1.0
+          },
+          "SE2": {
+            "text": "I have the ability to follow all recommended security measures",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.3,
+            "std": 1.0
+          },
+          "SE3": {
+            "text": "I can successfully implement bank security practices",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.3,
+            "std": 1.0
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Part of coping appraisal, complements PBC"
+      },
+      
+      "response_efficacy": {
+        "construct_name": "Response Efficacy (RE)",
+        "definition": "Belief in effectiveness of security measures",
+        "theoretical_basis": "Protection Motivation Theory (Rogers, 1975)",
+        "items": {
+          "RE1": {
+            "text": "I believe security steps are effective in protecting me",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.6,
+            "std": 0.9
+          },
+          "RE2": {
+            "text": "Following security recommendations will prevent fraud",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.6,
+            "std": 0.9
+          },
+          "RE3": {
+            "text": "Bank security measures are reliable protection methods",
+            "scale": "1=Strongly Disagree to 7=Strongly Agree",
+            "mean": 5.6,
+            "std": 0.9
+          }
+        },
+        "reliability_expected": "α > 0.85",
+        "validity": "Part of coping appraisal"
+      }
+    },
+    
+    "behavioral_measures": {
+      "Past_Behavior": {
+        "description": "Past frequency of following security steps (past 3 months)",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "mean": 4.71,
+        "std": 1.47,
+        "theoretical_importance": "Strong predictor of future behavior; controls for habit effects"
+      },
+      
+      "T2_Actual_Behavior": {
+        "description": "Overall frequency of following security steps at Time 2",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "mean": 5.46,
+        "std": 1.33,
+        "theoretical_importance": "Primary behavioral outcome variable"
+      },
+      
+      "T2_Check_URLs": {
+        "description": "Frequency of checking website URLs before entering login info",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "behavioral_indicator": "URL verification behavior"
+      },
+      
+      "T2_Use_2FA": {
+        "description": "Frequency of using two-factor authentication when available",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "behavioral_indicator": "Two-factor authentication usage"
+      },
+      
+      "T2_Update_Passwords": {
+        "description": "Frequency of updating/changing banking passwords",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "behavioral_indicator": "Password management behavior"
+      },
+      
+      "T2_Monitor_Accounts": {
+        "description": "Frequency of monitoring accounts for suspicious activity",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "behavioral_indicator": "Account monitoring behavior"
+      },
+      
+      "T2_Secure_Networks": {
+        "description": "Frequency of avoiding banking on public/unsecured networks",
+        "scale": "1=Never to 7=Always",
+        "type": "integer",
+        "behavioral_indicator": "Network security behavior"
+      }
+    }
+  },
+  
+  "theoretical_relationships": {
+    "expected_correlations": {
+      "ATT_INT": {"range": "0.50-0.70", "observed": 0.604, "interpretation": "Attitude strongly predicts intention"},
+      "SN_INT": {"range": "0.30-0.50", "observed": "TBD", "interpretation": "Social pressure moderately affects intention"},
+      "PBC_INT": {"range": "0.40-0.65", "observed": 0.605, "interpretation": "Control beliefs strongly predict intention"},
+      "INT_T2_Behavior": {"range": "0.40-0.65", "observed": 0.584, "interpretation": "Intention-behavior relationship"},
+      "Past_T2_Behavior": {"range": "0.50-0.75", "observed": 0.588, "interpretation": "Habit strongly predicts behavior"},
+      "SE_PBC": {"range": "0.60-0.80", "observed": "TBD", "interpretation": "Self-efficacy and PBC conceptually similar"},
+      "PS_PV": {"range": "0.30-0.60", "observed": "TBD", "interpretation": "Threat appraisal components"}
+    },
+    
+    "structural_model": {
+      "predictors_of_intention": ["ATT", "SN", "PBC", "PS", "PV", "SE", "RE"],
+      "predictors_of_behavior": ["INT", "PBC", "Past_Behavior"],
+      "mediating_relationships": [
+        "ATT → INT → T2_Behavior",
+        "SN → INT → T2_Behavior", 
+        "PBC → INT → T2_Behavior",
+        "SE → INT → T2_Behavior"
+      ],
+      "control_variables": ["Age", "Gender", "Education", "Previous_Fraud_Experience", "Tech_Comfort"]
+    }
+  },
+  
+  "analysis_recommendations": {
+    "factor_analysis": {
+      "method": "Confirmatory Factor Analysis (CFA)",
+      "software": "R (lavaan), Mplus, or AMOS",
+      "fit_indices": ["CFI > 0.95", "TLI > 0.95", "RMSEA < 0.06", "SRMR < 0.08"],
+      "factor_loadings": "> 0.70 preferred, > 0.50 acceptable"
+    },
+    
+    "reliability_analysis": {
+      "method": "Cronbach's alpha, Composite Reliability",
+      "thresholds": {"Cronbach_alpha": "> 0.70", "Composite_reliability": "> 0.70"},
+      "item_analysis": "Item-total correlations > 0.50"
+    },
+    
+    "structural_equation_modeling": {
+      "approach": "Two-step approach (measurement model, then structural model)",
+      "software": "R (lavaan), Mplus, or AMOS",
+      "sample_size": "Adequate for SEM (N=1200, >10 cases per parameter)",
+      "missing_data": "Full Information Maximum Likelihood (FIML) if needed"
+    },
+    
+    "longitudinal_analysis": {
+      "intention_behavior_gap": "Compare T1 intentions with T2 behavior",
+      "change_analysis": "Examine behavior change from past behavior to T2",
+      "moderation_analysis": "Test demographic moderators of intention-behavior relationship"
+    }
+  },
+  
+  "data_quality": {
+    "sample_size_justification": "N=1200 provides adequate power for SEM analysis",
+    "response_patterns": "Realistic distributions with appropriate variance",
+    "theoretical_consistency": "Correlations align with theoretical expectations",
+    "longitudinal_validity": "3-month gap appropriate for behavioral change study"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "sample_characteristics": {
+    "n": 1200,
+    "age_mean": 43.495,
+    "age_std": 13.303099339754231,
+    "gender_female_pct": 51.416666666666664,
+    "previous_fraud_pct": 24.166666666666668
+  },
+  "theoretical_validation": {
+    "correlations_within_range": "7",
+    "total_correlations_tested": 7,
+    "validation_rate": 1.0
+  },
+  "model_performance": {
+    "tpb_r2": 0.5866794474171179,
+    "extended_r2": 0.6557599706112229,
+    "behavior_r2": 0.5323909167236245,
+    "r2_improvement": 0.06908052319410507
+  },
+  "mediation_results": {
+    "total_effect": 0.38850022628495834,
+    "direct_effect": -0.2287461419371278,
+    "indirect_effect": 0.6172463682220862,
+    "a_path": 0.7011468288859815,
+    "b_path": 0.8803382441346834,
+    "proportion_mediated": 1.5887928151922013
+  },
+  "key_findings": {
+    "strongest_intention_predictor": [
+      "ATT",
+      0.41616560961898985
+    ],
+    "strongest_behavior_predictor": [
+      "Past_Behavior",
+      0.5478129625276011
+    ],
+    "behavior_change_mean": 0.75
+  }
+}
