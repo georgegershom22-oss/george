@@ -1,0 +1,47 @@
+{
+  "Country": {
+    "1": "Nigeria",
+    "2": "Ghana"
+  },
+  "Gender": {
+    "1": "Male",
+    "2": "Female",
+    "3": "Other/Prefer not to say"
+  },
+  "Education": {
+    "1": "No formal education",
+    "2": "Primary education",
+    "3": "Secondary education",
+    "4": "Tertiary/University",
+    "5": "Professional certification",
+    "6": "Postgraduate"
+  },
+  "Bank_Type": {
+    "1": "Traditional Commercial Bank",
+    "2": "Digital-Only Bank",
+    "3": "Microfinance Institution"
+  },
+  "Frequency_of_Use": {
+    "1": "Daily",
+    "2": "Several times per week",
+    "3": "Weekly",
+    "4": "Monthly",
+    "5": "Less than monthly"
+  },
+  "Past_Victim": {
+    "0": "No",
+    "1": "Yes"
+  },
+  "Location_Type": {
+    "1": "Urban",
+    "2": "Rural"
+  },
+  "Employment_Status": {
+    "1": "Employed (Full-time)",
+    "2": "Employed (Part-time)",
+    "3": "Self-employed/Business owner",
+    "4": "Student",
+    "5": "Unemployed",
+    "6": "Retired"
+  }
+}
