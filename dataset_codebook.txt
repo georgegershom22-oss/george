@@ -1,0 +1,123 @@
+
+BEHAVIORAL INTENTION DATASET CODEBOOK
+=====================================
+
+Dataset Overview:
+- Sample Size: 2000 participants
+- Variables: 35 total
+- Missing Data: 1591 total missing values
+- Generated: 2025-10-26 19:23:08
+
+VARIABLE DESCRIPTIONS:
+=====================
+
+DEMOGRAPHIC VARIABLES:
+----------------------
+participant_id: Unique identifier for each participant (1 to 2000)
+age: Participant age in years (18-80)
+gender: Gender identity (Female, Male, Other)
+education: Highest level of education completed
+income: Annual household income in USD
+tech_comfort: Comfort with technology (1=Very Uncomfortable, 7=Very Comfortable)
+fraud_experience: Previous experience with fraud (0=No, 1=Yes)
+
+THEORY OF PLANNED BEHAVIOR (TPB) CONSTRUCTS:
+--------------------------------------------
+All items measured on 7-point Likert scales (1=Strongly Disagree, 7=Strongly Agree)
+
+Attitude (ATT):
+- ATT1: Following bank security steps is beneficial/harmful
+- ATT2: Following bank security steps is wise/foolish  
+- ATT3: Following bank security steps is important/unimportant
+- attitude_composite: Mean of ATT1, ATT2, ATT3
+
+Subjective Norm (SN):
+- SN1: Most people who are important to me think I should follow these steps
+- SN2: My family expects me to be diligent with my bank security
+- subjective_norm_composite: Mean of SN1, SN2
+
+Perceived Behavioral Control (PBC):
+- PBC1: For me, following all the security steps would be easy/difficult
+- PBC2: I have the resources, time, and knowledge to follow them
+- PBC3: Whether I follow them is entirely up to me
+- pbc_composite: Mean of PBC1, PBC2, PBC3
+
+Intention (INT):
+- INT1: I intend to follow all recommended security steps in the next 3 months
+- INT2: I plan to make an effort to be more diligent
+- intention_composite: Mean of INT1, INT2
+
+PROTECTION MOTIVATION THEORY (PMT) CONSTRUCTS:
+----------------------------------------------
+All items measured on 7-point Likert scales (1=Strongly Disagree, 7=Strongly Agree)
+
+Threat Appraisal:
+- perceived_severity: The financial loss from fraud would be severe for me
+- perceived_vulnerability: I am at high risk of experiencing bank fraud
+- threat_appraisal_composite: Mean of perceived_severity, perceived_vulnerability
+
+Coping Appraisal:
+- self_efficacy: I am confident I can perform the security steps correctly
+- response_efficacy: I believe these security steps are effective in protecting me
+- coping_appraisal_composite: Mean of self_efficacy, response_efficacy
+
+Past Behavior:
+- past_behavior: In the past 3 months, how often have you followed recommended security steps? (1=Never, 7=Always)
+
+TIME 2 (T2) BEHAVIORAL OUTCOMES:
+-------------------------------
+T2_security_steps_followed: Self-reported security behavior (1=Never, 7=Always)
+T2_frequency_last_month: Frequency of security behavior in last month (1=Never, 7=Always)
+T2_consistency_score: Consistency of security behavior (1=Very Inconsistent, 7=Very Consistent)
+T2_behavior_binary: Binary behavioral outcome (0=Did not follow, 1=Followed security steps)
+T2_missing: Missing data indicator for T2 (0=Present, 1=Missing)
+
+DATA QUALITY INDICATORS:
+-----------------------
+response_time_seconds: Time taken to complete survey (in seconds)
+straight_line_respondent: Indicator for potential straight-lining (0=No, 1=Yes)
+
+STATISTICAL PROPERTIES:
+======================
+
+Descriptive Statistics:
+       participant_id          age        income  tech_comfort  fraud_experience      ATT1      ATT2      ATT3       SN1       SN2      PBC1     PBC2      PBC3      INT1      INT2  perceived_severity  perceived_vulnerability  self_efficacy  response_efficacy  past_behavior  T2_security_steps_followed  T2_frequency_last_month  T2_consistency_score  T2_behavior_binary   T2_missing  response_time_seconds  straight_line_respondent  attitude_composite  subjective_norm_composite  pbc_composite  intention_composite  threat_appraisal_composite  coping_appraisal_composite
+count     2000.000000  2000.000000    2000.00000   2000.000000        2000.00000    1961.0    1967.0    1970.0    1957.0    1965.0    1957.0   1970.0    1955.0    1962.0    1962.0              2000.0                   2000.0         2000.0             2000.0         2000.0                      1696.0                   1696.0                1696.0         1696.000000  2000.000000            2000.000000               2000.000000         2000.000000                1999.000000    2000.000000          2000.000000                 2000.000000                 2000.000000
+mean      1000.500000    32.191000   55873.59550      5.138872           0.26400  1.553289  1.549568  1.554315   1.21257  1.224427  1.354113  1.36599  1.348338  1.284913  1.278287               1.076                    1.288          1.191             1.1275         1.2115                    1.439269                 1.442217                1.4375            0.597877     0.152000              46.550509                  0.050500            1.687829                   1.404558       1.508808             1.451607                    1.194859                    1.182712
+std        577.494589    17.348689   24988.98613      1.182399           0.44091  1.054311  1.042074  1.051901  0.817614  0.838249  0.884888   0.8927   0.87843  0.853267  0.858724            0.286819                  0.53028       0.415458           0.358201       0.472101                    0.631403                 0.658208              0.648745            0.490471     0.359111              44.202351                  0.219029            0.956982                   0.805397       0.823672             0.816815                    0.269165                    0.255310
+min          1.000000    18.000000   16558.00000      1.000000           0.00000       1.0       1.0       1.0       1.0       1.0       1.0      1.0       1.0       1.0       1.0                 1.0                      1.0            1.0                1.0            1.0                         1.0                      1.0                   1.0            0.000000     0.000000               1.867488                  0.000000            1.000000                   1.000000       1.000000             1.000000                    1.000000                    1.000000
+25%        500.750000    18.000000   38319.00000      4.327102           0.00000       1.0       1.0       1.0       1.0       1.0       1.0      1.0       1.0       1.0       1.0                 1.0                      1.0            1.0                1.0            1.0                         1.0                      1.0                   1.0            0.000000     0.000000              19.725738                  0.000000            1.183586                   1.147483       1.177390             1.153455                    1.000000                    1.000000
+50%       1000.500000    25.000000   49861.50000      5.190149           0.00000       1.0       1.0       1.0       1.0       1.0       1.0      1.0       1.0       1.0       1.0                 1.0                      1.0            1.0                1.0            1.0                         1.0                      1.0                   1.0            1.000000     0.000000              33.397713                  0.000000            1.293043                   1.220410       1.269267             1.235797                    1.058590                    1.054515
+75%       1500.250000    40.000000   64302.50000      6.020655           1.00000       2.0       2.0       2.0       1.0       1.0       1.0      1.0       1.0       1.0       1.0                 1.0                      2.0            1.0                1.0            1.0                         2.0                      2.0                   2.0            1.000000     0.000000              58.383976                  0.000000            1.748734                   1.310644       1.447321             1.350375                    1.314113                    1.304450
+max       2000.000000    80.000000  195497.00000      7.000000           1.00000       7.0       7.0       7.0       7.0       7.0       7.0      7.0       7.0       7.0       7.0                 3.0                      4.0            3.0                4.0            4.0                         4.0                      4.0                   5.0            1.000000     1.000000             670.567386                  1.000000            7.000000                   7.000000       7.000000             7.000000                    2.691149                    2.528698
+
+CORRELATION MATRIX (Key Constructs):
+===================================
+                            attitude_composite  subjective_norm_composite  pbc_composite  intention_composite  threat_appraisal_composite  coping_appraisal_composite  past_behavior  T2_security_steps_followed
+attitude_composite                    1.000000                   0.772301       0.782631             0.841133                   -0.044543                    0.181774       0.067991                    0.104298
+subjective_norm_composite             0.772301                   1.000000       0.916600             0.951518                   -0.028288                    0.010622       0.031492                   -0.020301
+pbc_composite                         0.782631                   0.916600       1.000000             0.933928                   -0.047136                    0.093510       0.046933                    0.034700
+intention_composite                   0.841133                   0.951518       0.933928             1.000000                   -0.036471                    0.064206       0.068715                    0.034503
+threat_appraisal_composite           -0.044543                  -0.028288      -0.047136            -0.036471                    1.000000                   -0.081825      -0.008223                   -0.013993
+coping_appraisal_composite            0.181774                   0.010622       0.093510             0.064206                   -0.081825                    1.000000       0.063951                    0.082099
+past_behavior                         0.067991                   0.031492       0.046933             0.068715                   -0.008223                    0.063951       1.000000                    0.119789
+T2_security_steps_followed            0.104298                  -0.020301       0.034700             0.034503                   -0.013993                    0.082099       0.119789                    1.000000
+
+RESEARCH APPLICATIONS:
+=====================
+1. Test Theory of Planned Behavior model
+2. Examine intention-behavior gap
+3. Factor analysis of measurement scales
+4. Mediation and moderation analyses
+5. Protection Motivation Theory integration
+6. Demographic differences in security behavior
+7. Longitudinal behavior prediction
+
+CITATION:
+=========
+Generated dataset for behavioral intention research.
+Based on Theory of Planned Behavior (Ajzen, 1991) and 
+Protection Motivation Theory (Rogers, 1975).
+
+For questions about this dataset, please refer to the 
+accompanying analysis scripts and documentation.
