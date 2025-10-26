@@ -1,0 +1,6 @@
+scenario_id,prompt,option_a,option_b,option_c,score_a,score_b,score_c,correct_option,difficulty
+S1,You receive an SMS: 'Your account is locked. Click here to secure it: bit.ly/...'. What do you do?,Click the link immediately,Call your bank using the number on your card,Ignore it,0,2,1,b,0.3
+S2,Your banking app asks you to re-enter your password on a pop-up while the app is minimized.,Enter the password into the pop-up,Re-open the app and use built-in login only,Screenshot it and email support later,0,2,1,b,0.5
+S3,You get an email: 'Security alert: verify your account within 24 hours' with a link to a site that looks similar to your bank.,Click the link and verify immediately,Type your bank URL manually or use the app,Forward the email to a friend to ask,0,2,1,b,0.6
+S4,You receive a call claiming to be from your bank asking for your one-time 2FA code to fix a problem.,Share the code because the caller sounds urgent,Decline and call the bank back using the official number,Hang up and do nothing,0,2,1,b,0.7
+S5,"At a cafe, you connect to 'Free_Public_WiFi' and the banking app requests login.",Proceed to login over public Wi-Fi,Use cellular data or wait for a trusted network,Use a VPN then login,0,2,1,b,0.8
