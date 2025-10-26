@@ -1,0 +1,43 @@
+DATASET SUMMARY
+==================================================
+
+Total Observations: 5000
+Total Variables: 27
+
+COUNTRY DISTRIBUTION:
+Country_Name
+Nigeria    2999
+Ghana      2001
+Name: count, dtype: int64
+
+GENDER DISTRIBUTION:
+Gender
+1    2514
+2    2378
+3     108
+Name: count, dtype: int64
+
+BANK TYPE DISTRIBUTION:
+Bank_Type_Name
+Traditional Commercial    2678
+Digital-Only Bank         1745
+Microfinance               577
+Name: count, dtype: int64
+
+FRAUD VICTIM RATE:
+Overall: 38.52%
+Nigeria: 41.81%
+Ghana: 33.58%
+
+DESCRIPTIVE STATISTICS:
+           Country          Age  ...  Financial_Literacy  Risk_Tolerance
+count  5000.000000  5000.000000  ...         5000.000000     5000.000000
+mean      1.400200    33.225000  ...            3.039480        3.132580
+std       0.489988    10.651886  ...            0.856058        0.750217
+min       1.000000    18.000000  ...            1.000000        1.000000
+25%       1.000000    25.000000  ...            2.500000        2.600000
+50%       1.000000    31.000000  ...            3.100000        3.100000
+75%       2.000000    39.000000  ...            3.600000        3.600000
+max       2.000000    65.000000  ...            5.000000        5.000000
+
+[8 rows x 23 columns]

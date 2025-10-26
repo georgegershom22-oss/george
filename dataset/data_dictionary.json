@@ -1,0 +1,38 @@
+{
+  "dataset_info": {
+    "name": "Digital Banking Fraud Control Research Dataset",
+    "description": "Comprehensive dataset for analyzing digital banking fraud control mechanisms",
+    "sample_size": 5000,
+    "variables": 27,
+    "countries": [
+      "Nigeria",
+      "Ghana"
+    ],
+    "generated_date": "2025-10-26T18:51:06.578490"
+  },
+  "variable_definitions": {
+    "Country": "1=Nigeria, 2=Ghana",
+    "Age": "Continuous variable (18-65)",
+    "Gender": "1=Male, 2=Female, 3=Other/Prefer not to say",
+    "Education": "1=No formal, 2=Primary, 3=Secondary, 4=Diploma, 5=Bachelor, 6=Postgraduate",
+    "Income_Level": "1=Very Low, 2=Low, 3=Below Average, 4=Average, 5=Above Average, 6=High",
+    "Urban_Rural": "1=Urban, 2=Rural",
+    "Bank_Type": "1=Traditional Commercial, 2=Digital-Only Bank, 3=Microfinance",
+    "Years_with_Account": "Number of years with current bank account",
+    "Frequency_of_Use": "1=Daily, 2=Weekly, 3=Monthly, 4=Quarterly, 5=Less than monthly",
+    "Past_Victim": "1=Yes, 0=No - Have you ever been a victim of bank fraud?",
+    "Fraud_Awareness": "1-5 scale: How aware are you of banking fraud risks?",
+    "Fraud_Concern": "1-5 scale: How concerned are you about banking fraud?",
+    "Security_Knowledge": "1-5 scale: How knowledgeable are you about banking security?",
+    "Tech_Adoption": "1-5 scale: General technology adoption level",
+    "Smartphone_Usage": "1-5 scale: Smartphone usage frequency",
+    "Internet_Usage": "1-5 scale: Internet usage frequency",
+    "Trust_Traditional_Banking": "1-5 scale: Trust in traditional banking",
+    "Trust_Digital_Banking": "1-5 scale: Trust in digital banking",
+    "Financial_Literacy": "1-5 scale: Financial literacy level",
+    "Risk_Tolerance": "1-5 scale: Risk tolerance level",
+    "Marital_Status": "1=Single, 2=Married, 3=Divorced, 4=Widowed",
+    "Employment_Status": "1=Employed, 2=Student, 3=Unemployed, 4=Retired",
+    "Household_Size": "Number of people in household"
+  }
+}
