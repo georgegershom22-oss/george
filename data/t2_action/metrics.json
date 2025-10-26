@@ -1,0 +1,16 @@
+{
+  "n": 5000,
+  "seed": 42,
+  "cronbach_alpha_SRB5": 0.87639878832801,
+  "cronbach_alpha_Objective5": 0.7659678927516733,
+  "ols_coefficients": {
+    "intercept": 3.545377538697178,
+    "T1_Intention": 0.26116448671071013
+  },
+  "correlations": {
+    "corr_T1Intention_SRBMean": 0.3842104683829809,
+    "corr_T1Intention_ObjectiveTotal": 0.3468261297832908,
+    "corr_SRBMean_ObjectiveTotal": 0.7601892636654621
+  },
+  "notes": "SRB items are influenced by a behavior propensity latent factor and a social desirability bias. Objective items depend on propensity and scenario difficulty; 'b' is optimal, 'c' is acceptable, 'a' is unsafe. Intention_Behavior_Gap is the unstandardized residual from regressing SRB_Mean on T1_Intention with an intercept."
+}
