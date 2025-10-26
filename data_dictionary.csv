@@ -1,0 +1,88 @@
+Variable,Description,Type,Scale,Source
+ParticipantID,Unique participant identifier,String,N/A,Generated
+Age,Participant age in years,Integer,18-75,Demographic
+Gender,Participant gender,Categorical,Male/Female/Other,Demographic
+Education,Highest education level,Ordinal,5 categories,Demographic
+Income,Annual household income,Ordinal,5 categories,Demographic
+BankingExperience_Years,Years of banking experience,Integer,1-50,Demographic
+DigitalLiteracy,Self-reported digital literacy,Continuous,1-7,Demographic
+PreviousFraudExperience,Has experienced bank fraud,Binary,"0=No, 1=Yes",Demographic
+NumberOfBankAccounts,Number of bank accounts owned,Integer,1+,Demographic
+OnlineBankingFrequency,Frequency of online banking use,Ordinal,1-7,Demographic
+ATT1_Beneficial,Following security steps is beneficial,Likert,1-7,TPB - Attitude
+ATT2_Wise,Following security steps is wise,Likert,1-7,TPB - Attitude
+ATT3_Important,Following security steps is important,Likert,1-7,TPB - Attitude
+ATT4_Valuable,Following security steps is valuable,Likert,1-7,TPB - Attitude
+SN1_ImportantOthers,Important others think I should follow security steps,Likert,1-7,TPB - Subjective Norm
+SN2_FamilyExpectations,Family expects me to follow security steps,Likert,1-7,TPB - Subjective Norm
+SN3_FriendsThink,Friends think I should follow security steps,Likert,1-7,TPB - Subjective Norm
+SN4_SocialPressure,I feel social pressure to follow security steps,Likert,1-7,TPB - Subjective Norm
+PBC1_Easy,Following security steps is easy for me,Likert,1-7,TPB - Perceived Behavioral Control
+PBC2_Resources,I have resources to follow security steps,Likert,1-7,TPB - Perceived Behavioral Control
+PBC3_Control,Following steps is entirely up to me,Likert,1-7,TPB - Perceived Behavioral Control
+PBC4_Capable,I am capable of following security steps,Likert,1-7,TPB - Perceived Behavioral Control
+PBC5_Confident,I am confident I can follow security steps,Likert,1-7,TPB - Perceived Behavioral Control
+Severity1_FinancialLoss,Financial loss from fraud would be severe,Likert,1-7,PMT - Perceived Severity
+Severity2_EmotionalImpact,Emotional impact of fraud would be severe,Likert,1-7,PMT - Perceived Severity
+Severity3_TimeConsumption,Time to resolve fraud would be significant,Likert,1-7,PMT - Perceived Severity
+Severity4_OverallSeriousness,Overall seriousness of fraud is high,Likert,1-7,PMT - Perceived Severity
+Vulnerability1_PersonalRisk,I am at high personal risk of fraud,Likert,1-7,PMT - Perceived Vulnerability
+Vulnerability2_Likelihood,Likelihood of experiencing fraud is high,Likert,1-7,PMT - Perceived Vulnerability
+Vulnerability3_Susceptibility,I am susceptible to bank fraud,Likert,1-7,PMT - Perceived Vulnerability
+Vulnerability4_Exposure,My banking activities expose me to fraud,Likert,1-7,PMT - Perceived Vulnerability
+SelfEfficacy1_Confident,I am confident in my security abilities,Likert,1-7,PMT - Self-Efficacy
+SelfEfficacy2_Capable,I am capable of implementing security measures,Likert,1-7,PMT - Self-Efficacy
+SelfEfficacy3_Skilled,I am skilled at following security protocols,Likert,1-7,PMT - Self-Efficacy
+SelfEfficacy4_Competent,I am competent in bank security practices,Likert,1-7,PMT - Self-Efficacy
+ResponseEfficacy1_Effective,Security steps are effective in preventing fraud,Likert,1-7,PMT - Response Efficacy
+ResponseEfficacy2_Works,Following security steps works to protect me,Likert,1-7,PMT - Response Efficacy
+ResponseEfficacy3_Protective,Security measures provide good protection,Likert,1-7,PMT - Response Efficacy
+ResponseEfficacy4_Useful,Security steps are useful in preventing fraud,Likert,1-7,PMT - Response Efficacy
+PastBehavior1_Frequency,Past behavior measure: PastBehavior1_Frequency,Likert,1-7,Past Behavior
+PastBehavior2_Consistency,Past behavior measure: PastBehavior2_Consistency,Likert,1-7,Past Behavior
+PastBehavior3_Regularity,Past behavior measure: PastBehavior3_Regularity,Likert,1-7,Past Behavior
+INT1_Intend,Behavioral intention: INT1_Intend,Likert,1-7,Intention (T1)
+INT2_Plan,Behavioral intention: INT2_Plan,Likert,1-7,Intention (T1)
+INT3_WillTry,Behavioral intention: INT3_WillTry,Likert,1-7,Intention (T1)
+INT4_Motivated,Behavioral intention: INT4_Motivated,Likert,1-7,Intention (T1)
+Trust1_BankSecurity,Trust in bank: Trust1_BankSecurity,Likert,1-7,Additional Measures
+Trust2_BankReliability,Trust in bank: Trust2_BankReliability,Likert,1-7,Additional Measures
+Trust3_BankCompetence,Trust in bank: Trust3_BankCompetence,Likert,1-7,Additional Measures
+Cost1_TimeConsuming,Perceived cost/barrier: Cost1_TimeConsuming,Likert,1-7,Additional Measures
+Cost2_Inconvenient,Perceived cost/barrier: Cost2_Inconvenient,Likert,1-7,Additional Measures
+Cost3_Complicated,Perceived cost/barrier: Cost3_Complicated,Likert,1-7,Additional Measures
+Awareness1_ThreatKnowledge,Threat awareness: Awareness1_ThreatKnowledge,Likert,1-7,Additional Measures
+Awareness2_RiskAwareness,Threat awareness: Awareness2_RiskAwareness,Likert,1-7,Additional Measures
+Awareness3_SecurityKnowledge,Threat awareness: Awareness3_SecurityKnowledge,Likert,1-7,Additional Measures
+DescNorm1_OthersFollow,Descriptive norm: DescNorm1_OthersFollow,Likert,1-7,Additional Measures
+DescNorm2_PeerBehavior,Descriptive norm: DescNorm2_PeerBehavior,Likert,1-7,Additional Measures
+DescNorm3_CommonPractice,Descriptive norm: DescNorm3_CommonPractice,Likert,1-7,Additional Measures
+T2_Behavior1_Frequency,Time 2 measure: T2_Behavior1_Frequency,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Behavior2_Consistency,Time 2 measure: T2_Behavior2_Consistency,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Behavior3_Completeness,Time 2 measure: T2_Behavior3_Completeness,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Behavior4_Quality,Time 2 measure: T2_Behavior4_Quality,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Behavior5_Adherence,Time 2 measure: T2_Behavior5_Adherence,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_BehaviorAdopted_Binary,Time 2 measure: T2_BehaviorAdopted_Binary,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Timestamp,Time 2 measure: T2_Timestamp,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Completed,Time 2 measure: T2_Completed,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T1_Timestamp,Data collection timestamp: T1_Timestamp,DateTime,YYYY-MM-DD HH:MM:SS,System
+T2_Timestamp,Time 2 measure: T2_Timestamp,Likert/Binary,1-7 or 0/1,Behavior (T2)
+T2_Completed,Time 2 measure: T2_Completed,Likert/Binary,1-7 or 0/1,Behavior (T2)
+AttentionCheck1,AttentionCheck1,Various,Various,Quality Check
+SurveyDuration_Seconds,SurveyDuration_Seconds,Various,Various,Quality Check
+ResponseVariance,ResponseVariance,Various,Various,Quality Check
+LowQuality_Flag,LowQuality_Flag,Various,Various,Quality Check
+ATT_Mean,ATT_Mean,Various,Various,Quality Check
+SN_Mean,SN_Mean,Various,Various,Quality Check
+PBC_Mean,PBC_Mean,Various,Various,Quality Check
+Severity_Mean,Severity_Mean,Various,Various,Quality Check
+Vulnerability_Mean,Vulnerability_Mean,Various,Various,Quality Check
+SelfEfficacy_Mean,SelfEfficacy_Mean,Various,Various,Quality Check
+ResponseEfficacy_Mean,ResponseEfficacy_Mean,Various,Various,Quality Check
+PastBehavior_Mean,Past behavior measure: PastBehavior_Mean,Likert,1-7,Past Behavior
+Intention_Mean,Intention_Mean,Various,Various,Quality Check
+Trust_Mean,Trust in bank: Trust_Mean,Likert,1-7,Additional Measures
+Cost_Mean,Perceived cost/barrier: Cost_Mean,Likert,1-7,Additional Measures
+Awareness_Mean,Threat awareness: Awareness_Mean,Likert,1-7,Additional Measures
+DescNorm_Mean,Descriptive norm: DescNorm_Mean,Likert,1-7,Additional Measures
+T2_Behavior_Mean,Time 2 measure: T2_Behavior_Mean,Likert/Binary,1-7 or 0/1,Behavior (T2)

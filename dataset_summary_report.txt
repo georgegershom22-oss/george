@@ -1,0 +1,120 @@
+
+================================================================================
+COMPREHENSIVE BEHAVIORAL INTENTION DATASET - SUMMARY REPORT
+Generated: 2025-10-26 19:30:54
+================================================================================
+
+DATASET CHARACTERISTICS
+================================================================================
+Total Participants (N):               1000
+Total Variables:                      87
+T2 Completion Rate:                   84.8%
+Low Quality Responses:                0 (0.0%)
+
+THEORETICAL CONSTRUCTS INCLUDED
+================================================================================
+Theory of Planned Behavior (TPB):
+  - Attitude (4 items)
+  - Subjective Norm (4 items)
+  - Perceived Behavioral Control (5 items)
+  - Intention (4 items)
+
+Protection Motivation Theory (PMT):
+  - Perceived Severity (4 items)
+  - Perceived Vulnerability (4 items)
+  - Self-Efficacy (4 items)
+  - Response Efficacy (4 items)
+
+Additional Constructs:
+  - Past Behavior (3 items)
+  - Trust in Bank (3 items)
+  - Perceived Cost (3 items)
+  - Threat Awareness (3 items)
+  - Descriptive Norm (3 items)
+
+Time 2 Measures:
+  - Actual Security Behavior (5 items)
+  - Binary Adoption Indicator
+
+DEMOGRAPHIC VARIABLES
+================================================================================
+Age:                                  M = 37.9, SD = 11.3
+Gender Distribution:                  Female: 49.3%, Male: 46.2%
+Education (Bachelor+):                58.9%
+Income (>$50k):                       58.8%
+Digital Literacy:                     M = 4.93, SD = 1.15
+Previous Fraud Experience:            22.6%
+
+RELIABILITY ANALYSIS (Cronbach's Alpha)
+================================================================================
+                   Construct  Number_of_Items  Cronbach_Alpha  Mean   SD Interpretation
+                    Attitude                4           0.771  5.36 0.86     Acceptable
+             Subjective Norm                4           0.804  4.32 0.94           Good
+Perceived Behavioral Control                5           0.855  4.75 0.96           Good
+          Perceived Severity                4           0.817  5.69 0.90           Good
+     Perceived Vulnerability                4           0.884  4.84 1.18           Good
+               Self-Efficacy                4           0.826  3.96 1.02           Good
+           Response Efficacy                4           0.787  5.42 0.85     Acceptable
+               Past Behavior                3           0.865  4.30 1.30           Good
+                   Intention                4           0.582  5.22 0.64           Poor
+                       Trust                3           0.816  5.14 1.06           Good
+              Perceived Cost                3           0.806  3.52 1.08           Good
+            Threat Awareness                3           0.747  5.20 0.95     Acceptable
+            Descriptive Norm                3           0.790  4.49 1.06     Acceptable
+                 T2 Behavior                5           0.802  3.54 0.85           Good
+
+KEY CONSTRUCT CORRELATIONS
+================================================================================
+Intention with:
+  - Attitude:                         r = 0.453
+  - Subjective Norm:                  r = 0.281
+  - PBC:                              r = 0.446
+  - Self-Efficacy:                    r = 0.381
+
+T2 Behavior with:
+  - Intention:                        r = 0.311
+  - PBC:                              r = 0.242
+  - Past Behavior:                    r = 0.283
+
+FILES GENERATED
+================================================================================
+1. behavioral_intention_dataset_FULL.csv    - Complete longitudinal dataset
+2. behavioral_intention_dataset_T1.csv      - Time 1 data only
+3. data_dictionary.csv                      - Variable descriptions
+4. reliability_analysis.csv                 - Cronbach's alpha for all scales
+5. correlation_matrix.csv                   - Construct correlations
+6. descriptive_statistics.csv               - Demographic summary
+7. dataset_summary_report.txt               - This report
+
+RESEARCH APPLICATIONS
+================================================================================
+This dataset supports analysis of:
+✓ TPB model testing (H: Intention predicted by ATT, SN, PBC)
+✓ PMT integration (H: Threat/coping appraisals add variance)
+✓ Intention-behavior gap (H: Intention predicts behavior)
+✓ Role of past behavior/habit (H: Past behavior moderates intention-behavior)
+✓ Longitudinal effects (T1 predictors → T2 behavior)
+✓ Demographic moderators
+✓ Model comparison (TPB vs. TPB+PMT)
+
+SUGGESTED ANALYSES
+================================================================================
+1. Confirmatory Factor Analysis (CFA) - validate measurement model
+2. Structural Equation Modeling (SEM) - test theoretical pathways
+3. Hierarchical Regression - examine incremental variance
+4. Moderation Analysis - test demographic effects
+5. Longitudinal Analysis - T1 → T2 predictions
+6. Mediation Analysis - indirect effects through intention
+
+CITATION
+================================================================================
+If using this dataset for research, please cite:
+  Behavioral Intention Dataset for Banking Security Behavior
+  Generated: 2025-10-26
+  Theoretical Framework: Theory of Planned Behavior + Protection Motivation Theory
+  N = 1000, Longitudinal design (3-month interval)
+
+================================================================================
+For questions or additional analyses, refer to the data dictionary and
+reliability report for construct operationalizations and psychometric properties.
+================================================================================
