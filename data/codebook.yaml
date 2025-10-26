@@ -1,0 +1,88 @@
+- construct: ATT
+  code: ATT1
+  text: Following bank security steps is beneficial/harmful.
+  reverse: false
+- construct: ATT
+  code: ATT2
+  text: Following bank security steps is wise/foolish.
+  reverse: false
+- construct: ATT
+  code: ATT3
+  text: Following bank security steps is important/unimportant.
+  reverse: false
+- construct: SN
+  code: SN1
+  text: Most people important to me think I should follow these steps.
+  reverse: false
+- construct: SN
+  code: SN2
+  text: My family expects me to be diligent with my bank security.
+  reverse: false
+- construct: PBC
+  code: PBC1
+  text: Following all the security steps would be easy/difficult.
+  reverse: false
+- construct: PBC
+  code: PBC2
+  text: I have the resources, time, and knowledge to follow them.
+  reverse: false
+- construct: PBC
+  code: PBC3
+  text: Whether I follow them is entirely up to me.
+  reverse: false
+- construct: INT
+  code: INT1
+  text: I intend to follow all recommended security steps in the next 3 months.
+  reverse: false
+- construct: INT
+  code: INT2
+  text: I plan to make an effort to be more diligent.
+  reverse: false
+- construct: SEV
+  code: SEV1
+  text: The financial loss from bank fraud would be severe for me.
+  reverse: false
+- construct: SEV
+  code: SEV2
+  text: Financial consequences of bank fraud would be very serious for me.
+  reverse: false
+- construct: VULN
+  code: VULN1
+  text: I am at high risk of experiencing bank fraud.
+  reverse: false
+- construct: VULN
+  code: VULN2
+  text: It is likely that I could be targeted by bank fraud.
+  reverse: false
+- construct: SE
+  code: SE1
+  text: I am confident I can perform the security steps correctly.
+  reverse: false
+- construct: SE
+  code: SE2
+  text: I have the ability to carry out all recommended security steps.
+  reverse: false
+- construct: SE
+  code: SE3
+  text: I can manage the security steps even if they are inconvenient.
+  reverse: false
+- construct: RE
+  code: RE1
+  text: These security steps are effective in protecting me.
+  reverse: false
+- construct: RE
+  code: RE2
+  text: Following the steps significantly reduces my risk of fraud.
+  reverse: false
+- construct: RE
+  code: RE3
+  text: The recommended steps are a reliable way to enhance security.
+  reverse: false
+- construct: PB
+  code: PB1
+  text: In the past 3 months, I followed recommended security steps often.
+  reverse: false
+- construct: PB
+  code: PB2
+  text: In the past 3 months, I consistently adhered to bank security steps.
+  reverse: false

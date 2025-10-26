@@ -1,0 +1,28 @@
+KMO overall: 0.860
+MSA per item (order matches items CSV):
+0.875,0.876,0.872,0.792,0.783,0.880,0.878,0.913,0.912,0.913,0.623,0.600,0.585,0.594,0.905,0.896,0.902,0.868,0.854,0.883,0.794,0.825
+Bartlett chi2: 19433.3, df=231
+Observed eigenvalues vs 95th percentile random:
+  Factor 1: observed=5.611, PA95=1.170
+  Factor 2: observed=1.801, PA95=1.139
+  Factor 3: observed=1.615, PA95=1.123
+  Factor 4: observed=1.421, PA95=1.103
+  Factor 5: observed=1.254, PA95=1.093
+  Factor 6: observed=1.195, PA95=1.076
+  Factor 7: observed=1.141, PA95=1.062
+  Factor 8: observed=1.092, PA95=1.048
+  Factor 9: observed=0.661, PA95=1.038
+  Factor 10: observed=0.612, PA95=1.027
+  Factor 11: observed=0.595, PA95=1.015
+  Factor 12: observed=0.569, PA95=1.004
+  Factor 13: observed=0.550, PA95=0.993
+  Factor 14: observed=0.527, PA95=0.979
+  Factor 15: observed=0.508, PA95=0.968
+  Factor 16: observed=0.493, PA95=0.958
+  Factor 17: observed=0.473, PA95=0.944
+  Factor 18: observed=0.419, PA95=0.932
+  Factor 19: observed=0.407, PA95=0.920
+  Factor 20: observed=0.379, PA95=0.908
+  Factor 21: observed=0.359, PA95=0.890
+  Factor 22: observed=0.320, PA95=0.870
+Selected factors: 8
