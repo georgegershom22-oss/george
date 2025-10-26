@@ -1,0 +1,16 @@
+variable,label,type,codes,allowed_range,notes,source_timepoint
+Country,"Country (1=Nigeria, 2=Ghana)",categorical:int,"{""1"": ""Nigeria"", ""2"": ""Ghana""}",1..2,Core variable for comparative analysis,T1
+Age,Respondent age (years),continuous:float,{},18..70,"Age truncated to [18,70]",T1
+Gender,"Gender (1=Male, 2=Female, 3=Other/Prefer not to say)",categorical:int,"{""1"": ""Male"", ""2"": ""Female"", ""3"": ""Other/Prefer not to say""}",1..3,,T1
+Education,Highest education (1=No formal to 6=Postgraduate),ordinal:int,"{""1"": ""No formal education"", ""2"": ""Primary"", ""3"": ""Secondary"", ""4"": ""Vocational/Technical"", ""5"": ""Undergraduate"", ""6"": ""Postgraduate""}",1..6,,T1
+Income_Level,"Income band (local currency, ordinal)",ordinal:int,"{""NGN"": {""1"": ""< ₦50k"", ""2"": ""₦50k–₦100k"", ""3"": ""₦100k–₦200k"", ""4"": ""₦200k–₦400k"", ""5"": ""₦400k–₦800k"", ""6"": ""₦800k–₦1.5m"", ""7"": ""> ₦1.5m""}, ""GHS"": {""1"": ""< GH₵1k"", ""2"": ""GH₵1k–GH₵2k"", ""3"": ""GH₵2k–GH₵4k"", ""4"": ""GH₵4k–GH₵7k"", ""5"": ""GH₵7k–GH₵12k"", ""6"": ""GH₵12k–GH₵20k"", ""7"": ""> GH₵20k""}}",1..7,Bands mapped by Country; see Income_Band_Label column,T1
+Bank_Type,"Primary bank type (1=Traditional, 2=Digital-Only, 3=Microfinance)",categorical:int,"{""1"": ""Traditional Commercial"", ""2"": ""Digital-Only Bank"", ""3"": ""Microfinance""}",1..3,,T1
+Years_with_Account,Years with primary bank account,discrete:int,{},0..55,Constrained by Age-15 and bank type,T1
+Frequency_of_Use,1=Daily to 5=Less than monthly,ordinal:int,"{""1"": ""Daily"", ""2"": ""Several times a week"", ""3"": ""Weekly"", ""4"": ""Monthly"", ""5"": ""Less than monthly""}",1..5,Higher frequency associated with digital banks and higher income,T1
+Past_Victim,"Ever a victim of bank fraud? (1=Yes, 0=No)",binary:int,"{""0"": ""No"", ""1"": ""Yes""}",0..1,"Probability increases with usage frequency, tenure, and digital banking",T1
+Country_Label,Human-readable label for Country,string,"{""1"": ""Nigeria"", ""2"": ""Ghana""}",,Derived from Country,T1
+Gender_Label,Human-readable label for Gender,string,"{""1"": ""Male"", ""2"": ""Female"", ""3"": ""Other/Prefer not to say""}",,Derived from Gender,T1
+Education_Label,Human-readable label for Education,string,"{""1"": ""No formal education"", ""2"": ""Primary"", ""3"": ""Secondary"", ""4"": ""Vocational/Technical"", ""5"": ""Undergraduate"", ""6"": ""Postgraduate""}",,Derived from Education,T1
+Bank_Type_Label,Human-readable label for Bank_Type,string,"{""1"": ""Traditional Commercial"", ""2"": ""Digital-Only Bank"", ""3"": ""Microfinance""}",,Derived from Bank_Type,T1
+Frequency_of_Use_Label,Human-readable label for Frequency_of_Use,string,"{""1"": ""Daily"", ""2"": ""Several times a week"", ""3"": ""Weekly"", ""4"": ""Monthly"", ""5"": ""Less than monthly""}",,Derived from Frequency_of_Use,T1
+Income_Band_Label,Human-readable label for Income_Level in local currency,string,"{""NGN"": {""1"": ""< ₦50k"", ""2"": ""₦50k–₦100k"", ""3"": ""₦100k–₦200k"", ""4"": ""₦200k–₦400k"", ""5"": ""₦400k–₦800k"", ""6"": ""₦800k–₦1.5m"", ""7"": ""> ₦1.5m""}, ""GHS"": {""1"": ""< GH₵1k"", ""2"": ""GH₵1k–GH₵2k"", ""3"": ""GH₵2k–GH₵4k"", ""4"": ""GH₵4k–GH₵7k"", ""5"": ""GH₵7k–GH₵12k"", ""6"": ""GH₵12k–GH₵20k"", ""7"": ""> GH₵20k""}}",,Derived from Income_Level using Country,T1
