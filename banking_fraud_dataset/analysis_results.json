@@ -1,0 +1,16 @@
+{
+  "overall_stats": {
+    "total_samples": 2500,
+    "countries": 2,
+    "variables": 29,
+    "fraud_prevalence": 0.3048,
+    "avg_age": 34.0736,
+    "digital_adoption": 0.2716
+  },
+  "country_comparison": {
+    "nigeria_fraud_rate": 0.3273333333333333,
+    "ghana_fraud_rate": 0.271,
+    "nigeria_digital_rate": 0.2853333333333333,
+    "ghana_digital_rate": 0.251
+  }
+}

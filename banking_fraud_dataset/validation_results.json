@@ -1,0 +1,51 @@
+{
+  "total_samples": 2500,
+  "missing_values": {
+    "Participant_ID": 0,
+    "Country": 0,
+    "Age": 0,
+    "Gender": 0,
+    "Education": 0,
+    "Location_Type": 0,
+    "Employment_Status": 0,
+    "Income_Level": 0,
+    "Bank_Type": 0,
+    "Years_with_Account": 0,
+    "Frequency_of_Use": 0,
+    "Past_Victim": 0,
+    "Num_Fraud_Incidents": 0,
+    "Months_Since_Last_Incident": 1738,
+    "Financial_Loss_Band": 0,
+    "Recovery_Success": 1738,
+    "Card_Fraud": 0,
+    "Online_Banking_Fraud": 0,
+    "SMS_Phishing": 0,
+    "ATM_Skimming": 0,
+    "Social_Engineering": 0,
+    "Technology_Adoption_Score": 0,
+    "Financial_Literacy_Score": 0,
+    "Risk_Tolerance": 0,
+    "Trust_in_Banks": 0,
+    "Internet_Hours_Daily": 0,
+    "Social_Media_Usage": 0,
+    "Data_Collection_Timestamp": 0
+  },
+  "country_distribution": {
+    "1": 1500,
+    "2": 1000
+  },
+  "correlations": {
+    "Age_vs_Education": -0.199,
+    "Education_vs_Income_Level": 0.278,
+    "Technology_Adoption_Score_vs_Age": -0.524,
+    "Past_Victim_vs_Trust_in_Banks": -0.533,
+    "Financial_Literacy_Score_vs_Education": 0.601
+  },
+  "quality_metrics": {
+    "age_range": "18-75",
+    "fraud_prevalence_nigeria": 0.327,
+    "fraud_prevalence_ghana": 0.271,
+    "digital_bank_adoption": 0.272,
+    "high_education_rate": 0.57
+  }
+}
