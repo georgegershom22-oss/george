@@ -1,0 +1,169 @@
+================================================================================
+WELDING DATASET ANALYSIS REPORT
+================================================================================
+
+DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Total Samples: 5000
+Total Features: 74
+Date Range: 2024-01-01 to 2025-05-14
+
+WELDING TECHNIQUES DISTRIBUTION
+--------------------------------------------------------------------------------
+Ultrasonic          :  2052 ( 41.0%)
+Laser               :  1699 ( 34.0%)
+Resistance_Spot     :  1012 ( 20.2%)
+Friction_Stir       :   237 (  4.7%)
+
+TOP 10 MATERIAL COMBINATIONS
+--------------------------------------------------------------------------------
+Copper + Aluminum             :  1109 ( 22.2%)
+Copper + Copper               :  1001 ( 20.0%)
+Aluminum + Aluminum           :   701 ( 14.0%)
+Aluminum + Copper             :   620 ( 12.4%)
+Copper + Nickel               :   390 (  7.8%)
+Nickel + Aluminum             :   330 (  6.6%)
+Nickel + Copper               :   290 (  5.8%)
+Aluminum + Nickel             :   180 (  3.6%)
+Nickel + Nickel               :   123 (  2.5%)
+Steel_304 + Aluminum          :   117 (  2.3%)
+
+QUALITY CLASS DISTRIBUTION
+--------------------------------------------------------------------------------
+Poor           :  3303 ( 66.1%)
+Acceptable     :  1572 ( 31.4%)
+Good           :   125 (  2.5%)
+
+KEY PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+
+Cycles to Failure:
+  Mean ± Std: 1781.02 ± 2301.95
+  Median: 1181.00
+  Range: [50.00, 91938.00]
+
+Resistance Degradation (%/1000cyc):
+  Mean ± Std: 18.36 ± 10.02
+  Median: 17.90
+  Range: [5.68, 59.38]
+
+Tensile Strength (MPa):
+  Mean ± Std: 9.10 ± 8.39
+  Median: 5.00
+  Range: [5.00, 121.22]
+
+Contact Resistance (µΩ):
+  Mean ± Std: 10.00 ± 0.00
+  Median: 10.00
+  Range: [10.00, 10.00]
+
+Overall Performance Score:
+  Mean ± Std: 31.98 ± 9.44
+  Median: 29.98
+  Range: [0.51, 75.02]
+
+Heat Input (J/mm):
+  Mean ± Std: 123.49 ± 179.69
+  Median: 70.12
+  Range: [0.54, 1933.04]
+
+Porosity (%):
+  Mean ± Std: 2.86 ± 1.74
+  Median: 2.46
+  Range: [1.05, 15.00]
+
+MTBF (hours):
+  Mean ± Std: 3259.78 ± 2022.32
+  Median: 2645.36
+  Range: [579.00, 27901.19]
+
+PERFORMANCE BY WELDING TECHNIQUE
+--------------------------------------------------------------------------------
+
+Laser:
+  Avg Cycles to Failure: 1371
+  Avg Performance Score: 30.8
+  Avg Resistance Degradation: 17.28%
+  Excellent Quality %: 0.0%
+
+Resistance_Spot:
+  Avg Cycles to Failure: 1990
+  Avg Performance Score: 32.9
+  Avg Resistance Degradation: 17.80%
+  Excellent Quality %: 0.0%
+
+Ultrasonic:
+  Avg Cycles to Failure: 1922
+  Avg Performance Score: 32.6
+  Avg Resistance Degradation: 18.69%
+  Excellent Quality %: 0.0%
+
+Friction_Stir:
+  Avg Cycles to Failure: 2607
+  Avg Performance Score: 31.0
+  Avg Resistance Degradation: 25.57%
+  Excellent Quality %: 0.0%
+
+MATERIAL COMPATIBILITY ANALYSIS
+--------------------------------------------------------------------------------
+
+Same Material Joints (1825 samples):
+  Avg Cycles to Failure: 2183
+  Avg Performance Score: 35.4
+
+Dissimilar Material Joints (3175 samples):
+  Avg Cycles to Failure: 1550
+  Avg Performance Score: 30.0
+  Avg Intermetallic Thickness: 6.72 µm
+
+COATING EFFECTS
+--------------------------------------------------------------------------------
+
+Average Contact Resistance by Coating:
+  Nickel    :     10.0 µΩ
+  Tin       :     10.0 µΩ
+  Oxide     :     10.0 µΩ
+  Silver    :     10.0 µΩ
+
+Average Tensile Strength by Coating:
+  Nickel    :      9.3 MPa
+  Tin       :      9.0 MPa
+  Oxide     :      8.6 MPa
+  Silver    :      9.5 MPa
+
+KEY CORRELATIONS WITH CYCLES TO FAILURE
+--------------------------------------------------------------------------------
+porosity_percent                        :   0.118 (positive)
+thermal_stress_MPa                      :  -0.117 (negative)
+heat_input_J_per_mm                     :   0.150 (positive)
+tensile_strength_MPa                    :   0.051 (positive)
+contact_resistance_uOhm                 :     nan (negative)
+intermetallic_thickness_um              :  -0.022 (negative)
+bond_area_mm2                           :   0.112 (positive)
+crack_density_per_mm2                   :   0.048 (positive)
+
+RECOMMENDATIONS FOR INVERSE DESIGN
+--------------------------------------------------------------------------------
+
+Characteristics of Top 10% Performance Welds:
+  Typical Cycles to Failure: 5063
+  Typical Tensile Strength: 5.0 MPa
+  Typical Contact Resistance: 10.0 µΩ
+  Typical Porosity: 2.87%
+  Typical Heat Input: 147.1 J/mm
+
+Most Common Configurations for Top Performance:
+  Welding Technique: Ultrasonic
+  Material Compatibility: 58.8% same material
+  Most Common Anode Coating: Nickel
+  Most Common Cathode Coating: Nickel
+
+Process Parameter Ranges for Top Performance:
+  Power (W)           : 1382.4 - 2996.7 (median: 2120.5)
+  Pressure (MPa)      : 22.6 - 75.1 (median: 41.5)
+  Weld Time (ms)      : 188.6 - 1112.3 (median: 499.0)
+  Preheat Temp (°C)   : 50.8 - 116.8 (median: 86.3)
+
+================================================================================
+END OF REPORT
+================================================================================

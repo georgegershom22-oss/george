@@ -1,0 +1,355 @@
+
+================================================================================
+WELDING DATASET DATA DICTIONARY
+================================================================================
+
+This dataset contains comprehensive data for ML-driven inverse design of
+welding parameters with focus on thermal cycling performance.
+
+Total Samples: 5000
+Collection Period: 2024-2025 (simulated)
+
+================================================================================
+PART 1: INPUT PARAMETERS (Design Space)
+================================================================================
+
+SAMPLE IDENTIFICATION
+--------------------
+sample_id                    : Unique sample identifier (WS_00000 to WS_04999)
+collection_date              : Date of data collection
+
+BASE MATERIALS
+--------------
+anode_material               : Anode material type
+                              Values: Copper, Aluminum, Nickel, Steel_304
+cathode_material             : Cathode material type
+                              Values: Copper, Aluminum, Nickel
+anode_thickness_um           : Anode tab thickness [µm]
+                              Range: 50-500 µm
+cathode_thickness_um         : Cathode tab thickness [µm]
+                              Range: 50-500 µm
+
+SURFACE PROPERTIES
+------------------
+anode_surface_roughness_um   : Anode surface roughness [µm]
+                              Lognormal distribution, typical range: 0.5-5 µm
+cathode_surface_roughness_um : Cathode surface roughness [µm]
+                              Lognormal distribution, typical range: 0.5-5 µm
+anode_coating                : Anode surface coating type
+                              Values: None, Nickel, Tin, Silver, Oxide
+cathode_coating              : Cathode surface coating type
+                              Values: None, Nickel, Tin, Silver, Oxide
+
+WELDING PROCESS PARAMETERS
+---------------------------
+welding_technique            : Welding method used
+                              Values: Ultrasonic, Laser, Resistance_Spot, Friction_Stir
+power_W                      : Welding power [W]
+                              Range: 100-8000 W (depends on technique)
+pulse_energy_J               : Laser pulse energy [J] (Laser only)
+                              Range: 1-50 J
+amplitude_um                 : Ultrasonic amplitude [µm] (Ultrasonic only)
+                              Range: 10-60 µm
+clamping_force_N             : Clamping force [N]
+                              Range: 100-2000 N
+pressure_MPa                 : Applied pressure [MPa]
+                              Calculated from force and contact area
+weld_time_ms                 : Weld duration [ms]
+                              Range: 1-5000 ms (depends on technique)
+welding_speed_mm_s           : Welding speed [mm/s] (Laser only)
+                              Range: 10-200 mm/s
+pulse_frequency_Hz           : Laser pulse frequency [Hz] (Laser only)
+                              Range: 10-200 Hz
+ultrasonic_frequency_kHz     : Ultrasonic frequency [kHz] (Ultrasonic only)
+                              Values: 20, 40, 60 kHz
+
+ENVIRONMENTAL CONDITIONS
+------------------------
+preheat_temperature_C        : Sample pre-heat temperature [°C]
+                              Range: 20-150 °C
+ambient_temperature_C        : Ambient temperature during welding [°C]
+                              Range: 15-35 °C
+ambient_humidity_percent     : Ambient relative humidity [%]
+                              Range: 20-80%
+shielding_gas                : Shielding gas type (mainly for Laser)
+                              Values: Argon, Nitrogen, Helium, None
+
+SAMPLE PREPARATION
+------------------
+cleaning_method              : Surface cleaning method before welding
+                              Values: Mechanical, Chemical, Plasma, None
+
+================================================================================
+PART 2: CHARACTERIZATION & QUALITY METRICS (Forward Problem Outputs)
+================================================================================
+
+THERMAL/ENERGY METRICS
+----------------------
+heat_input_J_per_mm          : Total heat input per unit length [J/mm]
+                              Critical parameter affecting weld quality
+
+GEOMETRIC PROPERTIES
+--------------------
+weld_nugget_diameter_mm      : Weld nugget diameter [mm]
+                              Range: 0.5-15 mm
+penetration_depth_mm         : Weld penetration depth [mm]
+                              Range: 0.01-0.5 mm
+weld_width_mm                : Weld width at surface [mm]
+                              Correlated with nugget diameter
+bond_area_mm2                : Effective bonding area [mm²]
+                              Critical for strength and conductivity
+
+MECHANICAL PROPERTIES
+---------------------
+tensile_strength_MPa         : Tensile strength of weld joint [MPa]
+                              Range: 5-400 MPa
+                              Target: >100 MPa for good joints
+shear_strength_MPa           : Shear strength of weld joint [MPa]
+                              Typically 60-80% of tensile strength
+peel_strength_N_per_mm       : Peel strength [N/mm]
+                              Range: 1-50 N/mm
+weld_hardness_HV             : Weld zone microhardness [HV]
+                              Vickers hardness, typically increased vs base
+heat_affected_zone_hardness_HV : HAZ microhardness [HV]
+                              Typically slightly elevated vs base
+
+ELECTRICAL PROPERTIES
+---------------------
+contact_resistance_uOhm      : Electrical contact resistance [µΩ]
+                              Range: 10-5000 µΩ
+                              Target: <100 µΩ for battery applications
+weld_resistance_uOhm         : Bulk weld resistance [µΩ]
+                              Typically lower than contact resistance
+current_capacity_A           : Maximum current carrying capacity [A]
+                              Based on cross-sectional area and material
+
+THERMAL PROPERTIES
+------------------
+weld_thermal_conductivity_W_mK : Weld thermal conductivity [W/m·K]
+                              Often lower than base materials
+thermal_resistance_K_W       : Thermal resistance across joint [K/W]
+                              Critical for heat dissipation
+
+MICROSTRUCTURAL FEATURES
+------------------------
+average_grain_size_um        : Average grain size in weld zone [µm]
+                              Range: 5-200 µm
+                              Finer grains typically mean better properties
+porosity_percent             : Porosity volume fraction [%]
+                              Range: 0-15%
+                              Target: <3% for good joints
+intermetallic_thickness_um   : Intermetallic compound layer thickness [µm]
+                              For dissimilar metal joints
+                              Thick layers (>10 µm) can be detrimental
+crack_density_per_mm2        : Crack density [cracks/mm²]
+                              Range: 0-10
+                              Target: <1 for good joints
+
+SURFACE QUALITY
+---------------
+surface_roughness_after_weld_um : Surface roughness after welding [µm]
+                              Typically increased vs pre-weld
+weld_spatter_count           : Number of spatter particles
+                              More common with laser and resistance welding
+oxidation_score              : Surface oxidation/discoloration score
+                              Scale: 0-10 (0=no oxidation, 10=severe)
+
+================================================================================
+PART 3: PERFORMANCE & VALIDATION METRICS (Inverse Design Targets)
+================================================================================
+
+THERMAL CYCLING TEST CONDITIONS
+--------------------------------
+thermal_cycle_min_temp_C     : Minimum temperature in cycle [°C]
+                              Range: -55 to -40 °C
+thermal_cycle_max_temp_C     : Maximum temperature in cycle [°C]
+                              Range: 85 to 150 °C
+thermal_cycle_rate_C_per_min : Heating/cooling rate [°C/min]
+                              Range: 5-20 °C/min
+thermal_cycle_dwell_time_min : Dwell time at extreme temperatures [min]
+                              Range: 10-30 min
+thermal_stress_MPa           : Calculated thermal stress [MPa]
+                              Due to CTE mismatch
+
+FATIGUE & LIFE METRICS
+----------------------
+cycles_to_failure            : Number of thermal cycles to failure
+                              Range: 10-100,000 cycles
+                              PRIMARY TARGET METRIC
+                              Excellent: >10,000
+                              Good: >5,000
+                              Acceptable: >1,000
+                              Poor: <1,000
+
+DEGRADATION METRICS
+-------------------
+resistance_degradation_percent_per_1000cycles :
+                              Resistance increase rate [%/1000 cycles]
+                              Typical: 5-20%
+                              Target: <5% for excellent performance
+resistance_after_50pct_life_uOhm :
+                              Contact resistance at 50% of life [µΩ]
+strength_degradation_percent_per_1000cycles :
+                              Strength decrease rate [%/1000 cycles]
+                              Typically slower than resistance degradation
+tensile_strength_after_50pct_life_MPa :
+                              Tensile strength at 50% of life [MPa]
+
+FAILURE ANALYSIS
+----------------
+primary_failure_mode         : Dominant failure mechanism
+                              1: Interfacial (poor bonding)
+                              2: Ductile (base metal - GOOD)
+                              3: Brittle (intermetallic/grain boundary)
+                              4: Fatigue crack propagation
+                              5: Delamination
+crack_propagation_rate_um_per_cycle :
+                              Crack growth rate [µm/cycle]
+                              Range: 0.0001-1 µm/cycle
+permanent_deformation_um     : Permanent warpage after cycling [µm]
+                              Range: 0-100 µm
+
+ELECTRICAL PERFORMANCE DEGRADATION
+-----------------------------------
+power_dissipation_increase_percent :
+                              Increase in I²R losses [%]
+                              Directly related to resistance increase
+voltage_drop_increase_mV     : Additional voltage drop at rated current [mV]
+                              Critical for battery applications
+
+THERMAL PERFORMANCE DEGRADATION
+--------------------------------
+thermal_resistance_increase_percent :
+                              Increase in thermal resistance [%]
+                              Due to interface degradation
+max_operating_temp_C         : Maximum safe operating temperature [°C]
+                              Based on materials and weld quality
+
+LONG-TERM RELIABILITY
+---------------------
+MTBF_hours                   : Mean time between failures [hours]
+                              At rated operating conditions
+reliability_10years_percent  : Reliability after 10 years [%]
+                              Using exponential reliability model
+
+ENVIRONMENTAL RESISTANCE
+------------------------
+corrosion_resistance_score   : Corrosion resistance rating
+                              Scale: 0-10 (10=excellent)
+vibration_resistance_score   : Vibration resistance rating
+                              Scale: 0-10 (10=excellent)
+shock_resistance_score       : Mechanical shock resistance rating
+                              Scale: 0-10 (10=excellent)
+
+OVERALL QUALITY METRICS
+-----------------------
+quality_class                : Overall quality classification
+                              Excellent: >10k cycles, <5% degradation
+                              Good: >5k cycles, <10% degradation
+                              Acceptable: >1k cycles, <20% degradation
+                              Poor: Otherwise
+overall_performance_score    : Composite performance score
+                              Range: 0-100
+                              Weighted combination of:
+                                - Cycles to failure (0-50 pts)
+                                - Resistance degradation (0-25 pts)
+                                - Long-term reliability (0-25 pts)
+
+================================================================================
+KEY RELATIONSHIPS & PHYSICS
+================================================================================
+
+1. HEAT INPUT EFFECTS:
+   - Optimal heat input (~50 J/mm) maximizes strength
+   - Too low: incomplete bonding, high porosity
+   - Too high: excessive melting, coarse grains, cracking
+
+2. MATERIAL COMPATIBILITY:
+   - Similar metals (Cu-Cu, Al-Al): easier to weld, longer life
+   - Dissimilar metals: form intermetallics, reduced thermal cycling life
+   - CTE mismatch drives thermal stress: σ = ΔT × ΔCTE × E
+
+3. COATING EFFECTS:
+   - Nickel, Silver: improve strength and reduce resistance
+   - Tin: reduces resistance but may reduce strength
+   - Oxide: increases resistance and porosity (undesirable)
+
+4. DEFECT IMPACTS:
+   - Porosity >3%: significantly reduces strength and life
+   - Cracks: accelerate fatigue failure
+   - Thick intermetallics (>10 µm): brittle, crack easily
+
+5. THERMAL CYCLING DEGRADATION:
+   - Resistance typically increases 5-20% per 1000 cycles
+   - Strength degrades slower than resistance
+   - Failure driven by: thermal stress, defects, intermetallics
+
+6. PRESSURE EFFECTS:
+   - Optimal pressure (~50 MPa) for ultrasonic welding
+   - Too low: poor bonding
+   - Too high: material thinning, inconsistent properties
+
+================================================================================
+USAGE RECOMMENDATIONS
+================================================================================
+
+FOR INVERSE DESIGN:
+1. Target Metrics (outputs):
+   - cycles_to_failure > 10,000
+   - resistance_degradation_percent_per_1000cycles < 5
+   - overall_performance_score > 75
+
+2. Critical Input Parameters:
+   - Material selection (similar metals preferred)
+   - Heat input control (aim for ~50 J/mm)
+   - Surface preparation (clean, smooth surfaces)
+   - Coating selection (Nickel or Silver for best results)
+
+3. Process Optimization:
+   - Ultrasonic welding: good for thin, similar metals
+   - Laser welding: precise control, good for small features
+   - Resistance spot: high production rate
+
+FOR MACHINE LEARNING:
+1. Feature Engineering:
+   - Create material compatibility features
+   - Add thermal property ratios
+   - Include process control quality indicators
+
+2. Model Selection:
+   - Regression for continuous targets (cycles, degradation rates)
+   - Classification for quality classes
+   - Multi-output models for simultaneous prediction
+
+3. Validation:
+   - Stratify by welding technique and material combination
+   - Consider physics-based constraints in predictions
+   - Use domain knowledge for feature importance
+
+================================================================================
+DATASET LIMITATIONS
+================================================================================
+
+1. This is a synthetic dataset based on physics-based models
+2. Real-world data will have additional sources of variability
+3. Some simplifications in material interactions
+4. Does not include all possible failure modes
+5. Statistical noise added to simulate measurement uncertainty
+
+================================================================================
+REFERENCES & STANDARDS
+================================================================================
+
+Relevant Standards:
+- IEC 62281: Battery safety
+- ISO 14731: Welding quality requirements
+- SAE J2929: Battery safety evaluation
+- MIL-STD-202G: Environmental testing
+
+Material Properties:
+- ASM Handbook: Materials properties database
+- Various journal articles on dissimilar metal welding
+
+================================================================================
+END OF DATA DICTIONARY
+================================================================================
