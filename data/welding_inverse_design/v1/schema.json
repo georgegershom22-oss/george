@@ -1,0 +1,161 @@
+{
+  "columns": {
+    "welding_technique": {
+      "unit": "-",
+      "description": "Welding technique: USW (ultrasonic), Laser, RSW (resistance spot)"
+    },
+    "anode_material": {
+      "unit": "-",
+      "description": "Anode/base material"
+    },
+    "cathode_material": {
+      "unit": "-",
+      "description": "Cathode/base material"
+    },
+    "tab_thickness_um": {
+      "unit": "\u00b5m",
+      "description": "Tab thickness"
+    },
+    "surface_coating": {
+      "unit": "-",
+      "description": "Surface condition/coating of joining surfaces"
+    },
+    "power_W": {
+      "unit": "W",
+      "description": "Process power; for Laser equals pulse_energy_J * pulse_frequency_Hz"
+    },
+    "amplitude_um": {
+      "unit": "\u00b5m",
+      "description": "USW vibration amplitude (USW only)"
+    },
+    "clamp_force_N": {
+      "unit": "N",
+      "description": "Clamping force"
+    },
+    "clamp_pressure_MPa": {
+      "unit": "MPa",
+      "description": "Clamping pressure"
+    },
+    "weld_time_s": {
+      "unit": "s",
+      "description": "Weld duration"
+    },
+    "weld_speed_mm_per_s": {
+      "unit": "mm/s",
+      "description": "Travel speed (Laser only)"
+    },
+    "pulse_energy_J": {
+      "unit": "J",
+      "description": "Laser pulse energy (Laser only)"
+    },
+    "pulse_frequency_Hz": {
+      "unit": "Hz",
+      "description": "Laser pulse frequency (Laser only)"
+    },
+    "preheat_C": {
+      "unit": "\u00b0C",
+      "description": "Preheat temperature"
+    },
+    "bond_area_mm2": {
+      "unit": "mm^2",
+      "description": "Bonded area estimate at interface"
+    },
+    "nugget_diameter_mm": {
+      "unit": "mm",
+      "description": "Equivalent nugget diameter"
+    },
+    "penetration_depth_um": {
+      "unit": "\u00b5m",
+      "description": "Weld penetration depth"
+    },
+    "porosity_pct": {
+      "unit": "%",
+      "description": "Volumetric porosity near weld"
+    },
+    "max_temperature_C": {
+      "unit": "\u00b0C",
+      "description": "Max temperature during weld (estimate)"
+    },
+    "haz_width_um": {
+      "unit": "\u00b5m",
+      "description": "Heat-affected zone width"
+    },
+    "contact_resistance_mOhm": {
+      "unit": "m\u03a9",
+      "description": "Initial contact resistance after weld"
+    },
+    "microhardness_HV": {
+      "unit": "HV",
+      "description": "Microhardness near interface"
+    },
+    "tensile_shear_strength_N": {
+      "unit": "N",
+      "description": "Initial tensile-shear strength"
+    },
+    "peel_strength_N": {
+      "unit": "N",
+      "description": "Initial peel strength"
+    },
+    "imc_thickness_um": {
+      "unit": "\u00b5m",
+      "description": "Intermetallic layer thickness (dissimilar joints)"
+    },
+    "defect_class": {
+      "unit": "-",
+      "description": "Underweld/overweld/nominal classification from energy ratio"
+    },
+    "cycles_to_failure": {
+      "unit": "cycles",
+      "description": "Cycles under thermal cycling to failure"
+    },
+    "retained_strength_pct_after_1000": {
+      "unit": "%",
+      "description": "Retained strength after 1000 cycles"
+    },
+    "resistance_growth_mOhm_per_100cycles": {
+      "unit": "m\u03a9/100cy",
+      "description": "Resistance growth rate under cycling"
+    },
+    "delamination_probability": {
+      "unit": "[0,1]",
+      "description": "Probability of delamination under cycling"
+    },
+    "pass_1000_cycle": {
+      "unit": "0/1",
+      "description": "Whether joint survives 1000 cycles"
+    }
+  },
+  "dtypes": {
+    "welding_technique": "category",
+    "anode_material": "category",
+    "cathode_material": "category",
+    "tab_thickness_um": "float64",
+    "surface_coating": "category",
+    "power_W": "float64",
+    "amplitude_um": "float64",
+    "clamp_force_N": "float64",
+    "clamp_pressure_MPa": "float64",
+    "weld_time_s": "float64",
+    "weld_speed_mm_per_s": "float64",
+    "pulse_energy_J": "float64",
+    "pulse_frequency_Hz": "float64",
+    "preheat_C": "float64",
+    "bond_area_mm2": "float64",
+    "nugget_diameter_mm": "float64",
+    "penetration_depth_um": "float64",
+    "porosity_pct": "float64",
+    "max_temperature_C": "float64",
+    "haz_width_um": "float64",
+    "contact_resistance_mOhm": "float64",
+    "microhardness_HV": "float64",
+    "tensile_shear_strength_N": "float64",
+    "peel_strength_N": "float64",
+    "imc_thickness_um": "float64",
+    "defect_class": "category",
+    "cycles_to_failure": "int64",
+    "retained_strength_pct_after_1000": "float64",
+    "resistance_growth_mOhm_per_100cycles": "float64",
+    "delamination_probability": "float64",
+    "pass_1000_cycle": "int64"
+  }
+}
