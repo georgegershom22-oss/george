@@ -1,0 +1,117 @@
+{
+  "dataset_info": {
+    "total_samples": 15000,
+    "input_parameters": [
+      "sample_id",
+      "anode_material",
+      "cathode_material",
+      "tab_thickness_um",
+      "surface_finish",
+      "welding_technique",
+      "power_w",
+      "amplitude_um",
+      "force_n",
+      "time_s",
+      "speed_mm_s",
+      "pulse_frequency_hz",
+      "preheat_temp_c",
+      "weld_angle_deg",
+      "overlap_ratio",
+      "atmosphere",
+      "material_compatibility",
+      "process_intensity",
+      "energy_density",
+      "thermal_mass_anode"
+    ],
+    "characterization_metrics": [
+      "sample_id",
+      "weld_strength_mpa",
+      "contact_resistance_ohm_m2",
+      "weld_width_mm",
+      "penetration_mm",
+      "porosity_percent",
+      "microhardness_hv",
+      "haz_width_mm",
+      "intermetallic_thickness_um",
+      "weld_quality_score"
+    ],
+    "performance_metrics": [
+      "sample_id",
+      "thermal_cycles_to_failure",
+      "max_operating_temp_c",
+      "resistance_degradation_rate",
+      "strength_retention_percent",
+      "failure_mode",
+      "joint_thermal_conductivity",
+      "stress_concentration_factor",
+      "thermal_fatigue_life",
+      "electrical_stability_score",
+      "thermal_stability_score"
+    ],
+    "materials": [
+      "copper",
+      "aluminum",
+      "nickel",
+      "titanium"
+    ],
+    "welding_techniques": [
+      "USW",
+      "Laser",
+      "Resistance_Spot",
+      "Friction_Stir"
+    ],
+    "surface_finishes": [
+      "Polished",
+      "Rough",
+      "Anodized",
+      "Coated",
+      "Oxidized"
+    ]
+  },
+  "material_properties": {
+    "copper": {
+      "name": "Copper",
+      "thermal_conductivity": 400,
+      "electrical_conductivity": 58000000.0,
+      "thermal_expansion": 1.65e-05,
+      "yield_strength": 200,
+      "melting_point": 1357,
+      "density": 8960,
+      "specific_heat": 385,
+      "contact_resistance": 1e-08
+    },
+    "aluminum": {
+      "name": "Aluminum",
+      "thermal_conductivity": 237,
+      "electrical_conductivity": 35000000.0,
+      "thermal_expansion": 2.31e-05,
+      "yield_strength": 95,
+      "melting_point": 933,
+      "density": 2700,
+      "specific_heat": 900,
+      "contact_resistance": 2e-08
+    },
+    "nickel": {
+      "name": "Nickel",
+      "thermal_conductivity": 91,
+      "electrical_conductivity": 14000000.0,
+      "thermal_expansion": 1.34e-05,
+      "yield_strength": 200,
+      "melting_point": 1728,
+      "density": 8900,
+      "specific_heat": 444,
+      "contact_resistance": 5e-08
+    },
+    "titanium": {
+      "name": "Titanium",
+      "thermal_conductivity": 22,
+      "electrical_conductivity": 2400000.0,
+      "thermal_expansion": 8.6e-06,
+      "yield_strength": 880,
+      "melting_point": 1941,
+      "density": 4500,
+      "specific_heat": 523,
+      "contact_resistance": 1e-07
+    }
+  }
+}
