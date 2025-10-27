@@ -1,0 +1,197 @@
+{
+  "technique": {
+    "unit": "-",
+    "description": "Welding technique used (USW/Laser/RSW)",
+    "dtype": "category"
+  },
+  "anode_material": {
+    "unit": "-",
+    "description": "Anode/base material name",
+    "dtype": "category"
+  },
+  "anode_symbol": {
+    "unit": "-",
+    "description": "Anode/base material symbol",
+    "dtype": "category"
+  },
+  "cathode_material": {
+    "unit": "-",
+    "description": "Cathode/base material name",
+    "dtype": "category"
+  },
+  "cathode_symbol": {
+    "unit": "-",
+    "description": "Cathode/base material symbol",
+    "dtype": "category"
+  },
+  "tab_thickness_um": {
+    "unit": "\u00b5m",
+    "description": "Tab thickness",
+    "dtype": "number"
+  },
+  "surface_coating": {
+    "unit": "-",
+    "description": "Surface finish/coating",
+    "dtype": "category"
+  },
+  "power_W": {
+    "unit": "W",
+    "description": "Power (USW/RSW avg; Laser avg if CW)",
+    "dtype": "number"
+  },
+  "pulse_energy_J": {
+    "unit": "J",
+    "description": "Laser pulse energy (if pulsed)",
+    "dtype": "number"
+  },
+  "amplitude_um": {
+    "unit": "\u00b5m",
+    "description": "USW vibration amplitude",
+    "dtype": "number"
+  },
+  "force_N": {
+    "unit": "N",
+    "description": "Clamping/electrode force",
+    "dtype": "number"
+  },
+  "weld_time_ms": {
+    "unit": "ms",
+    "description": "Weld dwell time",
+    "dtype": "number"
+  },
+  "speed_mm_s": {
+    "unit": "mm/s",
+    "description": "Laser travel speed",
+    "dtype": "number"
+  },
+  "pulse_frequency_Hz": {
+    "unit": "Hz",
+    "description": "Laser pulse repetition frequency",
+    "dtype": "number"
+  },
+  "preheat_temp_C": {
+    "unit": "\u00b0C",
+    "description": "Pre-heat temperature of samples",
+    "dtype": "number"
+  },
+  "ambient_humidity_pct": {
+    "unit": "%",
+    "description": "Ambient relative humidity",
+    "dtype": "number"
+  },
+  "clamp_area_mm2": {
+    "unit": "mm\u00b2",
+    "description": "Approximate clamp/electrode contact area",
+    "dtype": "number"
+  },
+  "linear_energy_density_J_per_mm": {
+    "unit": "J/mm",
+    "description": "Laser linear energy density (if available)",
+    "dtype": "number"
+  },
+  "total_energy_input_J": {
+    "unit": "J",
+    "description": "Estimated total energy input",
+    "dtype": "number"
+  },
+  "nugget_diameter_mm": {
+    "unit": "mm",
+    "description": "Weld nugget diameter (post-join)",
+    "dtype": "number"
+  },
+  "bond_area_mm2": {
+    "unit": "mm\u00b2",
+    "description": "Bonded area (\u03c0\u00b7d\u00b2/4)",
+    "dtype": "number"
+  },
+  "porosity_pct": {
+    "unit": "%",
+    "description": "Measured porosity in weld region",
+    "dtype": "number"
+  },
+  "imc_thickness_um": {
+    "unit": "\u00b5m",
+    "description": "Intermetallic compound layer thickness",
+    "dtype": "number"
+  },
+  "peak_temp_C": {
+    "unit": "\u00b0C",
+    "description": "Peak temperature observed/estimated",
+    "dtype": "number"
+  },
+  "haz_width_mm": {
+    "unit": "mm",
+    "description": "Heat-affected zone width",
+    "dtype": "number"
+  },
+  "contact_resistance_mOhm": {
+    "unit": "m\u03a9",
+    "description": "Initial electrical contact resistance",
+    "dtype": "number"
+  },
+  "tensile_shear_strength_N": {
+    "unit": "N",
+    "description": "Tensile shear strength at room temperature",
+    "dtype": "number"
+  },
+  "peel_strength_N": {
+    "unit": "N",
+    "description": "Peel strength at room temperature",
+    "dtype": "number"
+  },
+  "visual_defect_score": {
+    "unit": "0-100",
+    "description": "Higher = fewer visual defects",
+    "dtype": "score"
+  },
+  "microhardness_HV": {
+    "unit": "HV",
+    "description": "Microhardness (Vickers)",
+    "dtype": "number"
+  },
+  "forward_pass_fail": {
+    "unit": "bool",
+    "description": "Immediate pass/fail screen",
+    "dtype": "boolean"
+  },
+  "pressure_MPa": {
+    "unit": "MPa",
+    "description": "Contact pressure derived from force/area",
+    "dtype": "number"
+  },
+  "effective_energy_J": {
+    "unit": "J",
+    "description": "Effective energy after conduction/pressure factors",
+    "dtype": "number"
+  },
+  "resistance_growth_pct_1000cyc": {
+    "unit": "%",
+    "description": "Resistance growth after 1000 thermal cycles",
+    "dtype": "number"
+  },
+  "strength_retention_pct_1000cyc": {
+    "unit": "%",
+    "description": "Strength retention after 1000 cycles",
+    "dtype": "number"
+  },
+  "cycles_to_failure": {
+    "unit": "cycles",
+    "description": "Cycles to failure in thermal cycling",
+    "dtype": "integer"
+  },
+  "crack_growth_mm": {
+    "unit": "mm",
+    "description": "Crack growth after thermal cycling",
+    "dtype": "number"
+  },
+  "delamination_probability": {
+    "unit": "0-1",
+    "description": "Probability of delamination under cycling",
+    "dtype": "probability"
+  },
+  "reliability_class": {
+    "unit": "A/B/C",
+    "description": "Performance class (A best)",
+    "dtype": "category"
+  }
+}
