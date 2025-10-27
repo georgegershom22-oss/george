@@ -1,0 +1,369 @@
+================================================================================
+ML-DRIVEN INVERSE DESIGN OF WELDING PARAMETERS - DATA DICTIONARY
+================================================================================
+
+
+================================================================================
+DATASET INFORMATION
+================================================================================
+
+Name: ML-Driven Inverse Design of Welding Parameters
+Version: 1.0
+Generated: 20251027_033338
+Total Samples: 2000
+Total Features: 49
+Purpose: Training ML models for inverse design of welding parameters optimized for extreme-temperature cycling
+
+================================================================================
+FEATURE CATEGORIES
+================================================================================
+
+
+Input Parameters (Design Space):
+------------------------------------------------------------
+Description: Controllable welding process variables
+
+Features:
+
+  • Anode_Material
+    Type: Categorical
+    Description: Anode material type
+    Values: Cu, Al, Ni, Steel, Ti
+
+  • Cathode_Material
+    Type: Categorical
+    Description: Cathode material type
+    Values: Cu, Al, Ni, Steel, Ti
+
+  • Anode_Thickness_um
+    Type: Continuous
+    Unit: µm
+    Range: 100-500
+    Description: Thickness of anode tab
+
+  • Cathode_Thickness_um
+    Type: Continuous
+    Unit: µm
+    Range: 100-500
+    Description: Thickness of cathode tab
+
+  • Surface_Finish
+    Type: Categorical
+    Description: Surface treatment/coating
+    Values: Bare, Electroplated, Anodized, Passivated, Coated
+
+  • Welding_Technique
+    Type: Categorical
+    Description: Welding method used
+    Values: Ultrasonic, Laser, Resistance_Spot, TIG, Friction_Stir
+
+  • Power_W
+    Type: Continuous
+    Unit: W
+    Range: 500-5000
+    Description: Welding power (technique-dependent)
+
+  • Amplitude_um
+    Type: Continuous
+    Unit: µm
+    Range: 0-60
+    Description: Vibration amplitude (USW only)
+
+  • Force_N
+    Type: Continuous
+    Unit: N
+    Range: 0-5000
+    Description: Clamping force applied
+
+  • Pressure_MPa
+    Type: Continuous
+    Unit: MPa
+    Range: 0-60
+    Description: Welding pressure
+
+  • Time_ms
+    Type: Continuous
+    Unit: ms
+    Range: 50-20000
+    Description: Weld duration
+
+  • Speed_mm_s
+    Type: Continuous
+    Unit: mm/s
+    Range: 0-100
+    Description: Welding speed (Laser, TIG)
+
+  • Pulse_Frequency_Hz
+    Type: Continuous
+    Unit: Hz
+    Range: 0-100
+    Description: Pulse frequency (Laser)
+
+  • Pulse_Energy_J
+    Type: Continuous
+    Unit: J
+    Range: 0-20
+    Description: Energy per pulse (Laser)
+
+  • Preheat_Temperature_C
+    Type: Continuous
+    Unit: °C
+    Range: 20-150
+    Description: Sample temperature before welding
+
+  • Ambient_Humidity_%
+    Type: Continuous
+    Unit: %
+    Range: 30-70
+    Description: Relative humidity during welding
+
+  • Chamber_Atmosphere
+    Type: Categorical
+    Description: Atmospheric conditions
+    Values: Air, Argon, Nitrogen, Vacuum
+
+  • Cooling_Rate_C_per_s
+    Type: Continuous
+    Unit: °C/s
+    Range: 5-50
+    Description: Post-weld cooling rate
+
+  • Electrode_Material
+    Type: Categorical
+    Description: Electrode/tool material
+    Values: Copper, Tungsten, Molybdenum
+
+  • Gap_Distance_mm
+    Type: Continuous
+    Unit: mm
+    Range: 0-0.5
+    Description: Initial gap between parts
+
+Characterization & Quality Metrics (Forward Problem):
+------------------------------------------------------------
+Description: Immediate post-weld measurements and quality indicators
+
+Features:
+
+  • Weld_Strength_MPa
+    Type: Continuous
+    Unit: MPa
+    Range: 10-250
+    Target: Higher is better
+
+  • Joint_Resistance_mOhm
+    Type: Continuous
+    Unit: mΩ
+    Range: 0.5-15
+    Target: Lower is better
+
+  • Nugget_Diameter_mm
+    Type: Continuous
+    Unit: mm
+    Range: 1-8
+    Target: Larger indicates better fusion
+
+  • Penetration_Depth_um
+    Type: Continuous
+    Unit: µm
+    Range: 50-500
+    Target: Adequate penetration needed
+
+  • HAZ_Width_mm
+    Type: Continuous
+    Unit: mm
+    Range: 0.5-6
+    Target: Smaller is often better
+
+  • Porosity_%
+    Type: Continuous
+    Unit: %
+    Range: 0.1-20
+    Target: Lower is critical
+
+  • Surface_Roughness_um
+    Type: Continuous
+    Unit: µm
+    Range: 0.5-15
+    Target: Lower is better
+
+  • Microhardness_HV
+    Type: Continuous
+    Unit: HV
+    Range: 50-400
+    Target: Indicates mechanical properties
+
+  • Grain_Size_um
+    Type: Continuous
+    Unit: µm
+    Range: 5-60
+    Target: Smaller usually better
+
+  • Visual_Quality_Score
+    Type: Discrete
+    Unit: 1-10
+    Range: 1-10
+    Target: ≥6 for acceptable quality
+
+  • Interfacial_Bonding_%
+    Type: Continuous
+    Unit: %
+    Range: 20-100
+    Target: Higher indicates better bonding
+
+  • Initial_Crack_Density_per_mm2
+    Type: Continuous
+    Unit: cracks/mm²
+    Range: 0-3
+    Target: Lower is critical
+
+  • Residual_Stress_MPa
+    Type: Continuous
+    Unit: MPa
+    Range: 10-250
+    Target: Lower is better for cycling
+
+Performance & Validation Metrics (Inverse Design Targets):
+------------------------------------------------------------
+Description: Long-term performance under extreme-temperature cycling
+
+Features:
+
+  • Thermal_Cycles_to_Failure
+    Type: Integer
+    Unit: cycles
+    Range: 100-12000
+    Target: PRIMARY TARGET - maximize
+    Importance: Critical
+
+  • Retained_Strength_%
+    Type: Continuous
+    Unit: %
+    Range: 20-100
+    Target: Higher retention after cycling
+    Importance: High
+
+  • Resistance_Increase_%
+    Type: Continuous
+    Unit: %
+    Range: 5-250
+    Target: Minimize resistance growth
+    Importance: High
+
+  • Final_Crack_Density_per_mm2
+    Type: Continuous
+    Unit: cracks/mm²
+    Range: 0.1-8
+    Target: Lower indicates durability
+    Importance: High
+
+  • Fatigue_Life_Cycles
+    Type: Integer
+    Unit: cycles
+    Range: 5000-150000
+    Target: Maximize
+    Importance: Medium
+
+  • Max_Operating_Temp_C
+    Type: Continuous
+    Unit: °C
+    Range: 100-400
+    Target: Higher operating range
+    Importance: Medium
+
+  • Thermal_Shock_Score
+    Type: Discrete
+    Unit: 1-10
+    Range: 1-10
+    Target: Higher is better
+    Importance: High
+
+  • IMC_Growth_Rate_um_per_1000cycles
+    Type: Continuous
+    Unit: µm/1000 cycles
+    Range: 0.1-6
+    Target: Lower growth rate
+    Importance: Medium
+
+  • Delamination_%
+    Type: Continuous
+    Unit: %
+    Range: 0-60
+    Target: Minimize delamination
+    Importance: High
+
+  • Oxidation_Resistance_Score
+    Type: Discrete
+    Unit: 1-10
+    Range: 1-10
+    Target: Higher is better
+    Importance: Medium
+
+  • Energy_Efficiency_Loss_%
+    Type: Continuous
+    Unit: %
+    Range: 2-50
+    Target: Minimize loss
+    Importance: Medium
+
+  • Overall_Performance_Score
+    Type: Continuous
+    Unit: 0-100
+    Range: 10-100
+    Target: Composite metric - maximize
+    Importance: High
+
+Quality Indicators:
+------------------------------------------------------------
+Description: Binary flags for threshold-based classification
+
+Features:
+
+  • Pass_Quality_Threshold
+    Type: Binary
+    Values: 0/1
+    Description: 1 if Visual_Quality_Score ≥ 6
+
+  • Pass_Performance_Threshold
+    Type: Binary
+    Values: 0/1
+    Description: 1 if Thermal_Cycles_to_Failure ≥ 3000
+
+  • Optimal_Design
+    Type: Binary
+    Values: 0/1
+    Description: 1 if passes both quality and performance thresholds
+
+================================================================================
+MACHINE LEARNING GUIDANCE
+================================================================================
+
+Recommended_Approaches:
+  • Forward Problem: Regression to predict quality and performance metrics from input parameters
+  • Inverse Design: Optimization or generative models to find input parameters that maximize performance
+  • Multi-objective Optimization: Balance thermal cycling performance with cost and other constraints
+  • Classification: Predict Optimal_Design flag for quality control
+Suggested_Models:
+  • Gradient Boosting (XGBoost, LightGBM, CatBoost) for forward prediction
+  • Neural Networks for complex non-linear relationships
+  • Gaussian Process Regression for uncertainty quantification
+  • Bayesian Optimization for inverse design
+  • Generative Adversarial Networks (GANs) for parameter generation
+Feature_Engineering_Tips:
+  • Create interaction features between material properties
+  • Calculate material mismatch metrics (thermal expansion, conductivity)
+  • Normalize power parameters by material melting points
+  • Create technique-specific feature subsets
+  • Consider polynomial features for process parameters
+Train_Test_Split: Stratify by Welding_Technique and material combinations for representative splits
+Cross_Validation: Use GroupKFold by material pairs to avoid data leakage
+
+================================================================================
+DATA QUALITY NOTES
+================================================================================
+
+Correlations: Quality and performance metrics are realistically correlated with input parameters
+Noise: 15% noise added to simulate real-world variability and measurement uncertainty
+Material_Effects: Material property mismatches (thermal expansion, conductivity) significantly affect thermal cycling performance
+Technique_Specific: Some parameters only apply to specific welding techniques (stored as 0 when not applicable)
+Realistic_Ranges: All parameter ranges based on industrial battery tab welding applications
