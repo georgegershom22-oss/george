@@ -1,0 +1,168 @@
+{
+  "inputs": {
+    "anode_material": {
+      "unit": "-",
+      "description": "Base material on anode side"
+    },
+    "cathode_material": {
+      "unit": "-",
+      "description": "Base material on cathode side"
+    },
+    "tab_thickness_um": {
+      "unit": "um",
+      "description": "Tab thickness"
+    },
+    "surface_coating": {
+      "unit": "-",
+      "description": "Surface finish or coating"
+    },
+    "welding_technique": {
+      "unit": "-",
+      "description": "USW, Laser, or RSW"
+    },
+    "tab_width_mm": {
+      "unit": "mm",
+      "description": "Tab width"
+    },
+    "overlap_length_mm": {
+      "unit": "mm",
+      "description": "Overlap length"
+    },
+    "preheat_celsius": {
+      "unit": "C",
+      "description": "Pre-heat temperature"
+    },
+    "usw_power_w": {
+      "unit": "W",
+      "description": "USW peak power"
+    },
+    "usw_amplitude_um": {
+      "unit": "um",
+      "description": "USW vibration amplitude"
+    },
+    "usw_force_n": {
+      "unit": "N",
+      "description": "USW clamping force"
+    },
+    "usw_time_ms": {
+      "unit": "ms",
+      "description": "USW weld duration"
+    },
+    "laser_power_w": {
+      "unit": "W",
+      "description": "Laser power"
+    },
+    "laser_speed_mm_s": {
+      "unit": "mm/s",
+      "description": "Laser welding speed"
+    },
+    "laser_pulse_frequency_hz": {
+      "unit": "Hz",
+      "description": "Laser pulse frequency (if pulsed)"
+    },
+    "laser_energy_per_pulse_j": {
+      "unit": "J",
+      "description": "Laser energy per pulse (if pulsed)"
+    },
+    "laser_spot_diameter_mm": {
+      "unit": "mm",
+      "description": "Laser spot diameter"
+    },
+    "rsw_current_ka": {
+      "unit": "kA",
+      "description": "RSW current"
+    },
+    "rsw_voltage_v": {
+      "unit": "V",
+      "description": "RSW voltage"
+    },
+    "rsw_weld_time_ms": {
+      "unit": "ms",
+      "description": "RSW weld time"
+    },
+    "rsw_squeeze_time_ms": {
+      "unit": "ms",
+      "description": "RSW squeeze time"
+    },
+    "rsw_hold_time_ms": {
+      "unit": "ms",
+      "description": "RSW hold time"
+    },
+    "rsw_force_n": {
+      "unit": "N",
+      "description": "RSW electrode force"
+    }
+  },
+  "quality": {
+    "effective_energy_j": {
+      "unit": "J",
+      "description": "Effective energy deposited"
+    },
+    "energy_density_j_mm2": {
+      "unit": "J/mm^2",
+      "description": "Energy per area"
+    },
+    "peak_temperature_c": {
+      "unit": "C",
+      "description": "Peak joint temperature"
+    },
+    "fused_area_mm2": {
+      "unit": "mm^2",
+      "description": "Fused/bonded area"
+    },
+    "nugget_diameter_mm": {
+      "unit": "mm",
+      "description": "Weld nugget diameter equivalent"
+    },
+    "porosity_pct": {
+      "unit": "%",
+      "description": "Porosity percentage"
+    },
+    "spatter_mass_mg": {
+      "unit": "mg",
+      "description": "Spatter mass"
+    },
+    "intermetallic_thickness_um": {
+      "unit": "um",
+      "description": "Intermetallic layer thickness"
+    },
+    "hardness_hv": {
+      "unit": "HV",
+      "description": "Vickers hardness near joint"
+    },
+    "bond_integrity_score": {
+      "unit": "0-1",
+      "description": "Bond integrity score"
+    },
+    "immediate_shear_strength_n": {
+      "unit": "N",
+      "description": "Immediate shear strength"
+    },
+    "joint_resistance_mohm": {
+      "unit": "mOhm",
+      "description": "Joint electrical resistance"
+    }
+  },
+  "performance": {
+    "cycles_to_failure": {
+      "unit": "cycles",
+      "description": "Thermal cycles to failure (-40..85C)"
+    },
+    "resistance_growth_pct_1000": {
+      "unit": "%",
+      "description": "Resistance growth after 1000 cycles"
+    },
+    "retained_strength_pct_1000": {
+      "unit": "%",
+      "description": "Retained shear strength after 1000 cycles"
+    },
+    "delamination_probability": {
+      "unit": "0-1",
+      "description": "Probability of delamination"
+    },
+    "failure_mode": {
+      "unit": "-",
+      "description": "Dominant failure mode"
+    }
+  }
+}
