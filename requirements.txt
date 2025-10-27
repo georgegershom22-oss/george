@@ -1,0 +1,22 @@
+# Welding Dataset Requirements
+# Core data science packages
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional advanced packages
+optuna>=2.10.0  # For hyperparameter optimization
+shap>=0.40.0    # For model interpretability

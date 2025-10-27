@@ -1,0 +1,54 @@
+{
+  "package_name": "Comprehensive Welding Dataset for ML-Driven Inverse Design",
+  "version": "1.0.0",
+  "creation_date": "2025-10-27T04:16:16.059465",
+  "total_samples": 10000,
+  "total_features": 61,
+  "files": {
+    "data": [
+      "welding_dataset/input_parameters.csv",
+      "welding_dataset/characterization_metrics.csv",
+      "welding_dataset/performance_metrics.csv",
+      "welding_dataset/complete_dataset.csv"
+    ],
+    "metadata": [
+      "welding_dataset/metadata.json"
+    ],
+    "analysis": [
+      "welding_dataset/correlation_matrix.png",
+      "welding_dataset/feature_importance_*.png",
+      "welding_dataset/parameter_distributions.png",
+      "welding_dataset/performance_distributions.png",
+      "welding_dataset/material_performance.png",
+      "welding_dataset/technique_performance.png",
+      "welding_dataset/pca_analysis.png",
+      "welding_dataset/cluster_analysis.png",
+      "welding_dataset/interactive_dashboard.html"
+    ],
+    "code": [
+      "welding_dataset_generator.py",
+      "analysis_tools.py"
+    ],
+    "documentation": [
+      "README.md",
+      "dataset_documentation.md",
+      "example_usage.ipynb",
+      "requirements.txt"
+    ]
+  },
+  "description": "Complete package for ML-driven inverse design of welding parameters",
+  "applications": [
+    "Inverse design optimization",
+    "Process parameter prediction",
+    "Material selection guidance",
+    "Quality prediction modeling",
+    "Multi-objective optimization"
+  ],
+  "license": "MIT",
+  "citation": {
+    "title": "Comprehensive Welding Dataset for ML-Driven Inverse Design",
+    "author": "AI Assistant",
+    "year": 2025,
+    "version": "1.0.0"
+  }
+}

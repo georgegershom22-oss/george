@@ -1,0 +1,91 @@
+{
+  "generation_date": "2025-10-27T04:12:38.668110",
+  "n_samples": 10000,
+  "description": "ML-Driven Inverse Design of Welding Parameters Dataset",
+  "version": "1.0.0",
+  "input_parameters_shape": [
+    10000,
+    19
+  ],
+  "characterization_metrics_shape": [
+    10000,
+    22
+  ],
+  "performance_metrics_shape": [
+    10000,
+    23
+  ],
+  "total_features": 61,
+  "feature_categories": {
+    "input_parameters": [
+      "sample_id",
+      "anode_material",
+      "cathode_material",
+      "tab_thickness_um",
+      "anode_surface_finish",
+      "cathode_surface_finish",
+      "welding_technique",
+      "power_W",
+      "amplitude_um",
+      "force_N",
+      "time_s",
+      "speed_mm_s",
+      "pulse_frequency_Hz",
+      "preheat_temperature_C",
+      "ambient_temperature_C",
+      "ambient_humidity_percent",
+      "electrode_material",
+      "shielding_gas",
+      "surface_roughness_um"
+    ],
+    "characterization_metrics": [
+      "sample_id",
+      "weld_width_mm",
+      "weld_depth_mm",
+      "nugget_diameter_mm",
+      "tensile_strength_MPa",
+      "shear_strength_MPa",
+      "peel_strength_N_mm",
+      "contact_resistance_mohm",
+      "electrical_conductivity_MS_m",
+      "grain_size_um",
+      "porosity_percent",
+      "intermetallic_thickness_um",
+      "thermal_conductivity_W_mK",
+      "heat_affected_zone_mm",
+      "weld_quality_score",
+      "surface_roughness_post_weld_um",
+      "hardness_HV",
+      "crack_density_per_mm2",
+      "void_fraction_percent",
+      "oxidation_level",
+      "weld_penetration_percent",
+      "fusion_zone_area_mm2"
+    ],
+    "performance_metrics": [
+      "sample_id",
+      "min_cycle_temperature_C",
+      "max_cycle_temperature_C",
+      "total_cycles_tested",
+      "initial_contact_resistance_mohm",
+      "final_contact_resistance_mohm",
+      "resistance_drift_percent",
+      "tensile_strength_retention_percent",
+      "shear_strength_retention_percent",
+      "fatigue_life_cycles",
+      "crack_growth_rate_mm_cycle",
+      "thermal_expansion_mismatch_ppm_K",
+      "stress_concentration_factor",
+      "primary_failure_mode",
+      "time_to_failure_hours",
+      "cycle_life_score",
+      "reliability_score",
+      "temperature_stability_index",
+      "corrosion_resistance_score",
+      "dimensional_stability_um",
+      "interface_adhesion_strength_MPa",
+      "oxidation_resistance_score",
+      "creep_resistance_score"
+    ]
+  }
+}
