@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+scipy>=1.13
+pyyaml>=6.0
+jsonschema>=4.23
+polars>=1.7
+pyarrow>=17.0

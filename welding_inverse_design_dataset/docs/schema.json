@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Welding Inverse Design Dataset",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique row identifier",
+      "unit": "-"
+    },
+    "seed": {
+      "type": "integer",
+      "description": "Random seed used",
+      "unit": "-"
+    },
+    "technique": {
+      "type": "string",
+      "description": "Welding technique: USW/Laser/RSW",
+      "unit": "-"
+    },
+    "anode_material": {
+      "type": "string",
+      "description": "Anode material",
+      "unit": "-"
+    },
+    "cathode_material": {
+      "type": "string",
+      "description": "Cathode material",
+      "unit": "-"
+    },
+    "anode_thickness_um": {
+      "type": "number",
+      "description": "Anode thickness",
+      "unit": "um"
+    },
+    "cathode_thickness_um": {
+      "type": "number",
+      "description": "Cathode thickness",
+      "unit": "um"
+    },
+    "surface_finish": {
+      "type": "string",
+      "description": "Surface finish prior to weld",
+      "unit": "-"
+    },
+    "coating": {
+      "type": "string",
+      "description": "Surface coating",
+      "unit": "-"
+    },
+    "preheat_temperature_C": {
+      "type": "number",
+      "description": "Preheat temperature",
+      "unit": "C"
+    },
+    "tool_contact_area_mm2": {
+      "type": "number",
+      "description": "Tool/electrode contact area",
+      "unit": "mm2"
+    },
+    "weld_length_mm": {
+      "type": "number",
+      "description": "Weld track length (laser)",
+      "unit": "mm"
+    },
+    "spot_diameter_um": {
+      "type": "number",
+      "description": "Laser spot diameter",
+      "unit": "um"
+    },
+    "power_W": {
+      "type": "number",
+      "description": "Power",
+      "unit": "W"
+    },
+    "pulse_energy_J": {
+      "type": "number",
+      "description": "Pulse energy (laser)",
+      "unit": "J"
+    },
+    "amplitude_um": {
+      "type": "number",
+      "description": "Ultrasonic amplitude",
+      "unit": "um"
+    },
+    "force_N": {
+      "type": "number",
+      "description": "Clamping/electrode force",
+      "unit": "N"
+    },
+    "pressure_MPa": {
+      "type": "number",
+      "description": "Contact pressure",
+      "unit": "MPa"
+    },
+    "time_ms": {
+      "type": "number",
+      "description": "Weld duration",
+      "unit": "ms"
+    },
+    "speed_mm_s": {
+      "type": "number",
+      "description": "Laser travel speed",
+      "unit": "mm/s"
+    },
+    "pulse_frequency_Hz": {
+      "type": "number",
+      "description": "Laser pulse frequency",
+      "unit": "Hz"
+    },
+    "energy_input_J": {
+      "type": "number",
+      "description": "Effective energy input",
+      "unit": "J"
+    },
+    "linear_energy_density_J_per_mm": {
+      "type": "number",
+      "description": "Laser linear energy density",
+      "unit": "J/mm"
+    },
+    "peak_temperature_C": {
+      "type": "number",
+      "description": "Peak bulk temperature",
+      "unit": "C"
+    },
+    "interface_temperature_C": {
+      "type": "number",
+      "description": "Peak interface temperature",
+      "unit": "C"
+    },
+    "HAZ_width_mm": {
+      "type": "number",
+      "description": "Heat-affected zone width",
+      "unit": "mm"
+    },
+    "cooling_rate_C_per_s": {
+      "type": "number",
+      "description": "Cooling rate",
+      "unit": "C/s"
+    },
+    "nugget_diameter_mm": {
+      "type": "number",
+      "description": "Weld nugget diameter",
+      "unit": "mm"
+    },
+    "bond_area_mm2": {
+      "type": "number",
+      "description": "Bonded area",
+      "unit": "mm2"
+    },
+    "contact_resistance_mOhm": {
+      "type": "number",
+      "description": "Initial contact resistance",
+      "unit": "mOhm"
+    },
+    "porosity_fraction": {
+      "type": "number",
+      "description": "Porosity fraction",
+      "unit": "-"
+    },
+    "void_count": {
+      "type": "integer",
+      "description": "Void count",
+      "unit": "-"
+    },
+    "immediate_lap_shear_strength_N": {
+      "type": "number",
+      "description": "Immediate lap shear strength",
+      "unit": "N"
+    },
+    "microhardness_HV": {
+      "type": "number",
+      "description": "Microhardness in HAZ",
+      "unit": "HV"
+    },
+    "IMC_thickness_um": {
+      "type": "number",
+      "description": "Intermetallic layer thickness",
+      "unit": "um"
+    },
+    "cycles_to_failure_thermal": {
+      "type": "number",
+      "description": "Cycles to failure under thermal cycling",
+      "unit": "cycles"
+    },
+    "resistance_drift_mOhm_after_1000_cycles": {
+      "type": "number",
+      "description": "Resistance drift after 1000 cycles",
+      "unit": "mOhm"
+    },
+    "peel_strength_retained_pct": {
+      "type": "number",
+      "description": "Peel strength retained after cycling",
+      "unit": "%"
+    },
+    "crack_growth_rate_mm_per_cycle": {
+      "type": "number",
+      "description": "Crack growth rate",
+      "unit": "mm/cycle"
+    },
+    "pass_1000_cycles": {
+      "type": "boolean",
+      "description": "Pass/fail at 1000 cycles",
+      "unit": "bool"
+    },
+    "failure_mode": {
+      "type": "string",
+      "description": "Dominant failure mode",
+      "unit": "-"
+    }
+  },
+  "required": [
+    "id",
+    "seed",
+    "technique",
+    "anode_material",
+    "cathode_material",
+    "anode_thickness_um",
+    "cathode_thickness_um",
+    "surface_finish",
+    "coating",
+    "preheat_temperature_C",
+    "tool_contact_area_mm2",
+    "weld_length_mm",
+    "spot_diameter_um",
+    "power_W",
+    "pulse_energy_J",
+    "amplitude_um",
+    "force_N",
+    "pressure_MPa",
+    "time_ms",
+    "speed_mm_s",
+    "pulse_frequency_Hz",
+    "energy_input_J",
+    "linear_energy_density_J_per_mm",
+    "peak_temperature_C",
+    "interface_temperature_C",
+    "HAZ_width_mm",
+    "cooling_rate_C_per_s",
+    "nugget_diameter_mm",
+    "bond_area_mm2",
+    "contact_resistance_mOhm",
+    "porosity_fraction",
+    "void_count",
+    "immediate_lap_shear_strength_N",
+    "microhardness_HV",
+    "IMC_thickness_um",
+    "cycles_to_failure_thermal",
+    "resistance_drift_mOhm_after_1000_cycles",
+    "peel_strength_retained_pct",
+    "crack_growth_rate_mm_per_cycle",
+    "pass_1000_cycles",
+    "failure_mode"
+  ],
+  "additionalProperties": false
+}
