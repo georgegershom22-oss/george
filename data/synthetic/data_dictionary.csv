@@ -1,0 +1,29 @@
+column,unit,description
+anode_material,-,"Anode material (e.g., Cu)"
+cathode_material,-,"Cathode material (e.g., Al)"
+tab_thickness_um,µm,Tab thickness controlling heat dissipation
+surface_finish,-,Surface coating/finish
+welding_technique,-,"USW, Laser, or RSW"
+power,W or J,Peak power (USW/RSW) or pulse energy (Laser)
+amplitude_um,µm,USW vibration amplitude
+force_n,N,Clamping/forge force
+pressure_mpa,MPa,Applied pressure
+time_s,s,Weld duration
+speed_mm_s,mm/s,Laser welding speed
+pulse_frequency_hz,Hz,Laser pulse frequency
+preheat_c,°C,Preheat temperature
+max_interface_temperature_c,°C,Max interface temperature
+heat_input_j,J,Estimated heat input
+bond_area_mm2,mm^2,Estimated bonded area
+porosity_pct,%,Porosity percentage
+void_fraction_pct,%,Void fraction percentage
+interface_resistance_mohm,mΩ,Interface electrical resistance
+nugget_diameter_mm,mm,Equivalent nugget diameter
+haze_color_index,-,Oxidation/haze index
+surface_roughness_ra_um,µm,Surface roughness Ra
+thermal_cycling_cycles_to_failure,cycles,Thermal cycling life
+resistance_growth_pct_after_cycling,%,Resistance growth after cycling
+shear_strength_mpa,MPa,Shear strength
+peel_strength_n,N,Peel strength
+fracture_mode,-,Failure mode
+microcrack_density_per_mm,1/mm,Microcrack density

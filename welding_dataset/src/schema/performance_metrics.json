@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/welding/performance_metrics.schema.json",
+  "title": "Weld Performance & Validation Metrics",
+  "type": "object",
+  "properties": {
+    "thermal_cycling_cycles_to_failure": {"type": "integer", "minimum": 0},
+    "resistance_growth_pct_after_cycling": {"type": "number"},
+    "shear_strength_mpa": {"type": "number"},
+    "peel_strength_n": {"type": "number"},
+    "fracture_mode": {"type": "string", "enum": ["interfacial", "pullout", "ductile", "mixed"]},
+    "microcrack_density_per_mm": {"type": "number"}
+  },
+  "required": [
+    "thermal_cycling_cycles_to_failure",
+    "resistance_growth_pct_after_cycling",
+    "shear_strength_mpa"
+  ],
+  "additionalProperties": false
+}

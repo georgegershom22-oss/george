@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/welding/characterization_metrics.schema.json",
+  "title": "Weld Characterization & Quality Metrics",
+  "type": "object",
+  "properties": {
+    "max_interface_temperature_c": {"type": "number"},
+    "heat_input_j": {"type": "number"},
+    "bond_area_mm2": {"type": "number"},
+    "porosity_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "void_fraction_pct": {"type": "number", "minimum": 0, "maximum": 100},
+    "interface_resistance_mohm": {"type": "number"},
+    "nugget_diameter_mm": {"type": "number"},
+    "haze_color_index": {"type": "number"},
+    "surface_roughness_ra_um": {"type": "number"}
+  },
+  "required": [
+    "max_interface_temperature_c",
+    "heat_input_j",
+    "bond_area_mm2",
+    "porosity_pct",
+    "interface_resistance_mohm"
+  ],
+  "additionalProperties": false
+}

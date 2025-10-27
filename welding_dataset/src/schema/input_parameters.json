@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/welding/input_parameters.schema.json",
+  "title": "Welding Input Parameters",
+  "type": "object",
+  "properties": {
+    "anode_material": {"type": "string", "description": "e.g., Copper (Cu)"},
+    "cathode_material": {"type": "string", "description": "e.g., Aluminum (Al)"},
+    "tab_thickness_um": {"type": "number", "minimum": 10, "maximum": 1000},
+    "surface_finish": {"type": "string", "description": "Coating or finish (e.g., Ni, bare)"},
+    "welding_technique": {"type": "string", "enum": ["USW", "Laser", "RSW"]},
+    "power": {"type": "number", "description": "Peak power (USW) [W] or pulse energy (Laser) [J]"},
+    "amplitude_um": {"type": "number", "description": "USW amplitude [µm]", "minimum": 0, "maximum": 100},
+    "force_n": {"type": "number", "minimum": 0},
+    "pressure_mpa": {"type": "number", "minimum": 0},
+    "time_s": {"type": "number", "minimum": 0.0001, "maximum": 10},
+    "speed_mm_s": {"type": "number", "minimum": 0, "maximum": 500},
+    "pulse_frequency_hz": {"type": "number", "minimum": 0, "maximum": 10000},
+    "preheat_c": {"type": "number", "minimum": -20, "maximum": 200}
+  },
+  "required": ["anode_material", "cathode_material", "tab_thickness_um", "surface_finish", "welding_technique", "power", "time_s", "preheat_c"],
+  "additionalProperties": false
+}
