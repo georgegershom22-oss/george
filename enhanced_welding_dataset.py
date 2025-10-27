@@ -43,18 +43,21 @@ class EnhancedWeldingDatasetGenerator:
         
         # Welding techniques with more details
         self.welding_techniques = ['USW', 'Laser', 'Resistance_Spot', 'Friction_Stir', 'Electron_Beam', 
-                                 'TIG', 'MIG', 'Plasma', 'Explosive', 'Diffusion_Bonding']
+                                 'TIG', 'MIG', 'Plasma', 'Ultrasonic_Spot', 'Diffusion_Bonding']
         
         # Surface finishes with properties
         self.surface_finishes = {
-            'Polished': {'roughness': 0.1, 'contact_resistance_factor': 0.8, 'bondability': 0.9},
-            'Rough': {'roughness': 2.0, 'contact_resistance_factor': 1.2, 'bondability': 0.7},
-            'Coated': {'roughness': 0.5, 'contact_resistance_factor': 1.5, 'bondability': 0.8},
-            'Anodized': {'roughness': 1.0, 'contact_resistance_factor': 2.0, 'bondability': 0.6},
-            'Plated': {'roughness': 0.3, 'contact_resistance_factor': 1.1, 'bondability': 0.85},
-            'Oxidized': {'roughness': 0.8, 'contact_resistance_factor': 1.8, 'bondability': 0.5},
-            'Cleaned': {'roughness': 0.2, 'contact_resistance_factor': 0.9, 'bondability': 0.95}
+            'Polished': {'roughness': 0.1, 'contact_resistance_factor': 0.8, 'cost_factor': 1.2},
+            'Rough': {'roughness': 2.0, 'contact_resistance_factor': 1.2, 'cost_factor': 0.8},
+            'Coated': {'roughness': 0.5, 'contact_resistance_factor': 1.5, 'cost_factor': 1.5},
+            'Anodized': {'roughness': 1.0, 'contact_resistance_factor': 2.0, 'cost_factor': 2.0},
+            'Plated': {'roughness': 0.3, 'contact_resistance_factor': 1.1, 'cost_factor': 1.3},
+            'Etched': {'roughness': 1.5, 'contact_resistance_factor': 1.4, 'cost_factor': 1.1},
+            'Passivated': {'roughness': 0.8, 'contact_resistance_factor': 1.3, 'cost_factor': 1.4}
         }
+        
+        # Environmental conditions
+        self.environments = ['Clean_Room', 'Laboratory', 'Factory_Floor', 'Outdoor', 'Controlled_Atmosphere']
         
     def generate_input_parameters(self):
         """Generate comprehensive input parameters for the welding process"""
@@ -69,79 +72,79 @@ class EnhancedWeldingDatasetGenerator:
         # Welding Process Parameters
         data['welding_technique'] = self.rng.choice(self.welding_techniques, self.n_samples)
         
-        # Power parameters (technique-dependent with realistic ranges)
+        # Power parameters (technique-dependent with more realistic distributions)
         power_data = []
         for technique in data['welding_technique']:
             if technique == 'USW':
-                power_data.append(self.rng.normal(2000, 500, 1)[0])  # W
+                power_data.append(self.rng.normal(2000, 500, 1)[0])
             elif technique == 'Laser':
-                power_data.append(self.rng.normal(500, 100, 1)[0])   # W
+                power_data.append(self.rng.normal(500, 100, 1)[0])
             elif technique == 'Resistance_Spot':
-                power_data.append(self.rng.normal(3000, 800, 1)[0])  # W
+                power_data.append(self.rng.normal(3000, 800, 1)[0])
             elif technique == 'Friction_Stir':
-                power_data.append(self.rng.normal(1500, 300, 1)[0])  # W
+                power_data.append(self.rng.normal(1500, 300, 1)[0])
             elif technique == 'Electron_Beam':
-                power_data.append(self.rng.normal(800, 200, 1)[0])   # W
+                power_data.append(self.rng.normal(800, 200, 1)[0])
             elif technique == 'TIG':
-                power_data.append(self.rng.normal(1200, 300, 1)[0])  # W
+                power_data.append(self.rng.normal(200, 50, 1)[0])
             elif technique == 'MIG':
-                power_data.append(self.rng.normal(1800, 400, 1)[0])  # W
+                power_data.append(self.rng.normal(400, 100, 1)[0])
             elif technique == 'Plasma':
-                power_data.append(self.rng.normal(600, 150, 1)[0])   # W
-            elif technique == 'Explosive':
-                power_data.append(self.rng.normal(5000, 1000, 1)[0]) # W
+                power_data.append(self.rng.normal(600, 150, 1)[0])
+            elif technique == 'Ultrasonic_Spot':
+                power_data.append(self.rng.normal(1000, 200, 1)[0])
             else:  # Diffusion_Bonding
-                power_data.append(self.rng.normal(200, 50, 1)[0])    # W
+                power_data.append(self.rng.normal(50, 10, 1)[0])
         data['power_w'] = np.array(power_data)
         
-        # Amplitude (for USW)
+        # Technique-specific parameters
         data['amplitude_um'] = np.where(data['welding_technique'] == 'USW', 
                                       self.rng.normal(25, 5, self.n_samples).clip(10, 50),
                                       np.nan)
         
-        # Force/Pressure
         data['force_n'] = self.rng.normal(500, 100, self.n_samples).clip(200, 1000)
-        data['pressure_mpa'] = data['force_n'] / (np.pi * (2.5**2))  # Assuming 5mm diameter
+        data['pressure_mpa'] = data['force_n'] / (np.pi * (2.5**2))
         
-        # Time parameters
-        data['weld_time_ms'] = self.rng.normal(100, 20, self.n_samples).clip(50, 300)
+        # Time parameters with technique-specific ranges
+        time_data = []
+        for technique in data['welding_technique']:
+            if technique in ['USW', 'Resistance_Spot', 'Ultrasonic_Spot']:
+                time_data.append(self.rng.normal(100, 20, 1)[0])  # ms
+            elif technique in ['Laser', 'Electron_Beam', 'TIG', 'MIG', 'Plasma']:
+                time_data.append(self.rng.normal(50, 10, 1)[0])   # ms
+            elif technique == 'Friction_Stir':
+                time_data.append(self.rng.normal(500, 100, 1)[0]) # ms
+            else:  # Diffusion_Bonding
+                time_data.append(self.rng.normal(3600000, 600000, 1)[0]) # ms (1 hour)
+        data['weld_time_ms'] = np.array(time_data)
         data['weld_time_s'] = data['weld_time_ms'] / 1000
         
-        # Speed (for Laser, TIG, MIG)
-        speed_techniques = ['Laser', 'TIG', 'MIG', 'Plasma']
-        data['speed_mm_s'] = np.where(np.isin(data['welding_technique'], speed_techniques),
+        # Speed parameters
+        data['speed_mm_s'] = np.where(data['welding_technique'].isin(['Laser', 'TIG', 'MIG', 'Plasma']),
                                     self.rng.normal(10, 2, self.n_samples).clip(5, 20),
                                     np.nan)
         
-        # Pulse Frequency (for Laser, TIG, MIG)
-        data['pulse_frequency_hz'] = np.where(np.isin(data['welding_technique'], speed_techniques),
+        # Pulse parameters
+        data['pulse_frequency_hz'] = np.where(data['welding_technique'].isin(['Laser', 'TIG', 'MIG']),
                                             self.rng.normal(1000, 200, self.n_samples).clip(500, 2000),
                                             np.nan)
         
         # Environmental conditions
         data['preheat_temp_c'] = self.rng.normal(25, 10, self.n_samples).clip(20, 100)
-        data['ambient_humidity_percent'] = self.rng.normal(45, 15, self.n_samples).clip(20, 80)
-        data['ambient_pressure_kpa'] = self.rng.normal(101.3, 5, self.n_samples).clip(90, 110)
+        data['environment'] = self.rng.choice(self.environments, self.n_samples)
+        data['humidity_percent'] = self.rng.normal(45, 15, self.n_samples).clip(20, 80)
+        data['atmospheric_pressure_kpa'] = self.rng.normal(101.3, 5, self.n_samples).clip(95, 110)
         
         # Additional process parameters
-        data['weld_angle_degrees'] = self.rng.normal(90, 10, self.n_samples).clip(60, 120)
-        data['electrode_diameter_mm'] = np.where(data['welding_technique'].isin(['TIG', 'MIG']),
-                                               self.rng.normal(2.4, 0.5, self.n_samples).clip(1.0, 4.0),
-                                               np.nan)
-        data['shielding_gas_flow_lpm'] = np.where(data['welding_technique'].isin(['TIG', 'MIG', 'Plasma']),
-                                                self.rng.normal(15, 3, self.n_samples).clip(8, 25),
-                                                np.nan)
-        
-        # Material preparation parameters
-        data['surface_roughness_um'] = np.array([self.surface_finishes[finish]['roughness'] 
-                                                for finish in data['surface_finish']])
-        data['cleaning_method'] = self.rng.choice(['Ultrasonic', 'Chemical', 'Mechanical', 'Plasma', 'None'], self.n_samples)
-        data['pre_weld_heating_c'] = self.rng.normal(50, 20, self.n_samples).clip(20, 150)
+        data['weld_angle_deg'] = self.rng.normal(90, 10, self.n_samples).clip(60, 120)
+        data['weld_position'] = self.rng.choice(['Flat', 'Horizontal', 'Vertical', 'Overhead'], self.n_samples)
+        data['shielding_gas'] = self.rng.choice(['Argon', 'Helium', 'CO2', 'Nitrogen', 'None'], self.n_samples)
+        data['filler_material'] = self.rng.choice(['Same_as_Base', 'Different_Alloy', 'None'], self.n_samples)
         
         return pd.DataFrame(data)
     
     def calculate_quality_metrics(self, input_df):
-        """Calculate comprehensive quality metrics based on input parameters"""
+        """Calculate comprehensive quality metrics"""
         quality_data = {}
         
         # Get material properties
@@ -152,33 +155,22 @@ class EnhancedWeldingDatasetGenerator:
         base_strength = np.array([min(anode['tensile_strength'], cathode['tensile_strength']) 
                                 for anode, cathode in zip(anode_props, cathode_props)])
         
-        # Technique multiplier (more realistic)
         technique_multiplier = {
             'USW': 0.8, 'Laser': 0.9, 'Resistance_Spot': 0.7, 'Friction_Stir': 0.95, 
-            'Electron_Beam': 0.85, 'TIG': 0.88, 'MIG': 0.82, 'Plasma': 0.75,
-            'Explosive': 0.98, 'Diffusion_Bonding': 0.92
+            'Electron_Beam': 0.85, 'TIG': 0.88, 'MIG': 0.82, 'Plasma': 0.87,
+            'Ultrasonic_Spot': 0.75, 'Diffusion_Bonding': 0.98
         }
         
         strength_multiplier = np.array([technique_multiplier[tech] for tech in input_df['welding_technique']])
         force_factor = (input_df['force_n'] / 500) ** 0.3
-        time_factor = (input_df['weld_time_ms'] / 100) ** 0.2
-        
-        quality_data['weld_strength_mpa'] = (base_strength * strength_multiplier * force_factor * 
-                                            time_factor * (1 + 0.1 * np.random.normal(0, 1, self.n_samples)))
+        quality_data['weld_strength_mpa'] = base_strength * strength_multiplier * force_factor * (1 + 0.1 * np.random.normal(0, 1, self.n_samples))
         
         # Contact resistance (mOhm) - enhanced calculation
         base_resistance = np.array([1 / (anode['electrical_conductivity'] + cathode['electrical_conductivity']) 
                                   for anode, cathode in zip(anode_props, cathode_props)]) * 1e6
         
-        surface_factors = np.array([self.surface_finishes[finish]['contact_resistance_factor'] 
-                                  for finish in input_df['surface_finish']])
-        
-        # Add effect of cleaning method
-        cleaning_factor = {'Ultrasonic': 0.9, 'Chemical': 0.95, 'Mechanical': 1.1, 'Plasma': 0.85, 'None': 1.2}
-        cleaning_multiplier = np.array([cleaning_factor[method] for method in input_df['cleaning_method']])
-        
-        quality_data['contact_resistance_mohm'] = (base_resistance * surface_factors * cleaning_multiplier * 
-                                                 (1 + 0.2 * np.random.normal(0, 1, self.n_samples)))
+        surface_factors = [self.surface_finishes[finish]['contact_resistance_factor'] for finish in input_df['surface_finish']]
+        quality_data['contact_resistance_mohm'] = base_resistance * surface_factors * (1 + 0.2 * np.random.normal(0, 1, self.n_samples))
         
         # Weld geometry - enhanced calculations
         width_data = []
@@ -187,7 +179,7 @@ class EnhancedWeldingDatasetGenerator:
             if technique == 'USW':
                 width = 2.0 + 0.1 * input_df['amplitude_um'].iloc[i] + 0.01 * input_df['weld_time_ms'].iloc[i]
                 depth = 0.5 + 0.02 * input_df['amplitude_um'].iloc[i] + 0.005 * input_df['weld_time_ms'].iloc[i]
-            elif technique in ['Laser', 'TIG', 'MIG', 'Plasma']:
+            elif technique == 'Laser':
                 width = 1.5 + 0.05 * input_df['power_w'].iloc[i] + 0.02 * input_df['speed_mm_s'].iloc[i]
                 depth = 0.3 + 0.01 * input_df['power_w'].iloc[i] + 0.005 * input_df['speed_mm_s'].iloc[i]
             elif technique == 'Resistance_Spot':
@@ -199,13 +191,15 @@ class EnhancedWeldingDatasetGenerator:
             elif technique == 'Electron_Beam':
                 width = 1.0 + 0.03 * input_df['power_w'].iloc[i] + 0.01 * input_df['weld_time_ms'].iloc[i]
                 depth = 0.2 + 0.01 * input_df['power_w'].iloc[i] + 0.005 * input_df['weld_time_ms'].iloc[i]
-            elif technique == 'Explosive':
-                width = 5.0 + 0.1 * input_df['force_n'].iloc[i]
-                depth = 2.0 + 0.05 * input_df['force_n'].iloc[i]
+            elif technique in ['TIG', 'MIG', 'Plasma']:
+                width = 2.5 + 0.03 * input_df['power_w'].iloc[i] + 0.02 * input_df['speed_mm_s'].iloc[i]
+                depth = 0.6 + 0.01 * input_df['power_w'].iloc[i] + 0.005 * input_df['speed_mm_s'].iloc[i]
+            elif technique == 'Ultrasonic_Spot':
+                width = 1.8 + 0.08 * input_df['amplitude_um'].iloc[i] + 0.01 * input_df['weld_time_ms'].iloc[i]
+                depth = 0.4 + 0.015 * input_df['amplitude_um'].iloc[i] + 0.003 * input_df['weld_time_ms'].iloc[i]
             else:  # Diffusion_Bonding
-                width = 2.0 + 0.01 * input_df['power_w'].iloc[i] + 0.02 * input_df['weld_time_ms'].iloc[i]
-                depth = 0.1 + 0.001 * input_df['power_w'].iloc[i] + 0.01 * input_df['weld_time_ms'].iloc[i]
-            
+                width = 5.0 + 0.01 * input_df['power_w'].iloc[i] + 0.001 * input_df['weld_time_ms'].iloc[i]
+                depth = 2.0 + 0.005 * input_df['power_w'].iloc[i] + 0.0005 * input_df['weld_time_ms'].iloc[i]
             width_data.append(width)
             depth_data.append(depth)
         
@@ -217,44 +211,30 @@ class EnhancedWeldingDatasetGenerator:
         technique_porosity = {
             'USW': 0.8, 'Laser': 0.6, 'Resistance_Spot': 1.2, 'Friction_Stir': 0.4, 
             'Electron_Beam': 0.5, 'TIG': 0.7, 'MIG': 0.9, 'Plasma': 0.8,
-            'Explosive': 0.3, 'Diffusion_Bonding': 0.2
+            'Ultrasonic_Spot': 0.6, 'Diffusion_Bonding': 0.2
         }
         porosity_multiplier = np.array([technique_porosity[tech] for tech in input_df['welding_technique']])
-        
-        # Environmental effects
-        humidity_factor = 1 + 0.01 * (input_df['ambient_humidity_percent'] - 45) / 45
-        pressure_factor = 1 + 0.1 * (101.3 - input_df['ambient_pressure_kpa']) / 101.3
-        
-        quality_data['porosity_percent'] = (base_porosity * porosity_multiplier * humidity_factor * 
-                                          pressure_factor * (1 + 0.1 * input_df['preheat_temp_c'] / 100))
+        environmental_factor = 1 + 0.1 * input_df['preheat_temp_c'] / 100 + 0.05 * input_df['humidity_percent'] / 100
+        quality_data['porosity_percent'] = base_porosity * porosity_multiplier * environmental_factor
         
         # Microhardness (HV) - enhanced calculation
         base_hardness = np.array([(anode['hardness'] + cathode['hardness']) / 2 
                                 for anode, cathode in zip(anode_props, cathode_props)])
         
         process_hardness = input_df['force_n'] * 0.1 + input_df['power_w'] * 0.05
-        preheat_factor = 1 - 0.001 * input_df['pre_weld_heating_c']
-        
-        quality_data['microhardness_hv'] = (base_hardness + process_hardness * preheat_factor + 
-                                           np.random.normal(0, 10, self.n_samples))
+        quality_data['microhardness_hv'] = base_hardness + process_hardness + np.random.normal(0, 10, self.n_samples)
         
         # Additional quality metrics
         quality_data['weld_penetration_ratio'] = quality_data['weld_depth_mm'] / input_df['tab_thickness_um'] * 1000
-        quality_data['aspect_ratio'] = quality_data['weld_width_mm'] / quality_data['weld_depth_mm']
+        quality_data['weld_aspect_ratio'] = quality_data['weld_width_mm'] / quality_data['weld_depth_mm']
+        quality_data['weld_volume_mm3'] = np.pi * (quality_data['weld_width_mm'] / 2) ** 2 * quality_data['weld_depth_mm']
         
         # Weld efficiency - comprehensive calculation
-        strength_score = np.clip(quality_data['weld_strength_mpa'] / 1000, 0, 1)
-        resistance_score = np.clip(1 / quality_data['contact_resistance_mohm'], 0, 1)
-        porosity_score = np.clip(1 / (1 + quality_data['porosity_percent']), 0, 1)
-        hardness_score = np.clip(quality_data['microhardness_hv'] / 200, 0, 1)
-        
-        quality_data['weld_efficiency_percent'] = ((strength_score * 0.3 + resistance_score * 0.3 + 
-                                                   porosity_score * 0.2 + hardness_score * 0.2) * 100)
-        
-        # Weld quality classification
-        quality_data['weld_quality_class'] = pd.cut(quality_data['weld_efficiency_percent'], 
-                                                   bins=[0, 60, 80, 90, 100], 
-                                                   labels=['Poor', 'Fair', 'Good', 'Excellent'])
+        strength_factor = quality_data['weld_strength_mpa'] / 1000
+        resistance_factor = 1 / quality_data['contact_resistance_mohm']
+        porosity_factor = 1 / (quality_data['porosity_percent'] + 0.1)
+        efficiency = strength_factor * resistance_factor * porosity_factor * 100
+        quality_data['weld_efficiency_percent'] = np.clip(efficiency, 0, 100)
         
         return pd.DataFrame(quality_data)
     
@@ -269,61 +249,41 @@ class EnhancedWeldingDatasetGenerator:
         min_temp = max_temp - temp_range
         
         # Fatigue life (cycles) - enhanced calculation
-        base_fatigue = np.array([min(anode['melting_point'], cathode['melting_point']) 
+        base_fatigue = np.array([min(anode['tensile_strength'], cathode['tensile_strength']) 
                                for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
                                                        [self.materials[mat] for mat in input_df['cathode_material']])]) / 10
         
         quality_factor = quality_df['weld_efficiency_percent'] / 100
         thermal_factor = 1 / (1 + temp_range / 200)
-        material_factor = np.array([(anode['thermal_expansion'] + cathode['thermal_expansion']) / 2 
+        material_factor = np.array([min(anode['thermal_conductivity'], cathode['thermal_conductivity']) 
                                   for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
-                                                          [self.materials[mat] for mat in input_df['cathode_material']])]) * 1e6
+                                                          [self.materials[mat] for mat in input_df['cathode_material']])]) / 400
         
-        performance_data['fatigue_life_cycles'] = (base_fatigue * quality_factor * thermal_factor * 
-                                                 (1 / (1 + material_factor)) * (1 + 0.3 * np.random.normal(0, 1, self.n_samples)))
+        performance_data['fatigue_life_cycles'] = base_fatigue * quality_factor * thermal_factor * material_factor * (1 + 0.3 * np.random.normal(0, 1, self.n_samples))
         
         # Thermal resistance degradation (%)
         base_degradation = temp_range * 0.1 + n_cycles * 0.001
-        material_thermal = np.array([1 / (anode['thermal_conductivity'] + cathode['thermal_conductivity']) 
-                                   for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
-                                                           [self.materials[mat] for mat in input_df['cathode_material']])]) * 1000
+        material_factor = np.array([1 / (anode['thermal_conductivity'] + cathode['thermal_conductivity']) 
+                                  for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
+                                                          [self.materials[mat] for mat in input_df['cathode_material']])]) * 1000
         
-        performance_data['thermal_resistance_degradation_percent'] = (base_degradation * material_thermal * 
-                                                                    (1 + 0.2 * np.random.normal(0, 1, self.n_samples)))
+        performance_data['thermal_resistance_degradation_percent'] = base_degradation * material_factor * (1 + 0.2 * np.random.normal(0, 1, self.n_samples))
         
         # Electrical resistance increase (%)
         base_increase = temp_range * 0.05 + n_cycles * 0.0005
-        surface_factors = np.array([self.surface_finishes[finish]['contact_resistance_factor'] 
-                                  for finish in input_df['surface_finish']])
+        surface_factors = [self.surface_finishes[finish]['contact_resistance_factor'] for finish in input_df['surface_finish']]
+        performance_data['electrical_resistance_increase_percent'] = base_increase * surface_factors * (1 + 0.15 * np.random.normal(0, 1, self.n_samples))
         
-        performance_data['electrical_resistance_increase_percent'] = (base_increase * surface_factors * 
-                                                                    (1 + 0.15 * np.random.normal(0, 1, self.n_samples)))
+        # Additional performance metrics
+        performance_data['thermal_cycling_stress_mpa'] = temp_range * 10 + np.random.normal(0, 5, self.n_samples)
+        performance_data['creep_deformation_mm'] = n_cycles * 0.001 + temp_range * 0.01 + np.random.normal(0, 0.1, self.n_samples)
+        performance_data['oxidation_rate_mg_cm2_h'] = temp_range * 0.1 + np.random.normal(0, 0.5, self.n_samples)
         
-        # Creep resistance (hours at elevated temperature)
-        creep_base = np.array([(anode['melting_point'] + cathode['melting_point']) / 2 
-                             for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
-                                                     [self.materials[mat] for mat in input_df['cathode_material']])])
-        
-        creep_factor = np.exp(-(max_temp - 100) / 100) * quality_factor
-        performance_data['creep_resistance_hours'] = creep_base * creep_factor * (1 + 0.5 * np.random.normal(0, 1, self.n_samples))
-        
-        # Corrosion resistance (rating 1-10)
-        corrosion_base = np.array([(anode['hardness'] + cathode['hardness']) / 20 
-                                 for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
-                                                         [self.materials[mat] for mat in input_df['cathode_material']])])
-        
-        surface_protection = {'Polished': 0.8, 'Rough': 0.6, 'Coated': 1.2, 'Anodized': 1.5, 
-                            'Plated': 1.0, 'Oxidized': 0.4, 'Cleaned': 0.9}
-        surface_protection_factor = np.array([surface_protection[finish] for finish in input_df['surface_finish']])
-        
-        performance_data['corrosion_resistance_rating'] = np.clip(corrosion_base * surface_protection_factor * 
-                                                                quality_factor * 10, 1, 10)
-        
-        # Weld integrity score (0-100) - comprehensive
-        integrity = (quality_df['weld_efficiency_percent'] * 0.25 + 
+        # Weld integrity score (0-100) - comprehensive calculation
+        integrity = (quality_df['weld_efficiency_percent'] * 0.3 + 
                     (100 - performance_data['thermal_resistance_degradation_percent']) * 0.25 +
                     (100 - performance_data['electrical_resistance_increase_percent']) * 0.25 +
-                    performance_data['corrosion_resistance_rating'] * 10 * 0.25)
+                    (100 - performance_data['creep_deformation_mm'] * 100) * 0.2)
         performance_data['weld_integrity_score'] = np.clip(integrity, 0, 100)
         
         # Failure mode prediction - enhanced
@@ -335,23 +295,28 @@ class EnhancedWeldingDatasetGenerator:
                 failure_modes.append('Thermal')
             elif performance_data['electrical_resistance_increase_percent'][i] > 30:
                 failure_modes.append('Electrical')
-            elif performance_data['corrosion_resistance_rating'][i] < 3:
-                failure_modes.append('Corrosion')
-            elif performance_data['creep_resistance_hours'][i] < 100:
+            elif performance_data['creep_deformation_mm'][i] > 0.5:
                 failure_modes.append('Creep')
+            elif performance_data['oxidation_rate_mg_cm2_h'][i] > 10:
+                failure_modes.append('Oxidation')
             else:
                 failure_modes.append('None')
         
         performance_data['predicted_failure_mode'] = failure_modes
         
-        # Reliability metrics
-        performance_data['reliability_score'] = performance_data['weld_integrity_score'] * 0.6 + \
-                                              (100 - performance_data['thermal_resistance_degradation_percent']) * 0.4
+        # Cost analysis
+        technique_costs = {
+            'USW': 1.0, 'Laser': 2.5, 'Resistance_Spot': 0.8, 'Friction_Stir': 3.0, 
+            'Electron_Beam': 4.0, 'TIG': 1.5, 'MIG': 1.2, 'Plasma': 2.0,
+            'Ultrasonic_Spot': 1.1, 'Diffusion_Bonding': 5.0
+        }
+        base_cost = np.array([technique_costs[tech] for tech in input_df['welding_technique']])
+        material_cost = np.array([(anode['density'] + cathode['density']) / 2 
+                                for anode, cathode in zip([self.materials[mat] for mat in input_df['anode_material']],
+                                                        [self.materials[mat] for mat in input_df['cathode_material']])]) / 10
+        surface_cost = np.array([self.surface_finishes[finish]['cost_factor'] for finish in input_df['surface_finish']])
         
-        # Service life prediction (years)
-        base_life = performance_data['fatigue_life_cycles'] / 1000  # Convert cycles to years (assuming 1000 cycles/year)
-        quality_life_factor = quality_df['weld_efficiency_percent'] / 100
-        performance_data['predicted_service_life_years'] = base_life * quality_life_factor * (1 + 0.2 * np.random.normal(0, 1, self.n_samples))
+        performance_data['estimated_cost_per_weld'] = base_cost * material_cost * surface_cost * (1 + 0.2 * np.random.normal(0, 1, self.n_samples))
         
         return pd.DataFrame(performance_data)
     
@@ -360,10 +325,10 @@ class EnhancedWeldingDatasetGenerator:
         print("Generating enhanced input parameters...")
         input_df = self.generate_input_parameters()
         
-        print("Calculating comprehensive quality metrics...")
+        print("Calculating enhanced quality metrics...")
         quality_df = self.calculate_quality_metrics(input_df)
         
-        print("Calculating performance metrics under extreme conditions...")
+        print("Calculating enhanced performance metrics...")
         performance_df = self.calculate_performance_metrics(input_df, quality_df)
         
         # Combine all data
@@ -372,147 +337,96 @@ class EnhancedWeldingDatasetGenerator:
         return complete_df
     
     def save_dataset(self, df, filename='enhanced_welding_dataset.csv'):
-        """Save the enhanced dataset to CSV"""
+        """Save the dataset to CSV"""
         df.to_csv(filename, index=False)
         print(f"Enhanced dataset saved to {filename}")
         return filename
     
     def generate_comprehensive_visualizations(self, df):
-        """Generate comprehensive visualizations for the enhanced dataset"""
+        """Generate comprehensive visualizations for the dataset"""
         plt.style.use('seaborn-v0_8')
-        fig = plt.figure(figsize=(24, 16))
+        fig, axes = plt.subplots(3, 4, figsize=(24, 18))
         
-        # Create a 4x4 grid of subplots
-        gs = fig.add_gridspec(4, 4, hspace=0.3, wspace=0.3)
+        # Weld strength distribution
+        axes[0, 0].hist(df['weld_strength_mpa'], bins=50, alpha=0.7, color='skyblue')
+        axes[0, 0].set_title('Weld Strength Distribution')
+        axes[0, 0].set_xlabel('Strength (MPa)')
+        axes[0, 0].set_ylabel('Frequency')
         
-        # 1. Weld strength distribution
-        ax1 = fig.add_subplot(gs[0, 0])
-        ax1.hist(df['weld_strength_mpa'], bins=50, alpha=0.7, color='skyblue', edgecolor='black')
-        ax1.set_title('Weld Strength Distribution', fontsize=12, fontweight='bold')
-        ax1.set_xlabel('Strength (MPa)')
-        ax1.set_ylabel('Frequency')
-        
-        # 2. Contact resistance vs technique
-        ax2 = fig.add_subplot(gs[0, 1])
+        # Contact resistance vs technique
         technique_resistance = df.groupby('welding_technique')['contact_resistance_mohm'].mean()
-        bars = ax2.bar(technique_resistance.index, technique_resistance.values, color='lightcoral', edgecolor='black')
-        ax2.set_title('Average Contact Resistance by Technique', fontsize=12, fontweight='bold')
-        ax2.set_ylabel('Resistance (mOhm)')
-        ax2.tick_params(axis='x', rotation=45)
+        axes[0, 1].bar(technique_resistance.index, technique_resistance.values, color='lightcoral')
+        axes[0, 1].set_title('Average Contact Resistance by Technique')
+        axes[0, 1].set_ylabel('Resistance (mOhm)')
+        axes[0, 1].tick_params(axis='x', rotation=45)
         
-        # 3. Weld efficiency vs technique
-        ax3 = fig.add_subplot(gs[0, 2])
+        # Weld efficiency vs technique
         technique_efficiency = df.groupby('welding_technique')['weld_efficiency_percent'].mean()
-        ax3.bar(technique_efficiency.index, technique_efficiency.values, color='lightgreen', edgecolor='black')
-        ax3.set_title('Average Weld Efficiency by Technique', fontsize=12, fontweight='bold')
-        ax3.set_ylabel('Efficiency (%)')
-        ax3.tick_params(axis='x', rotation=45)
+        axes[0, 2].bar(technique_efficiency.index, technique_efficiency.values, color='lightgreen')
+        axes[0, 2].set_title('Average Weld Efficiency by Technique')
+        axes[0, 2].set_ylabel('Efficiency (%)')
+        axes[0, 2].tick_params(axis='x', rotation=45)
         
-        # 4. Quality class distribution
-        ax4 = fig.add_subplot(gs[0, 3])
-        quality_counts = df['weld_quality_class'].value_counts()
-        ax4.pie(quality_counts.values, labels=quality_counts.index, autopct='%1.1f%%', startangle=90)
-        ax4.set_title('Weld Quality Class Distribution', fontsize=12, fontweight='bold')
+        # Material combination analysis
+        material_combinations = df.groupby(['anode_material', 'cathode_material'])['weld_strength_mpa'].mean().unstack()
+        sns.heatmap(material_combinations, annot=True, fmt='.0f', cmap='viridis', ax=axes[0, 3])
+        axes[0, 3].set_title('Weld Strength by Material Combination')
         
-        # 5. Fatigue life distribution
-        ax5 = fig.add_subplot(gs[1, 0])
-        ax5.hist(df['fatigue_life_cycles'], bins=50, alpha=0.7, color='gold', edgecolor='black')
-        ax5.set_title('Fatigue Life Distribution', fontsize=12, fontweight='bold')
-        ax5.set_xlabel('Cycles')
-        ax5.set_ylabel('Frequency')
+        # Fatigue life distribution
+        axes[1, 0].hist(df['fatigue_life_cycles'], bins=50, alpha=0.7, color='gold')
+        axes[1, 0].set_title('Fatigue Life Distribution')
+        axes[1, 0].set_xlabel('Cycles')
+        axes[1, 0].set_ylabel('Frequency')
         
-        # 6. Thermal degradation vs technique
-        ax6 = fig.add_subplot(gs[1, 1])
+        # Thermal degradation vs technique
         technique_thermal = df.groupby('welding_technique')['thermal_resistance_degradation_percent'].mean()
-        ax6.bar(technique_thermal.index, technique_thermal.values, color='orange', edgecolor='black')
-        ax6.set_title('Average Thermal Degradation by Technique', fontsize=12, fontweight='bold')
-        ax6.set_ylabel('Degradation (%)')
-        ax6.tick_params(axis='x', rotation=45)
+        axes[1, 1].bar(technique_thermal.index, technique_thermal.values, color='orange')
+        axes[1, 1].set_title('Average Thermal Degradation by Technique')
+        axes[1, 1].set_ylabel('Degradation (%)')
+        axes[1, 1].tick_params(axis='x', rotation=45)
         
-        # 7. Corrosion resistance distribution
-        ax7 = fig.add_subplot(gs[1, 2])
-        ax7.hist(df['corrosion_resistance_rating'], bins=20, alpha=0.7, color='purple', edgecolor='black')
-        ax7.set_title('Corrosion Resistance Rating Distribution', fontsize=12, fontweight='bold')
-        ax7.set_xlabel('Rating (1-10)')
-        ax7.set_ylabel('Frequency')
+        # Weld integrity score distribution
+        axes[1, 2].hist(df['weld_integrity_score'], bins=50, alpha=0.7, color='purple')
+        axes[1, 2].set_title('Weld Integrity Score Distribution')
+        axes[1, 2].set_xlabel('Integrity Score')
+        axes[1, 2].set_ylabel('Frequency')
         
-        # 8. Weld integrity score distribution
-        ax8 = fig.add_subplot(gs[1, 3])
-        ax8.hist(df['weld_integrity_score'], bins=50, alpha=0.7, color='red', edgecolor='black')
-        ax8.set_title('Weld Integrity Score Distribution', fontsize=12, fontweight='bold')
-        ax8.set_xlabel('Integrity Score')
-        ax8.set_ylabel('Frequency')
-        
-        # 9. Material combination heatmap
-        ax9 = fig.add_subplot(gs[2, 0])
-        material_combinations = df.groupby(['anode_material', 'cathode_material'])['weld_efficiency_percent'].mean().unstack()
-        sns.heatmap(material_combinations, annot=True, fmt='.1f', cmap='YlOrRd', ax=ax9)
-        ax9.set_title('Weld Efficiency by Material Combination', fontsize=12, fontweight='bold')
-        
-        # 10. Failure mode distribution
-        ax10 = fig.add_subplot(gs[2, 1])
+        # Failure mode distribution
         failure_counts = df['predicted_failure_mode'].value_counts()
-        ax10.bar(failure_counts.index, failure_counts.values, color='darkred', edgecolor='black')
-        ax10.set_title('Predicted Failure Mode Distribution', fontsize=12, fontweight='bold')
-        ax10.set_ylabel('Count')
-        ax10.tick_params(axis='x', rotation=45)
+        axes[1, 3].pie(failure_counts.values, labels=failure_counts.index, autopct='%1.1f%%')
+        axes[1, 3].set_title('Predicted Failure Modes')
         
-        # 11. Service life prediction
-        ax11 = fig.add_subplot(gs[2, 2])
-        ax11.hist(df['predicted_service_life_years'], bins=50, alpha=0.7, color='green', edgecolor='black')
-        ax11.set_title('Predicted Service Life Distribution', fontsize=12, fontweight='bold')
-        ax11.set_xlabel('Years')
-        ax11.set_ylabel('Frequency')
+        # Cost analysis
+        technique_cost = df.groupby('welding_technique')['estimated_cost_per_weld'].mean()
+        axes[2, 0].bar(technique_cost.index, technique_cost.values, color='red')
+        axes[2, 0].set_title('Average Cost per Weld by Technique')
+        axes[2, 0].set_ylabel('Cost (relative units)')
+        axes[2, 0].tick_params(axis='x', rotation=45)
         
-        # 12. Reliability score distribution
-        ax12 = fig.add_subplot(gs[2, 3])
-        ax12.hist(df['reliability_score'], bins=50, alpha=0.7, color='navy', edgecolor='black')
-        ax12.set_title('Reliability Score Distribution', fontsize=12, fontweight='bold')
-        ax12.set_xlabel('Reliability Score')
-        ax12.set_ylabel('Frequency')
+        # Weld geometry analysis
+        axes[2, 1].scatter(df['weld_width_mm'], df['weld_depth_mm'], alpha=0.6, c=df['weld_efficiency_percent'], cmap='viridis')
+        axes[2, 1].set_title('Weld Geometry vs Efficiency')
+        axes[2, 1].set_xlabel('Width (mm)')
+        axes[2, 1].set_ylabel('Depth (mm)')
         
-        # 13. Weld geometry analysis
-        ax13 = fig.add_subplot(gs[3, 0])
-        ax13.scatter(df['weld_width_mm'], df['weld_depth_mm'], alpha=0.6, c=df['weld_efficiency_percent'], 
-                    cmap='viridis', edgecolors='black', s=20)
-        ax13.set_xlabel('Weld Width (mm)')
-        ax13.set_ylabel('Weld Depth (mm)')
-        ax13.set_title('Weld Geometry vs Efficiency', fontsize=12, fontweight='bold')
-        cbar = plt.colorbar(ax13.collections[0], ax=ax13)
-        cbar.set_label('Weld Efficiency (%)')
+        # Environmental impact
+        env_performance = df.groupby('environment')['weld_integrity_score'].mean()
+        axes[2, 2].bar(env_performance.index, env_performance.values, color='green')
+        axes[2, 2].set_title('Weld Integrity by Environment')
+        axes[2, 2].set_ylabel('Integrity Score')
+        axes[2, 2].tick_params(axis='x', rotation=45)
         
-        # 14. Process parameter correlation
-        ax14 = fig.add_subplot(gs[3, 1])
-        process_params = ['power_w', 'force_n', 'weld_time_ms', 'weld_efficiency_percent']
-        correlation_matrix = df[process_params].corr()
-        sns.heatmap(correlation_matrix, annot=True, fmt='.2f', cmap='coolwarm', center=0, ax=ax14)
-        ax14.set_title('Process Parameter Correlations', fontsize=12, fontweight='bold')
+        # Correlation heatmap
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        corr_matrix = df[numeric_cols].corr()
+        sns.heatmap(corr_matrix.iloc[:10, :10], annot=True, fmt='.2f', cmap='coolwarm', ax=axes[2, 3])
+        axes[2, 3].set_title('Parameter Correlations')
         
-        # 15. Environmental effects
-        ax15 = fig.add_subplot(gs[3, 2])
-        ax15.scatter(df['ambient_humidity_percent'], df['porosity_percent'], alpha=0.6, 
-                    c=df['weld_efficiency_percent'], cmap='plasma', edgecolors='black', s=20)
-        ax15.set_xlabel('Ambient Humidity (%)')
-        ax15.set_ylabel('Porosity (%)')
-        ax15.set_title('Environmental Effects on Porosity', fontsize=12, fontweight='bold')
-        cbar = plt.colorbar(ax15.collections[0], ax=ax15)
-        cbar.set_label('Weld Efficiency (%)')
-        
-        # 16. Performance vs Quality scatter
-        ax16 = fig.add_subplot(gs[3, 3])
-        ax16.scatter(df['weld_efficiency_percent'], df['weld_integrity_score'], alpha=0.6, 
-                    c=df['fatigue_life_cycles'], cmap='inferno', edgecolors='black', s=20)
-        ax16.set_xlabel('Weld Efficiency (%)')
-        ax16.set_ylabel('Weld Integrity Score')
-        ax16.set_title('Quality vs Performance', fontsize=12, fontweight='bold')
-        cbar = plt.colorbar(ax16.collections[0], ax=ax16)
-        cbar.set_label('Fatigue Life (cycles)')
-        
-        plt.suptitle('Comprehensive Welding Dataset Analysis', fontsize=16, fontweight='bold', y=0.98)
+        plt.tight_layout()
         plt.savefig('enhanced_welding_dataset_analysis.png', dpi=300, bbox_inches='tight')
         plt.show()
         
-        print("Comprehensive visualizations saved to enhanced_welding_dataset_analysis.png")
+        print("Enhanced visualizations saved to enhanced_welding_dataset_analysis.png")
 
 def main():
     # Generate enhanced dataset
@@ -522,50 +436,32 @@ def main():
     # Save dataset
     filename = generator.save_dataset(dataset)
     
-    # Generate comprehensive visualizations
+    # Generate visualizations
     generator.generate_comprehensive_visualizations(dataset)
     
     # Display comprehensive statistics
-    print("\n" + "="*80)
-    print("ENHANCED WELDING DATASET STATISTICS")
-    print("="*80)
-    print(f"Total samples: {len(dataset):,}")
+    print("\nEnhanced Dataset Statistics:")
+    print(f"Total samples: {len(dataset)}")
     print(f"Total features: {len(dataset.columns)}")
-    
-    print("\nINPUT PARAMETERS:")
+    print("\nInput Parameters:")
     print(f"- Materials: {dataset['anode_material'].nunique()} anode, {dataset['cathode_material'].nunique()} cathode")
     print(f"- Techniques: {dataset['welding_technique'].nunique()}")
     print(f"- Surface finishes: {dataset['surface_finish'].nunique()}")
-    print(f"- Cleaning methods: {dataset['cleaning_method'].nunique()}")
+    print(f"- Environments: {dataset['environment'].nunique()}")
     
-    print("\nQUALITY METRICS:")
+    print("\nQuality Metrics:")
     print(f"- Weld strength: {dataset['weld_strength_mpa'].mean():.1f} ± {dataset['weld_strength_mpa'].std():.1f} MPa")
-    print(f"- Contact resistance: {dataset['contact_resistance_mohm'].mean():.3f} ± {dataset['contact_resistance_mohm'].std():.3f} mOhm")
+    print(f"- Contact resistance: {dataset['contact_resistance_mohm'].mean():.2f} ± {dataset['contact_resistance_mohm'].std():.2f} mOhm")
     print(f"- Weld efficiency: {dataset['weld_efficiency_percent'].mean():.1f} ± {dataset['weld_efficiency_percent'].std():.1f}%")
-    print(f"- Porosity: {dataset['porosity_percent'].mean():.2f} ± {dataset['porosity_percent'].std():.2f}%")
-    print(f"- Microhardness: {dataset['microhardness_hv'].mean():.1f} ± {dataset['microhardness_hv'].std():.1f} HV")
+    print(f"- Weld aspect ratio: {dataset['weld_aspect_ratio'].mean():.2f} ± {dataset['weld_aspect_ratio'].std():.2f}")
     
-    print("\nPERFORMANCE METRICS:")
+    print("\nPerformance Metrics:")
     print(f"- Fatigue life: {dataset['fatigue_life_cycles'].mean():.0f} ± {dataset['fatigue_life_cycles'].std():.0f} cycles")
     print(f"- Thermal degradation: {dataset['thermal_resistance_degradation_percent'].mean():.1f} ± {dataset['thermal_resistance_degradation_percent'].std():.1f}%")
-    print(f"- Electrical resistance increase: {dataset['electrical_resistance_increase_percent'].mean():.1f} ± {dataset['electrical_resistance_increase_percent'].std():.1f}%")
-    print(f"- Corrosion resistance: {dataset['corrosion_resistance_rating'].mean():.1f} ± {dataset['corrosion_resistance_rating'].std():.1f}/10")
     print(f"- Weld integrity: {dataset['weld_integrity_score'].mean():.1f} ± {dataset['weld_integrity_score'].std():.1f}")
-    print(f"- Predicted service life: {dataset['predicted_service_life_years'].mean():.1f} ± {dataset['predicted_service_life_years'].std():.1f} years")
+    print(f"- Estimated cost: {dataset['estimated_cost_per_weld'].mean():.2f} ± {dataset['estimated_cost_per_weld'].std():.2f}")
     
-    print("\nQUALITY DISTRIBUTION:")
-    quality_dist = dataset['weld_quality_class'].value_counts()
-    for quality, count in quality_dist.items():
-        print(f"- {quality}: {count:,} ({count/len(dataset)*100:.1f}%)")
-    
-    print("\nFAILURE MODE DISTRIBUTION:")
-    failure_dist = dataset['predicted_failure_mode'].value_counts()
-    for mode, count in failure_dist.items():
-        print(f"- {mode}: {count:,} ({count/len(dataset)*100:.1f}%)")
-    
-    print(f"\nDataset saved to: {filename}")
-    print("="*80)
-    
+    print(f"\nEnhanced dataset saved to: {filename}")
     return dataset
 
 if __name__ == "__main__":
