@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/welding-inverse-design.schema.json",
+  "title": "Dataset for ML-Driven Inverse Design of Welding Parameters",
+  "description": "Physics-informed synthetic dataset for welding process inverse design linking controllable inputs to as-welded quality metrics and post-cycling performance.",
+  "type": "object",
+  "properties": {
+    "dataset_name": {"type": "string"},
+    "dataset_version": {"type": "string"},
+    "rows": {"type": "integer", "minimum": 1},
+    "licenses": {"type": "string"},
+    "sources": {"type": "array", "items": {"type": "string"}},
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "role": {"type": "string", "enum": ["input", "forward_output", "inverse_target", "meta"]},
+          "unit": {"type": ["string", "null"]},
+          "dtype": {"type": "string", "enum": ["string", "integer", "float", "boolean", "category"]},
+          "description": {"type": "string"},
+          "range": {"type": ["array", "null"], "items": {"type": "number"}},
+          "categories": {"type": ["array", "null"], "items": {"type": "string"}},
+          "derived_from": {"type": ["array", "null"], "items": {"type": "string"}},
+          "formula": {"type": ["string", "null"]}
+        },
+        "required": ["name", "role", "dtype"],
+        "additionalProperties": false
+      }
+    },
+    "notes": {"type": "string"}
+  },
+  "required": ["dataset_name", "dataset_version", "rows", "columns"],
+  "additionalProperties": false
+}
