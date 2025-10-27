@@ -1,0 +1,301 @@
+{
+  "Input_Parameters": {
+    "sample_id": {
+      "description": "Unique identifier for each weld sample",
+      "type": "string",
+      "example": "WS_000001"
+    },
+    "timestamp": {
+      "description": "Timestamp of welding operation",
+      "type": "datetime",
+      "format": "YYYY-MM-DD HH:MM:SS"
+    },
+    "batch_id": {
+      "description": "Manufacturing batch identifier",
+      "type": "integer",
+      "range": "1-50"
+    },
+    "anode_material": {
+      "description": "Copper alloy grade for anode tab",
+      "type": "categorical",
+      "unit": "-"
+    },
+    "cathode_material": {
+      "description": "Aluminum alloy grade for cathode tab",
+      "type": "categorical",
+      "unit": "-"
+    },
+    "anode_thickness_um": {
+      "description": "Thickness of copper anode tab",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "100-500"
+    },
+    "cathode_thickness_um": {
+      "description": "Thickness of aluminum cathode tab",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "100-500"
+    },
+    "surface_finish": {
+      "description": "Surface treatment/coating on metal tabs",
+      "type": "categorical",
+      "unit": "-"
+    },
+    "surface_roughness_ra_um": {
+      "description": "Average surface roughness before welding",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "0.1-5.0"
+    },
+    "welding_technique": {
+      "description": "Welding process used",
+      "type": "categorical",
+      "values": [
+        "USW",
+        "Laser",
+        "RSW",
+        "CMW"
+      ]
+    },
+    "power_w": {
+      "description": "Welding power (technique-dependent)",
+      "type": "float",
+      "unit": "W",
+      "range": "500-4000"
+    },
+    "amplitude_um": {
+      "description": "Vibration amplitude (USW only)",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "20-60"
+    },
+    "force_n": {
+      "description": "Clamping/welding force",
+      "type": "float",
+      "unit": "N",
+      "range": "1000-15000"
+    },
+    "time_ms": {
+      "description": "Welding duration",
+      "type": "float",
+      "unit": "ms",
+      "range": "5-1000"
+    },
+    "speed_mm_s": {
+      "description": "Welding speed (Laser, CMW)",
+      "type": "float",
+      "unit": "mm/s",
+      "range": "1-100"
+    },
+    "pulse_frequency_hz": {
+      "description": "Pulse frequency (Laser, USW)",
+      "type": "float",
+      "unit": "Hz",
+      "range": "50-20000"
+    },
+    "pulse_energy_j": {
+      "description": "Pulse energy (Laser only)",
+      "type": "float",
+      "unit": "J",
+      "range": "1-50"
+    },
+    "current_ka": {
+      "description": "Welding current (RSW only)",
+      "type": "float",
+      "unit": "kA",
+      "range": "5-25"
+    },
+    "preheat_temp_c": {
+      "description": "Sample temperature before welding",
+      "type": "float",
+      "unit": "\u00b0C",
+      "range": "20-80"
+    },
+    "ambient_temp_c": {
+      "description": "Ambient room temperature",
+      "type": "float",
+      "unit": "\u00b0C",
+      "range": "18-28"
+    },
+    "ambient_humidity_percent": {
+      "description": "Relative humidity during welding",
+      "type": "float",
+      "unit": "%",
+      "range": "30-70"
+    },
+    "energy_density_j_mm2": {
+      "description": "Calculated energy per unit area",
+      "type": "float",
+      "unit": "J/mm\u00b2",
+      "derived": true
+    }
+  },
+  "Characterization_Metrics": {
+    "weld_width_mm": {
+      "description": "Width of weld nugget/joint",
+      "type": "float",
+      "unit": "mm",
+      "range": "1-8"
+    },
+    "weld_length_mm": {
+      "description": "Length of weld nugget/joint",
+      "type": "float",
+      "unit": "mm",
+      "range": "2-12"
+    },
+    "penetration_depth_um": {
+      "description": "Depth of material penetration",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "30-300"
+    },
+    "imc_thickness_um": {
+      "description": "Intermetallic compound (CuAl2) layer thickness",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "0.2-10",
+      "optimal": "1-3"
+    },
+    "contact_resistance_microohm": {
+      "description": "Electrical contact resistance across joint",
+      "type": "float",
+      "unit": "\u00b5\u03a9",
+      "range": "20-500",
+      "target": "<100"
+    },
+    "shear_strength_mpa": {
+      "description": "Maximum shear stress before failure",
+      "type": "float",
+      "unit": "MPa",
+      "range": "15-120"
+    },
+    "peel_strength_n_mm": {
+      "description": "Peel test force per unit width",
+      "type": "float",
+      "unit": "N/mm",
+      "range": "3-35"
+    },
+    "porosity_percent": {
+      "description": "Volumetric porosity in weld zone",
+      "type": "float",
+      "unit": "%",
+      "range": "0-15",
+      "target": "<5"
+    },
+    "crack_density_per_mm2": {
+      "description": "Number of micro-cracks per unit area",
+      "type": "float",
+      "unit": "cracks/mm\u00b2",
+      "range": "0-20",
+      "target": "<3"
+    },
+    "void_fraction_percent": {
+      "description": "Void/gap fraction at interface",
+      "type": "float",
+      "unit": "%",
+      "range": "0-12",
+      "target": "<5"
+    },
+    "surface_roughness_post_weld_um": {
+      "description": "Surface roughness after welding",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "0.1-15"
+    },
+    "peak_temperature_c": {
+      "description": "Maximum temperature during welding",
+      "type": "float",
+      "unit": "\u00b0C",
+      "range": "100-900"
+    },
+    "cooling_rate_c_per_s": {
+      "description": "Cooling rate after welding",
+      "type": "float",
+      "unit": "\u00b0C/s",
+      "range": "5-200"
+    },
+    "grain_size_um": {
+      "description": "Average grain size in weld zone",
+      "type": "float",
+      "unit": "\u00b5m",
+      "range": "5-60"
+    }
+  },
+  "Performance_Metrics": {
+    "thermal_cycles_tested": {
+      "description": "Number of thermal cycles performed (-40\u00b0C to +85\u00b0C)",
+      "type": "integer",
+      "range": "100-2000"
+    },
+    "resistance_increase_percent": {
+      "description": "Percentage increase in contact resistance after cycling",
+      "type": "float",
+      "unit": "%",
+      "range": "0-200",
+      "target": "<30"
+    },
+    "strength_retention_percent": {
+      "description": "Percentage of original strength retained after cycling",
+      "type": "float",
+      "unit": "%",
+      "range": "20-100",
+      "target": ">70"
+    },
+    "fatigue_life_cycles": {
+      "description": "Number of cycles to mechanical failure",
+      "type": "integer",
+      "unit": "cycles",
+      "range": "100-3000",
+      "target": ">800"
+    },
+    "delamination_area_percent": {
+      "description": "Percentage of interface showing delamination",
+      "type": "float",
+      "unit": "%",
+      "range": "0-80",
+      "target": "<20"
+    },
+    "imc_growth_rate_nm_per_cycle": {
+      "description": "Rate of IMC layer growth during cycling",
+      "type": "float",
+      "unit": "nm/cycle",
+      "range": "0-10",
+      "target": "<2"
+    },
+    "corrosion_mass_loss_mg_cm2": {
+      "description": "Mass loss due to corrosion during cycling",
+      "type": "float",
+      "unit": "mg/cm\u00b2",
+      "range": "0-10",
+      "target": "<2"
+    },
+    "quality_score": {
+      "description": "Composite quality metric (0-1, higher is better)",
+      "type": "float",
+      "unit": "-",
+      "range": "0-1",
+      "target": ">0.8"
+    },
+    "quality_class": {
+      "description": "Categorical quality classification",
+      "type": "categorical",
+      "values": [
+        "Poor",
+        "Fair",
+        "Good",
+        "Excellent"
+      ]
+    },
+    "pass_fail": {
+      "description": "Binary pass/fail based on automotive standards",
+      "type": "integer",
+      "values": [
+        0,
+        1
+      ],
+      "1": "Pass",
+      "0": "Fail"
+    }
+  }
+}

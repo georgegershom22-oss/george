@@ -1,0 +1,213 @@
+{
+  "dataset_name": "ML-Driven Inverse Design of Welding Parameters - Battery Tab Joining",
+  "version": "1.0.0",
+  "generation_date": "2025-10-27T07:14:36.607212",
+  "description": "Comprehensive synthetic dataset for machine learning-driven inverse design of dissimilar metal welding (Cu-Al) for battery tab connections. Includes process parameters, characterization metrics, and long-term performance data under thermal cycling.",
+  "total_samples": 5000,
+  "application": "Electric vehicle battery pack manufacturing",
+  "material_system": "Copper anode to Aluminum cathode joining",
+  "parameter_groups": {
+    "input_parameters": {
+      "description": "Controllable welding process parameters (design space)",
+      "count": 18,
+      "parameters": [
+        {
+          "name": "anode_material",
+          "type": "categorical",
+          "values": [
+            "Cu-101",
+            "Cu-110",
+            "Cu-C10100",
+            "Cu-ETP"
+          ]
+        },
+        {
+          "name": "cathode_material",
+          "type": "categorical",
+          "values": [
+            "Al-1060",
+            "Al-1100",
+            "Al-3003",
+            "Al-6061"
+          ]
+        },
+        {
+          "name": "anode_thickness_um",
+          "type": "continuous",
+          "range": [
+            100,
+            500
+          ],
+          "unit": "\u00b5m"
+        },
+        {
+          "name": "cathode_thickness_um",
+          "type": "continuous",
+          "range": [
+            100,
+            500
+          ],
+          "unit": "\u00b5m"
+        },
+        {
+          "name": "surface_finish",
+          "type": "categorical",
+          "values": [
+            "bare",
+            "nickel_plated",
+            "tin_plated",
+            "anodized"
+          ]
+        },
+        {
+          "name": "welding_technique",
+          "type": "categorical",
+          "values": [
+            "USW",
+            "Laser",
+            "RSW",
+            "CMW"
+          ]
+        },
+        {
+          "name": "power_w",
+          "type": "continuous",
+          "range": [
+            500,
+            4000
+          ],
+          "unit": "W"
+        },
+        {
+          "name": "force_n",
+          "type": "continuous",
+          "range": [
+            1000,
+            15000
+          ],
+          "unit": "N"
+        },
+        {
+          "name": "time_ms",
+          "type": "continuous",
+          "range": [
+            5,
+            1000
+          ],
+          "unit": "ms"
+        }
+      ]
+    },
+    "characterization_metrics": {
+      "description": "Immediate quality metrics after welding (forward problem outputs)",
+      "count": 15,
+      "metrics": [
+        "weld_width_mm",
+        "weld_length_mm",
+        "penetration_depth_um",
+        "imc_thickness_um",
+        "contact_resistance_microohm",
+        "shear_strength_mpa",
+        "peel_strength_n_mm",
+        "porosity_percent",
+        "crack_density_per_mm2",
+        "void_fraction_percent",
+        "peak_temperature_c",
+        "cooling_rate_c_per_s",
+        "grain_size_um"
+      ]
+    },
+    "performance_metrics": {
+      "description": "Long-term performance under thermal cycling (inverse design targets)",
+      "count": 8,
+      "metrics": [
+        "resistance_increase_percent",
+        "strength_retention_percent",
+        "fatigue_life_cycles",
+        "delamination_area_percent",
+        "imc_growth_rate_nm_per_cycle",
+        "corrosion_mass_loss_mg_cm2",
+        "quality_score",
+        "pass_fail"
+      ],
+      "target_optimization": {
+        "minimize": [
+          "resistance_increase_percent",
+          "delamination_area_percent",
+          "imc_growth_rate_nm_per_cycle"
+        ],
+        "maximize": [
+          "strength_retention_percent",
+          "fatigue_life_cycles",
+          "quality_score"
+        ]
+      }
+    }
+  },
+  "welding_techniques": {
+    "USW": "Ultrasonic Welding - High frequency vibration with clamping force",
+    "Laser": "Laser Welding - Focused beam melting with precise energy control",
+    "RSW": "Resistance Spot Welding - Joule heating through electrical current",
+    "CMW": "Cold Metal Welding - Solid-state bonding through high pressure"
+  },
+  "thermal_cycling_conditions": {
+    "temperature_range": "\u221240\u00b0C to +85\u00b0C",
+    "cycle_duration": "30 minutes per cycle",
+    "test_standard": "IEC 62660-2 (Battery testing)",
+    "cycles_tested": "100 to 2000 cycles"
+  },
+  "quality_criteria": {
+    "automotive_grade": {
+      "resistance_increase_max": "30%",
+      "strength_retention_min": "70%",
+      "fatigue_life_min": "800 cycles",
+      "delamination_max": "20%",
+      "contact_resistance_max": "200 \u00b5\u03a9"
+    }
+  },
+  "ml_applications": [
+    "Multi-objective optimization of welding parameters",
+    "Inverse design: predict parameters for target performance",
+    "Quality prediction from process parameters",
+    "Failure mode classification",
+    "Process window optimization",
+    "Digital twin development",
+    "Transfer learning across welding techniques"
+  ],
+  "recommended_models": [
+    "Gradient Boosting (XGBoost, LightGBM) for regression tasks",
+    "Neural Networks for inverse design mapping",
+    "Gaussian Process Regression for uncertainty quantification",
+    "Random Forest for feature importance analysis",
+    "Multi-task learning for simultaneous prediction of multiple outputs"
+  ],
+  "data_splits": {
+    "training": "70% (3500 samples)",
+    "validation": "15% (750 samples)",
+    "test": "15% (750 samples)",
+    "note": "Stratified splitting recommended based on welding_technique and quality_class"
+  },
+  "feature_engineering_suggestions": [
+    "Create interaction terms (e.g., energy_density = power \u00d7 time / area)",
+    "Polynomial features for non-linear relationships",
+    "Technique-specific feature subsets",
+    "Dimensionality reduction (PCA) for correlated features",
+    "Domain knowledge: IMC thickness has optimal range (1-3 \u00b5m)"
+  ],
+  "physical_correlations": [
+    "Higher energy density \u2192 thicker IMC layer",
+    "Optimal IMC thickness (2 \u00b5m) \u2192 lowest contact resistance",
+    "Excessive energy \u2192 increased porosity and cracking",
+    "Higher thermal cycles \u2192 greater performance degradation",
+    "Quality factor inversely proportional to resistance increase"
+  ],
+  "limitations": [
+    "Synthetic data generated with physically-informed correlations",
+    "Real-world data may have additional complex interactions",
+    "Material property variations not fully captured",
+    "Equipment-specific variations not modeled",
+    "Long-term aging effects beyond thermal cycling not included"
+  ],
+  "citation": "Generated dataset for research and educational purposes in ML-driven materials processing optimization",
+  "license": "CC BY-NC-SA 4.0 - Attribution-NonCommercial-ShareAlike"
+}

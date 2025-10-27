@@ -1,0 +1,88 @@
+{
+  "forward_modeling": {
+    "quality_score": {
+      "train_r2": 0.538574597745118,
+      "val_r2": 0.18890729584990207,
+      "test_r2": 0.13704330609112036,
+      "test_mae": 0.04648256751286745,
+      "test_rmse": 0.05746585012261159
+    },
+    "resistance_increase_percent": {
+      "train_r2": 0.5622042658910962,
+      "val_r2": 0.20341162627620124,
+      "test_r2": 0.19056734377700524,
+      "test_mae": 8.326722713510275,
+      "test_rmse": 10.288615419850448
+    },
+    "fatigue_life_cycles": {
+      "train_r2": 0.5425876190533272,
+      "val_r2": 0.17926145593231924,
+      "test_r2": 0.13485508810698954,
+      "test_mae": 143.16058360238387,
+      "test_rmse": 180.69139500065404
+    }
+  },
+  "classification": {
+    "accuracy": 0.8906666666666667,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0
+  },
+  "inverse_design_targets": {
+    "quality_score": 0.85,
+    "resistance_increase_percent": 20.0,
+    "fatigue_life_cycles": 1500
+  },
+  "best_parameters": {
+    "rank_1": {
+      "technique": "USW",
+      "power_w": 2452.0822948500277,
+      "force_n": 14482.67711465011,
+      "time_ms": 943.403857811869,
+      "objective_score": 0.8442129288802512,
+      "predicted_quality_score": 0.7541523000614445,
+      "predicted_resistance_increase": 13.013348328638136,
+      "predicted_fatigue_life": 968.1011798526993
+    },
+    "rank_2": {
+      "technique": "RSW",
+      "power_w": 1830.9062510057593,
+      "force_n": 14780.979030802668,
+      "time_ms": 56.90802377465299,
+      "objective_score": 0.8424790387089168,
+      "predicted_quality_score": 0.7810354884932149,
+      "predicted_resistance_increase": 14.006319567747264,
+      "predicted_fatigue_life": 912.857753319746
+    },
+    "rank_3": {
+      "technique": "USW",
+      "power_w": 2820.595899593837,
+      "force_n": 13621.640097791089,
+      "time_ms": 55.168749065959055,
+      "objective_score": 0.8413908218910687,
+      "predicted_quality_score": 0.7606837803704388,
+      "predicted_resistance_increase": 10.422509396981653,
+      "predicted_fatigue_life": 943.875556679623
+    },
+    "rank_4": {
+      "technique": "RSW",
+      "power_w": 881.3942163261014,
+      "force_n": 14922.892648740575,
+      "time_ms": 467.9125842526355,
+      "objective_score": 0.8413108869128755,
+      "predicted_quality_score": 0.7605617065944398,
+      "predicted_resistance_increase": 11.146600050624984,
+      "predicted_fatigue_life": 943.7312735883397
+    },
+    "rank_5": {
+      "technique": "RSW",
+      "power_w": 2124.879918817002,
+      "force_n": 14100.127646335233,
+      "time_ms": 168.24635172585354,
+      "objective_score": 0.8405386306766344,
+      "predicted_quality_score": 0.7660325480484534,
+      "predicted_resistance_increase": 10.143997065132389,
+      "predicted_fatigue_life": 930.6016944299362
+    }
+  }
+}

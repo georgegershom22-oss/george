@@ -1,0 +1,21 @@
+{
+  "quality_class_distribution": {
+    "Good": 4434,
+    "Fair": 288,
+    "Excellent": 276,
+    "Poor": 2
+  },
+  "pass_rate_percent": 11.799999999999999,
+  "technique_pass_rates": {
+    "CMW": 0.23095623987034036,
+    "Laser": 0.03764320785597381,
+    "RSW": 0.0384012539184953,
+    "USW": 0.16561514195583596
+  },
+  "average_quality_score": 0.6944619130704841,
+  "average_metrics": {
+    "resistance_increase": 28.711510619611584,
+    "strength_retention": 64.63199872369576,
+    "fatigue_life": 603.086
+  }
+}

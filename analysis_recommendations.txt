@@ -1,0 +1,85 @@
+
+RECOMMENDED ANALYSES AND VISUALIZATIONS
+=========================================
+
+1. EXPLORATORY DATA ANALYSIS
+   - Distribution plots for all numerical features
+   - Box plots comparing techniques
+   - Correlation heatmap (see correlation_matrix.csv)
+   - Pair plots for key parameters vs quality metrics
+
+2. FEATURE IMPORTANCE
+   - Random Forest feature importance
+   - SHAP values for model interpretability
+   - Permutation importance analysis
+   - Partial dependence plots
+
+3. PROCESS WINDOW OPTIMIZATION
+   - 2D contour plots (e.g., power vs time → quality_score)
+   - Multi-objective Pareto fronts
+   - Process capability analysis (Cp, Cpk)
+
+4. INVERSE DESIGN MODELS
+   - Neural network: (target_performance) → (process_parameters)
+   - Bayesian optimization for parameter search
+   - Gaussian Process with uncertainty quantification
+
+5. FAILURE PREDICTION
+   - Classification models for pass/fail prediction
+   - Survival analysis for fatigue life
+   - Anomaly detection for defect prediction
+
+6. TECHNIQUE COMPARISON
+   - Statistical comparison (ANOVA, Kruskal-Wallis)
+   - Technique-specific optimal parameter ranges
+   - Cost-performance trade-off analysis
+
+7. TEMPORAL ANALYSIS
+   - Batch effects analysis
+   - Process drift detection
+   - Control charts (X-bar, R charts)
+
+KEY INSIGHTS TO INVESTIGATE
+============================
+
+1. Optimal IMC thickness: ~2 µm balances strength and resistance
+2. Energy density sweet spot: moderate levels avoid defects
+3. Thermal cycling degradation: non-linear with initial quality
+4. Technique-specific advantages:
+   - USW: Best for thin foils, low IMC growth
+   - Laser: High precision, narrow HAZ
+   - RSW: Fast, economical for mass production
+   - CMW: No heat, minimal IMC formation
+
+MACHINE LEARNING PIPELINE
+==========================
+
+Step 1: Data Preprocessing
+   - Handle technique-specific features (set unused to 0 or drop)
+   - Normalize/standardize numerical features
+   - One-hot encode categorical variables
+   - Feature engineering (interaction terms)
+
+Step 2: Forward Model (Process → Quality)
+   - Target: quality_score, pass_fail, specific metrics
+   - Models: XGBoost, Random Forest, Neural Network
+   - Cross-validation with stratification
+
+Step 3: Inverse Model (Performance → Process)
+   - Target: process parameters
+   - Given: desired performance metrics
+   - Models: Conditional GAN, Mixture Density Network, Bayesian Optimization
+
+Step 4: Multi-Objective Optimization
+   - Objectives: Maximize (strength, fatigue_life), Minimize (resistance_increase, cost)
+   - Algorithms: NSGA-II, MOEA/D, Bayesian Multi-Objective Optimization
+
+Step 5: Uncertainty Quantification
+   - Gaussian Processes for prediction intervals
+   - Monte Carlo dropout for neural networks
+   - Bootstrap aggregating for ensemble uncertainty
+
+Step 6: Model Deployment
+   - Real-time quality prediction
+   - Parameter recommendation system
+   - Process control feedback loop
