@@ -1,0 +1,135 @@
+{
+  "n_samples": 100,
+  "grid_size": [
+    50,
+    50,
+    20
+  ],
+  "param_names": [
+    "voltage",
+    "current_density",
+    "fuel_flow_rate",
+    "air_flow_rate",
+    "fuel_inlet_temp",
+    "air_inlet_temp",
+    "porosity_anode",
+    "permeability_anode",
+    "ionic_conductivity",
+    "electronic_conductivity",
+    "youngs_modulus_anode",
+    "cte_anode",
+    "porosity_electrolyte",
+    "youngs_modulus_electrolyte",
+    "cte_electrolyte",
+    "porosity_cathode",
+    "permeability_cathode",
+    "youngs_modulus_cathode",
+    "cte_cathode",
+    "anode_thickness",
+    "electrolyte_thickness",
+    "cathode_thickness",
+    "active_area"
+  ],
+  "param_bounds": {
+    "voltage": [
+      0.6,
+      0.9
+    ],
+    "current_density": [
+      3000,
+      12000
+    ],
+    "fuel_flow_rate": [
+      5e-06,
+      2e-05
+    ],
+    "air_flow_rate": [
+      5e-05,
+      0.0002
+    ],
+    "fuel_inlet_temp": [
+      873,
+      1073
+    ],
+    "air_inlet_temp": [
+      873,
+      1073
+    ],
+    "porosity_anode": [
+      0.25,
+      0.45
+    ],
+    "permeability_anode": [
+      1e-12,
+      1e-10
+    ],
+    "ionic_conductivity": [
+      1000.0,
+      10000.0
+    ],
+    "electronic_conductivity": [
+      10000.0,
+      1000000.0
+    ],
+    "youngs_modulus_anode": [
+      30000000000.0,
+      80000000000.0
+    ],
+    "cte_anode": [
+      1e-05,
+      1.3e-05
+    ],
+    "porosity_electrolyte": [
+      0.0,
+      0.05
+    ],
+    "youngs_modulus_electrolyte": [
+      180000000000.0,
+      220000000000.0
+    ],
+    "cte_electrolyte": [
+      1e-05,
+      1.1e-05
+    ],
+    "porosity_cathode": [
+      0.25,
+      0.45
+    ],
+    "permeability_cathode": [
+      1e-12,
+      1e-10
+    ],
+    "youngs_modulus_cathode": [
+      40000000000.0,
+      100000000000.0
+    ],
+    "cte_cathode": [
+      1.1e-05,
+      1.4e-05
+    ],
+    "anode_thickness": [
+      0.0013,
+      0.0017
+    ],
+    "electrolyte_thickness": [
+      0.0002,
+      0.0004
+    ],
+    "cathode_thickness": [
+      0.001,
+      0.0014
+    ],
+    "active_area": [
+      0.008,
+      0.012
+    ]
+  },
+  "generation_date": "2025-10-29T23:42:14.920795",
+  "description": "High-fidelity SOFC multi-physics simulation dataset",
+  "physics_models": [
+    "Electrochemical (Butler-Volmer)",
+    "Thermal (Heat generation and transport)",
+    "Mechanical (Thermo-mechanical stress)",
+    "Species transport (H2/H2O)"
+  ]
+}
