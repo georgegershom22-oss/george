@@ -1,0 +1,138 @@
+# SOFC Simulation Configuration
+
+# Dataset Generation Parameters
+dataset:
+  n_samples: 1000  # Number of simulation runs
+  output_dir: "data/sofc_dataset"
+  file_format: "hdf5"  # hdf5, vtk, or both
+
+# Geometry Parameters
+geometry:
+  # Cell dimensions (m)
+  length: 0.1      # 10 cm
+  width: 0.1       # 10 cm
+  
+  # Layer thicknesses (m)
+  anode_thickness: [200e-6, 800e-6]      # 200-800 μm
+  electrolyte_thickness: [8e-6, 20e-6]   # 8-20 μm  
+  cathode_thickness: [20e-6, 80e-6]      # 20-80 μm
+  interconnect_thickness: [0.5e-3, 2e-3] # 0.5-2 mm
+  
+  # Flow channel parameters
+  channel_width: [1e-3, 5e-3]    # 1-5 mm
+  channel_height: [0.5e-3, 2e-3] # 0.5-2 mm
+  rib_width: [0.5e-3, 2e-3]      # 0.5-2 mm
+
+# Operating Conditions
+operating_conditions:
+  # Electrical
+  voltage: [0.6, 0.9]           # V
+  current_density: [0.1, 1.0]   # A/cm²
+  
+  # Flow rates (SLPM - Standard Liters Per Minute)
+  fuel_flow_rate: [0.1, 2.0]    # H2 flow
+  air_flow_rate: [0.5, 10.0]    # Air flow
+  
+  # Temperatures (K)
+  fuel_inlet_temp: [1073, 1173]  # 800-900°C
+  air_inlet_temp: [1073, 1173]   # 800-900°C
+  
+  # Pressure (Pa)
+  fuel_pressure: [101325, 300000]  # 1-3 atm
+  air_pressure: [101325, 200000]   # 1-2 atm
+
+# Material Properties
+materials:
+  # Anode (Ni-YSZ)
+  anode:
+    porosity: [0.3, 0.5]
+    permeability: [1e-13, 1e-11]  # m²
+    ionic_conductivity: [1e-2, 1e-1]  # S/m at operating temp
+    electronic_conductivity: [1e4, 1e6]  # S/m
+    youngs_modulus: [50e9, 150e9]  # Pa
+    thermal_expansion: [11e-6, 13e-6]  # 1/K
+    thermal_conductivity: [5, 15]  # W/m·K
+    
+  # Electrolyte (YSZ)
+  electrolyte:
+    porosity: [0.01, 0.05]  # Nearly dense
+    ionic_conductivity: [0.01, 0.1]  # S/m at operating temp
+    electronic_conductivity: [1e-10, 1e-8]  # S/m (insulator)
+    youngs_modulus: [180e9, 220e9]  # Pa
+    thermal_expansion: [10e-6, 11e-6]  # 1/K
+    thermal_conductivity: [2, 4]  # W/m·K
+    
+  # Cathode (LSM-YSZ)
+  cathode:
+    porosity: [0.3, 0.5]
+    permeability: [1e-13, 1e-11]  # m²
+    ionic_conductivity: [1e-3, 1e-1]  # S/m at operating temp
+    electronic_conductivity: [1e2, 1e4]  # S/m
+    youngs_modulus: [80e9, 120e9]  # Pa
+    thermal_expansion: [11e-6, 13e-6]  # 1/K
+    thermal_conductivity: [3, 8]  # W/m·K
+    
+  # Interconnect (Crofer 22 APU)
+  interconnect:
+    youngs_modulus: [180e9, 220e9]  # Pa
+    thermal_expansion: [11e-6, 13e-6]  # 1/K
+    thermal_conductivity: [20, 30]  # W/m·K
+    electrical_conductivity: [1e4, 1e6]  # S/m
+
+# Simulation Parameters
+simulation:
+  # Mesh parameters
+  mesh_density: "medium"  # coarse, medium, fine
+  adaptive_refinement: true
+  
+  # Solver parameters
+  electrochemical_solver: "newton"
+  thermal_solver: "cg"
+  mechanical_solver: "mumps"
+  
+  # Convergence criteria
+  relative_tolerance: 1e-6
+  absolute_tolerance: 1e-9
+  max_iterations: 100
+  
+  # Time stepping (for transient analysis)
+  time_stepping: false
+  dt: 0.1  # seconds
+  t_final: 100.0  # seconds
+
+# Output Fields Configuration
+output_fields:
+  electrochemical:
+    - current_density_x
+    - current_density_y  
+    - current_density_z
+    - overpotential_anode
+    - overpotential_cathode
+    - electric_potential
+    
+  thermal:
+    - temperature
+    - heat_flux_x
+    - heat_flux_y
+    - heat_flux_z
+    
+  mechanical:
+    - displacement_x
+    - displacement_y
+    - displacement_z
+    - stress_xx
+    - stress_yy
+    - stress_zz
+    - stress_xy
+    - stress_xz
+    - stress_yz
+    - von_mises_stress
+    - strain_xx
+    - strain_yy
+    - strain_zz
+    
+  species:
+    - h2_concentration
+    - h2o_concentration
+    - o2_concentration
+    - n2_concentration
