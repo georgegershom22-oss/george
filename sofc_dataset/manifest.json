@@ -1,0 +1,45 @@
+{
+  "num_samples": 8,
+  "grid": {
+    "nx": 24,
+    "ny": 24,
+    "nz": 18,
+    "lx_m": 0.05,
+    "ly_m": 0.05,
+    "lz_m": 0.001
+  },
+  "files": [
+    {
+      "index": 0,
+      "path": "run_00000.h5"
+    },
+    {
+      "index": 1,
+      "path": "run_00001.h5"
+    },
+    {
+      "index": 2,
+      "path": "run_00002.h5"
+    },
+    {
+      "index": 3,
+      "path": "run_00003.h5"
+    },
+    {
+      "index": 4,
+      "path": "run_00004.h5"
+    },
+    {
+      "index": 5,
+      "path": "run_00005.h5"
+    },
+    {
+      "index": 6,
+      "path": "run_00006.h5"
+    },
+    {
+      "index": 7,
+      "path": "run_00007.h5"
+    }
+  ]
+}
