@@ -1,0 +1,13 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Generated based on published literature ranges. NOT real experimental data. For educational/template purposes only.
+Temperature_C,OCV_V,Theoretical_Nernst_V,OCV_Loss_V
+600,1.0560,1.1060,0.0500
+625,1.0486,1.0999,0.0513
+650,1.0413,1.0938,0.0525
+675,1.0339,1.0876,0.0537
+700,1.0265,1.0815,0.0550
+725,1.0191,1.0754,0.0563
+750,1.0117,1.0692,0.0575
+775,1.0044,1.0631,0.0588
+800,0.9970,1.0570,0.0600
+825,0.9896,1.0509,0.0613
+850,0.9822,1.0447,0.0625

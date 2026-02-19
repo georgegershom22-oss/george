@@ -1,0 +1,24 @@
+# Generated files that can be recreated from scripts
+figures/*.png
+sofc_thermo_mechanical_data.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

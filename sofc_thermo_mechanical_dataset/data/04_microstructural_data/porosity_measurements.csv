@@ -1,0 +1,18 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Generated based on published literature ranges. NOT real experimental data. For educational/template purposes only.
+Sample_ID,Material,Condition,Porosity_percent,Pore_Size_um,Measurement_Method
+S001,YSZ,as-sintered,5.00,0.500,Image_Analysis
+S002,YSZ,after_500h,5.25,0.525,Mercury_Intrusion
+S003,YSZ,after_2000h,5.60,0.560,Image_Analysis
+S004,YSZ,after_cycling,6.00,0.600,Gas_Adsorption
+S005,Ni-YSZ,as-sintered,35.00,2.500,Mercury_Intrusion
+S006,Ni-YSZ,after_500h,36.75,2.625,Image_Analysis
+S007,Ni-YSZ,after_2000h,39.20,2.800,Mercury_Intrusion
+S008,Ni-YSZ,after_cycling,42.00,3.000,Image_Analysis
+S009,LSM,as-sintered,30.00,1.800,Gas_Adsorption
+S010,LSM,after_500h,31.50,1.890,Image_Analysis
+S011,LSM,after_2000h,33.60,2.016,Image_Analysis
+S012,LSM,after_cycling,36.00,2.160,Gas_Adsorption
+S013,LSCF,as-sintered,28.00,1.500,Gas_Adsorption
+S014,LSCF,after_500h,29.40,1.575,Gas_Adsorption
+S015,LSCF,after_2000h,31.36,1.680,Gas_Adsorption
+S016,LSCF,after_cycling,33.60,1.800,Gas_Adsorption
