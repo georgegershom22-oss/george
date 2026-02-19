@@ -1,0 +1,18 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Generated based on published literature ranges. NOT real experimental data. For educational/template purposes only.
+Sample_ID,Material,Condition,Grain_Size_um,Standard_Deviation_um
+GS001,YSZ,as-sintered,0.500,0.125
+GS002,YSZ,after_500h,0.575,0.144
+GS003,YSZ,after_2000h,0.675,0.169
+GS004,YSZ,after_cycling,0.750,0.188
+GS005,Ni-YSZ,as-sintered,1.200,0.300
+GS006,Ni-YSZ,after_500h,1.380,0.345
+GS007,Ni-YSZ,after_2000h,1.620,0.405
+GS008,Ni-YSZ,after_cycling,1.800,0.450
+GS009,LSM,as-sintered,0.800,0.200
+GS010,LSM,after_500h,0.920,0.230
+GS011,LSM,after_2000h,1.080,0.270
+GS012,LSM,after_cycling,1.200,0.300
+GS013,LSCF,as-sintered,0.900,0.225
+GS014,LSCF,after_500h,1.035,0.259
+GS015,LSCF,after_2000h,1.215,0.304
+GS016,LSCF,after_cycling,1.350,0.338

@@ -1,0 +1,52 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Generated based on published literature ranges. NOT real experimental data. For educational/template purposes only.
+Cycle_Number,Heating_Rate_C_per_min,Cooling_Rate_C_per_min,Max_Temperature_C,Min_Temperature_C,Dwell_Time_min,OCV_V,ASR_Ohm_cm2,Power_Density_W_per_cm2,Crack_Count,Notes
+1,20,20,800,25,30,1.102,0.157,0.636,0,No visible defects
+2,20,20,800,25,30,1.091,0.160,0.649,1,No visible defects
+3,20,20,800,25,30,1.095,0.163,0.628,0,No visible defects
+4,20,20,800,25,30,1.092,0.166,0.627,1,No visible defects
+5,20,20,800,25,30,1.082,0.162,0.613,1,No visible defects
+6,20,20,800,25,30,1.092,0.173,0.627,1,No visible defects
+7,20,20,800,25,30,1.087,0.165,0.612,1,No visible defects
+8,20,20,800,25,30,1.078,0.179,0.604,1,No visible defects
+9,20,20,800,25,30,1.075,0.181,0.602,2,No visible defects
+10,20,20,800,25,30,1.078,0.181,0.606,3,No visible defects
+11,20,20,800,25,30,1.071,0.187,0.589,3,No visible defects
+12,20,20,800,25,30,1.076,0.183,0.577,3,No visible defects
+13,20,20,800,25,30,1.075,0.193,0.601,3,No visible defects
+14,20,20,800,25,30,1.077,0.198,0.585,3,No visible defects
+15,20,20,800,25,30,1.064,0.207,0.574,3,No visible defects
+16,20,20,800,25,30,1.073,0.191,0.566,3,No visible defects
+17,20,20,800,25,30,1.068,0.197,0.559,4,No visible defects
+18,20,20,800,25,30,1.067,0.209,0.556,4,No visible defects
+19,20,20,800,25,30,1.062,0.211,0.557,3,No visible defects
+20,20,20,800,25,30,1.065,0.205,0.565,4,Minor cracks observed
+21,20,20,800,25,30,1.060,0.208,0.550,5,Minor cracks observed
+22,20,20,800,25,30,1.053,0.223,0.552,5,Minor cracks observed
+23,20,20,800,25,30,1.052,0.230,0.541,4,Minor cracks observed
+24,20,20,800,25,30,1.058,0.225,0.527,4,Minor cracks observed
+25,20,20,800,25,30,1.060,0.228,0.533,5,Minor cracks observed
+26,20,20,800,25,30,1.043,0.230,0.510,6,Minor cracks observed
+27,20,20,800,25,30,1.059,0.229,0.496,6,Minor cracks observed
+28,20,20,800,25,30,1.037,0.230,0.520,6,Minor cracks observed
+29,20,20,800,25,30,1.036,0.237,0.509,6,Minor cracks observed
+30,20,20,800,25,30,1.033,0.245,0.525,7,Minor cracks observed
+31,20,20,800,25,30,1.035,0.239,0.497,6,Minor cracks observed
+32,20,20,800,25,30,1.040,0.246,0.488,6,Minor cracks observed
+33,20,20,800,25,30,1.033,0.237,0.478,7,Minor cracks observed
+34,20,20,800,25,30,1.022,0.249,0.487,7,Minor cracks observed
+35,20,20,800,25,30,1.027,0.258,0.463,8,Minor cracks observed
+36,20,20,800,25,30,1.022,0.259,0.487,8,Minor cracks observed
+37,20,20,800,25,30,1.026,0.252,0.487,7,Minor cracks observed
+38,20,20,800,25,30,1.029,0.267,0.459,8,Minor cracks observed
+39,20,20,800,25,30,1.028,0.259,0.440,8,Minor cracks observed
+40,20,20,800,25,30,1.029,0.267,0.440,9,Significant degradation
+41,20,20,800,25,30,1.024,0.276,0.457,9,Significant degradation
+42,20,20,800,25,30,1.018,0.279,0.447,9,Significant degradation
+43,20,20,800,25,30,1.017,0.278,0.439,8,Significant degradation
+44,20,20,800,25,30,1.015,0.289,0.428,8,Significant degradation
+45,20,20,800,25,30,1.005,0.288,0.415,9,Significant degradation
+46,20,20,800,25,30,1.012,0.287,0.408,10,Significant degradation
+47,20,20,800,25,30,1.007,0.293,0.425,9,Significant degradation
+48,20,20,800,25,30,1.000,0.298,0.403,10,Significant degradation
+49,20,20,800,25,30,1.001,0.293,0.411,9,Significant degradation
+50,20,20,800,25,30,1.005,0.302,0.399,10,Significant degradation
