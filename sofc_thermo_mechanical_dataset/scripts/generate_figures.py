@@ -68,7 +68,7 @@ def plot_material_properties():
         ax.legend(loc='best')
         ax.grid(True, alpha=0.3)
         
-        filename = prop_col.lower().replace('_', '_') + '.png'
+        filename = prop_col.lower() + '.png'
         plt.tight_layout()
         plt.savefig(FIG_DIR / filename, dpi=DPI)
         plt.close()
