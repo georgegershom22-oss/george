@@ -1,0 +1,16 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Condition,Layer,Location,Stress_In_Plane_MPa,Uncertainty_MPa,Peak_Count,Measurement_Technique,Notes
+As-sintered,Anode,Center,-45,15,280,XRD sin²ψ,"Compressive, Ni phase"
+As-sintered,Anode,Edge,-62,18,220,XRD sin²ψ,Edge effect / gradient
+As-sintered,Electrolyte,Center,185,25,850,Neutron diffraction,"Tensile, constrained"
+As-sintered,Electrolyte,Edge,210,30,780,Neutron diffraction,Higher at edge
+As-sintered,Cathode,Center,-28,12,320,XRD,Compressive
+As-sintered,Cathode,Edge,-35,14,290,XRD,Edge effect
+After reduction,Anode,Center,-120,22,450,Neutron diffraction,Ni expansion → compression
+After reduction,Electrolyte,Center,285,35,950,Neutron diffraction,Increased tensile
+After 100 cycles,Anode,Center,-85,28,520,Neutron diffraction,Partial relaxation
+After 100 cycles,Electrolyte,Center,245,40,880,Neutron diffraction,Creep relaxation
+After 100 cycles,Cathode,Center,-18,16,340,XRD,Relaxation + microcracking
+After 100 cycles,Interface (Anode/Electrolyte),Center,95,45,620,Synchrotron XRD,Shear component present

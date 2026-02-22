@@ -1,0 +1,16 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Test_ID,Mode,Temperature_C,Current_Density_A_per_cm2,H2_pct,H2O_pct,O2_pct,Exposure_Time_min,Description,Fuel_Utilization
+SS-01,Steady-state,750,0.5,97,3,21,0,Baseline performance,1.0
+SS-02,Steady-state,800,0.5,97,3,21,0,Mid-temperature operation,1.0
+SS-03,Steady-state,850,0.5,97,3,21,0,High-temperature operation,1.0
+SS-04,Steady-state,800,0.3,97,3,21,0,Low current density,1.0
+SS-05,Steady-state,800,0.8,97,3,21,0,High current density,1.0
+DYN-01,Load cycling,800,0.2-0.8,97,3,21,0,Dynamic load variation (1 hour cycles),1.0
+DYN-02,Load step,800,0.3→0.7,97,3,21,0,Sudden load increase,1.0
+TC-01,Thermal cycling,25-800,0.5,97,3,21,0,Startup-shutdown (5°C/min ramp),1.0
+TC-02,Thermal cycling,25-800,0.5,97,3,21,0,Rapid thermal cycling (20°C/min),1.0
+REDOX-01,Redox cycling,800,0,97,3,0,5,Oxidation: switch to air on anode side,0.2
+REDOX-02,Redox cycling,800,0.5,97,3,21,0,Re-reduction: restore H2 fuel,0.9
+DEG-01,Long-term,800,0.5,97,3,21,0,Degradation study (1000 hours),0.85

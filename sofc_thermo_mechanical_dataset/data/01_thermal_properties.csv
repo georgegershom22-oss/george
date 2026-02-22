@@ -1,0 +1,64 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Material,Temperature_C,Thermal_Conductivity_W_per_mK,Specific_Heat_J_per_kgK,CTE_1e-6_per_K,Density_kg_per_m3,Source_Basis
+8YSZ,25,2.01,458.1,10.34,5900,Hayashi 2005
+8YSZ,125,2.05,466.5,10.51,5900,Hayashi 2005
+8YSZ,225,2.09,474.9,10.68,5900,Hayashi 2005
+8YSZ,325,2.13,483.3,10.85,5900,Hayashi 2005
+8YSZ,425,2.17,491.7,11.02,5900,Hayashi 2005
+8YSZ,525,2.21,500.1,11.19,5900,Hayashi 2005
+8YSZ,625,2.25,508.5,11.36,5900,Hayashi 2005
+8YSZ,725,2.29,516.9,11.53,5900,Hayashi 2005
+8YSZ,825,2.33,525.3,11.7,5900,Hayashi 2005
+8YSZ,925,2.37,533.7,11.87,5900,Hayashi 2005
+GDC,25,5.4,394.2,11.83,7220,Sameshima 1999
+GDC,125,5.03,411.2,11.96,7220,Sameshima 1999
+GDC,225,4.7,428.2,12.09,7220,Sameshima 1999
+GDC,325,4.41,445.2,12.22,7220,Sameshima 1999
+GDC,425,4.16,462.2,12.35,7220,Sameshima 1999
+GDC,525,3.95,479.2,12.48,7220,Sameshima 1999
+GDC,625,3.78,496.2,12.61,7220,Sameshima 1999
+GDC,725,3.65,513.2,12.74,7220,Sameshima 1999
+GDC,825,3.56,530.2,12.87,7220,Sameshima 1999
+GDC,925,3.51,547.2,13.0,7220,Sameshima 1999
+Ni-YSZ,25,10.81,452.5,12.56,4460,Pihlatie 2009
+Ni-YSZ,125,10.09,462.5,12.8,4460,Pihlatie 2009
+Ni-YSZ,225,9.39,472.5,13.04,4460,Pihlatie 2009
+Ni-YSZ,325,8.72,482.5,13.28,4460,Pihlatie 2009
+Ni-YSZ,425,8.08,492.5,13.52,4460,Pihlatie 2009
+Ni-YSZ,525,7.48,502.5,13.76,4460,Pihlatie 2009
+Ni-YSZ,625,6.9,512.5,14.0,4460,Pihlatie 2009
+Ni-YSZ,725,6.35,522.5,14.24,4460,Pihlatie 2009
+Ni-YSZ,825,5.83,532.5,14.48,4460,Pihlatie 2009
+Ni-YSZ,925,5.35,542.5,14.72,4460,Pihlatie 2009
+LSCF,25,3.48,453.0,14.07,6300,Mori & Hishinuma 2003
+LSCF,125,3.38,465.0,14.35,6300,Mori & Hishinuma 2003
+LSCF,225,3.27,477.0,14.63,6300,Mori & Hishinuma 2003
+LSCF,325,3.17,489.0,14.91,6300,Mori & Hishinuma 2003
+LSCF,425,3.08,501.0,15.19,6300,Mori & Hishinuma 2003
+LSCF,525,2.98,513.0,15.47,6300,Mori & Hishinuma 2003
+LSCF,625,2.88,525.0,15.75,6300,Mori & Hishinuma 2003
+LSCF,725,2.77,537.0,16.03,6300,Mori & Hishinuma 2003
+LSCF,825,2.67,549.0,16.31,6300,Mori & Hishinuma 2003
+LSCF,925,2.58,561.0,16.59,6300,Mori & Hishinuma 2003
+LSM,25,2.99,471.8,11.22,6500,Atkinson & Selcuk 2000
+LSM,125,2.94,478.8,11.32,6500,Atkinson & Selcuk 2000
+LSM,225,2.89,485.8,11.42,6500,Atkinson & Selcuk 2000
+LSM,325,2.84,492.8,11.52,6500,Atkinson & Selcuk 2000
+LSM,425,2.79,499.8,11.62,6500,Atkinson & Selcuk 2000
+LSM,525,2.74,506.8,11.72,6500,Atkinson & Selcuk 2000
+LSM,625,2.69,513.8,11.82,6500,Atkinson & Selcuk 2000
+LSM,725,2.64,520.8,11.92,6500,Atkinson & Selcuk 2000
+LSM,825,2.59,527.8,12.02,6500,Atkinson & Selcuk 2000
+LSM,925,2.54,534.8,12.12,6500,Atkinson & Selcuk 2000
+Crofer 22 APU,25,22.15,465.0,10.06,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,125,22.75,485.0,10.31,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,225,23.35,505.0,10.56,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,325,23.95,525.0,10.81,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,425,24.55,545.0,11.06,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,525,25.15,565.0,11.31,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,625,25.75,585.0,11.56,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,725,26.35,605.0,11.81,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,825,26.95,625.0,12.06,7700,ThyssenKrupp VDM datasheet
+Crofer 22 APU,925,27.55,645.0,12.31,7700,ThyssenKrupp VDM datasheet

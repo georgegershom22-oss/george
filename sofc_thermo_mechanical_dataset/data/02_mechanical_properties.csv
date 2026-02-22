@@ -1,0 +1,64 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Material,Temperature_C,Elastic_Modulus_GPa,Poisson_Ratio,Flexural_Strength_MPa,Fracture_Toughness_MPa_sqrt_m,Weibull_Modulus,Source_Basis
+8YSZ,25,210.0,0.31,250.0,2.0,10.0,Selcuk & Atkinson 1997
+8YSZ,125,206.8,0.31,246.9,1.98,10.0,Selcuk & Atkinson 1997
+8YSZ,225,203.4,0.31,243.7,1.97,9.9,Selcuk & Atkinson 1997
+8YSZ,325,200.0,0.31,240.4,1.95,9.9,Selcuk & Atkinson 1997
+8YSZ,425,196.4,0.31,237.0,1.93,9.8,Selcuk & Atkinson 1997
+8YSZ,525,192.7,0.31,233.4,1.92,9.7,Selcuk & Atkinson 1997
+8YSZ,625,188.8,0.31,229.6,1.9,9.7,Selcuk & Atkinson 1997
+8YSZ,725,184.9,0.31,225.8,1.88,9.6,Selcuk & Atkinson 1997
+8YSZ,825,180.8,0.31,221.7,1.86,9.6,Selcuk & Atkinson 1997
+8YSZ,925,176.5,0.31,217.6,1.83,9.5,Selcuk & Atkinson 1997
+GDC,25,200.0,0.33,180.0,1.5,8.0,Morales 2006
+GDC,125,196.7,0.33,177.6,1.49,8.0,Morales 2006
+GDC,225,193.3,0.33,175.2,1.47,7.9,Morales 2006
+GDC,325,189.8,0.33,172.6,1.46,7.9,Morales 2006
+GDC,425,186.1,0.33,169.9,1.45,7.8,Morales 2006
+GDC,525,182.2,0.33,167.1,1.43,7.8,Morales 2006
+GDC,625,178.3,0.33,164.2,1.42,7.7,Morales 2006
+GDC,725,174.2,0.33,161.1,1.4,7.7,Morales 2006
+GDC,825,169.9,0.33,158.0,1.38,7.6,Morales 2006
+GDC,925,165.5,0.33,154.7,1.36,7.6,Morales 2006
+Ni-YSZ,25,95.0,0.3,130.0,1.8,7.0,Radovic & Lara-Curzio 2004
+Ni-YSZ,125,93.1,0.3,127.9,1.78,7.0,Radovic & Lara-Curzio 2004
+Ni-YSZ,225,91.0,0.3,125.6,1.76,6.9,Radovic & Lara-Curzio 2004
+Ni-YSZ,325,88.9,0.3,123.2,1.74,6.9,Radovic & Lara-Curzio 2004
+Ni-YSZ,425,86.6,0.3,120.8,1.72,6.8,Radovic & Lara-Curzio 2004
+Ni-YSZ,525,84.3,0.3,118.2,1.7,6.8,Radovic & Lara-Curzio 2004
+Ni-YSZ,625,81.9,0.3,115.4,1.67,6.7,Radovic & Lara-Curzio 2004
+Ni-YSZ,725,79.4,0.3,112.6,1.65,6.6,Radovic & Lara-Curzio 2004
+Ni-YSZ,825,76.8,0.3,109.6,1.62,6.6,Radovic & Lara-Curzio 2004
+Ni-YSZ,925,74.1,0.3,106.5,1.59,6.5,Radovic & Lara-Curzio 2004
+LSCF,25,105.0,0.26,90.0,1.0,6.0,Mori & Hishinuma 2003
+LSCF,125,102.3,0.26,88.2,0.99,6.0,Mori & Hishinuma 2003
+LSCF,225,99.6,0.26,86.3,0.97,5.9,Mori & Hishinuma 2003
+LSCF,325,96.7,0.26,84.3,0.96,5.9,Mori & Hishinuma 2003
+LSCF,425,93.8,0.26,82.3,0.95,5.8,Mori & Hishinuma 2003
+LSCF,525,90.8,0.26,80.1,0.93,5.7,Mori & Hishinuma 2003
+LSCF,625,87.7,0.26,78.0,0.91,5.7,Mori & Hishinuma 2003
+LSCF,725,84.6,0.26,75.7,0.9,5.6,Mori & Hishinuma 2003
+LSCF,825,81.3,0.26,73.4,0.88,5.6,Mori & Hishinuma 2003
+LSCF,925,78.0,0.26,70.9,0.86,5.5,Mori & Hishinuma 2003
+LSM,25,150.0,0.29,120.0,1.2,8.0,Atkinson & Selcuk 2000
+LSM,125,147.3,0.29,118.2,1.19,8.0,Atkinson & Selcuk 2000
+LSM,225,144.4,0.29,116.4,1.18,7.9,Atkinson & Selcuk 2000
+LSM,325,141.5,0.29,114.5,1.17,7.9,Atkinson & Selcuk 2000
+LSM,425,138.5,0.29,112.6,1.15,7.8,Atkinson & Selcuk 2000
+LSM,525,135.4,0.29,110.5,1.14,7.8,Atkinson & Selcuk 2000
+LSM,625,132.2,0.29,108.5,1.13,7.7,Atkinson & Selcuk 2000
+LSM,725,128.9,0.29,106.3,1.11,7.6,Atkinson & Selcuk 2000
+LSM,825,125.5,0.29,104.1,1.1,7.6,Atkinson & Selcuk 2000
+LSM,925,122.1,0.29,101.8,1.08,7.5,Atkinson & Selcuk 2000
+Crofer 22 APU,25,220.0,0.3,520.0,80.0,30.0,ThyssenKrupp VDM datasheet
+Crofer 22 APU,125,215.5,0.3,511.5,79.18,29.8,ThyssenKrupp VDM datasheet
+Crofer 22 APU,225,210.8,0.3,502.6,78.32,29.6,ThyssenKrupp VDM datasheet
+Crofer 22 APU,325,206.0,0.3,493.4,77.41,29.4,ThyssenKrupp VDM datasheet
+Crofer 22 APU,425,201.0,0.3,483.7,76.47,29.2,ThyssenKrupp VDM datasheet
+Crofer 22 APU,525,195.8,0.3,473.7,75.47,29.0,ThyssenKrupp VDM datasheet
+Crofer 22 APU,625,190.4,0.3,463.3,74.43,28.7,ThyssenKrupp VDM datasheet
+Crofer 22 APU,725,184.9,0.3,452.5,73.34,28.5,ThyssenKrupp VDM datasheet
+Crofer 22 APU,825,179.2,0.3,441.2,72.2,28.2,ThyssenKrupp VDM datasheet
+Crofer 22 APU,925,173.3,0.3,429.6,71.0,27.9,ThyssenKrupp VDM datasheet

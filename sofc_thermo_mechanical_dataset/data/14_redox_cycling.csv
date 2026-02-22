@@ -1,0 +1,15 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Cycle_Number,Phase,Exposure_Time_min,Volume_Change_pct,In_Plane_Strain_pct,Peak_Power_W_per_cm2,ASR_Ohm_cm2,Notes
+0,Initial,0,0,0,0.62,0.18,Fresh reduced cell
+1,Oxidation,5,0.42,2.8,0,0,Anode exposed to air → NiO formation
+1,Re-reduction,10,-0.38,-2.5,0.58,0.21,"NiO → Ni, but microstructural damage"
+2,Oxidation,5,0.4,2.6,0,0,Repeated oxidation
+2,Re-reduction,10,-0.36,-2.3,0.54,0.24,Further degradation
+5,Re-reduction,10,-0.3,-2.0,0.45,0.32,"Cumulative damage, particle coarsening"
+10,Re-reduction,10,-0.22,-1.5,0.35,0.45,Significant Ni agglomeration
+15,Re-reduction,10,-0.18,-1.2,0.28,0.58,Loss of percolation pathways
+20,Re-reduction,10,-0.14,-0.9,0.21,0.75,"Severe degradation, delamination risk"
+20,Final,0,-0.12,-0.8,0.19,0.82,Post-mortem sample
+20,Observation,0,0,0,0,0,SEM shows Ni particle size increased from 0.5 to 3 μm
