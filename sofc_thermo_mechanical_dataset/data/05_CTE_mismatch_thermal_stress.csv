@@ -1,0 +1,14 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Temperature_C,CTE_8YSZ,CTE_GDC,CTE_NiYSZ,CTE_LSCF,CTE_LSM,CTE_Crofer,Delta_CTE_Anode_Electrolyte,Delta_CTE_LSCF_Electrolyte,Delta_CTE_LSM_Electrolyte,Thermal_Stress_Anode_Interface_MPa,Thermal_Stress_LSCF_Interface_MPa,Thermal_Stress_LSM_Interface_MPa
+25,10.34,11.83,12.56,14.07,11.22,10.06,2.22,3.73,0.88,522.7,1025.1,242.7
+125,10.51,11.96,12.8,14.35,11.32,10.31,2.29,3.84,0.81,500.0,978.6,207.2
+225,10.68,12.09,13.04,14.63,11.42,10.56,2.36,3.95,0.74,474.9,927.7,174.5
+325,10.85,12.22,13.28,14.91,11.52,10.81,2.43,4.06,0.67,447.4,872.4,144.6
+425,11.02,12.35,13.52,15.19,11.62,11.06,2.5,4.17,0.6,417.4,812.7,117.5
+525,11.19,12.48,13.76,15.47,11.72,11.31,2.57,4.28,0.53,385.1,748.6,93.2
+625,11.36,12.61,14.0,15.75,11.82,11.56,2.64,4.39,0.46,350.4,680.1,71.7
+725,11.53,12.74,14.24,16.03,11.92,11.81,2.71,4.5,0.39,313.3,607.2,53.0
+825,11.7,12.87,14.48,16.31,12.02,12.06,2.78,4.61,0.32,273.8,529.9,37.1
+925,11.87,13.0,14.72,16.59,12.12,12.31,2.85,4.72,0.25,231.9,448.2,24.0

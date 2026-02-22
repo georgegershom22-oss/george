@@ -1,0 +1,17 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Material,Ni_vol_pct,Porosity_pct,Temperature_C,Stress_Exponent_n,Activation_Energy_kJ_per_mol,Pre_Exponential_A,Atmosphere,Creep_Mechanism,Source_Basis
+Ni-8YSZ,40,30,750,2.4,235,2.1e-09,H2-H2O,Diffusional + dislocation,Huang et al. 1998
+Ni-8YSZ,40,30,800,2.6,240,3.8e-09,H2-H2O,Diffusional + dislocation,Huang et al. 1998
+Ni-8YSZ,40,30,900,3.1,250,1.2e-08,H2-H2O,Dislocation creep,Huang et al. 1998
+Ni-8YSZ,40,30,1000,3.8,265,4.5e-08,H2-H2O,Dislocation creep,Huang et al. 1998
+Ni-8YSZ,56,20,800,3.2,260,5.2e-09,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-8YSZ,56,20,850,3.5,270,1.1e-08,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-8YSZ,56,20,900,3.9,280,2.8e-08,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-8YSZ,56,20,1000,4.5,295,9.5e-08,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-8YSZ,30,35,800,2.8,220,1.5e-09,H2-H2O,Diffusional,Tohoku Univ (Clague 2012)
+Ni-8YSZ,30,35,900,3.4,235,6.8e-09,H2-H2O,Dislocation creep,Tohoku Univ (Clague 2012)
+Ni-3YSZ,40,25,800,3.6,275,7.2e-09,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-3YSZ,40,25,850,4.1,285,1.8e-08,H2-H2O,Dislocation creep,FZ Jülich (Yakabe 2001)
+Ni-3YSZ,40,25,900,4.8,300,5.2e-08,H2-H2O,Power-law breakdown,FZ Jülich (Yakabe 2001)

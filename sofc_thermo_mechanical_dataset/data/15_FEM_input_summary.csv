@@ -1,0 +1,34 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Property,8YSZ,GDC,Ni-YSZ,LSCF,LSM,Crofer 22 APU,Unit,Notes
+Elastic Modulus (800°C),189.4,181.6,79.2,86.9,135.8,188.0,GPa,Temperature-dependent
+Poisson Ratio,0.31,0.33,0.3,0.26,0.29,0.3,-,Assumed constant
+CTE (800°C),11.66,12.84,14.42,16.24,12.0,12.0,1e-6/K,Average 25-800°C
+Thermal Conductivity (800°C),2.32,3.22,6.4,2.7,2.6,26.8,W/m·K,At operating temp
+Specific Heat (800°C),523,526,530,546,526,620,J/kg·K,At operating temp
+Density,5900,7220,4460,6300,6500,7700,kg/m³,Constant
+Flexural Strength (800°C),226.2,163.6,108.3,74.5,108.6,445.2,MPa,Temperature-dependent
+Fracture Toughness (800°C),1.81,1.36,1.5,0.83,1.09,68.47,MPa√m,Temperature-dependent
+Weibull Modulus (800°C),9.1,7.3,5.9,5.0,7.3,25.7,-,Temperature-dependent
+Creep: Stress Exponent (800°C),1.8,1.5,2.6,2.2,1.6,5.5,-,Norton power-law
+Creep: Activation Energy,400,380,240,280,290,330,kJ/mol,Norton power-law
+Creep: Pre-exponential (800°C),1.2e-11,8.5e-12,3.8e-09,5.2e-10,4e-10,8.5e-14,1/Pa^n/s,Norton power-law
+Thermal Expansion (25→800°C),0.9,1.0,1.12,1.26,0.93,0.93,%,Integrated CTE
+Max Service Temperature,1000,900,1000,900,1000,900,°C,Material limit
+Electrical Conductivity (800°C),0.05,8,5000,150,180,10000,S/cm,Order of magnitude
+Ionic Conductivity (800°C),0.08,0.12,0.0001,0.0001,0.0001,0,S/cm,Oxygen ion conduction
+Layer Thickness (typical),10,5,500,15,30,500,μm,Anode-supported design
+Porosity (typical),0,0,30,35,30,0,%,Electrode porosity
+Particle Size (typical),0.5,0.3,0.5,0.8,1.2,-,μm,As-fabricated
+TPB Length Density,-,-,3.5,8.2,5.1,-,μm/μm³,Electrochemically active
+Sintering Temperature,1400,1350,1400,1100,1200,1050,°C,Fabrication
+Operating Voltage Range,-,-,-,-,-,-,V,0.6-0.9 V typical
+Fuel Utilization,-,-,-,-,-,-,%,80-90% typical
+Air Stoichiometry,-,-,-,-,-,-,-,3-6 typical
+H2 Composition,-,-,-,-,-,-,%,95-97% H2 + 3-5% H2O
+Current Density Range,-,-,-,-,-,-,A/cm²,0.3-0.8 typical operation
+Area-Specific Resistance (800°C),-,-,-,-,-,-,Ω·cm²,0.15-0.25 total
+Cell Active Area,-,-,-,-,-,-,cm²,100 (10×10 cm design)
+Stack Power Density,-,-,-,-,-,-,W/cm²,0.4-0.6 at 0.7V
+Lifetime Target,-,-,-,-,-,-,hours,"40,000-80,000 for stationary"

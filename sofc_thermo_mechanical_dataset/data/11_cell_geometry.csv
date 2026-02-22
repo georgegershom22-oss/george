@@ -1,0 +1,14 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - Based on published literature ranges
+# Topic: Thermo-mechanical behavior of SOFC at high temperatures
+# DO NOT use as ground truth without independent verification
+Layer_Name,Material,Thickness_um,Length_mm,Width_mm,Function
+Anode support,Ni-8YSZ,500,100,100,Load-bearing structural layer
+Anode functional layer (AFL),Ni-8YSZ,15,100,100,Electrochemically active anode
+Electrolyte,8YSZ,10,100,100,Dense oxygen ion conductor
+GDC buffer layer,GDC,5,100,100,Prevents Sr diffusion / interdiffusion
+Cathode functional layer (CFL),LSCF,15,100,100,Electrochemically active cathode
+Cathode current collector,LSM,30,100,100,Electronic conductor
+Interconnect,Crofer 22 APU,500,100,100,Bipolar plate / gas separator
+Fuel channel,Gas flow,1000,3,100,H2 + H2O distribution
+Air channel,Gas flow,1000,2,100,Air (O2 + N2) distribution
+Sealant,Glass-ceramic,50,5,105,Edge sealing / gas separation
