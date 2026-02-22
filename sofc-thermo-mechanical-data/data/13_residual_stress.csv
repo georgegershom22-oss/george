@@ -1,0 +1,16 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - NOT ACTUAL MEASUREMENTS
+# Based on published literature ranges for educational purposes only
+# DO NOT use directly in publications - cite original sources
+Location,Layer,Material,Sigma_XX_MPa,Sigma_YY_MPa,Sigma_XY_MPa,Principal_1_MPa,Principal_2_MPa,Method,Condition
+Center,Electrolyte_Surface,8YSZ,-45,-42,3,-41,-46,XRD_sin2psi,As-sintered_RT
+Center,Anode_Surface,Ni-YSZ,28,32,-2,33,27,XRD_sin2psi,As-sintered_RT
+Edge,Electrolyte_Surface,8YSZ,-62,-38,8,-35,-65,XRD_sin2psi,As-sintered_RT
+Edge,Anode_Surface,Ni-YSZ,48,25,-5,50,23,XRD_sin2psi,As-sintered_RT
+Center,Electrolyte_Bulk,8YSZ,-18,-15,1,-15,-18,Neutron_Diffraction,At_800C
+Center,Anode_Bulk,Ni-YSZ,12,15,-1,15,12,Neutron_Diffraction,At_800C
+Center,Cathode_Bulk,LSCF,-22,-19,2,-19,-22,Neutron_Diffraction,At_800C
+Center,Electrolyte_Surface,8YSZ,-68,-71,5,-66,-73,XRD_cos_alpha,After_50_cycles_RT
+Center,Anode_Surface,Ni-YSZ,55,62,-4,63,54,XRD_cos_alpha,After_50_cycles_RT
+Edge,Electrolyte_Surface,8YSZ,-95,-58,12,-51,-102,XRD_cos_alpha,After_50_cycles_RT
+Edge,Anode_Surface,Ni-YSZ,78,42,-8,82,38,XRD_cos_alpha,After_50_cycles_RT
+Center,Cathode_Surface,LSCF,-52,-48,3,-47,-53,XRD_cos_alpha,After_50_cycles_RT

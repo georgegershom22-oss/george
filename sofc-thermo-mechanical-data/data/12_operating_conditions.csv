@@ -1,0 +1,15 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - NOT ACTUAL MEASUREMENTS
+# Based on published literature ranges for educational purposes only
+# DO NOT use directly in publications - cite original sources
+Scenario,Inlet_Temp_Fuel_C,Inlet_Temp_Air_C,Fuel_Composition,Fuel_Flow_SLPM,Air_Flow_SLPM,Current_Density_A_per_cm2,Pressure_atm,Fuel_Utilization_pct,Air_Excess_Ratio
+Baseline_750C,750,750,97%H2-3%H2O,5.0,15.0,0.5,1.0,70,4.5
+Baseline_800C,800,800,97%H2-3%H2O,5.0,15.0,0.5,1.0,70,4.5
+Baseline_850C,850,850,97%H2-3%H2O,5.0,15.0,0.5,1.0,70,4.5
+High_Load,800,800,97%H2-3%H2O,8.0,25.0,1.0,1.0,60,3.8
+Low_Load,800,800,97%H2-3%H2O,3.0,10.0,0.2,1.0,80,5.2
+Methane_Reforming,800,800,25%CH4-25%H2-25%CO-15%CO2-10%H2O,4.5,15.0,0.45,1.0,65,4.0
+Dilute_Hydrogen,800,800,50%H2-40%N2-10%H2O,7.5,15.0,0.4,1.0,55,4.8
+Fast_Startup,600,600,97%H2-3%H2O,2.0,20.0,0.1,1.0,40,8.0
+Load_Step_Change,800,800,97%H2-3%H2O,6.5,20.0,0.75,1.0,65,4.2
+Thermal_Cycle_Test,25,25,Air,1.0,5.0,0.0,1.0,0,0.0
+Redox_Cycle_Test,800,800,Alternating_H2_Air,5.0,10.0,0.0,1.0,0,0.0

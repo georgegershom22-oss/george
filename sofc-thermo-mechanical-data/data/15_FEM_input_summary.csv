@@ -1,0 +1,20 @@
+# SYNTHETIC/ILLUSTRATIVE DATA - NOT ACTUAL MEASUREMENTS
+# Based on published literature ranges for educational purposes only
+# DO NOT use directly in publications - cite original sources
+Property,8YSZ,Ni-YSZ,LSCF,LSM,GDC,Crofer22APU,Unit,Notes
+Density,5900.0,4460.0,6300.0,6500.0,7220.0,7700.0,kg/m³,Room temperature density
+Elastic_Modulus_25C,210.0,95.0,105.0,95.0,185.0,220.0,GPa,At room temperature
+Elastic_Modulus_800C,170.0,55.0,65.0,60.0,145.0,140.0,GPa,At operating temperature
+Poisson_Ratio,0.31,0.3,0.26,0.26,0.29,0.3,-,Weakly temperature-dependent
+CTE_25C,10.3,12.5,14.0,11.2,11.8,10.0,10⁻⁶/K,At room temperature
+CTE_800C,11.5,14.0,16.0,11.8,12.7,11.8,10⁻⁶/K,At operating temperature
+Thermal_Conductivity_25C,2.0,11.0,3.5,3.0,5.5,22.0,W/(m·K),At room temperature
+Thermal_Conductivity_800C,2.3,5.5,2.7,2.6,3.2,27.0,W/(m·K),At operating temperature
+Specific_Heat_25C,456.0,450.0,450.0,470.0,390.0,460.0,J/(kg·K),At room temperature
+Specific_Heat_800C,515.0,525.0,540.0,520.0,520.0,610.0,J/(kg·K),At operating temperature
+Flexural_Strength_25C,250.0,130.0,90.0,85.0,200.0,520.0,MPa,4-point bending
+Flexural_Strength_800C,190.0,70.0,52.0,50.0,160.0,190.0,MPa,4-point bending
+Fracture_Toughness_25C,2.0,1.8,1.0,0.9,1.5,80.0,MPa·m½,SENB method
+Weibull_Modulus,9.0,6.0,5.0,4.5,8.0,25.0,-,Failure probability distribution
+Sintering_Temperature,1400.0,1400.0,1100.0,1200.0,1350.0,0.0,°C,Processing temperature
+Layer_Thickness,10.0,515.0,45.0,30.0,5.0,500.0,μm,Typical layer thickness
